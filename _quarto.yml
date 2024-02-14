@@ -43,20 +43,31 @@ website:
     contents:
       - href: index.qmd
         text: Home - Languages
-      - section: English-en/index.qmd
+      - section: languages/en/index.qmd
         contents: 
-          - English-en/kobo.qmd
-          - English-en/smartsheet_intro.qmd
-          - English-en/reference_files.qmd
-          - English-en/data_validation.qmd
-          - English-en/fisheries_dashboard.qmd
-      - section: Indonesian-id/index_id.qmd
+          - languages/en/kobo.qmd
+          - languages/en/smartsheet_intro.qmd
+          - languages/en/reference_files.qmd
+          - languages/en/data_validation.qmd
+          - languages/en/fisheries_dashboard.qmd
+          - languages/en/socioeco_dashboard.qmd
+      - section: languages/id/index_id.qmd
         contents: 
-          - English-en/kobo.qmd
-          - English-en/smartsheet_intro.qmd
-          - English-en/reference_files.qmd
-          - English-en/data_validation.qmd
-          - English-en/fisheries_dashboard.qmd
+          - languages/en/kobo.qmd
+          - languages/en/smartsheet_intro.qmd
+          - languages/en/reference_files.qmd
+          - languages/en/data_validation.qmd
+          - languages/en/fisheries_dashboard.qmd
+          - languages/en/socioeco_dashboard.qmd
+      - section: languages/ceb/index_ceb.qmd
+      - section: languages/fil/index_fil.qmd
+      - section: languages/tet/index_tet.qmd
+      - section: languages/mg/index_mg.qmd
+      - section: languages/fr/index_fr.qmd
+      - section: languages/es/index_es.qmd
+      - section: languages/pt/index_pt.qmd
+      - section: languages/sw/index_sw.qmd
+
 
 
 
