@@ -43,14 +43,21 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - section: quarto-workflows/index.qmd
+      - section: English-en/index.qmd
         contents: 
-          - quarto-workflows/browser.md
-          - quarto-workflows/rstudio.qmd
-          - quarto-workflows/jupyter.md 
-      - learning-more.qmd
-      - href: transition-from-rmarkdown.qmd
-        text: Transition from Rmd
+          - English-en/kobo.qmd
+          - English-en/smartsheet_intro.qmd
+          - English-en/reference_files.qmd
+          - English-en/data_validation.qmd
+          - English-en/fisheries_dashboard.qmd
+      - section: Indonesian-id/index_id.qmd
+        contents: 
+          - English-en/kobo.qmd
+          - English-en/smartsheet_intro.qmd
+          - English-en/reference_files.qmd
+          - English-en/data_validation.qmd
+          - English-en/fisheries_dashboard.qmd
+
 
 
 format:
