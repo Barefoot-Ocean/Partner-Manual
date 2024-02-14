@@ -42,6 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="../../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -276,8 +278,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="training-video" class="level2">
+<h2 class="anchored" data-anchor-id="training-video">Training Video</h2>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://player.hourone.ai/a0b647cf15d74b839ef6e1d44e079bd3"></video></div>
+</section>
+<section id="updating-reference-files-in-smartsheet" class="level2">
+<h2 class="anchored" data-anchor-id="updating-reference-files-in-smartsheet">Updating reference files in Smartsheet</h2>
+<p>All reference files are updated in <a href="https://dynamicview.smartsheet.com/login">Smartsheet Dynamic View</a>. Reference files serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the master datasets through joins. They contain comprehensive information on the administrative levels of the fishing communities (country, province, district, village), landing sites, fishing ground, fishers, buyers, data collectors, species, management areas, gear types, and partnering organizations. The steps below outline how to update reference files with new information.</p>
+<p><strong>Step 1: Create a free smartsheet account.</strong></p>
+<ul>
+<li><p>A free account can be created at <a href="https://www.smartsheet.com/" class="uri">https://www.smartsheet.com/</a></p></li>
+<li><p>Select "Try smartsheet for free"</p></li>
+</ul>
+<p><strong>Step 2: Provide Barefoot Ocean the email address you used to create your smartsheet account.</strong></p>
+<ul>
+<li><p>Barefoot Ocean will then share the reference files associated with your organization.</p></li>
+<li><p><strong>To view your reference files you will need to sign into smartsheet Dynamic View using your smartsheet credentials</strong>: <a href="https://dynamicview.smartsheet.com/login" class="uri">https://dynamicview.smartsheet.com/login</a>&nbsp;</p></li>
+<li><p>Once logged in to Dynamic View (not the smartsheet app), you will see a list of reference files shared with your account (Figure 1).</p></li>
+</ul>
+<p><strong>Step 3: Click on a reference file to make updates</strong></p>
+<ul>
+<li><p>Once open, you can click on each row to make edits to existing data, or click the "New" button in the top right corner to add new data (Figure 2).&nbsp;</p></li>
+<li><p>A details panel will appear on the right hand side where you'll input the necessary information (Figure 3; Table 1). Select "save" on the bottom right of the details panel when you are finished updating. You do not need to notify Barefoot Ocean when you make changes or additions to ref sheets. The will be automatically merged with the master reference files and incorporated in Kobo.</p></li>
+<li><p>To leave a comment or to ask the Barefoot team any questions, select the "Comments" tab in the details panel. All individuals that the reference file is shared with, including the Barefoot Ocean team, will receive notification when a comment is made, so there is no need to tag any particular individual.</p></li>
+</ul>
+<p><strong>Step 4: Respond to update requests when data is missing or incorrect, or to respond to a comment.</strong></p>
+<ul>
+<li><p>If there is incomplete or incorrect information that is essential for populating Kobo dropdowns or for joins, or if a comment is made in the sheet, an update request will be sent to all appropriate users, prompting them to update the information or respond to a comment (Figure 4). By default, everyone with access to your reference files will receive the update request..</p></li>
+<li><p>A preview of the data that needs to be updated or responded to will appear below the email message, but you will not be able to update any data directly in the email</p>
+<ul>
+<li>At the bottom of the email, there is a link for "Go to the sheet"; however, the underlying sheet has restricted access. Please review your data or respond to the comment via Open request.</li>
+</ul></li>
+<li><p>Click on the "Open Request" button in the email message.</p></li>
+<li><p>A new internet browser window will open with a form-like setup for each entry (Figure 5)</p></li>
+<li><p>Review the <strong>BFO</strong> fields and populate the <strong>editable</strong> fields.&nbsp;</p></li>
+<li><p>Click next at the bottom of the screen to move through each entry that needs to be updated.</p></li>
+<li><p>To <strong>skip an entry</strong> (e.g.&nbsp;if you are not sure yet which answer to pick) click "Next" without making a selection in the editable columns. The next entry that needs to be updated will appear.</p></li>
+<li><p>If you need to <strong>exit the page</strong> or stop before all entries have been updated, your choices should be saved the next time you reopen the request. Upon opening to continue, just click "Next" until you find an entry that needs to be updated.</p></li>
+<li><p>When you get to the last entry, click "Done". A pop-up message will appear asking if you are 'Ready to submit your update?':</p>
+<ul>
+<li><p>Click "Go Back" if you need to review&nbsp;</p></li>
+<li><p>Click "Submit Update" to submit your updates.</p></li>
+<li><p>Your updates are automatically appended to the reference file and you can view them in Dynamic View</p></li>
+</ul></li>
+</ul>
+<p><strong>If at any time you encounter any errors, have questions, or need support for updating reference files, please contact us at <a href="mailto:barefootinfo@barefootocean.org">barefootinfo@barefootocean.org</a>.</strong></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -837,6 +885,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 
