@@ -5,11 +5,12 @@ subtitle: "Guidance for data collection, management, validation and interpretati
 
 ## Welcome
 
-::: {layout-ncol=2}
+### ⬅️ Quick links: visit another website by clicking the icons here
 
-![](images/GWS-09888.jpg){width="400"}
+### 🐠 Select your desired language to get started
 
-![](images/MOZ_GWS-25.jpg){width="400"}
+::: {layout-ncol="2"}
+![](images/GWS-09888.jpg){width="520"}
+
+![](images/MOZ_GWS-25.jpg){width="520"}
 :::
-
-
