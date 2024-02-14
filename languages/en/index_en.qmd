@@ -2,4 +2,4 @@
 title: English
 ---
 
-Intro - Home Page - Quick guide? Full guide?
+# Introduction

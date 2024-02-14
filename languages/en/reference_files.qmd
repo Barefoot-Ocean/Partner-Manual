@@ -1,3 +1,63 @@
 ---
 title: Reference Files
 ---
+
+## Training Video
+
+{{< video https://player.hourone.ai/a0b647cf15d74b839ef6e1d44e079bd3 >}}
+
+## Updating reference files in Smartsheet
+
+All reference files are updated in [Smartsheet Dynamic View](https://dynamicview.smartsheet.com/login). Reference files serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the master datasets through joins. They contain comprehensive information on the administrative levels of the fishing communities (country, province, district, village), landing sites, fishing ground, fishers, buyers, data collectors, species, management areas, gear types, and partnering organizations. The steps below outline how to update reference files with new information.
+
+**Step 1: Create a free smartsheet account.**
+
+-   A free account can be created at <https://www.smartsheet.com/>
+
+-   Select \"Try smartsheet for free\"
+
+**Step 2: Provide Barefoot Ocean the email address you used to create your smartsheet account.**
+
+-   Barefoot Ocean will then share the reference files associated with your organization.
+
+-   **To view your reference files you will need to sign into smartsheet Dynamic View using your smartsheet credentials**: <https://dynamicview.smartsheet.com/login> 
+
+-   Once logged in to Dynamic View (not the smartsheet app), you will see a list of reference files shared with your account (Figure 1).
+
+**Step 3: Click on a reference file to make updates**
+
+-   Once open, you can click on each row to make edits to existing data, or click the \"New\" button in the top right corner to add new data (Figure 2). 
+
+-   A details panel will appear on the right hand side where you\'ll input the necessary information (Figure 3; Table 1). Select \"save\" on the bottom right of the details panel when you are finished updating. You do not need to notify Barefoot Ocean when you make changes or additions to ref sheets. The will be automatically merged with the master reference files and incorporated in Kobo.
+
+-   To leave a comment or to ask the Barefoot team any questions, select the \"Comments\" tab in the details panel. All individuals that the reference file is shared with, including the Barefoot Ocean team, will receive notification when a comment is made, so there is no need to tag any particular individual.
+
+**Step 4: Respond to update requests when data is missing or incorrect, or to respond to a comment.**
+
+-   If there is incomplete or incorrect information that is essential for populating Kobo dropdowns or for joins, or if a comment is made in the sheet, an update request will be sent to all appropriate users, prompting them to update the information or respond to a comment (Figure 4). By default, everyone with access to your reference files will receive the update request..
+
+-   A preview of the data that needs to be updated or responded to will appear below the email message, but you will not be able to update any data directly in the email
+
+    -   At the bottom of the email, there is a link for \"Go to the sheet\"; however, the underlying sheet has restricted access. Please review your data or respond to the comment via Open request.
+
+-   Click on the \"Open Request\" button in the email message.
+
+-   A new internet browser window will open with a form-like setup for each entry (Figure 5)
+
+-   Review the **BFO** fields and populate the **editable** fields. 
+
+-   Click next at the bottom of the screen to move through each entry that needs to be updated.
+
+-   To **skip an entry** (e.g. if you are not sure yet which answer to pick) click \"Next\" without making a selection in the editable columns. The next entry that needs to be updated will appear.
+
+-   If you need to **exit the page** or stop before all entries have been updated, your choices should be saved the next time you reopen the request. Upon opening to continue, just click \"Next\" until you find an entry that needs to be updated.
+
+-   When you get to the last entry, click \"Done\". A pop-up message will appear asking if you are \'Ready to submit your update?\':
+
+    -   Click \"Go Back\" if you need to review 
+
+    -   Click \"Submit Update\" to submit your updates.
+
+    -   Your updates are automatically appended to the reference file and you can view them in Dynamic View
+
+**If at any time you encounter any errors, have questions, or need support for updating reference files, please contact us at [barefootinfo\@barefootocean.org](mailto:barefootinfo@barefootocean.org).**
