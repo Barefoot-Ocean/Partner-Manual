@@ -4,7 +4,7 @@ project:
 website: 
   page-navigation: true
   title: "Barefoot Ocean Partner Guidebook" 
-  site-url: "https://openscapes.github.io/Barefoot-Ocean-Manual/" 
+  site-url: "https://openscapes.github.io/Quarto_Website_Translations/" 
   repo-url: https://github.com/Barefoot-Ocean/Quarto_Website_Translations
   repo-actions: [issue]
   
