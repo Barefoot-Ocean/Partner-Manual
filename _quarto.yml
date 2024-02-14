@@ -3,29 +3,29 @@ project:
   
 website: 
   page-navigation: true
-  title: "Making sharable documents with Quarto" 
-  site-url: "https://openscapes.github.io/quarto-website-tutorial" 
-  repo-url: https://github.com/openscapes/quarto-website-tutorial 
-  repo-actions: [edit, issue]
+  title: "Barefoot Ocean Partner Guidebook" 
+  site-url: "https://openscapes.github.io/Barefoot-Ocean-Manual/" 
+  repo-url: https://github.com/Barefoot-Ocean/Quarto_Website_Translations
+  repo-actions: [issue]
   
   page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    right: "This page is built with [Quarto](https://quarto.org/)."
     left: "&copy; CC-By Openscapes, 2024"
     
   sidebar:
-    logo: "images/openscapes_hex.png"
+    logo: "images/bfo_logo.png"
     pinned: true
     align: center
     tools: 
       - icon: globe
-        href: https://openscapes.org
-        text: "Openscapes.org"
+        href: https://barefootocean.org/
+        text: "barefootocean.org"
       - icon: github
         href: https://github.com/openscapes/quarto-website-tutorial
         text: "Quarto website tutorial"
-      - icon: twitter
-        href: https://twitter.com/openscapes
-        text: "Openscapes Twitter"         
+      - icon: linkedin
+        href: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A89840617&keywords=barefoot%20ocean&origin=RICH_QUERY_SUGGESTION&position=0&searchId=eec6c7fe-7db0-4233-9c69-543232e40271&sid=DWx&spellCorrectionEnabled=false
+        text: "Barefoot Ocean LinkedIn"         
 
     style: "docked"
     search: true
