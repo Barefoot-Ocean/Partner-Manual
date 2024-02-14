@@ -42,7 +42,7 @@ website:
     contents:
       - href: index.qmd
         text: Home - Languages
-      - section: languages/en/index.qmd
+      - section: languages/en/index_en.qmd
         contents: 
           - languages/en/kobo.qmd
           - languages/en/smartsheet_intro.qmd
