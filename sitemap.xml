@@ -1,35 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/Indonesian-id/index_id.html</loc>
-    <lastmod>2024-02-14T21:17:42.113Z</lastmod>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/sw/index_sw.html</loc>
+    <lastmod>2024-02-14T21:37:06.066Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/English-en/data_validation.html</loc>
-    <lastmod>2024-02-14T21:17:42.045Z</lastmod>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/ceb/index_ceb.html</loc>
+    <lastmod>2024-02-14T21:37:05.834Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/English-en/fisheries_dashboard.html</loc>
-    <lastmod>2024-02-14T21:17:42.045Z</lastmod>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/fr/index_fr.html</loc>
+    <lastmod>2024-02-14T21:37:05.950Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/English-en/reference_files.html</loc>
-    <lastmod>2024-02-14T21:17:42.077Z</lastmod>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/en/data_validation.html</loc>
+    <lastmod>2024-02-14T21:37:05.834Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/English-en/index.html</loc>
-    <lastmod>2024-02-14T21:17:42.077Z</lastmod>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/en/fisheries_dashboard.html</loc>
+    <lastmod>2024-02-14T21:37:05.834Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/English-en/kobo.html</loc>
-    <lastmod>2024-02-14T21:17:42.077Z</lastmod>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/en/reference_files.html</loc>
+    <lastmod>2024-02-14T21:37:05.866Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/English-en/smartsheet_intro.html</loc>
-    <lastmod>2024-02-14T21:17:42.077Z</lastmod>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/en/socioeco_dashboard.html</loc>
+    <lastmod>2024-02-14T21:37:05.866Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/tet/index_tet.html</loc>
+    <lastmod>2024-02-14T21:37:06.098Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/Quarto_Website_Translations/index.html</loc>
-    <lastmod>2024-02-14T21:17:42.181Z</lastmod>
+    <lastmod>2024-02-14T21:37:05.806Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/pt/index_pt.html</loc>
+    <lastmod>2024-02-14T21:37:06.038Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/es/index_es.html</loc>
+    <lastmod>2024-02-14T21:37:05.894Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/en/index.html</loc>
+    <lastmod>2024-02-14T21:37:05.866Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/en/kobo.html</loc>
+    <lastmod>2024-02-14T21:37:05.866Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/en/smartsheet_intro.html</loc>
+    <lastmod>2024-02-14T21:37:05.866Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/fil/index_fil.html</loc>
+    <lastmod>2024-02-14T21:37:05.922Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/id/index_id.html</loc>
+    <lastmod>2024-02-14T21:37:05.982Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/languages/mg/index_mg.html</loc>
+    <lastmod>2024-02-14T21:37:06.010Z</lastmod>
   </url>
 </urlset>
