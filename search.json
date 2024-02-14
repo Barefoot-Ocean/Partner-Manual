@@ -1,32 +1,9 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Making shareable documents with Quarto",
+    "objectID": "languages/en/index_en.html",
+    "href": "languages/en/index_en.html",
+    "title": "Barefoot Ocean Partner Manual",
     "section": "",
-    "text": "This is the welcome page.",
-    "crumbs": [
-      "Home - Languages"
-    ]
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Making shareable documents with Quarto",
-    "section": "",
-    "text": "This is the welcome page.",
-    "crumbs": [
-      "Home - Languages"
-    ]
-  },
-  {
-    "objectID": "languages/en/index.html",
-    "href": "languages/en/index.html",
-    "title": "English",
-    "section": "",
-    "text": "Intro - Home Page - Quick guide? Full guide?",
-    "crumbs": [
-      "English"
-    ]
+    "text": "Intro - Home Page - Quick guide? Full guide?"
   }
 ]
