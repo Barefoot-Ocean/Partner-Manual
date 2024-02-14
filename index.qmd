@@ -1,8 +1,10 @@
 ---
 title: "Barefoot Ocean Partner Manual"
-subtitle: "Guidance for data collection, management, visualization and interpretation"
+subtitle: "Guidance for data collection, management, validation and interpretation"
 ---
 
-## Welcome {#welcome}
+## Welcome
 
+![](images/GWS-09888.jpg){width="313"}
 
+![](images/MOZ_GWS-25.jpg){width="315"}
