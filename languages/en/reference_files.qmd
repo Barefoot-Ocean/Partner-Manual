@@ -4,7 +4,8 @@ title: Reference Files
 
 ## Training Video
 
-{{< video https://player.hourone.ai/a0b647cf15d74b839ef6e1d44e079bd3 >}}
+{{< video videos/Intro_to_Smartsheet_-_Michael_English.mp4 >}}
+
 
 ## Updating reference files in Smartsheet
 
