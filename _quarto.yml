@@ -42,7 +42,7 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Welcome
+        text: Home - Languages
       - section: English-en/index.qmd
         contents: 
           - English-en/kobo.qmd
