@@ -26,9 +26,16 @@ website:
       - icon: github
         href: https://github.com/openscapes/quarto-website-tutorial
         text: "Github"
-      - icon: card-circle-fill
+      - icon: check-circle-fill
         href: https://dynamicview.smartsheet.com/
         text: "Smartsheet Dynamic View"  
+      - icon: bar-chart-fill
+        href: https://barefootocean.shinyapps.io/fisheries_dashboard/_w_ab83fe1c/_w_86d66a5f/_w_88f8a599/?page=sign_in
+        text: "Community Fisheries Dashboard"
+      - icon: house-fill
+        href: https://barefootocean.shinyapps.io/hhsdashboard-dev/
+        text: "Household Survey Dashboard"
+        
 
     style: "docked"
     search: true
@@ -36,7 +43,6 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - explore.qmd
       - section: quarto-workflows/index.qmd
         contents: 
           - quarto-workflows/browser.md
