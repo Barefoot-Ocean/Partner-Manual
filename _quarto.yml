@@ -44,6 +44,7 @@ website:
       - href: index.qmd
         text: Home - Languages
       - section: languages/en/index.qmd
+        text: English
         contents: 
           - languages/en/kobo.qmd
           - languages/en/smartsheet_intro.qmd
