@@ -1,6 +1,5 @@
 ---
-title: "Barefoot Ocean Partner Manual"
-subtitle: "Guidance for data collection, management, visualization and interpretation"
+title: English
 ---
 
 Intro - Home Page - Quick guide? Full guide?
