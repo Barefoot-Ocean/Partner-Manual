@@ -20,12 +20,15 @@ website:
       - icon: globe
         href: https://barefootocean.org/
         text: "barefootocean.org"
-      - icon: github
-        href: https://github.com/openscapes/quarto-website-tutorial
-        text: "Quarto website tutorial"
       - icon: linkedin
         href: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A89840617&keywords=barefoot%20ocean&origin=RICH_QUERY_SUGGESTION&position=0&searchId=eec6c7fe-7db0-4233-9c69-543232e40271&sid=DWx&spellCorrectionEnabled=false
-        text: "Barefoot Ocean LinkedIn"         
+        text: "Barefoot Ocean LinkedIn"     
+      - icon: github
+        href: https://github.com/openscapes/quarto-website-tutorial
+        text: "Github"
+      - icon: card-circle-fill
+        href: https://dynamicview.smartsheet.com/
+        text: "Smartsheet Dynamic View"  
 
     style: "docked"
     search: true
