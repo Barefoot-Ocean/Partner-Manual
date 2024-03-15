@@ -1,6 +1,7 @@
 ---
 title: Data Collection
 echo: false
+output: false
 ---
 
 
@@ -8,6 +9,8 @@ echo: false
 
 # install.packages("shiny.i18n")
 library(shiny.i18n)
+library(rmarkdown)
+library(knitr)
 
 ```
 
