@@ -1,5 +1,15 @@
 [
   {
+    "objectID": "languages/en/index_en.html",
+    "href": "languages/en/index_en.html",
+    "title": "English",
+    "section": "",
+    "text": "Introduction",
+    "crumbs": [
+      "English"
+    ]
+  },
+  {
     "objectID": "languages/en/reference_files.html#updating-reference-files-in-smartsheet",
     "href": "languages/en/reference_files.html#updating-reference-files-in-smartsheet",
     "title": "Reference Files",
@@ -8,16 +18,6 @@
     "crumbs": [
       "English",
       "Reference Files"
-    ]
-  },
-  {
-    "objectID": "languages/en/index_en.html",
-    "href": "languages/en/index_en.html",
-    "title": "English",
-    "section": "",
-    "text": "Introduction",
-    "crumbs": [
-      "English"
     ]
   }
 ]
