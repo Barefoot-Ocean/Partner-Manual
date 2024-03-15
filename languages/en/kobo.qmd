@@ -4,7 +4,25 @@ echo: false
 output: false
 ---
 
+```{r}
+library(shiny.i18n)
+i18n <- Translator$new(translation_csvs_path = "data")
+i18n$set_translation_language("pl")
+i18n
 
+```
+
+
+## `r i18n$t("title")`
+
+
+ `r { i18n$t("intro") }`
+
+`r { i18n$t("step1") }`
+
+-`r { i18n$t("point1") }`
+
+-`r { i18n$t("point2") }`
 
 
 
