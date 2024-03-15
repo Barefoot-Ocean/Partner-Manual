@@ -1,0 +1,6 @@
+key,en
+title,Updating Reference Files
+intro,"All reference files are updated in Smartsheet Dynamic View. Reference files serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the master datasets through joins. They contain comprehensive information on the administrative levels of the fishing communities (country, province, district, village), landing sites, fishing ground, fishers, buyers, data collectors, species, management areas, gear types, and partnering organizations. The steps below outline how to update reference files with new information."
+step1,Step 1: Create a free smartsheet account.
+point1,A free account can be created at https://www.smartsheet.com/
+point2,Select “Try smartsheet for free”
