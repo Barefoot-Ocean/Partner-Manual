@@ -1,6 +1,7 @@
 ---
 title: Data Collection
-output: html_document
+echo: false
+output: false
 ---
 
 
@@ -15,7 +16,7 @@ library(rmarkdown)
 
 ```{r}
 
-i18n <- Translator$new(translation_csvs_path = "data",translation_csv_config = "config.yml")
+i18n <- Translator$new(translation_csvs_path = "data", translation_csv_config = "languages/en/config.yml")
 
 i18n$set_translation_language("pl")
 
