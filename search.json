@@ -10,6 +10,28 @@
     ]
   },
   {
+    "objectID": "languages/en/kobo.html",
+    "href": "languages/en/kobo.html",
+    "title": "Data Collection",
+    "section": "",
+    "text": "All reference files are updated in Smartsheet Dynamic View. Reference files serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the master datasets through joins. They contain comprehensive information on the administrative levels of the fishing communities (country, province, district, village), landing sites, fishing ground, fishers, buyers, data collectors, species, management areas, gear types, and partnering organizations. The steps below outline how to update reference files with new information.\nStep 1: Create a free smartsheet account.\n-A free account can be created at https://www.smartsheet.com/\n-Select �Try smartsheet for free�",
+    "crumbs": [
+      "English",
+      "Data Collection"
+    ]
+  },
+  {
+    "objectID": "languages/en/kobo.html#updating-reference-files",
+    "href": "languages/en/kobo.html#updating-reference-files",
+    "title": "Data Collection",
+    "section": "",
+    "text": "All reference files are updated in Smartsheet Dynamic View. Reference files serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the master datasets through joins. They contain comprehensive information on the administrative levels of the fishing communities (country, province, district, village), landing sites, fishing ground, fishers, buyers, data collectors, species, management areas, gear types, and partnering organizations. The steps below outline how to update reference files with new information.\nStep 1: Create a free smartsheet account.\n-A free account can be created at https://www.smartsheet.com/\n-Select �Try smartsheet for free�",
+    "crumbs": [
+      "English",
+      "Data Collection"
+    ]
+  },
+  {
     "objectID": "languages/en/reference_files.html#updating-reference-files-in-smartsheet",
     "href": "languages/en/reference_files.html#updating-reference-files-in-smartsheet",
     "title": "Reference Files",
