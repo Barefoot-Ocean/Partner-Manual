@@ -1,5 +1,5 @@
 ---
-title: Data Collection
+title: Kobo Setup
 echo: false
 output: false
 ---
