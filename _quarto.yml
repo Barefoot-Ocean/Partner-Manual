@@ -42,32 +42,27 @@ website:
     contents:
       - href: index.qmd
         text: Home - Languages
-      - section: languages/en/index_en.qmd
+      - section: pages/index/index_en.qmd
         contents: 
-          - languages/en/quick_guide.qmd
-          - languages/en/full_guide.qmd
-          - languages/en/kobo.qmd
-          - languages/en/smartsheet_intro.qmd
-          - languages/en/reference_files.qmd
-          - languages/en/data_validation.qmd
-          - languages/en/fisheries_dashboard.qmd
-          - languages/en/socioeco_dashboard.qmd
-      - section: languages/id/index_id.qmd
+          - pages/quick_guide/quick_guide_en.qmd
+          - pages/full_guide/full_guide_en.qmd
+          - pages/kobo/kobo_en.qmd
+          - pages/smartsheet_intro/smartsheet_intro_en.qmd
+          - pages/reference_files/reference_files_en.qmd
+          - pages/data_validation/data_validation_en.qmd
+          - pages/fisheries_dashboard/fisheries_dashboard_en.qmd
+          - pages/socioeco_dashboard/socioeco_dashboard_en.qmd
+      - section: pages/index/index_id.qmd
         contents: 
-          - languages/en/kobo.qmd
-          - languages/en/smartsheet_intro.qmd
-          - languages/en/reference_files.qmd
-          - languages/en/data_validation.qmd
-          - languages/en/fisheries_dashboard.qmd
-          - languages/en/socioeco_dashboard.qmd
-      - section: languages/ceb/index_ceb.qmd
-      - section: languages/fil/index_fil.qmd
-      - section: languages/tet/index_tet.qmd
-      - section: languages/mg/index_mg.qmd
-      - section: languages/fr/index_fr.qmd
-      - section: languages/es/index_es.qmd
-      - section: languages/pt/index_pt.qmd
-      - section: languages/sw/index_sw.qmd
+          - pages/kobo/kobo_en.qmd
+      - section: pages/index/index_ceb.qmd
+      - section: pages/index/index_fil.qmd
+      - section: pages/index/index_tet.qmd
+      - section: pages/index/index_mg.qmd
+      - section: pages/index/index_fr.qmd
+      - section: pages/index/index_es.qmd
+      - section: pages/index/index_pt.qmd
+      - section: pages/index/index_sw.qmd
 
 
 
