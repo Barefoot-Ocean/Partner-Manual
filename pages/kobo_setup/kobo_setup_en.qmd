@@ -9,23 +9,52 @@ library(shiny.i18n)
 library(rmarkdown)
 library(knitr)
 i18n <- Translator$new(translation_csvs_path = "data")
-i18n$set_translation_language("pl")
+i18n$set_translation_language("en")
 i18n
 
 
 ```
 
-
 ## `r i18n$t("title")`
 
+1.  `r { i18n$t("step1") }`
 
- `r { i18n$t("intro") }`
+2.  `r { i18n$t("step2") }`
 
-`r { i18n$t("step1") }`
+3.  `r { i18n$t("step3") }`
 
--`r { i18n$t("point1") }`
+4.  `r { i18n$t("step4") }`
 
--`r { i18n$t("point2") }`
+5.  `r { i18n$t("step5") }`
 
+6.  `r { i18n$t("step6") }`
 
+7.  `r { i18n$t("step7") }`
 
+8.  `r { i18n$t("step8") }`
+
+9.  `r { i18n$t("step9") }`
+
+10. `r { i18n$t("step10") }`
+
+11. `r { i18n$t("step11") }`
+
+12. `r { i18n$t("step12") }`
+
+13. `r { i18n$t("step13") }`
+
+14. `r { i18n$t("step14") }`
+
+15. `r { i18n$t("step15") }`
+
+16. `r { i18n$t("step16") }`
+
+17. `r { i18n$t("step17") }`
+
+18. `r { i18n$t("step18") }`
+
+19. `r { i18n$t("step19") }`
+
+20. `r { i18n$t("step20") }`
+
+21. `r { i18n$t("step21") }`
