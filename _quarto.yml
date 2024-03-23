@@ -54,7 +54,7 @@ website:
           - pages/socioeco_dashboard/socioeco_dashboard_en.qmd
       - section: pages/index/index_id.qmd
         contents: 
-          - pages/kobo/kobo_en.qmd
+          - - pages/quick_guide/quick_guide_en.qmd
       - section: pages/index/index_ceb.qmd
       - section: pages/index/index_fil.qmd
       - section: pages/index/index_tet.qmd
