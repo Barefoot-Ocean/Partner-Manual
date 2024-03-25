@@ -36,11 +36,11 @@ Understand the general landscape of the community and the fisheries operating wi
 
 -   Identification (via mapping) of important fishing grounds, habitats, landing sites 
 
-### **Target Audience** 
+### **Target Audience**
 
 10-20 key informants within the community, namely, community leaders, respected fishers, fish traders, and women.
 
-### **Frequency and Timing** 
+### **Frequency and Timing**
 
 When work begins in a new fishing community, conducting the Community Profiling Survey and the initial profiling exercise provides baseline data and relevant information to design conservation and management efforts most appropriate for the community. Repeating the Community Profiling Survey can help document significant changes occurring over time.
 
@@ -76,11 +76,11 @@ Capture key data needed to calculate simple length-based indicators of fishery h
 
 -   Reason total catch not sold, if applicable
 
-### **Target Audience** 
+### **Target Audience**
 
-Fishers as they land their catch or at a fish buyers\' house/market.
+Fishers as they land their catch or at a fish buyers' house/market.
 
-### **Frequency and Timing** 
+### **Frequency and Timing**
 
 The Landings Monitoring Survey should be conducted daily or as often as possible. 
 
@@ -92,7 +92,7 @@ For longer-term closures, ensure that data is collected during the same month fo
 
 ### **Methodology**
 
-Using the Kobo form, meet fishers at landing sites/buyers\' houses to record their catch.
+Using the Kobo form, meet fishers at landing sites/buyers' houses to record their catch.
 
 ## **Landings Profiling Survey**
 
@@ -134,11 +134,11 @@ Understand observed catch trends.
 
 -   Partner-specific sample data (sex, catch quality, gonads, stylet, \# traps, etc.)
 
-### **Target Audience** 
+### **Target Audience**
 
 A representative sample of catch within the community. Record at least 50 samples (ideally 100) for each target species, representing various gear types and fisher profiles. 
 
-### **Frequency and Timing** 
+### **Frequency and Timing**
 
 This survey should initially be conducted at the beginning of involvement in a community and subsequently performed every one to two years, before and after implementing the management strategy, or as needed to explain declines observed through monitoring data.
 
@@ -192,7 +192,7 @@ Below is a list of software platforms where data may be stored and moved in tran
 
 4.  [Google drive](https://support.google.com/drive/answer/10375054?hl=en)
 
-5.  [Smartsheet ](https://www.smartsheet.com/trust/security)(whitepaper on security is located [here](https://www.smartsheet.com/smartsheet-security-whitepaper))
+5.  [Smartsheet](https://www.smartsheet.com/trust/security)(whitepaper on security is located [here](https://www.smartsheet.com/smartsheet-security-whitepaper))
 
 6.  [Shinyapps.io](https://docs.posit.co/shinyapps.io/security-and-compliance.html)
 
@@ -206,7 +206,7 @@ From any shared data platforms (e.g. Shiny Apps), user authentication is require
 
 Access to Smartsheet documents (e.g. reference files, data validation sheets) is restricted to personnel identified by each organization, and each partner may only view their own partner-specific information. Exceptions to this include Barefoot Ocean staff who control and assist with data quality workflows, and Blue Ventures staff assisting partners with information workflows in Smartsheet.
 
-Access to Barefoot Ocean\'s main database is limited to Barefoot Ocean staff and contractors.
+Access to Barefoot Ocean's main database is limited to Barefoot Ocean staff and contractors.
 
 ## **Data Privacy**
 
@@ -256,7 +256,7 @@ All data is currently set to Level 1 - Private. Users will have the opportunity 
 
 ## **Validating New and Flagged Data**
 
-In the surveys, some questions allow enumerators to add a new fisher, buyer, data collector, landing site, species, or \"other.\" Information from these options are new data points and must undergo verification before being pushed to the final dataset, visualized in the dashboard, and added to the reference files. There are also constraints set on weight, price and length of a species, and if the data collected is below or above these constraints, these values are flagged for review. Constraints on weight and price are set by partners in the min_max_ref. Species length constraints are set by the Barefoot Ocean team using biological parameters. 
+In the surveys, some questions allow enumerators to add a new fisher, buyer, data collector, landing site, species, or "other." Information from these options are new data points and must undergo verification before being pushed to the final dataset, visualized in the dashboard, and added to the reference files. There are also constraints set on weight, price and length of a species, and if the data collected is below or above these constraints, these values are flagged for review. Constraints on weight and price are set by partners in the min_max_ref. Species length constraints are set by the Barefoot Ocean team using biological parameters. 
 
 All data that flows through the fisheries data system is validated in [Smartsheet](https://www.smartsheet.com/customers-home). Any of these new or flagged entries are sent to the quality control (QA) table in Smartsheet for field teams to validate. The quality control tables are partner-specific and can be accessed via update requests sent to your email or by visiting the Dynamic View links provided to you. Field team leads will be notified via email when data needs to be validated in the QA tables. Once the data have been verified in the QA tables, we will append new information to the reference file and provide necessary corrections to the master dataset. 
 
@@ -266,11 +266,11 @@ Specific, step-by-step instructions for how to complete data validation in Smart
 
 Barefoot Ocean administers all surveys through Kobo Toolbox forms shareable through a Kobo Toolbox account. You can set up an account [here](https://kf.kobotoolbox.org/accounts/signup/). Please reach out to courtney\@barefootocean.org with the account details. Once the surveys are shared, access the Kobo forms through the KoboCollect free Android mobile phone [app](https://play.google.com/store/apps/details?id=org.koboc.collect.android&hl=en_US&gl=US) or via the Enketo web form. Detailed instructions on setting up a Kobo account, collecting data, and submitting data can be found [here](https://docs.google.com/document/d/1hQbo9eKkym16tTRm8UHy7xHPwbbM5WugpDrtf3aRDA0/edit). Use a QR code to configure all devices after manually setting up the first phone or tablet to set up multiple phones or tablets under one data collection account. Manual setup of the first device requires the Kobo server URL, username, and password. The Kobo server URL is <https://kc.kobotoolbox.org>. More information on setting up data collection with Kobo, including how to configure multiple data collection devices via a QR code, can be found [here](https://support.kobotoolbox.org/kobocollect_on_android_latest.html#:~:text=Open%20KoboCollect%20on%20another%20device,app%20will%20be%20automatically%20configured.). 
 
-Once you have downloaded KoboCollect, open the app and enter the server URL, username, and password to connect your KoboCollect app to the KoboToolbox server. Connecting the KoboCollect app to the KoboToolbox server allows you to download deployed forms from KoboToolbox to your mobile device and send data collected through the app back to the server. On the home screen, select \"Get Blank Form.\" A list of all your deployed survey forms should appear. Press "Select All" to have all the survey forms sent to the app, or select the ones you wish to have by selecting them manually. Then click "Get Selected." To deploy the survey, select \"Fill Blank Form.\"
+Once you have downloaded KoboCollect, open the app and enter the server URL, username, and password to connect your KoboCollect app to the KoboToolbox server. Connecting the KoboCollect app to the KoboToolbox server allows you to download deployed forms from KoboToolbox to your mobile device and send data collected through the app back to the server. On the home screen, select "Get Blank Form." A list of all your deployed survey forms should appear. Press "Select All" to have all the survey forms sent to the app, or select the ones you wish to have by selecting them manually. Then click "Get Selected." To deploy the survey, select "Fill Blank Form."
 
-While the webform is automatically updated when a new survey version is available, users must configure \"auto-update\" themselves in the app. Regularly updating the surveys in the app ensures using the latest version of the form and not causing data pipeline issues down the line. You can set up auto-update in the app by going to \"Settings\" and \"Form Management." More information on automatically updating surveys in the app can be found [here](https://support.kobotoolbox.org/kobocollect_on_android_latest.html), under the section \"Form Management Setting in KoboCollect.\" It is important to note that a connection is required for the app to pull the most recent survey version, even with auto-update settings turned on. Therefore, advise enumerators to have an internet connection before performing field work so KoboCollect can pull the most recent version.
+While the webform is automatically updated when a new survey version is available, users must configure "auto-update" themselves in the app. Regularly updating the surveys in the app ensures using the latest version of the form and not causing data pipeline issues down the line. You can set up auto-update in the app by going to "Settings" and "Form Management." More information on automatically updating surveys in the app can be found [here](https://support.kobotoolbox.org/kobocollect_on_android_latest.html), under the section "Form Management Setting in KoboCollect." It is important to note that a connection is required for the app to pull the most recent survey version, even with auto-update settings turned on. Therefore, advise enumerators to have an internet connection before performing field work so KoboCollect can pull the most recent version.
 
-After collecting data, the surveys submitted via the web form will be automatically submitted to the server once the data collector hits the \"Submit\" button. Data collected via the KoboCollect app is first saved in the app in a holding place and then pushed to the server. Completed surveys remain on hold before submitting to the server so that data collectors can make survey edits after collecting data, or if there is no internet connection, the app can save the surveys and then push the surveys to the server once there is internet connectivity. Specifically, when the survey is complete, the user will hit \"Save form and exit,\" ensuring that \"Mark form as finalized\" is also checked. \"Edit Saved Form\" automatically stores the saved form. The data collector can make necessary changes and select \"Save Form and Exit.\" The home screen also has a button called \"Send Finalized Form.\" Press Select All (or select the ones you wish to upload) and then press "Send Selected." Select \"View Sent Form\" to ensure successfully uploading the forms and you should now be able to view all the submitted forms.
+After collecting data, the surveys submitted via the web form will be automatically submitted to the server once the data collector hits the "Submit" button. Data collected via the KoboCollect app is first saved in the app in a holding place and then pushed to the server. Completed surveys remain on hold before submitting to the server so that data collectors can make survey edits after collecting data, or if there is no internet connection, the app can save the surveys and then push the surveys to the server once there is internet connectivity. Specifically, when the survey is complete, the user will hit "Save form and exit," ensuring that "Mark form as finalized" is also checked. "Edit Saved Form" automatically stores the saved form. The data collector can make necessary changes and select "Save Form and Exit." The home screen also has a button called "Send Finalized Form." Press Select All (or select the ones you wish to upload) and then press "Send Selected." Select "View Sent Form" to ensure successfully uploading the forms and you should now be able to view all the submitted forms.
 
 A central data storage system links to the Kobo data, and automated analyses and visualizations will be available through a standardized dashboard. Raw data is backed up in the KoboToolbox database and will be available through download or direct link to another database or data warehouse. 
 
@@ -318,7 +318,7 @@ Make sure that you are in a good condition to conduct fisheries profiling. Bring
 
 ## **Focus Group Discussion Guidance**
 
-The following contains guidance and recommendations on conducting a focus group to capture community profiling information. Holding a focus group session is recommended to encourage dialogue, capture a diversity of opinions, and begin building relationships with important community members. However, in the case that a focus group is not feasible, the community profiling survey can be conducted as individual interviews with important stakeholders using the \"Community Profiling Survey\" Kobo form. Overall, the goal of the community profiling exercise, whether in a focus group or individual interview format, is to understand the general landscape of the community and the fisheries operating within the community.
+The following contains guidance and recommendations on conducting a focus group to capture community profiling information. Holding a focus group session is recommended to encourage dialogue, capture a diversity of opinions, and begin building relationships with important community members. However, in the case that a focus group is not feasible, the community profiling survey can be conducted as individual interviews with important stakeholders using the "Community Profiling Survey" Kobo form. Overall, the goal of the community profiling exercise, whether in a focus group or individual interview format, is to understand the general landscape of the community and the fisheries operating within the community.
 
 ### *Prior to conducting a focus group*
 
@@ -338,7 +338,7 @@ Recommended tips to conduct informal conversations:
 
 -   Communicate plans and activities widely. Ensure any meetings or activities are planned in advance and at mutually agreeable times and locations to maximize attendance. Ensure any changes in plans and activities are communicated as early as possible. Being on time and sticking to agreements helps to build trust and confidence between stakeholders.
 
--   Always acknowledge stakeholders in project outputs such as reports and media releases within stakeholder meetings and external presentations. Be aware of information \'ownership\' and respect confidentiality and privacy.
+-   Always acknowledge stakeholders in project outputs such as reports and media releases within stakeholder meetings and external presentations. Be aware of information 'ownership' and respect confidentiality and privacy.
 
 Better understanding the stakeholder landscape in the community is a crucial goal in conducting informal conservations and participant observation. Stakeholders affect or can be affected by an organization's actions. Their support is essential for an organization's success in implementing fisheries management plans. By better understanding stakeholders, you will effectively identify stakeholders involved in future fisheries monitoring for fisheries management in their area.
 
@@ -358,11 +358,11 @@ Examples of types of stakeholders to include:
 
 -   Processing plant
 
--   Women in the village/fishers\' wives
+-   Women in the village/fishers' wives
 
 Information to be collected about stakeholders:
 
--   Information about key stakeholders and their positions in relation to an entity\'s objectives (degree of support, power, etc.). This information can be used to identify which stakeholders to include in the community profiling focus group.
+-   Information about key stakeholders and their positions in relation to an entity's objectives (degree of support, power, etc.). This information can be used to identify which stakeholders to include in the community profiling focus group.
 
 After conducting informal conversations, the next step you can do is participant observation. Observation is a method that allows you to use the events around you to gather clues and generate conclusions about specific locales or experiences by observing a day in the fishing village. This method is necessary to gather evidence from the information provided in informal conversations. This method allows you to understand the fishing village's daily life activities.
 
@@ -452,7 +452,7 @@ Carefully plan who to invite to the focus group meeting. Identifying 10-12 indiv
 
 4.  **Discussion logistics and methodology**
 
-Data can be captured in the \"Community Profiling Survey\" Kobo form. However, it may be easier for the note-taker to capture the data via written notes in order to more easily capture nuances and information that arise from the group discussion, such as differing answers per respondent. If the information is collected by taking notes. After the focus group meeting has been completed, the responses should be entered into the \"Community Profiling Survey\" Kobo form. 
+Data can be captured in the "Community Profiling Survey" Kobo form. However, it may be easier for the note-taker to capture the data via written notes in order to more easily capture nuances and information that arise from the group discussion, such as differing answers per respondent. If the information is collected by taking notes. After the focus group meeting has been completed, the responses should be entered into the "Community Profiling Survey" Kobo form. 
 
 Encourage all members of the group to speak as they represent a mixture of ages and social standings that may have different experiences of the fishery.
 
@@ -476,19 +476,19 @@ Begin the focus group by introducing yourself, the project, and the goal of the 
 
 -   [Facilitator Core Competencies](https://www.iaf-world.org/site/sites/default/files/Revised%20IAF%20Core%20%20Competencies%20-%20December%206%202021.pdf) -- International Association of Facilitators (IAF)
 
--   [Facilitator\'s Meeting Checklist](http://stproject.org/wp-content/uploads/2014/11/facilitators-meeting-checklist.pdf) -- Social Transformation Project, Tools for Transformation
+-   [Facilitator's Meeting Checklist](http://stproject.org/wp-content/uploads/2014/11/facilitators-meeting-checklist.pdf) -- Social Transformation Project, Tools for Transformation
 
 -   [Introduction to Planning and Facilitating Effective Meetings](https://reefresilience.org/pdf/Facilitation_Effective_Meetings.pdf) -- Social Science Tools for Social Programs, NOAA Coastal Services Center
 
 -   [Group Facilitation and Problem-Solving](https://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation) -- Community Tool Box, Center for Community Health and Development at the University of Kansas
 
-    -   Section 1:[ Conducting Effective Meetings](https://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation/main)
+    -   Section 1:[Conducting Effective Meetings](https://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation/main)
 
-    -   Section 2:[ Developing Facilitation Skills](https://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation/facilitation-skills/main)
+    -   Section 2:[Developing Facilitation Skills](https://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation/facilitation-skills/main)
 
-    -   Section 3:[ Capturing What People Say: Tips for Recording a Meeting](https://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation/record-meeting/main)
+    -   Section 3:[Capturing What People Say: Tips for Recording a Meeting](https://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation/record-meeting/main)
 
-    -   Section 4:[ Techniques for Leading Group Discussions](https://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation/group-discussions/main)
+    -   Section 4:[Techniques for Leading Group Discussions](https://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation/group-discussions/main)
 
 # **Appendix B: Links**
 

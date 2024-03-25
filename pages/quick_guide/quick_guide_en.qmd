@@ -8,7 +8,7 @@ editor:
 
 ## Quick Guide: Fisheries and Community Data Collection Guidance
 
-### Introduction 
+### Introduction
 
 The quick guide provides step-by-step guidance to collect and validate
 fisheries and community data through the system developed by Barefoot
