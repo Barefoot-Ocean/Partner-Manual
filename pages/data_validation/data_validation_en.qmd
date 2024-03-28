@@ -1,3 +1,306 @@
 ---
 title: Data Validation
+echo: false
+output: false
 ---
+
+```{r}
+library(shiny.i18n)
+library(rmarkdown)
+library(knitr)
+i18n <- Translator$new(translation_csvs_path = "data")
+i18n$set_translation_language("en")
+i18n
+
+
+```
+
+## `r i18n$t("title")`
+
+`r { i18n$t("p1") }`
+
+`r { i18n$t("p2") }`
+
+`r { i18n$t("step1") }`
+
+-   `r { i18n$t("point1") }`
+
+-   `r { i18n$t("point2") }`
+
+-   `r { i18n$t("point3") }`
+
+`r { i18n$t("step2") }`
+
+-   `r { i18n$t("point4") }`
+
+-   `r { i18n$t("point5") }`
+
+-   `r { i18n$t("point6") }`
+
+-   `r { i18n$t("point7") }`
+
+-   `r { i18n$t("point8") }`
+
+-   `r { i18n$t("point9") }`
+
+`r { i18n$t("caption1") }`
+
+`r { i18n$t("caption2") }`
+
+`r { i18n$t("step3") }`
+
+-   `r { i18n$t("point10") }`
+
+-   `r { i18n$t("point11") }`
+
+-   `r { i18n$t("point12") }`
+
+-   `r { i18n$t("point13") }`
+
+-   `r { i18n$t("point14") }`
+
+-   `r { i18n$t("point15") }`
+
+-   `r { i18n$t("point16") }`
+
+-   `r { i18n$t("point17") }`
+
+-   `r { i18n$t("point18") }`
+
+-   `r { i18n$t("point19") }`
+
+-   `r { i18n$t("point20") }`
+
+-   `r { i18n$t("point21") }`
+
+`r { i18n$t("table1") }`
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><code>r { i18n$t("t1.1") }</code></p></td>
+<td><p><code>r { i18n$t("t1.2") }</code></p></td>
+<td><p><code>r { i18n$t("t1.3") }</code></p></td>
+</tr>
+<tr class="even">
+<td><p><strong>All Tables</strong></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>partner</p></td>
+<td><p>organization name collecting the data</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>admin3_landed</p></td>
+<td><p>Village or sub-village where the catch was landed and recorded</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>data_collector</p></td>
+<td><p>Name of person who collected the data in Kobo (enumerator)</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Landings Names Table</strong></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>kobo_field</p></td>
+<td><p>The field from the KoboToolbox form that needs to be validated: fisher_name, buyer_name, data_collector_name, or landingsite_name</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>new_data</p></td>
+<td><p>The value that was entered for the corresponding kobo_field</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>ref_match1</p></td>
+<td><p>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>ref_match2</p></td>
+<td><p>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>ref_match3</p></td>
+<td><p>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>validation_options</p></td>
+<td><p>Select field with correct data (new_data, ref_match1, ref_match2, ref_match3), enter another value (other), or remove (remove row from analysis because data cannot be validated). <strong>Required</strong>. Only visible in the Details panel. Entry will disappear once data is validated. </p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="odd">
+<td><p>other</p></td>
+<td><p>Enter another value if none of the validation options are correct. <strong>Required IF</strong> “other” selected from validation_options. Only visible in the Details panel.</p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="even">
+<td><p>landings_submission_ids</p></td>
+<td><p>List of submission ids this new data value appears in, from landings monitoring Kobo form</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>profiling_submission_ids</p></td>
+<td><p>List of submission ids this new data value appears in, from landings profiling Kobo form</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Value Warnings Table</strong></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>fisher_name</p></td>
+<td><p>Name of fisher who landed the catch</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>date_landed</p></td>
+<td><p>Date catch was landed</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>local_name</p></td>
+<td><p>Species local name</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>warning_calc</p></td>
+<td><p>Unit value: weight/individual, price/weight, length/individual, width/individual</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>warning</p></td>
+<td><p>Type of warning</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>numerator</p></td>
+<td><p>Value of warning numerator: weight, price, length</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>numerator_unit</p></td>
+<td><p>Unit of numerator: kg, g, lb, ons, USD, IDR, PHP, cm</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>denominator</p></td>
+<td><p>Value of denominator: count, weight</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>denominator_unit</p></td>
+<td><p>Unit of denominator: number, kg, g, lb, ons</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>correct</p></td>
+<td><p>Y = values are correct, N=values are incorrect, Remove = remove from analysis because values cannot be validated. <strong>Required</strong>.</p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="odd">
+<td><p>correct_numerator</p></td>
+<td><p>If correct = Y, values are auto-populated, If correct = N, enter correct value</p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="even">
+<td><p>correct_denominator</p></td>
+<td><p>If correct = Y, values are auto-populated, If correct = N, enter correct value</p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="odd">
+<td><p>correct_numerator_unit</p></td>
+<td><p>If the numerator_units are incorrect, select the correct option from the dropdown</p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="even">
+<td><p>data_origin</p></td>
+<td><p>Dataset the data came from (Landings monitoring or profiling).</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>submission_id</p></td>
+<td><p>Submission ID from the Kobo form. Use this to compare against raw data, if needed, for validation.</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Species Table</strong></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>new_species_photo</p></td>
+<td><p>Link to photo that was submitted in Kobo Collect</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p> local_name_new</p></td>
+<td><p>The value that was entered as a new species local name in Kobo Collect</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>ref_match1</p></td>
+<td><p>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>ref_match2</p></td>
+<td><p>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>ref_match3</p></td>
+<td><p>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>eng_comon_name_new</p></td>
+<td><p>English common name of new species. Please provide if known, else leave blank. (Not required)</p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="odd">
+<td><p>scientific_family_new</p></td>
+<td><p>Scientific family name of new species. Please provide if known, else leave blank. (Not required)</p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="even">
+<td><p>scientific_species_new</p></td>
+<td><p>Scientific species name of new species. Please provide if known, else leave blank. <strong>Required: If species name is unknown, please put any level of taxonomic identification (e.g. Family name, English common name)</strong></p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="odd">
+<td><p>submission_id</p></td>
+<td><p>Submission ID from the Kobo form. Use this to compare against raw data, if needed, for validation.</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="even">
+<td><p>data_origin</p></td>
+<td><p>Dataset the data came from (Landings monitoring or profiling).</p></td>
+<td><p>context</p></td>
+</tr>
+<tr class="odd">
+<td><p>validation_options</p></td>
+<td><p>Select field with correct data (local_name_new, ref_match1, ref_match2, ref_match3), enter another value (other), or remove (remove row from analysis because data cannot be validated). <strong>Required.</strong> Only visible in the Details panel. Entry will disappear once data is validated.</p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="even">
+<td><p>other</p></td>
+<td><p>Enter another value if none of the validation options are correct. <strong>Required IF</strong> “other” selected from validation_options. Only visible in the Details panel.</p></td>
+<td><p>validation</p></td>
+</tr>
+<tr class="odd">
+<td><p>latest_comment</p></td>
+<td><p>This column stores the last comment that was made for that row. To view the entire discussion of comments for that row, simply click anywhere on the row. The details panel will appear and click on the “Comments” tab to view all comments for that row.</p></td>
+<td><p>auto</p></td>
+</tr>
+</tbody>
+</table>

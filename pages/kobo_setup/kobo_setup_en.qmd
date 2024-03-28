@@ -17,8 +17,6 @@ i18n
 
 ## `r i18n$t("title")`
 
-this is a test.
-
 1.  `r { i18n$t("step1") }`
 
 2.  `r { i18n$t("step2") }`
