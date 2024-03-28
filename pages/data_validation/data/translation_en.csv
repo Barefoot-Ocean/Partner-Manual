@@ -1,0 +1,34 @@
+key,en
+title,Fisheries Data Validation Guide
+p1,"All data that flows through the fisheries data system is validated in Smartsheet. Data is sent for validation under two scenarios; 1) new names are manually added in Kobo Collect, or 2) a numeric value falls beyond established thresholds. Once data is validated, both the master datasets in the database and the reference tables are updated. Reference tables serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the master datasets through joins. See the decision tree below (Figure 1)."
+p2,"Data triggered for validation is sent to one of three tables: 1) Landings Name QA, 2) Species QA, or 3) Value Warnings QA. The instructions below detail the data validation process in Smartsheet for the three validation tables. Each validation table will require either selecting the correct field value from a dropdown list or entering correct values manually. The process will be appended for future data validation needs, as required."
+step1,Step 1: Provide Barefoot Ocean with point of contact email addresses for those responsible for data validation.
+point1,The organization managing multiple partners may provide all points of contact information.
+point2,Individual partners may provide point of contact information.
+point3,The points of contact will receive data validation notifications through email.
+step2,Step 2: Check your email for a data validation request.
+point4,You will receive an email from “Smartsheet Automation” (Figure 2)
+point5,The email will contain a message with links to proceed with validation through either a “Dynamic View” or “Open Request”. Dynamic View is a table format and Open Request will direct you to a validation form.
+point6,"To open with “Dynamic View” (Step 3, Option A), click the link that begins with “https://dynamicview.smarthseet.com….”"
+point7,"To open the update request form (Step 3, Option B), click the blue “Open request” button"
+point8,"A preview of the entries that need to be validated will appear below this message, but you will not be able to validate any data directly in the email"
+point9,"At the bottom of the email, there is a link for “Go to the sheet”; however, the underlying sheet has restricted access. Please review your data validation via Dynamic view, Open request, or your partner-specific report (coming soon)."
+caption1,Figure 1: Data validation decision tree.
+caption2,Figure 2: Sample Smartsheet Validation Email Message
+step3,"Step 3, Option A: Complete your data validation via Dynamic View (recommended)"
+point10,"For this option, you will need to create a free Smartsheet account. You will be directed from the email to set up an account."
+point11,Click on the Dynamic View link in the email request.
+point12,"A new internet browser window will open with a table-like setup for all entries. Here, you can easily scroll through all the entries that need validation."
+point13,Click on a row to begin validation.
+point14,A “Details” panel will appear on the right.
+point15,Review the context fields and populate the validation fields. The validation fields contain the data that will be transferred to the final dataset (Table 1).
+point16,"Leave a comment, ONLY IF there is something that needs our attention. Barefoot Ocean staff will review comments and respond appropriately."
+point17,Click the blue “Save” button to save your selection.
+point18,"Once validated, that row will disappear from your dynamic view."
+point19,Click on the next row and repeat steps to complete validation for all entries.
+point20,You can exit and re-enter by clicking on the dynamic view link from your email or logging into your account at any time. You do not need to validate all entries in one sitting.
+point21,You can bookmark this link and return at any time.
+table1,Table 1: Primary fields in the validation tables. Context fields provide information needed to validate data. Validation fields are populated with data that will be transferred to the master datasets. Only the validation field can be edited. Some fields are only visible in the “Details” panel when a row is clicked in the Dynamic View table.
+t1.1,Validation table field
+t1.2,Field description
+t1.3,Field type
