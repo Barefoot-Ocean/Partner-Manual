@@ -19,11 +19,16 @@ i18n
 
 1.  `r { i18n$t("step1") }`
 
+![](images/fig1.jpg){width="200"}
+
 2.  `r { i18n$t("step2") }`
+![](images/fig2.jpg){width="200"}
 
 3.  `r { i18n$t("step3") }`
+![](images/fig3.jpg){width="200"}
 
 4.  `r { i18n$t("step4") }`
+![](images/fig4.jpg){width="200"}
 
 5.  `r { i18n$t("step5") }`
 
