@@ -45,7 +45,11 @@ i18n
 
 `r { i18n$t("caption1") }`
 
+![](images/fig1.jpg){width="506"}
+
 `r { i18n$t("caption2") }`
+
+![](images/fig2.jpg){width="471"}
 
 `r { i18n$t("step3a") }`
 
@@ -126,7 +130,11 @@ i18n
 
 `r { i18n$t("caption3") }`
 
+![](images/fig3.jpg){width="476"}
+
 `r { i18n$t("caption4") }`
+
+![](images/fig4.jpg){width="476"}
 
 `r { i18n$t("step3b") }`
 
@@ -162,7 +170,7 @@ i18n
 
 `r { i18n$t("caption5") }`
 
-![](images/fig5.jpg)
+![](images/fig5.jpg){width="441"}
 
 `r { i18n$t("faq") }` 1. `r { i18n$t("q1") }` - `r { i18n$t("a1") }`
 
@@ -178,4 +186,4 @@ i18n
 
 `r { i18n$t("caption6") }`
 
-![](images/qa_workflow.jpg)
+![](images/qa_workflow.jpg){width="476"}
