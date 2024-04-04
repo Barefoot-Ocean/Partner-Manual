@@ -19,7 +19,7 @@ i18n
 
 1.  `r { i18n$t("step1") }`
 
-![](images/fig1.jpg){width="200"}
+![](images/fig1.jpg){width="650"}
 
 2.  `r { i18n$t("step2") }`
 ![](images/fig2.jpg){width="200"}
