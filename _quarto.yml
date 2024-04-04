@@ -56,19 +56,26 @@ website:
         contents: 
           - pages/kobo_setup/kobo_setup_id.qmd
       - section: pages/index/index_ceb.qmd
+        contents:
           - pages/kobo_setup/kobo_setup_ceb.qmd
       - section: pages/index/index_fil.qmd
+        contents:
           - pages/kobo_setup/kobo_setup_fil.qmd
       - section: pages/index/index_tet.qmd
       - section: pages/index/index_mg.qmd
+        contents:
           - pages/kobo_setup/kobo_setup_mg.qmd
       - section: pages/index/index_fr.qmd
+        contents:
           - pages/kobo_setup/kobo_setup_fr.qmd
       - section: pages/index/index_es.qmd
+        contents:
           - pages/kobo_setup/kobo_setup_es.qmd
       - section: pages/index/index_pt.qmd
+        contents:
           - pages/kobo_setup/kobo_setup_pt.qmd
       - section: pages/index/index_sw.qmd
+        contents:
           - pages/kobo_setup/kobo_setup_sw.qmd
 
 
