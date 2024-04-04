@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.552">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -264,12 +264,12 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Step 2: Check your email for a data validation request.</p>
 <ul>
-<li><p>You will receive an email from �Smartsheet Automation� (Figure 2)</p></li>
-<li><p>The email will contain a message with links to proceed with validation through either a �Dynamic View� or �Open Request�. Dynamic View is a table format and Open Request will direct you to a validation form.</p></li>
-<li><p>To open with �Dynamic View� (Step 3, Option A), click the link that begins with �https://dynamicview.smarthseet.com�.�</p></li>
-<li><p>To open the update request form (Step 3, Option B), click the blue �Open request� button</p></li>
+<li><p>You will receive an email from “Smartsheet Automation” (Figure 2)</p></li>
+<li><p>The email will contain a message with links to proceed with validation through either a “Dynamic View” or “Open Request”. Dynamic View is a table format and Open Request will direct you to a validation form.</p></li>
+<li><p>To open with “Dynamic View” (Step 3, Option A), click the link that begins with “https://dynamicview.smarthseet.com.”</p></li>
+<li><p>To open the update request form (Step 3, Option B), click the blue “Open request” button</p></li>
 <li><p>A preview of the entries that need to be validated will appear below this message, but you will not be able to validate any data directly in the email</p></li>
-<li><p>At the bottom of the email, there is a link for �Go to the sheet�; however, the underlying sheet has restricted access. Please review your data validation via Dynamic view, Open request, or your partner-specific report (coming soon).</p></li>
+<li><p>At the bottom of the email, there is a link for “Go to the sheet”; however, the underlying sheet has restricted access. Please review your data validation via Dynamic view, Open request, or your partner-specific report (coming soon).</p></li>
 </ul>
 <p>Figure 1: Data validation decision tree.</p>
 <p>Figure 2: Sample Smartsheet Validation Email Message</p>
@@ -279,17 +279,290 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Click on the Dynamic View link in the email request.</p></li>
 <li><p>A new internet browser window will open with a table-like setup for all entries. Here, you can easily scroll through all the entries that need validation.</p></li>
 <li><p>Click on a row to begin validation.</p></li>
-<li><p>A �Details� panel will appear on the right.</p></li>
+<li><p>A “Details” panel will appear on the right.</p></li>
 <li><p>Review the context fields and populate the validation fields. The validation fields contain the data that will be transferred to the final dataset (Table 1).</p></li>
 <li><p>Leave a comment, ONLY IF there is something that needs our attention. Barefoot Ocean staff will review comments and respond appropriately.</p></li>
-<li><p>Click the blue �Save� button to save your selection.</p></li>
+<li><p>Click the blue “Save” button to save your selection.</p></li>
 <li><p>Once validated, that row will disappear from your dynamic view.</p></li>
 <li><p>Click on the next row and repeat steps to complete validation for all entries.</p></li>
 <li><p>You can exit and re-enter by clicking on the dynamic view link from your email or logging into your account at any time. You do not need to validate all entries in one sitting.</p></li>
 <li><p>You can bookmark this link and return at any time.</p></li>
 </ul>
-<p>Table 1: Primary fields in the validation tables. Context fields provide information needed to validate data. Validation fields are populated with data that will be transferred to the master datasets. Only the validation field can be edited. Some fields are only visible in the �Details� panel when a row is clicked in the Dynamic View table.</p>
-<div class="line-block">Validation table field | Field description | Field type |</div>
+<p>Table 1: Primary fields in the validation tables. Context fields provide information needed to validate data. Validation fields are populated with data that will be transferred to the master datasets. Only the validation field can be edited. Some fields are only visible in the “Details” panel when a row is clicked in the Dynamic View table.</p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 50%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Validation table field</th>
+<th>Field description</th>
+<th>Field type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>All Tables</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>partner</td>
+<td>organization name collecting the data</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>admin3_landed</td>
+<td>Village or sub-village where the catch was landed and recorded</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>data_collector</td>
+<td>Name of person who collected the data in Kobo (enumerator)</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td><strong>Landings Names Table</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>kobo_field</td>
+<td>The field from the KoboToolbox form that needs to be validated: fisher_name, buyer_name, data_collector_name, or landingsite_name</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>new_data</td>
+<td>The value that was entered for the corresponding kobo_field</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>ref_match1</td>
+<td>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>ref_match2</td>
+<td>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>ref_match3</td>
+<td>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>validation_options</td>
+<td>Select field with correct data (new_data, ref_match1, ref_match2, ref_match3), enter another value (other), or remove (remove row from analysis because data cannot be validated). Required. Only visible in the Details panel. Entry will disappear once data is validated.</td>
+<td>validation</td>
+</tr>
+<tr class="even">
+<td>other</td>
+<td>Enter another value if none of the validation options are correct. Required IF “other” selected from validation_options. Only visible in the Details panel.</td>
+<td>validation</td>
+</tr>
+<tr class="odd">
+<td>landings_submission_ids</td>
+<td>List of submission ids this new data value appears in, from landings monitoring Kobo form</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>profiling_submission_ids</td>
+<td>List of submission ids this new data value appears in, from landings profiling Kobo form</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td><strong>Value Warnings Table</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>fisher_name</td>
+<td>Name of fisher who landed the catch</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>date_landed</td>
+<td>Date catch was landed</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>local_name</td>
+<td>Species local name</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>warning_calc</td>
+<td>Unit value: weight/individual, price/weight, length/individual, width/individual</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>warning</td>
+<td>Type of warning</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>numerator</td>
+<td>Value of warning numerator: weight, price, length</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>numerator_unit</td>
+<td>Unit of numerator: kg, g, lb, ons, USD, IDR, PHP, cm</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>denominator</td>
+<td>Value of denominator: count, weight</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>denominator_unit</td>
+<td>Unit of denominator: number, kg, g, lb, ons</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>correct</td>
+<td>Y = values are correct, N=values are incorrect, Remove = remove from analysis because values cannot be validated. Required.</td>
+<td>validation</td>
+</tr>
+<tr class="even">
+<td>correct_numerator</td>
+<td>If correct = Y, values are auto-populated, If correct = N, enter correct value</td>
+<td>validation</td>
+</tr>
+<tr class="odd">
+<td>correct_denominator</td>
+<td>If correct = Y, values are auto-populated, If correct = N, enter correct value</td>
+<td>validation</td>
+</tr>
+<tr class="even">
+<td>correct_numerator_unit</td>
+<td>If the numerator_units are incorrect, select the correct option from the dropdown</td>
+<td>validation</td>
+</tr>
+<tr class="odd">
+<td>data_origin</td>
+<td>Dataset the data came from (Landings monitoring or profiling).</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>submission_id</td>
+<td>Submission ID from the Kobo form. Use this to compare against raw data, if needed, for validation.</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td><strong>Species Table</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>new_species_photo</td>
+<td>Link to photo that was submitted in Kobo Collect</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>local_name_new</td>
+<td>The value that was entered as a new species local name in Kobo Collect</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>ref_match1</td>
+<td>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>ref_match2</td>
+<td>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>ref_match3</td>
+<td>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>eng_common_name_new</td>
+<td>English common name of new species. Please provide if known, else leave blank. (Not required)</td>
+<td>validation</td>
+</tr>
+<tr class="even">
+<td>scientific_family_new</td>
+<td>Scientific family name of new species. Please provide if known, else leave blank. (Not required)</td>
+<td>validation</td>
+</tr>
+<tr class="odd">
+<td>scientific_species_new</td>
+<td>Scientific species name of new species. Please provide if known, else leave blank. Required: If species name is unknown, please put any level of taxonomic identification (e.g.&nbsp;Family name, English common name)</td>
+<td>validation</td>
+</tr>
+<tr class="even">
+<td>submission_id</td>
+<td>Submission ID from the Kobo form. Use this to compare against raw data, if needed, for validation.</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>data_origin</td>
+<td>Dataset the data came from (Landings monitoring or profiling).</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>validation_options</td>
+<td>Select field with correct data (local_name_new, ref_match1, ref_match2, ref_match3), enter another value (other), or remove (remove row from analysis because data cannot be validated). Required. Only visible in the Details panel. Entry will disappear once data is validated.</td>
+<td>validation</td>
+</tr>
+<tr class="odd">
+<td>other</td>
+<td>Enter another value if none of the validation options are correct. Required IF “other” selected from validation_options. Only visible in the Details panel.</td>
+<td>validation</td>
+</tr>
+<tr class="even">
+<td>latest_comment</td>
+<td>This column stores the last comment that was made for that row. To view the entire discussion of comments for that row, simply click anywhere on the row. The details panel will appear and click on the “Comments” tab to view all comments for that row.</td>
+<td>auto</td>
+</tr>
+</tbody>
+</table>
+<p>Figure 3: Example Dynamic View - Value Warnings</p>
+<p>Figure 4: Example Dynamic View- Details Panel</p>
+<p>Step 3, Option B: Complete your data validation via ‘Open Request’</p>
+<ul>
+<li><p>For this option, you do not need to have a Smartsheet account login .</p></li>
+<li><p>Click on the “Open request” button in the validation email message.</p></li>
+<li><p>A new internet browser window will open with a form-like setup for each entry</p></li>
+<li><p>Review the context fields and populate the validation fields. The validation fields contain the data that will be transferred to the final dataset (Table 1).</p></li>
+<li><p>Click next at the bottom of the screen to move through each entry that needs to be validated.</p></li>
+<li><p>To skip an entry (e.g.&nbsp;if you are not sure yet which answer to pick) click “Next” without making a selection in the ‘validation_options’ column. The next entry for validation will appear.</p></li>
+<li><p>If you need to exit the page or stop before all entries have been validated, your choices should be saved the next time you reopen the request. Upon opening to continue, just click “Next” until you find an entry that needs validation.</p></li>
+<li><p>When you get to the last entry, click “Done”. A pop-up message will appear asking if you are ‘Ready to submit your update?’:</p></li>
+<li><p>Click “Go Back” if you need to review</p></li>
+<li><p>Click “Submit Update” to submit validation</p></li>
+<li><p>Check the “Send me a copy of my responses” box if you would like a copy of your responses sent to your email</p></li>
+<li><p>If you click “Send me a copy of my responses” you will receive an email titled “Update Confirmation: Landings Name QA”.</p></li>
+<li><p>There will be a table summarizing which entries were updated. Entries in which no option was selected in ‘validation_options’ will not be included.</p></li>
+<li><p>This email may contain a link to a sheet name “Landings Name QA”; however, access to this sheet is locked.</p></li>
+<li><p>To see any remaining validation needed, you will need to wait for the next update request email or open the Dynamic View.</p></li>
+</ul>
+<p>Figure 5: Example of “Open Request” format</p>
+<p><img src="images/fig5.jpg" class="img-fluid"></p>
+<p>Frequently Asked Questions: 1. Can multiple people work on data validation at the same time? - Yes, however, once an entry (row) has been validated in Dynamic View it will no longer be visible.</p>
+<ol start="2" type="1">
+<li>Do I need a Smartsheet account?</li>
+</ol>
+<ul>
+<li>Only to complete data validation via Dynamic View (i.e.&nbsp;the table view). You do not need a paid account, with a free trial or free version (once your trial is completed), you will be able to view and interact with all the Smartsheet files owned by Barefoot Ocean.</li>
+</ul>
+<ol start="3" type="1">
+<li>What happens after data is validated?</li>
+</ol>
+<ul>
+<li>In some cases, data will undergo additional review by the Barefoot Ocean data team. Validated data will be updated in the database, and when appropriate, dropdown menus will be updated in the Kobo reference files and forms (Figure 6). Data that has not been validated will not appear in the dashboard visualizations or statistics, but will be available in the raw data download.</li>
+</ul>
+<p>If at any time you encounter any errors, have questions, or need support for completing the data validation, please contact us at barefootinfo@barefootocean.org.</p>
+<p>Figure 6: Data Validation to Reference File Workflow</p>
+<p><img src="images/qa_workflow.jpg" class="img-fluid"></p>
 
 
 </section>
