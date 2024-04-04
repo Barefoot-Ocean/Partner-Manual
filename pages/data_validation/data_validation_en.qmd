@@ -75,6 +75,10 @@ i18n
 
 `r { i18n$t("table1") }`
 
-
-| `r { i18n$t("t1.1") }` | `r { i18n$t("t1.2") }` | `r { i18n$t("t1.3") }` |
-
+| `r { i18n$t("t1.1") }` \| `r { i18n$t("t1.2") }` \| `r { i18n$t("t1.3") }` \|
+| `r { i18n$t("t1.4") }|`
+| `partner|r { i18n$t("t1.5") }|r { i18n$t("t1.6") }|`
+| `admin3_landed|r { i18n$t("t1.7") }|r { i18n$t("t1.6") }|`
+| `data_collector|r { i18n$t("t1.8") }|r { i18n$t("t1.6") }|`
+| `r { i18n$t("t1.9") }|`
+| `kobo_field|r { i18n$t("t1.10") }|r { i18n$t("t1.6") }|`
