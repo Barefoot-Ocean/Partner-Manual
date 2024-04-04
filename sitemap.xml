@@ -1,79 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/index.html</loc>
-    <lastmod>2024-04-04T23:03:05.874Z</lastmod>
-  </url>
-  <url>
     <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/reference_files/reference_files_en.html</loc>
-    <lastmod>2024-04-04T23:03:05.886Z</lastmod>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/data_validation/data_validation_en.html</loc>
-    <lastmod>2024-04-04T23:03:05.874Z</lastmod>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/kobo_setup/kobo_setup_pt.html</loc>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/kobo_setup/kobo_setup_sw.html</loc>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/kobo_setup/kobo_setup_id.html</loc>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/kobo_setup/kobo_setup_fr.html</loc>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/kobo_setup/kobo_setup_fil.html</loc>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/full_guide/full_guide_en.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_sw.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_id.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_fr.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_ceb.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_en.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/socioeco_dashboard/socioeco_dashboard_en.html</loc>
-    <lastmod>2024-04-04T23:03:05.886Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/kobo_setup/kobo_setup_en.html</loc>
-    <lastmod>2024-04-04T23:03:05.886Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_es.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_tet.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_mg.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_pt.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_fil.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_mg.html</loc>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_ceb.html</loc>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/quick_guide/quick_guide_en.html</loc>
-    <lastmod>2024-04-04T23:03:05.886Z</lastmod>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/fisheries_dashboard/fisheries_dashboard_en.html</loc>
-    <lastmod>2024-04-04T23:03:05.878Z</lastmod>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/index.html</loc>
+    <lastmod>2024-04-04T23:26:53.140Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/socioeco_dashboard/socioeco_dashboard_en.html</loc>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/data_validation/data_validation_en.html</loc>
+    <lastmod>2024-04-04T23:26:53.140Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_tet.html</loc>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_id.html</loc>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_es.html</loc>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_sw.html</loc>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/index/index_en.html</loc>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/smartsheet_intro/smartsheet_intro_en.html</loc>
-    <lastmod>2024-04-04T23:03:05.886Z</lastmod>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/kobo_setup/kobo_setup_es.html</loc>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/kobo_setup/kobo_setup_ceb.html</loc>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/kobo_setup/kobo_setup_mg.html</loc>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/kobo_setup/kobo_setup_en.html</loc>
+    <lastmod>2024-04-04T23:26:53.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/Quarto_Website_Translations/pages/fisheries_dashboard/fisheries_dashboard_en.html</loc>
+    <lastmod>2024-04-04T23:26:53.144Z</lastmod>
   </url>
 </urlset>
