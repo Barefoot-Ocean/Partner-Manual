@@ -45,11 +45,11 @@ i18n
 
 `r { i18n$t("caption1") }`
 
-![](images/fig1.jpg){width="506"}
+![](images/fig1.jpg){width="714"}
 
 `r { i18n$t("caption2") }`
 
-![](images/fig2.jpg){width="471"}
+![](images/fig2.jpg){width="753"}
 
 `r { i18n$t("step3a") }`
 
@@ -80,7 +80,7 @@ i18n
 `r { i18n$t("table1") }`
 
 | `r { i18n$t("t1.1") }`      | `r { i18n$t("t1.2") }`  | `r { i18n$t("t1.3")}`  |
-|-----------------------------|-------------------------|------------------------|
+|---------------------------|-----------------------|----------------------|
 | **`r { i18n$t("t1.4") }`**  |                         |                        |
 | partner                     | `r { i18n$t("t1.5") }`  | `r { i18n$t("t1.6") }` |
 | admin3_landed               | `r { i18n$t("t1.9") }`  | `r { i18n$t("t1.6") }` |
@@ -130,11 +130,11 @@ i18n
 
 `r { i18n$t("caption3") }`
 
-![](images/fig3.jpg){width="476"}
+![](images/fig3.jpg){width="673"}
 
 `r { i18n$t("caption4") }`
 
-![](images/fig4.jpg){width="476"}
+![](images/fig4.jpg){width="682"}
 
 `r { i18n$t("step3b") }`
 
@@ -186,4 +186,4 @@ i18n
 
 `r { i18n$t("caption6") }`
 
-![](images/qa_workflow.jpg){width="476"}
+![](images/qa_workflow.jpg){width="678"}
