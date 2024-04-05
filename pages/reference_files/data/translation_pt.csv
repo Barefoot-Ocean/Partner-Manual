@@ -1,0 +1,157 @@
+key,pt
+title,Actualizar Ficheiros De Referência
+p1,"Todos os arquivos de referência são atualizados no Smartsheet Dynamic View. Os ficheiros de referência servem como entradas para listas suspensas em formulários KoboToolbox e contêm dados que são adicionados aos conjuntos de dados principais através de junções. Contêm informações completas sobre os níveis administrativos das comunidades piscatórias (País, Província, Distrito, Aldeia), locais de desembarque, zona de pesca, pescadores, compradores, colectores de dados, espécies, zonas de gestão, tipos de artes e organizações parceiras. As etapas abaixo descrevem como atualizar os arquivos de referência com novas informações."
+step1,Etapa 1: Crie uma conta gratuita do smartsheet.
+point1,Uma conta gratuita pode ser criada em https://www.smartsheet.com/
+point2,"Selecione ""Experimente o smartsheet gratuitamente"""
+step2,Passo 2: Forneça à Barefoot Ocean o endereço de E-mail que utilizou para criar a sua conta smartsheet.
+point3,A Barefoot Ocean irá então partilhar os ficheiros de referência associados à sua organização.
+point4,"Para visualizar seus arquivos de referência, você precisará entrar no smartsheet Dynamic View usando suas credenciais do smartsheet: https://dynamicview.smartsheet.com/login"
+point5,"Uma vez conectado ao Dynamic View (não ao aplicativo smartsheet), você verá uma lista de arquivos de referência compartilhados com sua conta (Figura 1)."
+fig1,Figura 1: lista de ficheiros de referência na vista dinâmica
+step3,Etapa 3: Clique em um arquivo de referência para fazer atualizações
+point6,"Uma vez aberto, você pode clicar em cada linha para fazer edições nos dados existentes ou clicar no botão ""Novo"" no canto superior direito para adicionar novos dados (Figura 2)."
+point7,"Um painel de detalhes aparecerá no lado direito, onde você inserirá as informações necessárias (Figura 3; Tabela 1). Selecione ""Salvar"" no canto inferior direito do painel de detalhes quando terminar de atualizar. Você não precisa notificar a Barefoot Ocean quando fizer alterações ou adições às folhas de referência. Serão automaticamente fundidos com os ficheiros de referência principais e incorporados na Kobo."
+point8,"Para deixar um comentário ou fazer perguntas à equipa Barefoot, selecione o separador ""comentários"" no painel de detalhes. Todos os indivíduos com quem o ficheiro de referência é partilhado, incluindo a equipa Barefoot Ocean, receberão uma notificação quando um comentário for feito, pelo que não há necessidade de marcar qualquer indivíduo em particular."
+fig2,Figura 2: Exemplo de visualização do admin2_ref na Visualização Dinâmica
+fig3,Figura 3: Exemplo de visualização do painel de detalhes admin2_ref na Visualização Dinâmica
+step4,"Etapa 4: responder a solicitações de atualização quando os dados estiverem ausentes ou incorretos, ou responder a um comentário."
+point9,"Se existirem informações incompletas ou incorrectas que sejam essenciais para preencher os menus suspensos da Kobo ou para junções, ou se for feito um comentário na folha, será enviado um pedido de actualização a todos os utilizadores apropriados, solicitando-lhes que actualizem as informações ou respondam a um comentário (Figura 4). Por padrão, todos com acesso aos seus arquivos de referência receberão a solicitação de atualização."
+point10,"Uma prévia dos dados que precisam ser atualizados ou respondidos aparecerá abaixo da mensagem de E-mail, mas você não poderá atualizar nenhum dado diretamente no e-mail"
+point10.1,"Na parte inferior do E-mail, há um link para ""ir para a planilha""; no entanto, a planilha subjacente tem acesso restrito. Reveja os seus dados ou responda ao comentário através de um pedido aberto."
+point11,"Clique no botão"" Abrir pedido "" na mensagem de E-mail."
+point12,Uma nova janela do navegador da internet será aberta com uma configuração semelhante a um formulário para cada entrada (Figura 5)
+point13,Revise os campos BFO e preencha os campos editáveis.
+point14,Clique em avançar na parte inferior da tela para percorrer cada entrada que precisa ser atualizada.
+point15,"Para pular uma entrada (por exemplo, se você ainda não tem certeza de qual resposta escolher) clique em ""Avançar"" sem fazer uma seleção nas colunas editáveis. A próxima entrada que precisa ser atualizada aparecerá."
+point16,"Se você precisar sair da página ou parar antes que todas as entradas tenham sido atualizadas, suas opções devem ser salvas na próxima vez que você reabrir a solicitação. Ao abrir para continuar, basta clicar em"" Avançar "" até encontrar uma entrada que precisa ser atualizada."
+point17,"Quando chegar à última entrada, clique em ""Concluído"". Uma mensagem pop-up aparecerá perguntando se você está pronto para enviar sua atualização?’:"
+point17.1,"Clique em ""Voltar"" Se precisar rever"
+point17.2,"Clique em ""Enviar atualização"" para enviar suas atualizações."
+point17.3,Suas atualizações são automaticamente anexadas ao arquivo de referência e você pode visualizá-las na Visualização Dinâmica
+p2,"Se, a qualquer momento, encontrar algum erro, tiver dúvidas ou precisar de suporte para atualizar os arquivos de referência, entre em contato conosco em barefootinfo@barefootocean.org."
+fig4,"Figura 4: exemplo de E-mail ""Pedido de atualização"" quando é necessário corrigir informações ou responder a comentários."
+table1,"Tabela 1: os campos principais em cada um dos ficheiros de referência. O tipo de campo"" BFO "" é gerido pela Barefoot Ocean e não é editável. Para solicitar alterações a qualquer um dos Campos"" BFO"", por favor deixe um comentário. Apenas os campos com o tipo de campo ""editável"" podem ser editados. O tipo de campo ""auto"" é preenchido automaticamente."
+t1.1,Nome do campo
+t1.2,Descrição do campo
+t1.3,Tipo de campo
+t1.4,Todos os ficheiros de referência
+t1.5,"Esta coluna armazena o último comentário que foi feito para essa linha. Para ver toda a discussão de comentários para essa linha, basta clicar em qualquer lugar na linha. O painel de detalhes aparecerá, como acontece na Figura 3. Clique na guia"" Comentários "" para ver todos os comentários dessa linha."
+t1.6,auto
+t1.7,editável
+t1.8,Data da última edição
+t1.9,Usuário que fez a última edição
+t1.10,"Código de país ISO, que é um código de combinação de letras reconhecido internacionalmente"
+t1.11,"Nome do admin1, o nível administrativo mais alto depois do país (ou seja, província) sem espaços e sem pontuação, apenas sublinhados"
+t1.12,"Nome de admin1, o nível administrativo mais alto depois do país (ou seja, província) com espaços e pontuação permitidos. Por favor, não altere o rótulo a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
+t1.13,"O sinalizador será vermelho se o valor"" partner "" não existir no org_ref"
+t1.14,"Nome do parceiro sem espaços e sem pontuação, apenas sublinhados. A lista suspensa está ligada à coluna"" Nome "" no org_ref."
+t1.15,"Selecione "" Sim "" se os dados estiverem sendo coletados no momento. Se já não estiver a recolher dados e pretender ocultá-los na lista pendente Kobo, seleccione ""Não.”"
+t1.16,"Escolha "" Sim "" se quiser remover o admin1. Admin1s só deve ser removido se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se os dados não forem mais coletados, selecione"" não ""na coluna"" ativo""."
+t1.18,"Nome do admin2, o nível administrativo mais alto após admin1 (ou seja, Distrito) sem espaços e sem pontuação, apenas sublinhados"
+t1.19,"Nome do admin2, o nível administrativo mais alto depois de admin1 (ou seja, distrito) com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
+t1.20,"O sinalizador ficará vermelho se o valor"" admin1_ref_name "" não existir no admin1_ref"
+t1.21,"Nome Admin1 sem espaços e sem pontuação, apenas sublinhados. A lista suspensa está ligada à coluna"" Nome "" no admin1_ref."
+t1.23,"Escolha "" Sim "" se quiser remover o admin2. Admin2s só deve ser removido se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se os dados não forem mais coletados, selecione"" não ""na coluna"" ativo""."
+t1.25,"Nomes Admin2 e admin3 combinados sem espaços e sem pontuação, apenas sublinhados.O admin3 é o nível administrativo mais alto depois do admin2 (ou seja, Aldeia)."
+t1.26,"Nome do admin3, o nível administrativo mais alto depois de admin2 (ou seja, aldeia) com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
+t1.27,Nome Admin1 com espaços e pontuação permitidos. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin2 escolhido.
+t1.28,"Nome Admin1 sem espaços e sem pontuação, apenas sublinhados. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin2 escolhido"
+t1.29,"O sinalizador ficará vermelho se o valor"" admin2 "" não existir no admin2_ref."
+t1.30,"Nome Admin2 com espaços e pontuação permitidos. A lista suspensa é conectada à coluna"" rótulo "" no admin2_ref."
+t1.31,"Nome Admin2 sem espaços e sem pontuação, apenas sublinhados. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin2 escolhido."
+t1.33,"Escolha "" Sim "" se quiser remover o admin3. Admin3s só deve ser removido se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se os dados não forem mais coletados, selecione"" não ""na coluna"" ativo""."
+t1.34,Latitude do admin3
+t1.35,Longitude do admin3
+t1.36,O sinalizador será verificado se management_ID_1-4 não existir no management_ref.
+t1.37,"Nome do ID de gestão, com espaços e pontuação permitidos. Se houver 4 áreas de gestão dentro do admin3, basta selecionar a primeira unidade de gestão em ""management_ID_1"", a segunda unidade de gestão em"" management_ID_2"", etc. A lista suspensa está conectada à coluna"" management_ID "" no management_ref."
+t1.38,Campo sim / não que identifique se a aldeia é responsável pela gestão da área.
+t1.40,"Nome do comprador sem espaços e sem pontuação, apenas sublinhados"
+t1.41,"Nome do comprador com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
+t1.42,"Sexo do comprador; M (masculino), F (feminino) ou NB (não binário)"
+t1.43,"Número único de identificação para identificar o comprador. Por favor, deixe um comentário se dois compradores diferentes tiverem o mesmo ID. Por padrão, dois compradores com o mesmo nome exato, mesmo que sejam de duas aldeias diferentes, receberão o mesmo ID, salvo indicação em contrário."
+t1.44,"Nome Admin1 onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
+t1.45,"Nome Admin2 de onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
+t1.46,"Nome Admin3 onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin3_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
+t1.47,"Nomes Admin2 e admin3 combinados sem espaços e sem pontuação, apenas sublinhados.A lista suspensa está ligada à coluna"" Nome "" no admin3_ref."
+t1.48,"O sinalizador ficará vermelho se o valor"" admin3_ref_name "" não existir no admin3_ref."
+t1.49,"Selecione ""Sim""se os dados estiverem a ser recolhidos desta pessoa. Se já não estiverem a ser recolhidos dados desta pessoa e pretender ocultá-los na lista pendente Kobo, seleccione ""Não.”"
+t1.50,"Escolha "" Sim "" se quiser remover o comprador. Os compradores só devem ser removidos se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se o comprador não estiver mais na aldeia ou não comprar mais, selecione ""não"" na coluna ""ativo""."
+t1.52,"Nome do pescador sem espaços e sem pontuação, apenas sublinhados"
+t1.53,"Nome do pescador com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
+t1.54,"Sexo do pescador; M (masculino), F (feminino) ou NB (não binário)"
+t1.55,"Número único de identificação para identificar o pescador. Por favor, deixe um comentário se dois pescadores diferentes tiverem o mesmo ID. Por defeito, dois pescadores com o mesmo nome exacto, mesmo que sejam de duas aldeias diferentes, receberão o mesmo documento de identificação, salvo indicação em contrário."
+t1.56,"Nome Admin1 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
+t1.57,"Nome Admin2 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
+t1.58,"Nome Admin3 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin3_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
+t1.62,"Escolha "" Sim "" se quiser remover o admin3. Admin3s só deve ser removido se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se o pescador não estiver mais na aldeia ou não pescar mais, selecione ""não"" na coluna ""ativo""."
+t1.64,"Nome do coletor de dados sem espaços e sem pontuação, apenas sublinhados"
+t1.65,Nome do coletor de dados com espaços e pontuação permitidos.
+t1.66,"Sexo do coletor de dados; M (masculino), F (feminino) ou NB (não binário)"
+t1.69,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de monitorização de aterragens Kobo."
+t1.70,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de criação de perfil Kobo landings"
+t1.71,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de inquérito aos agregados familiares Kobo"
+t1.72,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de criação de perfil da Comunidade Kobo"
+t1.73,"Escolha "" Sim "" se desejar remover o coletor de dados."
+t1.75,"Nome da zona de pesca sem espaços e sem pontuação, apenas sublinhados"
+t1.76,"Nome da zona de pesca com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
+t1.81,Latitude da zona de pesca
+t1.82,Longitude da zona de pesca
+t1.83,"Seleccione"" Sim "" se a zona de pesca estiver actualmente a ser utilizada. Se pretender ocultá-lo da lista pendente Kobo ou se já não estiver a ser utilizado, seleccione ""Não.”"
+t1.84,"Escolha "" Sim "" se quiser retirar o terreno de pesca"
+t1.85,"Nome Local da engrenagem sem espaços e sem pontuação, apenas sublinhados"
+t1.86,"Nome Local da engrenagem com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
+t1.87,"Nome em inglês da engrenagem sem espaços e sem pontuação, apenas sublinhados. Esta é uma lista suspensa predefinida. Por favor, escolha um que melhor se adapte ao equipamento local, ou comente se não tiver certeza."
+t1.88,Descrição da arte
+t1.89,"As espécies agrupam os alvos das artes. Se uma engrenagem visar várias espécies, crie uma nova linha de dados para cada grupo de espécies. A lista suspensa está ligada à coluna"" species_group "" no species_ref."
+t1.90,"O sinalizador será vermelho se o"" species_group "" escolhido não existir no species_ref."
+t1.93,"Escolha "" Sim "" se quiser remover a engrenagem. Por favor, deixe um comentário explicando o porquê."
+t1.95,"Nome do local de aterragem sem espaços e sem pontuação, apenas sublinhados"
+t1.96,Nome do local de aterragem com espaços e pontuação permitidos
+t1.99,"Escolha "" Sim "" se quiser remover o local de aterragem."
+t1.103,"Nome único da área de gestão com espaços e pontuação permitidos. Por favor, não altere o nome a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
+t1.104,"Nome único da área de gestão e data de encerramento. Este deve ser o management_id sem espaços ou pontuação combinados com um número que identifique o encerramento Único com essa área. Por exemplo, se um management_id chamado Boston tivesse duas datas de encerramento associadas a ele, teríamos dois campos management_id_unique atribuídos. Um poderia ser Boston_1 e outro Boston_2 para identificar encerramentos dentro de uma área de gestão."
+t1.105,A lista das zonas de pesca associadas ao ID de gestão e à data de encerramento.
+t1.106,"O tipo de método de gestão, incluindo encerramentos temporários, zonas de exclusão, etc. Esta é uma lista predefinida. Por favor, comente se não tiver certeza."
+t1.107,Espécies-alvo para a zona gerida. Podem ser grupos de espécies ou espécies científicas. O campo está aberto.
+t1.108,Habitat-alvo para a zona gerida
+t1.109,Dimensão da superfície gerida medida em hectares (ha)
+t1.110,Data de encerramento da área gerida
+t1.111,Data de abertura da zona gerida
+t1.112,Latitude da área de gestão
+t1.113,Longitude da área de gestão
+t1.114,"Escolha "" Sim "" se quiser remover o ID de gestão."
+t1.116,"Nome do parceiro / organização sem espaços e sem pontuação, apenas sublinhados"
+t1.117,"Nome do parceiro / organização com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
+t1.118,"Os grupos de espécies sobre os quais o parceiro recolhe dados. A lista suspensa está ligada à coluna"" species_group "" no species_ref. Selecione Todos os grupos se eles quiserem que todas as espécies no species_ref apareçam."
+t1.119,"Selecione ""Sim""se o parceiro estiver a recolher dados. Se pretender ocultá-lo da lista pendente Kobo ou se já não estiver a recolher dados, seleccione ""Não.”"
+t1.120,"Escolha "" Sim "" se desejar remover o parceiro / organização"
+t1.122,"Nome do parceiro sem espaços ou pontuação, apenas sublinhados. As listas suspensas de espécies são filtradas pelo parceiro. Alguns países têm múltiplos parceiros que partilham uma lista de espécies. Nesse caso, você verá o código do país em vez do parceiro, e toda a lista de espécies será exibida para cada parceiro nesse país, a menos que certos grupos de espécies sejam especificados na coluna ""species_group"" no org_ref."
+t1.123,Tipo de Habitat associado à espécie
+t1.124,"Nome Local e nome da espécie combinados com um sublinhado, sem outra pontuação ou espaços."
+t1.125,Nome Local com o nome da espécie entre parênteses
+t1.126,"Espécies categorizadas em grupos com base em sua biologia, sem espaços ou pontuação, apenas sublinhados. Este campo é utilizado para ajudar a filtrar determinadas opções de resposta no Kobo."
+t1.127,"O sinalizador será vermelho se o"" species_group "" escolhido não for referenciado no gear_ref. Isto significa que todas as artes indicadas no gear_ref serão apresentadas para este grupo de espécies. Para mostrar apenas as engrenagens que visam este grupo de espécies, adicione o grupo de espécies ao gear_ref."
+t1.128,Nome da espécie Local com espaços e pontuação permitidos
+t1.129,"Nome do admin2 sem espaços ou pontuação, apenas sublinhados. A lista suspensa está ligada à coluna"" Nome "" no admin2_ref. *Este campo será exibido apenas para parceiros que desejam a lista suspensa de espécies filtrada pelo admin2 escolhido.*"
+t1.130,Nome comum da espécie em inglês com espaços e pontuação permitidos
+t1.131,Nome de família de uma espécie com espaços e pontuação permitidos
+t1.132,"Nome científico da espécie com espaços e pontuação permitidos. Se a espécie for desconhecida, o género ou a família também podem ser introduzidos. Se apenas o género for conhecido, escreva o nome do género seguido de"" sp ""(em oposição a"" spp "" ou sp.”). Se apenas a família for conhecida, escreva o nome da família (ou seja, Lutjanidae)."
+t1.133,"Escolha "" Sim "" se quiser remover a espécie."
+t1.134,"A tradução em Inglês para ""adicionar novo"", ""não sei"", ""não está à venda"", etc."
+t1.135,"A tradução da língua do país para ""adicionar novo"", ""não sei"", ""não está à venda"", etc."
+t1.136,A folha de referência com a qual a tradução será mesclada para aparecer na lista suspensa apropriada em Kobo
+t1.138,"Nome do parceiro sem espaços ou pontuação, apenas sublinhados."
+t1.139,O preço mínimo baseado em species_group
+t1.140,O preço máximo baseado em species_group
+t1.141,"O grupo de espécies ao qual se aplica o aviso min/max. Para adicionar um novo grupo, por favor, comente e informe o BFO."
+t1.142,O habitat ao qual se aplica o aviso min/max.
+t1.143,Preço por kg ou preço por indivíduo (os avisos de peso e comprimento das espécies são aplicados no back-end através de dados da literatura)
+faq,Perguntas Frequentes:
+q1,"Depois de adicionar um novo admin1, quanto tempo leva para que ele apareça no menu suspenso para admin2?"
+a1,"Levará aproximadamente 15 minutos até que novas entradas estejam disponíveis nos menus suspensos dinâmicos. Isso se aplica ao menu suspenso admin2 em admin3_ref, ao menu suspenso species_group em gear_ref, ao menu suspenso admin3 em buyer_ref, fisher_ref, data_collector, etc. Veja a Figura 5 para a lista completa de menus suspensos dinâmicos e seu fluxo de trabalho através dos arquivos de referência."
+q2,"Depois de adicionar ou atualizar um ficheiro de referência, quanto tempo demora até que as atualizações apareçam nos inquéritos da Kobo?"
+a2,Deverá ver um formulário Kobo actualizado em aproximadamente 12-24 horas.
+q3,"Como devem ser registados os nomes dos compradores, pescadores e colectores de dados?"
+a3,"Idealmente, os nomes devem ser o mais exclusivos possível para o indivíduo e incluir seu nome, sobrenome e apelido. Se um indivíduo não desejar partilhar o seu apelido completo, pode também utilizar a primeira letra inicial ou a primeira letra do seu apelido."
+fig5,Ligação suspensa dinâmica entre ficheiros de referência.

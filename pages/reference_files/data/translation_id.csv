@@ -1,0 +1,157 @@
+key,id
+title,Memperbarui File Referensi
+p1,"Semua file referensi diperbarui dalam Tampilan Dinamis Smartsheet. File referensi berfungsi sebagai input untuk daftar dropdown dalam formulir KoBoToolbox dan berisi data yang ditambahkan ke kumpulan data master melalui gabungan. Mereka berisi informasi lengkap tentang tingkat administrasi komunitas nelayan (negara, provinsi, kabupaten, desa), lokasi pendaratan, tempat penangkapan ikan, nelayan, pembeli, pengumpul data, spesies, area pengelolaan, jenis peralatan, dan organisasi mitra. Langkah-langkah di bawah ini menguraikan cara memperbarui file referensi dengan informasi baru."
+step1,Langkah 1: Buat akun smartsheet gratis.
+point1,Akun gratis dapat dibuat di https://www.smartsheet.com/
+point2,"Pilih ""Coba smartsheet gratis"""
+step2,Langkah 2: Berikan Barefoot Ocean alamat email yang Anda gunakan untuk membuat akun smartsheet Anda.
+point3,Barefoot Ocean kemudian akan membagikan file referensi yang terkait dengan organisasi Anda.
+point4,"Untuk melihat file referensi Anda, Anda harus masuk ke Tampilan Dinamis smartsheet menggunakan kredensial smartsheet Anda: https://dynamicview.smartsheet.com/login"
+point5,"Setelah masuk ke Tampilan Dinamis (bukan aplikasi smartsheet), Anda akan melihat daftar file referensi yang dibagikan dengan akun Anda (Gambar 1)."
+fig1,Gambar 1: Daftar file referensi dalam Tampilan Dinamis
+step3,Langkah 3: Klik pada file referensi untuk membuat pembaruan
+point6,"Setelah terbuka, Anda dapat mengeklik setiap baris untuk mengedit data yang ada, atau mengeklik tombol ""Baru"" di sudut kanan atas untuk menambahkan data baru (Gambar 2)."
+point7,"Panel detail akan muncul di sisi kanan tempat Anda akan memasukkan informasi yang diperlukan (Gambar 3; Tabel 1). Pilih ""simpan"" di kanan bawah panel detail setelah Anda selesai memperbarui. Anda tidak perlu memberi tahu Barefoot Ocean saat Anda membuat perubahan atau penambahan pada lembar referensi. Ini akan secara otomatis digabungkan dengan file referensi master dan digabungkan dalam Kobo."
+point8,"Untuk memberikan komentar atau mengajukan pertanyaan apa pun kepada tim Barefoot, pilih tab ""Komentar"" di panel detail. Semua individu yang berbagi file referensi, termasuk tim Barefoot Ocean, akan menerima pemberitahuan saat komentar dibuat, jadi tidak perlu menandai individu tertentu."
+fig2,Gambar 2: Contoh tampilan admin2_ref dalam Tampilan Dinamis
+fig3,Gambar 3: Contoh tampilan panel detail admin2_ref dalam Tampilan Dinamis
+step4,"Langkah 4: Menanggapi permintaan pembaruan saat data hilang atau salah, atau menanggapi komentar."
+point9,"Jika ada informasi yang tidak lengkap atau salah yang penting untuk mengisi dropdown Kobo atau untuk gabungan, atau jika komentar dibuat di lembar, permintaan pembaruan akan dikirim ke semua pengguna yang sesuai, meminta mereka untuk memperbarui informasi atau menanggapi komentar (Gambar 4). Secara default, semua orang yang memiliki akses ke file referensi Anda akan menerima permintaan pembaruan."
+point10,"Pratinjau data yang perlu diperbarui atau ditanggapi akan muncul di bawah pesan email, tetapi Anda tidak akan dapat memperbarui data apa pun secara langsung di email"
+point10.1,"Di bagian bawah email, ada tautan untuk ""Buka lembar""; namun, lembar yang mendasarinya memiliki akses terbatas. Harap tinjau data Anda atau tanggapi komentar tersebut melalui permintaan terbuka."
+point11,"Klik tombol ""Buka Permintaan"" di pesan email."
+point12,Jendela browser internet baru akan terbuka dengan pengaturan seperti formulir untuk setiap entri (Gambar 5)
+point13,Tinjau bidang BFO dan isi bidang yang dapat diedit.
+point14,Klik berikutnya di bagian bawah layar untuk menelusuri setiap entri yang perlu diperbarui.
+point15,"Untuk melewati entri (mis. jika Anda belum yakin jawaban mana yang harus dipilih) klik ""Berikutnya"" tanpa membuat pilihan di kolom yang dapat diedit. Entri berikutnya yang perlu diperbarui akan muncul."
+point16,"Jika Anda perlu keluar dari halaman atau berhenti sebelum semua entri diperbarui, pilihan Anda akan disimpan saat berikutnya Anda membuka kembali permintaan. Saat membuka untuk melanjutkan, cukup klik ""Next"" hingga Anda menemukan entri yang perlu diperbarui."
+point17,"Saat Anda masuk ke entri terakhir, klik ""Selesai"". Pesan pop-up akan muncul menanyakan apakah Anda ' Siap mengirimkan pembaruan Anda?’:"
+point17.1,"Klik ""Kembali"" jika Anda perlu meninjau"
+point17.2,"Klik ""Kirim Pembaruan"" untuk mengirimkan pembaruan Anda."
+point17.3,Pembaruan Anda secara otomatis ditambahkan ke file referensi dan Anda dapat melihatnya dalam Tampilan Dinamis
+p2,"Jika sewaktu-waktu Anda menemukan kesalahan, memiliki pertanyaan, atau memerlukan dukungan untuk memperbarui file referensi, silakan hubungi kami di barefootinfo@barefootocean.org."
+fig4,"Gambar 4: Contoh email ""Permintaan Pembaruan"" saat informasi perlu diperbaiki atau komentar perlu ditanggapi."
+table1,"Tabel 1: Bidang utama di setiap file referensi. Jenis bidang "" BFO "" dikelola oleh Barefoot Ocean dan tidak dapat diedit. Untuk meminta perubahan pada salah satu bidang ""BFO"", silakan tinggalkan komentar. Hanya bidang dengan tipe bidang ""dapat diedit"" yang dapat diedit. Jenis bidang ""otomatis"" diisi secara otomatis."
+t1.1,Nama bidang
+t1.2,Deskripsi bidang
+t1.3,Jenis bidang
+t1.4,Semua file referensi
+t1.5,"Kolom ini menyimpan komentar terakhir yang dibuat untuk baris tersebut. Untuk melihat seluruh diskusi komentar untuk baris tersebut, cukup klik di mana saja pada baris tersebut. Panel detail akan muncul, seperti pada Gambar 3. Klik pada tab ""Komentar"" untuk melihat semua komentar untuk baris tersebut."
+t1.6,otomatis
+t1.7,dapat diedit
+t1.8,Tanggal suntingan terakhir
+t1.9,Pengguna yang melakukan pengeditan terakhir
+t1.10,"Kode negara ISO, yang merupakan kode kombinasi huruf yang diakui secara internasional"
+t1.11,"Nama admin1, tingkat administrasi tertinggi setelah negara (yaitu provinsi) tanpa spasi dan tanpa tanda baca, hanya garis bawah"
+t1.12,"Nama admin1, tingkat administrasi tertinggi setelah negara (yaitu provinsi) dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
+t1.13,"Bendera akan berwarna merah jika nilai"" mitra "" tidak ada di org_ref"
+t1.14,"Nama mitra tanpa spasi dan tanpa tanda baca, hanya garis bawah. Daftar tarik-turun terhubung ke kolom ""nama"" di org_ref."
+t1.15,"Pilih ""Ya"" jika data saat ini sedang dikumpulkan di sana. Jika Anda tidak lagi mengumpulkan data di sana, dan ingin menyembunyikannya dari menu tarik-turun Kobo, pilih ""Tidak.”"
+t1.16,"Pilih ""Ya"" jika Anda ingin menghapus admin1. Admin1 hanya boleh dihapus jika namanya salah atau merupakan duplikat dari catatan yang ada. Silakan tinggalkan komentar tentang alasan penghapusan. Jika data tidak lagi dikumpulkan di sana, pilih ""Tidak"" dari kolom ""aktif""."
+t1.18,"Nama admin2, tingkat administrasi tertinggi setelah admin1 (yaitu distrik) tanpa spasi dan tanpa tanda baca, hanya garis bawah"
+t1.19,"Nama admin2, tingkat administrasi tertinggi setelah admin1 (yaitu distrik) dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
+t1.20,"Bendera akan berwarna merah jika nilai"" admin1_ref_name "" tidak ada di admin1_ref"
+t1.21,"Nama Admin1 tanpa spasi dan tanpa tanda baca, hanya garis bawah. Daftar tarik-turun terhubung ke kolom ""nama"" di admin1_ref."
+t1.23,"Pilih ""Ya"" jika Anda ingin menghapus admin2. Admin2 hanya boleh dihapus jika namanya salah atau merupakan duplikat dari catatan yang ada. Silakan tinggalkan komentar tentang alasan penghapusan. Jika data tidak lagi dikumpulkan di sana, pilih ""Tidak"" dari kolom ""aktif""."
+t1.25,"Nama admin2 dan admin3 digabungkan tanpa spasi dan tanpa tanda baca, hanya garis bawah.Admin3 adalah tingkat administrasi tertinggi setelah admin2 (yaitu desa)."
+t1.26,"Nama admin3, tingkat administrasi tertinggi setelah admin2 (yaitu desa) dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
+t1.27,Admin1 nama dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin1_ref dan diisi secara otomatis berdasarkan admin2 yang dipilih.
+t1.28,"Nama Admin1 tanpa spasi dan tanpa tanda baca, hanya garis bawah. Ini ditarik dari admin1_ref dan diisi secara otomatis berdasarkan admin2 yang dipilih"
+t1.29,"Bendera akan berwarna merah jika nilai"" admin2 "" tidak ada di admin2_ref."
+t1.30,"Nama Admin2 dengan spasi dan tanda baca diperbolehkan. Daftar tarik-turun terhubung ke kolom ""label"" di admin2_ref."
+t1.31,"Nama Admin2 tanpa spasi dan tanpa tanda baca, hanya garis bawah. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin2 yang dipilih."
+t1.33,"Pilih ""Ya"" jika Anda ingin menghapus admin3. Admin3 hanya boleh dihapus jika namanya salah atau merupakan duplikat dari catatan yang ada. Silakan tinggalkan komentar tentang alasan penghapusan. Jika data tidak lagi dikumpulkan di sana, pilih ""Tidak"" dari kolom ""aktif""."
+t1.34,Lintang admin3
+t1.35,Bujur admin3
+t1.36,Bendera akan dicentang jika management_ID_1-4 tidak ada di management_ref.
+t1.37,"Nama ID manajemen, dengan spasi dan tanda baca diperbolehkan. Jika ada 4 area manajemen dalam admin3, cukup pilih unit manajemen pertama di ""management_ID_1"", unit manajemen kedua di ""management_ID_2"", dll. Daftar tarik-turun terhubung ke kolom ""management_ID"" di management_ref."
+t1.38,Bidang Ya / Tidak mengidentifikasi apakah desa bertanggung jawab atas pengelolaan wilayah.
+t1.40,"Nama pembeli tanpa spasi dan tanpa tanda baca, hanya garis bawah"
+t1.41,"Nama pembeli dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
+t1.42,"Jenis kelamin pembeli; M (pria), F (wanita) atau NB (non biner)"
+t1.43,"ID nomor unik untuk mengidentifikasi pembeli. Silakan tinggalkan komentar jika dua pembeli yang berbeda memiliki ID yang sama. Secara default, dua pembeli dengan nama persis yang sama, meskipun mereka berasal dari dua desa yang berbeda, akan menerima ID yang sama kecuali dinyatakan lain."
+t1.44,"Admin1 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin1_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
+t1.45,"Admin2 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
+t1.46,"Admin3 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin3_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
+t1.47,"Nama admin2 dan admin3 digabungkan tanpa spasi dan tanpa tanda baca, hanya garis bawah.Daftar tarik-turun terhubung ke kolom ""nama"" di admin3_ref."
+t1.48,"Bendera akan berwarna merah jika nilai"" admin3_ref_name "" tidak ada di admin3_ref."
+t1.49,"Pilih ""Ya"" jika data saat ini sedang dikumpulkan dari individu ini. Jika data tidak lagi dikumpulkan dari individu ini, dan Anda ingin menyembunyikannya dari menu tarik-turun Kobo, pilih ""Tidak.”"
+t1.50,"Pilih "" Ya "" jika Anda ingin menghapus pembeli. Pembeli hanya boleh dihapus jika namanya salah atau merupakan duplikat dari catatan yang ada. Silakan tinggalkan komentar tentang alasan penghapusan. Jika pembeli tidak lagi berada di desa atau tidak membeli lagi, pilih ""Tidak"" dari kolom ""aktif""."
+t1.52,"Nama nelayan tanpa spasi dan tanpa tanda baca, hanya garis bawah"
+t1.53,"Nama nelayan dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
+t1.54,"Jenis kelamin nelayan; M (laki-laki), F (perempuan) atau NB (non biner)"
+t1.55,"ID nomor unik untuk mengidentifikasi nelayan. Silakan tinggalkan komentar jika dua nelayan yang berbeda memiliki ID yang sama. Secara default, dua nelayan dengan nama persis yang sama, meskipun mereka berasal dari dua desa yang berbeda, akan menerima ID yang sama kecuali dinyatakan lain."
+t1.56,"Admin1 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin1_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
+t1.57,"Admin2 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
+t1.58,"Admin3 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin3_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
+t1.62,"Pilih ""Ya"" jika Anda ingin menghapus admin3. Admin3 hanya boleh dihapus jika namanya salah atau merupakan duplikat dari catatan yang ada. Silakan tinggalkan komentar tentang alasan penghapusan. Jika nelayan tidak lagi berada di desa atau tidak lagi menangkap ikan, pilih ""Tidak"" dari kolom ""aktif""."
+t1.64,"Nama pengumpul data tanpa spasi dan tanpa tanda baca, hanya garis bawah"
+t1.65,Nama pengumpul data dengan spasi dan tanda baca diperbolehkan.
+t1.66,"Jenis kelamin pengumpul data; M (pria), F (wanita) atau NB (non biner)"
+t1.69,"Pilih ""Ya"" jika Anda ingin pengumpul data muncul di menu tarik-turun untuk formulir pemantauan pendaratan Kobo."
+t1.70,"Pilih ""Ya"" jika Anda ingin pengumpul data muncul di menu tarik-turun untuk formulir profil pendaratan Kobo"
+t1.71,"Pilih ""Ya"" jika Anda ingin pengumpul data muncul di menu tarik-turun untuk formulir survei rumah tangga Kobo"
+t1.72,"Pilih ""Ya"" jika Anda ingin pengumpul data muncul di menu tarik-turun untuk formulir profil komunitas Kobo"
+t1.73,"Pilih ""Ya"" jika Anda ingin menghapus pengumpul data."
+t1.75,"Nama tempat pemancingan tanpa spasi dan tanpa tanda baca, hanya garis bawah"
+t1.76,"Nama tempat penangkapan ikan dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
+t1.81,Garis lintang tempat penangkapan ikan
+t1.82,Garis bujur dari tempat penangkapan ikan
+t1.83,"Pilih ""Ya"" jika tempat penangkapan ikan sedang digunakan. Jika Anda ingin menyembunyikannya dari menu tarik-turun Kobo atau tidak lagi digunakan, pilih ""Tidak.”"
+t1.84,"Pilih ""Ya"" jika Anda ingin menghapus tempat pemancingan"
+t1.85,"Nama lokal roda gigi tanpa spasi dan tanpa tanda baca, hanya garis bawah"
+t1.86,"Nama lokal roda gigi dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
+t1.87,"Nama roda gigi dalam bahasa Inggris tanpa spasi dan tanpa tanda baca, hanya garis bawah. Ini adalah daftar dropdown yang telah ditentukan sebelumnya. Silakan pilih salah satu yang paling sesuai dengan perlengkapan lokal, atau beri komentar jika Anda tidak yakin."
+t1.88,Deskripsi roda gigi
+t1.89,"Spesies mengelompokkan target roda gigi. Jika satu roda gigi menargetkan beberapa spesies, buat baris data baru untuk setiap kelompok spesies. Daftar tarik-turun terhubung ke kolom ""species_group"" di species_ref."
+t1.90,"Bendera akan berwarna merah jika ""species_group"" yang dipilih tidak ada di species_ref."
+t1.93,"Pilih ""Ya"" jika Anda ingin melepas roda gigi. Silakan tinggalkan komentar yang menjelaskan alasannya."
+t1.95,"Nama lokasi pendaratan tanpa spasi dan tanpa tanda baca, hanya garis bawah"
+t1.96,Nama lokasi pendaratan dengan spasi dan tanda baca diperbolehkan
+t1.99,"Pilih ""Ya"" jika Anda ingin menghapus lokasi pendaratan."
+t1.103,"Nama unik area manajemen dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah nama kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
+t1.104,"Nama unik dari area manajemen dan tanggal penutupan. Ini harus berupa management_id tanpa spasi atau tanda baca yang digabungkan dengan angka yang mengidentifikasi penutupan unik dengan area tersebut. Misalnya, jika management_id bernama Boston memiliki dua tanggal penutupan yang terkait dengannya, kita akan memiliki dua bidang management_id_unique yang ditetapkan. Salah satunya bisa Boston_1 dan Boston_2 lainnya untuk mengidentifikasi penutupan dalam area manajemen."
+t1.105,Daftar tempat penangkapan ikan yang terkait dengan management_id dan tanggal penutupan.
+t1.106,"Jenis metode manajemen, termasuk penutupan sementara, zona larangan pengambilan, dll. Ini adalah daftar yang telah ditentukan sebelumnya. Silakan beri komentar jika Anda tidak yakin."
+t1.107,Spesies target untuk wilayah yang dikelola. Ini bisa berupa kelompok spesies atau spesies ilmiah. Lapangan terbuka.
+t1.108,Target habitat untuk wilayah yang dikelola
+t1.109,Luas areal yang dikelola diukur dalam hektare (ha)
+t1.110,Tanggal penutupan area yang dikelola
+t1.111,Tanggal pembukaan area yang dikelola
+t1.112,Garis lintang wilayah manajemen
+t1.113,Bujur wilayah pengelolaan
+t1.114,"Pilih ""Ya"" jika Anda ingin menghapus id manajemen."
+t1.116,"Nama mitra / organisasi tanpa spasi dan tanpa tanda baca, hanya garis bawah"
+t1.117,"Nama mitra / organisasi dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
+t1.118,"Kelompok spesies tempat mitra mengumpulkan data. Daftar tarik-turun terhubung ke kolom ""species_group"" di species_ref. Pilih semua grup jika mereka ingin semua spesies di species_ref muncul."
+t1.119,"Pilih ""Ya"" jika mitra sedang mengumpulkan data. Jika Anda ingin menyembunyikannya dari tarik-turun Kobo atau mereka tidak lagi mengumpulkan data, pilih ""Tidak.”"
+t1.120,"Pilih ""Ya"" jika Anda ingin menghapus mitra / organisasi"
+t1.122,"Nama mitra tanpa spasi atau tanda baca, hanya garis bawah. Dropdown spesies difilter oleh mitra. Beberapa negara memiliki banyak mitra yang berbagi daftar spesies. Dalam hal ini, Anda akan melihat kode negara alih-alih mitra, dan seluruh daftar spesies akan ditampilkan untuk setiap mitra di negara tersebut, kecuali grup spesies tertentu ditentukan di kolom ""species_group"" di org_ref."
+t1.123,Jenis habitat yang terkait dengan spesies
+t1.124,"Nama lokal dan nama spesies digabungkan dengan garis bawah, tanpa tanda baca atau spasi lainnya."
+t1.125,Nama lokal dengan nama spesies dalam tanda kurung
+t1.126,"Spesies dikategorikan ke dalam kelompok berdasarkan biologinya tanpa spasi atau tanda baca, hanya garis bawah. Bidang ini digunakan untuk membantu memfilter pilihan jawaban tertentu di Kobo."
+t1.127,"Bendera akan berwarna merah jika ""species_group"" yang dipilih tidak direferensikan di gear_ref. Itu berarti semua roda gigi yang terdaftar di gear_ref akan muncul untuk grup spesies ini. Untuk hanya menampilkan roda gigi yang menargetkan grup spesies ini, harap tambahkan grup spesies ke gear_ref."
+t1.128,Nama spesies lokal dengan spasi dan tanda baca diperbolehkan
+t1.129,"Nama admin2 tanpa spasi atau tanda baca, hanya garis bawah. Daftar tarik-turun terhubung ke kolom ""nama"" di admin2_ref. * Bidang ini hanya akan ditampilkan untuk mitra yang ingin dropdown spesies difilter oleh admin2 yang dipilih.*"
+t1.130,Nama spesies bahasa Inggris umum dengan spasi dan tanda baca diperbolehkan
+t1.131,Nama keluarga suatu spesies dengan spasi dan tanda baca diperbolehkan
+t1.132,"Nama ilmiah spesies dengan spasi dan tanda baca diperbolehkan. Jika spesiesnya tidak diketahui, genus atau famili juga dapat dimasukkan. Jika hanya genus yang diketahui, ketikkan nama genus diikuti dengan ""sp"" (berlawanan dengan ""spp"" atau sp.”). Jika hanya famili yang diketahui, ketikkan nama famili tersebut (yaitu Lutjanidae)."
+t1.133,"Pilih "" Ya "" jika Anda ingin menghapus spesies tersebut."
+t1.134,"Terjemahan bahasa Inggris untuk ""tambah baru"", ""tidak tahu"", ""tidak dijual"", dll."
+t1.135,"Terjemahan bahasa negara untuk ""tambah baru"", ""tidak tahu"", ""tidak dijual"", dll."
+t1.136,Lembar referensi terjemahan akan digabungkan untuk muncul di dropdown yang sesuai di Kobo
+t1.138,"Nama mitra tanpa spasi atau tanda baca, hanya garis bawah."
+t1.139,Harga minimum berdasarkan species_group
+t1.140,Harga maksimum berdasarkan species_group
+t1.141,"Kelompok spesies tempat peringatan min / maks berlaku. Untuk menambahkan grup baru, beri komentar dan beri tahu BFO."
+t1.142,Habitat tempat peringatan min / maks berlaku.
+t1.143,Harga per kg atau harga per individu (peringatan berat dan panjang spesies diterapkan di bagian belakang melalui data dari literatur)
+faq,Pertanyaan yang Sering Diajukan:
+q1,"Setelah saya menambahkan admin1 baru, berapa lama waktu yang dibutuhkan sebelum muncul di dropdown untuk admin2?"
+a1,"Ini akan memakan waktu sekitar 15 menit sebelum entri baru tersedia di menu tarik-turun dinamis. Ini berlaku untuk dropdown admin2 di admin3_ref, dropdown species_group di gear_ref, dropdown admin3 di buyer_ref, fisher_ref, data_collector, dll. Lihat Gambar 5 untuk daftar lengkap dropdown dinamis dan alur kerjanya melalui file referensi."
+q2,"Setelah saya menambahkan atau memperbarui file referensi, berapa lama waktu yang dibutuhkan sebelum pembaruan muncul di survei Kobo?"
+a2,Anda akan melihat formulir Kobo yang diperbarui dalam waktu sekitar 12-24 jam.
+q3,"Bagaimana seharusnya nama pembeli, nelayan, dan pengumpul data dicatat?"
+a3,"Idealnya, nama harus seunik mungkin dengan individu tersebut dan menyertakan nama depan, nama belakang, dan nama panggilannya. Jika seseorang tidak ingin membagikan nama belakang lengkapnya, Anda juga dapat menggunakan inisial pertama atau huruf pertama dari nama belakangnya."
+fig5,Koneksi dropdown dinamis antara file referensi.
