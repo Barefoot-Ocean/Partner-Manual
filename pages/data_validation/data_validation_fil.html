@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Barefoot Ocean Partner Guidebook - Tagalog</title>
+<title>Barefoot Ocean Partner Guidebook - Data Validation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../pages/kobo_setup/kobo_setup_fil.html" rel="next">
-<link href="../../pages/data_validation/data_validation_ceb.html" rel="prev">
+<link href="../../pages/index/index_tet.html" rel="next">
+<link href="../../pages/reference_files/reference_files_fil.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/index/index_fil.html">Tagalog</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/index/index_fil.html">Tagalog</a></li><li class="breadcrumb-item"><a href="../../pages/data_validation/data_validation_fil.html">Data Validation</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -241,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../pages/index/index_fil.html" class="sidebar-item-text sidebar-link active">
+            <a href="../../pages/index/index_fil.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tagalog</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -262,7 +262,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../pages/data_validation/data_validation_fil.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/data_validation/data_validation_fil.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Data Validation</span></a>
   </div>
 </li>
@@ -426,9 +426,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/index/index_fil.html">Tagalog</a></li><li class="breadcrumb-item"><a href="../../pages/data_validation/data_validation_fil.html">Data Validation</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Tagalog</h1>
+<h1 class="title">Data Validation</h1>
 </div>
 
 
@@ -445,8 +445,330 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="gabay-sa-pagpapatunay-ng-data-ng-fisheries" class="level2">
+<h2 class="anchored" data-anchor-id="gabay-sa-pagpapatunay-ng-data-ng-fisheries">Gabay Sa Pagpapatunay Ng Data Ng Fisheries</h2>
+<p>Ang lahat ng data na dumadaloy sa sistema ng data ng pangisdaan ay napatunayan sa Smartsheet. Ang Data ay ipinadala para sa Pagpapatunay sa ilalim ng dalawang mga sitwasyon; 1) Ang mga bagong pangalan ay manu-manong idinagdag sa Kobo Collect, o 2) Ang isang numerong halaga ay bumaba sa kabila ng itinatag na mga threshold. Kapag napatunayan ang data, ang parehong mga master dataset sa database at ang mga talahanayan ng sanggunian ay na-update. Ang mga talahanayan ng sanggunian ay nagsisilbing mga input para sa mga listahan ng dropdown sa mga form ng KoboToolbox at naglalaman ng data na idinagdag sa mga master dataset sa pamamagitan ng mga pagsali. Tingnan ang puno ng desisyon sa ibaba (Larawan 1).</p>
+<p>Ang data na na-trigger para sa Pagpapatunay ay ipinadala sa isa sa tatlong mga talahanayan: 1) Landings pangalan QA, 2) Species QA, o 3) Halaga babala QA. Ang mga tagubilin sa ibaba ay detalyado ang proseso ng Pagpapatunay ng data sa Smartsheet para sa tatlong mga talahanayan ng pagpapatunay. Ang bawat talahanayan ng pagpapatunay ay mangangailangan ng alinman sa pagpili ng tamang halaga ng patlang mula sa isang listahan ng dropdown o manu-manong pagpasok ng mga tamang halaga. Ang proseso ay idadagdag para sa mga pangangailangan sa Pagpapatunay ng data sa hinaharap, kung kinakailangan.</p>
+<p>Hakbang 1: Magbigay ng Barefoot Ocean na may point of contact email address para sa mga responsable para sa Pagpapatunay ng data.</p>
+<ul>
+<li><p>Ang organisasyon na namamahala ng maraming kasosyo ay maaaring magbigay ng lahat ng mga punto ng impormasyon sa pakikipag-ugnay.</p></li>
+<li><p>Ang mga indibidwal na kasosyo ay maaaring magbigay ng impormasyon sa punto ng pakikipag-ugnay.</p></li>
+<li><p>Ang mga punto ng contact ay makakatanggap ng mga abiso sa Pagpapatunay ng data sa pamamagitan ng email.</p></li>
+</ul>
+<p>Hakbang 2: Suriin ang iyong email para sa isang kahilingan sa Pagpapatunay ng data.</p>
+<ul>
+<li><p>Makakatanggap ka ng isang email mula sa “Smartsheet Automation” (larawan 2)</p></li>
+<li><p>Maglalaman ang email ng isang mensahe na may mga link upang magpatuloy sa Pagpapatunay sa pamamagitan ng alinman sa isang “Dynamic View” o “Open Request”. Ang Dynamic View ay isang format ng talahanayan at ang bukas na kahilingan ay magdidirekta sa iyo sa isang form ng pagpapatunay.</p></li>
+<li><p>Upang buksan gamit ang ” Dynamic View “(Hakbang 3, Pagpipilian a), i-click ang link na nagsisimula sa”https://dynamicview.smarthseet.com….”</p></li>
+<li><p>Upang buksan ang form ng kahilingan sa pag-update (Hakbang 3, Pagpipilian B), I-click ang asul na pindutang ” Buksan ang kahilingan</p></li>
+<li><p>Ang isang preview ng mga entry na kailangang mapatunayan ay lilitaw sa ibaba ng mensaheng ito, ngunit hindi mo magagawang patunayan ang anumang data nang direkta sa email</p></li>
+<li><p>Sa ilalim ng email, mayroong isang link para sa “pumunta sa sheet”; gayunpaman, ang pinagbabatayan na sheet ay pinigilan ang pag-access. Mangyaring suriin ang iyong Pagpapatunay ng data sa pamamagitan ng Dynamic view, bukas na kahilingan, o ulat na tukoy sa iyong kasosyo (paparating na).</p></li>
+</ul>
+<p>Larawan 1: Puno ng desisyon sa Pagpapatunay ng Data.</p>
+<p><img src="images/fig1.jpg" width="733" height="547"></p>
+<p>Larawan 2: Halimbawang Mensahe Ng Email Sa Pagpapatunay Ng Smartsheet</p>
+<p><img src="images/fig2.jpg" width="687" height="355"></p>
+<p>Hakbang 3, Pagpipilian A: Kumpletuhin ang iyong Pagpapatunay ng data sa pamamagitan ng Dynamic View (inirerekomenda)</p>
+<ul>
+<li><p>Para sa pagpipiliang ito, kakailanganin mong lumikha ng isang libreng Smartsheet account. Ididirekta ka mula sa email upang mag-set up ng isang account.</p></li>
+<li><p>Mag-Click sa link na Dynamic View sa kahilingan sa email.</p></li>
+<li><p>Magbubukas ang isang bagong window ng browser ng internet na may isang pag-setup na tulad ng talahanayan para sa lahat ng mga entry. Dito, madali mong mag-scroll sa lahat ng mga entry na nangangailangan ng pagpapatunay.</p></li>
+<li><p>Mag-Click sa isang hilera upang simulan ang pagpapatunay.</p></li>
+<li><p>Ang isang panel na” mga detalye ” ay lilitaw sa kanan.</p></li>
+<li><p>Suriin ang mga patlang ng konteksto at punan ang mga patlang ng pagpapatunay. Ang mga patlang ng pagpapatunay ay naglalaman ng data na ililipat sa panghuling dataset (talahanayan 1).</p></li>
+<li><p>Mag-iwan ng komento, kung mayroong isang bagay na nangangailangan ng aming pansin. Ang mga kawani ng Barefoot Ocean ay susuriin ang mga komento at tumugon nang naaangkop.</p></li>
+<li><p>I-Click ang asul na pindutang “I-Save” upang mai-save ang iyong pagpipilian.</p></li>
+<li><p>Kapag napatunayan, ang hilera na iyon ay mawawala mula sa iyong dynamic na pagtingin.</p></li>
+<li><p>Mag-Click sa susunod na hilera at ulitin ang mga hakbang upang makumpleto ang pagpapatunay para sa lahat ng mga entry.</p></li>
+<li><p>Maaari kang lumabas at muling ipasok sa pamamagitan ng pag-click sa link na dynamic view mula sa iyong email o pag-log in sa iyong account anumang oras. Hindi mo kailangang patunayan ang lahat ng mga entry sa isang pag-upo.</p></li>
+<li><p>Maaari mong i-bookmark ang link na ito at bumalik sa anumang oras.</p></li>
+</ul>
+<p>Talahanayan 1: pangunahing mga patlang sa mga talahanayan ng pagpapatunay. Ang mga patlang ng konteksto ay nagbibigay ng impormasyon na kinakailangan upang mapatunayan ang data. Ang mga patlang ng pagpapatunay ay pinuno ng data na ililipat sa mga master dataset. Tanging ang patlang ng pagpapatunay ay maaaring mai-edit. Ang ilang mga patlang ay makikita lamang sa panel na “mga detalye” kapag ang isang hilera ay na-click sa Dynamic View table.</p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 50%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Patlang ng talahanayan ng pagpapatunay</th>
+<th>Paglalarawan ng patlang</th>
+<th>Uri ng patlang</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Lahat Ng Mga Talahanayan</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>partner</td>
+<td>pangalan ng organisasyon pagkolekta ng data</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>admin3_landed</td>
+<td>Nayon o sub-nayon kung saan ang catch ay nakarating at naitala</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>data_collector</td>
+<td>Pangalan ng tao na nakolekta ang data sa Kobo (enumerator)</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td><strong>Talahanayan Ng Mga Pangalan Ng Landings</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>kobo_field</td>
+<td>Ang patlang mula sa form ng KoboToolbox na kailangang mapatunayan: fisher_name, buyer_name, data_collector_name, o landingsite_name</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>new_data</td>
+<td>Ang halaga na ipinasok para sa kaukulang kobo_field</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>ref_match1</td>
+<td>Malapit na tumutugma sa pangalan na mayroon na sa database. Kung blangko, walang umiiral na mga pangalan na tumutugma sa pangalan sa haligi na “new_data”</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>ref_match2</td>
+<td>Malapit na tumutugma sa pangalan na mayroon na sa database. Kung blangko, walang umiiral na mga pangalan na tumutugma sa pangalan sa haligi na “new_data”</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>ref_match3</td>
+<td>Malapit na tumutugma sa pangalan na mayroon na sa database. Kung blangko, walang umiiral na mga pangalan na tumutugma sa pangalan sa haligi na “new_data”</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>validation_options</td>
+<td>Piliin ang patlang na may tamang data (new_data, ref_match1, ref_match2, ref_match3), magpasok ng isa pang halaga (iba pa), o alisin (alisin ang hilera mula sa pagsusuri dahil hindi mapatunayan ang data). Kinakailangan. Makikita lamang sa panel ng mga detalye. Mawawala ang pagpasok sa sandaling napatunayan ang data.</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="even">
+<td>other</td>
+<td>Magpasok ng isa pang halaga kung wala sa mga pagpipilian sa Pagpapatunay ang tama. Kinakailangan kung” iba ” napili mula sa validation_options. Makikita lamang sa panel ng mga detalye.</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="odd">
+<td>landings_submission_ids</td>
+<td>Listahan ng mga ID ng pagsusumite ang bagong halaga ng data na ito ay lilitaw sa, mula sa landings monitoring KOBO form</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>profiling_submission_ids</td>
+<td>Listahan ng mga ID ng pagsusumite ang bagong halaga ng data na ito ay lilitaw sa, mula sa landings profiling KOBO form</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td><strong>Talahanayan Ng Mga Babala Sa Halaga</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>fisher_name</td>
+<td>Pangalan ng fisher na nakarating sa catch</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>date_landed</td>
+<td>Petsa catch ay landed</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>local_name</td>
+<td>Mga uri ng lokal na pangalan</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>warning_calc</td>
+<td>Halaga ng yunit: timbang / indibidwal, presyo / Timbang, Haba / indibidwal, lapad / indibidwal</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>warning</td>
+<td>Uri ng babala</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>numerator</td>
+<td>Halaga ng babala numerator: timbang, presyo, haba</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>numerator_unit</td>
+<td>Unit of numerator: kg, g, lb, ons, USD, IDR, PHP, cm</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>denominator</td>
+<td>Halaga ng denominator: bilangin, timbang</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>denominator_unit</td>
+<td>Yunit ng denominator: numero, kg, g, lb, ons</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>correct</td>
+<td>Y = ang mga halaga ay tama, n=ang mga halaga ay hindi tama, alisin = alisin mula sa pagsusuri dahil ang mga halaga ay hindi maaaring mapatunayan. Kinakailangan.</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="even">
+<td>correct_numerator</td>
+<td>Kung tama = Y, ang mga halaga ay auto-populated, kung tama = N, ipasok ang tamang halaga</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="odd">
+<td>correct_denominator</td>
+<td>Kung tama = Y, ang mga halaga ay auto-populated, kung tama = N, ipasok ang tamang halaga</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="even">
+<td>correct_numerator_unit</td>
+<td>Kung ang numerator_units ay hindi tama, piliin ang tamang pagpipilian mula sa dropdown</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="odd">
+<td>data_origin</td>
+<td>Dataset Ang data ay nagmula sa (Landings monitoring o profiling).</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>submission_id</td>
+<td>Submission ID mula sa Kobo form. Gamitin ito upang ihambing laban sa hilaw na data, kung kinakailangan, para sa pagpapatunay.</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td><strong>Talaan Ng Mga Species</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>new_species_photo</td>
+<td>Mag-Link sa larawan na isinumite sa Kobo Collect</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>local_name_new</td>
+<td>Ang halaga na ipinasok bilang isang bagong species lokal na pangalan sa Kobo Kolektahin</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>ref_match1</td>
+<td>Malapit na tumutugma sa pangalan na mayroon na sa database. Kung blangko, walang umiiral na mga pangalan na tumutugma sa pangalan sa haligi na “new_data”</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>ref_match2</td>
+<td>Malapit na tumutugma sa pangalan na mayroon na sa database. Kung blangko, walang umiiral na mga pangalan na tumutugma sa pangalan sa haligi na “new_data”</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>ref_match3</td>
+<td>Malapit na tumutugma sa pangalan na mayroon na sa database. Kung blangko, walang umiiral na mga pangalan na tumutugma sa pangalan sa haligi na “new_data”</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>eng_common_name_new</td>
+<td>Ingles karaniwang pangalan ng mga bagong species. Mangyaring magbigay kung kilala, iba pa mag-iwan ng blangko. (Hindi kinakailangan)</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="even">
+<td>scientific_family_new</td>
+<td>Pang-agham na pangalan ng pamilya ng mga bagong species. Mangyaring magbigay kung kilala, iba pa mag-iwan ng blangko. (Hindi kinakailangan)</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="odd">
+<td>scientific_species_new</td>
+<td>Pang-agham na pangalan ng species ng mga bagong species. Mangyaring magbigay kung kilala, iba pa mag-iwan ng blangko. Kinakailangan: kung ang pangalan ng species ay hindi kilala, mangyaring ilagay ang anumang antas ng taxonomic identification (hal.</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="even">
+<td>submission_id</td>
+<td>Submission ID mula sa Kobo form. Gamitin ito upang ihambing laban sa hilaw na data, kung kinakailangan, para sa pagpapatunay.</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>data_origin</td>
+<td>Dataset Ang data ay nagmula sa (Landings monitoring o profiling).</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>validation_options</td>
+<td>Piliin ang patlang na may tamang data (local_name_new, ref_match1, ref_match2, ref_match3), magpasok ng isa pang halaga (iba pa), o alisin (alisin ang hilera mula sa pagsusuri dahil hindi mapatunayan ang data). Kinakailangan. Makikita lamang sa panel ng mga detalye. Mawawala ang pagpasok sa sandaling napatunayan ang data.</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="odd">
+<td>other</td>
+<td>Magpasok ng isa pang halaga kung wala sa mga pagpipilian sa Pagpapatunay ang tama. Kinakailangan kung” iba ” napili mula sa validation_options. Makikita lamang sa panel ng mga detalye.</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="even">
+<td>latest_comment</td>
+<td>Ang haligi na ito ay nag-iimbak ng huling komento na ginawa para sa hilera na iyon. Upang tingnan ang buong talakayan ng mga komento para sa hilera na iyon, i-click lamang kahit saan sa hilera. Lilitaw ang panel ng mga detalye at mag-click sa tab na “mga komento” upang matingnan ang lahat ng mga komento para sa hilera na iyon.</td>
+<td>auto</td>
+</tr>
+</tbody>
+</table>
+<p>Larawan 3: Halimbawa Ng Mga Babala Sa Dynamic View-Value</p>
+<p><img src="images/fig3.jpg" class="img-fluid" width="673"></p>
+<p>Larawan 4: Halimbawa Ng Dynamic View-Panel Ng Mga Detalye</p>
+<p><img src="images/fig4.jpg" class="img-fluid" width="907"></p>
+<p>Hakbang 3, Pagpipilian B: Kumpletuhin ang iyong Pagpapatunay ng data sa pamamagitan ng ‘Buksan ang kahilingan’</p>
+<ul>
+<li><p>Para sa pagpipiliang ito, hindi mo kailangang magkaroon ng isang pag-login sa Smartsheet account .</p></li>
+<li><p>Mag-Click sa pindutang “Buksan ang kahilingan” sa mensahe ng email sa pagpapatunay.</p></li>
+<li><p>Magbubukas ang isang bagong window ng browser ng internet na may isang form na tulad ng pag-setup para sa bawat entry</p></li>
+<li><p>Suriin ang mga patlang ng konteksto at punan ang mga patlang ng pagpapatunay. Ang mga patlang ng pagpapatunay ay naglalaman ng data na ililipat sa panghuling dataset (talahanayan 1).</p></li>
+<li><p>I-Click ang susunod sa ilalim ng screen upang ilipat sa bawat entry na kailangang mapatunayan.</p></li>
+<li><p>Kung hindi ka pa sigurado kung aling sagot ang pipiliin) I-click ang “susunod” nang hindi pumipili sa column na ‘validation_options’. Ang susunod na entry para sa Pagpapatunay ay lilitaw.</p></li>
+<li><p>Kung kailangan mong lumabas sa pahina o huminto bago napatunayan ang lahat ng mga entry, dapat na mai-save ang iyong mga pagpipilian sa susunod na muling buksan mo ang kahilingan. Sa pagbubukas upang magpatuloy, i-click lamang ang “susunod” hanggang sa makahanap ka ng isang entry na nangangailangan ng pagpapatunay.</p></li>
+<li><p>Kapag nakarating ka sa huling entry, i-click ang “Tapos na”. Lilitaw ang isang pop-up na mensahe na nagtatanong kung handa ka nang isumite ang iyong pag-update?’:</p></li>
+<li><p>I-Click ang “Bumalik” Kung kailangan mong suriin</p></li>
+<li><p>I-Click ang “Isumite ang Update” upang magsumite ng pagpapatunay</p></li>
+<li><p>Lagyan ng tsek ang kahon na “ipadala sa akin ang isang kopya ng aking mga tugon” kung nais mo ng isang kopya ng iyong mga tugon na ipinadala sa iyong email</p></li>
+<li><p>Kung na-click mo ang “magpadala sa akin ng isang kopya ng aking mga tugon” makakatanggap ka ng isang email na pinamagatang “update Confirmation: Landings Name QA”.</p></li>
+<li><p>Magkakaroon ng isang talahanayan na nagbubuod kung aling mga entry ang na-update. Ang mga entry kung saan walang pagpipilian ang napili sa ’validation_options” ay hindi isasama.</p></li>
+<li><p>Ang email na ito ay maaaring maglaman ng isang link sa isang pangalan ng sheet na “Landings Name QA”; gayunpaman, ang pag-access sa sheet na ito ay naka-lock.</p></li>
+<li><p>Upang makita ang anumang natitirang pagpapatunay na kinakailangan, kakailanganin mong maghintay para sa susunod na email ng kahilingan sa pag-update o buksan ang Dynamic na View.</p></li>
+</ul>
+<p>Larawan 5: halimbawa ng format na “buksan ang kahilingan”</p>
+<p><img src="images/fig5.jpg" class="img-fluid" width="441"></p>
+<p>Mga Madalas Itanong:</p>
+<ol type="1">
+<li>Maaari bang gumana ang maraming tao sa Pagpapatunay ng data nang sabay?</li>
+</ol>
+<ul>
+<li>Oo, gayunpaman, sa sandaling ang isang entry (hilera) ay napatunayan sa Dynamic View hindi na ito makikita.</li>
+</ul>
+<ol start="2" type="1">
+<li>Kailangan ko ba ng Smartsheet account?</li>
+</ol>
+<ul>
+<li>Lamang upang makumpleto ang pagpapatunay ng data sa pamamagitan ng Dynamic View (ibig sabihin, ang view ng talahanayan). Hindi mo kailangan ng isang bayad na account, na may isang libreng pagsubok o libreng bersyon (sa sandaling nakumpleto ang iyong pagsubok), magagawa mong tingnan at makipag-ugnay sa lahat ng mga file ng Smartsheet na pag-aari ng Barefoot Ocean.</li>
+</ul>
+<ol start="3" type="1">
+<li>Ano ang mangyayari pagkatapos mapatunayan ang data?</li>
+</ol>
+<ul>
+<li>Sa ilang mga kaso, ang data ay sasailalim sa karagdagang pagsusuri ng Barefoot Ocean data team. Ang napatunayan na data ay maa-update sa database, at kung naaangkop, ang mga dropdown na menu ay maa-update sa mga file at form ng sanggunian ng Kobo (larawan 6). Ang Data na hindi napatunayan ay hindi lilitaw sa mga visualization o istatistika ng dashboard, ngunit magagamit sa pag-download ng raw data.</li>
+</ul>
+<p>Kung sa anumang oras nakatagpo ka ng anumang mga error, may mga katanungan, o kailangan ng suporta para sa pagkumpleto ng Pagpapatunay ng data, mangyaring makipag-ugnay sa amin sa barefootinfo@barefootocean.org.</p>
+<p>Larawan 6: pagpapatunay ng Data upang Sanggunian ang daloy ng trabaho ng file</p>
+<p><img src="images/qa_workflow.jpg" class="img-fluid" width="678"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1004,13 +1326,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../pages/data_validation/data_validation_ceb.html" class="pagination-link" aria-label="Data Validation">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Validation</span>
+      <a href="../../pages/reference_files/reference_files_fil.html" class="pagination-link" aria-label="Reference Files">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Reference Files</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../pages/kobo_setup/kobo_setup_fil.html" class="pagination-link" aria-label="Kobo Setup">
-        <span class="nav-page-text">Kobo Setup</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../pages/index/index_tet.html" class="pagination-link" aria-label="Tetun">
+        <span class="nav-page-text">Tetun</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
