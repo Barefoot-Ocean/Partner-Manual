@@ -45,11 +45,11 @@ i18n
 
 `r { i18n$t("caption1") }`
 
-![](images/fig1.jpg){width="914"}
+![](images/fig1.jpg){width="733" height="547"}
 
 `r { i18n$t("caption2") }`
 
-![](images/fig2.jpg){width="753"}
+![](images/fig2.jpg){width="687" height="355"}
 
 `r { i18n$t("step3a") }`
 
@@ -172,7 +172,11 @@ i18n
 
 ![](images/fig5.jpg){width="441"}
 
-`r { i18n$t("faq") }` 1. `r { i18n$t("q1") }` - `r { i18n$t("a1") }`
+`r { i18n$t("faq") }`
+
+1.  `r { i18n$t("q1") }`
+
+-   `r { i18n$t("a1") }`
 
 2.  `r { i18n$t("q2") }`
 

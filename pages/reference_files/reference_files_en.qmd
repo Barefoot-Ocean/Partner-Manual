@@ -4,58 +4,263 @@ echo: false
 output: false
 ---
 
-## Updating reference files in Smartsheet
+```{r}
+library(shiny.i18n)
+library(rmarkdown)
+library(knitr)
+i18n <- Translator$new(translation_csvs_path = "data")
+i18n$set_translation_language("en")
+i18n
 
-All reference files are updated in [Smartsheet Dynamic View](https://dynamicview.smartsheet.com/login). Reference files serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the master datasets through joins. They contain comprehensive information on the administrative levels of the fishing communities (country, province, district, village), landing sites, fishing ground, fishers, buyers, data collectors, species, management areas, gear types, and partnering organizations. The steps below outline how to update reference files with new information.
 
-**Step 1: Create a free smartsheet account.**
+```
 
--   A free account can be created at <https://www.smartsheet.com/>
+## `r i18n$t("title")`
 
--   Select \"Try smartsheet for free\"
+`r { i18n$t("p1") }`
 
-**Step 2: Provide Barefoot Ocean the email address you used to create your smartsheet account.**
+`r { i18n$t("step1") }`
 
--   Barefoot Ocean will then share the reference files associated with your organization.
+-   `r { i18n$t("point1") }`
 
--   **To view your reference files you will need to sign into smartsheet Dynamic View using your smartsheet credentials**: <https://dynamicview.smartsheet.com/login> 
+-   `r { i18n$t("point2") }`
 
--   Once logged in to Dynamic View (not the smartsheet app), you will see a list of reference files shared with your account (Figure 1).
+`r { i18n$t("step2") }`
 
-**Step 3: Click on a reference file to make updates**
+-   `r { i18n$t("point3") }`
 
--   Once open, you can click on each row to make edits to existing data, or click the \"New\" button in the top right corner to add new data (Figure 2). 
+-   `r { i18n$t("point4") }`
 
--   A details panel will appear on the right hand side where you\'ll input the necessary information (Figure 3; Table 1). Select \"save\" on the bottom right of the details panel when you are finished updating. You do not need to notify Barefoot Ocean when you make changes or additions to ref sheets. The will be automatically merged with the master reference files and incorporated in Kobo.
+-   `r { i18n$t("point5") }`
 
--   To leave a comment or to ask the Barefoot team any questions, select the \"Comments\" tab in the details panel. All individuals that the reference file is shared with, including the Barefoot Ocean team, will receive notification when a comment is made, so there is no need to tag any particular individual.
+`r { i18n$t("fig1") }`
 
-**Step 4: Respond to update requests when data is missing or incorrect, or to respond to a comment.**
+![](images/fig1.jpg)
 
--   If there is incomplete or incorrect information that is essential for populating Kobo dropdowns or for joins, or if a comment is made in the sheet, an update request will be sent to all appropriate users, prompting them to update the information or respond to a comment (Figure 4). By default, everyone with access to your reference files will receive the update request..
+`r { i18n$t("step3") }`
 
--   A preview of the data that needs to be updated or responded to will appear below the email message, but you will not be able to update any data directly in the email
+-   `r { i18n$t("point6") }`
 
-    -   At the bottom of the email, there is a link for \"Go to the sheet\"; however, the underlying sheet has restricted access. Please review your data or respond to the comment via Open request.
+-   `r { i18n$t("point7") }`
 
--   Click on the \"Open Request\" button in the email message.
+-   `r { i18n$t("point8") }`
 
--   A new internet browser window will open with a form-like setup for each entry (Figure 5)
+`r { i18n$t("fig2") }`
 
--   Review the **BFO** fields and populate the **editable** fields. 
+![](images/fig2.jpg){width="935"}
 
--   Click next at the bottom of the screen to move through each entry that needs to be updated.
+`r { i18n$t("fig3") }`
 
--   To **skip an entry** (e.g. if you are not sure yet which answer to pick) click \"Next\" without making a selection in the editable columns. The next entry that needs to be updated will appear.
+![](images/fig3.jpg){width="947"}
 
--   If you need to **exit the page** or stop before all entries have been updated, your choices should be saved the next time you reopen the request. Upon opening to continue, just click \"Next\" until you find an entry that needs to be updated.
+`r { i18n$t("step4") }`
 
--   When you get to the last entry, click \"Done\". A pop-up message will appear asking if you are \'Ready to submit your update?\':
+-   `r { i18n$t("point9") }`
 
-    -   Click \"Go Back\" if you need to review 
+-   `r { i18n$t("point10") }`
 
-    -   Click \"Submit Update\" to submit your updates.
+-   `r { i18n$t("point10.1") }`
 
-    -   Your updates are automatically appended to the reference file and you can view them in Dynamic View
+-   `r { i18n$t("point11") }`
 
-**If at any time you encounter any errors, have questions, or need support for updating reference files, please contact us at [barefootinfo\@barefootocean.org](mailto:barefootinfo@barefootocean.org).**
+-   `r { i18n$t("point12") }`
+
+-   `r { i18n$t("point13") }`
+
+-   `r { i18n$t("point14") }`
+
+-   `r { i18n$t("point15") }`
+
+-   `r { i18n$t("point16") }`
+
+-   `r { i18n$t("point17") }`
+
+-   `r { i18n$t("point17.1") }`
+
+-   `r { i18n$t("point17.2") }`
+
+-   `r { i18n$t("point17.3") }`
+
+`r { i18n$t("p2") }`
+
+`r { i18n$t("fig4") }`
+
+![](images/fig4.jpg){width="788"}
+
+`r { i18n$t("table1") }`
+
+| `r { i18n$t("t1.1") }`     | `r { i18n$t("t1.2") }`   | `r { i18n$t("t1.3")}`  |
+|--------------------------|------------------------|-----------------------|
+| **`r { i18n$t("t1.4") }`** |                          |                        |
+| latest_comment             | `r { i18n$t("t1.5") }`   | `r { i18n$t("t1.6") }` |
+| modified_date              | `r { i18n$t("t1.8") }`   | `r { i18n$t("t1.6") }` |
+| modified_by                | `r { i18n$t("t1.9") }`   | `r { i18n$t("t1.6") }` |
+| **admin1_ref**             |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| name                       | `r { i18n$t("t1.11") }`  | BFO                    |
+| label                      | `r { i18n$t("t1.12") }`  | `r { i18n$t("t1.7") }` |
+| partner_flag               | `r { i18n$t("t1.13") }`  | BFO                    |
+| partner                    | `r { i18n$t("t1.14") }`  | `r { i18n$t("t1.7") }` |
+| active                     | `r { i18n$t("t1.15") }`  | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.16") }`  | `r { i18n$t("t1.7") }` |
+| **admin2_ref**             |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| name                       | `r { i18n$t("t1.18") }`  | BFO                    |
+| label                      | `r { i18n$t("t1.19") }`  | `r { i18n$t("t1.7") }` |
+| admin1_flag                | `r { i18n$t("t1.20") }`  | BFO                    |
+| admin1_ref_name            | `r { i18n$t("t1.21") }`  | `r { i18n$t("t1.7") }` |
+| active                     | `r { i18n$t("t1.15") }`  | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.23") }`  | `r { i18n$t("t1.7") }` |
+| **admin3_ref**             |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| name                       | `r { i18n$t("t1.25") }`  | BFO                    |
+| label                      | `r { i18n$t("t1.26") }`  | `r { i18n$t("t1.7") }` |
+| admin1                     | `r { i18n$t("t1.27") }`  | BFO                    |
+| admin1_ref_name            | `r { i18n$t("t1.28") }`  | BFO                    |
+| admin2_flag                | `r { i18n$t("t1.29") }`  | BFO                    |
+| admin2                     | `r { i18n$t("t1.30") }`  | `r { i18n$t("t1.7") }` |
+| admin2_ref_name            | `r { i18n$t("t1.31") }`  | BFO                    |
+| active                     | `r { i18n$t("t1.15") }`  | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.33") }`  | `r { i18n$t("t1.7") }` |
+| admin3_lat                 | `r { i18n$t("t1.34") }`  | `r { i18n$t("t1.7") }` |
+| admin3_long                | `r { i18n$t("t1.35") }`  | `r { i18n$t("t1.7") }` |
+| m1-m4_flag                 | `r { i18n$t("t1.36") }`  | BFO                    |
+| management_ID_1-4          | `r { i18n$t("t1.37") }`  | `r { i18n$t("t1.7") }` |
+| management_govern_1-4      | `r { i18n$t("t1.38") }`  | `r { i18n$t("t1.7") }` |
+| **buyer_ref**              |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| name                       | `r { i18n$t("t1.40") }`  | BFO                    |
+| label                      | `r { i18n$t("t1.41") }`  | `r { i18n$t("t1.7") }` |
+| buyer_gender               | `r { i18n$t("t1.42") }`  | `r { i18n$t("t1.7") }` |
+| buyer_id                   | `r { i18n$t("t1.43") }`  | BFO                    |
+| admin1                     | `r { i18n$t("t1.44") }`  | BFO                    |
+| admin2                     | `r { i18n$t("t1.45") }`  | BFO                    |
+| admin3                     | `r { i18n$t("t1.46") }`  | BFO                    |
+| admin3_ref_name            | `r { i18n$t("t1.47") }`  | `r { i18n$t("t1.7") }` |
+| admin3_flag                | `r { i18n$t("t1.48") }`  | BFO                    |
+| active                     | `r { i18n$t("t1.49") }`  | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.50") }`  | `r { i18n$t("t1.7") }` |
+| **fisher_ref**             |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| name                       | `r { i18n$t("t1.52") }`  | BFO                    |
+| label                      | `r { i18n$t("t1.53") }`  | `r { i18n$t("t1.7") }` |
+| fisher_gender              | `r { i18n$t("t1.54") }`  | `r { i18n$t("t1.7") }` |
+| fisher_id                  | `r { i18n$t("t1.55") }`  | BFO                    |
+| admin1                     | `r { i18n$t("t1.56") }`  | BFO                    |
+| admin2                     | `r { i18n$t("t1.57") }`  | BFO                    |
+| admin3                     | `r { i18n$t("t1.58") }`  | BFO                    |
+| admin3_ref_name            | `r { i18n$t("t1.47") }`  | `r { i18n$t("t1.7") }` |
+| admin3_flag                | `r { i18n$t("t1.48") }`  | BFO                    |
+| active                     | `r { i18n$t("t1.49") }`  | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.62") }`  | `r { i18n$t("t1.7") }` |
+| **data_collector_ref**     |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| name                       | `r { i18n$t("t1.64") }`  | BFO                    |
+| label                      | `r { i18n$t("t1.65") }`  | `r { i18n$t("t1.7") }` |
+| gender                     | `r { i18n$t("t1.66") }`  | `r { i18n$t("t1.7") }` |
+| admin3_flag                | `r { i18n$t("t1.48") }`  | BFO                    |
+| admin3_ref_name            | `r { i18n$t("t1.47") }`  | `r { i18n$t("t1.7") }` |
+| landings_mon               | `r { i18n$t("t1.69") }`  | `r { i18n$t("t1.7") }` |
+| landings_prof              | `r { i18n$t("t1.70") }`  | `r { i18n$t("t1.7") }` |
+| hhs                        | `r { i18n$t("t1.71") }`  | `r { i18n$t("t1.7") }` |
+| comm_prof                  | `r { i18n$t("t1.72") }`  | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.73") }`  | `r { i18n$t("t1.7") }` |
+| **fishing_ground_ref**     |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| name                       | `r { i18n$t("t1.75") }`  | BFO                    |
+| label                      | `r { i18n$t("t1.76") }`  | `r { i18n$t("t1.7") }` |
+| admin3_flag                | `r { i18n$t("t1.48") }`  | BFO                    |
+| admin3_ref_name            | `r { i18n$t("t1.47") }`  | `r { i18n$t("t1.7") }` |
+| partner_flag               | `r { i18n$t("t1.13") }`  | BFO                    |
+| partner                    | `r { i18n$t("t1.14") }`  | `r { i18n$t("t1.7") }` |
+| latitude                   | `r { i18n$t("t1.81") }`  | `r { i18n$t("t1.7") }` |
+| longitude                  | `r { i18n$t("t1.82") }`  | `r { i18n$t("t1.7") }` |
+| active                     | `r { i18n$t("t1.83") }`  | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.84") }`  | `r { i18n$t("t1.7") }` |
+| **gear_ref**               |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| name                       | `r { i18n$t("t1.85") }`  | BFO                    |
+| label                      | `r { i18n$t("t1.86") }`  | `r { i18n$t("t1.7") }` |
+| gear_global                | `r { i18n$t("t1.87") }`  | `r { i18n$t("t1.7") }` |
+| gear_detail                | `r { i18n$t("t1.88") }`  | `r { i18n$t("t1.7") }` |
+| species_group              | `r { i18n$t("t1.89") }`  | `r { i18n$t("t1.7") }` |
+| species_flag               | `r { i18n$t("t1.90") }`  | BFO                    |
+| partner                    | `r { i18n$t("t1.14") }`  | `r { i18n$t("t1.7") }` |
+| partner_flag               | `r { i18n$t("t1.13") }`  | BFO                    |
+| remove                     | `r { i18n$t("t1.93") }`  | `r { i18n$t("t1.7") }` |
+| **landing_site_ref**       |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| name                       | `r { i18n$t("t1.95") }`  | BFO                    |
+| label                      | `r { i18n$t("t1.96") }`  | `r { i18n$t("t1.7") }` |
+| admin3_flag                | `r { i18n$t("t1.48") }`  | BFO                    |
+| admin3_ref_name            | `r { i18n$t("t1.47") }`  | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.99") }`  | `r { i18n$t("t1.7") }` |
+| **management_ref**         |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| partner_ID                 | `r { i18n$t("t1.14") }`  | `r { i18n$t("t1.7") }` |
+| partner_flag               | `r { i18n$t("t1.13") }`  | BFO                    |
+| management_id              | `r { i18n$t("t1.103") }` | `r { i18n$t("t1.7") }` |
+| management_id_unique       | `r { i18n$t("t1.104") }` | `r { i18n$t("t1.7") }` |
+| management_fishing_ground  | `r { i18n$t("t1.105") }` | `r { i18n$t("t1.7") }` |
+| management_method          | `r { i18n$t("t1.106") }` | `r { i18n$t("t1.7") }` |
+| target_species             | `r { i18n$t("t1.107") }` | `r { i18n$t("t1.7") }` |
+| target_habitat             | `r { i18n$t("t1.108") }` | `r { i18n$t("t1.7") }` |
+| management_area_ha         | `r { i18n$t("t1.109") }` | `r { i18n$t("t1.7") }` |
+| close_date                 | `r { i18n$t("t1.110") }` | `r { i18n$t("t1.7") }` |
+| open_date                  | `r { i18n$t("t1.111") }` | `r { i18n$t("t1.7") }` |
+| management_lat             | `r { i18n$t("t1.112") }` | `r { i18n$t("t1.7") }` |
+| management_long            | `r { i18n$t("t1.113") }` | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.114") }` | `r { i18n$t("t1.7") }` |
+| **org_ref**                |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| name                       | `r { i18n$t("t1.116") }` | BFO                    |
+| label                      | `r { i18n$t("t1.117") }` | `r { i18n$t("t1.7") }` |
+| species_group              | `r { i18n$t("t1.118") }` | `r { i18n$t("t1.7") }` |
+| active                     | `r { i18n$t("t1.119") }` | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.120") }` | `r { i18n$t("t1.7") }` |
+| **species_ref**            |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| partner                    | `r { i18n$t("t1.122") }` | BFO                    |
+| habitat                    | `r { i18n$t("t1.123") }` | BFO                    |
+| name                       | `r { i18n$t("t1.124") }` | BFO                    |
+| label                      | `r { i18n$t("t1.125") }` | BFO                    |
+| species_group              | `r { i18n$t("t1.126") }` | BFO                    |
+| species_flag               | `r { i18n$t("t1.127") }` | BFO                    |
+| local_name                 | `r { i18n$t("t1.128") }` | `r { i18n$t("t1.7") }` |
+| admin2                     | `r { i18n$t("t1.129") }` | `r { i18n$t("t1.7") }` |
+| common_english             | `r { i18n$t("t1.130") }` | BFO                    |
+| scientific_family          | `r { i18n$t("t1.131") }` | BFO                    |
+| scientific_species         | `r { i18n$t("t1.132") }` | `r { i18n$t("t1.7") }` |
+| remove                     | `r { i18n$t("t1.133") }` | `r { i18n$t("t1.7") }` |
+| **translations_ref**       |                          |                        |
+| english                    | `r { i18n$t("t1.134") }` | BFO                    |
+| country language           | `r { i18n$t("t1.135") }` | `r { i18n$t("t1.7") }` |
+| ref_sheet                  | `r { i18n$t("t1.136") }` | BFO                    |
+| **min_max_ref**            |                          |                        |
+| country                    | `r { i18n$t("t1.10") }`  | BFO                    |
+| partner                    | `r { i18n$t("t1.138") }` | BFO                    |
+| min                        | `r { i18n$t("t1.139") }` | `r { i18n$t("t1.7") }` |
+| max                        | `r { i18n$t("t1.140") }` | `r { i18n$t("t1.7") }` |
+| species_group              | `r { i18n$t("t1.141") }` | BFO                    |
+| habitat                    | `r { i18n$t("t1.142") }` | BFO                    |
+| category                   | `r { i18n$t("t1.143") }` | `r { i18n$t("t1.7") }` |
+
+: {tbl-colwidths="\[25,50,25\]"}
+
+`r { i18n$t("faq") }`
+
+1.  `r { i18n$t("q1") }`
+
+-   `r { i18n$t("a1") }`
+
+2.  `r { i18n$t("q2") }`
+
+-   `r { i18n$t("a2") }`
+
+3.  `r { i18n$t("q3") }`
+
+-   `r { i18n$t("a3") }`
+
+`r { i18n$t("fig5") }`
+
+![](images/fig5.jpg){width="844"}
