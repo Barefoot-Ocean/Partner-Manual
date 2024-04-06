@@ -9,7 +9,7 @@ website:
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By Openscapes, 2024"
+    left: "&copy; CC-By Barefoot Ocean, 2024"
     
   sidebar:
     logo: "images/bfo_logo.png"
@@ -54,42 +54,58 @@ website:
           - pages/socioeco_dashboard/socioeco_dashboard_en.qmd
       - section: pages/index/index_id.qmd
         contents: 
+          - pages/quick_guide/quick_guide_id.qmd
+          - pages/full_guide/full_guide_id.qmd
           - pages/kobo_setup/kobo_setup_id.qmd
           - pages/reference_files/reference_files_id.qmd
           - pages/data_validation/data_validation_id.qmd
       - section: pages/index/index_ceb.qmd
         contents:
+          - pages/quick_guide/quick_guide_ceb.qmd
+          - pages/full_guide/full_guide_ceb.qmd
           - pages/kobo_setup/kobo_setup_ceb.qmd
           - pages/reference_files/reference_files_ceb.qmd
           - pages/data_validation/data_validation_ceb.qmd
       - section: pages/index/index_fil.qmd
         contents:
+          - pages/quick_guide/quick_guide_fil.qmd
+          - pages/full_guide/full_guide_fil.qmd
           - pages/kobo_setup/kobo_setup_fil.qmd
           - pages/reference_files/reference_files_fil.qmd
           - pages/data_validation/data_validation_fil.qmd
       - section: pages/index/index_tet.qmd
       - section: pages/index/index_mg.qmd
         contents:
+          - pages/quick_guide/quick_guide_mg.qmd
+          - pages/full_guide/full_guide_mg.qmd
           - pages/kobo_setup/kobo_setup_mg.qmd
           - pages/reference_files/reference_files_mg.qmd
           - pages/data_validation/data_validation_mg.qmd
       - section: pages/index/index_fr.qmd
         contents:
+          - pages/quick_guide/quick_guide_fr.qmd
+          - pages/full_guide/full_guide_fr.qmd
           - pages/kobo_setup/kobo_setup_fr.qmd
           - pages/reference_files/reference_files_fr.qmd
           - pages/data_validation/data_validation_fr.qmd
       - section: pages/index/index_es.qmd
         contents:
+          - pages/quick_guide/quick_guide_es.qmd
+          - pages/full_guide/full_guide_es.qmd
           - pages/kobo_setup/kobo_setup_es.qmd
           - pages/reference_files/reference_files_es.qmd
           - pages/data_validation/data_validation_es.qmd
       - section: pages/index/index_pt.qmd
         contents:
+          - pages/quick_guide/quick_guide_pt.qmd
+          - pages/full_guide/full_guide_pt.qmd
           - pages/kobo_setup/kobo_setup_pt.qmd
           - pages/reference_files/reference_files_pt.qmd
           - pages/data_validation/data_validation_pt.qmd
       - section: pages/index/index_sw.qmd
         contents:
+          - pages/quick_guide/quick_guide_sw.qmd
+          - pages/full_guide/full_guide_sw.qmd
           - pages/kobo_setup/kobo_setup_sw.qmd
           - pages/reference_files/reference_files_sw.qmd
           - pages/data_validation/data_validation_sw.qmd
