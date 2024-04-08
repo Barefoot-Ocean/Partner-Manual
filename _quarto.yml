@@ -73,7 +73,6 @@ website:
           - pages/kobo_setup/kobo_setup_fil.qmd
           - pages/reference_files/reference_files_fil.qmd
           - pages/data_validation/data_validation_fil.qmd
-      - section: pages/index/index_tet.qmd
       - section: pages/index/index_mg.qmd
         contents:
           - pages/quick_guide/quick_guide_mg.qmd
@@ -109,6 +108,7 @@ website:
           - pages/kobo_setup/kobo_setup_sw.qmd
           - pages/reference_files/reference_files_sw.qmd
           - pages/data_validation/data_validation_sw.qmd
+      - section: pages/index/index_tet.qmd
 
 
 
