@@ -14,10 +14,9 @@ i18n
 
 
 ```
-
 ## `r i18n$t("title")`
 
-###`r { i18n$t("subtitle") }`
+### `r { i18n$t("subtitle") }`
 
 #### `r { i18n$t("intro") }`
 
@@ -35,81 +34,76 @@ i18n
 
 #### `r { i18n$t("steps") }`
 
-1. `r { i18n$t("step1") }`
+1.  `r { i18n$t("step1") }`
+    a.  `r { i18n$t("1a") }`
+    b.  `r { i18n$t("1b") }`
+    c.  `r { i18n$t("1c") }`
+    d.  `r { i18n$t("1d") }`
+    e.  `r { i18n$t("1e") }`
 
-  a. `r { i18n$t("1a") }`
-  
-  b. `r { i18n$t("1b") }`
-  
-  c. `r { i18n$t("1c") }`
-  
-  d. `r { i18n$t("1d") }`
-  
-  e. `r { i18n$t("1e") }`
-  
-2. `r { i18n$t("step2") }`
+```{=html}
+<!-- -->
+```
+2.  `r { i18n$t("step2") }`
+    a.  `r { i18n$t("2a") }`
+    b.  `r { i18n$t("2b") }`
+    c.  `r { i18n$t("2c") }`
 
-  a. `r { i18n$t("2a") }`
-  
-  b. `r { i18n$t("2b") }`
-  
-  c. `r { i18n$t("2c") }`
-  
-3. `r { i18n$t("step3") }`
+```{=html}
+<!-- -->
+```
+3.  `r { i18n$t("step3") }`
 
-  a. `r { i18n$t("3a") }`
-  
-4. `r { i18n$t("step4") }`
+    a.  `r { i18n$t("3a") }`
 
-  a. `r { i18n$t("4a") }`
-  
-  b. `r { i18n$t("4b") }`
-  
-  c. `r { i18n$t("4c") }`
-  
-  d. `r { i18n$t("4d") }`
-  
-  e. `r { i18n$t("4e") }`
-  
-5. `r { i18n$t("step5") }`
+4.  `r { i18n$t("step4") }`
 
-  a. `r { i18n$t("5a") }`
-  
-  b. `r { i18n$t("5b") }`
-  
-  c. `r { i18n$t("5c") }`
-  
-6. `r { i18n$t("step6") }`
+    a.  `r { i18n$t("4a") }`
+    b.  `r { i18n$t("4b") }`
+    c.  `r { i18n$t("4c") }`
+    d.  `r { i18n$t("4d") }`
+    e.  `r { i18n$t("4e") }`
 
-  a. `r { i18n$t("6a") }`
-  
-  b. `r { i18n$t("6b") }`
-  
-  c. `r { i18n$t("6c") }`
-  
-  d. `r { i18n$t("6d") }`
-  
-  e. `r { i18n$t("6e") }`
-  
-  f. `r { i18n$t("6f") }`
-  
-7. `r { i18n$t("step7") }`
+```{=html}
+<!-- -->
+```
+5.  `r { i18n$t("step5") }`
+    a.  `r { i18n$t("5a") }`
+    b.  `r { i18n$t("5b") }`
+    c.  `r { i18n$t("5c") }`
 
-  a. `r { i18n$t("7a") }`
-  
-8. `r { i18n$t("step8") }`
+```{=html}
+<!-- -->
+```
+6.  `r { i18n$t("step6") }`
+    a.  `r { i18n$t("6a") }`
+    b.  `r { i18n$t("6b") }`
+    c.  `r { i18n$t("6c") }`
+    d.  `r { i18n$t("6d") }`
+    e.  `r { i18n$t("6e") }`
+    f.  `r { i18n$t("6f") }`
 
-  a. `r { i18n$t("8a") }`
-  
-  
+```{=html}
+<!-- -->
+```
+7.  `r { i18n$t("step7") }`
+
+    a.  `r { i18n$t("7a") }`
+
+8.  `r { i18n$t("step8") }`
+
+    a.  `r { i18n$t("8a") }`
+
 `r { i18n$t("p7") }`
 
 `r { i18n$t("p8") }`
 
 Barefoot Ocean
 
-Courtney - courtney@barefootocean.org
-Brittany - brittany@barefootocean.org
-Katie- katie@barefootocean.org 
-Laura- laura@barefootocean.org 
-  
+Courtney - courtney\@barefootocean.org
+
+Brittany - brittany\@barefootocean.org
+
+Katie- katie\@barefootocean.org
+
+Laura- laura\@barefootocean.org
