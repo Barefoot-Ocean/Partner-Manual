@@ -1,5 +1,5 @@
 ---
-title: Quick Guide
+title: Mabilis na Gabay
 echo: false
 output: false
 ---

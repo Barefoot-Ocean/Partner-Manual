@@ -1,5 +1,5 @@
 ---
-title: Kobo Setup
+title: Pag-setup ng Kobo
 echo: false
 output: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Data Validation
+title: Pagpapatunay ng Data
 echo: false
 output: false
 ---

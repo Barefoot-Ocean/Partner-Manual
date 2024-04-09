@@ -1,5 +1,5 @@
 ---
-title: Full Guide
+title: Buong Gabay
 echo: false
 output: false
 ---
