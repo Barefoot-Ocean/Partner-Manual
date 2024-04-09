@@ -1,5 +1,5 @@
 ---
-title: Quick Guide
+title: Dali nga Giya
 echo: false
 output: false
 ---

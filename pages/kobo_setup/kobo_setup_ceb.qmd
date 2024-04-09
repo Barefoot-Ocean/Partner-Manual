@@ -1,5 +1,5 @@
 ---
-title: Kobo Setup
+title: Pag-setup sa Kobo
 echo: false
 output: false
 ---

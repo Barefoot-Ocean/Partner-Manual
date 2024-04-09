@@ -1,5 +1,5 @@
 ---
-title: Full Guide
+title: Bug-os nga Giya
 echo: false
 output: false
 ---
