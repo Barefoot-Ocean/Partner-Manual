@@ -154,17 +154,17 @@ i18n
 
 -   `r { i18n$t("point29") }`
 
--   `r { i18n$t("point29.1") }`
+    -   `r { i18n$t("point29.1") }`
 
--   `r { i18n$t("point29.2") }`
+    -   `r { i18n$t("point29.2") }`
 
--   `r { i18n$t("point29.3") }`
+    -   `r { i18n$t("point29.3") }`
 
 -   `r { i18n$t("point30") }`
 
--   `r { i18n$t("point30.1") }`
+    -   `r { i18n$t("point30.1") }`
 
--   `r { i18n$t("point30.2") }`
+    -   `r { i18n$t("point30.2") }`
 
 -   `r { i18n$t("point31") }`
 
