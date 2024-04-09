@@ -3,9 +3,9 @@ project:
   
 website: 
   page-navigation: true
-  title: "Barefoot Ocean Partner Guidebook" 
-  site-url: "https://openscapes.github.io/Quarto_Website_Translations/" 
-  repo-url: https://github.com/Barefoot-Ocean/Quarto_Website_Translations
+  title: "Barefoot Ocean Partner Manual" 
+  site-url: "https://barefoot-ocean.github.io/Partner-Manual/" 
+  repo-url: https://github.com/Barefoot-Ocean/Partner-Manual
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
@@ -18,7 +18,7 @@ website:
     tools: 
       - icon: globe
         href: https://barefootocean.org/
-        text: "barefootocean.org"
+        text: "Barefoot Ocean Website"
       - icon: linkedin
         href: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A89840617&keywords=barefoot%20ocean&origin=RICH_QUERY_SUGGESTION&position=0&searchId=eec6c7fe-7db0-4233-9c69-543232e40271&sid=DWx&spellCorrectionEnabled=false
         text: "Barefoot Ocean LinkedIn"     
