@@ -3,7 +3,7 @@ title: "Barefoot Ocean Partner Manual"
 subtitle: "Guidance for data collection, management, validation and interpretation"
 ---
 
-## Welcome
+## Welcome / Selamat datang
 
 ### ⬅️ Quick links: visit another website by clicking the icons here
 

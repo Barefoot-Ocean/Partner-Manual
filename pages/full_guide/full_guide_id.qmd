@@ -1,5 +1,5 @@
 ---
-title: Full Guide
+title: Panduan Lengkap
 echo: false
 output: false
 ---
