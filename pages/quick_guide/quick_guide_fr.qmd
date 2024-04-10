@@ -1,5 +1,5 @@
 ---
-title: Quick Guide
+title: Guide rapide
 echo: false
 output: false
 ---

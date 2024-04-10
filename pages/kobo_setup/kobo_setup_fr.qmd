@@ -1,5 +1,5 @@
 ---
-title: Kobo Setup
+title: Configuration Kobo
 echo: false
 output: false
 ---

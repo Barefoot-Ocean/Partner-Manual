@@ -1,5 +1,5 @@
 ---
-title: Full Guide
+title: Guide complet
 echo: false
 output: false
 ---
