@@ -1,5 +1,5 @@
 ---
-title: Data Validation
+title: Validación de datos
 echo: false
 output: false
 ---
