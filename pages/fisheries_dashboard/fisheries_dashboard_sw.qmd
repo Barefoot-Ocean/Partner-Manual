@@ -1,5 +1,5 @@
 ---
-title: Fisheries Dashboard
+title: Dashibodi ya Uvuvi
 ---
 
-## Coming soon...
+## Community Fisheries Data Dashboard page coming soon...

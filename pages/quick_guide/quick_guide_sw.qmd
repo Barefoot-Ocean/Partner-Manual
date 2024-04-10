@@ -1,5 +1,5 @@
 ---
-title: Quick Guide
+title: Mwongozo wa Haraka
 echo: false
 output: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Kobo Setup
+title: Mpangilio wa Kobo
 echo: false
 output: false
 ---
