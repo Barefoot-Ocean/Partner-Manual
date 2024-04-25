@@ -1,1 +1,1 @@
-Sitemap: https://openscapes.github.io/Quarto_Website_Translations/sitemap.xml
+Sitemap: https://barefoot-ocean.github.io/Partner-Manual/sitemap.xml

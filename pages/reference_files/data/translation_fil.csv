@@ -29,7 +29,7 @@ point17,"Kapag nakarating ka sa huling entry, i-click ang ""Tapos na"". Lilitaw 
 point17.1,"I-Click ang ""Bumalik"" Kung kailangan mong suriin"
 point17.2,"I-Click ang ""Isumite ang Update"" upang isumite ang iyong mga update."
 point17.3,Ang iyong mga update ay awtomatikong nakadugtong sa reference file at maaari mong tingnan ang mga ito sa Dynamic View
-p2,"Kung sa anumang oras nakatagpo ka ng anumang mga error, may mga katanungan, o kailangan ng suporta para sa pag-update ng mga file ng sanggunian, mangyaring makipag-ugnay sa amin sa barefootinfo@barefootocean.org."
+p2,"Kung sa anumang oras nakatagpo ka ng anumang mga error, may mga katanungan, o kailangan ng suporta para sa pag-update ng mga file ng sanggunian, mangyaring makipag-ugnay sa amin sa katie@barefootocean.org o brittany@barefootocean.org."
 fig4,"Larawan 4: Halimbawa ng email na ""i-Update ang kahilingan"" kapag kailangang itama ang impormasyon o kailangang tumugon ang komento."
 table1,"Talahanayan 1: Ang pangunahing mga patlang sa bawat isa sa mga sanggunian na file. Ang uri ng patlang na ""bfo"" ay pinamamahalaan ng Barefoot Ocean at hindi mai-edit. Upang humiling ng mga pagbabago sa alinman sa mga patlang na"" BFO"", mangyaring mag-iwan ng komento. Ang mga patlang lamang na may uri ng patlang na ""mai-edit"" ang maaaring mai-edit. Ang uri ng patlang na ""auto"" ay awtomatikong populasyon."
 t1.1,Pangalan ng patlang
@@ -68,7 +68,7 @@ t1.37,"Pangalan ng ID ng pamamahala, na pinapayagan ang mga puwang at bantas. Ku
 t1.38,Oo / walang patlang na nagpapakilala kung ang nayon ay responsable para sa pamamahala ng lugar.
 t1.40,"Pangalan ng mamimili na walang mga puwang at walang bantas, binibigyang diin lamang"
 t1.41,"Pangalan ng mamimili na may mga puwang at bantas na pinapayagan. Mangyaring huwag baguhin ang label maliban kung talagang kinakailangan, dahil ang mga pagsali ay batay dito."
-t1.42,"Kasarian ng mamimili; M (lalaki), F( babae) o NB (nonbinary)"
+t1.42,"Kasarian ng mamimili; 'male' (lalaki), 'female' (babae), 'nonbinary ' o 'business_nogender'"
 t1.43,"Natatanging numero ng ID upang makilala ang bumibili. Mangyaring mag-iwan ng komento kung ang dalawang magkakaibang mamimili ay may parehong ID. Bilang default, ang dalawang mamimili na may parehong eksaktong pangalan, kahit na sila ay mula sa dalawang magkakaibang nayon, ay makakatanggap ng parehong ID maliban kung sinabi."
 t1.44,"Admin1 pangalan kung saan bumibili ang mamimili, na pinapayagan ang mga puwang at bantas. Ito ay nakuha mula sa admin1_ref at auto populated batay sa admin3_ref_name pinili."
 t1.45,"Admin2 pangalan kung saan bumibili ang mamimili, na pinapayagan ang mga puwang at bantas. Ito ay nakuha mula sa admin2_ref at auto populated batay sa admin3_ref_name pinili."
@@ -79,7 +79,7 @@ t1.49,"Piliin ang "" Oo "" kung ang data ay kasalukuyang kinokolekta mula sa ind
 t1.50,"Piliin ang "" Oo "" kung nais mong alisin ang mamimili. Ang mga mamimili ay dapat lamang alisin kung ang pangalan ay hindi tama o ito ay isang duplicate ng isang umiiral na rekord. Mangyaring mag-iwan ng komento tungkol sa dahilan ng pag-alis. Kung ang mamimili ay wala na sa nayon o hindi na bumili, piliin ang ""hindi"" mula sa haligi na ""aktibo"" sa halip."
 t1.52,"Pangalan ng mangingisda na walang puwang at walang bantas, binibigyang diin lamang"
 t1.53,"Pangalan ng mangingisda na may mga puwang at bantas na pinapayagan. Mangyaring huwag baguhin ang label maliban kung talagang kinakailangan, dahil ang mga pagsali ay batay dito."
-t1.54,"Kasarian ng mangingisda; M (lalaki), F (babae) o NB (nonbinary)"
+t1.54,"Kasarian ng mangingisda; 'male' (lalaki), 'female' (babae), 'nonbinary ' o 'business_nogender'"
 t1.55,"Natatanging numero ng ID upang makilala ang mangingisda. Mangyaring mag-iwan ng komento kung ang dalawang magkakaibang mangingisda ay may parehong ID. Bilang default, ang dalawang mangingisda na may parehong eksaktong pangalan, kahit na sila ay mula sa dalawang magkakaibang nayon, ay makakatanggap ng parehong ID maliban kung sinabi."
 t1.56,"Admin1 pangalan kung saan ang fisher lupain ang kanilang catch, na may mga puwang at bantas pinapayagan. Ito ay nakuha mula sa admin1_ref at auto populated batay sa admin3_ref_name pinili."
 t1.57,"Admin2 pangalan kung saan ang fisher lupain ang kanilang catch, na may mga puwang at bantas pinapayagan. Ito ay nakuha mula sa admin2_ref at auto populated batay sa admin3_ref_name pinili."
@@ -87,7 +87,7 @@ t1.58,"Admin3 pangalan kung saan ang fisher lupain ang kanilang catch, na may mg
 t1.62,"Piliin ang "" Oo "" kung nais mong alisin ang admin3. Ang Admin3s ay dapat lamang alisin kung ang pangalan ay hindi tama o ito ay isang duplicate ng isang umiiral na rekord. Mangyaring mag-iwan ng komento tungkol sa dahilan ng pag-alis. Kung ang mangingisda ay wala na sa nayon o hindi na mangisda, piliin ang ""hindi"" mula sa haligi na ""aktibo"" sa halip."
 t1.64,"Pangalan ng kolektor ng data na walang mga puwang at walang bantas, binibigyang diin lamang"
 t1.65,Pangalan ng kolektor ng data na may mga puwang at bantas na pinapayagan.
-t1.66,"Kasarian ng kolektor ng data; M (lalaki), F( babae) o NB (nonbinary)"
+t1.66,"Kasarian ng kolektor ng data; 'male' (lalaki), 'female' (babae), 'nonbinary ' o 'business_nogender'"
 t1.69,"Piliin ang"" Oo "" kung nais mong lumitaw ang kolektor ng data sa dropdown para sa form ng pagsubaybay sa Kobo landings."
 t1.70,"Piliin ang "" Oo "" kung nais mong lumitaw ang kolektor ng data sa dropdown para sa form ng pag-profile ng Kobo landings"
 t1.71,"Piliin ang "" Oo "" kung nais mong lumitaw ang kolektor ng data sa dropdown para sa form ng survey ng sambahayan ng Kobo"

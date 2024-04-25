@@ -29,7 +29,7 @@ point17,"Rehefa tonga amin'ny fidirana farany ianao dia tsindrio ""Vita"". Hisy 
 point17.1,"Tsindrio ""Miverena"" raha mila mandinika ianao"
 point17.2,"Kitiho ny ""Alefaso Ny Fanavaozana"" mba handefasana ny fanavaozanao."
 point17.3,Ny fanavaozanao dia ampidirina ho azy amin'ny rakitra reference ary azonao jerena Amin'ny Fomba Fijery Mavitrika
-p2,"Raha sendra misy lesoka ianao amin'ny fotoana rehetra, manana fanontaniana, na mila fanohanana amin'ny fanavaozana ireo rakitra referansa, azafady mba mifandraisa aminay amin'ny barefootinfo@barefootocean.org."
+p2,"Raha sendra misy lesoka ianao amin'ny fotoana rehetra, manana fanontaniana, na mila fanohanana amin'ny fanavaozana ireo rakitra referansa, azafady mba mifandraisa aminay amin'ny katie@barefootocean.org na brittany@barefootocean.org."
 fig4,"Sary 4: Ohatra ""Fangatahana Fanavaozana"" mailaka rehefa mila ahitsy ny fampahalalana na mila valiana ny fanehoan-kevitra."
 table1,"Tabilao 1: ny saha voalohany ao amin'ny rakitra referansa tsirairay. Ny karazana saha "" bfo "" dia tantanan'ny Barefoot Ocean ary tsy azo ovaina. Mba hangataka fanovana amin'ny iray amin'ireo saha"" BFO"", azafady avelao ny fanehoan-kevitra. Ny saha misy karazana saha ""azo ovaina"" ihany no azo ovaina. Ny karazana saha ""auto"" dia mipetraka ho azy."
 t1.1,Anaran'ny saha
@@ -68,7 +68,7 @@ t1.37,"Anaran'ny id fitantanana, miaraka amin'ny toerana sy mari-piatoana azo at
 t1.38,Eny/Tsy misy saha mamantatra raha tompon'andraikitra amin'ny fitantanana ny faritra ny tanàna.
 t1.40,"Anaran'ny mpividy tsy misy toerana ary tsy misy mari-piatoana, manasongadina fotsiny"
 t1.41,"Anaran'ny mpividy misy toerana sy mari-piatoana azo atao. Aza manova ny marika raha tsy tena ilaina, satria mifototra amin'izany ny fidirana."
-t1.42,"Ny maha-lahy na maha-VAVY ny mpividy; M (lahy), F (vavy) Na NB (tsy binary)"
+t1.42,"Ny maha-lahy na maha-vavy ny mpividy; 'male' (lahy), 'female' (vavy), 'nonbinary' (tsy binary) na 'business_nogender'"
 t1.43,"Id isa tokana hamantarana ny mpividy. Azafady avelao ny fanehoan-kevitra raha toa ka manana ID MITOVY ny mpividy roa samy hafa. Amin'ny alàlan'ny default, mpividy roa manana anarana mitovy, na dia avy amin'ny tanàna roa samy hafa aza izy ireo, dia hahazo NY ID mitovy raha tsy misy filazana hafa."
 t1.44,"Anarana Admin1 izay ividianan'ny mpividy, miaraka amin'ny toerana sy ny mari-piatoana. Izany dia nalaina avy amin'ny admin1_ref sy auto populated mifototra amin'ny admin3_ref_name voafidy."
 t1.45,"Anarana Admin2 izay ividianan'ny mpividy, miaraka amin'ny toerana sy ny mari-piatoana. Izany dia nalaina avy amin'ny admin2_ref sy auto populated mifototra amin'ny admin3_ref_name voafidy."
@@ -79,7 +79,7 @@ t1.49,"Safidio Ny "" Eny "" raha angonina amin'izao fotoana izao ny angona avy a
 t1.50,"Safidio Ny "" Eny "" raha te hanala ny mpividy ianao. Ny mpividy dia tokony hesorina raha tsy diso ny anarana na dika mitovy amin'ny firaketana efa misy. Azafady mba avelao ny fanehoan-kevitra momba ny antony fanesorana. Raha tsy ao an-tanàna intsony ny mpividy na tsy mividy intsony dia safidio ny ""Tsia"" amin'ny tsanganana ""active""."
 t1.52,"Anaran'ny mpanjono tsy misy toerana ary tsy misy mari-piatoana, manasongadina fotsiny"
 t1.53,"Anaran'ny mpanjono misy toerana sy mari-piatoana azo atao. Aza manova ny marika raha tsy tena ilaina, satria mifototra amin'izany ny fidirana."
-t1.54,"Ny lahy sy ny vavy amin'ny mpanjono; M (lahy), f (vavy) Na NB (tsy binary)"
+t1.54,"Ny maha-lahy na maha-vavy ny mpanjono; 'male' (lahy), 'female' (vavy), 'nonbinary' (tsy binary) na 'business_nogender'"
 t1.55,"Id isa tokana hamantarana ny mpanjono. Azafady mba avelao ny fanehoan-kevitra raha toa ka mitovy NY ID ny mpanjono roa samy hafa. Amin'ny alàlan'ny default, mpanjono roa manana anarana mitovy, na dia avy amin'ny tanàna roa samy hafa aza izy ireo, dia hahazo NY KARAPANONDRO mitovy raha tsy misy filazana hafa."
 t1.56,"Anarana Admin1 izay ahazoan'ny mpanjono ny hazandranony, miaraka amin'ny toerana sy ny mari-piatoana azo atao. Izany dia nalaina avy amin'ny admin1_ref sy auto populated mifototra amin'ny admin3_ref_name voafidy."
 t1.57,"Anarana Admin2 izay ahazoan'ny mpanjono ny hazandranony, miaraka amin'ny toerana sy ny mari-piatoana azo atao. Izany dia nalaina avy amin'ny admin2_ref sy auto populated mifototra amin'ny admin3_ref_name voafidy."
@@ -87,7 +87,7 @@ t1.58,"Anarana Admin3 izay ahazoan'ny mpanjono ny hazandranony, miaraka amin'ny 
 t1.62,"Safidio Ny "" Eny "" raha te hanala ny admin3 ianao. Admin3s dia tokony hesorina raha tsy diso ny anarana na dika mitovy amin'ny firaketana efa misy. Azafady mba avelao ny fanehoan-kevitra momba ny antony fanesorana. Raha tsy ao an-tanàna intsony ilay mpanjono na tsy manjono intsony dia safidio ny ""Tsia"" amin'ny tsanganana ""active""."
 t1.64,"Anaran'ny mpanangona angon-drakitra tsy misy toerana ary tsy misy mari-piatoana, manasongadina fotsiny"
 t1.65,Anaran'ny mpanangona angon-drakitra misy toerana sy mari-piatoana azo atao.
-t1.66,"Ny maha-lahy na maha-VAVY ny mpanangona angon-drakitra; M (lahy), F (vavy) Na NB (tsy binary)"
+t1.66,"Ny maha-lahy na maha-vavy ny mpanangona angon-drakitra; 'male' (lahy), 'female' (vavy), 'nonbinary' (tsy binary) na 'business_nogender'"
 t1.69,"Safidio Ny "" Eny "" raha tianao hiseho ao amin'ny dropdown ny mpanangona data ho an'ny endrika fanaraha-maso kobo landings."
 t1.70,"Safidio Ny ""Eny"" raha tianao hiseho ao amin'ny dropdown ny mpanangona data ho an'ny endrika mombamomba ny kobo landings"
 t1.71,"Safidio Ny ""Eny"" raha tianao hiseho ao amin'ny dropdown ny mpanangona data ho an'ny endrika fanadihadiana ao An-tokantrano kobo"

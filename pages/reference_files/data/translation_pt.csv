@@ -29,7 +29,7 @@ point17,"Quando chegar à última entrada, clique em ""Concluído"". Uma mensage
 point17.1,"Clique em ""Voltar"" Se precisar rever"
 point17.2,"Clique em ""Enviar atualização"" para enviar suas atualizações."
 point17.3,Suas atualizações são automaticamente anexadas ao arquivo de referência e você pode visualizá-las na Visualização Dinâmica
-p2,"Se, a qualquer momento, encontrar algum erro, tiver dúvidas ou precisar de suporte para atualizar os arquivos de referência, entre em contato conosco em barefootinfo@barefootocean.org."
+p2,"Se, a qualquer momento, encontrar algum erro, tiver dúvidas ou precisar de suporte para atualizar os arquivos de referência, entre em contato conosco em katie@barefootocean.org ou brittany@barefootocean.org."
 fig4,"Figura 4: exemplo de E-mail ""Pedido de atualização"" quando é necessário corrigir informações ou responder a comentários."
 table1,"Tabela 1: os campos principais em cada um dos ficheiros de referência. O tipo de campo"" BFO "" é gerido pela Barefoot Ocean e não é editável. Para solicitar alterações a qualquer um dos Campos"" BFO"", por favor deixe um comentário. Apenas os campos com o tipo de campo ""editável"" podem ser editados. O tipo de campo ""auto"" é preenchido automaticamente."
 t1.1,Nome do campo
@@ -68,7 +68,7 @@ t1.37,"Nome do ID de gestão, com espaços e pontuação permitidos. Se houver 4
 t1.38,Campo sim / não que identifique se a aldeia é responsável pela gestão da área.
 t1.40,"Nome do comprador sem espaços e sem pontuação, apenas sublinhados"
 t1.41,"Nome do comprador com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
-t1.42,"Sexo do comprador; M (masculino), F (feminino) ou NB (não binário)"
+t1.42,"Sexo do comprador; 'male' (masculino), 'female' (feminino), 'nonbinary' (não binário) ou 'business_nogender'"
 t1.43,"Número único de identificação para identificar o comprador. Por favor, deixe um comentário se dois compradores diferentes tiverem o mesmo ID. Por padrão, dois compradores com o mesmo nome exato, mesmo que sejam de duas aldeias diferentes, receberão o mesmo ID, salvo indicação em contrário."
 t1.44,"Nome Admin1 onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.45,"Nome Admin2 de onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
@@ -79,7 +79,7 @@ t1.49,"Selecione ""Sim""se os dados estiverem a ser recolhidos desta pessoa. Se 
 t1.50,"Escolha "" Sim "" se quiser remover o comprador. Os compradores só devem ser removidos se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se o comprador não estiver mais na aldeia ou não comprar mais, selecione ""não"" na coluna ""ativo""."
 t1.52,"Nome do pescador sem espaços e sem pontuação, apenas sublinhados"
 t1.53,"Nome do pescador com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
-t1.54,"Sexo do pescador; M (masculino), F (feminino) ou NB (não binário)"
+t1.54,"Sexo do pescador; 'male' (masculino), 'female' (feminino), 'nonbinary' (não binário) ou 'business_nogender'"
 t1.55,"Número único de identificação para identificar o pescador. Por favor, deixe um comentário se dois pescadores diferentes tiverem o mesmo ID. Por defeito, dois pescadores com o mesmo nome exacto, mesmo que sejam de duas aldeias diferentes, receberão o mesmo documento de identificação, salvo indicação em contrário."
 t1.56,"Nome Admin1 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.57,"Nome Admin2 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
@@ -87,7 +87,7 @@ t1.58,"Nome Admin3 onde o pescador pousa a sua captura, com espaços e pontuaç�
 t1.62,"Escolha "" Sim "" se quiser remover o admin3. Admin3s só deve ser removido se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se o pescador não estiver mais na aldeia ou não pescar mais, selecione ""não"" na coluna ""ativo""."
 t1.64,"Nome do coletor de dados sem espaços e sem pontuação, apenas sublinhados"
 t1.65,Nome do coletor de dados com espaços e pontuação permitidos.
-t1.66,"Sexo do coletor de dados; M (masculino), F (feminino) ou NB (não binário)"
+t1.66,"Sexo do coletor de dados; 'male' (masculino), 'female' (feminino), 'nonbinary' (não binário) ou 'business_nogender'"
 t1.69,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de monitorização de aterragens Kobo."
 t1.70,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de criação de perfil Kobo landings"
 t1.71,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de inquérito aos agregados familiares Kobo"

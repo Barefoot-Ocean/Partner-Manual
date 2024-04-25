@@ -29,7 +29,7 @@ point17,"Sa diha nga ikaw sa pagkuha sa mga katapusan nga entry, i-klik ""Gibuha
 point17.1,"Pag-klik sa"" Balik "" kung kinahanglan nimo nga repasuhon"
 point17.2,"I-klik ang ""Submit Update"" sa pagsumiter sa inyong mga updates."
 point17.3,Ang imong mga pag update awtomatiko nga nadugang sa file sa pakisayran ug mahimo nimo kini makita sa Dinamikong Panan aw
-p2,"Kung sa bisan unsang oras nga makasugat ka bisan unsang mga sayup, adunay mga pangutana, o kinahanglan nga suporta alang sa pag-update sa mga pakisayran nga file, palihug kontaka kami sa barefootinfo@barefootocean.org."
+p2,"Kung sa bisan unsang oras nga makasugat ka bisan unsang mga sayup, adunay mga pangutana, o kinahanglan nga suporta alang sa pag-update sa mga pakisayran nga file, palihug kontaka kami sa katie@barefootocean.org o brittany@barefootocean.org."
 fig4,"Figure 4: Panig-Ingnan ""Update Hangyo"" email sa diha nga impormasyon kinahanglan nga matul-id o comment kinahanglan nga mitubag sa."
 table1,"Table 1: ang nag-unang mga natad sa matag usa sa mga pakisayran nga mga file. Ang tipo sa uma nga ""BFO"" gidumala sa Nagtiniil Nga Dagat ug dili ma-edit. Sa paghangyo sa mga kausaban sa bisan unsa sa mga"" BFO "" kaumahan, palihug mobiya sa usa ka comment. Ang mga uma nga adunay tipo sa uma nga ""editable"" mahimong ma-edit. Ang tipo sa uma nga ""awto"" awtomatiko nga gipuy-an."
 t1.1,Ngalan sa uma
@@ -68,7 +68,7 @@ t1.37,"Ngalan SA pagdumala ID, nga adunay mga luna ug ang punctuation gitugotan.
 t1.38,Oo/Dili field nga nagpaila kon ang baryo mao ang responsable alang sa area management.
 t1.40,"Ngalan sa pumapalit nga walay luna ug walay punctuation, lamang underscore"
 t1.41,"Ang ngalan sa pumapalit nga adunay mga luna ug gitugot nga punctuation. Palihug ayaw usba ang label gawas kung kinahanglan gyud, tungod kay gipasukad niini ang mga pag-apil."
-t1.42,"Gender (gender), m (lalake), f (babaye) o NB (nb)"
+t1.42,"Ang Gender sa pumapalit; 'male' (lalaki), 'female' (babaye), 'nonbinary' o 'business_nogender'"
 t1.43,"Talagsaon NGA NUMERO SA ID aron mahibal-an ang pumapalit. Palihug mobiya sa usa ka comment kon ang duha ka lain-laing mga pumapalit adunay sama nga ID. Pinaagi sa default, duha ka mga pumapalit nga adunay parehas nga eksaktong ngalan, bisan kung gikan sila sa duha ka lainlaing mga baryo, makadawat sa PAREHAS nga ID gawas kung gisultihan."
 t1.44,"Admin 1 ngalan diin ang pumapalit gipalit gikan sa, uban sa luna ug punctuation gitugotan. Kini gikuha gikan sa admin1_ref ug auto nga gipuy-an base sa gipili nga administr3_ref_name."
 t1.45,"Admin 2 ngalan diin ang pumapalit gipalit gikan sa, uban sa luna ug punctuation gitugotan. Gikuha kini gikan sa admin2_ref ug auto nga gipuy-an pinahiuyon sa gipili nga ngalan sa administr3_ref_name."
@@ -79,7 +79,7 @@ t1.49,"Pilia ang"" Oo "" kung ang datos nakolekta gikan sa kini nga indibidwal. 
 t1.50,"Pilia ang"" Oo "" kung gusto nimo i-download ang programa. Ang mga pumapalit kinahanglan nga tangtangon lamang kung ang ngalan sayop o kini usa ka duplicate sa usa ka kasamtangan nga rekord. Palihug leave sa usa ka comment mahitungod sa hinungdan sa pagtangtang. Kung ang pumapalit wala na sa baryo o dili na mopalit, pilia ang"" Dili ""gikan sa"" aktibo "" nga kolum."
 t1.52,"Ang ngalan sa mangingisda nga walay luna ug walay punctuation, lamang underscore"
 t1.53,"Ang ngalan sa mangingisda nga adunay mga luna ug gitugot nga punctuation. Palihug ayaw usba ang label gawas kung kinahanglan gyud, tungod kay gipasukad niini ang mga pag-apil."
-t1.54,"Gender: m (male), f (babaye) o NB (nb)"
+t1.54,"Ang Gender sa mangingisda; 'male' (lalaki), 'female' (babaye), 'nonbinary' o 'business_nogender'"
 t1.55,"Talagsaon NGA NUMERO SA ID aron mahibal-an ang mangingisda. Palihug leave sa usa ka comment kon ang duha ka lain-laing mga mangingisda adunay SAMA nga ID. Pinaagi sa default, duha ka mga mangingisda uban sa sama nga eksakto nga ngalan, bisan kon sila gikan sa duha ka lain-laing mga balangay, makadawat sa SAMA NGA ID gawas kon kon dili gisultihan."
 t1.56,"Admin 1 ngalan diin ang mga mangingisda yuta sa ilang mga dakpon, uban sa mga luna ug punctuation gitugotan. Kini gikuha gikan sa admin1_ref ug auto nga gipuy-an base sa gipili nga administr3_ref_name."
 t1.57,"Ngalan sa admin 2 diin ang mangingisda yuta sa ilang mga dakpon, uban sa luna ug punctuation gitugotan. Gikuha kini gikan sa admin2_ref ug auto nga gipuy-an pinahiuyon sa gipili nga ngalan sa administr3_ref_name."
@@ -87,7 +87,7 @@ t1.58,"Admin 3 ngalan diin ang mga mangingisda yuta sa ilang mga dakpon, uban sa
 t1.62,"Pilia ang"" Oo "" kung gusto nimo tangtangon ang admin 3. Ang mga admin 3 kinahanglan lamang tangtangon kung ang ngalan sayup o kini usa ka duplicate sa usa ka naglungtad nga rekord. Palihug leave sa usa ka comment mahitungod sa hinungdan sa pagtangtang. Kon ang mangingisda wala na sa baryo o wala na mangisda, pilia Ang"" Dili ""gikan sa"" aktibo "" nga kolum sa baylo."
 t1.64,"Ngalan sa tigkolekta sa datos nga walay luna ug walay punctuation, lamang underscores"
 t1.65,Ngalan sa tigkolekta sa datos nga adunay mga luna ug gitugot nga punctuation.
-t1.66,"Gender sa data collector; m (lalake), f (babaye) o NB (nb)"
+t1.66,"Ang Gender sa data collector; 'male' (lalaki), 'female' (babaye), 'nonbinary' o 'business_nogender'"
 t1.69,"Pilia ang"" Oo "" kon gusto nimo nga ang data collector makita sa dropdown alang sa kobo landings monitoring form."
 t1.70,"Pilia Ang ""Oo"" kung gusto nimo makita ang kolektor sa datos sa dropdown alang sa porma sa pag-profile Sa Kobo"
 t1.71,"Pilia Ang ""Oo"" kung gusto nimo makita ang kolektor sa datos sa dropdown alang sa porma Sa survey Sa Kobo household"

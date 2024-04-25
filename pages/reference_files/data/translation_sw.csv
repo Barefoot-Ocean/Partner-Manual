@@ -29,7 +29,7 @@ point17,"Unapofika kwenye kiingilio cha mwisho, bonyeza ""Imekamilika"". Ujumbe 
 point17.1,"Bofya ""Rudi nyuma"" ikiwa unahitaji kukagua"
 point17.2,"Bofya ""Wasilisha Sasisho"" ili kuwasilisha masasisho yako."
 point17.3,Sasisho zako zinaongezwa kiatomati kwenye faili ya kumbukumbu na unaweza kuzitazama Kwa Mtazamo Wa Nguvu
-p2,"Ikiwa wakati wowote unakutana na makosa yoyote, una maswali, au unahitaji msaada wa kusasisha faili za kumbukumbu, tafadhali wasiliana nasi kwa barefootinfo@barefootocean.org."
+p2,"Ikiwa wakati wowote unakutana na makosa yoyote, una maswali, au unahitaji msaada wa kusasisha faili za kumbukumbu, tafadhali wasiliana nasi kwa katie@barefootocean.org au brittany@barefootocean.org."
 fig4,"Kielelezo 4: Mfano ""Sasisha Ombi"" barua pepe wakati habari inahitaji kusahihishwa au maoni yanahitaji kujibiwa."
 table1,"Jedwali 1: mashamba ya msingi katika kila moja ya faili za kumbukumbu. Field aina "" BFO "" ni kusimamiwa Na Barefoot Ocean na si editable. Ili kuomba mabadiliko kwenye sehemu yoyote ya ""bfo"", tafadhali acha maoni. Mashamba tu na aina ya shamba ""editable"" inaweza kuhaririwa. Aina ya shamba ""auto"" inaishi moja kwa moja."
 t1.1,Jina la shamba
@@ -68,7 +68,7 @@ t1.37,"Jina la kitambulisho cha usimamizi, na nafasi na uakifishaji unaruhusiwa.
 t1.38,Ndiyo / Hapana shamba kutambua kama kijiji ni wajibu kwa ajili ya usimamizi wa eneo.
 t1.40,"Jina la mnunuzi bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.41,"Jina la mnunuzi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
-t1.42,"Jinsia ya mnunuzi; M (kiume), F (kike) au NB (nonbinary)"
+t1.42,"Jinsia ya mnunuzi; 'male' (kiume), 'female' (kike), 'nonbinary' au 'business_nogender'"
 t1.43,"Kitambulisho cha nambari ya kipekee ili kutambua mnunuzi. Tafadhali acha maoni ikiwa wanunuzi wawili tofauti wana KITAMBULISHO sawa. Kwa chaguo-msingi, wanunuzi wawili walio na jina sawa, hata ikiwa ni kutoka vijiji viwili tofauti, watapokea KITAMBULISHO sawa isipokuwa imeambiwa vinginevyo."
 t1.44,"Admin1 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin1_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.45,"Admin2 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
@@ -79,7 +79,7 @@ t1.49,"Chagua ""Ndiyo"" ikiwa data inakusanywa kwa sasa kutoka kwa mtu huyu. Iki
 t1.50,"Chagua ""Ndiyo"" ikiwa ungependa kuondoa mnunuzi. Wanunuzi wanapaswa kuondolewa tu ikiwa jina sio sahihi au ni nakala ya rekodi iliyopo. Tafadhali acha maoni juu ya sababu ya kuondolewa. Ikiwa mnunuzi hayuko tena kijijini au hainunui tena, chagua ""Hapana"" kutoka kwa safu"" inayotumika "" badala yake."
 t1.52,"Jina la mvuvi bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.53,"Jina la mvuvi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
-t1.54,"Jinsia ya mvuvi; M (kiume), F (kike) au NB (nonbinary)"
+t1.54,"Jinsia ya mvuvi; 'male' (kiume), 'female' (kike), 'nonbinary' au 'business_nogender'"
 t1.55,"Kitambulisho cha nambari ya kipekee ili kumtambua mvuvi. Tafadhali acha maoni ikiwa wavuvi wawili tofauti wana KITAMBULISHO sawa. Kwa chaguo-msingi, wavuvi wawili wenye jina sawa, hata kama wanatoka vijiji viwili tofauti, watapokea KITAMBULISHO sawa isipokuwa kama imeelezwa vinginevyo."
 t1.56,"Admin1 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin1_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.57,"Admin2 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
@@ -87,7 +87,7 @@ t1.58,"Admin3 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama ku
 t1.62,"Chagua ""Ndio"" ikiwa ungependa kuondoa admin3. Admin3s inapaswa kuondolewa tu ikiwa jina sio sahihi au ni nakala ya rekodi iliyopo. Tafadhali acha maoni juu ya sababu ya kuondolewa. Ikiwa mvuvi hayuko tena kijijini au havui samaki tena, chagua ""Hapana"" kutoka kwa safu"" inayotumika "" badala yake."
 t1.64,"Jina la mtoza data bila nafasi na hakuna alama za uakifishaji, inasisitiza tu"
 t1.65,Jina la mtoza data na nafasi na punctuation kuruhusiwa.
-t1.66,"Jinsia ya mtoza data; M (kiume), F (kike) au NB (nonbinary)"
+t1.66,"Jinsia ya mtoza data; 'male' (kiume), 'female' (kike), 'nonbinary' au 'business_nogender'"
 t1.69,"Chagua ""Ndio"" ikiwa unataka mtoza data aonekane kwenye kushuka kwa Fomu Ya Ufuatiliaji Wa Kutua Kwa Kobo."
 t1.70,"Chagua ""Ndio"" ikiwa unataka mtoza data aonekane kwenye kushuka kwa Fomu Ya wasifu Wa Kutua Kwa Kobo"
 t1.71,"Chagua ""Ndio"" ikiwa unataka mtoza data aonekane kwenye kushuka kwa Fomu ya Uchunguzi Wa Kaya Ya Kobo"

@@ -29,7 +29,7 @@ point17,"When you get to the last entry, click “Done”. A pop-up message will
 point17.1,Click “Go Back” if you need to review
 point17.2,Click “Submit Update” to submit your updates.
 point17.3,Your updates are automatically appended to the reference file and you can view them in Dynamic View
-p2,"If at any time you encounter any errors, have questions, or need support for updating reference files, please contact us at barefootinfo@barefootocean.org."
+p2,"If at any time you encounter any errors, have questions, or need support for updating reference files, please contact us at katie@barefootocean.org or brittany@barefootocean.org."
 fig4,Figure 4: Example “Update Request” email when information needs to be corrected or comment needs to be responded to.
 table1,"Table 1: The primary fields in each of the reference files. Field type “BFO” is managed by Barefoot Ocean and is not editable. To request changes to any of the “BFO” fields, please leave a comment. Only fields with field type “editable” can be edited. Field type “auto” is populated automatically."
 t1.1,Field name
@@ -68,7 +68,7 @@ t1.37,"Name of management ID, with spaces and punctuation allowed. If there are 
 t1.38,Yes/No field identifying whether the village is responsible for area management.
 t1.40,"Name of the buyer with no spaces and no punctuation, only underscores"
 t1.41,"Name of the buyer with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
-t1.42,"Gender of the buyer; M (male), F (female) or NB (nonbinary)"
+t1.42,"Gender of the buyer; 'male', 'female', 'nonbinary' or 'business_nogender'"
 t1.43,"Unique number ID to identify the buyer. Please leave a comment if two different buyers have the same ID. By default, two buyers with the same exact name, even if they are from two different villages, will receive the same ID unless otherwise told."
 t1.44,"Admin1 name where the buyer buys from, with spaces and punctuation allowed. This is pulled from the admin1_ref and auto populated based on the admin3_ref_name chosen."
 t1.45,"Admin2 name where the buyer buys from, with spaces and punctuation allowed. This is pulled from the admin2_ref and auto populated based on the admin3_ref_name chosen."
@@ -79,7 +79,7 @@ t1.49,"Select “Yes” if data is currently being collected from this individua
 t1.50,"Choose “Yes” if you would like to remove the buyer. Buyers should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If the buyer is no longer in the village or doesn’t buy anymore, select “No” from the “active” column instead."
 t1.52,"Name of the fisher with no spaces and no punctuation, only underscores"
 t1.53,"Name of the fisher with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
-t1.54,"Gender of the fisher; M (male), F (female) or NB (nonbinary)"
+t1.54,"Gender of the fisher; 'male', 'female', 'nonbinary' or 'business_nogender'"
 t1.55,"Unique number ID to identify the fisher. Please leave a comment if two different fishers have the same ID. By default, two fishers with the same exact name, even if they are from two different villages, will receive the same ID unless otherwise told."
 t1.56,"Admin1 name where the fisher lands their catch, with spaces and punctuation allowed. This is pulled from the admin1_ref and auto populated based on the admin3_ref_name chosen."
 t1.57,"Admin2 name where the fisher lands their catch, with spaces and punctuation allowed. This is pulled from the admin2_ref and auto populated based on the admin3_ref_name chosen."
@@ -87,7 +87,7 @@ t1.58,"Admin3 name where the fisher lands their catch, with spaces and punctuati
 t1.62,"Choose “Yes” if you would like to remove the admin3. Admin3s should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If the fisher is no longer in the village or doesn’t fish anymore, select “No” from the “active” column instead."
 t1.64,"Name of the data collector with no spaces and no punctuation, only underscores"
 t1.65,Name of the data collector with spaces and punctuation allowed.
-t1.66,"Gender of the data collector; M (male), F (female) or NB (nonbinary)"
+t1.66,"Gender of the data collector; 'male', 'female', 'nonbinary' or 'business_nogender'"
 t1.69,Select “Yes” if you want the data collector to appear in the dropdown for the Kobo landings monitoring form.
 t1.70,Select “Yes” if you want the data collector to appear in the dropdown for the Kobo landings profiling form
 t1.71,Select “Yes” if you want the data collector to appear in the dropdown for the Kobo household survey form

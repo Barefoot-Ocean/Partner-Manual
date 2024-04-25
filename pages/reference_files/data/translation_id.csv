@@ -29,7 +29,7 @@ point17,"Saat Anda masuk ke entri terakhir, klik ""Selesai"". Pesan pop-up akan 
 point17.1,"Klik ""Kembali"" jika Anda perlu meninjau"
 point17.2,"Klik ""Kirim Pembaruan"" untuk mengirimkan pembaruan Anda."
 point17.3,Pembaruan Anda secara otomatis ditambahkan ke file referensi dan Anda dapat melihatnya dalam Tampilan Dinamis
-p2,"Jika sewaktu-waktu Anda menemukan kesalahan, memiliki pertanyaan, atau memerlukan dukungan untuk memperbarui file referensi, silakan hubungi kami di barefootinfo@barefootocean.org."
+p2,"Jika sewaktu-waktu Anda menemukan kesalahan, memiliki pertanyaan, atau memerlukan dukungan untuk memperbarui file referensi, silakan hubungi kami di katie@barefootocean.org atau brittany@barefootocean.org."
 fig4,"Gambar 4: Contoh email ""Permintaan Pembaruan"" saat informasi perlu diperbaiki atau komentar perlu ditanggapi."
 table1,"Tabel 1: Bidang utama di setiap file referensi. Jenis bidang "" BFO "" dikelola oleh Barefoot Ocean dan tidak dapat diedit. Untuk meminta perubahan pada salah satu bidang ""BFO"", silakan tinggalkan komentar. Hanya bidang dengan tipe bidang ""dapat diedit"" yang dapat diedit. Jenis bidang ""otomatis"" diisi secara otomatis."
 t1.1,Nama bidang
@@ -68,7 +68,7 @@ t1.37,"Nama ID manajemen, dengan spasi dan tanda baca diperbolehkan. Jika ada 4 
 t1.38,Bidang Ya / Tidak mengidentifikasi apakah desa bertanggung jawab atas pengelolaan wilayah.
 t1.40,"Nama pembeli tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.41,"Nama pembeli dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
-t1.42,"Jenis kelamin pembeli; M (pria), F (wanita) atau NB (non biner)"
+t1.42,"Jenis kelamin pembeli; 'male' (pria), 'female' (wanita), 'nonbinary' (non biner) atau 'business_nogender' (bisnis_nogender)"
 t1.43,"ID nomor unik untuk mengidentifikasi pembeli. Silakan tinggalkan komentar jika dua pembeli yang berbeda memiliki ID yang sama. Secara default, dua pembeli dengan nama persis yang sama, meskipun mereka berasal dari dua desa yang berbeda, akan menerima ID yang sama kecuali dinyatakan lain."
 t1.44,"Admin1 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin1_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
 t1.45,"Admin2 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
@@ -79,7 +79,7 @@ t1.49,"Pilih ""Ya"" jika data saat ini sedang dikumpulkan dari individu ini. Jik
 t1.50,"Pilih "" Ya "" jika Anda ingin menghapus pembeli. Pembeli hanya boleh dihapus jika namanya salah atau merupakan duplikat dari catatan yang ada. Silakan tinggalkan komentar tentang alasan penghapusan. Jika pembeli tidak lagi berada di desa atau tidak membeli lagi, pilih ""Tidak"" dari kolom ""aktif""."
 t1.52,"Nama nelayan tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.53,"Nama nelayan dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
-t1.54,"Jenis kelamin nelayan; M (laki-laki), F (perempuan) atau NB (non biner)"
+t1.54,"Jenis kelamin nelayan; 'male' (pria), 'female' (wanita), 'nonbinary' (non biner) atau 'business_nogender' (bisnis_nogender)"
 t1.55,"ID nomor unik untuk mengidentifikasi nelayan. Silakan tinggalkan komentar jika dua nelayan yang berbeda memiliki ID yang sama. Secara default, dua nelayan dengan nama persis yang sama, meskipun mereka berasal dari dua desa yang berbeda, akan menerima ID yang sama kecuali dinyatakan lain."
 t1.56,"Admin1 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin1_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
 t1.57,"Admin2 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
@@ -87,7 +87,7 @@ t1.58,"Admin3 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tan
 t1.62,"Pilih ""Ya"" jika Anda ingin menghapus admin3. Admin3 hanya boleh dihapus jika namanya salah atau merupakan duplikat dari catatan yang ada. Silakan tinggalkan komentar tentang alasan penghapusan. Jika nelayan tidak lagi berada di desa atau tidak lagi menangkap ikan, pilih ""Tidak"" dari kolom ""aktif""."
 t1.64,"Nama pengumpul data tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.65,Nama pengumpul data dengan spasi dan tanda baca diperbolehkan.
-t1.66,"Jenis kelamin pengumpul data; M (pria), F (wanita) atau NB (non biner)"
+t1.66,"Jenis kelamin pengumpul data; 'male' (pria), 'female' (wanita), 'nonbinary' (non biner) atau 'business_nogender' (bisnis_nogender)"
 t1.69,"Pilih ""Ya"" jika Anda ingin pengumpul data muncul di menu tarik-turun untuk formulir pemantauan pendaratan Kobo."
 t1.70,"Pilih ""Ya"" jika Anda ingin pengumpul data muncul di menu tarik-turun untuk formulir profil pendaratan Kobo"
 t1.71,"Pilih ""Ya"" jika Anda ingin pengumpul data muncul di menu tarik-turun untuk formulir survei rumah tangga Kobo"

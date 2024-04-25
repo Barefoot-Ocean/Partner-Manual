@@ -29,7 +29,7 @@ point17,"Lorsque vous arrivez à la dernière entrée, cliquez sur “Terminé�
 point17.1,"Cliquez sur” Revenir en arrière "" si vous avez besoin de revoir"
 point17.2,"Cliquez sur ""Soumettre la mise à jour"" pour soumettre vos mises à jour."
 point17.3,Vos mises à jour sont automatiquement ajoutées au fichier de référence et vous pouvez les afficher en mode dynamique
-p2,"Si à tout moment vous rencontrez des erreurs, avez des questions ou avez besoin d'aide pour mettre à jour les fichiers de référence, veuillez nous contacter à barefootinfo@barefootocean.org."
+p2,"Si à tout moment vous rencontrez des erreurs, avez des questions ou avez besoin d'aide pour mettre à jour les fichiers de référence, veuillez nous contacter à katie@barefootocean.org ou brittany@barefootocean.org."
 fig4,"Figure 4: Exemple d'e-mail de” Demande de mise à jour "" lorsque des informations doivent être corrigées ou qu'un commentaire doit recevoir une réponse."
 table1,"Tableau 1: Les champs primaires dans chacun des fichiers de référence. Le type de champ "" BFO "" est géré par Barefoot Ocean et n'est pas modifiable. Pour demander des modifications à l'un des champs “BFO”, veuillez laisser un commentaire. Seuls les champs avec le type de champ “modifiable” peuvent être modifiés. Le type de champ ""auto"" est rempli automatiquement."
 t1.1,Nom du champ
@@ -68,7 +68,7 @@ t1.37,"Nom de l'identifiant de gestion, avec espaces et ponctuation autorisés. 
 t1.38,Oui / Non champ indiquant si le village est responsable de la gestion de la zone.
 t1.40,"Nom de l'acheteur sans espaces ni ponctuation, uniquement des traits de soulignement"
 t1.41,"Nom de l'acheteur avec espaces et ponctuation autorisés. Veuillez ne pas modifier l'étiquette à moins que cela ne soit absolument nécessaire, car les jointures sont basées sur cela."
-t1.42,"Sexe de l'acheteur; M (homme), F (femme) ou NB (non binaire)"
+t1.42,"Sexe de l'acheteur; 'male' (homme), 'female' (femme), 'nonbinary' (non binaire) ou 'business_nogender'"
 t1.43,"Numéro d'identification unique pour identifier l'acheteur. Veuillez laisser un commentaire si deux acheteurs différents ont la même pièce d'identité. Par défaut, deux acheteurs portant exactement le même nom, même s'ils proviennent de deux villages différents, recevront la même pièce d'identité, sauf indication contraire."
 t1.44,"Admin1 nom de l'endroit où l'acheteur achète, avec espaces et ponctuation autorisés. Ceci est extrait de admin1_ref et rempli automatiquement en fonction du admin3_ref_name choisi."
 t1.45,"Admin2 nom de l'endroit où l'acheteur achète, avec les espaces et la ponctuation autorisés. Ceci est extrait de admin2_ref et rempli automatiquement en fonction du admin3_ref_name choisi."
@@ -79,7 +79,7 @@ t1.49,"Sélectionnez "" Oui "" si des données sont actuellement collectées aup
 t1.50,"Choisissez "" Oui "" si vous souhaitez supprimer l'acheteur. Les acheteurs ne doivent être supprimés que si le nom est incorrect ou s'il s'agit d'un doublon d'un enregistrement existant. Veuillez laisser un commentaire sur la raison de la suppression. Si l'acheteur n'est plus dans le village ou n'achète plus, sélectionnez “Non” dans la colonne ""actif"" à la place."
 t1.52,"Nom du pêcheur sans espaces ni ponctuation, uniquement des traits de soulignement"
 t1.53,"Nom du pêcheur avec espaces et ponctuation autorisés. Veuillez ne pas modifier l'étiquette à moins que cela ne soit absolument nécessaire, car les jointures sont basées sur cela."
-t1.54,"Sexe du pêcheur; M (mâle), F (femelle) ou NB (non binaire)"
+t1.54,"Sexe de pêcheur; 'male' (homme), 'female' (femme), 'nonbinary' (non binaire) ou 'business_nogender'"
 t1.55,"Numéro d'identification unique pour identifier le pêcheur. Veuillez laisser un commentaire si deux pêcheurs différents ont la même pièce d'identité. Par défaut, deux pêcheurs portant exactement le même nom, même s'ils proviennent de deux villages différents, recevront la même pièce d'identité, sauf indication contraire."
 t1.56,"Admin1 nom de l'endroit où le pêcheur débarque sa prise, avec les espaces et la ponctuation autorisés. Ceci est extrait de admin1_ref et rempli automatiquement en fonction du admin3_ref_name choisi."
 t1.57,"Admin2 nom de l'endroit où le pêcheur débarque sa prise, avec les espaces et la ponctuation autorisés. Ceci est extrait de admin2_ref et rempli automatiquement en fonction du admin3_ref_name choisi."
@@ -87,7 +87,7 @@ t1.58,"Admin3 nom de l'endroit où le pêcheur débarque sa prise, avec les espa
 t1.62,"Choisissez "" Oui "" si vous souhaitez supprimer l'administrateur3. Les administrateurs ne doivent être supprimés que si le nom est incorrect ou s'il s'agit d'un doublon d'un enregistrement existant. Veuillez laisser un commentaire sur la raison de la suppression. Si le pêcheur n'est plus dans le village ou ne pêche plus, sélectionnez “Non” dans la colonne ""actif"" à la place."
 t1.64,"Nom du collecteur de données sans espaces ni ponctuation, uniquement des traits de soulignement"
 t1.65,Nom du collecteur de données avec espaces et ponctuation autorisés.
-t1.66,"Sexe du collecteur de données; M (homme), F (femme) ou NB (non binaire)"
+t1.66,"Sexe de collecteur de données; 'male' (homme), 'female' (femme), 'nonbinary' (non binaire) ou 'business_nogender'"
 t1.69,"Sélectionnez "" Oui "" si vous souhaitez que le collecteur de données apparaisse dans le menu déroulant du formulaire de surveillance des atterrissages Kobo."
 t1.70,"Sélectionnez "" Oui "" si vous souhaitez que le collecteur de données apparaisse dans le menu déroulant du formulaire de profilage Kobo landings"
 t1.71,"Sélectionnez "" Oui "" si vous souhaitez que le collecteur de données apparaisse dans le menu déroulant du formulaire d'enquête auprès des ménages Kobo"
