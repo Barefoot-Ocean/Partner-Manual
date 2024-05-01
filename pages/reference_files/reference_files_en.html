@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -671,6 +671,16 @@ ul.task-list li input[type="checkbox"] {
 <td>auto</td>
 </tr>
 <tr class="odd">
+<td>active</td>
+<td>Select “Yes” if data is currently being collected from this individual/area. If data is no longer being collected from this individual/area, and you want to hide it from the Kobo dropdown, select “No.”</td>
+<td>editable</td>
+</tr>
+<tr class="even">
+<td>remove</td>
+<td>Choose “Yes” if you would like to remove the record. Records should only be removed if the name is incorrect or it is a duplicate of an existing record.</td>
+<td>editable</td>
+</tr>
+<tr class="odd">
 <td><strong>admin1_ref</strong></td>
 <td></td>
 <td></td>
@@ -701,16 +711,6 @@ ul.task-list li input[type="checkbox"] {
 <td>editable</td>
 </tr>
 <tr class="odd">
-<td>active</td>
-<td>Select “Yes” if data is currently being collected there. If you are no longer collecting data there, and want to hide it from the Kobo dropdown, select “No.”</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the admin1. Admin1s should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If data is no longer collected there, select “No” from the “active” column instead.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
 <td><strong>admin2_ref</strong></td>
 <td></td>
 <td></td>
@@ -738,16 +738,6 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>admin1_ref_name</td>
 <td>Admin1 name with no spaces and no punctuation, only underscores. The dropdown list is connected to the “name” column in the admin1_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>active</td>
-<td>Select “Yes” if data is currently being collected there. If you are no longer collecting data there, and want to hide it from the Kobo dropdown, select “No.”</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the admin2. Admin2s should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If data is no longer collected there, select “No” from the “active” column instead.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
@@ -796,16 +786,6 @@ ul.task-list li input[type="checkbox"] {
 <td>BFO</td>
 </tr>
 <tr class="even">
-<td>active</td>
-<td>Select “Yes” if data is currently being collected there. If you are no longer collecting data there, and want to hide it from the Kobo dropdown, select “No.”</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the admin3. Admin3s should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If data is no longer collected there, select “No” from the “active” column instead.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
 <td>admin3_lat</td>
 <td>Latitude of admin3</td>
 <td>editable</td>
@@ -828,6 +808,26 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>management_govern_1-4</td>
 <td>Yes/No field identifying whether the village is responsible for area management.</td>
+<td>editable</td>
+</tr>
+<tr class="odd">
+<td>landings_mon</td>
+<td>Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo landings monitoring form.</td>
+<td>editable</td>
+</tr>
+<tr class="even">
+<td>landings_prof</td>
+<td>Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo landings profiling form.</td>
+<td>editable</td>
+</tr>
+<tr class="odd">
+<td>comm_prof</td>
+<td>Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo community profiling form.</td>
+<td>editable</td>
+</tr>
+<tr class="even">
+<td>hhs</td>
+<td>Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo household survey form.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
@@ -886,16 +886,6 @@ ul.task-list li input[type="checkbox"] {
 <td>BFO</td>
 </tr>
 <tr class="even">
-<td>active</td>
-<td>Select “Yes” if data is currently being collected from this individual. If data is no longer being collected from this individual, and you want to hide it from the Kobo dropdown, select “No.”</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the buyer. Buyers should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If the buyer is no longer in the village or doesn’t buy anymore, select “No” from the “active” column instead.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
 <td><strong>fisher_ref</strong></td>
 <td></td>
 <td></td>
@@ -949,16 +939,6 @@ ul.task-list li input[type="checkbox"] {
 <td>admin3_flag</td>
 <td>The flag will be red if the “admin3_ref_name” value does not exist in the admin3_ref.</td>
 <td>BFO</td>
-</tr>
-<tr class="odd">
-<td>active</td>
-<td>Select “Yes” if data is currently being collected from this individual. If data is no longer being collected from this individual, and you want to hide it from the Kobo dropdown, select “No.”</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the admin3. Admin3s should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If the fisher is no longer in the village or doesn’t fish anymore, select “No” from the “active” column instead.</td>
-<td>editable</td>
 </tr>
 <tr class="odd">
 <td><strong>data_collector_ref</strong></td>
@@ -1016,124 +996,104 @@ ul.task-list li input[type="checkbox"] {
 <td>editable</td>
 </tr>
 <tr class="even">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the data collector.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
 <td><strong>fishing_ground_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>country</td>
 <td>ISO country code, which is an internationally recognized letter combination code</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>name</td>
 <td>Name of the fishing ground with no spaces and no punctuation, only underscores</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>label</td>
 <td>Name of the fishing ground with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_flag</td>
 <td>The flag will be red if the “admin3_ref_name” value does not exist in the admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_ref_name</td>
 <td>Admin2 and admin3 names combined with no spaces and no punctuation, only underscores.The dropdown list is connected to the “name” column in the admin3_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>partner_flag</td>
 <td>The flag will be red if the “partner” value does not exist in the org_ref</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>partner</td>
 <td>Partner name with no spaces and no punctuation, only underscores. The dropdown list is connected to the “name” column in the org_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>latitude</td>
 <td>Latitude of the fishing ground</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>longitude</td>
 <td>Longitude of the fishing ground</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
-<td>active</td>
-<td>Select “Yes” if the fishing ground is currently being used. If you want to hide it from the Kobo dropdown or it is no longer being used, select “No.”</td>
-<td>editable</td>
-</tr>
 <tr class="even">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the fishing ground</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
 <td><strong>gear_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>country</td>
 <td>ISO country code, which is an internationally recognized letter combination code</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>name</td>
 <td>Local name of the gear with no spaces and no punctuation, only underscores</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>label</td>
 <td>Local name of the gear with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>gear_global</td>
 <td>English name of the gear with no spaces and no punctuation, only underscores. This is a predefined dropdown list. Please choose one that best fits the local gear, or comment if you are unsure.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>gear_detail</td>
 <td>Description of the gear</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>species_group</td>
 <td>The species group the gear targets. If one gear targets multiple species, create a new row of data for each species group. The dropdown list is connected to the “species_group” column in the species_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>species_flag</td>
 <td>The flag will be red if the “species_group” chosen does not exist in the species_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>partner</td>
 <td>Partner name with no spaces and no punctuation, only underscores. The dropdown list is connected to the “name” column in the org_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>partner_flag</td>
 <td>The flag will be red if the “partner” value does not exist in the org_ref</td>
 <td>BFO</td>
-</tr>
-<tr class="odd">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the gear. Please leave a comment explaining why.</td>
-<td>editable</td>
 </tr>
 <tr class="even">
 <td><strong>landing_site_ref</strong></td>
@@ -1166,54 +1126,64 @@ ul.task-list li input[type="checkbox"] {
 <td>editable</td>
 </tr>
 <tr class="even">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the landing site.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
 <td><strong>management_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>country</td>
 <td>ISO country code, which is an internationally recognized letter combination code</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>partner_ID</td>
 <td>Partner name with no spaces and no punctuation, only underscores. The dropdown list is connected to the “name” column in the org_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>partner_flag</td>
 <td>The flag will be red if the “partner” value does not exist in the org_ref</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>management_id</td>
 <td>Unique name of the management area with spaces and punctuation allowed. Please do not change the name unless absolutely necessary, as joins are based on this.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>management_id_unique</td>
-<td>Unique name of the management area and closure date. This should be the management_id with no spaces or punctuation combined with a number that identifies the unique closure with that area. For instance, if a management_id called Boston had two closure dates associated with it, we would have two management_id_unique fields assigned. One could be Boston_1 and another Boston_2 to identify closures within a management area.</td>
+<td>Unique name of the management area and effective dates. More specifically, it contains the following information separated by an underscore: management_id, management_method, close_date and open_date.</td>
+<td>BFO</td>
+</tr>
+<tr class="even">
+<td>management_fishing_ground</td>
+<td>The list of fishing grounds associated with the management_id and closure date. The dropdown list is connected to the “name” column in the fishing_ground_ref.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
-<td>management_fishing_ground</td>
-<td>The list of fishing grounds associated with the management_id and closure date.</td>
+<td>management_method</td>
+<td>The type of management method, including temporary closures, no take zones, etc. The predefined list includes: Temporary Closure, No Take Zone, Gear Restriction, Managed Access, Harvesting Ban or Deforestation Ban.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
-<td>management_method</td>
-<td>The type of management method, including temporary closures, no take zones, etc. This is a predefined list. Please comment if you are unsure.</td>
+<td>regulation_type</td>
+<td>The type of legal regulation. The predefined list includes: village head regulation, village head decree, joint village head regulation or none.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
-<td>target_species</td>
-<td>Target species for the managed area. This can be species groups or scientific species. The field is open.</td>
+<td>target_group</td>
+<td>Target species group for the managed area. This can include ‘All’, one or multiple species groups.</td>
 <td>editable</td>
+</tr>
+<tr class="even">
+<td>target_species</td>
+<td>Target species for the managed area. This can include ‘All_species’, one or multiple scientific species. The dropdown list is connected to the MASTER species_ref and includes species from all partners.</td>
+<td>editable</td>
+</tr>
+<tr class="odd">
+<td>species_flag</td>
+<td>The flag will be red if the “target_species” chosen is not referenced in the partner’s species_ref.</td>
+<td>BFO</td>
 </tr>
 <tr class="even">
 <td>target_habitat</td>
@@ -1227,12 +1197,12 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>close_date</td>
-<td>Closing date of the managed area</td>
+<td>Closing date of the managed area; MM/DD/YY</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
 <td>open_date</td>
-<td>Opening date of the managed area</td>
+<td>Opening date of the managed area; MM/DD/YY</td>
 <td>editable</td>
 </tr>
 <tr class="even">
@@ -1246,113 +1216,93 @@ ul.task-list li input[type="checkbox"] {
 <td>editable</td>
 </tr>
 <tr class="even">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the management id.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
 <td><strong>org_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>country</td>
 <td>ISO country code, which is an internationally recognized letter combination code</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>name</td>
 <td>Name of the partner/organization with no spaces and no punctuation, only underscores</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>label</td>
 <td>Name of the partner/organization with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>species_group</td>
 <td>The species groups the partner collects data on. The dropdown list is connected to the “species_group” column in the species_ref. Select all groups if they want all species in the species_ref to show up.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
-<td>active</td>
-<td>Select “Yes” if the partner is currently collecting data. If you want to hide it from the Kobo dropdown or they are no longer collecting data, select “No.”</td>
-<td>editable</td>
-</tr>
 <tr class="odd">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the partner/organization</td>
-<td>editable</td>
-</tr>
-<tr class="even">
 <td><strong>species_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>ISO country code, which is an internationally recognized letter combination code</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>partner</td>
 <td>Partner name with no spaces or punctuation, only underscores. Species dropdowns are filtered by the partner. Some countries have multiple partners that share a species list. In that case, you will see the country code instead of the partner, and the entire species list will show for every partner in that country, unless certain species groups are specified in the “species_group” column in the org_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>habitat</td>
 <td>Habitat type associated with the species</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>name</td>
 <td>Local name and species name combined with an underscore, with no other punctuation or spaces.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>label</td>
 <td>Local name with species name in parenthesis</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>species_group</td>
 <td>Species categorized into groups based on their biology with no spaces or punctuation, only underscores. This field is used to help filter certain answer choices in Kobo.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>species_flag</td>
 <td>The flag will be red if the “species_group” chosen is not referenced in the gear_ref. That means all gears listed in the gear_ref will appear for this species group. To only show gears that target this species group, please add the species group to the gear_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>local_name</td>
 <td>Local species name with spaces and punctuation allowed</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin2</td>
 <td>Name of admin2 with no spaces or punctuation, only underscores. The dropdown list is connected to the “name” column in the admin2_ref. <em>This field will only show for partners that want the species dropdown filtered by the admin2 chosen.</em></td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>common_english</td>
 <td>Common English species name with spaces and punctuation allowed</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>scientific_family</td>
 <td>Family name of a species with spaces and punctuation allowed</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>scientific_species</td>
 <td>Scientific name of the species with spaces and punctuation allowed. If the species is unknown, the genus or family can also be entered. If only the genus is known, type the name of the genus followed by “sp” (as opposed to “spp” or sp.”). If only the family is known, type the name of the family (i.e.&nbsp;Lutjanidae).</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>remove</td>
-<td>Choose “Yes” if you would like to remove the species.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
@@ -1406,11 +1356,6 @@ ul.task-list li input[type="checkbox"] {
 <td>BFO</td>
 </tr>
 <tr class="even">
-<td>habitat</td>
-<td>The habitat the min/max warning applies to.</td>
-<td>BFO</td>
-</tr>
-<tr class="odd">
 <td>category</td>
 <td>Price per kg or price per individual (species weight and length warnings are implemented on the back end via data from the literature)</td>
 <td>editable</td>
