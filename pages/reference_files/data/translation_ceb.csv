@@ -52,7 +52,6 @@ t1.18,"Ngalan sa administrasyon 2, ang labing kataas nga lebel sa administratibo
 t1.19,"Ngalan sa administrasyon 2, ang labing kataas nga lebel sa administratibo pagkahuman sa administratibo (ie distrito) nga adunay gitugotan nga mga wanang ug punctuation. Palihug ayaw usba ang label gawas kung kinahanglan gyud, tungod kay gipasukad niini ang mga pag-apil."
 t1.20,"Ang bandila mahimong pula kung ang kantidad nga"" admin1_ref_name "" wala maglungtad sa admin1_ref"
 t1.21,"Ang ngalan sa admin 1 nga walay luna ug walay punctuation, mga underscore lamang. Ang lista sa dropdown konektado sa kolum nga ""ngalan"" sa admin1_ref."
-t1.23,"Pilia ang"" Oo "" kung gusto nimo tangtangon ang administrasyon 2. Ang mga admin 2 kinahanglan nga tangtangon lamang kung ang ngalan sayup o kini usa ka duplicate sa usa ka naglungtad nga rekord. Palihug leave sa usa ka comment mahitungod sa hinungdan sa pagtangtang. Kung ang datos dili na nakolekta didto, pilia ang"" Dili ""gikan sa"" aktibo "" nga kolum."
 t1.25,"Ang mga ngalan sa admin 2 ug admin 3 gihiusa nga wala 'y mga wanang ug wala' y punctuation, gihatagan ra og gibug-aton.Ang admin3 mao ang labing kataas nga lebel sa administratibo pagkahuman sa admin 2 (ie baryo)."
 t1.26,"Ngalan sa admin3, ang labing kataas nga lebel sa administratibo pagkahuman sa admin 2 (ie baryo) nga adunay mga wanang ug gitugotan nga punctuation. Palihug ayaw usba ang label gawas kung kinahanglan gyud, tungod kay gipasukad niini ang mga pag-apil."
 t1.27,Admin 1 ngalan uban sa luna ug punctuation gitugotan. Kini gikuha gikan sa administr1_ref ug auto nga gipuy-an base sa gipili sa administr2 nga gipili.
@@ -60,12 +59,15 @@ t1.28,"Ang ngalan sa admin 1 nga walay luna ug walay punctuation, mga underscore
 t1.29,"Ang bandila mahimong pula kung ang kantidad nga"" admin2 "" wala maglungtad sa administr2_ref."
 t1.30,"Admin 2 ngalan uban sa luna ug punctuation gitugotan. Ang lista sa dropdown konektado sa kolum nga ""label"" sa administr2_ref."
 t1.31,"Ngalan sa admin 2 walay luna ug walay punctuation, lamang underscores. Gikuha kini gikan sa admin2_ref ug auto nga gipuy-an base sa gipili sa administr2 nga gipili."
-t1.33,"Pilia ang"" Oo "" kung gusto nimo tangtangon ang admin 3. Ang mga admin 3 kinahanglan lamang tangtangon kung ang ngalan sayup o kini usa ka duplicate sa usa ka naglungtad nga rekord. Palihug leave sa usa ka comment mahitungod sa hinungdan sa pagtangtang. Kung ang datos dili na nakolekta didto, pilia ang"" Dili ""gikan sa"" aktibo "" nga kolum."
 t1.34,Latitude sa admin 3
 t1.35,Longitude sa admin 3
 t1.36,Susihon ang bandila kung ang pagdumala_id_1-4 wala maglungtad sa pagdumala_ref.
 t1.37,"Ngalan SA pagdumala ID, nga adunay mga luna ug ang punctuation gitugotan. Kung adunay 4 nga mga lugar sa pagdumala sa sulud sa administr3, pilia ra ang una nga yunit sa pagdumala sa ""management_ID_1"", ang ikaduha nga yunit sa pagdumala sa ""management_ID_2"", ug uban pa. Ang lista sa dropdown konektado sa kolum nga ""pagdumala_id"" sa management_ref."
 t1.38,Oo/Dili field nga nagpaila kon ang baryo mao ang responsable alang sa area management.
+t1.38.1,
+t1.38.2,
+t1.38.3,
+t1.38.4,
 t1.40,"Ngalan sa pumapalit nga walay luna ug walay punctuation, lamang underscore"
 t1.41,"Ang ngalan sa pumapalit nga adunay mga luna ug gitugot nga punctuation. Palihug ayaw usba ang label gawas kung kinahanglan gyud, tungod kay gipasukad niini ang mga pag-apil."
 t1.42,"Ang Gender sa pumapalit; 'male' (lalaki), 'female' (babaye), 'nonbinary' o 'business_nogender'"
@@ -75,8 +77,6 @@ t1.45,"Admin 2 ngalan diin ang pumapalit gipalit gikan sa, uban sa luna ug punct
 t1.46,"Admin 3 ngalan diin ang pumapalit gipalit gikan sa, uban sa luna ug punctuation gitugotan. Gikuha kini gikan sa admin3_ref ug auto nga gipuy-an pinahiuyon sa gipili nga ngalan sa administr3_ref_name."
 t1.47,"Ang mga ngalan sa admin 2 ug admin 3 gihiusa nga wala 'y mga wanang ug wala' y punctuation, gihatagan ra og gibug-aton.Ang lista sa dropdown konektado sa kolum nga ""ngalan"" sa admin3_ref."
 t1.48,"Ang bandila mahimong pula kung ang kantidad nga"" admin3_ref_name "" wala sa admin3_ref."
-t1.49,"Pilia ang"" Oo "" kung ang datos nakolekta gikan sa kini nga indibidwal. Kung ang datos dili na nakolekta gikan sa kini nga indibidwal, ug gusto nimo nga itago kini gikan sa Kobo dropdown, pilia ang ""Dili.”"
-t1.50,"Pilia ang"" Oo "" kung gusto nimo i-download ang programa. Ang mga pumapalit kinahanglan nga tangtangon lamang kung ang ngalan sayop o kini usa ka duplicate sa usa ka kasamtangan nga rekord. Palihug leave sa usa ka comment mahitungod sa hinungdan sa pagtangtang. Kung ang pumapalit wala na sa baryo o dili na mopalit, pilia ang"" Dili ""gikan sa"" aktibo "" nga kolum."
 t1.52,"Ang ngalan sa mangingisda nga walay luna ug walay punctuation, lamang underscore"
 t1.53,"Ang ngalan sa mangingisda nga adunay mga luna ug gitugot nga punctuation. Palihug ayaw usba ang label gawas kung kinahanglan gyud, tungod kay gipasukad niini ang mga pag-apil."
 t1.54,"Ang Gender sa mangingisda; 'male' (lalaki), 'female' (babaye), 'nonbinary' o 'business_nogender'"
@@ -84,7 +84,6 @@ t1.55,"Talagsaon NGA NUMERO SA ID aron mahibal-an ang mangingisda. Palihug leave
 t1.56,"Admin 1 ngalan diin ang mga mangingisda yuta sa ilang mga dakpon, uban sa mga luna ug punctuation gitugotan. Kini gikuha gikan sa admin1_ref ug auto nga gipuy-an base sa gipili nga administr3_ref_name."
 t1.57,"Ngalan sa admin 2 diin ang mangingisda yuta sa ilang mga dakpon, uban sa luna ug punctuation gitugotan. Gikuha kini gikan sa admin2_ref ug auto nga gipuy-an pinahiuyon sa gipili nga ngalan sa administr3_ref_name."
 t1.58,"Admin 3 ngalan diin ang mga mangingisda yuta sa ilang mga dakpon, uban sa mga luna ug punctuation gitugotan. Gikuha kini gikan sa admin3_ref ug auto nga gipuy-an pinahiuyon sa gipili nga ngalan sa administr3_ref_name."
-t1.62,"Pilia ang"" Oo "" kung gusto nimo tangtangon ang admin 3. Ang mga admin 3 kinahanglan lamang tangtangon kung ang ngalan sayup o kini usa ka duplicate sa usa ka naglungtad nga rekord. Palihug leave sa usa ka comment mahitungod sa hinungdan sa pagtangtang. Kon ang mangingisda wala na sa baryo o wala na mangisda, pilia Ang"" Dili ""gikan sa"" aktibo "" nga kolum sa baylo."
 t1.64,"Ngalan sa tigkolekta sa datos nga walay luna ug walay punctuation, lamang underscores"
 t1.65,Ngalan sa tigkolekta sa datos nga adunay mga luna ug gitugot nga punctuation.
 t1.66,"Ang Gender sa data collector; 'male' (lalaki), 'female' (babaye), 'nonbinary' o 'business_nogender'"
@@ -92,40 +91,35 @@ t1.69,"Pilia ang"" Oo "" kon gusto nimo nga ang data collector makita sa dropdow
 t1.70,"Pilia Ang ""Oo"" kung gusto nimo makita ang kolektor sa datos sa dropdown alang sa porma sa pag-profile Sa Kobo"
 t1.71,"Pilia Ang ""Oo"" kung gusto nimo makita ang kolektor sa datos sa dropdown alang sa porma Sa survey Sa Kobo household"
 t1.72,"Pilia Ang ""Oo"" kung gusto nimo makita ang data collector sa dropdown para sa kobo community profiling form"
-t1.73,"Pilia ang"" Oo "" kung gusto nimo tangtangon ang data collector."
 t1.75,"Ngalan sa pangisda wala 'y lugar ug wala' y punctuation, gipasiugda ra"
 t1.76,"Ang ngalan sa yuta sa pangisda nga adunay mga luna ug gitugotan ang punctuation. Palihug ayaw usba ang label gawas kung kinahanglan gyud, tungod kay gipasukad niini ang mga pag-apil."
 t1.81,Latitude sa pangisdaan
 t1.82,Ang gitas-on sa salog sa pangisda
-t1.83,"Pilia ang"" Oo "" kon ang yuta gigamit karon. Kung gusto nimo nga itago kini gikan sa Kobo dropdown o wala na kini gigamit, pilia ang ""Dili.”"
-t1.84,"Pilia Ang ""Oo"" kung gusto nimo tangtangon ang yuta sa pangisda"
 t1.85,"Lokal nga ngalan sa gear nga walay luna ug walay punctuation, lamang underscores"
 t1.86,"Ang lokal nga ngalan sa gear nga adunay mga luna ug gitugot nga punctuation. Palihug ayaw usba ang label gawas kung kinahanglan gyud, tungod kay gipasukad niini ang mga pag-apil."
 t1.87,"Iningles nga ngalan sa gear nga walay luna ug walay punctuation, lamang underscores. Kini usa ka predefined dropdown list. Palihug pagpili usa nga labing angay sa lokal nga gamit, o komento kung dili ka sigurado."
 t1.88,Deskripsyon sa gear
 t1.89,"Mga espisye mga target sa gear. Kung ang usa ka gear nag-target sa daghang mga espisye, paghimo usa ka bag-ong laray sa datos alang sa matag grupo sa species. Ang lista sa dropdown konektado sa kolum nga ""species_group"" sa species_ref."
 t1.90,"Ang bandila mahimong pula kung ang gipili nga"" species_group "" wala maglungtad sa specie_ref."
-t1.93,"Pilia ang"" Oo "" kung gusto nimo i-klik ang button. Palihug leave sa usa ka comment sa pagpatin-aw kon ngano."
 t1.95,"Ngalan sa landing site nga walay luna ug walay punctuation, lamang underscores"
 t1.96,Ang ngalan sa landing site nga adunay mga luna ug ang punctuation gitugotan
-t1.99,"Pilia ang"" Oo "" kung gusto nimo tangtangon ang landing site."
 t1.103,"Talagsaon nga ngalan sa lugar sa pagdumala nga adunay mga wanang ug gitugotan nga punctuation. Palihug ayaw usba ang ngalan gawas kung kinahanglan gyud, tungod kay gipasukad niini ang mga pag-apil."
 t1.104,"Talagsaon nga ngalan sa lugar sa pagdumala ug petsa sa pagsira. Kini kinahanglan nga ang pagdumala_id nga walay mga luna o punctuation inubanan sa usa ka gidaghanon nga nagpaila sa talagsaon nga pagsira sa maong dapit. Pananglitan, kung ang Usa ka management_id nga gitawag Boston adunay duha ka mga petsa sa pagsira nga kauban niini, kami adunay duha nga gitudlo sa pagdumala_id_unique fields. Ang usa mahimong Boston_1 ug lain Nga Boston_2 aron mahibal-an ang mga pagsira sa sulud sa usa ka lugar sa pagdumala."
 t1.105,Ang lista sa mga hinungdan sa pagpangisda nga may kalabutan sa petsa sa pagdumala ug pagsira.
 t1.106,"Ang matang sa pamaagi sa pagdumala, lakip ang temporaryo nga pagsira, wala ' y mga zone sa pagkuha, ug uban pa. Kini mao ang usa ka predefined listahan. Palihug komentaryo kung dili ka sigurado."
+t1.106.1,
+t1.106.2,
 t1.107,Target nga mga espisye alang sa gidumala nga lugar. Kini mahimong mga espisye o mga espisye. Umahan bukas.
+t1.107.1,
 t1.108,Target nga puy-anan alang sa gidumala nga lugar
 t1.109,Gidak-on sa gidumala nga dapit gisukod sa hectares (ha)
 t1.110,Pagsira sa gidumala nga lugar
 t1.111,Petsa sa pag-abli sa gidumala nga lugar
 t1.112,Latitude sa management area
 t1.113,Ang longitude sa management area
-t1.114,"Pilia ang"" Oo "" kung gusto nimo tangtangon ang id."
 t1.116,"Ngalan sa kasosyo/organisasyon nga walay luna ug walay punctuation, lamang underscore"
 t1.117,"Ngalan sa partner/organisasyon nga adunay mga luna ug gitugot nga punctuation. Palihug ayaw usba ang label gawas kung kinahanglan gyud, tungod kay gipasukad niini ang mga pag-apil."
 t1.118,"Ang mga grupo sa mga species nga gikolekta sa kauban ang datos. Ang lista sa dropdown konektado sa kolum nga ""species_group"" sa species_ref. Pilia ang tanan nga mga grupo kung gusto nila ang tanan nga mga species sa species _ref aron magpakita."
-t1.119,"Pilia ang"" Oo "" kon ang partner karon pagkolekta data. Kung gusto nimo nga itago kini gikan sa Kobo dropdown o wala na sila pagkolekta sa datos, pilia ang ""Dili.”"
-t1.120,"Pilia Ang ""Oo"" kung gusto nimo tangtangon ang kauban/organisasyon"
 t1.122,"Ang ngalan sa Partner nga walay luna o punctuation, nagpasiugda lamang. Ang mga dropdown sa Species gisala sa kauban. Ang pila ka mga nasud adunay daghang mga kauban nga nagbahin sa usa ka lista sa mga species. Sa kana nga kaso, makita nimo ang code sa nasud imbis nga kasosyo, ug ang tibuuk nga lista sa species ipakita alang sa matag kauban sa kana nga nasud, gawas kung ang pipila ka mga grupo sa species gipiho sa kolum nga ""species_group"" sa org_ref."
 t1.123,Tipo sa puy-anan nga may kalabutan sa mga espisye
 t1.124,"Ang lokal nga ngalan ug mga espisye nga ngalan gihiusa sa usa ka underscore, nga walay laing punctuation o luna."
@@ -137,7 +131,6 @@ t1.129,"Ngalan sa administrasyon 2 walay luna o punctuation, lamang underscore. 
 t1.130,Kasagaran nga mga espisye sa ingles nga ngalan nga adunay mga luna ug ang punctuation gitugotan
 t1.131,Ngalan sa pamilya sa usa ka espisye nga adunay mga luna ug punctuation nga gitugotan
 t1.132,"Ang siyentipikong ngalan sa mga espisye nga adunay mga luna ug gitugot nga punctuation. Kung ang mga espisye wala mahibal - an, ang genus o pamilya mahimo usab nga makasulod. Kung ang genus ra ang nahibal-an, i-type ang ngalan sa henero nga gisundan sa ""sp"" (sukwahi sa ""spp"" o spp.”). Kung ang pamilya ra ang nahibal-an, i-type ang ngalan sa pamilya (ie Lutjanidae)."
-t1.133,"Pilia ang"" Oo "" kung gusto nimo tangtangon ang mga espisye."
 t1.134,"Ang paghubad sa ingles alang sa"" pagdugang bag-ong"","" wala mahibal-an"","" dili ibaligya"", ug uban pa."
 t1.135,"Paghubad sa pinulongan sa nasud alang sa ""pagdugang bag-ong"", ""wala mahibal-an"", ""dili ibaligya"", ug uban pa."
 t1.136,Ang pakisayran sheet ang paghubad nga gihiusa sa sa pagpakita sa mga angay nga dropdown sa Kobo
@@ -145,7 +138,6 @@ t1.138,"Ang ngalan sa Partner nga walay luna o punctuation, nagpasiugda lamang."
 t1.139,Minimum nga presyo base sa specie_group
 t1.140,Maximum nga presyo base sa specie_group
 t1.141,"Mga espisye ang min / max nga pasidaan magamit. Aron makadugang usa ka bag-ong grupo, palihug komentaryo ug ipahibalo SA BFO."
-t1.142,Ang habitat ang min / max nga pasidaan magamit.
 t1.143,Presyo kada kg o presyo kada indibidwal (species gibug-aton ug gitas-on sa mga pasidaan nga gipatuman sa likod katapusan pinaagi sa data gikan sa literatura)
 faq,Kanunay Nga Gipangutana Nga Mga Pangutana:
 q1,"Unsa ka dugay ang pag-download sa usa ka bag-ong admin 1, unsa ka dugay kini moabut sa wala pa kini makita sa dropdown alang sa admin 2?"

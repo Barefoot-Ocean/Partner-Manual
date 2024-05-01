@@ -52,7 +52,6 @@ t1.18,"Ny anaran'ny admin2, ny ambaratonga ambony indrindra aorian'ny admin1 (iz
 t1.19,"Anaran'ny admin2, ny ambaratonga ambony indrindra aorian'ny admin1 (izany hoe distrika) miaraka amin'ny toerana sy ny mari-piatoana. Aza manova ny marika raha tsy tena ilaina, satria mifototra amin'izany ny fidirana."
 t1.20,"Ho mena ny sainam-pirenena raha tsy misy ny sanda ""admin1_ref_name"" ao amin'ny admin1_ref"
 t1.21,"Anarana Admin1 tsy misy toerana ary tsy misy mari-piatoana, manasongadina fotsiny. Ny lisitry ny fihenam-bidy dia mifandray amin'ny tsanganana ""anarana"" ao amin'ny admin1_ref."
-t1.23,"Safidio Ny "" Eny "" raha tianao ny manala ny admin2. Admin2s dia tokony hesorina raha tsy diso ny anarana na dika mitovy amin'ny firaketana efa misy. Azafady mba avelao ny fanehoan-kevitra momba ny antony fanesorana. Raha tsy angonina any intsony ny angona dia safidio ny ""Tsia"" amin'ny tsanganana ""active""."
 t1.25,"Ny anarana Admin2 sy admin3 dia mitambatra tsy misy toerana ary tsy misy mari-piatoana, fa manasongadina fotsiny.Ny admin3 no ambaratonga ambony indrindra aorian'ny admin2 (izany hoe vohitra)."
 t1.26,"Anaran'ny admin3, ny ambaratonga ambony indrindra aorian'ny admin2 (izany hoe vohitra) miaraka amin'ny toerana sy ny mari-piatoana. Aza manova ny marika raha tsy tena ilaina, satria mifototra amin'izany ny fidirana."
 t1.27,Anarana Admin1 miaraka amin'ny toerana sy mari-piatoana azo atao. Izany dia nalaina avy amin'ny admin1_ref sy auto populated mifototra amin'ny admin2 voafidy.
@@ -60,12 +59,15 @@ t1.28,"Anarana Admin1 tsy misy toerana ary tsy misy mari-piatoana, manasongadina
 t1.29,"Ho mena ny sainam-pirenena raha tsy misy ny sanda"" admin2 "" ao amin'ny admin2_ref."
 t1.30,"Anarana Admin2 miaraka amin'ny toerana sy mari-piatoana azo atao. Ny lisitry ny fihenam-bidy dia mifandray amin'ny tsanganana ""label"" ao amin'ny admin2_ref."
 t1.31,"Anarana Admin2 tsy misy toerana ary tsy misy mari-piatoana, manasongadina fotsiny. Izany dia nalaina avy amin'ny admin2_ref sy auto populated mifototra amin'ny admin2 voafidy."
-t1.33,"Safidio Ny "" Eny "" raha te hanala ny admin3 ianao. Admin3s dia tokony hesorina raha tsy diso ny anarana na dika mitovy amin'ny firaketana efa misy. Azafady mba avelao ny fanehoan-kevitra momba ny antony fanesorana. Raha tsy angonina any intsony ny angona dia safidio ny ""Tsia"" amin'ny tsanganana ""active""."
 t1.34,Latitude amin'ny admin3
 t1.35,Ny halavan'ny admin3
 t1.36,Hojerena ny sainam-pirenena raha tsy misy ny management_ID_1-4 ao amin'ny management_ref.
 t1.37,"Anaran'ny id fitantanana, miaraka amin'ny toerana sy mari-piatoana azo atao. Raha misy faritra fitantanana 4 ao anatin'ny admin3, safidio fotsiny ny singa fitantanana voalohany ao amin'ny ""management_ID_1"", ny singa fitantanana faharoa ao amin'ny ""management_ID_2"", sns. Ny lisitry ny fihenam-bidy dia mifandray amin'ny tsanganana ""management_ID"" ao amin'ny management_ref."
 t1.38,Eny/Tsy misy saha mamantatra raha tompon'andraikitra amin'ny fitantanana ny faritra ny tanàna.
+t1.38.1,
+t1.38.2,
+t1.38.3,
+t1.38.4,
 t1.40,"Anaran'ny mpividy tsy misy toerana ary tsy misy mari-piatoana, manasongadina fotsiny"
 t1.41,"Anaran'ny mpividy misy toerana sy mari-piatoana azo atao. Aza manova ny marika raha tsy tena ilaina, satria mifototra amin'izany ny fidirana."
 t1.42,"Ny maha-lahy na maha-vavy ny mpividy; 'male' (lahy), 'female' (vavy), 'nonbinary' (tsy binary) na 'business_nogender'"
@@ -75,8 +77,6 @@ t1.45,"Anarana Admin2 izay ividianan'ny mpividy, miaraka amin'ny toerana sy ny m
 t1.46,"Anarana Admin3 izay ividianan'ny mpividy, miaraka amin'ny toerana sy ny mari-piatoana. Izany dia nalaina avy amin'ny admin3_ref sy auto populated mifototra amin'ny admin3_ref_name voafidy."
 t1.47,"Ny anarana Admin2 sy admin3 dia mitambatra tsy misy toerana ary tsy misy mari-piatoana, fa manasongadina fotsiny.Ny lisitry ny fihenam-bidy dia mifandray amin'ny tsanganana ""anarana"" ao amin'ny admin3_ref."
 t1.48,"Ho mena ny sainam-pirenena raha tsy misy ny sanda"" admin3_ref_name "" ao amin'ny admin3_ref."
-t1.49,"Safidio Ny "" Eny "" raha angonina amin'izao fotoana izao ny angona avy amin'ity olona ity. Raha tsy angonina avy amin'ity olona ity intsony ny angona, ary te hanafina izany amin'ny Kobo dropdown ianao dia safidio Ny ""Tsia.”"
-t1.50,"Safidio Ny "" Eny "" raha te hanala ny mpividy ianao. Ny mpividy dia tokony hesorina raha tsy diso ny anarana na dika mitovy amin'ny firaketana efa misy. Azafady mba avelao ny fanehoan-kevitra momba ny antony fanesorana. Raha tsy ao an-tanàna intsony ny mpividy na tsy mividy intsony dia safidio ny ""Tsia"" amin'ny tsanganana ""active""."
 t1.52,"Anaran'ny mpanjono tsy misy toerana ary tsy misy mari-piatoana, manasongadina fotsiny"
 t1.53,"Anaran'ny mpanjono misy toerana sy mari-piatoana azo atao. Aza manova ny marika raha tsy tena ilaina, satria mifototra amin'izany ny fidirana."
 t1.54,"Ny maha-lahy na maha-vavy ny mpanjono; 'male' (lahy), 'female' (vavy), 'nonbinary' (tsy binary) na 'business_nogender'"
@@ -84,7 +84,6 @@ t1.55,"Id isa tokana hamantarana ny mpanjono. Azafady mba avelao ny fanehoan-kev
 t1.56,"Anarana Admin1 izay ahazoan'ny mpanjono ny hazandranony, miaraka amin'ny toerana sy ny mari-piatoana azo atao. Izany dia nalaina avy amin'ny admin1_ref sy auto populated mifototra amin'ny admin3_ref_name voafidy."
 t1.57,"Anarana Admin2 izay ahazoan'ny mpanjono ny hazandranony, miaraka amin'ny toerana sy ny mari-piatoana azo atao. Izany dia nalaina avy amin'ny admin2_ref sy auto populated mifototra amin'ny admin3_ref_name voafidy."
 t1.58,"Anarana Admin3 izay ahazoan'ny mpanjono ny hazandranony, miaraka amin'ny toerana sy ny mari-piatoana azo atao. Izany dia nalaina avy amin'ny admin3_ref sy auto populated mifototra amin'ny admin3_ref_name voafidy."
-t1.62,"Safidio Ny "" Eny "" raha te hanala ny admin3 ianao. Admin3s dia tokony hesorina raha tsy diso ny anarana na dika mitovy amin'ny firaketana efa misy. Azafady mba avelao ny fanehoan-kevitra momba ny antony fanesorana. Raha tsy ao an-tanàna intsony ilay mpanjono na tsy manjono intsony dia safidio ny ""Tsia"" amin'ny tsanganana ""active""."
 t1.64,"Anaran'ny mpanangona angon-drakitra tsy misy toerana ary tsy misy mari-piatoana, manasongadina fotsiny"
 t1.65,Anaran'ny mpanangona angon-drakitra misy toerana sy mari-piatoana azo atao.
 t1.66,"Ny maha-lahy na maha-vavy ny mpanangona angon-drakitra; 'male' (lahy), 'female' (vavy), 'nonbinary' (tsy binary) na 'business_nogender'"
@@ -92,40 +91,35 @@ t1.69,"Safidio Ny "" Eny "" raha tianao hiseho ao amin'ny dropdown ny mpanangona
 t1.70,"Safidio Ny ""Eny"" raha tianao hiseho ao amin'ny dropdown ny mpanangona data ho an'ny endrika mombamomba ny kobo landings"
 t1.71,"Safidio Ny ""Eny"" raha tianao hiseho ao amin'ny dropdown ny mpanangona data ho an'ny endrika fanadihadiana ao An-tokantrano kobo"
 t1.72,"Safidio Ny ""Eny"" raha tianao hiseho ao amin'ny dropdown ny mpanangona data ho an'ny endrika mombamomba ny vondrom-piarahamonina Kobo"
-t1.73,"Safidio Ny "" Eny "" raha te hanala ny mpanangona data ianao."
 t1.75,"Anaran'ny toeram-panjonoana tsy misy toerana sy mari-piatoana, manasongadina fotsiny"
 t1.76,"Anaran'ny toeram-panjonoana misy toerana sy mari-piatoana. Aza manova ny marika raha tsy tena ilaina, satria mifototra amin'izany ny fidirana."
 t1.81,Latitude amin'ny toeram-panjonoana
 t1.82,Longitude ny toeram-panjonoana
-t1.83,"Safidio Ny "" Eny "" raha ampiasaina amin'izao fotoana izao ny toeram-panjonoana. Raha te hanafina azy amin'ny Kobo dropdown ianao na tsy ampiasaina intsony dia safidio Ny ""Tsia.”"
-t1.84,"Safidio Ny "" Eny "" raha te hanala ny toeram-panjonoana ianao"
 t1.85,"Anarana eo an-toerana ny fitaovana tsy misy toerana sy tsy misy mari-piatoana, manasongadina fotsiny"
 t1.86,"Anarana eo an-toerana amin'ny fitaovana misy toerana sy mari-piatoana azo atao. Aza manova ny marika raha tsy tena ilaina, satria mifototra amin'izany ny fidirana."
 t1.87,"Ny anarana anglisy amin'ny fitaovana tsy misy toerana sy tsy misy mari-piatoana, dia manasongadina fotsiny. Lisitry ny fihenam-bidy efa voafaritra mialoha ity. Misafidiana iray izay mifanaraka tsara amin'ny fitaovana eo an-toerana, na maneho hevitra raha tsy azonao antoka."
 t1.88,Famaritana ny fitaovana
 t1.89,"Ny vondrona karazana no lasibatry ny fitaovana. Raha mikendry karazana maro ny fitaovana iray, dia mamorona laharana vaovao ho an'ny vondrona karazany tsirairay. Ny lisitry ny fihenam-bidy dia mifandray amin'ny tsanganana ""species_group"" ao amin'ny species_ref."
 t1.90,"Ho mena ny sainam-pirenena raha tsy misy ny"" species_group "" voafidy ao amin'ny species_ref."
-t1.93,"Safidio Ny "" Eny "" raha te hanala ny fitaovana ianao. Azafady mba avelao ny fanehoan-kevitra manazava ny antony."
 t1.95,"Anaran'ny toerana fipetrahana tsy misy toerana ary tsy misy mari-piatoana, manasongadina fotsiny"
 t1.96,Anaran'ny toerana fiantsonana misy toerana sy mari-piatoana azo atao
-t1.99,"Safidio ny"" Eny "" raha te hanala ny toerana misy anao ianao."
 t1.103,"Anarana tsy manam-paharoa amin'ny faritra fitantanana misy toerana sy mari-piatoana azo atao. Aza manova ny anarana raha tsy tena ilaina, satria mifototra amin'izany ny fidirana."
 t1.104,"Anarana tsy manam-paharoa amin'ny faritra fitantanana sy daty fanakatonana. Tokony ho ny management_id tsy misy toerana na mari-piatoana miaraka amin'ny isa izay mamaritra ny fanakatonana tokana amin'io faritra io. Ohatra, raha manana daty fanakatonana roa mifandraika amin'izany ny management_id antsoina Hoe Boston, dia hanana saha management_id_unique roa isika. Ny iray dia Mety Ho Boston_1 ary Ny Iray Hafa Boston_2 hamantarana ny fanakatonana ao anatin'ny faritra fitantanana."
 t1.105,Ny lisitry ny toeram-panjonoana mifandraika amin'ny datin'ny management_id sy ny fanakatonana.
 t1.106,"Ny karazana fomba fitantanana, anisan'izany ny fanakatonana vonjimaika, tsy misy faritra fandraisana, sns. Ity dia lisitra efa voafaritra mialoha. Azafady mba manehoa hevitra raha tsy azonao antoka."
+t1.106.1,
+t1.106.2,
 t1.107,Karazana kendrena ho an'ny faritra tantanana. Mety ho vondrona karazana na karazana siantifika izany. Misokatra ny saha.
+t1.107.1,
 t1.108,Toerana kendrena ho an'ny faritra tantanana
 t1.109,Haben'ny faritra tantanana refesina amin'ny hektara (ha)
 t1.110,Daty famaranana ny faritra tantanana
 t1.111,Daty fanokafana ny faritra tantanana
 t1.112,Latitude ny faritra fitantanana
 t1.113,Longitude ny faritra fitantanana
-t1.114,"Safidio Ny "" Eny "" raha te hanala ny id fitantanana ianao."
 t1.116,"Anaran'ny mpiara-miasa/fikambanana tsy misy toerana ary tsy misy mari-piatoana, manasongadina fotsiny"
 t1.117,"Anaran'ny mpiara-miasa/fikambanana misy toerana sy mari-piatoana azo atao. Aza manova ny marika raha tsy tena ilaina, satria mifototra amin'izany ny fidirana."
 t1.118,"Manangona angon-drakitra momba ny karazana vondrona ny mpiara-miasa. Ny lisitry ny fihenam-bidy dia mifandray amin'ny tsanganana ""species_group"" ao amin'ny species_ref. Safidio ny vondrona rehetra raha tiany hiseho ny karazana rehetra ao amin'ny species_ref."
-t1.119,"Safidio Ny "" Eny "" raha manangona angona ny mpiara-miasa amin'izao fotoana izao. Raha te hanafina izany amin'ny Kobo dropdown ianao na tsy manangona angona intsony dia safidio Ny ""Tsia.”"
-t1.120,"Safidio Ny "" Eny "" raha te hanala ny mpiara-miasa/fikambanana ianao"
 t1.122,"Anaran'ny mpiara-miasa tsy misy toerana na mari-piatoana, manasongadina fotsiny. Ny mpiara-miasa no manivana ny fihenan'ny karazany. Misy firenena sasany manana mpiara-miasa maro izay mizara lisitry ny karazany. Amin'izay dia ho hitanao ny kaody firenena fa tsy ny mpiara-miasa, ary ny lisitry ny karazana iray manontolo dia haseho ho an'ny mpiara-miasa rehetra ao amin'io firenena io, raha tsy hoe misy vondrona karazana voafaritra ao amin'ny tsanganana ""species_group"" ao amin'ny org_ref."
 t1.123,Karazana toeram-ponenana mifandray amin'ny karazany
 t1.124,"Anarana sy anaran'ny karazany eo an-toerana miaraka amin'ny tsipika ambany, tsy misy mari-piatoana na toerana hafa."
@@ -137,7 +131,6 @@ t1.129,"Anaran'ny admin2 tsy misy toerana na mari-piatoana, manasongadina fotsin
 t1.130,Anarana iombonana amin'ny teny anglisy miaraka amin'ny toerana sy ny mari-piatoana
 t1.131,Anaran'ny fianakaviana amin'ny karazana iray misy toerana sy mari-piatoana azo atao
 t1.132,"Anarana siantifika amin'ny karazana misy habaka sy mari-piatoana azo atao. Raha tsy fantatra ny karazany, dia azo ampidirina ao koa ny karazana na ny fianakaviana. Raha ny karazana ihany no fantatra, soraty ny anaran'ny karazana arahin'ny ""sp"" (mifanohitra amin'ny ""spp"" na sp.”). Raha ny fianakaviana ihany no fantatra dia soraty ny anaran'ny fianakaviana (Izany hoe lutjanidae)."
-t1.133,"Safidio Ny "" Eny "" raha te hanala ireo karazana ianao."
 t1.134,"Ny dikanteny anglisy ho an'ny"" add new"","" don't know"","" not for sale"", sns."
 t1.135,"Ny fandikan-teny amin'ny fiteny country ho an'ny ""add new"", ""don't know"", ""not for sale"", sns."
 t1.136,Ny taratasy fanovozan kevitra ny fandikan teny dia hiaraka amin'ny hiseho ao amin'ny dropdown mety ao Kobo
@@ -145,7 +138,6 @@ t1.138,"Anaran'ny mpiara-miasa tsy misy toerana na mari-piatoana, manasongadina 
 t1.139,Ny vidiny ambany indrindra mifototra amin'ny species_group
 t1.140,Ny vidiny ambony indrindra mifototra amin'ny species_group
 t1.141,"Mihatra amin'ny vondrona karazana ny fampitandremana min/max. Mba hanampiana vondrona vaovao, azafady mba maneho hevitra ary ampahafantaro ny bfo."
-t1.142,Ny toeram-ponenana ampiharina amin'ny fampitandremana min/max.
 t1.143,Vidiny isaky ny kilao na vidiny isaky ny olona (ny fampitandremana ny lanjan'ny karazana sy ny halavany dia ampiharina amin'ny faran'ny aoriana amin'ny alàlan'ny angona avy amin'ny literatiora)
 faq,Fanontaniana Apetraka Matetika:
 q1,"Raha vao manampy admin vaovao aho, hafiriana vao miseho ao amin'ny dropdown ho an'ny admin2?"
