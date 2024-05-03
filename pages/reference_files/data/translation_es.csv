@@ -29,7 +29,7 @@ point17,"Cuando llegue a la última entrada, haga clic en ""Listo"". Aparecerá 
 point17.1,"Haga clic en ""Volver"" si necesita revisar"
 point17.2,"Haga clic en"" Enviar actualización "" para enviar sus actualizaciones."
 point17.3,Sus actualizaciones se agregan automáticamente al archivo de referencia y puede verlas en la Vista dinámica
-p2,"Si en algún momento encuentra algún error, tiene preguntas o necesita asistencia para actualizar los archivos de referencia, comuníquese con nosotros al barefootinfo@barefootocean.org."
+p2,"Si en algún momento encuentra algún error, tiene preguntas o necesita asistencia para actualizar los archivos de referencia, comuníquese con nosotros al katie@barefootocean.org o brittany@barefootocean.org."
 fig4,"Figura 4: Ejemplo de correo electrónico de ""Solicitud de actualización"" cuando es necesario corregir la información o responder a los comentarios."
 table1,"Tabla 1: Los campos primarios en cada uno de los archivos de referencia. El tipo de campo ""BFO"" es administrado por Barefoot Ocean y no es editable. Para solicitar cambios en cualquiera de los campos ""BFO"", deje un comentario. Solo se pueden editar los campos con el tipo de campo ""editable"". El tipo de campo ""auto"" se rellena automáticamente."
 t1.1,Nombre del campo
@@ -52,7 +52,6 @@ t1.18,"Nombre de admin2, el nivel administrativo más alto después de admin1 (e
 t1.19,"Nombre de admin2, el nivel administrativo más alto después de admin1 (es decir, distrito) con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto."
 t1.20,"La bandera será roja si el valor"" admin1_ref_name "" no existe en admin1_ref"
 t1.21,"Admin1 nombre sin espacios ni signos de puntuación, solo guiones bajos. La lista desplegable está conectada a la columna ""nombre"" en admin1_ref."
-t1.23,"Elija "" Sí "" si desea eliminar el administrador. 2. Admin2s solo debe eliminarse si el nombre es incorrecto o es un duplicado de un registro existente. Por favor, deje un comentario sobre el motivo de la eliminación. Si los datos ya no se recopilan allí, seleccione "" No ""en la columna"" activo""."
 t1.25,"Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.El administrador 3 es el nivel administrativo más alto después del administrador 2 (es decir, la aldea)."
 t1.26,"Nombre de admin3, el nivel administrativo más alto después de admin2 (es decir, aldea) con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto."
 t1.27,Admin1 nombre con espacios y puntuación permitidos. Esto se extrae de admin1_ref y se rellena automáticamente en función del admin2 elegido.
@@ -60,72 +59,67 @@ t1.28,"Admin1 nombre sin espacios ni signos de puntuación, solo guiones bajos. 
 t1.29,"La bandera será roja si el valor"" admin2 "" no existe en admin2_ref."
 t1.30,"Nombre Admin2 con espacios y puntuación permitidos. La lista desplegable está conectada a la columna ""etiqueta"" en admin2_ref."
 t1.31,"Nombre Admin2 sin espacios ni signos de puntuación, solo guiones bajos. Esto se extrae de admin2_ref y se rellena automáticamente en función del admin2 elegido."
-t1.33,"Elija "" Sí "" si desea eliminar el administrador. 3. Admin3s solo debe eliminarse si el nombre es incorrecto o es un duplicado de un registro existente. Por favor, deje un comentario sobre el motivo de la eliminación. Si los datos ya no se recopilan allí, seleccione "" No ""en la columna"" activo""."
 t1.34,Latitud de administración3
 t1.35,Longitud de admin3
 t1.36,Se marcará el indicador si management_ID_1-4 no existe en management_ref.
 t1.37,"Nombre del ID de gestión, con espacios y puntuación permitidos. Si hay 4 áreas de gestión dentro del admin3, simplemente seleccione la primera unidad de gestión en ""management_ID_1"", la segunda unidad de gestión en ""management_ID_2"", etc. La lista desplegable está conectada a la columna ""management_ID"" en management_ref."
 t1.38,Sí / No campo que identifica si la aldea es responsable de la gestión del área.
+t1.38.1,
+t1.38.2,
+t1.38.3,
+t1.38.4,
 t1.40,"Nombre del comprador sin espacios y sin puntuación, solo guiones bajos"
 t1.41,"Nombre del comprador con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto."
-t1.42,"Género del comprador; M (masculino), F (femenino) o NB (no binario)"
+t1.42,"Género del comprador; 'male' (masculino), 'female' (femenino), 'nonbinary' (no binario) o 'business_nogender'"
 t1.43,"Número único de identificación para identificar al comprador. Por favor, deje un comentario si dos compradores diferentes tienen la misma identificación. De forma predeterminada, dos compradores con el mismo nombre exacto, incluso si son de dos aldeas diferentes, recibirán la misma identificación a menos que se indique lo contrario."
 t1.44,"Administración1 nombre en el que compra el comprador, con espacios y puntuación permitidos.  Esto se extrae de admin1_ref y se rellena automáticamente en función del admin3_ref_name elegido."
 t1.45,"Admin2 nombre donde compra el comprador, con espacios y puntuación permitidos.  Esto se extrae de admin2_ref y se rellena automáticamente en función del admin3_ref_name elegido."
 t1.46,"Admin3 nombre donde compra el comprador, con espacios y puntuación permitidos. Esto se extrae de admin3_ref y se rellena automáticamente en función del admin3_ref_name elegido."
 t1.47,"Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna ""nombre"" en admin3_ref."
 t1.48,"La bandera será roja si el valor"" admin3_ref_name "" no existe en admin3_ref."
-t1.49,"Seleccione "" Sí "" si actualmente se están recopilando datos de esta persona. Si ya no se recopilan datos de esta persona y deseas ocultarlos del menú desplegable de Kobo, selecciona "" No.”"
-t1.50,"Elija "" Sí "" si desea eliminar al comprador. Los compradores solo deben eliminarse si el nombre es incorrecto o es un duplicado de un registro existente. Por favor, deje un comentario sobre el motivo de la eliminación. Si el comprador ya no está en el village o ya no compra, seleccione "" No ""en la columna"" activo""."
 t1.52,"Nombre del pescador sin espacios y sin puntuación, solo guiones bajos"
 t1.53,"Nombre del pescador con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto."
-t1.54,"Género del pescador; M (masculino), F (femenino) o NB (no binario)"
+t1.54,"Género del pescador; 'male' (masculino), 'female' (femenino), 'nonbinary' (no binario) o 'business_nogender'"
 t1.55,"ID de número único para identificar al pescador. Por favor, deje un comentario si dos pescadores diferentes tienen la misma identificación. Por defecto, dos pescadores con el mismo nombre exacto, incluso si son de dos aldeas diferentes, recibirán la misma identificación a menos que se indique lo contrario."
 t1.56,"Administración1 nombre donde el pescador desembarca su captura, con espacios y puntuación permitidos. Esto se extrae de admin1_ref y se rellena automáticamente en función del admin3_ref_name elegido."
 t1.57,"Admin2 nombre donde el pescador desembarca su captura, con espacios y puntuación permitidos. Esto se extrae de admin2_ref y se rellena automáticamente en función del admin3_ref_name elegido."
 t1.58,"Admin3 nombre donde el pescador desembarca su captura, con espacios y puntuación permitidos. Esto se extrae de admin3_ref y se rellena automáticamente en función del admin3_ref_name elegido."
-t1.62,"Elija "" Sí "" si desea eliminar el administrador. 3. Admin3s solo debe eliminarse si el nombre es incorrecto o es un duplicado de un registro existente. Por favor, deje un comentario sobre el motivo de la eliminación. Si el pescador ya no está en la aldea o ya no pesca, seleccione "" No ""en la columna"" activo""."
 t1.64,"Nombre del recopilador de datos sin espacios ni signos de puntuación, solo guiones bajos"
 t1.65,Nombre del recopilador de datos con espacios y puntuación permitidos.
-t1.66,"Género del recopilador de datos; M (masculino), F (femenino) o NB (no binario)"
+t1.66,"Género del recopilador de datos; 'male' (masculino), 'female' (femenino), 'nonbinary' (no binario) o 'business_nogender'"
 t1.69,"Seleccione "" Sí "" si desea que el recopilador de datos aparezca en el menú desplegable del formulario de monitoreo de Kobo landings."
 t1.70,"Selecciona "" Sí "" si quieres que el recopilador de datos aparezca en el menú desplegable del formulario de creación de perfiles de Kobo landings"
 t1.71,"Selecciona "" Sí "" si quieres que el recopilador de datos aparezca en el menú desplegable del formulario de encuesta de hogares de Kobo"
 t1.72,"Selecciona "" Sí "" si quieres que el recopilador de datos aparezca en el menú desplegable del formulario de creación de perfiles de la comunidad de Kobo"
-t1.73,"Elija "" Sí "" si desea eliminar el recopilador de datos."
 t1.75,"Nombre del caladero sin espacios y sin puntuación, solo subrayados"
 t1.76,"Nombre del caladero con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto."
 t1.81,Latitud del caladero
 t1.82,Longitud del caladero
-t1.83,"Seleccione "" Sí "" si el caladero se está utilizando actualmente. Si quieres ocultarlo del menú desplegable de Kobo o ya no se está utilizando, selecciona "" No.”"
-t1.84,"Elija "" Sí "" si desea eliminar el caladero"
 t1.85,"Nombre local del engranaje sin espacios y sin puntuación, solo guiones bajos"
 t1.86,"Nombre local del engranaje con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto."
 t1.87,"Nombre en inglés del engranaje sin espacios y sin puntuación, solo guiones bajos. Esta es una lista desplegable predefinida. Elija el que mejor se adapte al equipo local o comente si no está seguro."
 t1.88,Descripción del equipo
 t1.89,"Las especies agrupan los objetivos de los aparejos. Si un engranaje se dirige a varias especies, cree una nueva fila de datos para cada grupo de especies. La lista desplegable está conectada a la columna ""species_group"" en species_ref."
 t1.90,"La bandera será roja si el"" species_group "" elegido no existe en species_ref."
-t1.93,"Elija "" Sí "" si desea quitar el engranaje. Por favor, deje un comentario explicando por qué."
 t1.95,"Nombre del lugar de aterrizaje sin espacios ni signos de puntuación, solo guiones bajos"
 t1.96,Nombre del lugar de aterrizaje con espacios y puntuación permitidos
-t1.99,"Elija "" Sí "" si desea eliminar el sitio de aterrizaje."
 t1.103,"Nombre único del área de gestión con espacios y puntuación permitidos. Por favor, no cambie el nombre a menos que sea absolutamente necesario, ya que las uniones se basan en esto."
 t1.104,"Nombre único del área de gestión y fecha de cierre. Este debe ser el management_id sin espacios ni puntuación combinado con un número que identifique el cierre único con esa área. Por ejemplo, si un management_id llamado Boston tuviera dos fechas de cierre asociadas, tendríamos asignados dos campos management_id_unique. Uno podría ser Boston_1 y otro Boston_2 para identificar cierres dentro de un área de gestión."
 t1.105,La lista de caladeros asociados con el management_id y la fecha de veda.
 t1.106,"El tipo de método de gestión, incluidos cierres temporales, zonas de exclusión, etc. Esta es una lista predefinida. Por favor comente si no está seguro."
+t1.106.1,
+t1.106.2,
 t1.107,Especies objetivo para el área manejada. Pueden ser grupos de especies o especies científicas. El campo está abierto.
+t1.107.1,
 t1.108,Hábitat objetivo para el área administrada
 t1.109,Tamaño del área administrada medido en hectáreas (ha)
 t1.110,Fecha de cierre del área gestionada
 t1.111,Fecha de apertura del área gestionada
 t1.112,Latitud del área de gestión
 t1.113,Longitud del área de gestión
-t1.114,"Elija "" Sí "" si desea eliminar el id de administración."
 t1.116,"Nombre del socio / organización sin espacios y sin puntuación, solo guiones bajos"
 t1.117,"Nombre del socio / organización con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto."
 t1.118,"Los grupos de especies sobre los que el socio recopila datos. La lista desplegable está conectada a la columna ""species_group"" en species_ref. Seleccione todos los grupos si desean que aparezcan todas las especies en species_ref."
-t1.119,"Seleccione "" Sí "" si el socio está recopilando datos actualmente. Si quieres ocultarlo del menú desplegable de Kobo o ya no recopilan datos, selecciona "" No.”"
-t1.120,"Elija "" Sí "" si desea eliminar al socio / organización"
 t1.122,"Nombre del socio sin espacios ni puntuación, solo guiones bajos. Los menús desplegables de especies son filtrados por el socio. Algunos países tienen múltiples socios que comparten una lista de especies. En ese caso, verá el código del país en lugar del socio, y se mostrará la lista completa de especies para cada socio en ese país, a menos que se especifiquen ciertos grupos de especies en la columna ""species_group"" en org_ref."
 t1.123,Tipo de hábitat asociado a la especie
 t1.124,"Nombre local y nombre de la especie combinados con un guión bajo, sin otros signos de puntuación o espacios."
@@ -137,7 +131,6 @@ t1.129,"Nombre del administrador2 sin espacios ni signos de puntuación, solo gu
 t1.130,Nombre común de la especie en inglés con espacios y puntuación permitidos
 t1.131,Apellido de una especie con espacios y puntuación permitidos
 t1.132,"Nombre científico de la especie con espacios y puntuación permitidos. Si se desconoce la especie, también se puede ingresar el género o la familia. Si solo se conoce el género, escriba el nombre del género seguido de ""sp"" (en lugar de"" spp "" o sp.”). Si solo se conoce la familia, escriba el nombre de la familia (es decir, Lutjanidae)."
-t1.133,"Elija "" Sí "" si desea eliminar la especie."
 t1.134,"La traducción al inglés de ""agregar nuevo"","" no sé"","" no está a la venta"", etc."
 t1.135,"La traducción del idioma del país para ""agregar nuevo"","" no sé"","" no está a la venta"", etc."
 t1.136,La hoja de referencia con la que se fusionará la traducción aparecerá en el menú desplegable correspondiente en Kobo
@@ -145,7 +138,6 @@ t1.138,"Nombre del socio sin espacios ni puntuación, solo guiones bajos."
 t1.139,El precio mínimo basado en species_group
 t1.140,El precio máximo basado en species_group
 t1.141,"El grupo de especies al que se aplica la advertencia mínima/máxima. Para agregar un nuevo grupo, comente y avise a BFO."
-t1.142,El hábitat al que se aplica la advertencia min/max.
 t1.143,Precio por kg o precio por individuo (las advertencias de peso y longitud de las especies se implementan en el back-end a través de datos de la literatura)
 faq,Preguntas Frecuentes:
 q1,"Una vez que agrego un nuevo administrador1, ¿cuánto tiempo tarda en aparecer en el menú desplegable de administrador2?"

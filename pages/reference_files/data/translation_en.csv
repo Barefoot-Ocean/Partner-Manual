@@ -29,7 +29,7 @@ point17,"When you get to the last entry, click “Done”. A pop-up message will
 point17.1,Click “Go Back” if you need to review
 point17.2,Click “Submit Update” to submit your updates.
 point17.3,Your updates are automatically appended to the reference file and you can view them in Dynamic View
-p2,"If at any time you encounter any errors, have questions, or need support for updating reference files, please contact us at barefootinfo@barefootocean.org."
+p2,"If at any time you encounter any errors, have questions, or need support for updating reference files, please contact us at katie@barefootocean.org or brittany@barefootocean.org."
 fig4,Figure 4: Example “Update Request” email when information needs to be corrected or comment needs to be responded to.
 table1,"Table 1: The primary fields in each of the reference files. Field type “BFO” is managed by Barefoot Ocean and is not editable. To request changes to any of the “BFO” fields, please leave a comment. Only fields with field type “editable” can be edited. Field type “auto” is populated automatically."
 t1.1,Field name
@@ -46,13 +46,12 @@ t1.11,"Name of admin1, the highest administrative level after country (i.e. prov
 t1.12,"Name of admin1, the highest administrative level after country (i.e. province) with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
 t1.13,The flag will be red if the “partner” value does not exist in the org_ref
 t1.14,"Partner name with no spaces and no punctuation, only underscores. The dropdown list is connected to the ""name"" column in the org_ref."
-t1.15,"Select “Yes” if data is currently being collected there. If you are no longer collecting data there, and want to hide it from the Kobo dropdown, select “No.”"
-t1.16,"Choose “Yes” if you would like to remove the admin1. Admin1s should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If data is no longer collected there, select “No” from the “active” column instead."
+t1.15,"Select “Yes” if data is currently being collected from this individual/area. If data is no longer being collected from this individual/area, and you want to hide it from the Kobo dropdown, select “No.”"
+t1.16,Choose “Yes” if you would like to remove the record. Records should only be removed if the name is incorrect or it is a duplicate of an existing record.
 t1.18,"Name of admin2, the highest administrative level after admin1 (i.e. district) with no spaces and no punctuation, only underscores"
 t1.19,"Name of admin2, the highest administrative level after admin1 (i.e. district) with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
 t1.20,The flag will be red if the “admin1_ref_name” value does not exist in the admin1_ref
 t1.21,"Admin1 name with no spaces and no punctuation, only underscores. The dropdown list is connected to the ""name"" column in the admin1_ref."
-t1.23,"Choose “Yes” if you would like to remove the admin2. Admin2s should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If data is no longer collected there, select “No” from the “active” column instead."
 t1.25,"Admin2 and admin3 names combined with no spaces and no punctuation, only underscores.The admin3 is the highest administrative level after admin2 (i.e. village)."
 t1.26,"Name of admin3, the highest administrative level after admin2 (i.e. village) with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
 t1.27,Admin1 name with spaces and punctuation allowed. This is pulled from the admin1_ref and auto populated based on the admin2 chosen.
@@ -60,72 +59,67 @@ t1.28,"Admin1 name with no spaces and no punctuation, only underscores. This is 
 t1.29,The flag will be red if the “admin2” value does not exist in the admin2_ref.
 t1.30,"Admin2 name with spaces and punctuation allowed. The dropdown list is connected to the ""label"" column in the admin2_ref."
 t1.31,"Admin2 name with no spaces and no punctuation, only underscores. This is pulled from the admin2_ref and auto populated based on the admin2 chosen."
-t1.33,"Choose “Yes” if you would like to remove the admin3. Admin3s should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If data is no longer collected there, select “No” from the “active” column instead."
 t1.34,Latitude of admin3
 t1.35,Longitude of admin3
 t1.36,Flag will be checked if management_ID_1-4 does not exist in the management_ref.
 t1.37,"Name of management ID, with spaces and punctuation allowed. If there are 4 management areas within the admin3, simply select the first management unit in “management_ID_1”, the second management unit in “management_ID_2”, etc. The dropdown list is connected to the ""management_ID"" column in the management_ref."
 t1.38,Yes/No field identifying whether the village is responsible for area management.
+t1.38.1,Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo landings monitoring form.
+t1.38.2,Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo landings profiling form.
+t1.38.3,Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo community profiling form.
+t1.38.4,Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo household survey form.
 t1.40,"Name of the buyer with no spaces and no punctuation, only underscores"
 t1.41,"Name of the buyer with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
-t1.42,"Gender of the buyer; M (male), F (female) or NB (nonbinary)"
+t1.42,"Gender of the buyer; 'male', 'female', 'nonbinary' or 'business_nogender'"
 t1.43,"Unique number ID to identify the buyer. Please leave a comment if two different buyers have the same ID. By default, two buyers with the same exact name, even if they are from two different villages, will receive the same ID unless otherwise told."
 t1.44,"Admin1 name where the buyer buys from, with spaces and punctuation allowed. This is pulled from the admin1_ref and auto populated based on the admin3_ref_name chosen."
 t1.45,"Admin2 name where the buyer buys from, with spaces and punctuation allowed. This is pulled from the admin2_ref and auto populated based on the admin3_ref_name chosen."
 t1.46,"Admin3 name where the buyer buys from, with spaces and punctuation allowed. This is pulled from the admin3_ref and auto populated based on the admin3_ref_name chosen."
 t1.47,"Admin2 and admin3 names combined with no spaces and no punctuation, only underscores.The dropdown list is connected to the ""name"" column in the admin3_ref."
 t1.48,The flag will be red if the “admin3_ref_name” value does not exist in the admin3_ref.
-t1.49,"Select “Yes” if data is currently being collected from this individual. If data is no longer being collected from this individual, and you want to hide it from the Kobo dropdown, select “No.”"
-t1.50,"Choose “Yes” if you would like to remove the buyer. Buyers should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If the buyer is no longer in the village or doesn’t buy anymore, select “No” from the “active” column instead."
 t1.52,"Name of the fisher with no spaces and no punctuation, only underscores"
 t1.53,"Name of the fisher with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
-t1.54,"Gender of the fisher; M (male), F (female) or NB (nonbinary)"
+t1.54,"Gender of the fisher; 'male', 'female', 'nonbinary' or 'business_nogender'"
 t1.55,"Unique number ID to identify the fisher. Please leave a comment if two different fishers have the same ID. By default, two fishers with the same exact name, even if they are from two different villages, will receive the same ID unless otherwise told."
 t1.56,"Admin1 name where the fisher lands their catch, with spaces and punctuation allowed. This is pulled from the admin1_ref and auto populated based on the admin3_ref_name chosen."
 t1.57,"Admin2 name where the fisher lands their catch, with spaces and punctuation allowed. This is pulled from the admin2_ref and auto populated based on the admin3_ref_name chosen."
 t1.58,"Admin3 name where the fisher lands their catch, with spaces and punctuation allowed. This is pulled from the admin3_ref and auto populated based on the admin3_ref_name chosen."
-t1.62,"Choose “Yes” if you would like to remove the admin3. Admin3s should only be removed if the name is incorrect or it is a duplicate of an existing record. Please leave a comment about the reason for removal. If the fisher is no longer in the village or doesn’t fish anymore, select “No” from the “active” column instead."
 t1.64,"Name of the data collector with no spaces and no punctuation, only underscores"
 t1.65,Name of the data collector with spaces and punctuation allowed.
-t1.66,"Gender of the data collector; M (male), F (female) or NB (nonbinary)"
+t1.66,"Gender of the data collector; 'male', 'female', 'nonbinary' or 'business_nogender'"
 t1.69,Select “Yes” if you want the data collector to appear in the dropdown for the Kobo landings monitoring form.
 t1.70,Select “Yes” if you want the data collector to appear in the dropdown for the Kobo landings profiling form
 t1.71,Select “Yes” if you want the data collector to appear in the dropdown for the Kobo household survey form
 t1.72,Select “Yes” if you want the data collector to appear in the dropdown for the Kobo community profiling form
-t1.73,Choose “Yes” if you would like to remove the data collector.
 t1.75,"Name of the fishing ground with no spaces and no punctuation, only underscores"
 t1.76,"Name of the fishing ground with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
 t1.81,Latitude of the fishing ground
 t1.82,Longitude of the fishing ground
-t1.83,"Select “Yes” if the fishing ground is currently being used. If you want to hide it from the Kobo dropdown or it is no longer being used, select “No.”"
-t1.84,Choose “Yes” if you would like to remove the fishing ground
 t1.85,"Local name of the gear with no spaces and no punctuation, only underscores"
 t1.86,"Local name of the gear with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
 t1.87,"English name of the gear with no spaces and no punctuation, only underscores. This is a predefined dropdown list. Please choose one that best fits the local gear, or comment if you are unsure."
 t1.88,Description of the gear
 t1.89,"The species group the gear targets. If one gear targets multiple species, create a new row of data for each species group. The dropdown list is connected to the “species_group” column in the species_ref."
 t1.90,The flag will be red if the “species_group” chosen does not exist in the species_ref.
-t1.93,Choose “Yes” if you would like to remove the gear. Please leave a comment explaining why.
 t1.95,"Name of the landing site with no spaces and no punctuation, only underscores"
 t1.96,Name of the landing site with spaces and punctuation allowed
-t1.99,Choose “Yes” if you would like to remove the landing site.
 t1.103,"Unique name of the management area with spaces and punctuation allowed. Please do not change the name unless absolutely necessary, as joins are based on this."
-t1.104,"Unique name of the management area and closure date. This should be the management_id with no spaces or punctuation combined with a number that identifies the unique closure with that area. For instance, if a management_id called Boston had two closure dates associated with it, we would have two management_id_unique fields assigned. One could be Boston_1 and another Boston_2 to identify closures within a management area."
-t1.105,The list of fishing grounds associated with the management_id and closure date.
-t1.106,"The type of management method, including temporary closures, no take zones, etc. This is a predefined list. Please comment if you are unsure."
-t1.107,Target species for the managed area. This can be species groups or scientific species. The field is open.
+t1.104,"Unique name of the management area and effective  dates. More specifically, it contains the following information separated by an underscore: management_id, management_method, close_date and open_date."
+t1.105,The list of fishing grounds associated with the management_id and closure date. The dropdown list is connected to the “name” column in the fishing_ground_ref.
+t1.106,"The type of management method, including temporary closures, no take zones, etc. The predefined list includes: Temporary Closure, No Take Zone, Gear Restriction, Managed Access, Harvesting Ban or Deforestation Ban."
+t1.106.1,"The type of legal regulation. The predefined list includes: village head regulation, village head decree, joint village head regulation or none."
+t1.106.2,"Target species group for the managed area. This can include ‘All’, one or multiple species groups."
+t1.107,"Target species for the managed area. This can include ‘All_species’, one or multiple scientific species. The dropdown list is connected to the MASTER species_ref and includes species from all partners."
+t1.107.1,The flag will be red if the “target_species” chosen is not referenced in the partner’s species_ref.
 t1.108,Target habitat for the managed area
 t1.109,Size of the managed area measured in hectares (ha)
-t1.110,Closing date of the managed area
-t1.111,Opening date of the managed area
+t1.110,Closing date of the managed area; MM/DD/YY
+t1.111,Opening date of the managed area; MM/DD/YY
 t1.112,Latitude of management area
 t1.113,Longitude of management area
-t1.114,Choose “Yes” if you would like to remove the management id.
 t1.116,"Name of the partner/organization with no spaces and no punctuation, only underscores"
 t1.117,"Name of the partner/organization with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
 t1.118,The species groups the partner collects data on. The dropdown list is connected to the “species_group” column in the species_ref. Select all groups if they want all species in the species_ref to show up.
-t1.119,"Select “Yes” if the partner is currently collecting data. If you want to hide it from the Kobo dropdown or they are no longer collecting data, select “No.”"
-t1.120,Choose “Yes” if you would like to remove the partner/organization
 t1.122,"Partner name with no spaces or punctuation, only underscores. Species dropdowns are filtered by the partner. Some countries have multiple partners that share a species list. In that case, you will see the country code instead of the partner, and the entire species list will show for every partner in that country, unless certain species groups are specified in the “species_group” column in the org_ref."
 t1.123,Habitat type associated with the species
 t1.124,"Local name and species name combined with an underscore, with no other punctuation or spaces."
@@ -137,7 +131,6 @@ t1.129,"Name of admin2 with no spaces or punctuation, only underscores. The drop
 t1.130,Common English species name with spaces and punctuation allowed
 t1.131,Family name of a species with spaces and punctuation allowed
 t1.132,"Scientific name of the species with spaces and punctuation allowed. If the species is unknown, the genus or family can also be entered. If only the genus is known, type the name of the genus followed by “sp” (as opposed to “spp” or sp.”). If only the family is known, type the name of the family (i.e. Lutjanidae)."
-t1.133,Choose “Yes” if you would like to remove the species.
 t1.134,"The english translation for “add new”, “don’t know”, “not for sale”, etc."
 t1.135,"The country language translation for “add new”, “don’t know”, “not for sale”, etc."
 t1.136,The reference sheet the translation will be merged with to appear in the appropriate dropdown in Kobo
@@ -145,7 +138,6 @@ t1.138,"Partner name with no spaces or punctuation, only underscores."
 t1.139,The minimum price based on species_group
 t1.140,The maximum price based on species_group
 t1.141,"The species group the min/max warning applies to. To add a new group, please comment and let BFO know."
-t1.142,The habitat the min/max warning applies to.
 t1.143,Price per kg or price per individual (species weight and length warnings are implemented on the back end via data from the literature)
 faq,Frequently Asked Questions:
 q1,"Once I add a new admin1, how long does it take before it appears in the dropdown for admin2?"

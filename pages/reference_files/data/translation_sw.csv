@@ -29,7 +29,7 @@ point17,"Unapofika kwenye kiingilio cha mwisho, bonyeza ""Imekamilika"". Ujumbe 
 point17.1,"Bofya ""Rudi nyuma"" ikiwa unahitaji kukagua"
 point17.2,"Bofya ""Wasilisha Sasisho"" ili kuwasilisha masasisho yako."
 point17.3,Sasisho zako zinaongezwa kiatomati kwenye faili ya kumbukumbu na unaweza kuzitazama Kwa Mtazamo Wa Nguvu
-p2,"Ikiwa wakati wowote unakutana na makosa yoyote, una maswali, au unahitaji msaada wa kusasisha faili za kumbukumbu, tafadhali wasiliana nasi kwa barefootinfo@barefootocean.org."
+p2,"Ikiwa wakati wowote unakutana na makosa yoyote, una maswali, au unahitaji msaada wa kusasisha faili za kumbukumbu, tafadhali wasiliana nasi kwa katie@barefootocean.org au brittany@barefootocean.org."
 fig4,"Kielelezo 4: Mfano ""Sasisha Ombi"" barua pepe wakati habari inahitaji kusahihishwa au maoni yanahitaji kujibiwa."
 table1,"Jedwali 1: mashamba ya msingi katika kila moja ya faili za kumbukumbu. Field aina "" BFO "" ni kusimamiwa Na Barefoot Ocean na si editable. Ili kuomba mabadiliko kwenye sehemu yoyote ya ""bfo"", tafadhali acha maoni. Mashamba tu na aina ya shamba ""editable"" inaweza kuhaririwa. Aina ya shamba ""auto"" inaishi moja kwa moja."
 t1.1,Jina la shamba
@@ -52,7 +52,6 @@ t1.18,"Jina la admin2, ngazi ya juu ya utawala baada ya admin1 (yaani wilaya) bi
 t1.19,"Jina la admin2, ngazi ya juu ya utawala baada ya admin1 (yaani wilaya) na nafasi na alama za alama kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.20,"Bendera itakuwa nyekundu kama ""admin1_ref_name"" thamani haipo katika admin1_ref"
 t1.21,"Admin1 jina na hakuna nafasi na hakuna punctuation, tu inasisitiza. Orodha ya kushuka imeunganishwa na safu ya ""jina"" katika admin1_ref."
-t1.23,"Chagua ""Ndio"" ikiwa ungependa kuondoa admin2. Admin2s inapaswa kuondolewa tu ikiwa jina sio sahihi au ni nakala ya rekodi iliyopo. Tafadhali acha maoni juu ya sababu ya kuondolewa. Ikiwa data haikusanywa tena hapo, chagua ""Hapana"" kutoka kwa safu wima ya"" amilifu "" badala yake."
 t1.25,"Majina ya Admin2 na admin3 pamoja na hakuna nafasi na hakuna alama za alama, inasisitiza tu.Admin3 ni ngazi ya juu ya utawala baada ya admin2 (yaani kijiji)."
 t1.26,"Jina la admin3, ngazi ya juu ya utawala baada ya admin2 (yaani kijiji) na nafasi na alama za alama kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.27,Admin1 jina na nafasi na punctuation kuruhusiwa. Hii ni vunjwa kutoka admin1_ref na auto wenyeji kulingana na admin2 kuchaguliwa.
@@ -60,72 +59,67 @@ t1.28,"Admin1 jina na hakuna nafasi na hakuna punctuation, tu inasisitiza. Hii n
 t1.29,"Bendera itakuwa nyekundu kama ""admin2"" thamani haipo katika admin2_ref."
 t1.30,"Admin2 jina na nafasi na punctuation kuruhusiwa. Orodha ya kushuka imeunganishwa na safu ya ""lebo"" katika admin2_ref."
 t1.31,"Admin2 jina na hakuna nafasi na hakuna punctuation, tu inasisitiza. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin2 kuchaguliwa."
-t1.33,"Chagua ""Ndio"" ikiwa ungependa kuondoa admin3. Admin3s inapaswa kuondolewa tu ikiwa jina sio sahihi au ni nakala ya rekodi iliyopo. Tafadhali acha maoni juu ya sababu ya kuondolewa. Ikiwa data haikusanywa tena hapo, chagua ""Hapana"" kutoka kwa safu wima ya"" amilifu "" badala yake."
 t1.34,Latitudo ya admin3
 t1.35,Longitudo ya admin3
 t1.36,Bendera itakuwa checked kama management_ID_1-4 haipo katika management_ref.
 t1.37,"Jina la kitambulisho cha usimamizi, na nafasi na uakifishaji unaruhusiwa. Ikiwa kuna maeneo 4 ya usimamizi ndani ya admin3, chagua tu kitengo cha kwanza cha usimamizi katika ""management_ID_1"", kitengo cha pili cha usimamizi katika"" management_ID_2"", nk. Orodha ya kushuka ni kushikamana na"" management_ID "" safu katika management_ref."
 t1.38,Ndiyo / Hapana shamba kutambua kama kijiji ni wajibu kwa ajili ya usimamizi wa eneo.
+t1.38.1,
+t1.38.2,
+t1.38.3,
+t1.38.4,
 t1.40,"Jina la mnunuzi bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.41,"Jina la mnunuzi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
-t1.42,"Jinsia ya mnunuzi; M (kiume), F (kike) au NB (nonbinary)"
+t1.42,"Jinsia ya mnunuzi; 'male' (kiume), 'female' (kike), 'nonbinary' au 'business_nogender'"
 t1.43,"Kitambulisho cha nambari ya kipekee ili kutambua mnunuzi. Tafadhali acha maoni ikiwa wanunuzi wawili tofauti wana KITAMBULISHO sawa. Kwa chaguo-msingi, wanunuzi wawili walio na jina sawa, hata ikiwa ni kutoka vijiji viwili tofauti, watapokea KITAMBULISHO sawa isipokuwa imeambiwa vinginevyo."
 t1.44,"Admin1 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin1_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.45,"Admin2 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.46,"Admin3 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin3_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.47,"Majina ya Admin2 na admin3 pamoja na hakuna nafasi na hakuna alama za alama, inasisitiza tu.Orodha ya kushuka imeunganishwa na safu ya ""jina"" katika admin3_ref."
 t1.48,"Bendera itakuwa nyekundu kama ""admin3_ref_name"" thamani haipo katika admin3_ref."
-t1.49,"Chagua ""Ndiyo"" ikiwa data inakusanywa kwa sasa kutoka kwa mtu huyu. Ikiwa data haikusanywa tena kutoka kwa mtu huyu, na unataka kuificha kutoka Kwa Kushuka Kwa Kobo, chagua "" Hapana.”"
-t1.50,"Chagua ""Ndiyo"" ikiwa ungependa kuondoa mnunuzi. Wanunuzi wanapaswa kuondolewa tu ikiwa jina sio sahihi au ni nakala ya rekodi iliyopo. Tafadhali acha maoni juu ya sababu ya kuondolewa. Ikiwa mnunuzi hayuko tena kijijini au hainunui tena, chagua ""Hapana"" kutoka kwa safu"" inayotumika "" badala yake."
 t1.52,"Jina la mvuvi bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.53,"Jina la mvuvi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
-t1.54,"Jinsia ya mvuvi; M (kiume), F (kike) au NB (nonbinary)"
+t1.54,"Jinsia ya mvuvi; 'male' (kiume), 'female' (kike), 'nonbinary' au 'business_nogender'"
 t1.55,"Kitambulisho cha nambari ya kipekee ili kumtambua mvuvi. Tafadhali acha maoni ikiwa wavuvi wawili tofauti wana KITAMBULISHO sawa. Kwa chaguo-msingi, wavuvi wawili wenye jina sawa, hata kama wanatoka vijiji viwili tofauti, watapokea KITAMBULISHO sawa isipokuwa kama imeelezwa vinginevyo."
 t1.56,"Admin1 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin1_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.57,"Admin2 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.58,"Admin3 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin3_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
-t1.62,"Chagua ""Ndio"" ikiwa ungependa kuondoa admin3. Admin3s inapaswa kuondolewa tu ikiwa jina sio sahihi au ni nakala ya rekodi iliyopo. Tafadhali acha maoni juu ya sababu ya kuondolewa. Ikiwa mvuvi hayuko tena kijijini au havui samaki tena, chagua ""Hapana"" kutoka kwa safu"" inayotumika "" badala yake."
 t1.64,"Jina la mtoza data bila nafasi na hakuna alama za uakifishaji, inasisitiza tu"
 t1.65,Jina la mtoza data na nafasi na punctuation kuruhusiwa.
-t1.66,"Jinsia ya mtoza data; M (kiume), F (kike) au NB (nonbinary)"
+t1.66,"Jinsia ya mtoza data; 'male' (kiume), 'female' (kike), 'nonbinary' au 'business_nogender'"
 t1.69,"Chagua ""Ndio"" ikiwa unataka mtoza data aonekane kwenye kushuka kwa Fomu Ya Ufuatiliaji Wa Kutua Kwa Kobo."
 t1.70,"Chagua ""Ndio"" ikiwa unataka mtoza data aonekane kwenye kushuka kwa Fomu Ya wasifu Wa Kutua Kwa Kobo"
 t1.71,"Chagua ""Ndio"" ikiwa unataka mtoza data aonekane kwenye kushuka kwa Fomu ya Uchunguzi Wa Kaya Ya Kobo"
 t1.72,"Chagua ""Ndio"" ikiwa unataka mtoza data aonekane kwenye kushuka kwa Fomu Ya wasifu Wa Jamii Ya Kobo"
-t1.73,"Chagua ""Ndiyo"" ikiwa ungependa kuondoa mkusanyaji wa data."
 t1.75,"Jina la uwanja wa uvuvi bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.76,"Jina la ardhi ya uvuvi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.81,Latitudo ya ardhi ya uvuvi
 t1.82,Longitudo ya ardhi ya uvuvi
-t1.83,"Chagua ""Ndiyo"" ikiwa uwanja wa uvuvi unatumiwa kwa sasa. Ikiwa unataka kuificha kutoka Kwa Kushuka Kwa Kobo au haitumiki tena, chagua "" Hapana.”"
-t1.84,"Chagua ""Ndiyo"" ikiwa ungependa kuondoa ardhi ya uvuvi"
 t1.85,"Jina la ndani la gia bila nafasi na hakuna uakifishaji, inasisitiza tu"
 t1.86,"Jina la ndani la gear na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.87,"Jina la kiingereza la gia bila nafasi na hakuna uakifishaji, inasisitiza tu. Hii ni orodha ya kushuka predefined. Tafadhali chagua moja ambayo inafaa zaidi gia ya ndani, au toa maoni ikiwa huna uhakika."
 t1.88,Maelezo ya gia
 t1.89,"Aina ya kundi gear malengo. Ikiwa gia moja inalenga spishi nyingi, tengeneza safu mpya ya data kwa kila kikundi cha spishi. Orodha ya kushuka ni kushikamana na"" species_group "" safu katika species_ref."
 t1.90,"Bendera itakuwa nyekundu kama ""species_group"" kuchaguliwa haipo katika species_ref."
-t1.93,"Chagua ""Ndio"" ikiwa ungependa kuondoa gia. Tafadhali acha maoni kuelezea kwa nini."
 t1.95,"Jina la tovuti ya kutua bila nafasi na hakuna uakifishaji, inasisitiza tu"
 t1.96,Jina la tovuti ya kutua na nafasi na punctuation kuruhusiwa
-t1.99,"Chagua ""Ndiyo"" ikiwa ungependa kuondoa tovuti ya kutua."
 t1.103,"Jina la kipekee la eneo la usimamizi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe jina isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.104,"Jina la kipekee la eneo la usimamizi na tarehe ya kufungwa. Hii inapaswa kuwa management_id bila nafasi au alama za uakifishaji pamoja na nambari inayobainisha kufungwa kwa kipekee na eneo hilo. Kwa mfano, kama management_id aitwaye Boston alikuwa na tarehe mbili kufunga kuhusishwa na hayo, tungekuwa na mbili management_id_unique mashamba kupewa. Moja inaweza Kuwa Boston_1 na Mwingine Boston_2 kutambua kufungwa ndani ya eneo la usimamizi."
 t1.105,Orodha ya maeneo ya uvuvi kuhusishwa na tarehe management_id na kufungwa.
 t1.106,"Aina ya njia ya usimamizi, ikiwa ni pamoja na kufungwa kwa muda, hakuna maeneo ya kuchukua, nk. Hii ni orodha iliyofafanuliwa mapema. Tafadhali toa maoni ikiwa huna uhakika."
+t1.106.1,
+t1.106.2,
 t1.107,Aina lengo kwa ajili ya eneo kusimamiwa. Hii inaweza kuwa vikundi vya spishi au spishi za kisayansi. Uwanja ni wazi.
+t1.107.1,
 t1.108,Lengo makazi kwa ajili ya eneo kusimamiwa
 t1.109,Ukubwa wa eneo lililosimamiwa lililopimwa kwa hekta (ha)
 t1.110,Tarehe ya kufunga ya eneo lililosimamiwa
 t1.111,Tarehe ya ufunguzi wa eneo lililosimamiwa
 t1.112,Latitudo ya eneo la usimamizi
 t1.113,Longitudo ya eneo la usimamizi
-t1.114,"Chagua ""Ndio"" ikiwa ungependa kuondoa kitambulisho cha usimamizi."
 t1.116,"Jina la mshirika/shirika bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.117,"Jina la mpenzi/shirika na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.118,"Aina makundi mpenzi hukusanya data juu ya. Orodha ya kushuka ni kushikamana na"" species_group "" safu katika species_ref. Chagua vikundi vyote ikiwa wanataka spishi zote katika species_ref zionekane."
-t1.119,"Chagua ""Ndio"" ikiwa mwenzi anakusanya data kwa sasa. Ikiwa unataka kuificha kutoka Kwa Kushuka Kwa Kobo au hawakusanyi tena data, chagua "" Hapana.”"
-t1.120,"Chagua ""Ndio"" ikiwa ungependa kuondoa mshirika/shirika"
 t1.122,"Jina la mshirika bila nafasi au uakifishaji, inasisitiza tu. Kushuka kwa spishi huchujwa na mwenzi. Nchi fulani zina washirika wengi ambao hushiriki orodha ya spishi. Katika kesi hiyo, utaona nambari ya nchi badala ya mwenzi, na orodha nzima ya spishi itaonyesha kwa kila mwenzi katika nchi hiyo, isipokuwa vikundi fulani vya spishi vimeainishwa kwenye safu ya ""species_group"" katika org_ref."
 t1.123,Aina ya makazi inayohusishwa na spishi
 t1.124,"Jina la mahali na jina la spishi pamoja na alama ya chini, bila alama nyingine za alama au nafasi."
@@ -137,7 +131,6 @@ t1.129,"Jina la admin2 bila nafasi au alama za alama, inasisitiza tu. Orodha ya 
 t1.130,Jina la kawaida la aina ya kiingereza na nafasi na punctuation kuruhusiwa
 t1.131,Jina la familia la spishi iliyo na nafasi na uakifishaji inaruhusiwa
 t1.132,"Jina la kisayansi la aina na nafasi na punctuation kuruhusiwa. Ikiwa spishi haijulikani, jenasi au familia pia inaweza kuingizwa. Ikiwa tu jenasi inajulikana, type jina la jenasi ikifuatiwa na"" sp ""(tofauti na"" spp "" au sp.”). Ikiwa tu familia inajulikana, type jina la familia (yaani Lutjanidae)."
-t1.133,"Chagua ""Ndio"" ikiwa ungependa kuondoa spishi."
 t1.134,"Tafsiri ya kiingereza ya ""ongeza mpya"", ""usijue"", ""sio kuuzwa"", nk."
 t1.135,"Tafsiri ya lugha ya nchi kwa ""ongeza mpya"", ""sijui"", ""si kwa ajili ya kuuza"", nk."
 t1.136,Karatasi ya kumbukumbu tafsiri itakuwa ilijiunga na kuonekana katika dropdown sahihi Katika Kobo
@@ -145,7 +138,6 @@ t1.138,"Jina la mshirika bila nafasi au uakifishaji, inasisitiza tu."
 t1.139,Bei ya chini kulingana na species_group
 t1.140,Bei ya juu kulingana na species_group
 t1.141,"Kikundi cha spishi onyo la min/max linatumika kwa. Ili kuongeza kikundi kipya, tafadhali toa maoni na ujulishe BFO."
-t1.142,Mazingira min / max onyo inatumika kwa.
 t1.143,Bei kwa kilo au bei kwa kila mtu (aina uzito na urefu maonyo ni kutekelezwa juu ya mwisho nyuma kupitia data kutoka fasihi)
 faq,Maswali Yanayoulizwa Mara Kwa Mara:
 q1,"Mara tu ninapoongeza admin1 mpya, inachukua muda gani kabla ya kuonekana kwenye kushuka kwa admin2?"

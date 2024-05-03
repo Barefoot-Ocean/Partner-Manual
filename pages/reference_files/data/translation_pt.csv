@@ -29,7 +29,7 @@ point17,"Quando chegar à última entrada, clique em ""Concluído"". Uma mensage
 point17.1,"Clique em ""Voltar"" Se precisar rever"
 point17.2,"Clique em ""Enviar atualização"" para enviar suas atualizações."
 point17.3,Suas atualizações são automaticamente anexadas ao arquivo de referência e você pode visualizá-las na Visualização Dinâmica
-p2,"Se, a qualquer momento, encontrar algum erro, tiver dúvidas ou precisar de suporte para atualizar os arquivos de referência, entre em contato conosco em barefootinfo@barefootocean.org."
+p2,"Se, a qualquer momento, encontrar algum erro, tiver dúvidas ou precisar de suporte para atualizar os arquivos de referência, entre em contato conosco em katie@barefootocean.org ou brittany@barefootocean.org."
 fig4,"Figura 4: exemplo de E-mail ""Pedido de atualização"" quando é necessário corrigir informações ou responder a comentários."
 table1,"Tabela 1: os campos principais em cada um dos ficheiros de referência. O tipo de campo"" BFO "" é gerido pela Barefoot Ocean e não é editável. Para solicitar alterações a qualquer um dos Campos"" BFO"", por favor deixe um comentário. Apenas os campos com o tipo de campo ""editável"" podem ser editados. O tipo de campo ""auto"" é preenchido automaticamente."
 t1.1,Nome do campo
@@ -52,7 +52,6 @@ t1.18,"Nome do admin2, o nível administrativo mais alto após admin1 (ou seja, 
 t1.19,"Nome do admin2, o nível administrativo mais alto depois de admin1 (ou seja, distrito) com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
 t1.20,"O sinalizador ficará vermelho se o valor"" admin1_ref_name "" não existir no admin1_ref"
 t1.21,"Nome Admin1 sem espaços e sem pontuação, apenas sublinhados. A lista suspensa está ligada à coluna"" Nome "" no admin1_ref."
-t1.23,"Escolha "" Sim "" se quiser remover o admin2. Admin2s só deve ser removido se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se os dados não forem mais coletados, selecione"" não ""na coluna"" ativo""."
 t1.25,"Nomes Admin2 e admin3 combinados sem espaços e sem pontuação, apenas sublinhados.O admin3 é o nível administrativo mais alto depois do admin2 (ou seja, Aldeia)."
 t1.26,"Nome do admin3, o nível administrativo mais alto depois de admin2 (ou seja, aldeia) com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
 t1.27,Nome Admin1 com espaços e pontuação permitidos. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin2 escolhido.
@@ -60,72 +59,67 @@ t1.28,"Nome Admin1 sem espaços e sem pontuação, apenas sublinhados. Isso é e
 t1.29,"O sinalizador ficará vermelho se o valor"" admin2 "" não existir no admin2_ref."
 t1.30,"Nome Admin2 com espaços e pontuação permitidos. A lista suspensa é conectada à coluna"" rótulo "" no admin2_ref."
 t1.31,"Nome Admin2 sem espaços e sem pontuação, apenas sublinhados. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin2 escolhido."
-t1.33,"Escolha "" Sim "" se quiser remover o admin3. Admin3s só deve ser removido se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se os dados não forem mais coletados, selecione"" não ""na coluna"" ativo""."
 t1.34,Latitude do admin3
 t1.35,Longitude do admin3
 t1.36,O sinalizador será verificado se management_ID_1-4 não existir no management_ref.
 t1.37,"Nome do ID de gestão, com espaços e pontuação permitidos. Se houver 4 áreas de gestão dentro do admin3, basta selecionar a primeira unidade de gestão em ""management_ID_1"", a segunda unidade de gestão em"" management_ID_2"", etc. A lista suspensa está conectada à coluna"" management_ID "" no management_ref."
 t1.38,Campo sim / não que identifique se a aldeia é responsável pela gestão da área.
+t1.38.1,
+t1.38.2,
+t1.38.3,
+t1.38.4,
 t1.40,"Nome do comprador sem espaços e sem pontuação, apenas sublinhados"
 t1.41,"Nome do comprador com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
-t1.42,"Sexo do comprador; M (masculino), F (feminino) ou NB (não binário)"
+t1.42,"Sexo do comprador; 'male' (masculino), 'female' (feminino), 'nonbinary' (não binário) ou 'business_nogender'"
 t1.43,"Número único de identificação para identificar o comprador. Por favor, deixe um comentário se dois compradores diferentes tiverem o mesmo ID. Por padrão, dois compradores com o mesmo nome exato, mesmo que sejam de duas aldeias diferentes, receberão o mesmo ID, salvo indicação em contrário."
 t1.44,"Nome Admin1 onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.45,"Nome Admin2 de onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.46,"Nome Admin3 onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin3_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.47,"Nomes Admin2 e admin3 combinados sem espaços e sem pontuação, apenas sublinhados.A lista suspensa está ligada à coluna"" Nome "" no admin3_ref."
 t1.48,"O sinalizador ficará vermelho se o valor"" admin3_ref_name "" não existir no admin3_ref."
-t1.49,"Selecione ""Sim""se os dados estiverem a ser recolhidos desta pessoa. Se já não estiverem a ser recolhidos dados desta pessoa e pretender ocultá-los na lista pendente Kobo, seleccione ""Não.”"
-t1.50,"Escolha "" Sim "" se quiser remover o comprador. Os compradores só devem ser removidos se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se o comprador não estiver mais na aldeia ou não comprar mais, selecione ""não"" na coluna ""ativo""."
 t1.52,"Nome do pescador sem espaços e sem pontuação, apenas sublinhados"
 t1.53,"Nome do pescador com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
-t1.54,"Sexo do pescador; M (masculino), F (feminino) ou NB (não binário)"
+t1.54,"Sexo do pescador; 'male' (masculino), 'female' (feminino), 'nonbinary' (não binário) ou 'business_nogender'"
 t1.55,"Número único de identificação para identificar o pescador. Por favor, deixe um comentário se dois pescadores diferentes tiverem o mesmo ID. Por defeito, dois pescadores com o mesmo nome exacto, mesmo que sejam de duas aldeias diferentes, receberão o mesmo documento de identificação, salvo indicação em contrário."
 t1.56,"Nome Admin1 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.57,"Nome Admin2 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.58,"Nome Admin3 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin3_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
-t1.62,"Escolha "" Sim "" se quiser remover o admin3. Admin3s só deve ser removido se o nome estiver incorreto ou se for uma duplicata de um registo existente. Por favor, deixe um comentário sobre o motivo da remoção. Se o pescador não estiver mais na aldeia ou não pescar mais, selecione ""não"" na coluna ""ativo""."
 t1.64,"Nome do coletor de dados sem espaços e sem pontuação, apenas sublinhados"
 t1.65,Nome do coletor de dados com espaços e pontuação permitidos.
-t1.66,"Sexo do coletor de dados; M (masculino), F (feminino) ou NB (não binário)"
+t1.66,"Sexo do coletor de dados; 'male' (masculino), 'female' (feminino), 'nonbinary' (não binário) ou 'business_nogender'"
 t1.69,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de monitorização de aterragens Kobo."
 t1.70,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de criação de perfil Kobo landings"
 t1.71,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de inquérito aos agregados familiares Kobo"
 t1.72,"Seleccione "" Sim "" se pretender que o colector de dados apareça no menu pendente do formulário de criação de perfil da Comunidade Kobo"
-t1.73,"Escolha "" Sim "" se desejar remover o coletor de dados."
 t1.75,"Nome da zona de pesca sem espaços e sem pontuação, apenas sublinhados"
 t1.76,"Nome da zona de pesca com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
 t1.81,Latitude da zona de pesca
 t1.82,Longitude da zona de pesca
-t1.83,"Seleccione"" Sim "" se a zona de pesca estiver actualmente a ser utilizada. Se pretender ocultá-lo da lista pendente Kobo ou se já não estiver a ser utilizado, seleccione ""Não.”"
-t1.84,"Escolha "" Sim "" se quiser retirar o terreno de pesca"
 t1.85,"Nome Local da engrenagem sem espaços e sem pontuação, apenas sublinhados"
 t1.86,"Nome Local da engrenagem com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
 t1.87,"Nome em inglês da engrenagem sem espaços e sem pontuação, apenas sublinhados. Esta é uma lista suspensa predefinida. Por favor, escolha um que melhor se adapte ao equipamento local, ou comente se não tiver certeza."
 t1.88,Descrição da arte
 t1.89,"As espécies agrupam os alvos das artes. Se uma engrenagem visar várias espécies, crie uma nova linha de dados para cada grupo de espécies. A lista suspensa está ligada à coluna"" species_group "" no species_ref."
 t1.90,"O sinalizador será vermelho se o"" species_group "" escolhido não existir no species_ref."
-t1.93,"Escolha "" Sim "" se quiser remover a engrenagem. Por favor, deixe um comentário explicando o porquê."
 t1.95,"Nome do local de aterragem sem espaços e sem pontuação, apenas sublinhados"
 t1.96,Nome do local de aterragem com espaços e pontuação permitidos
-t1.99,"Escolha "" Sim "" se quiser remover o local de aterragem."
 t1.103,"Nome único da área de gestão com espaços e pontuação permitidos. Por favor, não altere o nome a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
 t1.104,"Nome único da área de gestão e data de encerramento. Este deve ser o management_id sem espaços ou pontuação combinados com um número que identifique o encerramento Único com essa área. Por exemplo, se um management_id chamado Boston tivesse duas datas de encerramento associadas a ele, teríamos dois campos management_id_unique atribuídos. Um poderia ser Boston_1 e outro Boston_2 para identificar encerramentos dentro de uma área de gestão."
 t1.105,A lista das zonas de pesca associadas ao ID de gestão e à data de encerramento.
 t1.106,"O tipo de método de gestão, incluindo encerramentos temporários, zonas de exclusão, etc. Esta é uma lista predefinida. Por favor, comente se não tiver certeza."
+t1.106.1,
+t1.106.2,
 t1.107,Espécies-alvo para a zona gerida. Podem ser grupos de espécies ou espécies científicas. O campo está aberto.
+t1.107.1,
 t1.108,Habitat-alvo para a zona gerida
 t1.109,Dimensão da superfície gerida medida em hectares (ha)
 t1.110,Data de encerramento da área gerida
 t1.111,Data de abertura da zona gerida
 t1.112,Latitude da área de gestão
 t1.113,Longitude da área de gestão
-t1.114,"Escolha "" Sim "" se quiser remover o ID de gestão."
 t1.116,"Nome do parceiro / organização sem espaços e sem pontuação, apenas sublinhados"
 t1.117,"Nome do parceiro / organização com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
 t1.118,"Os grupos de espécies sobre os quais o parceiro recolhe dados. A lista suspensa está ligada à coluna"" species_group "" no species_ref. Selecione Todos os grupos se eles quiserem que todas as espécies no species_ref apareçam."
-t1.119,"Selecione ""Sim""se o parceiro estiver a recolher dados. Se pretender ocultá-lo da lista pendente Kobo ou se já não estiver a recolher dados, seleccione ""Não.”"
-t1.120,"Escolha "" Sim "" se desejar remover o parceiro / organização"
 t1.122,"Nome do parceiro sem espaços ou pontuação, apenas sublinhados. As listas suspensas de espécies são filtradas pelo parceiro. Alguns países têm múltiplos parceiros que partilham uma lista de espécies. Nesse caso, você verá o código do país em vez do parceiro, e toda a lista de espécies será exibida para cada parceiro nesse país, a menos que certos grupos de espécies sejam especificados na coluna ""species_group"" no org_ref."
 t1.123,Tipo de Habitat associado à espécie
 t1.124,"Nome Local e nome da espécie combinados com um sublinhado, sem outra pontuação ou espaços."
@@ -137,7 +131,6 @@ t1.129,"Nome do admin2 sem espaços ou pontuação, apenas sublinhados. A lista 
 t1.130,Nome comum da espécie em inglês com espaços e pontuação permitidos
 t1.131,Nome de família de uma espécie com espaços e pontuação permitidos
 t1.132,"Nome científico da espécie com espaços e pontuação permitidos. Se a espécie for desconhecida, o género ou a família também podem ser introduzidos. Se apenas o género for conhecido, escreva o nome do género seguido de"" sp ""(em oposição a"" spp "" ou sp.”). Se apenas a família for conhecida, escreva o nome da família (ou seja, Lutjanidae)."
-t1.133,"Escolha "" Sim "" se quiser remover a espécie."
 t1.134,"A tradução em Inglês para ""adicionar novo"", ""não sei"", ""não está à venda"", etc."
 t1.135,"A tradução da língua do país para ""adicionar novo"", ""não sei"", ""não está à venda"", etc."
 t1.136,A folha de referência com a qual a tradução será mesclada para aparecer na lista suspensa apropriada em Kobo
@@ -145,7 +138,6 @@ t1.138,"Nome do parceiro sem espaços ou pontuação, apenas sublinhados."
 t1.139,O preço mínimo baseado em species_group
 t1.140,O preço máximo baseado em species_group
 t1.141,"O grupo de espécies ao qual se aplica o aviso min/max. Para adicionar um novo grupo, por favor, comente e informe o BFO."
-t1.142,O habitat ao qual se aplica o aviso min/max.
 t1.143,Preço por kg ou preço por indivíduo (os avisos de peso e comprimento das espécies são aplicados no back-end através de dados da literatura)
 faq,Perguntas Frequentes:
 q1,"Depois de adicionar um novo admin1, quanto tempo leva para que ele apareça no menu suspenso para admin2?"
