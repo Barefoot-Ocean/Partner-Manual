@@ -8,7 +8,7 @@ title: Fisheries Dashboard
 
 ## **Objective**
 
-The purpose of this guide is to help local organizations, resource managers and fishing community members most effectively use the community fisheries data dashboard to evaluate their collected data, overall state of the fisheries and analyze different management strategies. Data collected through three digital survey instruments are visualized through the dashboard\'s pages: Current Status, Fisheries Profiling and Community Profiling. The dashboard\'s Data Application page also provides users with the opportunity to view information on fisheries production, fishing activity, and effects of management strategies. With permission from fishers and fish traders, these data can be shared across organizations and geographies through the dashboard to better understand regional trends and broader management implications. 
+The purpose of this guide is to help local organizations, resource managers and fishing community members most effectively use the community fisheries data dashboard to evaluate their collected data, overall state of the fisheries and analyze different management strategies. Data collected through three digital survey instruments are visualized through the dashboard's pages: Current Status, Fisheries Profiling and Community Profiling. The dashboard's Data Application page also provides users with the opportunity to view information on fisheries production, fishing activity, and effects of management strategies. With permission from fishers and fish traders, these data can be shared across organizations and geographies through the dashboard to better understand regional trends and broader management implications. 
 
 ## **Data System Overview**
 
@@ -18,14 +18,12 @@ The three digital survey instruments developed to collect data on fisheries land
 
 -   The **Landings Monitoring Survey** was designed to be conducted daily, or as often as possible, capturing the minimum data needed to track long-term trends in fisheries production, species composition and catch value. This survey can be used to evaluate the effects of fisheries closures or other management strategies by comparing data before and after implementation. The survey is short and simple allowing for more frequent and consistent data collection.
 
-```{=html}
 <!-- -->
-```
+
 -   The **Landings Profiling Survey** collects detailed fisheries data on gear, effort, and size of individual fish or invertebrates alongside specialized information for certain species groups such as sex, catch quality, stylet data, and egg maturity. Catch quality of octopus includes storage methods, color, tentacle number, physical abrasions, beak quality, and skin conditions. Octopus stylet data includes sample photos and growth circumference. Egg maturity includes gonad weight, color, stage, length, and line appearances in the ovary glands of female octopus. These data complement the landings monitoring data and help partners better understand observed catch trends in fisheries production and effects of fisheries management. The survey was designed to be conducted at the beginning of involvement in a community and subsequently conducted every 1 to 2 years, before and after implementation of management strategy, or as needed to explain changes in catch observed through monitoring data.
 
-```{=html}
 <!-- -->
-```
+
 -   The **Community Profiling Survey** is designed to gather a comprehensive understanding of the socio-economic and fisheries landscape of a community. The survey is used when first engaging with a community and repeated every five to ten years to document major shifts in fishing behavior, fisher perceptions, and resource management.  
 
 Data collected through KoboToolbox is stored and transformed in a central database.  automated analyses and visualizations will be available through a standardized dashboard.  Raw data is backed up in the KoboToolbox database and will also be available through download or direct link to another database or data warehouse. 
@@ -42,7 +40,7 @@ A performance indicator is a flexible assessment tool that measures the performa
 
 ### **About**
 
-### **Current Status** 
+### **Current Status**
 
 -   Indicator 1 - Catch per Unit Effort (CPUE)
 
@@ -88,9 +86,9 @@ Visit the [Barefoot Ocean Community Fisheries Data Dashboard](http://barefootoce
 
 1.  Fill in the required geography or partner information
 
-In Figure 1, the left section of the page shows the following information required for the data visualizations. You must first select the country from the dropdown menu under \"I want to see data from.\" You can then view the data visualizations organized by geography or partner. If you select geography for the \"Organized by\" question, you must also select the province, district, and village. Click \"See Results\" to view the dashboard results. 
+In Figure 1, the left section of the page shows the following information required for the data visualizations. You must first select the country from the dropdown menu under "I want to see data from." You can then view the data visualizations organized by geography or partner. If you select geography for the "Organized by" question, you must also select the province, district, and village. Click "See Results" to view the dashboard results. 
 
-The \"Selected Locations\" shows a map displaying the selected geography. The data on the right section of the page shows when data collection started, the number of days since the start date, the number of days recording data, and buttons to download the data and  summary report. 
+The "Selected Locations" shows a map displaying the selected geography. The data on the right section of the page shows when data collection started, the number of days since the start date, the number of days recording data, and buttons to download the data and  summary report. 
 
 Figure 1. Example dashboard data selected for Cebu, Philippines.
 
@@ -98,7 +96,7 @@ Figure 1. Example dashboard data selected for Cebu, Philippines.
 
 2.  Summary data values from the selected geography and date range 
 
-Boxes on the Current Status page show eight key fishery values: total weight landed (kg) and income, mean catch per unit effort (kg/trip), mean income per trip, mean percent mature catch, number of recorded fishers and buyers and number of species and families in parentheses (Figure 2). The total income and mean income per trip is determined using the selected country\'s currency. The Fisheries Profiling page shows 
+Boxes on the Current Status page show eight key fishery values: total weight landed (kg) and income, mean catch per unit effort (kg/trip), mean income per trip, mean percent mature catch, number of recorded fishers and buyers and number of species and families in parentheses (Figure 2). The total income and mean income per trip is determined using the selected country's currency. The Fisheries Profiling page shows 
 
 Figure 2. Summary of data parameters from the Current Status page.
 
