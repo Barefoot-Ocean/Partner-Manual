@@ -82,7 +82,7 @@ A performance indicator is a flexible assessment tool that measures the performa
 
 ### **Data Selection**
 
-Visit the [Community Fisheries Data Dashboard](https://barefootocean.shinyapps.io/fisheries_dashboard/) website. To get started, follow the steps below to use the community fisheries dashboard: 
+Visit the [Barefoot Ocean Community Fisheries Data Dashboard](http://barefootocean.shinyapps.io/fisheries_dashboard_demo/) website (<https://barefootocean.shinyapps.io/fisheries_dashboard_demo/>). To get started, follow the steps below to use the community fisheries dashboard: 
 
 1.  Fill in the required geography or partner information
 
