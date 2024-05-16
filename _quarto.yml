@@ -29,7 +29,7 @@ website:
         href: https://dynamicview.smartsheet.com/
         text: "Smartsheet Dynamic View"  
       - icon: bar-chart-fill
-        href: https://barefootocean.shinyapps.io/fisheries_dashboard/_w_ab83fe1c/_w_86d66a5f/_w_88f8a599/?page=sign_in
+        href: https://barefootocean.shinyapps.io/fisheries_dashboard/
         text: "Community Fisheries Dashboard"
       - icon: house-fill
         href: https://barefootocean.shinyapps.io/hhsdashboard-dev/
