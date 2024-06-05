@@ -30,7 +30,7 @@ Data collected through KoboToolbox is stored and transformed in a central databa
 
 ## **How the Data is Used**
 
-Data collected through Kobo surveys and the OurFish mobile app are linked to a central data storage system. From there, automated analyses and visualizations are made available through the community fisheries data dashboard hub. Performance indicators help summarize the data and provide an indication of how the fishery or community is performing relative to a reference point. \[elaborate on reference points\]
+Data collected through Kobo surveys and the OurFish mobile app are linked to a central data storage system. From there, automated analyses and visualizations are made available through the community fisheries data dashboard hub. Performance indicators help summarize the data and provide an indication of how the fishery or community is performing relative to a reference point.
 
 ### What is a Performance Indicator?
 
@@ -96,7 +96,7 @@ Figure 1. Example dashboard data selected for Cebu, Philippines.
 
 2.  Summary data values from the selected geography and date range 
 
-Boxes on the Current Status page show eight key fishery values: total weight landed (kg) and income, mean catch per unit effort (kg/trip), mean income per trip, mean percent mature catch, number of recorded fishers and buyers and number of species and families in parentheses (Figure 2). The total income and mean income per trip is determined using the selected country's currency. The Fisheries Profiling page shows 
+Boxes on the Fisheries Status page show eight key fishery values: total weight landed (kg) and income, mean catch per unit effort (kg/trip), mean income per trip, mean percent mature catch, number of recorded fishers and buyers and number of species and families in parentheses (Figure 2). The total income and mean income per trip is determined using the selected country's currency.
 
 Figure 2. Summary of data parameters from the Current Status page.
 
@@ -106,7 +106,7 @@ The most commonly harvested species for the pre-selected geographical areas are 
 
 Figure 3. List and pie chart (%) of the most common species/families by total weight and total income.
 
-Additional data selections include habitat and date range. Available habitat types include: reef, pelagic-shallow, soft bottom-shallow, hard bottom-shallow, pelagic-deep, hard bottom-deep, soft bottom-deep, and mangrove. The selected date range types include past year, past six months, past month, and past week. The dashboard also has an option to show income in \$USD and show confidence intervals on the following time series plots.
+Additional data selections include habitat and date range. Available habitat types include: reef, seagrass, mangrove, deepwater, sand and mud_flat. The selected date range types include past year, past six months, past month, and past week. The dashboard also has an option to show income in \$USD and show confidence intervals on the following time series plots.
 
 ## **Performance Indicators**
 
@@ -144,7 +144,7 @@ Destructive fishing practices are fishing practices that result in irreversible 
 
 ### **Indicator 4: Reporting Effort**
 
-**Description:** Reporting effort is the number of buyers and fishers reporting their catch. Catch reporting is a part of monitoring, control, and surveillance (MCS) of commercial fishing to support the broader issues of fishing management, such as revealing illegal fishing practices or pinpointing overfished locations. 
+**Description:** Reporting effort is the number of buyers and fishers reporting their catch. Catch reporting is a part of monitoring, control, and surveillance (MCS) of commercial fishing to support the broader issues of fishing management, such as revealing illegal fishing practices or pinpointing overfished locations.
 
 **Unit:** Catch over time 
 
