@@ -61,9 +61,6 @@ t1.30,"Admin2 name with spaces and punctuation allowed. The dropdown list is con
 t1.31,"Admin2 name with no spaces and no punctuation, only underscores. This is pulled from the admin2_ref and auto populated based on the admin2 chosen."
 t1.34,Latitude of admin3
 t1.35,Longitude of admin3
-t1.36,Flag will be checked if management_ID_1-4 does not exist in the management_ref.
-t1.37,"Name of management ID, with spaces and punctuation allowed. If there are 4 management areas within the admin3, simply select the first management unit in “management_ID_1”, the second management unit in “management_ID_2”, etc. The dropdown list is connected to the ""management_ID"" column in the management_ref."
-t1.38,Yes/No field identifying whether the village is responsible for area management.
 t1.38.1,Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo landings monitoring form.
 t1.38.2,Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo landings profiling form.
 t1.38.3,Select “Yes” if you want the admin3 to appear in the dropdown for the Kobo community profiling form.
@@ -71,7 +68,7 @@ t1.38.4,Select “Yes” if you want the admin3 to appear in the dropdown for th
 t1.40,"Name of the buyer with no spaces and no punctuation, only underscores"
 t1.41,"Name of the buyer with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
 t1.42,"Gender of the buyer; 'male', 'female', 'nonbinary' or 'business_nogender'"
-t1.43,"Unique number ID to identify the buyer. Please leave a comment if two different buyers have the same ID. By default, two buyers with the same exact name, even if they are from two different villages, will receive the same ID unless otherwise told."
+t1.43,"The flag will be red if the buyer_gender value is different for the same buyer (i.e. if Raymond Scott in admin3= Boston has gender=male, but Raymond Scott in admin3=Miami has gender=female, the flag will be red because the genders are not the same for the same buyer)."
 t1.44,"Admin1 name where the buyer buys from, with spaces and punctuation allowed. This is pulled from the admin1_ref and auto populated based on the admin3_ref_name chosen."
 t1.45,"Admin2 name where the buyer buys from, with spaces and punctuation allowed. This is pulled from the admin2_ref and auto populated based on the admin3_ref_name chosen."
 t1.46,"Admin3 name where the buyer buys from, with spaces and punctuation allowed. This is pulled from the admin3_ref and auto populated based on the admin3_ref_name chosen."
@@ -80,7 +77,7 @@ t1.48,The flag will be red if the “admin3_ref_name” value does not exist in 
 t1.52,"Name of the fisher with no spaces and no punctuation, only underscores"
 t1.53,"Name of the fisher with spaces and punctuation allowed. Please do not change the label unless absolutely necessary, as joins are based on this."
 t1.54,"Gender of the fisher; 'male', 'female', 'nonbinary' or 'business_nogender'"
-t1.55,"Unique number ID to identify the fisher. Please leave a comment if two different fishers have the same ID. By default, two fishers with the same exact name, even if they are from two different villages, will receive the same ID unless otherwise told."
+t1.55,"The flag will be red if the fisher_gender value is different for the same fisher (i.e. if Raymond Scott in admin3= Boston has gender=male, but Raymond Scott in admin3=Miami has gender=female, the flag will be red because the genders are not the same for the same fisher)."
 t1.56,"Admin1 name where the fisher lands their catch, with spaces and punctuation allowed. This is pulled from the admin1_ref and auto populated based on the admin3_ref_name chosen."
 t1.57,"Admin2 name where the fisher lands their catch, with spaces and punctuation allowed. This is pulled from the admin2_ref and auto populated based on the admin3_ref_name chosen."
 t1.58,"Admin3 name where the fisher lands their catch, with spaces and punctuation allowed. This is pulled from the admin3_ref and auto populated based on the admin3_ref_name chosen."
@@ -105,13 +102,18 @@ t1.95,"Name of the landing site with no spaces and no punctuation, only undersco
 t1.96,Name of the landing site with spaces and punctuation allowed
 t1.103,"Unique name of the management area with spaces and punctuation allowed. Please do not change the name unless absolutely necessary, as joins are based on this."
 t1.104,"Unique name of the management area and effective  dates. More specifically, it contains the following information separated by an underscore: management_id, management_method, close_date and open_date."
-t1.105,The list of fishing grounds associated with the management_id and closure date. The dropdown list is connected to the “name” column in the fishing_ground_ref.
-t1.106,"The type of management method, including temporary closures, no take zones, etc. The predefined list includes: Temporary Closure, No Take Zone, Gear Restriction, Managed Access, Harvesting Ban or Deforestation Ban."
+t1.104.1,The list of admin3s that fish within the management area.
+t1.104.2,The flag will be red if one of the admin3s listed in the “admin3_fish” column does not exist in the admin3_ref.
+t1.104.3,The list of admin3s that have a role in governing the management event.
+t1.104.4,The flag will be red if one of the admin3s listed in the “admin3_govern” column does not exist in the admin3_ref.
+t1.105,The list of fishing grounds associated with the management event. The dropdown list is connected to the “name” column in the fishing_ground_ref.
+t1.105.5,The flag will be red if one of the fishing grounds listed in “management_fishing_ground” does not exist in the fishing_ground_ref.
+t1.106,"The type of management method utilized during the event. The predefined list includes: Temporary Closure, No Take Zone, Gear Restriction, Managed Access, Harvesting Ban or Deforestation Ban."
 t1.106.1,"The type of legal regulation. The predefined list includes: village head regulation, village head decree, joint village head regulation or none."
-t1.106.2,"Target species group for the managed area. This can include ‘All’, one or multiple species groups."
+t1.106.2,"Target species group for the managed area. This can include ‘All’, one or multiple species groups. The dropdown list is connected to the MASTER species_ref and includes species groups from all partners."
 t1.107,"Target species for the managed area. This can include ‘All_species’, one or multiple scientific species. The dropdown list is connected to the MASTER species_ref and includes species from all partners."
 t1.107.1,The flag will be red if the “target_species” chosen is not referenced in the partner’s species_ref.
-t1.108,Target habitat for the managed area
+t1.108,"Target habitat for the managed area. The predefined dropdown list includes the habitat choices: 'reef, seagrass, mangrove, mud_flat, sand, deepwater or other'."
 t1.109,Size of the managed area measured in hectares (ha)
 t1.110,Closing date of the managed area; MM/DD/YY
 t1.111,Opening date of the managed area; MM/DD/YY
@@ -127,7 +129,7 @@ t1.125,Local name with species name in parenthesis
 t1.126,"Species categorized into groups based on their biology with no spaces or punctuation, only underscores. This field is used to help filter certain answer choices in Kobo."
 t1.127,"The flag will be red if the “species_group” chosen is not referenced in the gear_ref. That means all gears listed in the gear_ref will appear for this species group. To only show gears that target this species group, please add the species group to the gear_ref."
 t1.128,Local species name with spaces and punctuation allowed
-t1.129,"Name of admin2 with no spaces or punctuation, only underscores. The dropdown list is connected to the ""name"" column in the admin2_ref. *This field will only show for partners that want the species dropdown filtered by the admin2 chosen.*"
+t1.129,"Name of admin1, 2 or 3 with no spaces or punctuation, only underscores. The dropdown list is connected to the ""name"" column in the corresponding admin_ref. *This field will only show for partners that want the species dropdown filtered by that admin.*"
 t1.130,Common English species name with spaces and punctuation allowed
 t1.131,Family name of a species with spaces and punctuation allowed
 t1.132,"Scientific name of the species with spaces and punctuation allowed. If the species is unknown, the genus or family can also be entered. If only the genus is known, type the name of the genus followed by “sp” (as opposed to “spp” or sp.”). If only the family is known, type the name of the family (i.e. Lutjanidae)."

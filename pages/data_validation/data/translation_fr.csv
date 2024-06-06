@@ -1,7 +1,9 @@
 key,fr
 title,Guide de Validation des Données sur les Pêches
-p1,"Toutes les données qui transitent par le système de données sur les pêches sont validées dans Smartsheet. Les données sont envoyées pour validation selon deux scénarios; 1) de nouveaux noms sont ajoutés manuellement dans Kobo Collect, ou 2) une valeur numérique dépasse les seuils établis. Une fois les données validées, les ensembles de données maîtres de la base de données et les tables de référence sont mis à jour. Les tables de référence servent d'entrées pour les listes déroulantes dans les formulaires KoboToolbox et contiennent des données qui sont ajoutées aux ensembles de données maîtres via des jointures. Voir l'arbre de décision ci-dessous (figure 1)."
-p2,"Les données déclenchées pour validation sont envoyées à l'une des trois tables suivantes: 1) AQ du nom des débarquements, 2) AQ de l'espèce ou 3) AQ des avertissements de valeur. Les instructions ci-dessous détaillent le processus de validation des données dans Smartsheet pour les trois tableaux de validation. Chaque table de validation nécessitera soit de sélectionner la valeur de champ correcte dans une liste déroulante, soit de saisir manuellement les valeurs correctes. Le processus sera annexé pour les futurs besoins de validation des données, au besoin."
+p1,
+p2,
+p2.1,
+p2.2,
 step1,Étape 1: Fournissez à Barefoot Ocean les adresses e-mail des points de contact pour les responsables de la validation des données.
 point1,L'organisation gérant plusieurs partenaires peut fournir toutes les informations de contact.
 point2,Les partenaires individuels peuvent fournir les coordonnées du point de contact.
@@ -28,19 +30,17 @@ point18,"Une fois validée, cette ligne disparaîtra de votre vue dynamique."
 point19,Cliquez sur la ligne suivante et répétez les étapes pour terminer la validation de toutes les entrées.
 point20,Vous pouvez quitter et entrer à nouveau en cliquant sur le lien Affichage dynamique de votre e-mail ou en vous connectant à votre compte à tout moment. Vous n'avez pas besoin de valider toutes les entrées en une seule séance.
 point21,Vous pouvez ajouter ce lien à vos favoris et y revenir à tout moment.
-table1,"Tableau 1: Champs primaires dans les tables de validation. Les champs de contexte fournissent les informations nécessaires à la validation des données. Les champs de validation sont remplis avec des données qui seront transférées aux ensembles de données maîtres. Seul le champ de validation peut être modifié. Certains champs ne sont visibles que dans le panneau ""Détails"" lorsqu'une ligne est cliquée dans le tableau de la vue dynamique."
+table1,
 t1.1,Champ de table de validation
 t1.2,Description du champ
 t1.3,Type de champ
-t1.4,Toutes les Tables
 t1.5,nom de l'organisation collectant les données
 t1.6,contexte
 t1.7,validation
 t1.8,automatique
 t1.9,Village ou sous-village où les captures ont été débarquées et enregistrées
 t1.10,Nom de la personne qui a collecté les données dans Kobo (recenseur)
-t1.11,Tableau des Noms des Débarquements
-t1.12,"Le champ du formulaire KoboToolbox qui doit être validé: nom du pêcheur, nom de l'acheteur, nom du collecteur de données ou nom du site d'atterrissage"
+t1.12,
 t1.13,La valeur qui a été saisie pour le champ kobo_field correspondant
 t1.14,"Nom étroitement apparié qui existe déjà dans la base de données. S'il est vide, aucun nom existant ne correspond au nom de la colonne ""new_data"""
 t1.15,"Nom étroitement apparié qui existe déjà dans la base de données. S'il est vide, aucun nom existant ne correspond au nom de la colonne ""new_data"""
@@ -49,7 +49,11 @@ t1.17,"Sélectionnez le champ avec les données correctes (new_data, ref_match1,
 t1.18,"Entrez une autre valeur si aucune des options de validation n'est correcte. Obligatoire SI ""autre"" est sélectionné dans validation_options. Visible uniquement dans le panneau Détails."
 t1.19,"Liste des identifiants de soumission dans lesquels cette nouvelle valeur de données apparaît, à partir du formulaire Kobo de surveillance des débarquements"
 t1.20,"Liste des identifiants de soumission dans lesquels cette nouvelle valeur de données apparaît, à partir du formulaire Kobo de profilage des débarquements"
-t1.21,Tableau des Avertissements de Valeur
+t1.20.1,
+t1.20.2,
+t1.20.3,
+t1.20.4,
+t1.20.5,
 t1.22,Nom du pêcheur qui a débarqué la prise
 t1.23,Date à laquelle la capture a été débarquée
 t1.24,Nom local de l'espèce
@@ -65,7 +69,6 @@ t1.33,"Si correct = Y, les valeurs sont remplies automatiquement, Si correct = N
 t1.34,"Si les unités du numérateur_sont incorrectes, sélectionnez l'option correcte dans la liste déroulante"
 t1.35,Jeu de données d'où proviennent les données (suivi des débarquements ou profilage).
 t1.36,"Identifiant de soumission du formulaire Kobo. Utilisez-le pour comparer avec des données brutes, si nécessaire, pour la validation."
-t1.37,Tableau des Espèces
 t1.38,Lien vers la photo qui a été soumise dans Kobo Collect
 t1.39,La valeur qui a été saisie en tant que nouveau nom local d'espèce dans Kobo Collect
 t1.40,"Nom étroitement apparié qui existe déjà dans la base de données. S'il est vide, aucun nom existant ne correspond au nom de la colonne ""new_data"""
@@ -79,6 +82,13 @@ t1.47,Jeu de données d'où proviennent les données (suivi des débarquements o
 t1.48,"Sélectionnez le champ avec les données correctes (local_name_new, ref_match1, ref_match2, ref_match3), entrez une autre valeur (autre) ou supprimez (supprimez la ligne de l'analyse car les données ne peuvent pas être validées). Requis. Visible uniquement dans le panneau Détails. L'entrée disparaîtra une fois les données validées."
 t1.49,"Entrez une autre valeur si aucune des options de validation n'est correcte. Obligatoire SI ""autre"" est sélectionné dans validation_options. Visible uniquement dans le panneau Détails."
 t1.50,"Cette colonne stocke le dernier commentaire qui a été fait pour cette ligne. Pour afficher l'intégralité de la discussion des commentaires pour cette ligne, cliquez simplement n'importe où sur la ligne. Le panneau de détails apparaîtra et cliquez sur l'onglet"" Commentaires "" pour afficher tous les commentaires de cette ligne."
+t1.51,
+t1.52,
+t1.53,
+t1.54,
+t1.55,
+t1.56,
+t1.57,
 caption3,Figure 3: Exemple de Vue dynamique - Avertissements de Valeur
 caption4,Figure 4: Exemple de Vue dynamique - Panneau de détails
 step3b,"Étape 3, Option B: Terminez la validation de vos données via la "" Demande ouverte’"
@@ -93,9 +103,9 @@ point29,"Lorsque vous arrivez à la dernière entrée, cliquez sur ""Terminé"".
 point29.1,"Cliquez sur"" Revenir en arrière "" si vous avez besoin de revoir"
 point29.2,"Cliquez sur ""Soumettre la mise à jour"" pour soumettre la validation"
 point29.3,"Cochez la case ""Envoyez-moi une copie de mes réponses"" si vous souhaitez qu'une copie de vos réponses vous soit envoyée par e-mail"
-point30,"Si vous cliquez sur ""Envoyez-moi une copie de mes réponses"", vous recevrez un e-mail intitulé ""Confirmation de mise à jour: Assurance qualité du nom des débarquements""."
-point30.1,"Il y aura un tableau résumant les entrées qui ont été mises à jour. Les entrées dans lesquelles aucune option n'a été sélectionnée dans"" validation_options "" ne seront pas incluses."
-point30.2,"Cet e-mail peut contenir un lien vers un nom de feuille ""Landings Name QA""; cependant, l'accès à cette feuille est verrouillé."
+point30,
+point30.1,
+point30.2,
 point31,"Pour voir toute validation restante nécessaire, vous devrez attendre le prochain e-mail de demande de mise à jour ou ouvrir la vue dynamique."
 caption5,"Figure 5: Exemple de format ""Requête ouverte"""
 faq,Questions Fréquemment Posées:

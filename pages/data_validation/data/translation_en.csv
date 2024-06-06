@@ -1,7 +1,9 @@
 key,en
 title,Fisheries Data Validation Guide
-p1,"All data that flows through the fisheries data system is validated in Smartsheet. Data is sent for validation under two scenarios; 1) new names are manually added in Kobo Collect, or 2) a numeric value falls beyond established thresholds. Once data is validated, both the master datasets in the database and the reference tables are updated. Reference tables serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the master datasets through joins. See the decision tree below (Figure 1)."
-p2,"Data triggered for validation is sent to one of three tables: 1) Landings Name QA, 2) Species QA, or 3) Value Warnings QA. The instructions below detail the data validation process in Smartsheet for the three validation tables. Each validation table will require either selecting the correct field value from a dropdown list or entering correct values manually. The process will be appended for future data validation needs, as required."
+p1,"All data that flows through the fisheries data system is validated in Smartsheet. Data is sent for validation under three scenarios; 1) new names or ‘other’ information are manually added in Kobo Collect, 2) a numeric value falls beyond established thresholds or 3) names in the dataset do not have a corresponding match in a reference file. Once data is validated, both the datasets in the database and the reference tables are updated. Reference tables serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the datasets through joins. See the decision tree below (Figure 1)."
+p2,"Data triggered for validation is sent to one of four tables: 1) Names and Gears, 2) Value Warnings, 3) Species or 4) Other. The instructions below detail the data validation process in Smartsheet Dynamic View for the four validation tables. Each validation table will require either selecting the correct field value from a dropdown list or entering correct values manually. The process will be appended for future data validation needs, as required."
+p2.1,"The ‘Names and Gears’ validation table contains new data from all the Kobo surveys including the new names of fishers, buyers, data collectors, fishing grounds, landing sites and gears. ‘Value Warnings’ contains numeric information collected from the Landings Monitoring or Landings Profiling survey which flagged a data value based on a pre-established threshold. The ‘Species’ validation table contains photos and new local names from all the surveys in order to validate new species using a double verification process. Lastly, the ‘Other’ data validation table contains ‘other’ information collected from the Landings Profiling, Community Profiling or Household Survey and is mainly validated for translational purposes."
+p2.2,"Daily e-mail messages are sent out with information and links on how to complete the data validation (see detailed instructions below). Additional notifications from Smartsheet or Barefoot Ocean may be sent via email to follow-up with incomplete data validation selections, if needed."
 step1,Step 1: Provide Barefoot Ocean with point of contact email addresses for those responsible for data validation.
 point1,The organization managing multiple partners may provide all points of contact information.
 point2,Individual partners may provide point of contact information.
@@ -28,19 +30,17 @@ point18,"Once validated, that row will disappear from your dynamic view."
 point19,Click on the next row and repeat steps to complete validation for all entries.
 point20,You can exit and re-enter by clicking on the dynamic view link from your email or logging into your account at any time. You do not need to validate all entries in one sitting.
 point21,You can bookmark this link and return at any time.
-table1,"Table 1: Primary fields in the validation tables. Context fields provide information needed to validate data. Validation fields are populated with data that will be transferred to the master datasets. Only the validation field can be edited. Some fields are only visible in the ""Details"" panel when a row is clicked in the Dynamic View table."
+table1,Table 1: Primary fields or columns in the validation tables. Context fields provide information needed to validate data. Validation fields are populated with data that will be transferred to the master datasets. Only the validation fields can be edited. Some fields are only visible in the “Details” panel when a row is clicked in the Dynamic View table.
 t1.1,Validation table field
 t1.2,Field description
 t1.3,Field type
-t1.4,All Tables
 t1.5,organization name collecting the data
 t1.6,context
 t1.7,validation
 t1.8,auto
 t1.9,Village or sub-village where the catch was landed and recorded
 t1.10,Name of person who collected the data in Kobo (enumerator)
-t1.11,Landings Names Table
-t1.12,"The field from the KoboToolbox form that needs to be validated: fisher_name, buyer_name, data_collector_name, or landingsite_name"
+t1.12,The field from the KoboCollect form that needs to be validated or name that does not have a match in the reference files.
 t1.13,The value that was entered for the corresponding kobo_field
 t1.14,"Closely matching name that already exists in the database. If blank, no existing names match the name in the ""new_data"" column"
 t1.15,"Closely matching name that already exists in the database. If blank, no existing names match the name in the ""new_data"" column"
@@ -49,7 +49,11 @@ t1.17,"Select field with correct data (new_data, ref_match1, ref_match2, ref_mat
 t1.18,"Enter another value if none of the validation options are correct. Required IF ""other"" selected from validation_options. Only visible in the Details panel."
 t1.19,"List of submission ids this new data value appears in, from landings monitoring Kobo form"
 t1.20,"List of submission ids this new data value appears in, from landings profiling Kobo form"
-t1.21,Value Warnings Table
+t1.20.1,"List of submission ids this new data value appears in, from the household survey Kobo form."
+t1.20.2,"The species group associated with the new gear name, as collected in the Kobo form. This will only appear if the “kobo_field” is a gear category."
+t1.20.3,Required IF validating new gear names. A dropdown list of gear types to be associated with the validated gear name.
+t1.20.4,"The gender associated with the new fisher, as collected in the Kobo form. This will only appear if the “kobo_field” is a fisher name."
+t1.20.5,"The gender associated with the new buyer, as collected in the Kobo form. This will only appear if the “kobo_field” is a buyer name."
 t1.22,Name of fisher who landed the catch
 t1.23,Date catch was landed
 t1.24,Species local name
@@ -65,7 +69,6 @@ t1.33,"If correct = Y, values are auto-populated, If correct = N, enter correct 
 t1.34,"If the numerator_units are incorrect, select the correct option from the dropdown"
 t1.35,Dataset the data came from (Landings monitoring or profiling).
 t1.36,"Submission ID from the Kobo form. Use this to compare against raw data, if needed, for validation."
-t1.37,Species Table
 t1.38,Link to photo that was submitted in Kobo Collect
 t1.39,The value that was entered as a new species local name in Kobo Collect
 t1.40,"Closely matching name that already exists in the database. If blank, no existing names match the name in the ""new_data"" column"
@@ -79,6 +82,13 @@ t1.47,Dataset the data came from (Landings monitoring or profiling).
 t1.48,"Select field with correct data (local_name_new, ref_match1, ref_match2, ref_match3), enter another value (other), or remove (remove row from analysis because data cannot be validated). Required. Only visible in the Details panel. Entry will disappear once data is validated."
 t1.49,"Enter another value if none of the validation options are correct. Required IF ""other"" selected from validation_options. Only visible in the Details panel."
 t1.50,"This column stores the last comment that was made for that row. To view the entire discussion of comments for that row, simply click anywhere on the row. The details panel will appear and click on the ""Comments"" tab to view all comments for that row."
+t1.51,"The field from the KoboToolbox form that needs to be validated. This could be from a question (q)  in the Landings Profiling (‘lp’), Community Profiling (‘cp’) or Household Survey (‘hhs’)."
+t1.52,The value that was entered for the corresponding kobo_field
+t1.53,"Dataset the data came from (Landings profiling, Community profiling, Household survey)."
+t1.54,"Submission ID from the Kobo form. Use this to compare against raw data, if needed, for validation."
+t1.55,"Select field with correct data (new_data), enter another value (other), or remove (remove row from analysis because data cannot be validated). Required. Only visible in the Details panel. Entry will disappear once data is validated."
+t1.56,Enter another value if none of the validation options are correct. Required IF “other” selected from validation_options. Only visible in the Details panel.
+t1.57,Required. Enter the English translation of the new_data or other field if ‘other’ was selected as the validation option. Only visible in the Details panel.
 caption3,Figure 3: Example Dynamic View - Value Warnings
 caption4,Figure 4: Example Dynamic View- Details Panel
 step3b,"Step 3, Option B: Complete your data validation via ‘Open Request’"
@@ -93,9 +103,9 @@ point29,"When you get to the last entry, click ""Done"". A pop-up message will a
 point29.1,"Click ""Go Back"" if you need to review"
 point29.2,"Click ""Submit Update"" to submit validation"
 point29.3,"Check the ""Send me a copy of my responses"" box if you would like a copy of your responses sent to your email"
-point30,"If you click ""Send me a copy of my responses"" you will receive an email titled ""Update Confirmation: Landings Name QA""."
-point30.1,"There will be a table summarizing which entries were updated. Entries in which no option was selected in ‘validation_options"" will not be included."
-point30.2,"This email may contain a link to a sheet name ""Landings Name QA""; however, access to this sheet is locked."
+point30,If you click “Send me a copy of my responses” you will receive an email titled “Update Confirmation: Names and Gears”.
+point30.1,There will be a table summarizing which entries were updated. Entries in which no option was selected in ‘validation_options” will not be included.
+point30.2,"This email may contain a link to a sheet name “Data Validation - Names and Gears”; however, access to this sheet is locked."
 point31,"To see any remaining validation needed, you will need to wait for the next update request email or open the Dynamic View."
 caption5,"Figure 5: Example of ""Open Request"" format"
 faq,Frequently Asked Questions:

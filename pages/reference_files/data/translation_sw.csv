@@ -46,8 +46,8 @@ t1.11,"Jina la admin1, ngazi ya juu ya utawala baada ya nchi (yaani mkoa) bila n
 t1.12,"Jina la admin1, ngazi ya juu ya utawala baada ya nchi (yaani mkoa) na nafasi na alama za alama kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.13,"Bendera itakuwa nyekundu kama ""mshirika"" thamani haipo katika org_ref"
 t1.14,"Jina la mshirika bila nafasi na hakuna uakifishaji, inasisitiza tu. Orodha ya kushuka imeunganishwa na safu ya ""jina"" kwenye org_ref."
-t1.15,"Chagua ""Ndiyo"" ikiwa data inakusanywa hapo kwa sasa. Ikiwa hukusanya tena data hapo, na unataka kuificha kutoka Kwa Kushuka Kwa Kobo, chagua "" Hapana.”"
-t1.16,"Chagua ""Ndio"" ikiwa ungependa kuondoa admin1. Admin1s inapaswa kuondolewa tu ikiwa jina sio sahihi au ni nakala ya rekodi iliyopo. Tafadhali acha maoni juu ya sababu ya kuondolewa. Ikiwa data haikusanywa tena hapo, chagua ""Hapana"" kutoka kwa safu wima ya"" amilifu "" badala yake."
+t1.15,
+t1.16,
 t1.18,"Jina la admin2, ngazi ya juu ya utawala baada ya admin1 (yaani wilaya) bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.19,"Jina la admin2, ngazi ya juu ya utawala baada ya admin1 (yaani wilaya) na nafasi na alama za alama kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.20,"Bendera itakuwa nyekundu kama ""admin1_ref_name"" thamani haipo katika admin1_ref"
@@ -61,9 +61,6 @@ t1.30,"Admin2 jina na nafasi na punctuation kuruhusiwa. Orodha ya kushuka imeung
 t1.31,"Admin2 jina na hakuna nafasi na hakuna punctuation, tu inasisitiza. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin2 kuchaguliwa."
 t1.34,Latitudo ya admin3
 t1.35,Longitudo ya admin3
-t1.36,Bendera itakuwa checked kama management_ID_1-4 haipo katika management_ref.
-t1.37,"Jina la kitambulisho cha usimamizi, na nafasi na uakifishaji unaruhusiwa. Ikiwa kuna maeneo 4 ya usimamizi ndani ya admin3, chagua tu kitengo cha kwanza cha usimamizi katika ""management_ID_1"", kitengo cha pili cha usimamizi katika"" management_ID_2"", nk. Orodha ya kushuka ni kushikamana na"" management_ID "" safu katika management_ref."
-t1.38,Ndiyo / Hapana shamba kutambua kama kijiji ni wajibu kwa ajili ya usimamizi wa eneo.
 t1.38.1,
 t1.38.2,
 t1.38.3,
@@ -71,7 +68,7 @@ t1.38.4,
 t1.40,"Jina la mnunuzi bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.41,"Jina la mnunuzi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.42,"Jinsia ya mnunuzi; 'male' (kiume), 'female' (kike), 'nonbinary' au 'business_nogender'"
-t1.43,"Kitambulisho cha nambari ya kipekee ili kutambua mnunuzi. Tafadhali acha maoni ikiwa wanunuzi wawili tofauti wana KITAMBULISHO sawa. Kwa chaguo-msingi, wanunuzi wawili walio na jina sawa, hata ikiwa ni kutoka vijiji viwili tofauti, watapokea KITAMBULISHO sawa isipokuwa imeambiwa vinginevyo."
+t1.43,
 t1.44,"Admin1 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin1_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.45,"Admin2 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.46,"Admin3 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin3_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
@@ -80,7 +77,7 @@ t1.48,"Bendera itakuwa nyekundu kama ""admin3_ref_name"" thamani haipo katika ad
 t1.52,"Jina la mvuvi bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.53,"Jina la mvuvi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.54,"Jinsia ya mvuvi; 'male' (kiume), 'female' (kike), 'nonbinary' au 'business_nogender'"
-t1.55,"Kitambulisho cha nambari ya kipekee ili kumtambua mvuvi. Tafadhali acha maoni ikiwa wavuvi wawili tofauti wana KITAMBULISHO sawa. Kwa chaguo-msingi, wavuvi wawili wenye jina sawa, hata kama wanatoka vijiji viwili tofauti, watapokea KITAMBULISHO sawa isipokuwa kama imeelezwa vinginevyo."
+t1.55,
 t1.56,"Admin1 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin1_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.57,"Admin2 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.58,"Admin3 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin3_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
@@ -104,14 +101,19 @@ t1.90,"Bendera itakuwa nyekundu kama ""species_group"" kuchaguliwa haipo katika 
 t1.95,"Jina la tovuti ya kutua bila nafasi na hakuna uakifishaji, inasisitiza tu"
 t1.96,Jina la tovuti ya kutua na nafasi na punctuation kuruhusiwa
 t1.103,"Jina la kipekee la eneo la usimamizi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe jina isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
-t1.104,"Jina la kipekee la eneo la usimamizi na tarehe ya kufungwa. Hii inapaswa kuwa management_id bila nafasi au alama za uakifishaji pamoja na nambari inayobainisha kufungwa kwa kipekee na eneo hilo. Kwa mfano, kama management_id aitwaye Boston alikuwa na tarehe mbili kufunga kuhusishwa na hayo, tungekuwa na mbili management_id_unique mashamba kupewa. Moja inaweza Kuwa Boston_1 na Mwingine Boston_2 kutambua kufungwa ndani ya eneo la usimamizi."
-t1.105,Orodha ya maeneo ya uvuvi kuhusishwa na tarehe management_id na kufungwa.
-t1.106,"Aina ya njia ya usimamizi, ikiwa ni pamoja na kufungwa kwa muda, hakuna maeneo ya kuchukua, nk. Hii ni orodha iliyofafanuliwa mapema. Tafadhali toa maoni ikiwa huna uhakika."
+t1.104,
+t1.104.1,
+t1.104.2,
+t1.104.3,
+t1.104.4,
+t1.105,
+t1.105.5,
+t1.106,
 t1.106.1,
 t1.106.2,
-t1.107,Aina lengo kwa ajili ya eneo kusimamiwa. Hii inaweza kuwa vikundi vya spishi au spishi za kisayansi. Uwanja ni wazi.
+t1.107,
 t1.107.1,
-t1.108,Lengo makazi kwa ajili ya eneo kusimamiwa
+t1.108,
 t1.109,Ukubwa wa eneo lililosimamiwa lililopimwa kwa hekta (ha)
 t1.110,Tarehe ya kufunga ya eneo lililosimamiwa
 t1.111,Tarehe ya ufunguzi wa eneo lililosimamiwa
@@ -127,7 +129,7 @@ t1.125,Jina la mahali hapo lenye jina la spishi katika mabano
 t1.126,"Aina zilizowekwa katika vikundi kulingana na biolojia yao bila nafasi au alama za alama, zinasisitiza tu. Sehemu hii hutumiwa kusaidia kuchuja chaguzi fulani za jibu Huko Kobo."
 t1.127,"Bendera itakuwa nyekundu kama ""species_group"" kuchaguliwa si kumbukumbu katika gear_ref. Hiyo ina maana gear zote waliotajwa katika gear_ref itaonekana kwa kundi hili aina. Ili kuonyesha tu gia zinazolenga kikundi hiki cha spishi, tafadhali ongeza kikundi cha spishi kwenye gear_ref."
 t1.128,Jina la aina ya ndani na nafasi na punctuation kuruhusiwa
-t1.129,"Jina la admin2 bila nafasi au alama za alama, inasisitiza tu. Orodha ya kushuka imeunganishwa na safu ya ""jina"" katika admin2_ref. * Shamba hili litaonyesha tu kwa washirika ambao wanataka kushuka kwa spishi kuchujwa na admin2 iliyochaguliwa.*"
+t1.129,
 t1.130,Jina la kawaida la aina ya kiingereza na nafasi na punctuation kuruhusiwa
 t1.131,Jina la familia la spishi iliyo na nafasi na uakifishaji inaruhusiwa
 t1.132,"Jina la kisayansi la aina na nafasi na punctuation kuruhusiwa. Ikiwa spishi haijulikani, jenasi au familia pia inaweza kuingizwa. Ikiwa tu jenasi inajulikana, type jina la jenasi ikifuatiwa na"" sp ""(tofauti na"" spp "" au sp.”). Ikiwa tu familia inajulikana, type jina la familia (yaani Lutjanidae)."

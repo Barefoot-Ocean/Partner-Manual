@@ -46,8 +46,8 @@ t1.11,"Nama admin1, tingkat administrasi tertinggi setelah negara (yaitu provins
 t1.12,"Nama admin1, tingkat administrasi tertinggi setelah negara (yaitu provinsi) dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
 t1.13,"Bendera akan berwarna merah jika nilai"" mitra "" tidak ada di org_ref"
 t1.14,"Nama mitra tanpa spasi dan tanpa tanda baca, hanya garis bawah. Daftar tarik-turun terhubung ke kolom ""nama"" di org_ref."
-t1.15,"Pilih ""Ya"" jika data saat ini sedang dikumpulkan di sana. Jika Anda tidak lagi mengumpulkan data di sana, dan ingin menyembunyikannya dari menu tarik-turun Kobo, pilih ""Tidak.”"
-t1.16,"Pilih ""Ya"" jika Anda ingin menghapus admin1. Admin1 hanya boleh dihapus jika namanya salah atau merupakan duplikat dari catatan yang ada. Silakan tinggalkan komentar tentang alasan penghapusan. Jika data tidak lagi dikumpulkan di sana, pilih ""Tidak"" dari kolom ""aktif""."
+t1.15,
+t1.16,
 t1.18,"Nama admin2, tingkat administrasi tertinggi setelah admin1 (yaitu distrik) tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.19,"Nama admin2, tingkat administrasi tertinggi setelah admin1 (yaitu distrik) dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
 t1.20,"Bendera akan berwarna merah jika nilai"" admin1_ref_name "" tidak ada di admin1_ref"
@@ -61,9 +61,6 @@ t1.30,"Nama Admin2 dengan spasi dan tanda baca diperbolehkan. Daftar tarik-turun
 t1.31,"Nama Admin2 tanpa spasi dan tanpa tanda baca, hanya garis bawah. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin2 yang dipilih."
 t1.34,Lintang admin3
 t1.35,Bujur admin3
-t1.36,Bendera akan dicentang jika management_ID_1-4 tidak ada di management_ref.
-t1.37,"Nama ID manajemen, dengan spasi dan tanda baca diperbolehkan. Jika ada 4 area manajemen dalam admin3, cukup pilih unit manajemen pertama di ""management_ID_1"", unit manajemen kedua di ""management_ID_2"", dll. Daftar tarik-turun terhubung ke kolom ""management_ID"" di management_ref."
-t1.38,Bidang Ya / Tidak mengidentifikasi apakah desa bertanggung jawab atas pengelolaan wilayah.
 t1.38.1,
 t1.38.2,
 t1.38.3,
@@ -71,7 +68,7 @@ t1.38.4,
 t1.40,"Nama pembeli tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.41,"Nama pembeli dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
 t1.42,"Jenis kelamin pembeli; 'male' (pria), 'female' (wanita), 'nonbinary' (non biner) atau 'business_nogender' (bisnis_nogender)"
-t1.43,"ID nomor unik untuk mengidentifikasi pembeli. Silakan tinggalkan komentar jika dua pembeli yang berbeda memiliki ID yang sama. Secara default, dua pembeli dengan nama persis yang sama, meskipun mereka berasal dari dua desa yang berbeda, akan menerima ID yang sama kecuali dinyatakan lain."
+t1.43,
 t1.44,"Admin1 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin1_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
 t1.45,"Admin2 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
 t1.46,"Admin3 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin3_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
@@ -80,7 +77,7 @@ t1.48,"Bendera akan berwarna merah jika nilai"" admin3_ref_name "" tidak ada di 
 t1.52,"Nama nelayan tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.53,"Nama nelayan dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
 t1.54,"Jenis kelamin nelayan; 'male' (pria), 'female' (wanita), 'nonbinary' (non biner) atau 'business_nogender' (bisnis_nogender)"
-t1.55,"ID nomor unik untuk mengidentifikasi nelayan. Silakan tinggalkan komentar jika dua nelayan yang berbeda memiliki ID yang sama. Secara default, dua nelayan dengan nama persis yang sama, meskipun mereka berasal dari dua desa yang berbeda, akan menerima ID yang sama kecuali dinyatakan lain."
+t1.55,
 t1.56,"Admin1 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin1_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
 t1.57,"Admin2 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
 t1.58,"Admin3 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin3_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
@@ -104,14 +101,19 @@ t1.90,"Bendera akan berwarna merah jika ""species_group"" yang dipilih tidak ada
 t1.95,"Nama lokasi pendaratan tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.96,Nama lokasi pendaratan dengan spasi dan tanda baca diperbolehkan
 t1.103,"Nama unik area manajemen dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah nama kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
-t1.104,"Nama unik dari area manajemen dan tanggal penutupan. Ini harus berupa management_id tanpa spasi atau tanda baca yang digabungkan dengan angka yang mengidentifikasi penutupan unik dengan area tersebut. Misalnya, jika management_id bernama Boston memiliki dua tanggal penutupan yang terkait dengannya, kita akan memiliki dua bidang management_id_unique yang ditetapkan. Salah satunya bisa Boston_1 dan Boston_2 lainnya untuk mengidentifikasi penutupan dalam area manajemen."
-t1.105,Daftar tempat penangkapan ikan yang terkait dengan management_id dan tanggal penutupan.
-t1.106,"Jenis metode manajemen, termasuk penutupan sementara, zona larangan pengambilan, dll. Ini adalah daftar yang telah ditentukan sebelumnya. Silakan beri komentar jika Anda tidak yakin."
+t1.104,
+t1.104.1,
+t1.104.2,
+t1.104.3,
+t1.104.4,
+t1.105,
+t1.105.5,
+t1.106,
 t1.106.1,
 t1.106.2,
-t1.107,Spesies target untuk wilayah yang dikelola. Ini bisa berupa kelompok spesies atau spesies ilmiah. Lapangan terbuka.
+t1.107,
 t1.107.1,
-t1.108,Target habitat untuk wilayah yang dikelola
+t1.108,
 t1.109,Luas areal yang dikelola diukur dalam hektare (ha)
 t1.110,Tanggal penutupan area yang dikelola
 t1.111,Tanggal pembukaan area yang dikelola
@@ -127,7 +129,7 @@ t1.125,Nama lokal dengan nama spesies dalam tanda kurung
 t1.126,"Spesies dikategorikan ke dalam kelompok berdasarkan biologinya tanpa spasi atau tanda baca, hanya garis bawah. Bidang ini digunakan untuk membantu memfilter pilihan jawaban tertentu di Kobo."
 t1.127,"Bendera akan berwarna merah jika ""species_group"" yang dipilih tidak direferensikan di gear_ref. Itu berarti semua roda gigi yang terdaftar di gear_ref akan muncul untuk grup spesies ini. Untuk hanya menampilkan roda gigi yang menargetkan grup spesies ini, harap tambahkan grup spesies ke gear_ref."
 t1.128,Nama spesies lokal dengan spasi dan tanda baca diperbolehkan
-t1.129,"Nama admin2 tanpa spasi atau tanda baca, hanya garis bawah. Daftar tarik-turun terhubung ke kolom ""nama"" di admin2_ref. * Bidang ini hanya akan ditampilkan untuk mitra yang ingin dropdown spesies difilter oleh admin2 yang dipilih.*"
+t1.129,
 t1.130,Nama spesies bahasa Inggris umum dengan spasi dan tanda baca diperbolehkan
 t1.131,Nama keluarga suatu spesies dengan spasi dan tanda baca diperbolehkan
 t1.132,"Nama ilmiah spesies dengan spasi dan tanda baca diperbolehkan. Jika spesiesnya tidak diketahui, genus atau famili juga dapat dimasukkan. Jika hanya genus yang diketahui, ketikkan nama genus diikuti dengan ""sp"" (berlawanan dengan ""spp"" atau sp.”). Jika hanya famili yang diketahui, ketikkan nama famili tersebut (yaitu Lutjanidae)."

@@ -1,7 +1,9 @@
 key,id
 title,Panduan Validasi Data Perikanan
-p1,"Semua data yang mengalir melalui sistem data perikanan divalidasi dalam Smartsheet. Data dikirim untuk validasi dalam dua skenario; 1) nama baru ditambahkan secara manual di Kobo Collect, atau 2) nilai numerik melampaui ambang batas yang ditetapkan. Setelah data divalidasi, kumpulan data master dalam database dan tabel referensi diperbarui. Tabel referensi berfungsi sebagai input untuk daftar dropdown dalam formulir KoBoToolbox dan berisi data yang ditambahkan ke kumpulan data master melalui gabungan. Lihat pohon keputusan di bawah ini (Gambar 1)."
-p2,"Data yang dipicu untuk validasi dikirim ke salah satu dari tiga tabel: 1) QA Nama Pendaratan, 2) QA Spesies, atau 3) QA Peringatan Nilai. Petunjuk di bawah ini merinci proses validasi data di Smartsheet untuk tiga tabel validasi. Setiap tabel validasi akan memerlukan pemilihan nilai bidang yang benar dari daftar tarik-turun atau memasukkan nilai yang benar secara manual. Proses akan ditambahkan untuk kebutuhan validasi data di masa mendatang, sesuai kebutuhan."
+p1,
+p2,
+p2.1,
+p2.2,
 step1,Langkah 1: Berikan Barefoot Ocean alamat email titik kontak bagi mereka yang bertanggung jawab atas validasi data.
 point1,Organisasi yang mengelola banyak mitra dapat memberikan semua titik informasi kontak.
 point2,Mitra individu dapat memberikan informasi kontak.
@@ -28,19 +30,17 @@ point18,"Setelah divalidasi, baris tersebut akan hilang dari tampilan dinamis An
 point19,Klik pada baris berikutnya dan ulangi langkah-langkah untuk menyelesaikan validasi untuk semua entri.
 point20,Anda dapat keluar dan masuk kembali dengan mengeklik tautan tampilan dinamis dari email Anda atau masuk ke akun Anda kapan saja. Anda tidak perlu memvalidasi semua entri dalam sekali duduk.
 point21,Anda dapat menandai tautan ini dan kembali kapan saja.
-table1,"Tabel 1: Bidang utama dalam tabel validasi. Bidang konteks memberikan informasi yang diperlukan untuk memvalidasi data. Bidang validasi diisi dengan data yang akan ditransfer ke kumpulan data master. Hanya bidang validasi yang dapat diedit. Beberapa bidang hanya terlihat di panel"" Detail "" saat baris diklik di tabel Tampilan Dinamis."
+table1,
 t1.1,Bidang tabel validasi
 t1.2,Deskripsi bidang
 t1.3,Jenis bidang
-t1.4,Semua Tabel
 t1.5,nama organisasi yang mengumpulkan data
 t1.6,konteks
 t1.7,validasi
 t1.8,otomatis
 t1.9,Desa atau kelurahan tempat hasil tangkapan didaratkan dan dicatat
 t1.10,Nama orang yang mengumpulkan data di Kobo (pencacah)
-t1.11,Tabel Nama Pendaratan
-t1.12,"Bidang dari formulir KoBoToolbox yang perlu divalidasi: fisher_name, buyer_name, data_collector_name, atau landingsite_name"
+t1.12,
 t1.13,Nilai yang dimasukkan untuk bidang kobo_ yang sesuai
 t1.14,"Sangat cocok dengan nama yang sudah ada di database. Jika kosong, tidak ada nama yang cocok dengan nama di kolom ""new_data"""
 t1.15,"Sangat cocok dengan nama yang sudah ada di database. Jika kosong, tidak ada nama yang cocok dengan nama di kolom ""new_data"""
@@ -49,7 +49,11 @@ t1.17,"Pilih bidang dengan data yang benar (new_data, ref_match1, ref_match2, re
 t1.18,"Masukkan nilai lain jika tidak ada opsi validasi yang benar. Diperlukan JIKA ""lainnya"" dipilih dari validation_options. Hanya terlihat di panel Detail."
 t1.19,"Daftar id pengiriman tempat nilai data baru ini muncul, dari formulir Kobo pemantauan pendaratan"
 t1.20,"Daftar id pengiriman tempat nilai data baru ini muncul, dari formulir Kobo pembuatan profil pendaratan"
-t1.21,Tabel Peringatan Nilai
+t1.20.1,
+t1.20.2,
+t1.20.3,
+t1.20.4,
+t1.20.5,
 t1.22,Nama nelayan yang mendaratkan hasil tangkapan
 t1.23,Tangkapan tanggal telah mendarat
 t1.24,Nama lokal spesies
@@ -65,7 +69,6 @@ t1.33,"Jika benar = Y, nilai diisi secara otomatis, Jika benar = N, masukkan nil
 t1.34,"Jika numerator_units salah, pilih opsi yang benar dari menu tarik-turun"
 t1.35,Kumpulan data dari mana data tersebut berasal (Pemantauan pendaratan atau pembuatan profil).
 t1.36,"ID Pengiriman dari formulir Kobo. Gunakan ini untuk membandingkan dengan data mentah, jika perlu, untuk validasi."
-t1.37,Tabel Spesies
 t1.38,Tautan ke foto yang dikirimkan di Kobo Collect
 t1.39,Nilai yang dimasukkan sebagai nama lokal spesies baru di Kobo Collect
 t1.40,"Sangat cocok dengan nama yang sudah ada di database. Jika kosong, tidak ada nama yang cocok dengan nama di kolom ""new_data"""
@@ -79,6 +82,13 @@ t1.47,Kumpulan data dari mana data tersebut berasal (Pemantauan pendaratan atau 
 t1.48,"Pilih bidang dengan data yang benar (local_name_new, ref_match1, ref_match2, ref_match3), masukkan nilai lain (lainnya), atau hapus (hapus baris dari analisis karena data tidak dapat divalidasi). Diperlukan. Hanya terlihat di panel Detail. Entri akan hilang setelah data divalidasi."
 t1.49,"Masukkan nilai lain jika tidak ada opsi validasi yang benar. Diperlukan JIKA ""lainnya"" dipilih dari validation_options. Hanya terlihat di panel Detail."
 t1.50,"Kolom ini menyimpan komentar terakhir yang dibuat untuk baris tersebut. Untuk melihat seluruh diskusi komentar untuk baris tersebut, cukup klik di mana saja pada baris tersebut. Panel detail akan muncul dan klik tab ""Komentar"" untuk melihat semua komentar untuk baris tersebut."
+t1.51,
+t1.52,
+t1.53,
+t1.54,
+t1.55,
+t1.56,
+t1.57,
 caption3,Gambar 3: Contoh Peringatan Nilai Tampilan Dinamis
 caption4,Gambar 4: Contoh Panel Detail Tampilan Dinamis
 step3b,"Langkah 3, Opsi B: Selesaikan validasi data Anda melalui 'Permintaan Terbuka'"
@@ -93,9 +103,9 @@ point29,"Saat Anda masuk ke entri terakhir, klik ""Selesai"". Pesan pop-up akan 
 point29.1,"Klik ""Kembali"" jika Anda perlu meninjau"
 point29.2,"Klik ""Kirim Pembaruan"" untuk mengirimkan validasi"
 point29.3,"Centang kotak ""Kirimi saya salinan tanggapan saya"" jika Anda ingin salinan tanggapan Anda dikirim ke email Anda"
-point30,"Jika Anda mengklik ""Kirimi saya salinan tanggapan saya"", Anda akan menerima email berjudul ""Konfirmasi Pembaruan: Nama Pendaratan QA""."
-point30.1,"Akan ada tabel yang merangkum entri mana yang diperbarui. Entri di mana tidak ada opsi yang dipilih di 'validation_options"" tidak akan disertakan."
-point30.2,"Email ini mungkin berisi tautan ke nama lembar ""Landings Name QA""; namun, akses ke lembar ini dikunci."
+point30,
+point30.1,
+point30.2,
 point31,"Untuk melihat sisa validasi yang diperlukan, Anda harus menunggu email permintaan pembaruan berikutnya atau membuka Tampilan Dinamis."
 caption5,"Gambar 5: Contoh format ""Permintaan Terbuka"""
 faq,Pertanyaan yang Sering Diajukan:

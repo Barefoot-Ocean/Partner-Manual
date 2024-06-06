@@ -1,7 +1,9 @@
 key,pt
 title,Guia De Validação Dos Dados Das Pescas
-p1,"Todos os dados que fluem através do sistema de dados das pescas são validados no Smartsheet. Os dados são enviados para validação em dois cenários: 1) novos nomes são adicionados manualmente no Kobo Collect, ou 2) um valor numérico ultrapassa os limites estabelecidos. Uma vez validados os dados, os conjuntos de dados principais na base de dados e as tabelas de referência são actualizados. As tabelas de referência servem como entradas para listas suspensas em formulários KoboToolbox e contêm dados que são adicionados aos conjuntos de dados principais através de junções. Ver a árvore de decisão abaixo (Figura 1)."
-p2,"Os dados acionados para validação são enviados para uma das três tabelas: 1) Nome do desembarque QA, 2) espécie QA ou 3) Avisos de valor QA. As instruções abaixo detalham o processo de validação de dados no Smartsheet para as três tabelas de validação. Cada tabela de validação exigirá a seleção do valor do campo correto em uma lista suspensa ou a inserção manual dos valores corretos. O processo será anexado para futuras necessidades de validação de dados, conforme necessário."
+p1,
+p2,
+p2.1,
+p2.2,
 step1,Etapa 1: Fornecer à Barefoot Ocean endereços de E-mail de ponto de contato para os responsáveis pela validação dos dados.
 point1,A organização que gere múltiplos parceiros Pode fornecer todos os pontos de contacto.
 point2,Os parceiros individuais podem fornecer informações sobre pontos de contacto.
@@ -28,19 +30,17 @@ point18,"Uma vez validada, essa linha desaparecerá da sua visualização dinâm
 point19,Clique na linha seguinte e repita os passos para concluir a validação de todas as entradas.
 point20,Você pode sair e entrar novamente clicando no link visualização dinâmica do seu e-mail ou fazendo login na sua conta a qualquer momento. Não é necessário validar todas as entradas de uma só vez.
 point21,Você pode marcar este link e retornar a qualquer momento.
-table1,"Tabela 1: campos primários nas tabelas de validação. Os campos de contexto fornecem as informações necessárias para validar os dados. Os campos de validação são preenchidos com dados que serão transferidos para os conjuntos de dados principais. Apenas o campo de validação pode ser editado. Alguns campos só são visíveis no painel"" Detalhes "" quando uma linha é clicada na tabela de Visualização Dinâmica."
+table1,
 t1.1,Campo da tabela de validação
 t1.2,Descrição do campo
 t1.3,Tipo de campo
-t1.4,Todos Os Quadros
 t1.5,nome da organização que recolhe os dados
 t1.6,contexto
 t1.7,validação
 t1.8,auto
 t1.9,Aldeia ou sub-aldeia onde a captura foi desembarcada e registada
 t1.10,Nome da pessoa que recolheu os dados na Kobo (enumerador)
-t1.11,Tabela De Nomes Dos Desembarques
-t1.12,"O campo do formulário KoboToolbox que precisa ser validado: fisher_name, buyer_name, data_collector_name ou landingsite_name"
+t1.12,
 t1.13,O valor que foi introduzido para o kobo_field correspondente
 t1.14,"Nome estreitamente correspondente que já existe na base de dados. Se estiver em branco, nenhum nome existente corresponde ao nome na coluna "" new_data"
 t1.15,"Nome estreitamente correspondente que já existe na base de dados. Se estiver em branco, nenhum nome existente corresponde ao nome na coluna "" new_data"
@@ -49,7 +49,11 @@ t1.17,"Selecione o campo com os dados corretos (new_data, ref_match1, ref_match2
 t1.18,"Introduza outro valor se nenhuma das opções de validação estiver correcta. Obrigatório se"" outro "" selecionado de validation_options. Visível apenas no painel de detalhes."
 t1.19,Lista de IDs de envio este novo valor de dados aparece no formulário Kobo de monitorização de aterragens
 t1.20,"Lista de IDs de envio este novo valor de dados aparece em, de landings profiling Kobo form"
-t1.21,Tabela De Avisos De Valor
+t1.20.1,
+t1.20.2,
+t1.20.3,
+t1.20.4,
+t1.20.5,
 t1.22,Nome do pescador que desembarcou a captura
 t1.23,Data de desembarque das capturas
 t1.24,Denominação local da espécie
@@ -65,7 +69,6 @@ t1.33,"Se correct = Y, os valores são preenchidos automaticamente, se correct =
 t1.34,"Se os numerator_units estiverem incorretos, selecione a opção correta na lista suspensa"
 t1.35,Conjunto de dados de onde provêm os dados (monitorização dos desembarques ou definição de perfis).
 t1.36,"ID de envio do formulário Kobo. Use - o para comparar com dados brutos, se necessário, para validação."
-t1.37,Quadro Das Espécies
 t1.38,Link para a foto que foi enviada no Kobo Collect
 t1.39,O valor que foi introduzido como um novo nome local de espécie no Kobo Collect
 t1.40,"Nome estreitamente correspondente que já existe na base de dados. Se estiver em branco, nenhum nome existente corresponde ao nome na coluna "" new_data"
@@ -79,6 +82,13 @@ t1.47,Conjunto de dados de onde provêm os dados (monitorização dos desembarqu
 t1.48,"Selecione o campo com os dados corretos (local_name_new, ref_match1, ref_match2, ref_match3), insira outro valor (other) ou remove (remove row from analysis because data cannot be validated). Obrigatório. Visível apenas no painel de detalhes. A entrada desaparecerá assim que os dados forem validados."
 t1.49,"Introduza outro valor se nenhuma das opções de validação estiver correcta. Obrigatório se"" outro "" selecionado de validation_options. Visível apenas no painel de detalhes."
 t1.50,"Esta coluna armazena o último comentário que foi feito para essa linha. Para ver toda a discussão de comentários para essa linha, basta clicar em qualquer lugar na linha. O painel de detalhes aparecerá e clique na guia"" Comentários "" para ver todos os comentários dessa linha."
+t1.51,
+t1.52,
+t1.53,
+t1.54,
+t1.55,
+t1.56,
+t1.57,
 caption3,Figura 3: Exemplo De Avisos De Valor De Visualização Dinâmica
 caption4,Figura 4: Exemplo De Visualização Dinâmica - Painel De Detalhes
 step3b,"Passo 3, Opção B: concluir a validação dos seus dados através de'pedido aberto'"
@@ -93,9 +103,9 @@ point29,"Quando chegar à última entrada, clique em ""Concluído"". Uma mensage
 point29.1,"Clique em ""Voltar"" Se precisar rever"
 point29.2,"Clique em ""Enviar atualização"" para enviar validação"
 point29.3,"Marque a caixa ""envie-me uma cópia das minhas respostas"" se desejar que uma cópia das suas respostas seja enviada para o seu e-mail"
-point30,"Se clicar em"" Enviar-me uma cópia das minhas respostas"", receberá um e-mail intitulado""confirmação de atualização: nome QA dos desembarques""."
-point30.1,"Haverá um quadro que resumirá as entradas que foram actualizadas. As entradas nas quais nenhuma opção foi selecionada em"" validation_options "" não serão incluídas."
-point30.2,"Este e-mail pode conter um link para um nome de folha ""nome de desembarques QA""; no entanto, o acesso a esta folha está bloqueado."
+point30,
+point30.1,
+point30.2,
 point31,"Para ver qualquer validação restante necessária, você precisará aguardar o próximo e-mail de solicitação de atualização ou abrir a visualização dinâmica."
 caption5,"Figura 5: exemplo do formato ""pedido aberto"""
 faq,Perguntas Frequentes:

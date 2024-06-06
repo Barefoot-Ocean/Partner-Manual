@@ -46,8 +46,8 @@ t1.11,"Pangalan ng admin1, ang pinakamataas na antas ng administratibo pagkatapo
 t1.12,"Pangalan ng admin1, ang pinakamataas na antas ng administratibo pagkatapos ng bansa (ibig sabihin, lalawigan) na may mga puwang at bantas na pinapayagan. Mangyaring huwag baguhin ang label maliban kung talagang kinakailangan, dahil ang mga pagsali ay batay dito."
 t1.13,"Ang bandila ay magiging pula kung ang halaga ng ""kasosyo"" ay hindi umiiral sa org_ref"
 t1.14,"Pangalan ng kasosyo na walang mga puwang at walang bantas, binibigyang diin lamang. Ang listahan ng dropdown ay konektado sa haligi ng ""pangalan"" sa org_ref."
-t1.15,"Piliin ang"" Oo "" kung ang data ay kasalukuyang nakolekta doon. Kung hindi ka na nangongolekta ng data doon, at nais mong itago ito mula sa pagbagsak ng Kobo, piliin ang ""hindi.”"
-t1.16,"Piliin ang "" Oo "" kung nais mong alisin ang admin1. Ang Admin1s ay dapat lamang alisin kung ang pangalan ay hindi tama o ito ay isang duplicate ng isang umiiral na rekord. Mangyaring mag-iwan ng komento tungkol sa dahilan ng pag-alis. Kung ang data ay hindi na nakolekta doon, piliin ang ""hindi"" mula sa haligi na ""aktibo"" sa halip."
+t1.15,"Piliin ang "" Oo "" kung ang data ay kasalukuyang kinokolekta mula sa indibidwal/lugar na ito. Kung ang data ay hindi na nakolekta mula sa indibidwal/lugar na ito, at nais mong itago ito mula sa pagbagsak ng Kobo, piliin ang ""hindi.”"
+t1.16,"Piliin ang "" Oo "" kung nais mong alisin ang record. Ang mga talaan ay dapat lamang alisin kung ang pangalan ay hindi tama o ito ay isang duplicate ng isang umiiral na talaan."
 t1.18,"Pangalan ng admin2, ang pinakamataas na antas ng administratibo pagkatapos ng admin1 (ibig sabihin, distrito) na walang mga puwang at walang bantas, binibigyang diin lamang"
 t1.19,"Pangalan ng admin2, ang pinakamataas na antas ng administratibo pagkatapos ng admin1 (ibig sabihin, distrito) na may mga puwang at bantas na pinapayagan. Mangyaring huwag baguhin ang label maliban kung talagang kinakailangan, dahil ang mga pagsali ay batay dito."
 t1.20,"Ang bandila ay magiging pula kung ang halaga ng ""admin1_ref_name"" ay hindi umiiral sa admin1_ref"
@@ -61,17 +61,14 @@ t1.30,"Admin2 pangalan na may mga puwang at bantas pinapayagan. Ang listahan ng 
 t1.31,"Admin2 pangalan na walang puwang at walang bantas, binibigyang diin lamang. Ito ay nakuha mula sa admin2_ref at auto populated batay sa admin2 pinili."
 t1.34,Latitude ng admin3
 t1.35,Longitude ng admin3
-t1.36,Flag ay naka-check kung management_ID_1-4 ay hindi umiiral sa management_ref.
-t1.37,"Pangalan ng ID ng pamamahala, na pinapayagan ang mga puwang at bantas. Kung mayroong 4 na mga lugar ng pamamahala sa loob ng admin3, piliin lamang ang unang yunit ng pamamahala sa ""management_ID_1"", ang pangalawang yunit ng pamamahala sa ""management_ID_2"", atbp. Ang listahan ng dropdown ay konektado sa haligi ng"" management_ID "" sa management_ref."
-t1.38,Oo / walang patlang na nagpapakilala kung ang nayon ay responsable para sa pamamahala ng lugar.
-t1.38.1,
-t1.38.2,
-t1.38.3,
-t1.38.4,
+t1.38.1,"Piliin ang"" Oo "" kung nais mong lumitaw ang admin3 sa dropdown para sa Kobo landings monitoring form."
+t1.38.2,"Piliin ang"" Oo "" kung gusto mong lumabas ang admin3 sa dropdown para sa Kobo landings profiling form."
+t1.38.3,"Piliin ang "" Oo "" kung gusto mong lumabas ang admin3 sa dropdown para sa Kobo community profiling form."
+t1.38.4,"Piliin ang"" Oo "" kung nais mong lumitaw ang admin3 sa dropdown para sa Kobo household survey form."
 t1.40,"Pangalan ng mamimili na walang mga puwang at walang bantas, binibigyang diin lamang"
 t1.41,"Pangalan ng mamimili na may mga puwang at bantas na pinapayagan. Mangyaring huwag baguhin ang label maliban kung talagang kinakailangan, dahil ang mga pagsali ay batay dito."
 t1.42,"Kasarian ng mamimili; 'male' (lalaki), 'female' (babae), 'nonbinary ' o 'business_nogender'"
-t1.43,"Natatanging numero ng ID upang makilala ang bumibili. Mangyaring mag-iwan ng komento kung ang dalawang magkakaibang mamimili ay may parehong ID. Bilang default, ang dalawang mamimili na may parehong eksaktong pangalan, kahit na sila ay mula sa dalawang magkakaibang nayon, ay makakatanggap ng parehong ID maliban kung sinabi."
+t1.43,"Ang watawat ay magiging pula kung ang halaga ng buyer_gender ay naiiba para sa parehong mamimili (ibig sabihin kung si Raymond Scott sa admin3= Boston ay may kasarian=lalaki, ngunit si Raymond Scott sa admin3=Miami ay may Kasarian=Babae, Ang watawat ay magiging pula dahil ang mga kasarian ay hindi pareho para sa parehong mamimili)."
 t1.44,"Admin1 pangalan kung saan bumibili ang mamimili, na pinapayagan ang mga puwang at bantas. Ito ay nakuha mula sa admin1_ref at auto populated batay sa admin3_ref_name pinili."
 t1.45,"Admin2 pangalan kung saan bumibili ang mamimili, na pinapayagan ang mga puwang at bantas. Ito ay nakuha mula sa admin2_ref at auto populated batay sa admin3_ref_name pinili."
 t1.46,"Admin3 pangalan kung saan bumibili ang mamimili, na pinapayagan ang mga puwang at bantas. Ito ay nakuha mula sa admin3_ref at auto populated batay sa admin3_ref_name pinili."
@@ -80,7 +77,7 @@ t1.48,"Ang bandila ay magiging pula kung ang halaga ng ""admin3_ref_name"" ay hi
 t1.52,"Pangalan ng mangingisda na walang puwang at walang bantas, binibigyang diin lamang"
 t1.53,"Pangalan ng mangingisda na may mga puwang at bantas na pinapayagan. Mangyaring huwag baguhin ang label maliban kung talagang kinakailangan, dahil ang mga pagsali ay batay dito."
 t1.54,"Kasarian ng mangingisda; 'male' (lalaki), 'female' (babae), 'nonbinary ' o 'business_nogender'"
-t1.55,"Natatanging numero ng ID upang makilala ang mangingisda. Mangyaring mag-iwan ng komento kung ang dalawang magkakaibang mangingisda ay may parehong ID. Bilang default, ang dalawang mangingisda na may parehong eksaktong pangalan, kahit na sila ay mula sa dalawang magkakaibang nayon, ay makakatanggap ng parehong ID maliban kung sinabi."
+t1.55,"Ang watawat ay magiging pula kung ang halaga ng fisher_gender ay naiiba para sa parehong mangingisda (ibig sabihin kung si Raymond Scott sa admin3= Boston ay may kasarian=lalaki, ngunit si Raymond Scott sa admin3=Miami ay may Kasarian=Babae, Ang watawat ay magiging pula dahil ang mga kasarian ay hindi pareho para sa parehong mangingisda)."
 t1.56,"Admin1 pangalan kung saan ang fisher lupain ang kanilang catch, na may mga puwang at bantas pinapayagan. Ito ay nakuha mula sa admin1_ref at auto populated batay sa admin3_ref_name pinili."
 t1.57,"Admin2 pangalan kung saan ang fisher lupain ang kanilang catch, na may mga puwang at bantas pinapayagan. Ito ay nakuha mula sa admin2_ref at auto populated batay sa admin3_ref_name pinili."
 t1.58,"Admin3 pangalan kung saan ang fisher lupain ang kanilang catch, na may mga puwang at bantas pinapayagan. Ito ay nakuha mula sa admin3_ref at auto populated batay sa admin3_ref_name pinili."
@@ -104,14 +101,19 @@ t1.90,"Ang watawat ay magiging pula kung ang ""species_group"" na napili ay hind
 t1.95,"Pangalan ng landing site na walang mga puwang at walang bantas, binibigyang diin lamang"
 t1.96,Pangalan ng landing site na may mga puwang at bantas na pinapayagan
 t1.103,"Natatanging pangalan ng Lugar ng pamamahala na may mga puwang at bantas na pinapayagan. Mangyaring huwag baguhin ang pangalan maliban kung talagang kinakailangan, dahil ang mga pagsali ay batay dito."
-t1.104,"Natatanging pangalan ng Lugar ng pamamahala at petsa ng pagsasara. Ito ay dapat na ang management_id na walang mga puwang o bantas na sinamahan ng isang numero na kinikilala ang natatanging pagsasara sa lugar na iyon. Halimbawa, kung ang isang management_id na tinatawag na Boston ay may dalawang mga petsa ng pagsasara na nauugnay dito, magkakaroon kami ng dalawang mga patlang ng management_id_unique na itinalaga. Ang isa ay maaaring Boston_1 at isa pang Boston_2 upang makilala ang mga pagsasara sa loob ng isang lugar ng pamamahala."
-t1.105,Ang listahan ng mga lugar ng pangingisda na nauugnay sa management_id at petsa ng pagsasara.
-t1.106,"Ang uri ng paraan ng pamamahala, kabilang ang mga pansamantalang pagsasara, walang take zone, atbp. Ito ay isang paunang natukoy na listahan. Mangyaring magkomento kung hindi ka sigurado."
-t1.106.1,
-t1.106.2,
-t1.107,Mga target na species para sa pinamamahalaang lugar. Maaari itong maging mga pangkat ng species o pang-agham na species. Bukas ang field.
-t1.107.1,
-t1.108,Target na tirahan para sa pinamamahalaang lugar
+t1.104,"Natatanging pangalan ng Lugar ng pamamahala at epektibong mga petsa. Mas partikular, naglalaman ito ng sumusunod na impormasyon na pinaghihiwalay ng isang salungguhit: management_id, management_method, close_date at open_date."
+t1.104.1,Ang listahan ng mga admin3 na isda sa loob ng Lugar ng pamamahala.
+t1.104.2,"Ang watawat ay magiging pula kung ang isa sa mga admin3 na nakalista sa haligi na ""admin3_fish"" ay hindi umiiral sa admin3_ref."
+t1.104.3,Ang listahan ng mga admin3 na may papel sa pamamahala ng kaganapan sa pamamahala.
+t1.104.4,"Ang watawat ay magiging pula kung ang isa sa mga admin3 na nakalista sa haligi na ""admin3_govern"" ay hindi umiiral sa admin3_ref."
+t1.105,"Ang listahan ng mga lugar ng pangingisda na nauugnay sa kaganapan sa pamamahala. Ang listahan ng dropdown ay konektado sa haligi ng ""pangalan"" sa fishing_ground_ref."
+t1.105.5,"Ang watawat ay magiging pula kung ang isa sa mga lugar ng pangingisda na nakalista sa ""management_fishing_ground"" ay hindi umiiral sa fishing_ground_ref."
+t1.106,"Ang uri ng pamamaraan ng pamamahala na ginamit sa panahon ng kaganapan. Kasama sa paunang natukoy na listahan ang: pansamantalang pagsasara, walang Take Zone, paghihigpit sa Gear, Pinamamahalaang pag-Access, pagbabawal sa pag-aani o pagbabawal sa Deforestation."
+t1.106.1,"Ang uri ng ligal na regulasyon. Kasama sa paunang natukoy na listahan ang: village head regulation, village head decree, joint village head regulation o wala."
+t1.106.2,"Target na pangkat ng species para sa pinamamahalaang lugar. Maaari itong isama ang 'lahat', isa o maraming mga pangkat ng species. Ang listahan ng dropdown ay konektado sa master species_ref at may kasamang mga pangkat ng species mula sa lahat ng mga kasosyo."
+t1.107,"Mga target na species para sa pinamamahalaang lugar. Maaari itong isama ang 'All_species', isa o maraming mga pang-agham na species. Ang listahan ng dropdown ay konektado sa master species_ref at may kasamang mga species mula sa lahat ng mga kasosyo."
+t1.107.1,"Ang bandila ay magiging pula kung ang ""target_species"" na pinili ay hindi isinangguni sa species_ref ng kasosyo."
+t1.108,"Target na tirahan para sa pinamamahalaang lugar. Kasama sa paunang natukoy na listahan ng dropdown ang mga pagpipilian sa tirahan: 'reef, seagrass, bakawan, mud_flat, buhangin, malalim na tubig o iba pa'."
 t1.109,Sukat ng pinamamahalaang lugar na sinusukat sa hectares (ha)
 t1.110,Petsa ng pagsasara ng pinamamahalaang lugar
 t1.111,Petsa ng pagbubukas ng pinamamahalaang lugar
@@ -127,7 +129,7 @@ t1.125,Lokal na pangalan na may pangalan ng species sa panaklong
 t1.126,"Mga uri na nakategorya sa mga grupo batay sa kanilang biyolohiya nang walang mga puwang o bantas, binibigyang diin lamang. Ang patlang na ito ay ginagamit upang makatulong na i-filter ang ilang mga pagpipilian sa sagot sa Kobo."
 t1.127,"Ang watawat ay magiging pula kung ang ""species_group"" na napili ay hindi isinangguni sa gear_ref. Nangangahulugan ito na ang lahat ng mga gear na nakalista sa gear_ref ay lilitaw para sa pangkat ng species na ito. Upang ipakita lamang ang mga gear na naka-target sa pangkat ng species na ito, mangyaring idagdag ang pangkat ng species sa gear_ref."
 t1.128,Lokal na pangalan ng species na may mga puwang at bantas na pinapayagan
-t1.129,"Pangalan ng admin2 na walang mga puwang o bantas, binibigyang diin lamang. Ang listahan ng dropdown ay konektado sa haligi ng"" pangalan "" sa admin2_ref. * Ang patlang na ito ay magpapakita lamang para sa mga kasosyo na nais ang dropdown ng species na na-filter ng napili ng admin2.*"
+t1.129,"Pangalan ng admin1, 2 o 3 na walang mga puwang o bantas, binibigyang diin lamang. Ang listahan ng dropdown ay konektado sa haligi ng ""pangalan"" sa kaukulang admin_ref. * Ang patlang na ito ay magpapakita lamang para sa mga kasosyo na nais ang dropdown ng species na na-filter ng admin na iyon.*"
 t1.130,Karaniwang pangalan ng species ng Ingles na may mga puwang at bantas na pinapayagan
 t1.131,Pangalan ng pamilya ng isang species na may mga puwang at bantas na pinapayagan
 t1.132,"Pinapayagan ang pang-agham na pangalan ng species na may mga puwang at bantas. Kung ang species ay hindi kilala, ang genus o pamilya ay maaari ring ipasok. Kung ang genus lamang ang kilala, i-type ang pangalan ng genus na sinusundan ng ""sp"" (kahit sa ""spp"" o sp.”). Kung ang pamilya lamang ang kilala, i-type ang pangalan ng pamilya (ibig sabihin Lutjanidae)."
