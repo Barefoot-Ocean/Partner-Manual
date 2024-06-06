@@ -588,6 +588,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="gabay-sa-pagpapatunay-ng-data-ng-fisheries" class="level2">
 <h2 class="anchored" data-anchor-id="gabay-sa-pagpapatunay-ng-data-ng-fisheries">Gabay Sa Pagpapatunay Ng Data Ng Fisheries</h2>
+<p>Ang lahat ng data na dumadaloy sa sistema ng data ng pangisdaan ay napatunayan sa Smartsheet. Ang Data ay ipinadala para sa Pagpapatunay sa ilalim ng tatlong mga sitwasyon; 1) Ang mga bagong pangalan o ‘iba pang’ impormasyon ay manu-manong idinagdag sa Kobo Collect, 2) Ang isang numerong halaga ay nahuhulog na lampas sa itinatag na mga threshold o 3) Ang mga pangalan sa dataset ay walang kaukulang tugma sa isang sanggunian na file. Kapag napatunayan ang data, ang parehong mga dataset sa database at ang mga talahanayan ng sanggunian ay na-update. Ang mga talahanayan ng sanggunian ay nagsisilbing mga input para sa mga listahan ng dropdown sa mga form ng KoboToolbox at naglalaman ng data na idinagdag sa mga dataset sa pamamagitan ng mga pagsali. Tingnan ang puno ng desisyon sa ibaba (Larawan 1).</p>
+<p>Ang data na na-trigger para sa Pagpapatunay ay ipinadala sa isa sa apat na talahanayan: 1) Mga pangalan at Gears, 2) mga babala sa halaga, 3) Species o 4) iba pa. Ang mga tagubilin sa ibaba ay detalyado ang proseso ng Pagpapatunay ng data sa Smartsheet Dynamic View para sa apat na mga talahanayan ng pagpapatunay. Ang bawat talahanayan ng pagpapatunay ay mangangailangan ng alinman sa pagpili ng tamang halaga ng patlang mula sa isang listahan ng dropdown o manu-manong pagpasok ng mga tamang halaga. Ang proseso ay idadagdag para sa mga pangangailangan sa Pagpapatunay ng data sa hinaharap, kung kinakailangan.</p>
+<p>Ang talahanayan ng Pagpapatunay ng’ mga pangalan at Gears ’ ay naglalaman ng mga bagong data mula sa lahat ng mga survey ng Kobo kabilang ang mga bagong pangalan ng mga mangingisda, mamimili, kolektor ng data, Lugar ng pangingisda, mga landing site at gears. Ang ‘Value Warnings’ ay naglalaman ng numerikong impormasyon na nakolekta mula sa Landings Monitoring o Landings Profiling survey na nag-flag ng isang halaga ng data batay sa isang paunang itinatag na threshold. Ang talahanayan ng Pagpapatunay ng’ Species ’ ay naglalaman ng mga larawan at mga bagong lokal na pangalan mula sa lahat ng mga survey upang mapatunayan ang mga bagong species gamit ang isang dobleng proseso ng pag-verify. Sa wakas, ang talahanayan ng Pagpapatunay ng data na’ iba ‘ay naglalaman ng impormasyon na’ iba ’ na nakolekta mula sa pag-profile ng Landings, pag-profile ng komunidad o Survey ng sambahayan at higit sa lahat ay napatunayan para sa mga layunin ng pagsasalin.</p>
+<p>Ang pang-araw-araw na mga mensahe sa E-mail ay ipinadala kasama ang impormasyon at mga link sa kung paano makumpleto ang pagpapatunay ng data (tingnan ang detalyadong mga tagubilin sa ibaba). Ang mga karagdagang abiso mula sa Smartsheet o Barefoot Ocean ay maaaring maipadala sa pamamagitan ng email upang mag-follow-up na may hindi kumpletong mga pagpipilian sa Pagpapatunay ng data, kung kinakailangan.</p>
 <p>Hakbang 1: Magbigay ng Barefoot Ocean na may point of contact email address para sa mga responsable para sa Pagpapatunay ng data.</p>
 <ul>
 <li><p>Ang organisasyon na namamahala ng maraming kasosyo ay maaaring magbigay ng lahat ng mga punto ng impormasyon sa pakikipag-ugnay.</p></li>
@@ -622,6 +626,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Maaari kang lumabas at muling ipasok sa pamamagitan ng pag-click sa link na dynamic view mula sa iyong email o pag-log in sa iyong account anumang oras. Hindi mo kailangang patunayan ang lahat ng mga entry sa isang pag-upo.</p></li>
 <li><p>Maaari mong i-bookmark ang link na ito at bumalik sa anumang oras.</p></li>
 </ul>
+<p>Talahanayan 1: pangunahing mga patlang o haligi sa mga talahanayan ng pagpapatunay. Ang mga patlang ng konteksto ay nagbibigay ng impormasyon na kinakailangan upang mapatunayan ang data. Ang mga patlang ng pagpapatunay ay pinuno ng data na ililipat sa mga master dataset. Tanging ang mga patlang ng pagpapatunay ay maaaring mai-edit. Ang ilang mga patlang ay makikita lamang sa panel na “mga detalye” kapag ang isang hilera ay na-click sa Dynamic View table.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -663,7 +668,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td></td>
+<td>Ang patlang mula sa form ng KoboCollect na kailangang mapatunayan o pangalan na walang tugma sa mga file ng sanggunian.</td>
 <td>konteksto</td>
 </tr>
 <tr class="odd">
@@ -708,27 +713,27 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>hhs_submission_ids</td>
-<td></td>
+<td>Listahan ng mga ID ng pagsusumite ang bagong halaga ng data na ito ay lilitaw sa, mula sa form ng Kobo ng survey ng sambahayan.</td>
 <td>konteksto</td>
 </tr>
 <tr class="even">
 <td>species_group</td>
-<td></td>
+<td>Ang pangkat ng species na nauugnay sa bagong pangalan ng gear, tulad ng nakolekta sa form na Kobo. Lilitaw lamang ito kung ang” kobo_field ” ay isang kategorya ng gear.</td>
 <td>konteksto</td>
 </tr>
 <tr class="odd">
 <td>gear_type</td>
-<td></td>
+<td>Kinakailangan kung nagpapatunay ng mga bagong pangalan ng gear. Isang dropdown na listahan ng mga uri ng gear na maiugnay sa napatunayan na pangalan ng gear.</td>
 <td>pagpapatunay</td>
 </tr>
 <tr class="even">
 <td>fisher_gender</td>
-<td></td>
+<td>Ang kasarian na nauugnay sa bagong mangingisda, tulad ng nakolekta sa form ng Kobo. Lilitaw lamang ito kung ang” kobo_field ” ay isang pangalan ng mangingisda.</td>
 <td>konteksto</td>
 </tr>
 <tr class="odd">
 <td>buyer_gender</td>
-<td></td>
+<td>Ang kasarian na nauugnay sa bagong mamimili, tulad ng nakolekta sa form ng Kobo. Lilitaw lamang ito kung ang” kobo_field ” ay isang pangalan ng mamimili.</td>
 <td>konteksto</td>
 </tr>
 <tr class="even">
@@ -818,22 +823,22 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>data_origin</td>
-<td>t1.37</td>
+<td>Dataset Ang data ay nagmula sa (Landings Monitoring ‘lm’, Landings Profiling ‘lp’, Community Profiling ’ cp ‘o household Survey ’hhs’)</td>
 <td>konteksto</td>
 </tr>
 <tr class="even">
 <td>admin1</td>
-<td>t1.37.1</td>
+<td>Admin1 kung saan ang catch ay landed at naitala.</td>
 <td>konteksto</td>
 </tr>
 <tr class="odd">
 <td>admin2</td>
-<td>t1.37.2</td>
+<td>Admin2 kung saan ang catch ay landed at naitala.</td>
 <td>konteksto</td>
 </tr>
 <tr class="even">
 <td>fisher_name</td>
-<td>t1.37.3</td>
+<td>Pangalan ng fisher na nauugnay sa bagong data ng species na ito.</td>
 <td>konteksto</td>
 </tr>
 <tr class="odd">
@@ -843,7 +848,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>new_data</td>
-<td>Ang halaga na ipinasok bilang isang bagong species lokal na pangalan sa Kobo Kolektahin</td>
+<td>Ang halaga na ipinasok bilang isang bagong species lokal na pangalan sa Kobo Collect o isang lokal na pangalan at scientific name ID (localname_scientificspecies) na hindi na tumutugma sa isang pangalan na matatagpuan sa species_ref</td>
 <td>konteksto</td>
 </tr>
 <tr class="odd">
@@ -903,37 +908,37 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td></td>
+<td>Ang patlang mula sa form ng KoboToolbox na kailangang mapatunayan. Ito ay maaaring mula sa isang katanungan (q) sa Landings Profiling (‘lp’), Community Profiling (‘cp’) o household Survey (‘HHS’).</td>
 <td>konteksto</td>
 </tr>
 <tr class="odd">
 <td>new_data</td>
-<td></td>
+<td>Ang halaga na ipinasok para sa kaukulang kobo_field</td>
 <td>konteksto</td>
 </tr>
 <tr class="even">
 <td>data_origin</td>
-<td></td>
+<td>Dataset Ang data ay nagmula sa (Landings profiling, community profiling, Household survey).</td>
 <td>konteksto</td>
 </tr>
 <tr class="odd">
 <td>submission_id</td>
-<td></td>
+<td>Submission ID mula sa Kobo form. Gamitin ito upang ihambing laban sa hilaw na data, kung kinakailangan, para sa pagpapatunay.</td>
 <td>konteksto</td>
 </tr>
 <tr class="even">
 <td>validation_options</td>
-<td></td>
+<td>Piliin ang patlang na may tamang data (new_data), magpasok ng isa pang halaga (iba pa), o alisin (alisin ang hilera mula sa pagsusuri dahil hindi mapatunayan ang data). Kinakailangan. Makikita lamang sa panel ng mga detalye. Mawawala ang pagpasok sa sandaling napatunayan ang data.</td>
 <td>pagpapatunay</td>
 </tr>
 <tr class="odd">
 <td>other</td>
-<td></td>
+<td>Magpasok ng isa pang halaga kung wala sa mga pagpipilian sa Pagpapatunay ang tama. Kinakailangan kung” iba ” napili mula sa validation_options. Makikita lamang sa panel ng mga detalye.</td>
 <td>pagpapatunay</td>
 </tr>
 <tr class="even">
 <td>validated_data_english</td>
-<td></td>
+<td>Kinakailangan. Ipasok ang pagsasalin ng Ingles ng new_data o iba pang larangan kung ang ‘iba’ ay napili bilang pagpipilian sa pagpapatunay. Makikita lamang sa panel ng mga detalye.</td>
 <td>pagpapatunay</td>
 </tr>
 </tbody>
@@ -957,9 +962,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p>I-Click ang “Isumite ang Update” upang magsumite ng pagpapatunay</p></li>
 <li><p>Lagyan ng tsek ang kahon na “ipadala sa akin ang isang kopya ng aking mga tugon” kung nais mo ng isang kopya ng iyong mga tugon na ipinadala sa iyong email</p></li>
 </ul></li>
-<li><ul>
-<li></li>
-<li></li>
+<li><p>Kung na-click mo ang “magpadala sa akin ng isang kopya ng aking mga tugon” makakatanggap ka ng isang email na pinamagatang “I-update ang kumpirmasyon: Mga pangalan at Gears”.</p>
+<ul>
+<li><p>Magkakaroon ng isang talahanayan na nagbubuod kung aling mga entry ang na-update. Ang mga entry kung saan walang pagpipilian ang napili sa ’validation_options” ay hindi isasama.</p></li>
+<li><p>Ang email na ito ay maaaring maglaman ng isang link sa isang pangalan ng sheet na “data Validation - Mga pangalan at Gears”; gayunpaman, ang pag-access sa sheet na ito ay naka-lock.</p></li>
 </ul></li>
 <li><p>Upang makita ang anumang natitirang pagpapatunay na kinakailangan, kakailanganin mong maghintay para sa susunod na email ng kahilingan sa pag-update o buksan ang Dynamic na View.</p></li>
 </ul>

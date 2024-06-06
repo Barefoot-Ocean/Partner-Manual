@@ -588,6 +588,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="guia-de-validação-dos-dados-das-pescas" class="level2">
 <h2 class="anchored" data-anchor-id="guia-de-validação-dos-dados-das-pescas">Guia De Validação Dos Dados Das Pescas</h2>
+<p>Todos os dados que fluem através do sistema de dados das pescas são validados no Smartsheet. Os dados são enviados para validação em três cenários: 1) novos nomes ou ‘outras’ informações são adicionados manualmente no Kobo Collect, 2) um valor numérico ultrapassa os limites estabelecidos ou 3) os nomes no conjunto de dados não têm uma correspondência correspondente num ficheiro de referência. Uma vez validados os dados, os conjuntos de dados na base de dados e as tabelas de referência são actualizados. As tabelas de referência servem como entradas para listas suspensas em formulários KoboToolbox e contêm dados que são adicionados aos conjuntos de dados através de junções. Ver a árvore de decisão abaixo (Figura 1).</p>
+<p>Os dados acionados para validação são enviados para um dos quatro quadros: 1) nomes e Artes, 2) Avisos de Valor, 3) espécies ou 4) Outros. As instruções abaixo detalham o processo de validação de dados no Smartsheet Dynamic View para as quatro tabelas de validação. Cada tabela de validação exigirá a seleção do valor do campo correto em uma lista suspensa ou a inserção manual dos valores corretos. O processo será anexado para futuras necessidades de validação de dados, conforme necessário.</p>
+<p>A tabela de validação dos nomes e das Artes contém novos dados de todos os inquéritos da Kobo, incluindo os novos nomes dos Pescadores, compradores, colectores de dados, zonas de pesca, locais de desembarque e Artes. Os avisos de Valor contêm informações numéricas recolhidas no inquérito de monitorização dos desembarques ou de definição de perfis dos desembarques que assinalaram um valor de dados com base num limiar pré-estabelecido. A tabela de validação das espécies contém fotografias e novos nomes locais de todos os inquéritos, a fim de validar novas espécies através de um processo de dupla verificação. Por último, a tabela de validação de outros dados contém outras informações recolhidas a partir da definição de perfis de desembarques, da definição de perfis comunitários ou do Inquérito às famílias e é principalmente validada para fins de tradução.</p>
+<p>As mensagens de correio electrónico diárias são enviadas com informações e ligações sobre a forma de completar a validação dos dados (ver instruções pormenorizadas abaixo). Notificações adicionais do Smartsheet ou do Barefoot Ocean podem ser enviadas por e-mail para acompanhamento com seleções de validação de dados incompletas, se necessário.</p>
 <p>Etapa 1: Fornecer à Barefoot Ocean endereços de E-mail de ponto de contato para os responsáveis pela validação dos dados.</p>
 <ul>
 <li><p>A organização que gere múltiplos parceiros Pode fornecer todos os pontos de contacto.</p></li>
@@ -622,6 +626,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Você pode sair e entrar novamente clicando no link visualização dinâmica do seu e-mail ou fazendo login na sua conta a qualquer momento. Não é necessário validar todas as entradas de uma só vez.</p></li>
 <li><p>Você pode marcar este link e retornar a qualquer momento.</p></li>
 </ul>
+<p>Tabela 1: campos ou colunas principais nas tabelas de validação. Os campos de contexto fornecem as informações necessárias para validar os dados. Os campos de validação são preenchidos com dados que serão transferidos para os conjuntos de dados principais. Apenas os campos de validação podem ser editados. Alguns campos só são visíveis no painel” Detalhes ” quando uma linha é clicada na tabela de Visualização Dinâmica.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -663,7 +668,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td></td>
+<td>O campo do formulário KoboCollect que precisa de ser validado ou o nome que não tem correspondência nos ficheiros de referência.</td>
 <td>contexto</td>
 </tr>
 <tr class="odd">
@@ -708,27 +713,27 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>hhs_submission_ids</td>
-<td></td>
+<td>Lista de ids de envio este novo valor de dados aparece no formulário Kobo do inquérito aos agregados familiares.</td>
 <td>contexto</td>
 </tr>
 <tr class="even">
 <td>species_group</td>
-<td></td>
+<td>O grupo de espécies associado ao novo nome da arte, tal como recolhido na forma Kobo. Isso só aparecerá se o “kobo_field” for uma categoria de engrenagem.</td>
 <td>contexto</td>
 </tr>
 <tr class="odd">
 <td>gear_type</td>
-<td></td>
+<td>Obrigatório se validar novos nomes de artes. Uma lista suspensa de tipos de engrenagens a serem associados ao nome da engrenagem validada.</td>
 <td>validação</td>
 </tr>
 <tr class="even">
 <td>fisher_gender</td>
-<td></td>
+<td>O género associado ao novo pescador, tal como recolhido no formulário Kobo. Isso só aparecerá se o “kobo_field” for um nome de pescador.</td>
 <td>contexto</td>
 </tr>
 <tr class="odd">
 <td>buyer_gender</td>
-<td></td>
+<td>O género associado ao novo comprador, tal como recolhido no formulário Kobo. Isso só aparecerá se o” kobo_field ” for um nome de comprador.</td>
 <td>contexto</td>
 </tr>
 <tr class="even">
@@ -818,22 +823,22 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>data_origin</td>
-<td>t1.37</td>
+<td>Conjunto de dados de onde provêm os dados (monitorização dos desembarques lm, perfil dos desembarques lp, perfil da Comunidade cp ou inquérito às famílias hhs)</td>
 <td>contexto</td>
 </tr>
 <tr class="even">
 <td>admin1</td>
-<td>t1.37.1</td>
+<td>Admin1 onde as capturas foram desembarcadas e registadas.</td>
 <td>contexto</td>
 </tr>
 <tr class="odd">
 <td>admin2</td>
-<td>t1.37.2</td>
+<td>Admin2 onde a captura foi desembarcada e registada.</td>
 <td>contexto</td>
 </tr>
 <tr class="even">
 <td>fisher_name</td>
-<td>t1.37.3</td>
+<td>Nome do pescador associado a estes novos dados de espécies.</td>
 <td>contexto</td>
 </tr>
 <tr class="odd">
@@ -843,7 +848,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>new_data</td>
-<td>O valor que foi introduzido como um novo nome local de espécie no Kobo Collect</td>
+<td>O valor que foi introduzido como um novo nome local de espécie no Kobo Collect ou um nome local e ID de nome científico (localname_scientificspecies) que já não corresponde a um nome encontrado em species_ref</td>
 <td>contexto</td>
 </tr>
 <tr class="odd">
@@ -903,37 +908,37 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td></td>
+<td>O campo do formulário KoboToolbox que precisa de ser validado. Esta pode ser a partir de uma pergunta (q) no perfil dos desembarques (‘lp’), perfil da Comunidade (‘cp’) ou inquérito aos agregados familiares (‘hhs’).</td>
 <td>contexto</td>
 </tr>
 <tr class="odd">
 <td>new_data</td>
-<td></td>
+<td>O valor que foi introduzido para o kobo_field correspondente</td>
 <td>contexto</td>
 </tr>
 <tr class="even">
 <td>data_origin</td>
-<td></td>
+<td>Conjunto de dados os dados provêm de (perfis de desembarques, perfis comunitários, inquéritos domiciliários).</td>
 <td>contexto</td>
 </tr>
 <tr class="odd">
 <td>submission_id</td>
-<td></td>
+<td>ID de envio do formulário Kobo. Use - o para comparar com dados brutos, se necessário, para validação.</td>
 <td>contexto</td>
 </tr>
 <tr class="even">
 <td>validation_options</td>
-<td></td>
+<td>Selecione o campo com dados corretos (new_data), insira outro valor (other) ou remove (remove row from analysis because data cannot be validated). Obrigatório. Visível apenas no painel de detalhes. A entrada desaparecerá assim que os dados forem validados.</td>
 <td>validação</td>
 </tr>
 <tr class="odd">
 <td>other</td>
-<td></td>
+<td>Introduza outro valor se nenhuma das opções de validação estiver correcta. Obrigatório se” outro ” selecionado de validation_options. Visível apenas no painel de detalhes.</td>
 <td>validação</td>
 </tr>
 <tr class="even">
 <td>validated_data_english</td>
-<td></td>
+<td>Obrigatório. Digite a tradução em Inglês do campo new_data ou other se ‘other’ foi selecionado como a opção de validação. Visível apenas no painel de detalhes.</td>
 <td>validação</td>
 </tr>
 </tbody>
@@ -957,9 +962,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Clique em “Enviar atualização” para enviar validação</p></li>
 <li><p>Marque a caixa “envie-me uma cópia das minhas respostas” se desejar que uma cópia das suas respostas seja enviada para o seu e-mail</p></li>
 </ul></li>
-<li><ul>
-<li></li>
-<li></li>
+<li><p>Se clicar em” Enviar-me uma cópia das minhas respostas”, receberá um e-mail intitulado”confirmação de atualização: nomes e engrenagens”.</p>
+<ul>
+<li><p>Haverá um quadro que resumirá as entradas que foram actualizadas. As entradas nas quais nenhuma opção foi selecionada em” validation_options ” não serão incluídas.</p></li>
+<li><p>Este e - mail pode conter uma ligação para um nome de folha “Data Validation-Names and Gears”; no entanto, o acesso a esta folha está bloqueado.</p></li>
 </ul></li>
 <li><p>Para ver qualquer validação restante necessária, você precisará aguardar o próximo e-mail de solicitação de atualização ou abrir a visualização dinâmica.</p></li>
 </ul>

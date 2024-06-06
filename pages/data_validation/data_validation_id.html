@@ -588,6 +588,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="panduan-validasi-data-perikanan" class="level2">
 <h2 class="anchored" data-anchor-id="panduan-validasi-data-perikanan">Panduan Validasi Data Perikanan</h2>
+<p>Semua data yang mengalir melalui sistem data perikanan divalidasi dalam Smartsheet. Data dikirim untuk validasi dalam tiga skenario; 1) nama baru atau informasi ‘lainnya’ ditambahkan secara manual di Kobo Collect, 2) nilai numerik melampaui ambang batas yang ditetapkan atau 3) nama dalam kumpulan data tidak memiliki kecocokan yang sesuai dalam file referensi. Setelah data divalidasi, kumpulan data dalam database dan tabel referensi diperbarui. Tabel referensi berfungsi sebagai input untuk daftar dropdown dalam formulir KoBoToolbox dan berisi data yang ditambahkan ke kumpulan data melalui gabungan. Lihat pohon keputusan di bawah ini (Gambar 1).</p>
+<p>Data yang dipicu untuk validasi dikirim ke salah satu dari empat tabel: 1) Nama dan Roda Gigi, 2) Peringatan Nilai, 3) Spesies, atau 4) Lainnya. Petunjuk di bawah ini merinci proses validasi data dalam Tampilan Dinamis Smartsheet untuk empat tabel validasi. Setiap tabel validasi akan memerlukan pemilihan nilai bidang yang benar dari daftar tarik-turun atau memasukkan nilai yang benar secara manual. Proses akan ditambahkan untuk kebutuhan validasi data di masa mendatang, sesuai kebutuhan.</p>
+<p>Tabel validasi ‘Nama dan Roda Gigi’ berisi data baru dari semua survei Kobo termasuk nama baru nelayan, pembeli, pengumpul data, tempat penangkapan ikan, lokasi pendaratan, dan roda gigi. ‘Peringatan Nilai’ berisi informasi numerik yang dikumpulkan dari survei Pemantauan Pendaratan atau Profil Pendaratan yang menandai nilai data berdasarkan ambang batas yang telah ditetapkan sebelumnya. Tabel validasi ‘Spesies’ berisi foto dan nama lokal baru dari semua survei untuk memvalidasi spesies baru menggunakan proses verifikasi ganda. Terakhir, tabel validasi data ‘Lainnya’ berisi informasi ‘lainnya’ yang dikumpulkan dari Profil Pendaratan, Profil Komunitas, atau Survei Rumah Tangga dan terutama divalidasi untuk tujuan translasi.</p>
+<p>Pesan email harian dikirim dengan informasi dan tautan tentang cara menyelesaikan validasi data (lihat petunjuk terperinci di bawah). Pemberitahuan tambahan dari Smartsheet atau Barefoot Ocean dapat dikirim melalui email untuk menindaklanjuti pilihan validasi data yang tidak lengkap, jika diperlukan.</p>
 <p>Langkah 1: Berikan Barefoot Ocean alamat email titik kontak bagi mereka yang bertanggung jawab atas validasi data.</p>
 <ul>
 <li><p>Organisasi yang mengelola banyak mitra dapat memberikan semua titik informasi kontak.</p></li>
@@ -622,6 +626,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Anda dapat keluar dan masuk kembali dengan mengeklik tautan tampilan dinamis dari email Anda atau masuk ke akun Anda kapan saja. Anda tidak perlu memvalidasi semua entri dalam sekali duduk.</p></li>
 <li><p>Anda dapat menandai tautan ini dan kembali kapan saja.</p></li>
 </ul>
+<p>Tabel 1: Bidang atau kolom utama dalam tabel validasi. Bidang konteks memberikan informasi yang diperlukan untuk memvalidasi data. Bidang validasi diisi dengan data yang akan ditransfer ke kumpulan data master. Hanya bidang validasi yang dapat diedit. Beberapa bidang hanya terlihat di panel” Detail ” saat baris diklik di tabel Tampilan Dinamis.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -663,7 +668,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td></td>
+<td>Bidang dari formulir KoboCollect yang perlu divalidasi atau nama yang tidak memiliki kecocokan dalam file referensi.</td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
@@ -708,27 +713,27 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>hhs_submission_ids</td>
-<td></td>
+<td>Daftar id pengiriman nilai data baru ini muncul di, dari formulir Kobo survei rumah tangga.</td>
 <td>konteks</td>
 </tr>
 <tr class="even">
 <td>species_group</td>
-<td></td>
+<td>Kelompok spesies yang terkait dengan nama perlengkapan baru, seperti yang dikumpulkan dalam bentuk Kobo. Ini hanya akan muncul jika “kobo_field” adalah kategori roda gigi.</td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
 <td>gear_type</td>
-<td></td>
+<td>Diperlukan JIKA memvalidasi nama roda gigi baru. Daftar tarik-turun jenis roda gigi yang akan dikaitkan dengan nama roda gigi yang divalidasi.</td>
 <td>validasi</td>
 </tr>
 <tr class="even">
 <td>fisher_gender</td>
-<td></td>
+<td>Jenis kelamin yang terkait dengan nelayan baru, seperti yang dikumpulkan dalam bentuk Kobo. Ini hanya akan muncul jika “kobo_field” adalah nama fisher.</td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
 <td>buyer_gender</td>
-<td></td>
+<td>Jenis kelamin yang terkait dengan pembeli baru, seperti yang dikumpulkan dalam formulir Kobo. Ini hanya akan muncul jika “kobo_field” adalah nama pembeli.</td>
 <td>konteks</td>
 </tr>
 <tr class="even">
@@ -818,22 +823,22 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>data_origin</td>
-<td>t1.37</td>
+<td>Kumpulan data dari mana data tersebut berasal (Pemantauan Pendaratan ‘lm’, Profil Pendaratan ‘lp’, Profil Komunitas ‘cp’ atau Survei Rumah Tangga ‘hhs’)</td>
 <td>konteks</td>
 </tr>
 <tr class="even">
 <td>admin1</td>
-<td>t1.37.1</td>
+<td>Admin1 tempat tangkapan didaratkan dan direkam.</td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
 <td>admin2</td>
-<td>t1.37.2</td>
+<td>Admin2 tempat tangkapan didaratkan dan direkam.</td>
 <td>konteks</td>
 </tr>
 <tr class="even">
 <td>fisher_name</td>
-<td>t1.37.3</td>
+<td>Nama nelayan yang terkait dengan data spesies baru ini.</td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
@@ -843,7 +848,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>new_data</td>
-<td>Nilai yang dimasukkan sebagai nama lokal spesies baru di Kobo Collect</td>
+<td>Nilai yang dimasukkan sebagai nama lokal spesies baru di Kobo Collect ATAU nama lokal dan ID nama ilmiah (localname_scientificspecies) yang tidak lagi cocok dengan nama yang ditemukan di species_ref</td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
@@ -903,37 +908,37 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td></td>
+<td>Bidang dari formulir KoBoToolbox yang perlu divalidasi. Ini bisa dari pertanyaan (q) di Profil Pendaratan (‘lp’), Profil Komunitas (‘cp’) atau Survei Rumah Tangga (‘hhs’).</td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
 <td>new_data</td>
-<td></td>
+<td>Nilai yang dimasukkan untuk bidang kobo_ yang sesuai</td>
 <td>konteks</td>
 </tr>
 <tr class="even">
 <td>data_origin</td>
-<td></td>
+<td>Dataset data tersebut berasal dari (Landings profiling, Community profiling, survei rumah tangga).</td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
 <td>submission_id</td>
-<td></td>
+<td>ID Pengiriman dari formulir Kobo. Gunakan ini untuk membandingkan dengan data mentah, jika perlu, untuk validasi.</td>
 <td>konteks</td>
 </tr>
 <tr class="even">
 <td>validation_options</td>
-<td></td>
+<td>Pilih bidang dengan data yang benar (new_data), masukkan nilai lain (other), atau hapus (hapus baris dari analisis karena data tidak dapat divalidasi). Diperlukan. Hanya terlihat di panel Detail. Entri akan hilang setelah data divalidasi.</td>
 <td>validasi</td>
 </tr>
 <tr class="odd">
 <td>other</td>
-<td></td>
+<td>Masukkan nilai lain jika tidak ada opsi validasi yang benar. Diperlukan JIKA “lainnya” dipilih dari validation_options. Hanya terlihat di panel Detail.</td>
 <td>validasi</td>
 </tr>
 <tr class="even">
 <td>validated_data_english</td>
-<td></td>
+<td>Diperlukan. Masukkan terjemahan bahasa Inggris dari bidang new_data atau other jika ‘other’ dipilih sebagai opsi validasi. Hanya terlihat di panel Detail.</td>
 <td>validasi</td>
 </tr>
 </tbody>
@@ -957,9 +962,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Klik “Kirim Pembaruan” untuk mengirimkan validasi</p></li>
 <li><p>Centang kotak “Kirimi saya salinan tanggapan saya” jika Anda ingin salinan tanggapan Anda dikirim ke email Anda</p></li>
 </ul></li>
-<li><ul>
-<li></li>
-<li></li>
+<li><p>Jika Anda mengklik “Kirimi saya salinan tanggapan saya”, Anda akan menerima email berjudul “Konfirmasi Pembaruan: Nama dan Roda Gigi”.</p>
+<ul>
+<li><p>Akan ada tabel yang merangkum entri mana yang diperbarui. Entri di mana tidak ada opsi yang dipilih di ’validation_options” tidak akan disertakan.</p></li>
+<li><p>Email ini mungkin berisi tautan ke nama lembar “Validasi Data-Nama dan Roda Gigi”; namun, akses ke lembar ini dikunci.</p></li>
 </ul></li>
 <li><p>Untuk melihat sisa validasi yang diperlukan, Anda harus menunggu email permintaan pembaruan berikutnya atau membuka Tampilan Dinamis.</p></li>
 </ul>

@@ -588,6 +588,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="mwongozo-wa-uthibitishaji-wa-data-ya-uvuvi" class="level2">
 <h2 class="anchored" data-anchor-id="mwongozo-wa-uthibitishaji-wa-data-ya-uvuvi">Mwongozo Wa Uthibitishaji Wa Data Ya Uvuvi</h2>
+<p>Takwimu zote zinazotiririka kupitia mfumo wa data ya uvuvi zinathibitishwa Katika Smartsheet. Data ni alimtuma kwa ajili ya uthibitisho chini ya matukio matatu; 1) majina mapya au ‘nyingine’ habari ni manually aliongeza Katika Kobo Kukusanya, 2) thamani ya tarakimu iko zaidi ya vizingiti imara au 3) majina katika seti ya data hawana mechi sambamba katika faili ya kumbukumbu. Mara data ni kuthibitishwa, wote seti data katika database na meza za kumbukumbu ni updated. Jedwali la kumbukumbu kutumika kama pembejeo kwa orodha dropdown katika fomu kobotoolbox na vyenye data ambayo ni aliongeza kwa seti data kupitia joins. Tazama mti wa uamuzi hapa chini (Kielelezo 1).</p>
+<p>Takwimu zilizosababishwa kwa uthibitisho hutumwa kwa moja ya meza nne: 1) Majina na Gia, 2) Maonyo Ya Thamani, 3) Spishi Au 4) Nyingine. Maagizo hapa chini yanaelezea mchakato wa uthibitishaji wa data Katika Smartsheet Dynamic View kwa meza nne za uthibitishaji. Kila meza ya uthibitisho itahitaji ama kuchagua thamani sahihi uwanja kutoka orodha dropdown au kuingia maadili sahihi manually. Mchakato huo utaongezwa kwa mahitaji ya uthibitisho wa data ya baadaye, kama inavyotakiwa.</p>
+<p>Jedwali la uthibitishaji la ‘Majina Na Gia’ lina data mpya kutoka kwa tafiti zote Za Kobo ikiwa ni pamoja na majina mapya ya wavuvi, wanunuzi, watoza data, maeneo ya uvuvi, maeneo ya kutua na gia. ‘Onyo thamani’ ina taarifa za tarakimu zilizokusanywa kutoka Landings Ufuatiliaji au Landings Profiling utafiti ambayo flagged thamani ya data kulingana na kizingiti kabla ya kuanzishwa. Jedwali la uthibitishaji wa ‘Spishi’ lina picha na majina mapya ya ndani kutoka kwa tafiti zote ili kuthibitisha spishi mpya kwa kutumia mchakato wa uthibitishaji mara mbili. Hatimaye,’ Nyingine ‘data uthibitisho meza ina ’nyingine’ habari zilizokusanywa kutoka Kutua Profiling, Jamii Profiling au Kaya Utafiti na ni hasa kuthibitishwa kwa madhumuni ya tafsiri.</p>
+<p>Ujumbe wa barua pepe wa kila siku hutumwa na habari na viungo juu ya jinsi ya kukamilisha uthibitisho wa data (tazama maagizo ya kina hapa chini). Arifa za ziada kutoka Smartsheet Au Barefoot Ocean zinaweza kutumwa kupitia barua pepe kufuatilia na uteuzi wa uthibitisho wa data usio kamili, ikiwa inahitajika.</p>
 <p>Hatua ya 1: Toa Bahari Isiyo Na Viatu na anwani za barua pepe za mawasiliano kwa wale wanaohusika na uthibitishaji wa data.</p>
 <ul>
 <li><p>Shirika kusimamia washirika mbalimbali inaweza kutoa pointi zote za mawasiliano ya habari.</p></li>
@@ -622,6 +626,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Unaweza kutoka na kuingia tena kwa kubofya kiungo cha mtazamo wa nguvu kutoka kwa barua pepe yako au kuingia kwenye akaunti yako wakati wowote. Huna haja ya kuthibitisha maingizo yote katika kikao kimoja.</p></li>
 <li><p>Unaweza kuweka alama kwenye kiunga hiki na kurudi wakati wowote.</p></li>
 </ul>
+<p>Jedwali 1: mashamba Ya Msingi au nguzo katika meza ya uthibitisho. Mazingira mashamba kutoa taarifa zinazohitajika kuthibitisha data. Sehemu za uthibitishaji zimejaa data ambayo itahamishiwa kwa hifadhidata kuu. Tu mashamba ya uthibitisho inaweza kuhaririwa. Baadhi ya mashamba ni tu inayoonekana katika” Maelezo ” jopo wakati safu ni clicked katika Meza Ya Mtazamo Nguvu.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -663,7 +668,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td></td>
+<td>Sehemu kutoka kwa fomu Ya KoboCollect ambayo inahitaji kuthibitishwa au jina ambalo halina mechi katika faili za kumbukumbu.</td>
 <td>muktadha</td>
 </tr>
 <tr class="odd">
@@ -708,27 +713,27 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>hhs_submission_ids</td>
-<td></td>
+<td>Orodha ya vitambulisho vya kuwasilisha thamani hii mpya ya data inaonekana katika, kutoka kwa fomu Ya Utafiti Wa Kaya Kobo.</td>
 <td>muktadha</td>
 </tr>
 <tr class="even">
 <td>species_group</td>
-<td></td>
+<td>Kundi la aina kuhusishwa na jina mpya gear, kama zilizokusanywa katika Fomu Kobo. Hii itaonekana tu ikiwa” kobo_field ” ni kitengo cha gia.</td>
 <td>muktadha</td>
 </tr>
 <tr class="odd">
 <td>gear_type</td>
-<td></td>
+<td>Inahitajika IKIWA inathibitisha majina mapya ya gia. Orodha ya kushuka ya aina gear kuhusishwa na jina gear kuthibitishwa.</td>
 <td>uthibitisho</td>
 </tr>
 <tr class="even">
 <td>fisher_gender</td>
-<td></td>
+<td>Jinsia inayohusishwa na mvuvi mpya, kama ilivyokusanywa katika Fomu Ya Kobo. Hii itaonekana tu ikiwa “kobo_field” ni jina la mvuvi.</td>
 <td>muktadha</td>
 </tr>
 <tr class="odd">
 <td>buyer_gender</td>
-<td></td>
+<td>Jinsia inayohusishwa na mnunuzi mpya, kama ilivyokusanywa katika Fomu Ya Kobo. Hii itaonekana tu ikiwa “kobo_field” ni jina la mnunuzi.</td>
 <td>muktadha</td>
 </tr>
 <tr class="even">
@@ -818,22 +823,22 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>data_origin</td>
-<td>t1.37</td>
+<td>Dataset data alikuja kutoka (Kutua Ufuatiliaji ‘lm’, Kutua Profiling ‘lp’, Jamii Profiling ’ cp ‘Au Kaya Utafiti ’hhs’)</td>
 <td>muktadha</td>
 </tr>
 <tr class="even">
 <td>admin1</td>
-<td>t1.37.1</td>
+<td>Admin1 ambapo catch ilikuwa landed na kumbukumbu.</td>
 <td>muktadha</td>
 </tr>
 <tr class="odd">
 <td>admin2</td>
-<td>t1.37.2</td>
+<td>Admin2 ambapo catch ilikuwa landed na kumbukumbu.</td>
 <td>muktadha</td>
 </tr>
 <tr class="even">
 <td>fisher_name</td>
-<td>t1.37.3</td>
+<td>Jina la fisher linalohusishwa na data hii mpya ya spishi.</td>
 <td>muktadha</td>
 </tr>
 <tr class="odd">
@@ -843,7 +848,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>new_data</td>
-<td>Thamani ambayo iliingizwa kama spishi mpya jina la ndani Huko Kobo Hukusanya</td>
+<td>Thamani ambayo iliingizwa kama spishi mpya jina la ndani Katika Kobo Kukusanya au jina la ndani NA kitambulisho cha jina la kisayansi (localname_scientificspecies) ambayo hailingani tena na jina linalopatikana katika species_ref</td>
 <td>muktadha</td>
 </tr>
 <tr class="odd">
@@ -903,37 +908,37 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td></td>
+<td>Sehemu kutoka kwa fomu Ya KoboToolbox ambayo inahitaji kuthibitishwa. Hii inaweza kuwa kutoka swali (q) katika Kutua Profiling (‘lp’), Jamii Profiling (‘cp’) au Kaya Utafiti (‘hhs’).</td>
 <td>muktadha</td>
 </tr>
 <tr class="odd">
 <td>new_data</td>
-<td></td>
+<td>Thamani ambayo iliingizwa kwa kobo_field inayolingana</td>
 <td>muktadha</td>
 </tr>
 <tr class="even">
 <td>data_origin</td>
-<td></td>
+<td>Dataset data alikuja kutoka (Kutua profiling, jamii profiling, Kaya utafiti).</td>
 <td>muktadha</td>
 </tr>
 <tr class="odd">
 <td>submission_id</td>
-<td></td>
+<td>Kitambulisho cha uwasilishaji kutoka Kwa Fomu Ya Kobo. Tumia hii kulinganisha dhidi ya data mbichi, ikiwa inahitajika, kwa uthibitisho.</td>
 <td>muktadha</td>
 </tr>
 <tr class="even">
 <td>validation_options</td>
-<td></td>
+<td>Chagua shamba na data sahihi (new_data), ingiza thamani nyingine (nyingine), au uondoe (ondoa safu kutoka kwa uchambuzi kwa sababu data haiwezi kuthibitishwa). Inahitajika. Inaonekana tu katika jopo La Maelezo. Kuingia kutatoweka mara tu data itakapothibitishwa.</td>
 <td>uthibitisho</td>
 </tr>
 <tr class="odd">
 <td>other</td>
-<td></td>
+<td>Ingiza thamani nyingine ikiwa hakuna chaguo la uthibitishaji lililo sahihi. Inahitajika KAMA “nyingine” kuchaguliwa kutoka validation_options. Inaonekana tu katika jopo La Maelezo.</td>
 <td>uthibitisho</td>
 </tr>
 <tr class="even">
 <td>validated_data_english</td>
-<td></td>
+<td>Inahitajika. Ingiza tafsiri ya kiingereza ya new_data au uwanja mwingine ikiwa ‘nyingine’ ilichaguliwa kama chaguo la uthibitishaji. Inaonekana tu katika jopo La Maelezo.</td>
 <td>uthibitisho</td>
 </tr>
 </tbody>
@@ -957,9 +962,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Bofya “Wasilisha Sasisha” ili kuwasilisha uthibitishaji</p></li>
 <li><p>Angalia kisanduku cha “Nitumie nakala ya majibu yangu” ikiwa ungependa nakala ya majibu yako yatumwe kwa barua pepe yako</p></li>
 </ul></li>
-<li><ul>
-<li></li>
-<li></li>
+<li><p>Ukibofya “Nitumie nakala ya majibu yangu” utapokea barua pepe yenye kichwa “Sasisha Uthibitisho: Majina na Gia”.</p>
+<ul>
+<li><p>Kutakuwa na meza muhtasari ambayoriesies walikuwa updated. Riesies ambayo hakuna chaguo alichaguliwa katika ’validation_options” si ni pamoja na.</p></li>
+<li><p>Barua pepe hii inaweza kuwa na kiungo kwa jina la karatasi “Uthibitisho Wa Data-Majina na Gia”; hata hivyo, upatikanaji wa karatasi hii imefungwa.</p></li>
 </ul></li>
 <li><p>Ili kuona uthibitisho wowote uliobaki unahitajika, utahitaji kusubiri barua pepe inayofuata ya ombi la sasisho au ufungue Mtazamo Wa Nguvu.</p></li>
 </ul>
