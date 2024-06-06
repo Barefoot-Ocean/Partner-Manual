@@ -23,7 +23,7 @@ i18n
 
 `r { i18n$t("p1") }`
 
-![](images/fig1.jpg)
+![](images/fig1.png)
 
 `r { i18n$t("fig1") }`
 
