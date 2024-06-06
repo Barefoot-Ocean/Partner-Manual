@@ -672,12 +672,12 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>active</td>
-<td>Pilia ang” Oo ” kung ang datos nakolekta didto. Kung wala na nimo gikolekta ang datos didto, ug gusto nga itago kini gikan sa Kobo dropdown, pilia ang “Dili.”</td>
+<td>Pilia ang” Oo ” kung ang datos karon nakolekta gikan sa kini nga indibidwal/lugar. Kung ang datos dili na nakolekta gikan sa kini nga indibidwal/lugar, ug gusto nimo nga itago kini gikan sa Kobo dropdown, pilia ang “Dili.”</td>
 <td>edited</td>
 </tr>
 <tr class="even">
 <td>remove</td>
-<td>Pilia ang” Oo ” kung gusto nimo tangtangon ang administrasyon 1. Ang mga admin 1 kinahanglan nga tangtangon lamang kung ang ngalan sayup o kini usa ka duplicate sa usa ka naglungtad nga rekord. Palihug leave sa usa ka comment mahitungod sa hinungdan sa pagtangtang. Kung ang datos dili na nakolekta didto, pilia ang” Dili “gikan sa” aktibo ” nga kolum.</td>
+<td>Pilia ang” Oo ” kung gusto nimo i-download ang file. Ang mga rekord kinahanglan lamang nga tangtangon kung ang ngalan sayop o kini usa ka duplicate sa usa ka kasamtangan nga rekord.</td>
 <td>edited</td>
 </tr>
 <tr class="odd">
@@ -797,22 +797,22 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>landings_mon</td>
-<td></td>
+<td>Pilia Ang “Oo” kung gusto nimo makita ang admin3 sa dropdown alang sa porma sa pag-monitor sa kobo landings.</td>
 <td>edited</td>
 </tr>
 <tr class="odd">
 <td>landings_prof</td>
-<td></td>
+<td>Pilia Ang “Oo” kung gusto nimo makita ang admin3 sa dropdown alang sa porma sa pag-profile sa Kobo.</td>
 <td>edited</td>
 </tr>
 <tr class="even">
 <td>comm_prof</td>
-<td></td>
+<td>Pilia Ang “Oo” kung gusto nimo makita ang admin3 sa dropdown alang sa porma sa pag-profile sa komunidad sa Kobo.</td>
 <td>edited</td>
 </tr>
 <tr class="odd">
 <td>hhs</td>
-<td></td>
+<td>Pilia Ang “Oo” kung gusto nimo makita ang admin3 sa dropdown alang sa porma sa survey sa Kobo household.</td>
 <td>edited</td>
 </tr>
 <tr class="even">
@@ -842,7 +842,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>gender_flag</td>
-<td>Talagsaon NGA NUMERO SA ID aron mahibal-an ang pumapalit. Palihug mobiya sa usa ka comment kon ang duha ka lain-laing mga pumapalit adunay sama nga ID. Pinaagi sa default, duha ka mga pumapalit nga adunay parehas nga eksaktong ngalan, bisan kung gikan sila sa duha ka lainlaing mga baryo, makadawat sa PAREHAS nga ID gawas kung gisultihan.</td>
+<td>Pula ang bandila kung ang kantidad sa buyer_gender magkalainlain alang sa parehas nga pumapalit (ie Kung Si Raymond Scott sa admin3= Boston adunay gender=lalaki, apan Si Raymond Scott sa admin3=Miami adunay gender=babaye, ang bandila mahimong pula tungod kay ang mga lalaki dili parehas alang sa parehas nga pumapalit).</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -897,7 +897,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>gender_flag</td>
-<td>Talagsaon NGA NUMERO SA ID aron mahibal-an ang mangingisda. Palihug leave sa usa ka comment kon ang duha ka lain-laing mga mangingisda adunay SAMA nga ID. Pinaagi sa default, duha ka mga mangingisda uban sa sama nga eksakto nga ngalan, bisan kon sila gikan sa duha ka lain-laing mga balangay, makadawat sa SAMA NGA ID gawas kon kon dili gisultihan.</td>
+<td>Ang bandila mahimong pula kung ang kantidad sa pangisda_gender magkalainlain alang sa parehas nga mangingisda (ie Kung Si Raymond Scott sa admin3= Boston adunay gender=lalaki, apan Si Raymond Scott sa admin3=Miami adunay gender=babaye, ang bandila mahimong pula tungod kay ang mga lalaki dili parehas alang sa parehas nga mangingisda).</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
@@ -1132,7 +1132,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>management_id_unique</td>
-<td>Talagsaon nga ngalan sa lugar sa pagdumala ug petsa sa pagsira. Kini kinahanglan nga ang pagdumala_id nga walay mga luna o punctuation inubanan sa usa ka gidaghanon nga nagpaila sa talagsaon nga pagsira sa maong dapit. Pananglitan, kung ang Usa ka management_id nga gitawag Boston adunay duha ka mga petsa sa pagsira nga kauban niini, kami adunay duha nga gitudlo sa pagdumala_id_unique fields. Ang usa mahimong Boston_1 ug lain Nga Boston_2 aron mahibal-an ang mga pagsira sa sulud sa usa ka lugar sa pagdumala.</td>
+<td>Talagsaon nga ngalan sa lugar sa pagdumala ug epektibo nga mga petsa. Dugang pa, kini naglangkob sa mosunod nga kasayuran nga gibulag sa usa ka underscore: management_id, management_method, close_date ug open_date.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -1142,62 +1142,62 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>admin3_fish</td>
-<td>t1.104.1</td>
+<td>Ang listahan sa mga administrador 3 nga isda sulod sa management area.</td>
 <td>edited</td>
 </tr>
 <tr class="even">
 <td>admin3_fish_flag</td>
-<td>t1.104.2</td>
+<td>Ang bandila mahimong pula kung ang usa sa mga admin3s nga gilista sa kolum nga “admin3_fish” wala maglungtad sa admin3_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>admin3_govern</td>
-<td>t1.104.3</td>
+<td>Ang lista sa mga administrador nga adunay papel sa pagdumala sa kalihokan sa pagdumala.</td>
 <td>edited</td>
 </tr>
 <tr class="even">
 <td>admin3_govern_flag</td>
-<td>t1.104.4</td>
+<td>Ang bandila mahimong pula kung ang usa sa mga admin3 nga gilista sa kolum nga “admin3_govern” wala maglungtad sa admin3_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_fishing_ground</td>
-<td>Ang lista sa mga hinungdan sa pagpangisda nga may kalabutan sa petsa sa pagdumala ug pagsira.</td>
+<td>Ang lista sa mga hinungdan sa pagpangisda nga may kalabutan sa kalihokan sa pagdumala. Ang lista sa dropdown konektado sa kolum nga “ngalan” sa fishing_ground_ref.</td>
 <td>edited</td>
 </tr>
 <tr class="even">
 <td>fishing_ground_flag</td>
-<td>t1.105.5</td>
+<td>Ang bandila mahimong pula kung ang usa sa mga nataran sa pangisda nga gilista sa “management_fishing_ground_ref” wala maglungtad sa pangisda_ground_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_method</td>
-<td>Ang matang sa pamaagi sa pagdumala, lakip ang temporaryo nga pagsira, wala ’ y mga zone sa pagkuha, ug uban pa. Kini mao ang usa ka predefined listahan. Palihug komentaryo kung dili ka sigurado.</td>
+<td>Ang matang sa pamaagi sa pagdumala nga gigamit sa panahon sa panghitabo. Ang predefined listahan naglakip sa: Temporaryo Nga Pagsira, Walay Take Zone, Gear Restriction, Gidumala Access, Pag-Ani Ban o Deforestation Ban.</td>
 <td>edited</td>
 </tr>
 <tr class="even">
 <td>regulation_type</td>
-<td></td>
+<td>Ang matang sa legal nga mga butang. Ang predefined listahan naglakip sa: balangay ulo regulasyon, balangay ulo sugo, joint balangay ulo regulasyon o walay.</td>
 <td>edited</td>
 </tr>
 <tr class="odd">
 <td>target_group</td>
-<td></td>
+<td>Target nga grupo sa mga espisye alang sa gidumala nga lugar. Kini mahimong maglakip sa ‘Tanan’, usa o daghang mga matang sa mga grupo. Ang lista sa dropdown konektado sa MASTER species_ref ug kauban ang mga grupo sa species gikan sa tanan nga mga kauban.</td>
 <td>edited</td>
 </tr>
 <tr class="even">
 <td>target_species</td>
-<td>Target nga mga espisye alang sa gidumala nga lugar. Kini mahimong mga espisye o mga espisye. Umahan bukas.</td>
+<td>Target nga mga espisye alang sa gidumala nga lugar. Kini mahimong maglakip sa ‘All_species’, usa o daghang siyentipikanhong mga espisye. Ang lista sa dropdown konektado sa MASTER species_ref ug kauban ang mga species gikan sa tanan nga mga kauban.</td>
 <td>edited</td>
 </tr>
 <tr class="odd">
 <td>species_flag</td>
-<td></td>
+<td>Ang bandila mahimong pula kung ang gipili nga” target_species ” dili pakisayran sa species_ref sa kauban.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>target_habitat</td>
-<td>Target nga puy-anan alang sa gidumala nga lugar</td>
+<td>Target nga puy-anan alang sa gidumala nga lugar. Ang predefined dropdown listahan naglakip sa puy-anan pagpili: ‘reef, seagrass, mangrove, mud_flat, balas, lawom nga tubig o sa uban nga mga’.</td>
 <td>edited</td>
 </tr>
 <tr class="odd">
@@ -1297,7 +1297,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>admin1-3</td>
-<td>Ngalan sa administrasyon 2 walay luna o punctuation, lamang underscore. Ang lista sa dropdown konektado sa kolum nga “ngalan” sa administr2_ref. <em>Kini nga uma lamang ipakita alang sa mga kauban nga gusto sa mga espisye dropdown sinala sa admin 2 pinili.</em></td>
+<td>Ngalan sa administrasyon 1, 2 o 3 nga wala ’ y wanang o punctuation, gihatagan ra og gibug-aton. Ang lista sa dropdown konektado sa kolum nga “ngalan” sa katugbang nga admin_ref. <em>Kini nga uma lamang ipakita alang sa mga kauban nga gusto sa mga espisye dropdown nga gisala sa admin.</em></td>
 <td>edited</td>
 </tr>
 <tr class="odd">

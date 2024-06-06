@@ -672,12 +672,12 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>active</td>
-<td>Piliin ang” Oo ” kung ang data ay kasalukuyang nakolekta doon. Kung hindi ka na nangongolekta ng data doon, at nais mong itago ito mula sa pagbagsak ng Kobo, piliin ang “hindi.”</td>
+<td>Piliin ang ” Oo ” kung ang data ay kasalukuyang kinokolekta mula sa indibidwal/lugar na ito. Kung ang data ay hindi na nakolekta mula sa indibidwal/lugar na ito, at nais mong itago ito mula sa pagbagsak ng Kobo, piliin ang “hindi.”</td>
 <td>mai-edit</td>
 </tr>
 <tr class="even">
 <td>remove</td>
-<td>Piliin ang ” Oo ” kung nais mong alisin ang admin1. Ang Admin1s ay dapat lamang alisin kung ang pangalan ay hindi tama o ito ay isang duplicate ng isang umiiral na rekord. Mangyaring mag-iwan ng komento tungkol sa dahilan ng pag-alis. Kung ang data ay hindi na nakolekta doon, piliin ang “hindi” mula sa haligi na “aktibo” sa halip.</td>
+<td>Piliin ang ” Oo ” kung nais mong alisin ang record. Ang mga talaan ay dapat lamang alisin kung ang pangalan ay hindi tama o ito ay isang duplicate ng isang umiiral na talaan.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="odd">
@@ -797,22 +797,22 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>landings_mon</td>
-<td></td>
+<td>Piliin ang” Oo ” kung nais mong lumitaw ang admin3 sa dropdown para sa Kobo landings monitoring form.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="odd">
 <td>landings_prof</td>
-<td></td>
+<td>Piliin ang” Oo ” kung gusto mong lumabas ang admin3 sa dropdown para sa Kobo landings profiling form.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="even">
 <td>comm_prof</td>
-<td></td>
+<td>Piliin ang ” Oo ” kung gusto mong lumabas ang admin3 sa dropdown para sa Kobo community profiling form.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="odd">
 <td>hhs</td>
-<td></td>
+<td>Piliin ang” Oo ” kung nais mong lumitaw ang admin3 sa dropdown para sa Kobo household survey form.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="even">
@@ -842,7 +842,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>gender_flag</td>
-<td>Natatanging numero ng ID upang makilala ang bumibili. Mangyaring mag-iwan ng komento kung ang dalawang magkakaibang mamimili ay may parehong ID. Bilang default, ang dalawang mamimili na may parehong eksaktong pangalan, kahit na sila ay mula sa dalawang magkakaibang nayon, ay makakatanggap ng parehong ID maliban kung sinabi.</td>
+<td>Ang watawat ay magiging pula kung ang halaga ng buyer_gender ay naiiba para sa parehong mamimili (ibig sabihin kung si Raymond Scott sa admin3= Boston ay may kasarian=lalaki, ngunit si Raymond Scott sa admin3=Miami ay may Kasarian=Babae, Ang watawat ay magiging pula dahil ang mga kasarian ay hindi pareho para sa parehong mamimili).</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -897,7 +897,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>gender_flag</td>
-<td>Natatanging numero ng ID upang makilala ang mangingisda. Mangyaring mag-iwan ng komento kung ang dalawang magkakaibang mangingisda ay may parehong ID. Bilang default, ang dalawang mangingisda na may parehong eksaktong pangalan, kahit na sila ay mula sa dalawang magkakaibang nayon, ay makakatanggap ng parehong ID maliban kung sinabi.</td>
+<td>Ang watawat ay magiging pula kung ang halaga ng fisher_gender ay naiiba para sa parehong mangingisda (ibig sabihin kung si Raymond Scott sa admin3= Boston ay may kasarian=lalaki, ngunit si Raymond Scott sa admin3=Miami ay may Kasarian=Babae, Ang watawat ay magiging pula dahil ang mga kasarian ay hindi pareho para sa parehong mangingisda).</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
@@ -1132,7 +1132,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>management_id_unique</td>
-<td>Natatanging pangalan ng Lugar ng pamamahala at petsa ng pagsasara. Ito ay dapat na ang management_id na walang mga puwang o bantas na sinamahan ng isang numero na kinikilala ang natatanging pagsasara sa lugar na iyon. Halimbawa, kung ang isang management_id na tinatawag na Boston ay may dalawang mga petsa ng pagsasara na nauugnay dito, magkakaroon kami ng dalawang mga patlang ng management_id_unique na itinalaga. Ang isa ay maaaring Boston_1 at isa pang Boston_2 upang makilala ang mga pagsasara sa loob ng isang lugar ng pamamahala.</td>
+<td>Natatanging pangalan ng Lugar ng pamamahala at epektibong mga petsa. Mas partikular, naglalaman ito ng sumusunod na impormasyon na pinaghihiwalay ng isang salungguhit: management_id, management_method, close_date at open_date.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -1142,62 +1142,62 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>admin3_fish</td>
-<td>t1.104.1</td>
+<td>Ang listahan ng mga admin3 na isda sa loob ng Lugar ng pamamahala.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="even">
 <td>admin3_fish_flag</td>
-<td>t1.104.2</td>
+<td>Ang watawat ay magiging pula kung ang isa sa mga admin3 na nakalista sa haligi na “admin3_fish” ay hindi umiiral sa admin3_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>admin3_govern</td>
-<td>t1.104.3</td>
+<td>Ang listahan ng mga admin3 na may papel sa pamamahala ng kaganapan sa pamamahala.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="even">
 <td>admin3_govern_flag</td>
-<td>t1.104.4</td>
+<td>Ang watawat ay magiging pula kung ang isa sa mga admin3 na nakalista sa haligi na “admin3_govern” ay hindi umiiral sa admin3_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_fishing_ground</td>
-<td>Ang listahan ng mga lugar ng pangingisda na nauugnay sa management_id at petsa ng pagsasara.</td>
+<td>Ang listahan ng mga lugar ng pangingisda na nauugnay sa kaganapan sa pamamahala. Ang listahan ng dropdown ay konektado sa haligi ng “pangalan” sa fishing_ground_ref.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="even">
 <td>fishing_ground_flag</td>
-<td>t1.105.5</td>
+<td>Ang watawat ay magiging pula kung ang isa sa mga lugar ng pangingisda na nakalista sa “management_fishing_ground” ay hindi umiiral sa fishing_ground_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_method</td>
-<td>Ang uri ng paraan ng pamamahala, kabilang ang mga pansamantalang pagsasara, walang take zone, atbp. Ito ay isang paunang natukoy na listahan. Mangyaring magkomento kung hindi ka sigurado.</td>
+<td>Ang uri ng pamamaraan ng pamamahala na ginamit sa panahon ng kaganapan. Kasama sa paunang natukoy na listahan ang: pansamantalang pagsasara, walang Take Zone, paghihigpit sa Gear, Pinamamahalaang pag-Access, pagbabawal sa pag-aani o pagbabawal sa Deforestation.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="even">
 <td>regulation_type</td>
-<td></td>
+<td>Ang uri ng ligal na regulasyon. Kasama sa paunang natukoy na listahan ang: village head regulation, village head decree, joint village head regulation o wala.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="odd">
 <td>target_group</td>
-<td></td>
+<td>Target na pangkat ng species para sa pinamamahalaang lugar. Maaari itong isama ang ‘lahat’, isa o maraming mga pangkat ng species. Ang listahan ng dropdown ay konektado sa master species_ref at may kasamang mga pangkat ng species mula sa lahat ng mga kasosyo.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="even">
 <td>target_species</td>
-<td>Mga target na species para sa pinamamahalaang lugar. Maaari itong maging mga pangkat ng species o pang-agham na species. Bukas ang field.</td>
+<td>Mga target na species para sa pinamamahalaang lugar. Maaari itong isama ang ‘All_species’, isa o maraming mga pang-agham na species. Ang listahan ng dropdown ay konektado sa master species_ref at may kasamang mga species mula sa lahat ng mga kasosyo.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="odd">
 <td>species_flag</td>
-<td></td>
+<td>Ang bandila ay magiging pula kung ang “target_species” na pinili ay hindi isinangguni sa species_ref ng kasosyo.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>target_habitat</td>
-<td>Target na tirahan para sa pinamamahalaang lugar</td>
+<td>Target na tirahan para sa pinamamahalaang lugar. Kasama sa paunang natukoy na listahan ng dropdown ang mga pagpipilian sa tirahan: ‘reef, seagrass, bakawan, mud_flat, buhangin, malalim na tubig o iba pa’.</td>
 <td>mai-edit</td>
 </tr>
 <tr class="odd">
@@ -1297,7 +1297,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>admin1-3</td>
-<td>Pangalan ng admin2 na walang mga puwang o bantas, binibigyang diin lamang. Ang listahan ng dropdown ay konektado sa haligi ng” pangalan ” sa admin2_ref. * Ang patlang na ito ay magpapakita lamang para sa mga kasosyo na nais ang dropdown ng species na na-filter ng napili ng admin2.*</td>
+<td>Pangalan ng admin1, 2 o 3 na walang mga puwang o bantas, binibigyang diin lamang. Ang listahan ng dropdown ay konektado sa haligi ng “pangalan” sa kaukulang admin_ref. * Ang patlang na ito ay magpapakita lamang para sa mga kasosyo na nais ang dropdown ng species na na-filter ng admin na iyon.*</td>
 <td>mai-edit</td>
 </tr>
 <tr class="odd">

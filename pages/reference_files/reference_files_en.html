@@ -842,7 +842,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>gender_flag</td>
-<td>Unique number ID to identify the buyer. Please leave a comment if two different buyers have the same ID. By default, two buyers with the same exact name, even if they are from two different villages, will receive the same ID unless otherwise told.</td>
+<td>The flag will be red if the buyer_gender value is different for the same buyer (i.e.&nbsp;if Raymond Scott in admin3= Boston has gender=male, but Raymond Scott in admin3=Miami has gender=female, the flag will be red because the genders are not the same for the same buyer).</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -897,7 +897,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>gender_flag</td>
-<td>Unique number ID to identify the fisher. Please leave a comment if two different fishers have the same ID. By default, two fishers with the same exact name, even if they are from two different villages, will receive the same ID unless otherwise told.</td>
+<td>The flag will be red if the fisher_gender value is different for the same fisher (i.e.&nbsp;if Raymond Scott in admin3= Boston has gender=male, but Raymond Scott in admin3=Miami has gender=female, the flag will be red because the genders are not the same for the same fisher).</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
@@ -1142,37 +1142,37 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>admin3_fish</td>
-<td>t1.104.1</td>
+<td>The list of admin3s that fish within the management area.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>admin3_fish_flag</td>
-<td>t1.104.2</td>
+<td>The flag will be red if one of the admin3s listed in the “admin3_fish” column does not exist in the admin3_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>admin3_govern</td>
-<td>t1.104.3</td>
+<td>The list of admin3s that have a role in governing the management event.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>admin3_govern_flag</td>
-<td>t1.104.4</td>
+<td>The flag will be red if one of the admin3s listed in the “admin3_govern” column does not exist in the admin3_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_fishing_ground</td>
-<td>The list of fishing grounds associated with the management_id and closure date. The dropdown list is connected to the “name” column in the fishing_ground_ref.</td>
+<td>The list of fishing grounds associated with the management event. The dropdown list is connected to the “name” column in the fishing_ground_ref.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>fishing_ground_flag</td>
-<td>t1.105.5</td>
+<td>The flag will be red if one of the fishing grounds listed in “management_fishing_ground” does not exist in the fishing_ground_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_method</td>
-<td>The type of management method, including temporary closures, no take zones, etc. The predefined list includes: Temporary Closure, No Take Zone, Gear Restriction, Managed Access, Harvesting Ban or Deforestation Ban.</td>
+<td>The type of management method utilized during the event. The predefined list includes: Temporary Closure, No Take Zone, Gear Restriction, Managed Access, Harvesting Ban or Deforestation Ban.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
@@ -1182,7 +1182,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>target_group</td>
-<td>Target species group for the managed area. This can include ‘All’, one or multiple species groups.</td>
+<td>Target species group for the managed area. This can include ‘All’, one or multiple species groups. The dropdown list is connected to the MASTER species_ref and includes species groups from all partners.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
@@ -1197,7 +1197,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>target_habitat</td>
-<td>Target habitat for the managed area</td>
+<td>Target habitat for the managed area. The predefined dropdown list includes the habitat choices: ‘reef, seagrass, mangrove, mud_flat, sand, deepwater or other’.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
@@ -1297,7 +1297,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>admin1-3</td>
-<td>Name of admin2 with no spaces or punctuation, only underscores. The dropdown list is connected to the “name” column in the admin2_ref. <em>This field will only show for partners that want the species dropdown filtered by the admin2 chosen.</em></td>
+<td>Name of admin1, 2 or 3 with no spaces or punctuation, only underscores. The dropdown list is connected to the “name” column in the corresponding admin_ref. <em>This field will only show for partners that want the species dropdown filtered by that admin.</em></td>
 <td>editable</td>
 </tr>
 <tr class="odd">

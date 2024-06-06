@@ -588,10 +588,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="fisheries-data-validation-guide" class="level2">
 <h2 class="anchored" data-anchor-id="fisheries-data-validation-guide">Fisheries Data Validation Guide</h2>
-<p>All data that flows through the fisheries data system is validated in Smartsheet. Data is sent for validation under two scenarios; 1) new names are manually added in Kobo Collect, or 2) a numeric value falls beyond established thresholds. Once data is validated, both the master datasets in the database and the reference tables are updated. Reference tables serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the master datasets through joins. See the decision tree below (Figure 1).</p>
-<p>Data triggered for validation is sent to one of three tables: 1) Landings Name QA, 2) Species QA, or 3) Value Warnings QA. The instructions below detail the data validation process in Smartsheet for the three validation tables. Each validation table will require either selecting the correct field value from a dropdown list or entering correct values manually. The process will be appended for future data validation needs, as required.</p>
-<p>p2.1</p>
-<p>p2.2</p>
+<p>All data that flows through the fisheries data system is validated in Smartsheet. Data is sent for validation under three scenarios; 1) new names or ‘other’ information are manually added in Kobo Collect, 2) a numeric value falls beyond established thresholds or 3) names in the dataset do not have a corresponding match in a reference file. Once data is validated, both the datasets in the database and the reference tables are updated. Reference tables serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the datasets through joins. See the decision tree below (Figure 1).</p>
+<p>Data triggered for validation is sent to one of four tables: 1) Names and Gears, 2) Value Warnings, 3) Species or 4) Other. The instructions below detail the data validation process in Smartsheet Dynamic View for the four validation tables. Each validation table will require either selecting the correct field value from a dropdown list or entering correct values manually. The process will be appended for future data validation needs, as required.</p>
+<p>The ‘Names and Gears’ validation table contains new data from all the Kobo surveys including the new names of fishers, buyers, data collectors, fishing grounds, landing sites and gears. ‘Value Warnings’ contains numeric information collected from the Landings Monitoring or Landings Profiling survey which flagged a data value based on a pre-established threshold. The ‘Species’ validation table contains photos and new local names from all the surveys in order to validate new species using a double verification process. Lastly, the ‘Other’ data validation table contains ‘other’ information collected from the Landings Profiling, Community Profiling or Household Survey and is mainly validated for translational purposes.</p>
+<p>Daily e-mail messages are sent out with information and links on how to complete the data validation (see detailed instructions below). Additional notifications from Smartsheet or Barefoot Ocean may be sent via email to follow-up with incomplete data validation selections, if needed.</p>
 <p>Step 1: Provide Barefoot Ocean with point of contact email addresses for those responsible for data validation.</p>
 <ul>
 <li><p>The organization managing multiple partners may provide all points of contact information.</p></li>
@@ -626,7 +626,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>You can exit and re-enter by clicking on the dynamic view link from your email or logging into your account at any time. You do not need to validate all entries in one sitting.</p></li>
 <li><p>You can bookmark this link and return at any time.</p></li>
 </ul>
-<p>Table 1: Primary fields in the validation tables. Context fields provide information needed to validate data. Validation fields are populated with data that will be transferred to the master datasets. Only the validation field can be edited. Some fields are only visible in the “Details” panel when a row is clicked in the Dynamic View table.</p>
+<p>Table 1: Primary fields or columns in the validation tables. Context fields provide information needed to validate data. Validation fields are populated with data that will be transferred to the master datasets. Only the validation fields can be edited. Some fields are only visible in the “Details” panel when a row is clicked in the Dynamic View table.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -668,7 +668,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td>The field from the KoboToolbox form that needs to be validated: fisher_name, buyer_name, data_collector_name, or landingsite_name</td>
+<td>The field from the KoboCollect form that needs to be validated or name that does not have a match in the reference files.</td>
 <td>context</td>
 </tr>
 <tr class="odd">
@@ -713,27 +713,27 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>hhs_submission_ids</td>
-<td>t1.20.1</td>
+<td>List of submission ids this new data value appears in, from the household survey Kobo form.</td>
 <td>context</td>
 </tr>
 <tr class="even">
 <td>species_group</td>
-<td>t1.20.2</td>
+<td>The species group associated with the new gear name, as collected in the Kobo form. This will only appear if the “kobo_field” is a gear category.</td>
 <td>context</td>
 </tr>
 <tr class="odd">
 <td>gear_type</td>
-<td>t1.20.3</td>
+<td>Required IF validating new gear names. A dropdown list of gear types to be associated with the validated gear name.</td>
 <td>validation</td>
 </tr>
 <tr class="even">
 <td>fisher_gender</td>
-<td>t1.20.4</td>
+<td>The gender associated with the new fisher, as collected in the Kobo form. This will only appear if the “kobo_field” is a fisher name.</td>
 <td>context</td>
 </tr>
 <tr class="odd">
 <td>buyer_gender</td>
-<td>t1.20.5</td>
+<td>The gender associated with the new buyer, as collected in the Kobo form. This will only appear if the “kobo_field” is a buyer name.</td>
 <td>context</td>
 </tr>
 <tr class="even">
@@ -823,7 +823,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>data_origin</td>
-<td>Species Table</td>
+<td>t1.37</td>
 <td>context</td>
 </tr>
 <tr class="even">
@@ -908,37 +908,37 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td>t1.51</td>
+<td>The field from the KoboToolbox form that needs to be validated. This could be from a question (q) in the Landings Profiling (‘lp’), Community Profiling (‘cp’) or Household Survey (‘hhs’).</td>
 <td>context</td>
 </tr>
 <tr class="odd">
 <td>new_data</td>
-<td>t1.52</td>
+<td>The value that was entered for the corresponding kobo_field</td>
 <td>context</td>
 </tr>
 <tr class="even">
 <td>data_origin</td>
-<td>t1.53</td>
+<td>Dataset the data came from (Landings profiling, Community profiling, Household survey).</td>
 <td>context</td>
 </tr>
 <tr class="odd">
 <td>submission_id</td>
-<td>t1.54</td>
+<td>Submission ID from the Kobo form. Use this to compare against raw data, if needed, for validation.</td>
 <td>context</td>
 </tr>
 <tr class="even">
 <td>validation_options</td>
-<td>t1.55</td>
+<td>Select field with correct data (new_data), enter another value (other), or remove (remove row from analysis because data cannot be validated). Required. Only visible in the Details panel. Entry will disappear once data is validated.</td>
 <td>validation</td>
 </tr>
 <tr class="odd">
 <td>other</td>
-<td>t1.56</td>
+<td>Enter another value if none of the validation options are correct. Required IF “other” selected from validation_options. Only visible in the Details panel.</td>
 <td>validation</td>
 </tr>
 <tr class="even">
 <td>validated_data_english</td>
-<td>t1.57</td>
+<td>Required. Enter the English translation of the new_data or other field if ‘other’ was selected as the validation option. Only visible in the Details panel.</td>
 <td>validation</td>
 </tr>
 </tbody>
@@ -962,10 +962,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Click “Submit Update” to submit validation</p></li>
 <li><p>Check the “Send me a copy of my responses” box if you would like a copy of your responses sent to your email</p></li>
 </ul></li>
-<li><p>If you click “Send me a copy of my responses” you will receive an email titled “Update Confirmation: Landings Name QA”.</p>
+<li><p>If you click “Send me a copy of my responses” you will receive an email titled “Update Confirmation: Names and Gears”.</p>
 <ul>
 <li><p>There will be a table summarizing which entries were updated. Entries in which no option was selected in ’validation_options” will not be included.</p></li>
-<li><p>This email may contain a link to a sheet name “Landings Name QA”; however, access to this sheet is locked.</p></li>
+<li><p>This email may contain a link to a sheet name “Data Validation - Names and Gears”; however, access to this sheet is locked.</p></li>
 </ul></li>
 <li><p>To see any remaining validation needed, you will need to wait for the next update request email or open the Dynamic View.</p></li>
 </ul>

@@ -672,12 +672,12 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>active</td>
-<td>Sélectionnez ” Oui ” si des données y sont actuellement collectées. Si vous n’y collectez plus de données et que vous souhaitez les masquer dans le menu déroulant Kobo, sélectionnez ” Non.”</td>
+<td>Sélectionnez ” Oui ” si des données sont actuellement collectées auprès de cette personne/région. Si les données de cette personne/zone ne sont plus collectées et que vous souhaitez les masquer dans le menu déroulant Kobo, sélectionnez “Non.”</td>
 <td>modifiable</td>
 </tr>
 <tr class="even">
 <td>remove</td>
-<td>Choisissez ” Oui ” si vous souhaitez supprimer l’admin1. Les administrateurs ne doivent être supprimés que si le nom est incorrect ou s’il s’agit d’un doublon d’un enregistrement existant. Veuillez laisser un commentaire sur la raison de la suppression. Si les données n’y sont plus collectées, sélectionnez plutôt “Non” dans la colonne “actif”.</td>
+<td>Choisissez ” Oui ” si vous souhaitez supprimer l’enregistrement. Les enregistrements ne doivent être supprimés que si le nom est incorrect ou s’il s’agit d’un doublon d’un enregistrement existant.</td>
 <td>modifiable</td>
 </tr>
 <tr class="odd">
@@ -797,22 +797,22 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>landings_mon</td>
-<td></td>
+<td>Sélectionnez ” Oui ” si vous souhaitez que l’admin3 apparaisse dans la liste déroulante du formulaire de surveillance des atterrissages Kobo.</td>
 <td>modifiable</td>
 </tr>
 <tr class="odd">
 <td>landings_prof</td>
-<td></td>
+<td>Sélectionnez ” Oui ” si vous souhaitez que l’admin3 apparaisse dans la liste déroulante du formulaire de profilage Kobo landings.</td>
 <td>modifiable</td>
 </tr>
 <tr class="even">
 <td>comm_prof</td>
-<td></td>
+<td>Sélectionnez ” Oui ” si vous souhaitez que l’admin3 apparaisse dans le menu déroulant du formulaire de profilage de la communauté Kobo.</td>
 <td>modifiable</td>
 </tr>
 <tr class="odd">
 <td>hhs</td>
-<td></td>
+<td>Sélectionnez ” Oui ” si vous souhaitez que l’admin3 apparaisse dans le menu déroulant du formulaire d’enquête auprès des ménages Kobo.</td>
 <td>modifiable</td>
 </tr>
 <tr class="even">
@@ -842,7 +842,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>gender_flag</td>
-<td>Numéro d’identification unique pour identifier l’acheteur. Veuillez laisser un commentaire si deux acheteurs différents ont la même pièce d’identité. Par défaut, deux acheteurs portant exactement le même nom, même s’ils proviennent de deux villages différents, recevront la même pièce d’identité, sauf indication contraire.</td>
+<td>Le drapeau sera rouge si la valeur buyer_gender est différente pour le même acheteur (c’est-à-dire si Raymond Scott dans admin3 = Boston a gender = male, mais Raymond Scott dans admin3 = Miami a gender=female, le drapeau sera rouge car les sexes ne sont pas les mêmes pour le même acheteur).</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -897,7 +897,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>gender_flag</td>
-<td>Numéro d’identification unique pour identifier le pêcheur. Veuillez laisser un commentaire si deux pêcheurs différents ont la même pièce d’identité. Par défaut, deux pêcheurs portant exactement le même nom, même s’ils proviennent de deux villages différents, recevront la même pièce d’identité, sauf indication contraire.</td>
+<td>Le drapeau sera rouge si la valeur fisher_gender est différente pour le même pêcheur (c’est-à-dire si Raymond Scott dans admin3 = Boston a gender = male, mais Raymond Scott dans admin3 = Miami a gender=female, le drapeau sera rouge car les sexes ne sont pas les mêmes pour le même pêcheur).</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
@@ -1132,7 +1132,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>management_id_unique</td>
-<td>Nom unique de la zone de gestion et date de fermeture. Cela devrait être le management_id sans espaces ni ponctuation combinés à un numéro qui identifie la fermeture unique avec cette zone. Par exemple, si un management_id appelé Boston était associé à deux dates de fermeture, nous aurions deux champs management_id_unique attribués. L’un pourrait être Boston_1 et un autre Boston_2 pour identifier les fermetures dans une zone de gestion.</td>
+<td>Nom unique de la zone de gestion et dates d’entrée en vigueur. Plus précisément, il contient les informations suivantes séparées par un trait de soulignement: management_id, management_method, close_date et open_date.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -1142,62 +1142,62 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>admin3_fish</td>
-<td>t1.104.1</td>
+<td>La liste des administrateurs qui pêchent dans la zone de gestion.</td>
 <td>modifiable</td>
 </tr>
 <tr class="even">
 <td>admin3_fish_flag</td>
-<td>t1.104.2</td>
+<td>Le drapeau sera rouge si l’un des admin3 répertoriés dans la colonne ” admin3_fish” n’existe pas dans admin3_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>admin3_govern</td>
-<td>t1.104.3</td>
+<td>La liste des administrateurs qui ont un rôle dans la gouvernance de l’événement de gestion.</td>
 <td>modifiable</td>
 </tr>
 <tr class="even">
 <td>admin3_govern_flag</td>
-<td>t1.104.4</td>
+<td>Le drapeau sera rouge si l’un des admin3 répertoriés dans la colonne ” admin3_govern” n’existe pas dans admin3_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_fishing_ground</td>
-<td>La liste des zones de pêche associées à l’identifiant de gestion et à la date de fermeture.</td>
+<td>La liste des lieux de pêche associés à l’événement de gestion. La liste déroulante est connectée à la colonne ” nom ” dans le fishing_ground_ref.</td>
 <td>modifiable</td>
 </tr>
 <tr class="even">
 <td>fishing_ground_flag</td>
-<td>t1.105.5</td>
+<td>Le drapeau sera rouge si l’une des zones de pêche répertoriées dans “management_fishing_ground” n’existe pas dans la fishing_ground_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_method</td>
-<td>Le type de méthode de gestion, y compris les fermetures temporaires, les zones de non-prélèvement, etc. Il s’agit d’une liste prédéfinie. Veuillez commenter si vous n’êtes pas sûr.</td>
+<td>Le type de méthode de gestion utilisée lors de l’événement. La liste prédéfinie comprend: Fermeture Temporaire, Zone d’Interdiction de Prélèvement, Restriction d’engins, Accès Géré, Interdiction de Récolte ou Interdiction de Déforestation.</td>
 <td>modifiable</td>
 </tr>
 <tr class="even">
 <td>regulation_type</td>
-<td></td>
+<td>Le type de réglementation légale. La liste prédéfinie comprend: règlement du chef de village, décret du chef de village, règlement conjoint du chef de village ou aucun.</td>
 <td>modifiable</td>
 </tr>
 <tr class="odd">
 <td>target_group</td>
-<td></td>
+<td>Groupe d’espèces cible pour la zone gérée. Cela peut inclure ’Tous”, un ou plusieurs groupes d’espèces. La liste déroulante est connectée à la référence PRINCIPALE des espèces et inclut les groupes d’espèces de tous les partenaires.</td>
 <td>modifiable</td>
 </tr>
 <tr class="even">
 <td>target_species</td>
-<td>Espèces cibles pour la zone gérée. Il peut s’agir de groupes d’espèces ou d’espèces scientifiques. Le champ est ouvert.</td>
+<td>Espèces cibles pour la zone gérée. Cela peut inclure “Toutes les espèces”, une ou plusieurs espèces scientifiques. La liste déroulante est connectée à la référence PRINCIPALE des espèces et inclut les espèces de tous les partenaires.</td>
 <td>modifiable</td>
 </tr>
 <tr class="odd">
 <td>species_flag</td>
-<td></td>
+<td>Le drapeau sera rouge si la “cible_espèce” choisie n’est pas référencée dans la référence_espèce du partenaire.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>target_habitat</td>
-<td>Habitat cible pour la zone gérée</td>
+<td>Habitat cible pour la zone gérée. La liste déroulante prédéfinie inclut les choix d’habitat: ‘récif, herbiers marins, mangrove, vasier, sable, eau profonde ou autre’.</td>
 <td>modifiable</td>
 </tr>
 <tr class="odd">
@@ -1297,7 +1297,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>admin1-3</td>
-<td>Nom de admin2 sans espaces ni ponctuation, uniquement des traits de soulignement. La liste déroulante est connectée à la colonne ” nom ” dans admin2_ref. <em>Ce champ ne s’affichera que pour les partenaires qui souhaitent que la liste déroulante des espèces soit filtrée par l’administrateur 2 choisi.</em></td>
+<td>Nom de admin1, 2 ou 3 sans espaces ni ponctuation, uniquement des traits de soulignement. La liste déroulante est connectée à la colonne ” nom ” dans l’admin_ref correspondant. <em>Ce champ ne s’affichera que pour les partenaires qui souhaitent que la liste déroulante des espèces soit filtrée par cet administrateur.</em></td>
 <td>modifiable</td>
 </tr>
 <tr class="odd">

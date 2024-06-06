@@ -588,10 +588,6 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="panduan-validasi-data-perikanan" class="level2">
 <h2 class="anchored" data-anchor-id="panduan-validasi-data-perikanan">Panduan Validasi Data Perikanan</h2>
-<p>Semua data yang mengalir melalui sistem data perikanan divalidasi dalam Smartsheet. Data dikirim untuk validasi dalam dua skenario; 1) nama baru ditambahkan secara manual di Kobo Collect, atau 2) nilai numerik melampaui ambang batas yang ditetapkan. Setelah data divalidasi, kumpulan data master dalam database dan tabel referensi diperbarui. Tabel referensi berfungsi sebagai input untuk daftar dropdown dalam formulir KoBoToolbox dan berisi data yang ditambahkan ke kumpulan data master melalui gabungan. Lihat pohon keputusan di bawah ini (Gambar 1).</p>
-<p>Data yang dipicu untuk validasi dikirim ke salah satu dari tiga tabel: 1) QA Nama Pendaratan, 2) QA Spesies, atau 3) QA Peringatan Nilai. Petunjuk di bawah ini merinci proses validasi data di Smartsheet untuk tiga tabel validasi. Setiap tabel validasi akan memerlukan pemilihan nilai bidang yang benar dari daftar tarik-turun atau memasukkan nilai yang benar secara manual. Proses akan ditambahkan untuk kebutuhan validasi data di masa mendatang, sesuai kebutuhan.</p>
-<p>p2.1</p>
-<p>p2.2</p>
 <p>Langkah 1: Berikan Barefoot Ocean alamat email titik kontak bagi mereka yang bertanggung jawab atas validasi data.</p>
 <ul>
 <li><p>Organisasi yang mengelola banyak mitra dapat memberikan semua titik informasi kontak.</p></li>
@@ -626,7 +622,6 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Anda dapat keluar dan masuk kembali dengan mengeklik tautan tampilan dinamis dari email Anda atau masuk ke akun Anda kapan saja. Anda tidak perlu memvalidasi semua entri dalam sekali duduk.</p></li>
 <li><p>Anda dapat menandai tautan ini dan kembali kapan saja.</p></li>
 </ul>
-<p>Tabel 1: Bidang utama dalam tabel validasi. Bidang konteks memberikan informasi yang diperlukan untuk memvalidasi data. Bidang validasi diisi dengan data yang akan ditransfer ke kumpulan data master. Hanya bidang validasi yang dapat diedit. Beberapa bidang hanya terlihat di panel” Detail ” saat baris diklik di tabel Tampilan Dinamis.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -668,7 +663,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td>Bidang dari formulir KoBoToolbox yang perlu divalidasi: fisher_name, buyer_name, data_collector_name, atau landingsite_name</td>
+<td></td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
@@ -713,27 +708,27 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>hhs_submission_ids</td>
-<td>t1.20.1</td>
+<td></td>
 <td>konteks</td>
 </tr>
 <tr class="even">
 <td>species_group</td>
-<td>t1.20.2</td>
+<td></td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
 <td>gear_type</td>
-<td>t1.20.3</td>
+<td></td>
 <td>validasi</td>
 </tr>
 <tr class="even">
 <td>fisher_gender</td>
-<td>t1.20.4</td>
+<td></td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
 <td>buyer_gender</td>
-<td>t1.20.5</td>
+<td></td>
 <td>konteks</td>
 </tr>
 <tr class="even">
@@ -823,7 +818,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>data_origin</td>
-<td>Tabel Spesies</td>
+<td>t1.37</td>
 <td>konteks</td>
 </tr>
 <tr class="even">
@@ -908,37 +903,37 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td>t1.51</td>
+<td></td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
 <td>new_data</td>
-<td>t1.52</td>
+<td></td>
 <td>konteks</td>
 </tr>
 <tr class="even">
 <td>data_origin</td>
-<td>t1.53</td>
+<td></td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
 <td>submission_id</td>
-<td>t1.54</td>
+<td></td>
 <td>konteks</td>
 </tr>
 <tr class="even">
 <td>validation_options</td>
-<td>t1.55</td>
+<td></td>
 <td>validasi</td>
 </tr>
 <tr class="odd">
 <td>other</td>
-<td>t1.56</td>
+<td></td>
 <td>validasi</td>
 </tr>
 <tr class="even">
 <td>validated_data_english</td>
-<td>t1.57</td>
+<td></td>
 <td>validasi</td>
 </tr>
 </tbody>
@@ -962,10 +957,9 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Klik “Kirim Pembaruan” untuk mengirimkan validasi</p></li>
 <li><p>Centang kotak “Kirimi saya salinan tanggapan saya” jika Anda ingin salinan tanggapan Anda dikirim ke email Anda</p></li>
 </ul></li>
-<li><p>Jika Anda mengklik “Kirimi saya salinan tanggapan saya”, Anda akan menerima email berjudul “Konfirmasi Pembaruan: Nama Pendaratan QA”.</p>
-<ul>
-<li><p>Akan ada tabel yang merangkum entri mana yang diperbarui. Entri di mana tidak ada opsi yang dipilih di ’validation_options” tidak akan disertakan.</p></li>
-<li><p>Email ini mungkin berisi tautan ke nama lembar “Landings Name QA”; namun, akses ke lembar ini dikunci.</p></li>
+<li><ul>
+<li></li>
+<li></li>
 </ul></li>
 <li><p>Untuk melihat sisa validasi yang diperlukan, Anda harus menunggu email permintaan pembaruan berikutnya atau membuka Tampilan Dinamis.</p></li>
 </ul>

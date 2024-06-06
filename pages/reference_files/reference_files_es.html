@@ -672,12 +672,12 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>active</td>
-<td>Seleccione ” Sí ” si los datos se están recopilando allí actualmente. Si ya no estás recopilando datos allí y deseas ocultarlos del menú desplegable de Kobo, selecciona ” No.”</td>
+<td>Seleccione ” Sí ” si actualmente se están recopilando datos de esta persona / área. Si ya no se recopilan datos de esta persona / área y desea ocultarlos del menú desplegable de Kobo, seleccione ” No.”</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>remove</td>
-<td>Elija ” Sí ” si desea eliminar el administrador1. Admin1s solo debe eliminarse si el nombre es incorrecto o es un duplicado de un registro existente. Por favor, deje un comentario sobre el motivo de la eliminación. Si los datos ya no se recopilan allí, seleccione ” No “en la columna” activo”.</td>
+<td>Elija ” Sí ” si desea eliminar el registro. Los registros solo deben eliminarse si el nombre es incorrecto o si es un duplicado de un registro existente.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
@@ -797,22 +797,22 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>landings_mon</td>
-<td></td>
+<td>Seleccione ” Sí ” si desea que admin3 aparezca en el menú desplegable del formulario de monitoreo de Kobo landings.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
 <td>landings_prof</td>
-<td></td>
+<td>Seleccione ” Sí ” si desea que admin3 aparezca en el menú desplegable del formulario de creación de perfiles de Kobo landings.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>comm_prof</td>
-<td></td>
+<td>Selecciona ” Sí ” si quieres que admin3 aparezca en el menú desplegable del formulario de creación de perfiles de la comunidad de Kobo.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
 <td>hhs</td>
-<td></td>
+<td>Selecciona ” Sí ” si quieres que el administrador3 aparezca en el menú desplegable del formulario de encuesta de hogares de Kobo.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
@@ -842,7 +842,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>gender_flag</td>
-<td>Número único de identificación para identificar al comprador. Por favor, deje un comentario si dos compradores diferentes tienen la misma identificación. De forma predeterminada, dos compradores con el mismo nombre exacto, incluso si son de dos aldeas diferentes, recibirán la misma identificación a menos que se indique lo contrario.</td>
+<td>La bandera será roja si el valor buyer_gender es diferente para el mismo comprador (es decir, si Raymond Scott en admin3 = Boston tiene género = masculino, pero Raymond Scott en admin3 = Miami tiene género = femenino, la bandera será roja porque los géneros no son los mismos para el mismo comprador).</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -897,7 +897,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>gender_flag</td>
-<td>ID de número único para identificar al pescador. Por favor, deje un comentario si dos pescadores diferentes tienen la misma identificación. Por defecto, dos pescadores con el mismo nombre exacto, incluso si son de dos aldeas diferentes, recibirán la misma identificación a menos que se indique lo contrario.</td>
+<td>La bandera será roja si el valor fisher_gender es diferente para el mismo pescador (es decir, si Raymond Scott en admin3 = Boston tiene género = masculino, pero Raymond Scott en admin3 = Miami tiene género = femenino, la bandera será roja porque los géneros no son los mismos para el mismo pescador).</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
@@ -1132,7 +1132,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>management_id_unique</td>
-<td>Nombre único del área de gestión y fecha de cierre. Este debe ser el management_id sin espacios ni puntuación combinado con un número que identifique el cierre único con esa área. Por ejemplo, si un management_id llamado Boston tuviera dos fechas de cierre asociadas, tendríamos asignados dos campos management_id_unique. Uno podría ser Boston_1 y otro Boston_2 para identificar cierres dentro de un área de gestión.</td>
+<td>Nombre único del área de gestión y fechas de vigencia. Más específicamente, contiene la siguiente información separada por un guión bajo: management_id, management_method, close_date y open_date.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -1142,62 +1142,62 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>admin3_fish</td>
-<td>t1.104.1</td>
+<td>La lista de administradores3 que pescan dentro del área de manejo.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>admin3_fish_flag</td>
-<td>t1.104.2</td>
+<td>La bandera será roja si uno de los admin3 enumerados en la columna” admin3_fish ” no existe en admin3_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>admin3_govern</td>
-<td>t1.104.3</td>
+<td>La lista de admin3 que tienen un papel en el gobierno del evento de gestión.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>admin3_govern_flag</td>
-<td>t1.104.4</td>
+<td>La bandera será roja si uno de los admin3 enumerados en la columna” admin3_govern ” no existe en admin3_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_fishing_ground</td>
-<td>La lista de caladeros asociados con el management_id y la fecha de veda.</td>
+<td>La lista de caladeros asociados al evento de gestión. La lista desplegable está conectada a la columna “nombre” en fishing_ground_ref.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>fishing_ground_flag</td>
-<td>t1.105.5</td>
+<td>La bandera será roja si uno de los caladeros enumerados en “management_fishing_ground” no existe en fishing_ground_ref.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_method</td>
-<td>El tipo de método de gestión, incluidos cierres temporales, zonas de exclusión, etc. Esta es una lista predefinida. Por favor comente si no está seguro.</td>
+<td>El tipo de método de gestión utilizado durante el evento. La lista predefinida incluye: Cierre Temporal, Zona de No Captura, Restricción de Artes, Acceso Administrado, Prohibición de Recolección o Prohibición de Deforestación.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>regulation_type</td>
-<td></td>
+<td>El tipo de regulación legal. La lista predefinida incluye: regulación de jefes de aldea, decreto de jefes de aldea, regulación conjunta de jefes de aldea o ninguna.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
 <td>target_group</td>
-<td></td>
+<td>Grupo de especies objetivo para el área administrada. Esto puede incluir ‘Todos’, uno o varios grupos de especies. La lista desplegable está conectada a MASTER species_ref e incluye grupos de especies de todos los socios.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>target_species</td>
-<td>Especies objetivo para el área manejada. Pueden ser grupos de especies o especies científicas. El campo está abierto.</td>
+<td>Especies objetivo para el área manejada. Esto puede incluir ‘All_species’, una o varias especies científicas. La lista desplegable está conectada a MASTER species_ref e incluye especies de todos los socios.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
 <td>species_flag</td>
-<td></td>
+<td>La bandera será roja si la “especie_objetivo” elegida no está referenciada en la referencia_especie del socio.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>target_habitat</td>
-<td>Hábitat objetivo para el área administrada</td>
+<td>Hábitat objetivo para el área administrada. La lista desplegable predefinida incluye las opciones de hábitat: ‘arrecife, pastos marinos, manglar, fango, arena, aguas profundas u otros’.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
@@ -1297,7 +1297,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>admin1-3</td>
-<td>Nombre del administrador2 sin espacios ni signos de puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en admin2_ref. <em>Este campo solo se mostrará para los socios que deseen que el menú desplegable de especies se filtre por el admin2 elegido.</em></td>
+<td>Nombre del administrador1, 2 o 3 sin espacios ni signos de puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en la referencia administrativa correspondiente. <em>Este campo solo se mostrará para los socios que deseen que ese administrador filtre el menú desplegable de especies.</em></td>
 <td>editable</td>
 </tr>
 <tr class="odd">
