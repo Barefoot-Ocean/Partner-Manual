@@ -1,9 +1,9 @@
 key,mg
 title,Torolalana Fanamarinana Ny Angon-Drakitra Momba Ny Jono
-p1,
-p2,
-p2.1,
-p2.2,
+p1,"Ny angon-drakitra rehetra izay mikoriana amin'ny alalan'ny rafitra angon-drakitra momba ny jono dia voamarina ao amin'ny Smartsheet. Ny angon-drakitra dia alefa ho fanamarinana amin'ny tranga telo; 1) ny anarana vaovao na ny fampahalalana 'hafa' dia ampiana tanana ao Amin'ny Kobo Collect, 2) ny sanda isa dia mihoatra ny fetra napetraka na 3) ny anarana ao amin'ny angon-drakitra dia tsy manana lalao mifanaraka amin'izany ao anaty rakitra referansa. Raha vao voamarina ny angon-drakitra, dia havaozina ny angon-drakitra ao amin'ny tahiry sy ny tabilao fanovozan-kevitra. Ny tabilao referansa dia miasa ho toy ny fidirana ho an'ny lisitry ny fihenam-bidy amin'ny endrika KoboToolbox ary misy angona izay ampiana amin'ny angon-drakitra amin'ny alàlan'ny fidirana. Jereo ny hazo fanapahan-kevitra etsy ambany (Sary 1)."
+p2,"Ny angon-drakitra nateraky ny fanamarinana dia alefa any amin'ny iray amin'ireo latabatra efatra: 1) Anarana sy Fitaovana, 2) Fampitandremana Ny Sanda, 3) Karazana na 4) Hafa. Ny toromarika etsy ambany dia mamaritra ny fizotry ny fanamarinana ny angon-drakitra ao amin'ny Smartsheet Dynamic View ho an'ireo latabatra fanamarinana efatra. Ny tabilao fanamarinana tsirairay dia mitaky ny fisafidianana ny sanda marina avy amin'ny lisitry ny fihenam-bidy na ny fampidirana ny sanda marina amin'ny tanana. Ho ampiana ny dingana ho an'ny filàna fanamarinana angon-drakitra amin'ny ho avy, araka ny takiana."
+p2.1,"Ny tabilao fanamarinana' Names and Gears ' dia ahitana angon-drakitra vaovao avy amin'ny fanadihadiana Kobo rehetra, anisan'izany ny anarana vaovao an'ny mpanjono, mpividy, mpanangona angon-drakitra, toeram-panjonoana, toerana fipetrahana ary fitaovana. Ny ""fampitandremana momba ny sanda"" dia ahitana fampahalalana isa nangonina avy amin'ny Landings Monitoring na Landings Profiling survey izay nanamarika ny sandan'ny angon-drakitra mifototra amin'ny tokonam-baravarana efa napetraka mialoha. Ny tabilao fanamarinana 'Karazana' dia ahitana sary sy anarana vaovao avy amin'ny fanadihadiana rehetra mba hanamarinana ireo karazana vaovao amin'ny fampiasana dingana fanamarinana roa. Farany, ny tabilao fanamarinana angon-drakitra' Hafa 'dia misy fampahalalana' hafa ' nangonina avy amin'ny Landings Profiling, Community Profiling na Household Survey ary voamarina indrindra ho an'ny tanjona fandikan-teny."
+p2.2,"Ny hafatra mailaka isan'andro dia alefa miaraka amin'ny fampahalalana sy rohy momba ny fomba hamitana ny fanamarinana ny angona (jereo ny torolàlana amin'ny antsipiriany etsy ambany). Ny fampandrenesana fanampiny avy amin'ny Smartsheet na Barefoot Ocean dia azo alefa amin'ny alàlan'ny mailaka hanarahana ny fisafidianana fanamarinana angon-drakitra tsy feno, raha ilaina."
 step1,Dingana 1: Omeo Adiresy mailaka point of contact Ho an'ireo tompon'andraikitra amin'ny fanamarinana angon-drakitra ny Barefoot Ocean.
 point1,Ny fikambanana mitantana mpiara-miombon'antoka maro dia afaka manome ny teboka rehetra amin'ny fampahalalana momba ny fifandraisana.
 point2,Ny mpiara-miombon'antoka tsirairay dia afaka manome fampahalalana momba ny fifandraisana.
@@ -30,7 +30,7 @@ point18,Raha vantany vao voamarina dia hanjavona amin'ny fomba fijerinao mavitri
 point19,Tsindrio ny laharana manaraka ary avereno ny dingana hamenoana ny fanamarinana ho an'ny fidirana rehetra.
 point20,Azonao atao ny mivoaka sy miditra indray amin'ny fipihana ny rohy dynamic view avy amin'ny mailakao na miditra ao amin'ny kaontinao amin'ny fotoana rehetra. Tsy mila manamarina ny fidirana rehetra amin'ny seza iray ianao.
 point21,Azonao atao ny manisy tsoratadidy ity rohy ity ary miverina amin'ny fotoana rehetra.
-table1,
+table1,"Tabilao 1: saha Na tsanganana Voalohany ao amin'ny tabilao fanamarinana. Manome vaovao ilaina hanamarinana ny angon-drakitra ny sehatry ny toe-javatra. Ny saha fanamarinana dia feno angon-drakitra izay hafindra any amin'ny angon-drakitra fototra. Ny saha fanamarinana ihany no azo ovaina. Ny saha sasany dia tsy hita afa-tsy amin'ny tontonana ""Details"" rehefa tsindrio ny laharana iray ao amin'ny latabatra Fijerena Mavitrika."
 t1.1,Sehatra latabatra fanamarinana
 t1.2,Famaritana ny saha
 t1.3,Karazana saha
@@ -40,7 +40,7 @@ t1.7,fanamarinana
 t1.8,fiara
 t1.9,Tanàna na zana-tanàna izay nandefasana sy nandraketana ny trondro
 t1.10,Anaran'ny olona nanangona ny angona Tao Amin'ny kobo (enumerator)
-t1.12,
+t1.12,Ny saha avy amin'ny endrika kobocollect izay mila hamarinina na anarana izay tsy mifanaraka amin'ny rakitra referansa.
 t1.13,Ny sanda nampidirina ho an'ny kobo_field mifanaraka amin'izany
 t1.14,"Anarana mifanandrify akaiky izay efa misy ao amin'ny tahiry. Raha banga, tsy misy anarana efa misy mifanaraka amin'ny anarana ao amin'ny tsanganana ""new_data"""
 t1.15,"Anarana mifanandrify akaiky izay efa misy ao amin'ny tahiry. Raha banga, tsy misy anarana efa misy mifanaraka amin'ny anarana ao amin'ny tsanganana ""new_data"""
@@ -49,11 +49,11 @@ t1.17,"Safidio ny saha misy angon-drakitra marina (new_data, ref_match1, ref_mat
 t1.18,"Ampidiro sanda hafa raha tsy misy marina ny safidy fanamarinana. Ilaina raha"" hafa "" voafantina avy amin'ny validation_options. Hita ao amin'ny tontonana Details Ihany."
 t1.19,"Lisitry ny id fandefasana ity sanda vaovao ity dia hita ao amin'ny, avy amin'ny endrika kobo fanaraha-Maso ny fipetrahana"
 t1.20,"Lisitry ny id fandefasana ity sanda vaovao ity dia hita ao amin'ny, avy amin'ny landings profiling kobo form"
-t1.20.1,
-t1.20.2,
-t1.20.3,
-t1.20.4,
-t1.20.5,
+t1.20.1,"Lisitry ny karapanondro fandefasana ity sanda vaovao ity dia hita ao amin'ny, avy amin'ny endrika household survey kobo."
+t1.20.2,"Ny vondrona karazana mifandray amin'ny anarana vaovao, araka ny nangonina tao amin'ny endrika kobo. Hiseho izany raha toa ka sokajy fitaovana ny"" kobo_field""."
+t1.20.3,Ilaina RAHA manamarina ny anaran'ny fitaovana vaovao. Lisitry ny karazana fitaovana azo ampifandraisina amin'ny anarana fitaovana voamarina.
+t1.20.4,"Ny lahy sy ny vavy mifandray amin'ny mpanjono vaovao, araka ny nangonina tao amin'ny endrika Kobo. Tsy hiseho izany raha tsy anarana fisher ny"" kobo_field""."
+t1.20.5,"Ny lahy sy ny vavy mifandray amin'ny mpividy vaovao, araka ny nangonina tao amin'ny endrika Kobo. Hiseho izany raha toa ka anaran'ny mpividy ny"" kobo_field""."
 t1.22,Anaran'i fisher izay nahazo ny trondro
 t1.23,Nisy ny fanjonoana daty
 t1.24,Karazana anarana eo an toerana
@@ -69,8 +69,12 @@ t1.33,"Raha marina = Y, ny sanda dia auto-populated, raha marina = N, ampidiro n
 t1.34,Raha diso ny numerator_units dia safidio ny safidy marina avy amin'ny dropdown
 t1.35,Dataset ny angon-drakitra dia avy amin'ny (Landings fanaraha-maso na profiling).
 t1.36,"Id fandefasana avy amin'ny endrika Kobo. Ampiasao izany mba hampitahana amin'ny angon-drakitra manta, raha ilaina, ho fanamarinana."
+t1.37,"Dataset ny angon-drakitra dia avy amin'ny (Landings Fanaraha-maso 'lm', Landings Profiling 'lp', Community Profiling 'cp' Na Household Survey 'Hhs')"
+t1.37.1,Admin1 izay nipetrahan'ny trondro sy noraketina an-tsoratra.
+t1.37.2,Admin2 izay nipetrahan'ny trondro sy noraketina.
+t1.37.3,Anaran'i fisher mifandray amin'ity angon-drakitra vaovao ity.
 t1.38,Rohy mankany amin'ny sary izay natolotra Tao Amin'ny Kobo Collect
-t1.39,Ny sanda izay niditra ho karazana vaovao anarana eo An toerana Ao Kobo Manangona
+t1.39,Ny sanda nampidirina ho anarana vaovao eo An-toerana ao Amin'ny Kobo Collect Na anarana eo an-toerana SY anarana siantifika id (localname_scientificspecies) izay tsy mifanaraka amin'ny anarana hita ao amin'ny species_ref intsony
 t1.40,"Anarana mifanandrify akaiky izay efa misy ao amin'ny tahiry. Raha banga, tsy misy anarana efa misy mifanaraka amin'ny anarana ao amin'ny tsanganana ""new_data"""
 t1.41,"Anarana mifanandrify akaiky izay efa misy ao amin'ny tahiry. Raha banga, tsy misy anarana efa misy mifanaraka amin'ny anarana ao amin'ny tsanganana ""new_data"""
 t1.42,"Anarana mifanandrify akaiky izay efa misy ao amin'ny tahiry. Raha banga, tsy misy anarana efa misy mifanaraka amin'ny anarana ao amin'ny tsanganana ""new_data"""
@@ -78,17 +82,16 @@ t1.43,"Anarana iombonana amin'ny teny anglisy amin'ny karazana vaovao. Azafady m
 t1.44,"Anaran'ny fianakaviana siantifika amin'ny karazana vaovao. Azafady mba omeo raha fantatra, raha tsy izany dia avelao ho banga. (Tsy ilaina)"
 t1.45,"Anaran'ny karazana siantifika amin'ny karazana vaovao. Azafady mba omeo raha fantatra, raha tsy izany dia avelao ho banga. Ilaina: raha tsy fantatra ny anaran'ny karazana dia apetraho azafady ny haavon'ny famantarana taxonomika (ohatra ny anaran'ny Fianakaviana ,anarana mahazatra anglisy)"
 t1.46,"Id fandefasana avy amin'ny endrika Kobo. Ampiasao izany mba hampitahana amin'ny angon-drakitra manta, raha ilaina, ho fanamarinana."
-t1.47,Dataset ny angon-drakitra dia avy amin'ny (Landings fanaraha-maso na profiling).
 t1.48,"Safidio ny saha misy angon-drakitra marina (local_name_new, ref_match1, ref_match2, ref_match3), ampidiro sanda hafa (hafa), na esory (esory ny laharana amin'ny famakafakana satria tsy azo hamarinina ny angona). Ilaina. Hita ao amin'ny tontonana Details Ihany. Hanjavona ny fidirana raha vao voamarina ny angona."
 t1.49,"Ampidiro sanda hafa raha tsy misy marina ny safidy fanamarinana. Ilaina raha"" hafa "" voafantina avy amin'ny validation_options. Hita ao amin'ny tontonana Details Ihany."
 t1.50,"Ity tsanganana ity dia mitahiry ny fanehoan-kevitra farany natao ho an'io laharana io. Raha hijery ny fifanakalozan-kevitra manontolo momba ny fanehoan-kevitra momba an'io laharana io, tsindrio fotsiny na aiza na aiza eo amin'ny laharana. Hiseho ny tontonana details ary tsindrio ny tabilao ""Comments"" raha hijery ny fanehoan-kevitra rehetra momba an'io laharana io."
-t1.51,
-t1.52,
-t1.53,
-t1.54,
-t1.55,
-t1.56,
-t1.57,
+t1.51,"Ny saha avy amin'ny endrika KoboToolbox izay mila hamarinina. Mety ho avy amin'ny fanontaniana (q) ao amin'ny Landings Profiling ('lp'), Community Profiling ('cp') na Household Survey ('hhs') izany."
+t1.52,Ny sanda nampidirina ho an'ny kobo_field mifanaraka amin'izany
+t1.53,"Dataset ny angon-drakitra dia avy amin'ny (Landings profiling, Community profiling, Household survey)."
+t1.54,"Id fandefasana avy amin'ny endrika Kobo. Ampiasao izany mba hampitahana amin'ny angon-drakitra manta, raha ilaina, ho fanamarinana."
+t1.55,"Safidio ny saha misy angon-drakitra marina (new_data), ampidiro sanda hafa (hafa), na esory (esory ny laharana amin'ny famakafakana satria tsy azo hamarinina ny angona). Ilaina. Hita ao amin'ny tontonana Details Ihany. Hanjavona ny fidirana raha vao voamarina ny angona."
+t1.56,"Ampidiro sanda hafa raha tsy misy marina ny safidy fanamarinana. Ilaina raha"" hafa "" voafantina avy amin'ny validation_options. Hita ao amin'ny tontonana Details Ihany."
+t1.57,Ilaina. Ampidiro ny fandikan-teny anglisy ny new_data na saha hafa raha 'hafa' no voafidy ho safidy fanamarinana. Hita ao amin'ny tontonana Details Ihany.
 caption3,Sary 3: Ohatra Fampitandremana Momba Ny Lanja Mavitrika
 caption4,Sary 4: Ohatra Ny Dynamic View - Details Panel
 step3b,"Dingana 3, Safidy B: Fenoy ny fanamarinana ny angon-drakitrao amin'ny Alàlan'ny 'Fangatahana Misokatra'"
@@ -103,9 +106,9 @@ point29,"Rehefa tonga amin'ny fidirana farany ianao dia tsindrio ""Vita"". Hisy 
 point29.1,"Tsindrio ""Miverena"" raha mila mandinika ianao"
 point29.2,"Kitiho ny ""Alefaso Ny Fanavaozana"" handefasana fanamarinana"
 point29.3,"Zahao ny boaty"" Alefaso amiko ny kopian'ny valinteniko "" raha tianao ny kopian'ny valinteninao nalefa tamin'ny mailakao"
-point30,
-point30.1,
-point30.2,
+point30,"Raha tsindrio ""Alefaso amiko ny kopian'ny valinteniko"" dia hahazo mailaka mitondra ny lohateny hoe ""Update Confirmation: Names and Gears""ianao."
+point30.1,Hisy latabatra mamintina izay lahatsoratra nohavaozina. Tsy ho tafiditra ao ireo fidirana izay tsy nisy safidy voafantina tao amin'ny 'validation_options'.
+point30.2,"Ity mailaka ity dia mety misy rohy mankany amin'ny anaran'ny takelaka ""Data Validation - Names and Gears""; na izany aza, mihidy ny fidirana amin'ity takelaka ity."
 point31,Raha te hahita izay fanamarinana sisa ilaina dia mila miandry ny mailaka fangatahana fanavaozana manaraka ianao na manokatra Ny Dynamic View.
 caption5,"Sary 5: Ohatra amin'ny endrika ""Fangatahana Misokatra"""
 faq,Fanontaniana Apetraka Matetika:
