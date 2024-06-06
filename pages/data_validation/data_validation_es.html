@@ -590,6 +590,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="guía-de-validación-de-datos-pesqueros">Guía de Validación de Datos Pesqueros</h2>
 <p>Todos los datos que fluyen a través del sistema de datos de pesquerías se validan en Smartsheet. Los datos se envían para su validación en dos escenarios: 1) los nombres nuevos se agregan manualmente en Kobo Collect, o 2) un valor numérico supera los umbrales establecidos. Una vez validados los datos, se actualizan tanto los conjuntos de datos maestros de la base de datos como las tablas de referencia. Las tablas de referencia sirven como entradas para las listas desplegables en los formularios de KoBoToolbox y contienen datos que se agregan a los conjuntos de datos maestros a través de uniones. Vea el árbol de decisiones a continuación (Figura 1).</p>
 <p>Los datos activados para la validación se envían a una de tres tablas: 1) Control de Calidad del Nombre de los desembarques, 2) Control de Calidad de las Especies o 3) Control de Calidad de las Advertencias de valor. Las instrucciones a continuación detallan el proceso de validación de datos en Smartsheet para las tres tablas de validación. Cada tabla de validación requerirá seleccionar el valor de campo correcto de una lista desplegable o ingresar los valores correctos manualmente. El proceso se adjuntará para futuras necesidades de validación de datos, según sea necesario.</p>
+<p>p2.1</p>
+<p>p2.2</p>
 <p>Paso 1: Proporcione a Barefoot Ocean direcciones de correo electrónico de contacto para los responsables de la validación de datos.</p>
 <ul>
 <li><p>La organización que administra varios socios puede proporcionar todos los puntos de información de contacto.</p></li>
@@ -640,7 +642,7 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Todas las Mesas</strong></td>
+<td><strong>All Data Validation Tables</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -660,7 +662,7 @@ ul.task-list li input[type="checkbox"] {
 <td>contexto</td>
 </tr>
 <tr class="odd">
-<td><strong>Tabla de Nombres de Desembarques</strong></td>
+<td><strong>Names and Gears</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -710,138 +712,178 @@ ul.task-list li input[type="checkbox"] {
 <td>contexto</td>
 </tr>
 <tr class="odd">
-<td><strong>Tabla de Advertencias de Valor</strong></td>
+<td>hhs_submission_ids</td>
+<td>t1.20.1</td>
+<td>contexto</td>
+</tr>
+<tr class="even">
+<td>species_group</td>
+<td>t1.20.2</td>
+<td>contexto</td>
+</tr>
+<tr class="odd">
+<td>gear_type</td>
+<td>t1.20.3</td>
+<td>validación</td>
+</tr>
+<tr class="even">
+<td>fisher_gender</td>
+<td>t1.20.4</td>
+<td>contexto</td>
+</tr>
+<tr class="odd">
+<td>buyer_gender</td>
+<td>t1.20.5</td>
+<td>contexto</td>
+</tr>
+<tr class="even">
+<td><strong>Value Warnings</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>fisher_name</td>
 <td>Nombre del pescador que consiguió la captura</td>
 <td>contexto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>date_landed</td>
 <td>Fecha en que se desembarcó la captura</td>
 <td>contexto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>local_name</td>
 <td>Nombre local de la especie</td>
 <td>contexto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>warning_calc</td>
 <td>Valor unitario: peso / individual, precio / peso, largo / individual, ancho / individual</td>
 <td>contexto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>warning</td>
 <td>Tipo de advertencia</td>
 <td>contexto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>numerator</td>
 <td>Valor del numerador de advertencia: peso, precio, longitud</td>
 <td>contexto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>numerator_unit</td>
 <td>Unit of numerator: kg, g, lb, ons, USD, IDR, PHP, cm</td>
 <td>contexto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>denominator</td>
 <td>Valor del denominador: cuenta, peso</td>
 <td>contexto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>denominator_unit</td>
 <td>Unidad de denominador: número, kg, g, lb, ons</td>
 <td>contexto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>correct</td>
 <td>Y = los valores son correctos, N=los valores son incorrectos, Remove = eliminar del análisis porque los valores no se pueden validar. Requerido.</td>
 <td>validación</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>correct_numerator</td>
 <td>Si es correcto = Y, los valores se rellenan automáticamente, si es correcto = N, ingrese el valor correcto</td>
 <td>validación</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>correct_denominator</td>
 <td>Si es correcto = Y, los valores se rellenan automáticamente, si es correcto = N, ingrese el valor correcto</td>
 <td>validación</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>correct_numerator_unit</td>
 <td>Si las unidades numerator_units son incorrectas, seleccione la opción correcta en el menú desplegable</td>
 <td>validación</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>data_origin</td>
 <td>Conjunto de datos de donde provienen los datos (monitoreo de desembarques o elaboración de perfiles).</td>
 <td>contexto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>submission_id</td>
 <td>ID de envío del formulario de Kobo. Úselo para comparar con datos sin procesar, si es necesario, para la validación.</td>
 <td>contexto</td>
 </tr>
-<tr class="odd">
-<td><strong>Tabla de Especies</strong></td>
+<tr class="even">
+<td><strong>Species</strong></td>
 <td></td>
 <td></td>
 </tr>
+<tr class="odd">
+<td>data_origin</td>
+<td>Tabla de Especies</td>
+<td>contexto</td>
+</tr>
 <tr class="even">
+<td>admin1</td>
+<td>t1.37.1</td>
+<td>contexto</td>
+</tr>
+<tr class="odd">
+<td>admin2</td>
+<td>t1.37.2</td>
+<td>contexto</td>
+</tr>
+<tr class="even">
+<td>fisher_name</td>
+<td>t1.37.3</td>
+<td>contexto</td>
+</tr>
+<tr class="odd">
 <td>new_species_photo</td>
 <td>Enlace a la foto que se envió en Kobo Collect</td>
 <td>contexto</td>
 </tr>
-<tr class="odd">
-<td>local_name_new</td>
+<tr class="even">
+<td>new_data</td>
 <td>El valor que se ingresó como nombre local de una nueva especie en Kobo Collect</td>
 <td>contexto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ref_match1</td>
 <td>Nombre estrechamente coincidente que ya existe en la base de datos. Si está en blanco, ningún nombre existente coincide con el nombre en la columna “nuevo_datos”</td>
 <td>contexto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>ref_match2</td>
 <td>Nombre estrechamente coincidente que ya existe en la base de datos. Si está en blanco, ningún nombre existente coincide con el nombre en la columna “nuevo_datos”</td>
 <td>contexto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ref_match3</td>
 <td>Nombre estrechamente coincidente que ya existe en la base de datos. Si está en blanco, ningún nombre existente coincide con el nombre en la columna “nuevo_datos”</td>
 <td>contexto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>eng_common_name_new</td>
 <td>Nombre común inglés de nueva especie. Proporcione si lo sabe, de lo contrario déjelo en blanco. (No es obligatorio)</td>
 <td>validación</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>scientific_family_new</td>
 <td>Apellido científico de nuevas especies. Proporcione si lo sabe, de lo contrario déjelo en blanco. (No es obligatorio)</td>
 <td>validación</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>scientific_species_new</td>
 <td>Nombre científico de las especies nuevas. Proporcione si lo sabe, de lo contrario déjelo en blanco. Obligatorio: Si se desconoce el nombre de la especie, ingrese cualquier nivel de identificación taxonómica (por ejemplo, Apellido, nombre común en inglés)</td>
 <td>validación</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>submission_id</td>
 <td>ID de envío del formulario de Kobo. Úselo para comparar con datos sin procesar, si es necesario, para la validación.</td>
-<td>contexto</td>
-</tr>
-<tr class="odd">
-<td>data_origin</td>
-<td>Conjunto de datos de donde provienen los datos (monitoreo de desembarques o elaboración de perfiles).</td>
 <td>contexto</td>
 </tr>
 <tr class="even">
@@ -858,6 +900,46 @@ ul.task-list li input[type="checkbox"] {
 <td>latest_comment</td>
 <td>Esta columna almacena el último comentario que se realizó para esa fila. Para ver la discusión completa de los comentarios de esa fila, simplemente haga clic en cualquier lugar de la fila. Aparecerá el panel de detalles y haga clic en la pestaña “Comentarios” para ver todos los comentarios de esa fila.</td>
 <td>auto</td>
+</tr>
+<tr class="odd">
+<td><strong>Other</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>kobo_field</td>
+<td>t1.51</td>
+<td>contexto</td>
+</tr>
+<tr class="odd">
+<td>new_data</td>
+<td>t1.52</td>
+<td>contexto</td>
+</tr>
+<tr class="even">
+<td>data_origin</td>
+<td>t1.53</td>
+<td>contexto</td>
+</tr>
+<tr class="odd">
+<td>submission_id</td>
+<td>t1.54</td>
+<td>contexto</td>
+</tr>
+<tr class="even">
+<td>validation_options</td>
+<td>t1.55</td>
+<td>validación</td>
+</tr>
+<tr class="odd">
+<td>other</td>
+<td>t1.56</td>
+<td>validación</td>
+</tr>
+<tr class="even">
+<td>validated_data_english</td>
+<td>t1.57</td>
+<td>validación</td>
 </tr>
 </tbody>
 </table>
@@ -910,7 +992,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Si en algún momento encuentra algún error, tiene preguntas o necesita asistencia para completar la validación de datos, contáctenos en barefootinfo@barefootocean.org.</p>
 <p>Figura 6: Validación de Datos para Hacer Referencia al Flujo de Trabajo del Archivo</p>
-<p><img src="images/qa_workflow.jpg" class="img-fluid" width="678"></p>
+<p><img src="images/qa_workflow.png" class="img-fluid" width="678"></p>
 
 
 </section>

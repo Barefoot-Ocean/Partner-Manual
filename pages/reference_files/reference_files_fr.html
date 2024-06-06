@@ -796,353 +796,343 @@ ul.task-list li input[type="checkbox"] {
 <td>modifiable</td>
 </tr>
 <tr class="even">
-<td>m1-m4_flag</td>
-<td>L’indicateur sera vérifié si management_ID_1-4 n’existe pas dans le management_ref.</td>
-<td>BFO</td>
-</tr>
-<tr class="odd">
-<td>management_ID_1-4</td>
-<td>Nom de l’identifiant de gestion, avec espaces et ponctuation autorisés. S’il y a 4 zones de gestion au sein de l’admin3, il suffit de sélectionner la première unité de gestion dans “management_ID_1” , la deuxième unité de gestion dans “management_ID_2”, etc. La liste déroulante est connectée à la colonne “management_ID” dans le management_ref.</td>
-<td>modifiable</td>
-</tr>
-<tr class="even">
-<td>management_govern_1-4</td>
-<td>Oui / Non champ indiquant si le village est responsable de la gestion de la zone.</td>
-<td>modifiable</td>
-</tr>
-<tr class="odd">
 <td>landings_mon</td>
 <td></td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>landings_prof</td>
 <td></td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>comm_prof</td>
 <td></td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>hhs</td>
 <td></td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>buyer_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>country</td>
 <td>Code de pays ISO, qui est un code de combinaison de lettres internationalement reconnu</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>name</td>
 <td>Nom de l’acheteur sans espaces ni ponctuation, uniquement des traits de soulignement</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>label</td>
 <td>Nom de l’acheteur avec espaces et ponctuation autorisés. Veuillez ne pas modifier l’étiquette à moins que cela ne soit absolument nécessaire, car les jointures sont basées sur cela.</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>buyer_gender</td>
 <td>Sexe de l’acheteur; ‘male’ (homme), ‘female’ (femme), ‘nonbinary’ (non binaire) ou ‘business_nogender’</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
-<td>buyer_id</td>
+<tr class="odd">
+<td>gender_flag</td>
 <td>Numéro d’identification unique pour identifier l’acheteur. Veuillez laisser un commentaire si deux acheteurs différents ont la même pièce d’identité. Par défaut, deux acheteurs portant exactement le même nom, même s’ils proviennent de deux villages différents, recevront la même pièce d’identité, sauf indication contraire.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin1</td>
 <td>Admin1 nom de l’endroit où l’acheteur achète, avec espaces et ponctuation autorisés. Ceci est extrait de admin1_ref et rempli automatiquement en fonction du admin3_ref_name choisi.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin2</td>
 <td>Admin2 nom de l’endroit où l’acheteur achète, avec les espaces et la ponctuation autorisés. Ceci est extrait de admin2_ref et rempli automatiquement en fonction du admin3_ref_name choisi.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3</td>
 <td>Admin3 nom de l’endroit où l’acheteur achète, avec espaces et ponctuation autorisés. Ceci est extrait de admin3_ref et rempli automatiquement en fonction du admin3_ref_name choisi.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_ref_name</td>
 <td>Noms Admin2 et admin3 combinés sans espaces ni ponctuation, uniquement des traits de soulignement.La liste déroulante est connectée à la colonne ” nom ” dans admin3_ref.</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_flag</td>
 <td>L’indicateur sera rouge si la valeur” admin3_ref_name ” n’existe pas dans admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>fisher_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>Code de pays ISO, qui est un code de combinaison de lettres internationalement reconnu</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>name</td>
 <td>Nom du pêcheur sans espaces ni ponctuation, uniquement des traits de soulignement</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>label</td>
 <td>Nom du pêcheur avec espaces et ponctuation autorisés. Veuillez ne pas modifier l’étiquette à moins que cela ne soit absolument nécessaire, car les jointures sont basées sur cela.</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>fisher_gender</td>
 <td>Sexe de pêcheur; ‘male’ (homme), ‘female’ (femme), ‘nonbinary’ (non binaire) ou ‘business_nogender’</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
-<td>fisher_id</td>
+<tr class="even">
+<td>gender_flag</td>
 <td>Numéro d’identification unique pour identifier le pêcheur. Veuillez laisser un commentaire si deux pêcheurs différents ont la même pièce d’identité. Par défaut, deux pêcheurs portant exactement le même nom, même s’ils proviennent de deux villages différents, recevront la même pièce d’identité, sauf indication contraire.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin1</td>
 <td>Admin1 nom de l’endroit où le pêcheur débarque sa prise, avec les espaces et la ponctuation autorisés. Ceci est extrait de admin1_ref et rempli automatiquement en fonction du admin3_ref_name choisi.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin2</td>
 <td>Admin2 nom de l’endroit où le pêcheur débarque sa prise, avec les espaces et la ponctuation autorisés. Ceci est extrait de admin2_ref et rempli automatiquement en fonction du admin3_ref_name choisi.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3</td>
 <td>Admin3 nom de l’endroit où le pêcheur débarque sa prise, avec les espaces et la ponctuation autorisés. Ceci est extrait de admin3_ref et rempli automatiquement en fonction du admin3_ref_name choisi.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_ref_name</td>
 <td>Noms Admin2 et admin3 combinés sans espaces ni ponctuation, uniquement des traits de soulignement.La liste déroulante est connectée à la colonne ” nom ” dans admin3_ref.</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_flag</td>
 <td>L’indicateur sera rouge si la valeur” admin3_ref_name ” n’existe pas dans admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>data_collector_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>country</td>
 <td>Code de pays ISO, qui est un code de combinaison de lettres internationalement reconnu</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>name</td>
 <td>Nom du collecteur de données sans espaces ni ponctuation, uniquement des traits de soulignement</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>label</td>
 <td>Nom du collecteur de données avec espaces et ponctuation autorisés.</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>gender</td>
 <td>Sexe de collecteur de données; ‘male’ (homme), ‘female’ (femme), ‘nonbinary’ (non binaire) ou ‘business_nogender’</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_flag</td>
 <td>L’indicateur sera rouge si la valeur” admin3_ref_name ” n’existe pas dans admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_ref_name</td>
 <td>Noms Admin2 et admin3 combinés sans espaces ni ponctuation, uniquement des traits de soulignement.La liste déroulante est connectée à la colonne ” nom ” dans admin3_ref.</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>landings_mon</td>
 <td>Sélectionnez ” Oui ” si vous souhaitez que le collecteur de données apparaisse dans le menu déroulant du formulaire de surveillance des atterrissages Kobo.</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>landings_prof</td>
 <td>Sélectionnez ” Oui ” si vous souhaitez que le collecteur de données apparaisse dans le menu déroulant du formulaire de profilage Kobo landings</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>hhs</td>
 <td>Sélectionnez ” Oui ” si vous souhaitez que le collecteur de données apparaisse dans le menu déroulant du formulaire d’enquête auprès des ménages Kobo</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>comm_prof</td>
 <td>Sélectionnez ” Oui ” si vous souhaitez que le collecteur de données apparaisse dans le menu déroulant du formulaire de profilage de la communauté Kobo</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>fishing_ground_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>Code de pays ISO, qui est un code de combinaison de lettres internationalement reconnu</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>name</td>
 <td>Nom du lieu de pêche sans espaces ni ponctuation, uniquement des traits de soulignement</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>label</td>
 <td>Nom du lieu de pêche avec espaces et ponctuation autorisés. Veuillez ne pas modifier l’étiquette à moins que cela ne soit absolument nécessaire, car les jointures sont basées sur cela.</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_flag</td>
 <td>L’indicateur sera rouge si la valeur” admin3_ref_name ” n’existe pas dans admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_ref_name</td>
 <td>Noms Admin2 et admin3 combinés sans espaces ni ponctuation, uniquement des traits de soulignement.La liste déroulante est connectée à la colonne ” nom ” dans admin3_ref.</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>partner_flag</td>
 <td>Le drapeau sera rouge si la valeur “partner” n’existe pas dans la référence org_ref</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>partner</td>
 <td>Nom du partenaire sans espaces ni ponctuation, uniquement des traits de soulignement. La liste déroulante est connectée à la colonne ” nom ” dans org_ref.</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>latitude</td>
 <td>Latitude du lieu de pêche</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>longitude</td>
 <td>Longitude du lieu de pêche</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>gear_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>Code de pays ISO, qui est un code de combinaison de lettres internationalement reconnu</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>name</td>
 <td>Nom local de l’engrenage sans espaces ni ponctuation, uniquement des traits de soulignement</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>label</td>
 <td>Nom local de l’engin avec espaces et ponctuation autorisés. Veuillez ne pas modifier l’étiquette à moins que cela ne soit absolument nécessaire, car les jointures sont basées sur cela.</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>gear_global</td>
 <td>Nom anglais de l’engrenage sans espaces ni ponctuation, uniquement des traits de soulignement. Il s’agit d’une liste déroulante prédéfinie. Veuillez choisir celui qui correspond le mieux à l’équipement local ou commenter si vous n’êtes pas sûr.</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>gear_detail</td>
 <td>Description de l’engin</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>species_group</td>
 <td>Les espèces regroupent les engins cibles. Si un engin cible plusieurs espèces, créez une nouvelle ligne de données pour chaque groupe d’espèces. La liste déroulante est connectée à la colonne ” groupe d’espèces” dans la référence des espèces.</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>species_flag</td>
 <td>Le drapeau sera rouge si le “groupe d’espèces” choisi n’existe pas dans la référence des espèces.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>partner</td>
 <td>Nom du partenaire sans espaces ni ponctuation, uniquement des traits de soulignement. La liste déroulante est connectée à la colonne ” nom ” dans org_ref.</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>partner_flag</td>
 <td>Le drapeau sera rouge si la valeur “partner” n’existe pas dans la référence org_ref</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>landing_site_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>Code de pays ISO, qui est un code de combinaison de lettres internationalement reconnu</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>name</td>
 <td>Nom du site d’atterrissage sans espaces ni ponctuation, uniquement des traits de soulignement</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>label</td>
 <td>Nom du site d’atterrissage avec espaces et ponctuation autorisés</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_flag</td>
 <td>L’indicateur sera rouge si la valeur” admin3_ref_name ” n’existe pas dans admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_ref_name</td>
 <td>Noms Admin2 et admin3 combinés sans espaces ni ponctuation, uniquement des traits de soulignement.La liste déroulante est connectée à la colonne ” nom ” dans admin3_ref.</td>
 <td>modifiable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>management_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>Code de pays ISO, qui est un code de combinaison de lettres internationalement reconnu</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>partner_ID</td>
 <td>Nom du partenaire sans espaces ni ponctuation, uniquement des traits de soulignement. La liste déroulante est connectée à la colonne ” nom ” dans org_ref.</td>
 <td>modifiable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>partner_flag</td>
 <td>Le drapeau sera rouge si la valeur “partner” n’existe pas dans la référence org_ref</td>
+<td>BFO</td>
+</tr>
+<tr class="odd">
+<td>management_id_unique</td>
+<td>Nom unique de la zone de gestion et date de fermeture. Cela devrait être le management_id sans espaces ni ponctuation combinés à un numéro qui identifie la fermeture unique avec cette zone. Par exemple, si un management_id appelé Boston était associé à deux dates de fermeture, nous aurions deux champs management_id_unique attribués. L’un pourrait être Boston_1 et un autre Boston_2 pour identifier les fermetures dans une zone de gestion.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -1151,14 +1141,34 @@ ul.task-list li input[type="checkbox"] {
 <td>modifiable</td>
 </tr>
 <tr class="odd">
-<td>management_id_unique</td>
-<td>Nom unique de la zone de gestion et date de fermeture. Cela devrait être le management_id sans espaces ni ponctuation combinés à un numéro qui identifie la fermeture unique avec cette zone. Par exemple, si un management_id appelé Boston était associé à deux dates de fermeture, nous aurions deux champs management_id_unique attribués. L’un pourrait être Boston_1 et un autre Boston_2 pour identifier les fermetures dans une zone de gestion.</td>
-<td>BFO</td>
+<td>admin3_fish</td>
+<td>t1.104.1</td>
+<td>modifiable</td>
 </tr>
 <tr class="even">
+<td>admin3_fish_flag</td>
+<td>t1.104.2</td>
+<td>BFO</td>
+</tr>
+<tr class="odd">
+<td>admin3_govern</td>
+<td>t1.104.3</td>
+<td>modifiable</td>
+</tr>
+<tr class="even">
+<td>admin3_govern_flag</td>
+<td>t1.104.4</td>
+<td>BFO</td>
+</tr>
+<tr class="odd">
 <td>management_fishing_ground</td>
 <td>La liste des zones de pêche associées à l’identifiant de gestion et à la date de fermeture.</td>
 <td>modifiable</td>
+</tr>
+<tr class="even">
+<td>fishing_ground_flag</td>
+<td>t1.105.5</td>
+<td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_method</td>
@@ -1286,7 +1296,7 @@ ul.task-list li input[type="checkbox"] {
 <td>modifiable</td>
 </tr>
 <tr class="even">
-<td>admin2</td>
+<td>admin1-3</td>
 <td>Nom de admin2 sans espaces ni ponctuation, uniquement des traits de soulignement. La liste déroulante est connectée à la colonne ” nom ” dans admin2_ref. <em>Ce champ ne s’affichera que pour les partenaires qui souhaitent que la liste déroulante des espèces soit filtrée par l’administrateur 2 choisi.</em></td>
 <td>modifiable</td>
 </tr>

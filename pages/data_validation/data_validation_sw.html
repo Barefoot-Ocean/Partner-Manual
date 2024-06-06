@@ -590,6 +590,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="mwongozo-wa-uthibitishaji-wa-data-ya-uvuvi">Mwongozo Wa Uthibitishaji Wa Data Ya Uvuvi</h2>
 <p>Takwimu zote zinazotiririka kupitia mfumo wa data ya uvuvi zinathibitishwa Katika Smartsheet. Takwimu zinatumwa kwa uthibitisho chini ya matukio mawili; 1) majina mapya yanaongezwa kwa Mikono Katika Kobo Kukusanya, au 2) thamani ya nambari iko zaidi ya vizingiti vilivyowekwa. Mara baada ya data ni kuthibitishwa, wote datasets bwana katika database na meza za kumbukumbu ni updated. Jedwali la kumbukumbu kutumika kama pembejeo kwa orodha dropdown katika fomu kobotoolbox na vyenye data ambayo ni aliongeza kwa seti data bwana kupitia joins. Tazama mti wa uamuzi hapa chini (Kielelezo 1).</p>
 <p>Data triggered kwa uthibitisho ni alimtuma kwa moja ya meza tatu: 1) Kutua Jina QA, 2) Aina QA, au 3) Thamani Maonyo QA. Maagizo hapa chini yanaelezea mchakato wa uthibitishaji wa data katika Smartsheet kwa meza tatu za uthibitishaji. Kila meza ya uthibitisho itahitaji ama kuchagua thamani sahihi uwanja kutoka orodha dropdown au kuingia maadili sahihi manually. Mchakato huo utaongezwa kwa mahitaji ya uthibitisho wa data ya baadaye, kama inavyotakiwa.</p>
+<p>p2.1</p>
+<p>p2.2</p>
 <p>Hatua ya 1: Toa Bahari Isiyo Na Viatu na anwani za barua pepe za mawasiliano kwa wale wanaohusika na uthibitishaji wa data.</p>
 <ul>
 <li><p>Shirika kusimamia washirika mbalimbali inaweza kutoa pointi zote za mawasiliano ya habari.</p></li>
@@ -640,7 +642,7 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Meza Zote</strong></td>
+<td><strong>All Data Validation Tables</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -660,7 +662,7 @@ ul.task-list li input[type="checkbox"] {
 <td>muktadha</td>
 </tr>
 <tr class="odd">
-<td><strong>Jedwali La Majina Ya Kutua</strong></td>
+<td><strong>Names and Gears</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -710,138 +712,178 @@ ul.task-list li input[type="checkbox"] {
 <td>muktadha</td>
 </tr>
 <tr class="odd">
-<td><strong>Jedwali La Maonyo Ya Thamani</strong></td>
+<td>hhs_submission_ids</td>
+<td>t1.20.1</td>
+<td>muktadha</td>
+</tr>
+<tr class="even">
+<td>species_group</td>
+<td>t1.20.2</td>
+<td>muktadha</td>
+</tr>
+<tr class="odd">
+<td>gear_type</td>
+<td>t1.20.3</td>
+<td>uthibitisho</td>
+</tr>
+<tr class="even">
+<td>fisher_gender</td>
+<td>t1.20.4</td>
+<td>muktadha</td>
+</tr>
+<tr class="odd">
+<td>buyer_gender</td>
+<td>t1.20.5</td>
+<td>muktadha</td>
+</tr>
+<tr class="even">
+<td><strong>Value Warnings</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>fisher_name</td>
 <td>Jina la fisher ambaye alitua samaki</td>
 <td>muktadha</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>date_landed</td>
 <td>Tarehe ya kukamata ilitua</td>
 <td>muktadha</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>local_name</td>
 <td>Jina la eneo la spishi</td>
 <td>muktadha</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>warning_calc</td>
 <td>Thamani ya kitengo: uzito/mtu binafsi, bei/uzito, urefu/mtu binafsi, upana/mtu binafsi</td>
 <td>muktadha</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>warning</td>
 <td>Aina ya onyo</td>
 <td>muktadha</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>numerator</td>
 <td>Thamani ya nambari ya onyo: uzito, bei, urefu</td>
 <td>muktadha</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>numerator_unit</td>
 <td>Unit of numerator: kg, g, lb, ons, USD, IDR, PHP, cm</td>
 <td>muktadha</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>denominator</td>
 <td>Thamani ya dhehebu: hesabu, uzito</td>
 <td>muktadha</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>denominator_unit</td>
 <td>Kitengo cha dhehebu: nambari, kg, g, lb, ons</td>
 <td>muktadha</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>correct</td>
 <td>Y = maadili ni sahihi, n=maadili sio sahihi, Ondoa = ondoa kutoka kwa uchambuzi kwa sababu maadili hayawezi kuthibitishwa. Inahitajika.</td>
 <td>uthibitisho</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>correct_numerator</td>
 <td>Kama sahihi = Y, maadili ni auto-populated, Kama sahihi = N, kuingia thamani sahihi</td>
 <td>uthibitisho</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>correct_denominator</td>
 <td>Kama sahihi = Y, maadili ni auto-populated, Kama sahihi = N, kuingia thamani sahihi</td>
 <td>uthibitisho</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>correct_numerator_unit</td>
 <td>Ikiwa nambari_units sio sahihi, chagua chaguo sahihi kutoka kwa kushuka</td>
 <td>uthibitisho</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>data_origin</td>
 <td>Dataset data alikuja kutoka (Kutua ufuatiliaji au profiling).</td>
 <td>muktadha</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>submission_id</td>
 <td>Kitambulisho cha uwasilishaji kutoka Kwa Fomu Ya Kobo. Tumia hii kulinganisha dhidi ya data mbichi, ikiwa inahitajika, kwa uthibitisho.</td>
 <td>muktadha</td>
 </tr>
-<tr class="odd">
-<td><strong>Jedwali La Spishi</strong></td>
+<tr class="even">
+<td><strong>Species</strong></td>
 <td></td>
 <td></td>
 </tr>
+<tr class="odd">
+<td>data_origin</td>
+<td>Jedwali La Spishi</td>
+<td>muktadha</td>
+</tr>
 <tr class="even">
+<td>admin1</td>
+<td>t1.37.1</td>
+<td>muktadha</td>
+</tr>
+<tr class="odd">
+<td>admin2</td>
+<td>t1.37.2</td>
+<td>muktadha</td>
+</tr>
+<tr class="even">
+<td>fisher_name</td>
+<td>t1.37.3</td>
+<td>muktadha</td>
+</tr>
+<tr class="odd">
 <td>new_species_photo</td>
 <td>Kiungo kwa picha iliyowasilishwa Katika Kobo Kukusanya</td>
 <td>muktadha</td>
 </tr>
-<tr class="odd">
-<td>local_name_new</td>
+<tr class="even">
+<td>new_data</td>
 <td>Thamani ambayo iliingizwa kama spishi mpya jina la ndani Huko Kobo Hukusanya</td>
 <td>muktadha</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ref_match1</td>
 <td>Jina linalolingana kwa karibu ambalo tayari lipo kwenye hifadhidata. Kama tupu, hakuna majina zilizopo mechi jina katika safu “new_data”</td>
 <td>muktadha</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>ref_match2</td>
 <td>Jina linalolingana kwa karibu ambalo tayari lipo kwenye hifadhidata. Kama tupu, hakuna majina zilizopo mechi jina katika safu “new_data”</td>
 <td>muktadha</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ref_match3</td>
 <td>Jina linalolingana kwa karibu ambalo tayari lipo kwenye hifadhidata. Kama tupu, hakuna majina zilizopo mechi jina katika safu “new_data”</td>
 <td>muktadha</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>eng_common_name_new</td>
 <td>Jina la kawaida la kiingereza la spishi mpya. Tafadhali toa ikiwa inajulikana, vinginevyo acha tupu. (Haihitajiki)</td>
 <td>uthibitisho</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>scientific_family_new</td>
 <td>Jina la familia ya kisayansi ya aina mpya. Tafadhali toa ikiwa inajulikana, vinginevyo acha tupu. (Haihitajiki)</td>
 <td>uthibitisho</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>scientific_species_new</td>
 <td>Jina la aina ya kisayansi ya aina mpya. Tafadhali toa ikiwa inajulikana, vinginevyo acha tupu. Inahitajika: ikiwa jina la spishi halijulikani, tafadhali weka kiwango chochote cha kitambulisho cha ushuru (kwa mfano jina la Familia, jina la kawaida la kiingereza)</td>
 <td>uthibitisho</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>submission_id</td>
 <td>Kitambulisho cha uwasilishaji kutoka Kwa Fomu Ya Kobo. Tumia hii kulinganisha dhidi ya data mbichi, ikiwa inahitajika, kwa uthibitisho.</td>
-<td>muktadha</td>
-</tr>
-<tr class="odd">
-<td>data_origin</td>
-<td>Dataset data alikuja kutoka (Kutua ufuatiliaji au profiling).</td>
 <td>muktadha</td>
 </tr>
 <tr class="even">
@@ -858,6 +900,46 @@ ul.task-list li input[type="checkbox"] {
 <td>latest_comment</td>
 <td>Safu hii huhifadhi maoni ya mwisho ambayo yalitolewa kwa safu hiyo. Ili kuona majadiliano yote ya maoni kwa safu hiyo, bonyeza tu mahali popote kwenye safu. Jopo la maelezo litaonekana na bonyeza kwenye kichupo cha “Maoni” kutazama maoni yote ya safu hiyo.</td>
 <td>auto</td>
+</tr>
+<tr class="odd">
+<td><strong>Other</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>kobo_field</td>
+<td>t1.51</td>
+<td>muktadha</td>
+</tr>
+<tr class="odd">
+<td>new_data</td>
+<td>t1.52</td>
+<td>muktadha</td>
+</tr>
+<tr class="even">
+<td>data_origin</td>
+<td>t1.53</td>
+<td>muktadha</td>
+</tr>
+<tr class="odd">
+<td>submission_id</td>
+<td>t1.54</td>
+<td>muktadha</td>
+</tr>
+<tr class="even">
+<td>validation_options</td>
+<td>t1.55</td>
+<td>uthibitisho</td>
+</tr>
+<tr class="odd">
+<td>other</td>
+<td>t1.56</td>
+<td>uthibitisho</td>
+</tr>
+<tr class="even">
+<td>validated_data_english</td>
+<td>t1.57</td>
+<td>uthibitisho</td>
 </tr>
 </tbody>
 </table>
@@ -910,7 +992,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Ikiwa wakati wowote unakutana na makosa yoyote, una maswali, au unahitaji msaada wa kukamilisha uthibitisho wa data, tafadhali wasiliana nasi kwa barefootinfo@barefootocean.org.</p>
 <p>Kielelezo 6: Data Uthibitisho Kwa Kumbukumbu Faili Workflow</p>
-<p><img src="images/qa_workflow.jpg" class="img-fluid" width="678"></p>
+<p><img src="images/qa_workflow.png" class="img-fluid" width="678"></p>
 
 
 </section>

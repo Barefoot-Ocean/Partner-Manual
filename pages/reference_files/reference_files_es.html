@@ -796,353 +796,343 @@ ul.task-list li input[type="checkbox"] {
 <td>editable</td>
 </tr>
 <tr class="even">
-<td>m1-m4_flag</td>
-<td>Se marcará el indicador si management_ID_1-4 no existe en management_ref.</td>
-<td>BFO</td>
-</tr>
-<tr class="odd">
-<td>management_ID_1-4</td>
-<td>Nombre del ID de gestión, con espacios y puntuación permitidos. Si hay 4 áreas de gestión dentro del admin3, simplemente seleccione la primera unidad de gestión en “management_ID_1”, la segunda unidad de gestión en “management_ID_2”, etc. La lista desplegable está conectada a la columna “management_ID” en management_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>management_govern_1-4</td>
-<td>Sí / No campo que identifica si la aldea es responsable de la gestión del área.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
 <td>landings_mon</td>
 <td></td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>landings_prof</td>
 <td></td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>comm_prof</td>
 <td></td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>hhs</td>
 <td></td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>buyer_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>country</td>
 <td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>name</td>
 <td>Nombre del comprador sin espacios y sin puntuación, solo guiones bajos</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>label</td>
 <td>Nombre del comprador con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>buyer_gender</td>
 <td>Género del comprador; ‘male’ (masculino), ‘female’ (femenino), ‘nonbinary’ (no binario) o ‘business_nogender’</td>
 <td>editable</td>
 </tr>
-<tr class="even">
-<td>buyer_id</td>
+<tr class="odd">
+<td>gender_flag</td>
 <td>Número único de identificación para identificar al comprador. Por favor, deje un comentario si dos compradores diferentes tienen la misma identificación. De forma predeterminada, dos compradores con el mismo nombre exacto, incluso si son de dos aldeas diferentes, recibirán la misma identificación a menos que se indique lo contrario.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin1</td>
 <td>Administración1 nombre en el que compra el comprador, con espacios y puntuación permitidos. Esto se extrae de admin1_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin2</td>
 <td>Admin2 nombre donde compra el comprador, con espacios y puntuación permitidos. Esto se extrae de admin2_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3</td>
 <td>Admin3 nombre donde compra el comprador, con espacios y puntuación permitidos. Esto se extrae de admin3_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_ref_name</td>
 <td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna “nombre” en admin3_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_flag</td>
 <td>La bandera será roja si el valor” admin3_ref_name ” no existe en admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>fisher_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>name</td>
 <td>Nombre del pescador sin espacios y sin puntuación, solo guiones bajos</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>label</td>
 <td>Nombre del pescador con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>fisher_gender</td>
 <td>Género del pescador; ‘male’ (masculino), ‘female’ (femenino), ‘nonbinary’ (no binario) o ‘business_nogender’</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
-<td>fisher_id</td>
+<tr class="even">
+<td>gender_flag</td>
 <td>ID de número único para identificar al pescador. Por favor, deje un comentario si dos pescadores diferentes tienen la misma identificación. Por defecto, dos pescadores con el mismo nombre exacto, incluso si son de dos aldeas diferentes, recibirán la misma identificación a menos que se indique lo contrario.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin1</td>
 <td>Administración1 nombre donde el pescador desembarca su captura, con espacios y puntuación permitidos. Esto se extrae de admin1_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin2</td>
 <td>Admin2 nombre donde el pescador desembarca su captura, con espacios y puntuación permitidos. Esto se extrae de admin2_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3</td>
 <td>Admin3 nombre donde el pescador desembarca su captura, con espacios y puntuación permitidos. Esto se extrae de admin3_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_ref_name</td>
 <td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna “nombre” en admin3_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_flag</td>
 <td>La bandera será roja si el valor” admin3_ref_name ” no existe en admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>data_collector_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>country</td>
 <td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>name</td>
 <td>Nombre del recopilador de datos sin espacios ni signos de puntuación, solo guiones bajos</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>label</td>
 <td>Nombre del recopilador de datos con espacios y puntuación permitidos.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>gender</td>
 <td>Género del recopilador de datos; ‘male’ (masculino), ‘female’ (femenino), ‘nonbinary’ (no binario) o ‘business_nogender’</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_flag</td>
 <td>La bandera será roja si el valor” admin3_ref_name ” no existe en admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_ref_name</td>
 <td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna “nombre” en admin3_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>landings_mon</td>
 <td>Seleccione ” Sí ” si desea que el recopilador de datos aparezca en el menú desplegable del formulario de monitoreo de Kobo landings.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>landings_prof</td>
 <td>Selecciona ” Sí ” si quieres que el recopilador de datos aparezca en el menú desplegable del formulario de creación de perfiles de Kobo landings</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>hhs</td>
 <td>Selecciona ” Sí ” si quieres que el recopilador de datos aparezca en el menú desplegable del formulario de encuesta de hogares de Kobo</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>comm_prof</td>
 <td>Selecciona ” Sí ” si quieres que el recopilador de datos aparezca en el menú desplegable del formulario de creación de perfiles de la comunidad de Kobo</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>fishing_ground_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>name</td>
 <td>Nombre del caladero sin espacios y sin puntuación, solo subrayados</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>label</td>
 <td>Nombre del caladero con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_flag</td>
 <td>La bandera será roja si el valor” admin3_ref_name ” no existe en admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_ref_name</td>
 <td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna “nombre” en admin3_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>partner_flag</td>
 <td>La bandera será roja si el valor” socio ” no existe en org_ref</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>partner</td>
 <td>Nombre del socio sin espacios ni puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en org_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>latitude</td>
 <td>Latitud del caladero</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>longitude</td>
 <td>Longitud del caladero</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>gear_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>name</td>
 <td>Nombre local del engranaje sin espacios y sin puntuación, solo guiones bajos</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>label</td>
 <td>Nombre local del engranaje con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>gear_global</td>
 <td>Nombre en inglés del engranaje sin espacios y sin puntuación, solo guiones bajos. Esta es una lista desplegable predefinida. Elija el que mejor se adapte al equipo local o comente si no está seguro.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>gear_detail</td>
 <td>Descripción del equipo</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>species_group</td>
 <td>Las especies agrupan los objetivos de los aparejos. Si un engranaje se dirige a varias especies, cree una nueva fila de datos para cada grupo de especies. La lista desplegable está conectada a la columna “species_group” en species_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>species_flag</td>
 <td>La bandera será roja si el” species_group ” elegido no existe en species_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>partner</td>
 <td>Nombre del socio sin espacios ni puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en org_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>partner_flag</td>
 <td>La bandera será roja si el valor” socio ” no existe en org_ref</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>landing_site_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>name</td>
 <td>Nombre del lugar de aterrizaje sin espacios ni signos de puntuación, solo guiones bajos</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>label</td>
 <td>Nombre del lugar de aterrizaje con espacios y puntuación permitidos</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>admin3_flag</td>
 <td>La bandera será roja si el valor” admin3_ref_name ” no existe en admin3_ref.</td>
 <td>BFO</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>admin3_ref_name</td>
 <td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna “nombre” en admin3_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>management_ref</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>country</td>
 <td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
 <td>BFO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>partner_ID</td>
 <td>Nombre del socio sin espacios ni puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en org_ref.</td>
 <td>editable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>partner_flag</td>
 <td>La bandera será roja si el valor” socio ” no existe en org_ref</td>
+<td>BFO</td>
+</tr>
+<tr class="odd">
+<td>management_id_unique</td>
+<td>Nombre único del área de gestión y fecha de cierre. Este debe ser el management_id sin espacios ni puntuación combinado con un número que identifique el cierre único con esa área. Por ejemplo, si un management_id llamado Boston tuviera dos fechas de cierre asociadas, tendríamos asignados dos campos management_id_unique. Uno podría ser Boston_1 y otro Boston_2 para identificar cierres dentro de un área de gestión.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
@@ -1151,14 +1141,34 @@ ul.task-list li input[type="checkbox"] {
 <td>editable</td>
 </tr>
 <tr class="odd">
-<td>management_id_unique</td>
-<td>Nombre único del área de gestión y fecha de cierre. Este debe ser el management_id sin espacios ni puntuación combinado con un número que identifique el cierre único con esa área. Por ejemplo, si un management_id llamado Boston tuviera dos fechas de cierre asociadas, tendríamos asignados dos campos management_id_unique. Uno podría ser Boston_1 y otro Boston_2 para identificar cierres dentro de un área de gestión.</td>
-<td>BFO</td>
+<td>admin3_fish</td>
+<td>t1.104.1</td>
+<td>editable</td>
 </tr>
 <tr class="even">
+<td>admin3_fish_flag</td>
+<td>t1.104.2</td>
+<td>BFO</td>
+</tr>
+<tr class="odd">
+<td>admin3_govern</td>
+<td>t1.104.3</td>
+<td>editable</td>
+</tr>
+<tr class="even">
+<td>admin3_govern_flag</td>
+<td>t1.104.4</td>
+<td>BFO</td>
+</tr>
+<tr class="odd">
 <td>management_fishing_ground</td>
 <td>La lista de caladeros asociados con el management_id y la fecha de veda.</td>
 <td>editable</td>
+</tr>
+<tr class="even">
+<td>fishing_ground_flag</td>
+<td>t1.105.5</td>
+<td>BFO</td>
 </tr>
 <tr class="odd">
 <td>management_method</td>
@@ -1286,7 +1296,7 @@ ul.task-list li input[type="checkbox"] {
 <td>editable</td>
 </tr>
 <tr class="even">
-<td>admin2</td>
+<td>admin1-3</td>
 <td>Nombre del administrador2 sin espacios ni signos de puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en admin2_ref. <em>Este campo solo se mostrará para los socios que deseen que el menú desplegable de especies se filtre por el admin2 elegido.</em></td>
 <td>editable</td>
 </tr>

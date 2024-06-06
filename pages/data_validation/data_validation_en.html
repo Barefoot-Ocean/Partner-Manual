@@ -590,6 +590,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="fisheries-data-validation-guide">Fisheries Data Validation Guide</h2>
 <p>All data that flows through the fisheries data system is validated in Smartsheet. Data is sent for validation under two scenarios; 1) new names are manually added in Kobo Collect, or 2) a numeric value falls beyond established thresholds. Once data is validated, both the master datasets in the database and the reference tables are updated. Reference tables serve as inputs for dropdown lists in KoboToolbox forms and contain data that is added to the master datasets through joins. See the decision tree below (Figure 1).</p>
 <p>Data triggered for validation is sent to one of three tables: 1) Landings Name QA, 2) Species QA, or 3) Value Warnings QA. The instructions below detail the data validation process in Smartsheet for the three validation tables. Each validation table will require either selecting the correct field value from a dropdown list or entering correct values manually. The process will be appended for future data validation needs, as required.</p>
+<p>p2.1</p>
+<p>p2.2</p>
 <p>Step 1: Provide Barefoot Ocean with point of contact email addresses for those responsible for data validation.</p>
 <ul>
 <li><p>The organization managing multiple partners may provide all points of contact information.</p></li>
@@ -640,7 +642,7 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>All Tables</strong></td>
+<td><strong>All Data Validation Tables</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -660,7 +662,7 @@ ul.task-list li input[type="checkbox"] {
 <td>context</td>
 </tr>
 <tr class="odd">
-<td><strong>Landings Names Table</strong></td>
+<td><strong>Names and Gears</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -710,138 +712,178 @@ ul.task-list li input[type="checkbox"] {
 <td>context</td>
 </tr>
 <tr class="odd">
-<td><strong>Value Warnings Table</strong></td>
+<td>hhs_submission_ids</td>
+<td>t1.20.1</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>species_group</td>
+<td>t1.20.2</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>gear_type</td>
+<td>t1.20.3</td>
+<td>validation</td>
+</tr>
+<tr class="even">
+<td>fisher_gender</td>
+<td>t1.20.4</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>buyer_gender</td>
+<td>t1.20.5</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td><strong>Value Warnings</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>fisher_name</td>
 <td>Name of fisher who landed the catch</td>
 <td>context</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>date_landed</td>
 <td>Date catch was landed</td>
 <td>context</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>local_name</td>
 <td>Species local name</td>
 <td>context</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>warning_calc</td>
 <td>Unit value: weight/individual, price/weight, length/individual, width/individual</td>
 <td>context</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>warning</td>
 <td>Type of warning</td>
 <td>context</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>numerator</td>
 <td>Value of warning numerator: weight, price, length</td>
 <td>context</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>numerator_unit</td>
 <td>Unit of numerator: kg, g, lb, ons, USD, IDR, PHP, cm</td>
 <td>context</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>denominator</td>
 <td>Value of denominator: count, weight</td>
 <td>context</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>denominator_unit</td>
 <td>Unit of denominator: number, kg, g, lb, ons</td>
 <td>context</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>correct</td>
 <td>Y = values are correct, N=values are incorrect, Remove = remove from analysis because values cannot be validated. Required.</td>
 <td>validation</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>correct_numerator</td>
 <td>If correct = Y, values are auto-populated, If correct = N, enter correct value</td>
 <td>validation</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>correct_denominator</td>
 <td>If correct = Y, values are auto-populated, If correct = N, enter correct value</td>
 <td>validation</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>correct_numerator_unit</td>
 <td>If the numerator_units are incorrect, select the correct option from the dropdown</td>
 <td>validation</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>data_origin</td>
 <td>Dataset the data came from (Landings monitoring or profiling).</td>
 <td>context</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>submission_id</td>
 <td>Submission ID from the Kobo form. Use this to compare against raw data, if needed, for validation.</td>
 <td>context</td>
 </tr>
-<tr class="odd">
-<td><strong>Species Table</strong></td>
+<tr class="even">
+<td><strong>Species</strong></td>
 <td></td>
 <td></td>
 </tr>
+<tr class="odd">
+<td>data_origin</td>
+<td>Species Table</td>
+<td>context</td>
+</tr>
 <tr class="even">
+<td>admin1</td>
+<td>t1.37.1</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>admin2</td>
+<td>t1.37.2</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>fisher_name</td>
+<td>t1.37.3</td>
+<td>context</td>
+</tr>
+<tr class="odd">
 <td>new_species_photo</td>
 <td>Link to photo that was submitted in Kobo Collect</td>
 <td>context</td>
 </tr>
-<tr class="odd">
-<td>local_name_new</td>
+<tr class="even">
+<td>new_data</td>
 <td>The value that was entered as a new species local name in Kobo Collect</td>
 <td>context</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ref_match1</td>
 <td>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</td>
 <td>context</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>ref_match2</td>
 <td>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</td>
 <td>context</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ref_match3</td>
 <td>Closely matching name that already exists in the database. If blank, no existing names match the name in the “new_data” column</td>
 <td>context</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>eng_common_name_new</td>
 <td>English common name of new species. Please provide if known, else leave blank. (Not required)</td>
 <td>validation</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>scientific_family_new</td>
 <td>Scientific family name of new species. Please provide if known, else leave blank. (Not required)</td>
 <td>validation</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>scientific_species_new</td>
 <td>Scientific species name of new species. Please provide if known, else leave blank. Required: If species name is unknown, please put any level of taxonomic identification (e.g.&nbsp;Family name, English common name)</td>
 <td>validation</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>submission_id</td>
 <td>Submission ID from the Kobo form. Use this to compare against raw data, if needed, for validation.</td>
-<td>context</td>
-</tr>
-<tr class="odd">
-<td>data_origin</td>
-<td>Dataset the data came from (Landings monitoring or profiling).</td>
 <td>context</td>
 </tr>
 <tr class="even">
@@ -858,6 +900,46 @@ ul.task-list li input[type="checkbox"] {
 <td>latest_comment</td>
 <td>This column stores the last comment that was made for that row. To view the entire discussion of comments for that row, simply click anywhere on the row. The details panel will appear and click on the “Comments” tab to view all comments for that row.</td>
 <td>auto</td>
+</tr>
+<tr class="odd">
+<td><strong>Other</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>kobo_field</td>
+<td>t1.51</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>new_data</td>
+<td>t1.52</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>data_origin</td>
+<td>t1.53</td>
+<td>context</td>
+</tr>
+<tr class="odd">
+<td>submission_id</td>
+<td>t1.54</td>
+<td>context</td>
+</tr>
+<tr class="even">
+<td>validation_options</td>
+<td>t1.55</td>
+<td>validation</td>
+</tr>
+<tr class="odd">
+<td>other</td>
+<td>t1.56</td>
+<td>validation</td>
+</tr>
+<tr class="even">
+<td>validated_data_english</td>
+<td>t1.57</td>
+<td>validation</td>
 </tr>
 </tbody>
 </table>
@@ -910,7 +992,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>If at any time you encounter any errors, have questions, or need support for completing the data validation, please contact us at barefootinfo@barefootocean.org.</p>
 <p>Figure 6: Data Validation to Reference File Workflow</p>
-<p><img src="images/qa_workflow.jpg" class="img-fluid" width="678"></p>
+<p><img src="images/qa_workflow.png" class="img-fluid" width="678"></p>
 
 
 </section>

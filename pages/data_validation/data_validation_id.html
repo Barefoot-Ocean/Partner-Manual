@@ -590,6 +590,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="panduan-validasi-data-perikanan">Panduan Validasi Data Perikanan</h2>
 <p>Semua data yang mengalir melalui sistem data perikanan divalidasi dalam Smartsheet. Data dikirim untuk validasi dalam dua skenario; 1) nama baru ditambahkan secara manual di Kobo Collect, atau 2) nilai numerik melampaui ambang batas yang ditetapkan. Setelah data divalidasi, kumpulan data master dalam database dan tabel referensi diperbarui. Tabel referensi berfungsi sebagai input untuk daftar dropdown dalam formulir KoBoToolbox dan berisi data yang ditambahkan ke kumpulan data master melalui gabungan. Lihat pohon keputusan di bawah ini (Gambar 1).</p>
 <p>Data yang dipicu untuk validasi dikirim ke salah satu dari tiga tabel: 1) QA Nama Pendaratan, 2) QA Spesies, atau 3) QA Peringatan Nilai. Petunjuk di bawah ini merinci proses validasi data di Smartsheet untuk tiga tabel validasi. Setiap tabel validasi akan memerlukan pemilihan nilai bidang yang benar dari daftar tarik-turun atau memasukkan nilai yang benar secara manual. Proses akan ditambahkan untuk kebutuhan validasi data di masa mendatang, sesuai kebutuhan.</p>
+<p>p2.1</p>
+<p>p2.2</p>
 <p>Langkah 1: Berikan Barefoot Ocean alamat email titik kontak bagi mereka yang bertanggung jawab atas validasi data.</p>
 <ul>
 <li><p>Organisasi yang mengelola banyak mitra dapat memberikan semua titik informasi kontak.</p></li>
@@ -640,7 +642,7 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Semua Tabel</strong></td>
+<td><strong>All Data Validation Tables</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -660,7 +662,7 @@ ul.task-list li input[type="checkbox"] {
 <td>konteks</td>
 </tr>
 <tr class="odd">
-<td><strong>Tabel Nama Pendaratan</strong></td>
+<td><strong>Names and Gears</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -710,138 +712,178 @@ ul.task-list li input[type="checkbox"] {
 <td>konteks</td>
 </tr>
 <tr class="odd">
-<td><strong>Tabel Peringatan Nilai</strong></td>
+<td>hhs_submission_ids</td>
+<td>t1.20.1</td>
+<td>konteks</td>
+</tr>
+<tr class="even">
+<td>species_group</td>
+<td>t1.20.2</td>
+<td>konteks</td>
+</tr>
+<tr class="odd">
+<td>gear_type</td>
+<td>t1.20.3</td>
+<td>validasi</td>
+</tr>
+<tr class="even">
+<td>fisher_gender</td>
+<td>t1.20.4</td>
+<td>konteks</td>
+</tr>
+<tr class="odd">
+<td>buyer_gender</td>
+<td>t1.20.5</td>
+<td>konteks</td>
+</tr>
+<tr class="even">
+<td><strong>Value Warnings</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>fisher_name</td>
 <td>Nama nelayan yang mendaratkan hasil tangkapan</td>
 <td>konteks</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>date_landed</td>
 <td>Tangkapan tanggal telah mendarat</td>
 <td>konteks</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>local_name</td>
 <td>Nama lokal spesies</td>
 <td>konteks</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>warning_calc</td>
 <td>Nilai satuan: berat / individu, harga / berat, panjang / individu, lebar / individu</td>
 <td>konteks</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>warning</td>
 <td>Jenis peringatan</td>
 <td>konteks</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>numerator</td>
 <td>Nilai pembilang peringatan: berat, harga, panjang</td>
 <td>konteks</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>numerator_unit</td>
 <td>Unit of numerator: kg, g, lb, ons, USD, IDR, PHP, cm</td>
 <td>konteks</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>denominator</td>
 <td>Nilai penyebut: hitung, berat</td>
 <td>konteks</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>denominator_unit</td>
 <td>Satuan penyebut: bilangan, kg, g, lb, ons</td>
 <td>konteks</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>correct</td>
 <td>Nilai Y = benar, nilai N=salah, Hapus = hapus dari analisis karena nilai tidak dapat divalidasi. Diperlukan.</td>
 <td>validasi</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>correct_numerator</td>
 <td>Jika benar = Y, nilai diisi secara otomatis, Jika benar = N, masukkan nilai yang benar</td>
 <td>validasi</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>correct_denominator</td>
 <td>Jika benar = Y, nilai diisi secara otomatis, Jika benar = N, masukkan nilai yang benar</td>
 <td>validasi</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>correct_numerator_unit</td>
 <td>Jika numerator_units salah, pilih opsi yang benar dari menu tarik-turun</td>
 <td>validasi</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>data_origin</td>
 <td>Kumpulan data dari mana data tersebut berasal (Pemantauan pendaratan atau pembuatan profil).</td>
 <td>konteks</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>submission_id</td>
 <td>ID Pengiriman dari formulir Kobo. Gunakan ini untuk membandingkan dengan data mentah, jika perlu, untuk validasi.</td>
 <td>konteks</td>
 </tr>
-<tr class="odd">
-<td><strong>Tabel Spesies</strong></td>
+<tr class="even">
+<td><strong>Species</strong></td>
 <td></td>
 <td></td>
 </tr>
+<tr class="odd">
+<td>data_origin</td>
+<td>Tabel Spesies</td>
+<td>konteks</td>
+</tr>
 <tr class="even">
+<td>admin1</td>
+<td>t1.37.1</td>
+<td>konteks</td>
+</tr>
+<tr class="odd">
+<td>admin2</td>
+<td>t1.37.2</td>
+<td>konteks</td>
+</tr>
+<tr class="even">
+<td>fisher_name</td>
+<td>t1.37.3</td>
+<td>konteks</td>
+</tr>
+<tr class="odd">
 <td>new_species_photo</td>
 <td>Tautan ke foto yang dikirimkan di Kobo Collect</td>
 <td>konteks</td>
 </tr>
-<tr class="odd">
-<td>local_name_new</td>
+<tr class="even">
+<td>new_data</td>
 <td>Nilai yang dimasukkan sebagai nama lokal spesies baru di Kobo Collect</td>
 <td>konteks</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ref_match1</td>
 <td>Sangat cocok dengan nama yang sudah ada di database. Jika kosong, tidak ada nama yang cocok dengan nama di kolom “new_data”</td>
 <td>konteks</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>ref_match2</td>
 <td>Sangat cocok dengan nama yang sudah ada di database. Jika kosong, tidak ada nama yang cocok dengan nama di kolom “new_data”</td>
 <td>konteks</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ref_match3</td>
 <td>Sangat cocok dengan nama yang sudah ada di database. Jika kosong, tidak ada nama yang cocok dengan nama di kolom “new_data”</td>
 <td>konteks</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>eng_common_name_new</td>
 <td>Nama umum bahasa Inggris untuk spesies baru. Harap berikan jika diketahui, jika tidak, kosongkan. (Tidak wajib)</td>
 <td>validasi</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>scientific_family_new</td>
 <td>Nama famili ilmiah spesies baru. Harap berikan jika diketahui, jika tidak, kosongkan. (Tidak wajib)</td>
 <td>validasi</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>scientific_species_new</td>
 <td>Nama spesies ilmiah spesies baru. Harap berikan jika diketahui, jika tidak, kosongkan. Wajib: Jika nama spesies tidak diketahui, harap cantumkan tingkat identifikasi taksonomi apa pun (mis. Nama keluarga, nama umum bahasa Inggris)</td>
 <td>validasi</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>submission_id</td>
 <td>ID Pengiriman dari formulir Kobo. Gunakan ini untuk membandingkan dengan data mentah, jika perlu, untuk validasi.</td>
-<td>konteks</td>
-</tr>
-<tr class="odd">
-<td>data_origin</td>
-<td>Kumpulan data dari mana data tersebut berasal (Pemantauan pendaratan atau pembuatan profil).</td>
 <td>konteks</td>
 </tr>
 <tr class="even">
@@ -858,6 +900,46 @@ ul.task-list li input[type="checkbox"] {
 <td>latest_comment</td>
 <td>Kolom ini menyimpan komentar terakhir yang dibuat untuk baris tersebut. Untuk melihat seluruh diskusi komentar untuk baris tersebut, cukup klik di mana saja pada baris tersebut. Panel detail akan muncul dan klik tab “Komentar” untuk melihat semua komentar untuk baris tersebut.</td>
 <td>otomatis</td>
+</tr>
+<tr class="odd">
+<td><strong>Other</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>kobo_field</td>
+<td>t1.51</td>
+<td>konteks</td>
+</tr>
+<tr class="odd">
+<td>new_data</td>
+<td>t1.52</td>
+<td>konteks</td>
+</tr>
+<tr class="even">
+<td>data_origin</td>
+<td>t1.53</td>
+<td>konteks</td>
+</tr>
+<tr class="odd">
+<td>submission_id</td>
+<td>t1.54</td>
+<td>konteks</td>
+</tr>
+<tr class="even">
+<td>validation_options</td>
+<td>t1.55</td>
+<td>validasi</td>
+</tr>
+<tr class="odd">
+<td>other</td>
+<td>t1.56</td>
+<td>validasi</td>
+</tr>
+<tr class="even">
+<td>validated_data_english</td>
+<td>t1.57</td>
+<td>validasi</td>
 </tr>
 </tbody>
 </table>
@@ -910,7 +992,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Jika sewaktu-waktu Anda menemukan kesalahan, memiliki pertanyaan, atau memerlukan dukungan untuk menyelesaikan validasi data, silakan hubungi kami di barefootinfo@barefootocean.org.</p>
 <p>Gambar 6: Validasi Data ke Alur Kerja File Referensi</p>
-<p><img src="images/qa_workflow.jpg" class="img-fluid" width="678"></p>
+<p><img src="images/qa_workflow.png" class="img-fluid" width="678"></p>
 
 
 </section>

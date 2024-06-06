@@ -590,6 +590,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="gabay-sa-pagpapatunay-ng-data-ng-fisheries">Gabay Sa Pagpapatunay Ng Data Ng Fisheries</h2>
 <p>Ang lahat ng data na dumadaloy sa sistema ng data ng pangisdaan ay napatunayan sa Smartsheet. Ang Data ay ipinadala para sa Pagpapatunay sa ilalim ng dalawang mga sitwasyon; 1) Ang mga bagong pangalan ay manu-manong idinagdag sa Kobo Collect, o 2) Ang isang numerong halaga ay bumaba sa kabila ng itinatag na mga threshold. Kapag napatunayan ang data, ang parehong mga master dataset sa database at ang mga talahanayan ng sanggunian ay na-update. Ang mga talahanayan ng sanggunian ay nagsisilbing mga input para sa mga listahan ng dropdown sa mga form ng KoboToolbox at naglalaman ng data na idinagdag sa mga master dataset sa pamamagitan ng mga pagsali. Tingnan ang puno ng desisyon sa ibaba (Larawan 1).</p>
 <p>Ang data na na-trigger para sa Pagpapatunay ay ipinadala sa isa sa tatlong mga talahanayan: 1) Landings pangalan QA, 2) Species QA, o 3) Halaga babala QA. Ang mga tagubilin sa ibaba ay detalyado ang proseso ng Pagpapatunay ng data sa Smartsheet para sa tatlong mga talahanayan ng pagpapatunay. Ang bawat talahanayan ng pagpapatunay ay mangangailangan ng alinman sa pagpili ng tamang halaga ng patlang mula sa isang listahan ng dropdown o manu-manong pagpasok ng mga tamang halaga. Ang proseso ay idadagdag para sa mga pangangailangan sa Pagpapatunay ng data sa hinaharap, kung kinakailangan.</p>
+<p>p2.1</p>
+<p>p2.2</p>
 <p>Hakbang 1: Magbigay ng Barefoot Ocean na may point of contact email address para sa mga responsable para sa Pagpapatunay ng data.</p>
 <ul>
 <li><p>Ang organisasyon na namamahala ng maraming kasosyo ay maaaring magbigay ng lahat ng mga punto ng impormasyon sa pakikipag-ugnay.</p></li>
@@ -640,7 +642,7 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Lahat Ng Mga Talahanayan</strong></td>
+<td><strong>All Data Validation Tables</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -660,7 +662,7 @@ ul.task-list li input[type="checkbox"] {
 <td>konteksto</td>
 </tr>
 <tr class="odd">
-<td><strong>Talahanayan Ng Mga Pangalan Ng Landings</strong></td>
+<td><strong>Names and Gears</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -710,138 +712,178 @@ ul.task-list li input[type="checkbox"] {
 <td>konteksto</td>
 </tr>
 <tr class="odd">
-<td><strong>Talahanayan Ng Mga Babala Sa Halaga</strong></td>
+<td>hhs_submission_ids</td>
+<td>t1.20.1</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>species_group</td>
+<td>t1.20.2</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>gear_type</td>
+<td>t1.20.3</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="even">
+<td>fisher_gender</td>
+<td>t1.20.4</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>buyer_gender</td>
+<td>t1.20.5</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td><strong>Value Warnings</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>fisher_name</td>
 <td>Pangalan ng fisher na nakarating sa catch</td>
 <td>konteksto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>date_landed</td>
 <td>Petsa catch ay landed</td>
 <td>konteksto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>local_name</td>
 <td>Mga uri ng lokal na pangalan</td>
 <td>konteksto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>warning_calc</td>
 <td>Halaga ng yunit: timbang / indibidwal, presyo / Timbang, Haba / indibidwal, lapad / indibidwal</td>
 <td>konteksto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>warning</td>
 <td>Uri ng babala</td>
 <td>konteksto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>numerator</td>
 <td>Halaga ng babala numerator: timbang, presyo, haba</td>
 <td>konteksto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>numerator_unit</td>
 <td>Unit of numerator: kg, g, lb, ons, USD, IDR, PHP, cm</td>
 <td>konteksto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>denominator</td>
 <td>Halaga ng denominator: bilangin, timbang</td>
 <td>konteksto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>denominator_unit</td>
 <td>Yunit ng denominator: numero, kg, g, lb, ons</td>
 <td>konteksto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>correct</td>
 <td>Y = ang mga halaga ay tama, n=ang mga halaga ay hindi tama, alisin = alisin mula sa pagsusuri dahil ang mga halaga ay hindi maaaring mapatunayan. Kinakailangan.</td>
 <td>pagpapatunay</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>correct_numerator</td>
 <td>Kung tama = Y, ang mga halaga ay auto-populated, kung tama = N, ipasok ang tamang halaga</td>
 <td>pagpapatunay</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>correct_denominator</td>
 <td>Kung tama = Y, ang mga halaga ay auto-populated, kung tama = N, ipasok ang tamang halaga</td>
 <td>pagpapatunay</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>correct_numerator_unit</td>
 <td>Kung ang numerator_units ay hindi tama, piliin ang tamang pagpipilian mula sa dropdown</td>
 <td>pagpapatunay</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>data_origin</td>
 <td>Dataset Ang data ay nagmula sa (Landings monitoring o profiling).</td>
 <td>konteksto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>submission_id</td>
 <td>Submission ID mula sa Kobo form. Gamitin ito upang ihambing laban sa hilaw na data, kung kinakailangan, para sa pagpapatunay.</td>
 <td>konteksto</td>
 </tr>
-<tr class="odd">
-<td><strong>Talaan Ng Mga Species</strong></td>
+<tr class="even">
+<td><strong>Species</strong></td>
 <td></td>
 <td></td>
 </tr>
+<tr class="odd">
+<td>data_origin</td>
+<td>Talaan Ng Mga Species</td>
+<td>konteksto</td>
+</tr>
 <tr class="even">
+<td>admin1</td>
+<td>t1.37.1</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>admin2</td>
+<td>t1.37.2</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>fisher_name</td>
+<td>t1.37.3</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
 <td>new_species_photo</td>
 <td>Mag-Link sa larawan na isinumite sa Kobo Collect</td>
 <td>konteksto</td>
 </tr>
-<tr class="odd">
-<td>local_name_new</td>
+<tr class="even">
+<td>new_data</td>
 <td>Ang halaga na ipinasok bilang isang bagong species lokal na pangalan sa Kobo Kolektahin</td>
 <td>konteksto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ref_match1</td>
 <td>Malapit na tumutugma sa pangalan na mayroon na sa database. Kung blangko, walang umiiral na mga pangalan na tumutugma sa pangalan sa haligi na “new_data”</td>
 <td>konteksto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>ref_match2</td>
 <td>Malapit na tumutugma sa pangalan na mayroon na sa database. Kung blangko, walang umiiral na mga pangalan na tumutugma sa pangalan sa haligi na “new_data”</td>
 <td>konteksto</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ref_match3</td>
 <td>Malapit na tumutugma sa pangalan na mayroon na sa database. Kung blangko, walang umiiral na mga pangalan na tumutugma sa pangalan sa haligi na “new_data”</td>
 <td>konteksto</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>eng_common_name_new</td>
 <td>Ingles karaniwang pangalan ng mga bagong species. Mangyaring magbigay kung kilala, iba pa mag-iwan ng blangko. (Hindi kinakailangan)</td>
 <td>pagpapatunay</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>scientific_family_new</td>
 <td>Pang-agham na pangalan ng pamilya ng mga bagong species. Mangyaring magbigay kung kilala, iba pa mag-iwan ng blangko. (Hindi kinakailangan)</td>
 <td>pagpapatunay</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>scientific_species_new</td>
 <td>Pang-agham na pangalan ng species ng mga bagong species. Mangyaring magbigay kung kilala, iba pa mag-iwan ng blangko. Kinakailangan: kung ang pangalan ng species ay hindi kilala, mangyaring ilagay ang anumang antas ng taxonomic identification (hal.</td>
 <td>pagpapatunay</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>submission_id</td>
 <td>Submission ID mula sa Kobo form. Gamitin ito upang ihambing laban sa hilaw na data, kung kinakailangan, para sa pagpapatunay.</td>
-<td>konteksto</td>
-</tr>
-<tr class="odd">
-<td>data_origin</td>
-<td>Dataset Ang data ay nagmula sa (Landings monitoring o profiling).</td>
 <td>konteksto</td>
 </tr>
 <tr class="even">
@@ -858,6 +900,46 @@ ul.task-list li input[type="checkbox"] {
 <td>latest_comment</td>
 <td>Ang haligi na ito ay nag-iimbak ng huling komento na ginawa para sa hilera na iyon. Upang tingnan ang buong talakayan ng mga komento para sa hilera na iyon, i-click lamang kahit saan sa hilera. Lilitaw ang panel ng mga detalye at mag-click sa tab na “mga komento” upang matingnan ang lahat ng mga komento para sa hilera na iyon.</td>
 <td>auto</td>
+</tr>
+<tr class="odd">
+<td><strong>Other</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>kobo_field</td>
+<td>t1.51</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>new_data</td>
+<td>t1.52</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>data_origin</td>
+<td>t1.53</td>
+<td>konteksto</td>
+</tr>
+<tr class="odd">
+<td>submission_id</td>
+<td>t1.54</td>
+<td>konteksto</td>
+</tr>
+<tr class="even">
+<td>validation_options</td>
+<td>t1.55</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="odd">
+<td>other</td>
+<td>t1.56</td>
+<td>pagpapatunay</td>
+</tr>
+<tr class="even">
+<td>validated_data_english</td>
+<td>t1.57</td>
+<td>pagpapatunay</td>
 </tr>
 </tbody>
 </table>
@@ -910,7 +992,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Kung sa anumang oras nakatagpo ka ng anumang mga error, may mga katanungan, o kailangan ng suporta para sa pagkumpleto ng Pagpapatunay ng data, mangyaring makipag-ugnay sa amin sa barefootinfo@barefootocean.org.</p>
 <p>Larawan 6: pagpapatunay ng Data upang Sanggunian ang daloy ng trabaho ng file</p>
-<p><img src="images/qa_workflow.jpg" class="img-fluid" width="678"></p>
+<p><img src="images/qa_workflow.png" class="img-fluid" width="678"></p>
 
 
 </section>
