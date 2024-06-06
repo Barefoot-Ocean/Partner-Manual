@@ -90,7 +90,7 @@ i18n
 `r { i18n$t("table1") }`
 
 | `r { i18n$t("t1.1") }`     | `r { i18n$t("t1.2") }`     | `r { i18n$t("t1.3")}`  |
-|-------------------------|-------------------------|----------------------|
+|----------------------------|----------------------------|------------------------|
 | **`r { i18n$t("t1.4") }`** |                            |                        |
 | latest_comment             | `r { i18n$t("t1.5") }`     | `r { i18n$t("t1.6") }` |
 | modified_date              | `r { i18n$t("t1.8") }`     | `r { i18n$t("t1.6") }` |
@@ -120,9 +120,6 @@ i18n
 | admin2_ref_name            | `r { i18n$t("t1.31") }`    | BFO                    |
 | admin3_lat                 | `r { i18n$t("t1.34") }`    | `r { i18n$t("t1.7") }` |
 | admin3_long                | `r { i18n$t("t1.35") }`    | `r { i18n$t("t1.7") }` |
-| m1-m4_flag                 | `r { i18n$t("t1.36") }`    | BFO                    |
-| management_ID_1-4          | `r { i18n$t("t1.37") }`    | `r { i18n$t("t1.7") }` |
-| management_govern_1-4      | `r { i18n$t("t1.38") }`    | `r { i18n$t("t1.7") }` |
 | landings_mon               | `r { i18n$t("t1.38.1") }`  | `r { i18n$t("t1.7") }` |
 | landings_prof              | `r { i18n$t("t1.38.2") }`  | `r { i18n$t("t1.7") }` |
 | comm_prof                  | `r { i18n$t("t1.38.3") }`  | `r { i18n$t("t1.7") }` |
@@ -132,7 +129,7 @@ i18n
 | name                       | `r { i18n$t("t1.40") }`    | BFO                    |
 | label                      | `r { i18n$t("t1.41") }`    | `r { i18n$t("t1.7") }` |
 | buyer_gender               | `r { i18n$t("t1.42") }`    | `r { i18n$t("t1.7") }` |
-| buyer_id                   | `r { i18n$t("t1.43") }`    | BFO                    |
+| gender_flag                | `r { i18n$t("t1.43") }`    | BFO                    |
 | admin1                     | `r { i18n$t("t1.44") }`    | BFO                    |
 | admin2                     | `r { i18n$t("t1.45") }`    | BFO                    |
 | admin3                     | `r { i18n$t("t1.46") }`    | BFO                    |
@@ -143,7 +140,7 @@ i18n
 | name                       | `r { i18n$t("t1.52") }`    | BFO                    |
 | label                      | `r { i18n$t("t1.53") }`    | `r { i18n$t("t1.7") }` |
 | fisher_gender              | `r { i18n$t("t1.54") }`    | `r { i18n$t("t1.7") }` |
-| fisher_id                  | `r { i18n$t("t1.55") }`    | BFO                    |
+| gender_flag                | `r { i18n$t("t1.55") }`    | BFO                    |
 | admin1                     | `r { i18n$t("t1.56") }`    | BFO                    |
 | admin2                     | `r { i18n$t("t1.57") }`    | BFO                    |
 | admin3                     | `r { i18n$t("t1.58") }`    | BFO                    |
@@ -190,9 +187,14 @@ i18n
 | country                    | `r { i18n$t("t1.10") }`    | BFO                    |
 | partner_ID                 | `r { i18n$t("t1.14") }`    | `r { i18n$t("t1.7") }` |
 | partner_flag               | `r { i18n$t("t1.13") }`    | BFO                    |
-| management_id              | `r { i18n$t("t1.103") }`   | `r { i18n$t("t1.7") }` |
 | management_id_unique       | `r { i18n$t("t1.104") }`   | BFO                    |
+| management_id              | `r { i18n$t("t1.103") }`   | `r { i18n$t("t1.7") }` |
+| admin3_fish                | `r { i18n$t("t1.104.1") }` | `r { i18n$t("t1.7") }` |
+| admin3_fish_flag           | `r { i18n$t("t1.104.2") }` | BFO                    |
+| admin3_govern              | `r { i18n$t("t1.104.3") }` | `r { i18n$t("t1.7") }` |
+| admin3_govern_flag         | `r { i18n$t("t1.104.4") }` | BFO                    |
 | management_fishing_ground  | `r { i18n$t("t1.105") }`   | `r { i18n$t("t1.7") }` |
+| fishing_ground_flag        | `r { i18n$t("t1.105.5") }` | BFO                    |
 | management_method          | `r { i18n$t("t1.106") }`   | `r { i18n$t("t1.7") }` |
 | regulation_type            | `r { i18n$t("t1.106.1") }` | `r { i18n$t("t1.7") }` |
 | target_group               | `r { i18n$t("t1.106.2") }` | `r { i18n$t("t1.7") }` |
@@ -218,7 +220,7 @@ i18n
 | species_group              | `r { i18n$t("t1.126") }`   | BFO                    |
 | species_flag               | `r { i18n$t("t1.127") }`   | BFO                    |
 | local_name                 | `r { i18n$t("t1.128") }`   | `r { i18n$t("t1.7") }` |
-| admin2                     | `r { i18n$t("t1.129") }`   | `r { i18n$t("t1.7") }` |
+| admin1-3                   | `r { i18n$t("t1.129") }`   | `r { i18n$t("t1.7") }` |
 | common_english             | `r { i18n$t("t1.130") }`   | BFO                    |
 | scientific_family          | `r { i18n$t("t1.131") }`   | BFO                    |
 | scientific_species         | `r { i18n$t("t1.132") }`   | `r { i18n$t("t1.7") }` |

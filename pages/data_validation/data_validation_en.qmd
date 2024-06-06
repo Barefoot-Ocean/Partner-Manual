@@ -21,6 +21,10 @@ i18n
 
 `r { i18n$t("p2") }`
 
+`r { i18n$t("p2.1") }`
+
+`r { i18n$t("p2.2") }`
+
 `r { i18n$t("step1") }`
 
 -   `r { i18n$t("point1") }`
@@ -81,11 +85,11 @@ i18n
 
 | `r { i18n$t("t1.1") }`      | `r { i18n$t("t1.2") }`  | `r { i18n$t("t1.3")}`  |
 |-----------------------------|-------------------------|------------------------|
-| **`r { i18n$t("t1.4") }`**  |                         |                        |
+| **All Data Validation Tables**  |                         |                        |
 | partner                     | `r { i18n$t("t1.5") }`  | `r { i18n$t("t1.6") }` |
 | admin3_landed               | `r { i18n$t("t1.9") }`  | `r { i18n$t("t1.6") }` |
 | data_collector              | `r { i18n$t("t1.10") }` | `r { i18n$t("t1.6") }` |
-| **`r { i18n$t("t1.11") }`** |                         |                        |
+| **Names and Gears** |                         |                        |
 | kobo_field                  | `r { i18n$t("t1.12") }` | `r { i18n$t("t1.6") }` |
 | new_data                    | `r { i18n$t("t1.13") }` | `r { i18n$t("t1.6") }` |
 | ref_match1                  | `r { i18n$t("t1.14") }` | `r { i18n$t("t1.6") }` |
@@ -95,7 +99,12 @@ i18n
 | other                       | `r { i18n$t("t1.18") }` | `r { i18n$t("t1.7") }` |
 | landings_submission_ids     | `r { i18n$t("t1.19") }` | `r { i18n$t("t1.6") }` |
 | profiling_submission_ids    | `r { i18n$t("t1.20") }` | `r { i18n$t("t1.6") }` |
-| **`r { i18n$t("t1.21") }`** |                         |                        |
+| hhs_submission_ids          | `r { i18n$t("t1.20.1") }` | `r { i18n$t("t1.6") }` |
+| species_group               | `r { i18n$t("t1.20.2") }` | `r { i18n$t("t1.6") }` |
+| gear_type                   | `r { i18n$t("t1.20.3") }` | `r { i18n$t("t1.7") }` |
+| fisher_gender               | `r { i18n$t("t1.20.4") }` | `r { i18n$t("t1.6") }` |
+| buyer_gender                | `r { i18n$t("t1.20.5") }` | `r { i18n$t("t1.6") }` |
+| **Value Warnings**          |                         |                        |
 | fisher_name                 | `r { i18n$t("t1.22") }` | `r { i18n$t("t1.6") }` |
 | date_landed                 | `r { i18n$t("t1.23") }` | `r { i18n$t("t1.6") }` |
 | local_name                  | `r { i18n$t("t1.24") }` | `r { i18n$t("t1.6") }` |
@@ -111,9 +120,13 @@ i18n
 | correct_numerator_unit      | `r { i18n$t("t1.34") }` | `r { i18n$t("t1.7") }` |
 | data_origin                 | `r { i18n$t("t1.35") }` | `r { i18n$t("t1.6") }` |
 | submission_id               | `r { i18n$t("t1.36") }` | `r { i18n$t("t1.6") }` |
-| **`r { i18n$t("t1.37") }`** |                         |                        |
+| **Species**                 |                         |                        |
+| data_origin                 | `r { i18n$t("t1.37") }` | `r { i18n$t("t1.6") }` |
+| admin1                      | `r { i18n$t("t1.37.1") }` | `r { i18n$t("t1.6") }` |
+| admin2                      | `r { i18n$t("t1.37.2") }` | `r { i18n$t("t1.6") }` |
+| fisher_name                 | `r { i18n$t("t1.37.3") }` | `r { i18n$t("t1.6") }` |
 | new_species_photo           | `r { i18n$t("t1.38") }` | `r { i18n$t("t1.6") }` |
-| local_name_new              | `r { i18n$t("t1.39") }` | `r { i18n$t("t1.6") }` |
+| new_data                    | `r { i18n$t("t1.39") }` | `r { i18n$t("t1.6") }` |
 | ref_match1                  | `r { i18n$t("t1.40") }` | `r { i18n$t("t1.6") }` |
 | ref_match2                  | `r { i18n$t("t1.41") }` | `r { i18n$t("t1.6") }` |
 | ref_match3                  | `r { i18n$t("t1.42") }` | `r { i18n$t("t1.6") }` |
@@ -121,10 +134,17 @@ i18n
 | scientific_family_new       | `r { i18n$t("t1.44") }` | `r { i18n$t("t1.7") }` |
 | scientific_species_new      | `r { i18n$t("t1.45") }` | `r { i18n$t("t1.7") }` |
 | submission_id               | `r { i18n$t("t1.46") }` | `r { i18n$t("t1.6") }` |
-| data_origin                 | `r { i18n$t("t1.47") }` | `r { i18n$t("t1.6") }` |
 | validation_options          | `r { i18n$t("t1.48") }` | `r { i18n$t("t1.7") }` |
 | other                       | `r { i18n$t("t1.49") }` | `r { i18n$t("t1.7") }` |
 | latest_comment              | `r { i18n$t("t1.50") }` | `r { i18n$t("t1.8") }` |
+| **Other**                   |                         |                        |
+| kobo_field                  | `r { i18n$t("t1.51") }` | `r { i18n$t("t1.6") }` |
+| new_data                    | `r { i18n$t("t1.52") }` | `r { i18n$t("t1.6") }` |
+| data_origin                 | `r { i18n$t("t1.53") }` | `r { i18n$t("t1.6") }` |
+| submission_id               | `r { i18n$t("t1.54") }` | `r { i18n$t("t1.6") }` |
+| validation_options          | `r { i18n$t("t1.55") }` | `r { i18n$t("t1.7") }` |
+| other                       | `r { i18n$t("t1.56") }` | `r { i18n$t("t1.7") }` |
+| validated_data_english      | `r { i18n$t("t1.57") }` | `r { i18n$t("t1.7") }` |
 
 : {tbl-colwidths="\[25,50,25\]"}
 
@@ -190,4 +210,4 @@ i18n
 
 `r { i18n$t("caption6") }`
 
-![](images/qa_workflow.jpg){width="678"}
+![](images/qa_workflow.png){width="678"}
