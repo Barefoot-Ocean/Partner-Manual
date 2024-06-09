@@ -45,7 +45,7 @@ A performance indicator is a flexible assessment tool that measures the performa
 
 ### **About**
 
-### **Current Status**
+### **Fisheries Status**
 
 -   Indicator 1 - Catch per Unit Effort (CPUE)
 
