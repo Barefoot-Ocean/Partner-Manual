@@ -3,4 +3,5 @@ title: Intro to Smartsheet
 ---
 
 
-{{< video videos/Intro_to_Smartsheet_-_Michael_English.mp4 >}}
+
+{{< video https://youtu.be/6T2KicdVGCg >}}
