@@ -6,6 +6,11 @@ title: Fisheries Dashboard
 
 ## **Introduction**
 
+
+{{< video https://youtu.be/wXpLnF9dF-M >}}
+
+
+
 ## **Objective**
 
 The purpose of this guide is to help local organizations, resource managers and fishing community members most effectively use the community fisheries data dashboard to evaluate their collected data, overall state of the fisheries and analyze different management strategies. Data collected through three digital survey instruments are visualized through the dashboard's pages: Current Status, Fisheries Profiling and Community Profiling. The dashboard's Data Application page also provides users with the opportunity to view information on fisheries production, fishing activity, and effects of management strategies. With permission from fishers and fish traders, these data can be shared across organizations and geographies through the dashboard to better understand regional trends and broader management implications. 
