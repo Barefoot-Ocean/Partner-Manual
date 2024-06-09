@@ -17,6 +17,10 @@ i18n
 
 ## `r i18n$t("title")`
 
+
+{{< video https://youtu.be/RY-iIAwyerk >}}
+
+
 `r { i18n$t("p1") }`
 
 `r { i18n$t("p2") }`
