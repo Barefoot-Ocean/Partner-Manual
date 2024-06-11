@@ -2,14 +2,11 @@
 title: Fisheries Dashboard
 ---
 
-# An Interpretation Guide for the Community Fisheries Data Dashboard
-
-## **Introduction**
-
+## Training Video
 
 {{< video https://youtu.be/wXpLnF9dF-M >}}
 
-
+## An Interpretation Guide for the Community Fisheries Data Dashboard
 
 ## **Objective**
 
