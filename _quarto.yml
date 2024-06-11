@@ -51,6 +51,7 @@ website:
           - pages/reference_files/reference_files_en.qmd
           - pages/data_validation/data_validation_en.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_en.qmd
+          - pages/household_survey/household_survey_en.qmd
           - pages/socioeco_dashboard/socioeco_dashboard_en.qmd
       - section: pages/index/index_id.qmd
         contents: 
