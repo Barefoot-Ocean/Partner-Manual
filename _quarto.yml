@@ -47,7 +47,6 @@ website:
           - pages/quick_guide/quick_guide_en.qmd
           - pages/full_guide/full_guide_en.qmd
           - pages/kobo_setup/kobo_setup_en.qmd
-          - pages/smartsheet_intro/smartsheet_intro_en.qmd
           - pages/reference_files/reference_files_en.qmd
           - pages/data_validation/data_validation_en.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_en.qmd

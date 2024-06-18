@@ -1,7 +1,0 @@
----
-title: Intro to Smartsheet
----
-
-
-
-{{< video https://youtu.be/6T2KicdVGCg >}}
