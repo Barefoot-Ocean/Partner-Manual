@@ -9,6 +9,8 @@ subtitle: "Guidance for data collection, management, validation and interpretati
 
 ### 🐠 Select your desired language to get started
 
+### Questions? Feedback? Click here! -\> [Smartsheet Feedback Form](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3)
+
 ::: {layout-ncol="2"}
 ![](images/GWS-09888.jpg){width="520"}
 

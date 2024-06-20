@@ -41,7 +41,7 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Home - Languages
+        text: Home
       - section: pages/index/index_en.qmd
         contents: 
           - pages/quick_guide/quick_guide_en.qmd
