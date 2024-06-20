@@ -3,13 +3,17 @@ title: "Barefoot Ocean Partner Manual"
 subtitle: "Guidance for data collection, management, validation and interpretation"
 ---
 
+### Questions? Feedback? Click here! -\> [Smartsheet Feedback Form](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3)
+
 ### ⬅️ Quick links: visit another website by clicking the icons here
 
 ## Welcome / Selamat datang / Maligayang pagdating / Tonga Soa / Accueillir / Bienvenido / Bem-vindo / Karibu
 
 ### 🐠 Select your desired language to get started
 
-### Questions? Feedback? Click here! -\> [Smartsheet Feedback Form](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3)
+### 
+
+### 
 
 ::: {layout-ncol="2"}
 ![](images/GWS-09888.jpg){width="520"}
