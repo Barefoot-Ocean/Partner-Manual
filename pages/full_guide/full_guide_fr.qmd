@@ -23,7 +23,7 @@ i18n
 
 `r { i18n$t("p1") }`
 
-![](images/fig1.png)
+![](images/Fig1_en.png)
 
 `r { i18n$t("fig1") }`
 
@@ -159,31 +159,31 @@ i18n
 
 #### **`r { i18n$t("ms") }`**
 
-![](images/fig2.jpg)
+![](images/Fig2_en.jpg)
 
 `r { i18n$t("fig2") }`
 
-![](images/fig3.jpg)
+![](images/Fig3_en.jpg)
 
 `r { i18n$t("fig3") }`
 
-![](images/crab.jpg)
+![](images/Fig4_en.jpg)
 
 `r { i18n$t("fig4") }`
 
-![](images/octopus.jpg)
+![](images/Fig5_en.jpg)
 
 `r { i18n$t("fig5") }`
 
-![](images/lobster.jpg)
+![](images/Fig6_en.jpg)
 
 `r { i18n$t("fig6") }`
 
-![](images/gastropod_bivalve.jpg)
+![](images/Fig7_en.jpg)
 
 `r { i18n$t("fig7") }`
 
-![](images/sea_cuc_urchin.jpg)
+![](images/Fig8_en.jpg)
 
 `r { i18n$t("fig8") }`
 
@@ -193,7 +193,7 @@ i18n
 
 `r { i18n$t("p16") }`
 
-![](images/data_flow.jpg)
+![](images/Fig9_en.jpg)
 
 `r { i18n$t("fig9") }`
 
