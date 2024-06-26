@@ -226,6 +226,11 @@ i18n
 | common_english             | `r { i18n$t("t1.130") }`   | BFO                    |
 | scientific_family          | `r { i18n$t("t1.131") }`   | BFO                    |
 | scientific_species         | `r { i18n$t("t1.132") }`   | `r { i18n$t("t1.7") }` |
+| length_limit_max           | `r { i18n$t("t1.133.1") }`   | BFO                    |
+| length_limit_min           | `r { i18n$t("t1.133.2") }`   | BFO                    |
+| weight_limit_max           | `r { i18n$t("t1.133.3") }`   | BFO                    |
+| weight_limit_min           | `r { i18n$t("t1.133.4") }`   | BFO                    |
+| avg_weight                 | `r { i18n$t("t1.133.5") }`   | BFO                    |
 | **translations_ref**       |                            |                        |
 | english                    | `r { i18n$t("t1.134") }`   | BFO                    |
 | country language           | `r { i18n$t("t1.135") }`   | `r { i18n$t("t1.7") }` |
@@ -238,6 +243,53 @@ i18n
 | species_group              | `r { i18n$t("t1.141") }`   | BFO                    |
 | category                   | `r { i18n$t("t1.143") }`   | `r { i18n$t("t1.7") }` |
 | processing                 | `r { i18n$t("t1.144") }`   | `r { i18n$t("t1.7") }` |
+| **lw_ref**                 |                            |                        |
+| species                    | `r { i18n$t("t1.132") }`   | BFO                    |
+| genus                      | `r { i18n$t("t1.145") }`   | BFO                    |
+| family                     | `r { i18n$t("t1.146") }`   | BFO                    |
+| common_name                | `r { i18n$t("t1.147") }`   | BFO                    |
+| species_group              | `r { i18n$t("t1.148") }`   | BFO                    |
+| avg_k                      | `r { i18n$t("t1.149") }`   | BFO                    |
+| avg_k_type                 | `r { i18n$t("t1.150") }`   | BFO                    |
+| a                          | `r { i18n$t("t1.151") }`   | BFO                    |
+| b                          | `r { i18n$t("t1.152") }`   | BFO                    |
+| a_b_ref                    | `r { i18n$t("t1.153") }`   | BFO                    |
+| a_b_type                   | `r { i18n$t("t1.154") }`   | BFO                    |
+| lmax                       | `r { i18n$t("t1.155") }`   | BFO                    |
+| max_length_type            | `r { i18n$t("t1.156") }`   | BFO                    |
+| lmax_ref                   | `r { i18n$t("t1.157") }`   | BFO                    |
+| length_conversion_a        | `r { i18n$t("t1.158") }`   | BFO                    |
+| length_conversion_b        | `r { i18n$t("t1.159") }`   | BFO                    |
+| lmax_tl                    | `r { i18n$t("t1.160") }`   | BFO                    |
+| trophic_level              | `r { i18n$t("t1.161") }`   | BFO                    |
+| vulnerability              | `r { i18n$t("t1.162") }`   | BFO                    |
+| trophic_group              | `r { i18n$t("t1.163") }`   | BFO                    |
+| functional_group           | `r { i18n$t("t1.164") }`   | BFO                    |
+| group_size                 | `r { i18n$t("t1.165") }`   | BFO                    |
+| loo                        | `r { i18n$t("t1.166") }`   | BFO                    |
+| lmat                       | `r { i18n$t("t1.167") }`   | BFO                    |
+| lmat_type                  | `r { i18n$t("t1.168") }`   | BFO                    |
+| lmat_ref                   | `r { i18n$t("t1.169") }`   | BFO                    |
+| final_type                 | `r { i18n$t("t1.170") }`   | BFO                    |
+| final_lmax                 | `r { i18n$t("t1.171") }`   | BFO                    |
+| calc_loo                   | `r { i18n$t("t1.172") }`   | BFO                    |
+| calc_lmat                  | `r { i18n$t("t1.173") }`   | BFO                    |
+| final_lmat                 | `r { i18n$t("t1.174") }`   | BFO                    |
+| calc_limit_min             | `r { i18n$t("t1.175") }`   | `r { i18n$t("t1.6") }` |
+| length_limit_max           | `r { i18n$t("t1.176") }`   | `r { i18n$t("t1.6") }` |
+| length_limit_min           | `r { i18n$t("t1.177") }`   | `r { i18n$t("t1.6") }` |
+| weight_limit_max           | `r { i18n$t("t1.178") }`   | `r { i18n$t("t1.6") }` |
+| weight_limit_min           | `r { i18n$t("t1.179") }`   | `r { i18n$t("t1.6") }` |
+| avg_weight                 | `r { i18n$t("t1.180") }`   | `r { i18n$t("t1.6") }` |
+| avg_weight_refs            | `r { i18n$t("t1.181") }`   | BFO                    |
+| habitat_deepwater          | `r { i18n$t("t1.182") }`   | BFO                    |
+| habitat_reef               | `r { i18n$t("t1.183") }`   | BFO                    |
+| habitat_mangrove           | `r { i18n$t("t1.184") }`   | BFO                    |
+| habitat_seagrass           | `r { i18n$t("t1.185") }`   | BFO                    |
+| habitat_mud                | `r { i18n$t("t1.186") }`   | BFO                    |
+| habitat_sand               | `r { i18n$t("t1.187") }`   | BFO                    |
+| habitat_estuary            | `r { i18n$t("t1.188") }`   | BFO                    |
+
 
 : {tbl-colwidths="\[25,50,25\]"}
 
