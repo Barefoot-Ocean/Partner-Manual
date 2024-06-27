@@ -584,7 +584,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="guide-de-validation-des-données-sur-les-pêches">Guide de Validation des Données sur les Pêches</h2>
 <p>Toutes les données qui transitent par le système de données sur les pêches sont validées dans Smartsheet. Les données sont envoyées pour validation selon trois scénarios; 1) de nouveaux noms ou “autres” informations sont ajoutés manuellement dans Kobo Collect, 2) une valeur numérique dépasse les seuils établis ou 3) les noms de l’ensemble de données ne correspondent pas dans un fichier de référence. Une fois les données validées, les ensembles de données de la base de données et les tables de référence sont mis à jour. Les tables de référence servent d’entrées pour les listes déroulantes dans les formulaires KoboToolbox et contiennent des données qui sont ajoutées aux ensembles de données via des jointures. Voir l’arbre de décision ci-dessous (figure 1).</p>
 <p>Les données déclenchées pour validation sont envoyées à l’une des quatre tables: 1) Noms et engins, 2) Avertissements de valeur, 3) Espèces ou 4) Autre. Les instructions ci-dessous détaillent le processus de validation des données dans la vue dynamique Smartsheet pour les quatre tableaux de validation. Chaque table de validation nécessitera soit de sélectionner la valeur de champ correcte dans une liste déroulante, soit de saisir manuellement les valeurs correctes. Le processus sera annexé pour les futurs besoins de validation des données, au besoin.</p>
-<p>Le tableau de validation “Noms et engins” contient de nouvelles données provenant de toutes les enquêtes Kobo, y compris les nouveaux noms des pêcheurs, des acheteurs, des collecteurs de données, des lieux de pêche, des sites de débarquement et des engins. Les “Avertissements de valeur” contiennent des informations numériques collectées à partir de l’enquête de surveillance des débarquements ou de profilage des débarquements qui ont signalé une valeur de données basée sur un seuil préétabli. Le tableau de validation des espèces contient des photos et de nouveaux noms locaux de toutes les enquêtes afin de valider les nouvelles espèces à l’aide d’un processus de double vérification. Enfin, le tableau de validation des données “Autres” contient les “autres” informations collectées à partir du Profilage des débarquements, du Profilage communautaire ou de l’Enquête auprès des ménages et est principalement validé à des fins de traduction.</p>
+<p>Le tableau de validation “Noms et engins” contient de nouvelles données provenant de toutes les enquêtes Kobo, y compris les nouveaux noms des pêcheurs, des acheteurs, des collecteurs de données, des lieux de pêche, des sites de débarquement et des engins. Les “Avertissements de valeur” contiennent des informations numériques collectées à partir de l’enquête de surveillance des débarquements ou de profilage des débarquements qui signalaient une valeur de prix, de poids ou de longueur basée sur un seuil préétabli. Les seuils préétablis pour les avertissements de poids et de longueur proviennent de lw_ref; et les avertissements de prix proviennent de min_max_ref. Le tableau de validation des espèces contient des photos et de nouveaux noms locaux de toutes les enquêtes afin de valider les nouvelles espèces à l’aide d’un processus de double vérification. Enfin, le tableau de validation des données “Autres” contient les “autres” informations collectées à partir du Profilage des débarquements, du Profilage communautaire ou de l’Enquête auprès des ménages et est principalement validé à des fins de traduction.</p>
 <p>Des messages électroniques quotidiens sont envoyés avec des informations et des liens sur la façon de terminer la validation des données (voir les instructions détaillées ci-dessous). Des notifications supplémentaires de Smartsheet ou de Barefoot Ocean peuvent être envoyées par e-mail pour assurer le suivi des sélections de validation des données incomplètes, si nécessaire.</p>
 <p>Étape 1: Fournissez à Barefoot Ocean les adresses e-mail des points de contact pour les responsables de la validation des données.</p>
 <ul>
@@ -817,7 +817,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>data_origin</td>
-<td>Ensemble de données d’où proviennent les données (Suivi des débarquements “lm”, Profilage des Débarquements “lp”, Profilage communautaire ” cp “ou Enquête auprès des ménages”hhs”’</td>
+<td>Origine ou source des données ‘ ‘débarquements’ ‘ ‘profilage’, ‘communauté_profilage’ ou ’ hhs’</td>
 <td>contexte</td>
 </tr>
 <tr class="even">
@@ -902,7 +902,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td>Le champ du formulaire KoboToolbox qui doit être validé. Cela pourrait provenir d’une question (q) dans le Profilage des débarquements (“lp”), le Profilage communautaire (“cp”) ou l’Enquête auprès des ménages (“hhs”).</td>
+<td>Le champ du formulaire KoboToolbox qui doit être validé. Cela pourrait provenir d’une question du Profilage des débarquements, du Profilage communautaire ou de l’Enquête auprès des ménages.</td>
 <td>contexte</td>
 </tr>
 <tr class="odd">
@@ -912,7 +912,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>data_origin</td>
-<td>Ensemble de données d’où proviennent les données (Profilage des débarquements, Profilage des communautés, Enquête auprès des ménages).</td>
+<td>Ensemble de données d’où proviennent les données (Profilage des débarquements, Profilage communautaire ou Enquête auprès des ménages).</td>
 <td>contexte</td>
 </tr>
 <tr class="odd">

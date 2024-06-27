@@ -584,7 +584,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="panduan-validasi-data-perikanan">Panduan Validasi Data Perikanan</h2>
 <p>Semua data yang mengalir melalui sistem data perikanan divalidasi dalam Smartsheet. Data dikirim untuk validasi dalam tiga skenario; 1) nama baru atau informasi ‘lainnya’ ditambahkan secara manual di Kobo Collect, 2) nilai numerik melampaui ambang batas yang ditetapkan atau 3) nama dalam kumpulan data tidak memiliki kecocokan yang sesuai dalam file referensi. Setelah data divalidasi, kumpulan data dalam database dan tabel referensi diperbarui. Tabel referensi berfungsi sebagai input untuk daftar dropdown dalam formulir KoBoToolbox dan berisi data yang ditambahkan ke kumpulan data melalui gabungan. Lihat pohon keputusan di bawah ini (Gambar 1).</p>
 <p>Data yang dipicu untuk validasi dikirim ke salah satu dari empat tabel: 1) Nama dan Roda Gigi, 2) Peringatan Nilai, 3) Spesies, atau 4) Lainnya. Petunjuk di bawah ini merinci proses validasi data dalam Tampilan Dinamis Smartsheet untuk empat tabel validasi. Setiap tabel validasi akan memerlukan pemilihan nilai bidang yang benar dari daftar tarik-turun atau memasukkan nilai yang benar secara manual. Proses akan ditambahkan untuk kebutuhan validasi data di masa mendatang, sesuai kebutuhan.</p>
-<p>Tabel validasi ‘Nama dan Roda Gigi’ berisi data baru dari semua survei Kobo termasuk nama baru nelayan, pembeli, pengumpul data, tempat penangkapan ikan, lokasi pendaratan, dan roda gigi. ‘Peringatan Nilai’ berisi informasi numerik yang dikumpulkan dari survei Pemantauan Pendaratan atau Profil Pendaratan yang menandai nilai data berdasarkan ambang batas yang telah ditetapkan sebelumnya. Tabel validasi ‘Spesies’ berisi foto dan nama lokal baru dari semua survei untuk memvalidasi spesies baru menggunakan proses verifikasi ganda. Terakhir, tabel validasi data ‘Lainnya’ berisi informasi ‘lainnya’ yang dikumpulkan dari Profil Pendaratan, Profil Komunitas, atau Survei Rumah Tangga dan terutama divalidasi untuk tujuan translasi.</p>
+<p>Tabel validasi ‘Nama dan Roda Gigi’ berisi data baru dari semua survei Kobo termasuk nama baru nelayan, pembeli, pengumpul data, tempat penangkapan ikan, lokasi pendaratan, dan roda gigi. ‘Peringatan Nilai’ berisi informasi numerik yang dikumpulkan dari survei Pemantauan Pendaratan atau Profil Pendaratan yang menandai nilai harga, bobot, atau panjang berdasarkan ambang batas yang telah ditetapkan sebelumnya. Ambang batas yang telah ditetapkan sebelumnya untuk peringatan bobot dan panjang berasal dari lw_ref; dan peringatan harga berasal dari min_max_ref. Tabel validasi ‘Spesies’ berisi foto dan nama lokal baru dari semua survei untuk memvalidasi spesies baru menggunakan proses verifikasi ganda. Terakhir, tabel validasi data ‘Lainnya’ berisi informasi ‘lainnya’ yang dikumpulkan dari Profil Pendaratan, Profil Komunitas, atau Survei Rumah Tangga dan terutama divalidasi untuk tujuan translasi.</p>
 <p>Pesan email harian dikirim dengan informasi dan tautan tentang cara menyelesaikan validasi data (lihat petunjuk terperinci di bawah). Pemberitahuan tambahan dari Smartsheet atau Barefoot Ocean dapat dikirim melalui email untuk menindaklanjuti pilihan validasi data yang tidak lengkap, jika diperlukan.</p>
 <p>Langkah 1: Berikan Barefoot Ocean alamat email titik kontak bagi mereka yang bertanggung jawab atas validasi data.</p>
 <ul>
@@ -817,7 +817,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>data_origin</td>
-<td>Kumpulan data dari mana data tersebut berasal (Pemantauan Pendaratan ‘lm’, Profil Pendaratan ‘lp’, Profil Komunitas ‘cp’ atau Survei Rumah Tangga ‘hhs’)</td>
+<td>Asal atau sumber data: ‘landings’, ‘profiling’,’ community_profiling ‘atau’ hhs’</td>
 <td>konteks</td>
 </tr>
 <tr class="even">
@@ -902,7 +902,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td>Bidang dari formulir KoBoToolbox yang perlu divalidasi. Ini bisa dari pertanyaan (q) di Profil Pendaratan (‘lp’), Profil Komunitas (‘cp’) atau Survei Rumah Tangga (‘hhs’).</td>
+<td>Bidang dari formulir KoBoToolbox yang perlu divalidasi. Ini bisa dari pertanyaan di Profil Pendaratan, Profil Komunitas, atau Survei Rumah Tangga.</td>
 <td>konteks</td>
 </tr>
 <tr class="odd">
@@ -912,7 +912,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>data_origin</td>
-<td>Dataset data tersebut berasal dari (Landings profiling, Community profiling, survei rumah tangga).</td>
+<td>Dataset data tersebut berasal dari (Landings profiling, Community profiling atau survei Rumah tangga).</td>
 <td>konteks</td>
 </tr>
 <tr class="odd">

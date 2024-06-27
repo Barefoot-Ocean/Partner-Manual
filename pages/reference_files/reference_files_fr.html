@@ -1312,27 +1312,27 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>length_limit_max</td>
-<td>t1.133.1</td>
+<td>Limite de longueur maximale (cm) utilisée pour les avertissements de valeur. Voir lw_ref pour plus d’informations.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>length_limit_min</td>
-<td>t1.133.2</td>
+<td>Limite de longueur minimale (cm) utilisée pour les avertissements de valeur. Voir lw_ref pour plus d’informations.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>weight_limit_max</td>
-<td>t1.133.3</td>
+<td>Limite de poids maximale (kg) utilisée pour les avertissements de valeur basés sur les valeurs’ length_limit_max’,’ a ‘et’ b’, calculées automatiquement dans Smartsheet à l’aide de la formule “=(([length_limit_max]<span class="citation" data-cites="row">@row</span> ^ b@row) * a@row) / 1000”. Voir lw_ref pour plus d’informations.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>weight_limit_min</td>
-<td>t1.133.4</td>
+<td>Limite de poids minimale (kg) utilisée pour les avertissements de valeur basés sur les valeurs’ length_limit_min’,’ a ‘et’ b’, calculées automatiquement dans Smartsheet à l’aide de la formule”=(([length_limit_min]<span class="citation" data-cites="row">@row</span> ^ b@row) * a@row) / 1000”. Voir lw_ref pour plus d’informations.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>avg_weight</td>
-<td>t1.133.5</td>
+<td>Poids moyen (kg), calculé automatiquement dans Smartsheet à l’aide de la formule “=([weight_limit_max]<span class="citation" data-cites="ligne">@ligne</span> + [weight_limit_min]<span class="citation" data-cites="ligne">@ligne</span>) / 2”. Voir lw_ref pour plus d’informations.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
@@ -1392,7 +1392,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>processing</td>
-<td>t1.144</td>
+<td>Le champ de transformation définit comment le poisson ou l’invertébré est vendu. Les options incluent ‘entier, partiellement_traité, filet, queue ou nageoire’.</td>
 <td>modifiable</td>
 </tr>
 <tr class="odd">
@@ -1407,222 +1407,222 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>genus</td>
-<td>t1.145</td>
+<td>Nom de genre de l’espèce, provenant de la fonction rfishbase ’ load_taxa ()’.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>family</td>
-<td>t1.146</td>
+<td>Nom de famille de l’espèce, provenant de la fonction rfishbase ’ load_taxa ()’.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>common_name</td>
-<td>t1.147</td>
+<td>Nom anglais commun de l’espèce avec espaces et ponctuation, provenant de fishbase’ comnames ’ tbl en utilisant la colonne de classement pour sélectionner le nom favorable par espèce parmi les multiples noms communs disponibles.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>species_group</td>
-<td>t1.148</td>
+<td>Espèces classées en groupes en fonction de leur biologie sans espaces ni ponctuation, uniquement des traits de soulignement. Ce champ est utilisé pour filtrer certains choix de réponses dans Kobo. L’option comprend: “poisson à nageoires, raie, anguille, requin, crabe, crevette, homard, poulpe, calmar, seiche, bivalve, gastéropode, sea_urchin et sea_cucumber”.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>avg_k</td>
-<td>t1.149</td>
+<td>Valeur k moyenne des espèces, provenant de rfishbase’ popgrowth ’ tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>avg_k_type</td>
-<td>t1.150</td>
+<td>Type de longueur de mesure pour la valeur ‘avg_k’. Les options incluent: ‘TL = longueur totale, SL = longueur standard, WD = largeur, CL = longueur de la carapace, CW = largeur de la carapace, ML = longueur du manteau, ShL = longueur de la coquille’.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>a</td>
-<td>t1.151</td>
+<td>Valeur moyenne ’ a ‘pour les espèces, provenant de rfishbase’ poplw ’ tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>b</td>
-<td>t1.152</td>
+<td>Valeur moyenne ” b “pour les espèces, provenant de la base de pêche”poplw” tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>a_b_ref</td>
-<td>t1.153</td>
+<td>Référence des valeurs ’ a ’ et ‘b’. Les options incluent: “Base de poisson, Base de vie marine, Article de journal”.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>a_b_type</td>
-<td>t1.154</td>
+<td>Type de longueur de mesure pour la valeur’ a_b_type’. Les options incluent: ‘TL = longueur totale, SL = longueur standard, WD = largeur, CL = longueur de la carapace, CW = largeur de la carapace, ML = longueur du manteau, ShL = longueur de la coquille’.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>lmax</td>
-<td>t1.155</td>
+<td>Longueur maximale des espèces (cm), provenant de rfishbase ‘popchar’ tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>max_length_type</td>
-<td>t1.156</td>
+<td>Type de longueur de mesure pour la valeur ‘lmax’. Les options incluent: ‘TL = longueur totale, SL = longueur standard, WD = largeur, CL = longueur de la carapace, CW = largeur de la carapace, ML = longueur du manteau, ShL = longueur de la coquille’.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>lmax_ref</td>
-<td>t1.157</td>
+<td>Référence de la valeur’ lmax’. Les options incluent: “Base de poisson, Base de vie marine, Article de journal”.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>length_conversion_a</td>
-<td>t1.158</td>
+<td>Conversion de la valeur ’ a ‘pour les espèces avec’ max_length_type ‘= SL conversion en TL, provenant de rfishbase ’popll’ tbl</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>length_conversion_b</td>
-<td>t1.159</td>
+<td>Conversion de la valeur ’ b ‘pour les espèces avec’ max_length_type ‘= SL conversion en TL, provenant de rfishbase ’popll’ tbl</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>lmax_tl</td>
-<td>t1.160</td>
+<td>La valeur de longueur maximale avec le type de longueur = TL, après conversion à l’aide des valeurs de conversion.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>trophic_level</td>
-<td>t1.161</td>
+<td>Niveau trophique associé à l’espèce, provenant de la colonne “FoodTroph” de la base de poissons “ecology” tbl. Selon le tableau de l’ÉCOLOGIE, Troph = 1 + troph moyen des aliments. Les valeurs vont de 2,0 à 5,0</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>vulnerability</td>
-<td>t1.162</td>
+<td>Score de vulnérabilité, provenant de rfishbase’ species ’ tbl. Les valeurs vont de 0 à 100.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>trophic_group</td>
-<td>t1.163</td>
+<td>Groupe trophique provenant de la référence sur les poissons SIRÈNES et les attributs benthiques. Les options incluent: “omnivore, planctonivore, herbivore-détritivore, herbivore-macroalgues, piscivore, invertivore-mobile, invertivore-sessile”.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>functional_group</td>
-<td>t1.164</td>
+<td>Groupe fonctionnel provenant de la référence sur les poissons SIRÈNES et les attributs benthiques. Les options incluent: “cultivateur / brouteur, plancteur, détritivore, navigateur, piscivore, piscivore-invertivore, micro-invertivore, macro-invertivore, corallivore, nettoyeur, spongivore, excavateur, grattoir”.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>group_size</td>
-<td>t1.165</td>
+<td>Taille du groupe provenant de la référence sur les poissons SIRÈNES et les attributs benthiques. Les options incluent: “grand groupe, groupe moyen, petit groupe, couple, solitaire”.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>loo</td>
-<td>t1.166</td>
+<td>EN COURS DE MISE À JOUR</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>lmat</td>
-<td>t1.167</td>
+<td>Longueur à maturité des espèces (cm), provenant de rfishbase ‘maturity’ tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>lmat_type</td>
-<td>t1.168</td>
+<td>Type de longueur de mesure pour la valeur ‘lmat’. Les options incluent: ‘TL = longueur totale, SL = longueur standard, WD = largeur, CL = longueur de la carapace, CW = largeur de la carapace, ML = longueur du manteau, ShL = longueur de la coquille’.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>lmat_ref</td>
-<td>t1.169</td>
+<td>Référence de la valeur’ lmat’. Les options incluent: “Base de poisson, Base de vie marine, Article de journal”.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>final_type</td>
-<td>t1.170</td>
+<td>Type de longueur de mesure pour la valeur ‘final_lmax’. Les options incluent: ‘TL = longueur totale, SL = longueur standard, WD = largeur, CL = longueur de la carapace, CW = largeur de la carapace, ML = longueur du manteau, ShL = longueur de la coquille’.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>final_lmax</td>
-<td>t1.171</td>
+<td>Longueur maximale finale (cm) par espèce utilisée dans les calculs, soit à partir de la colonne “lmax”, soit de la colonne “lmax_tl” en fonction du type de longueur souhaité.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>calc_loo</td>
-<td>t1.172</td>
+<td>Valeur ‘loo’ calculée à l’aide de la valeur ‘final_lmax’ dans la formule ” = ( 10^(0.044 + 0.9841 *JOURNAL 10 (final_lmax)))”</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>calc_lmat</td>
-<td>t1.173</td>
+<td>La longueur à maturité est estimée à l’aide de la valeur calculée à partir de la colonne ‘calc_loo’, en utilisant la formule ” =(10^(0,8979 * LOG10 (calc_loo) - 0,0782))”</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>final_lmat</td>
-<td>t1.174</td>
+<td>Longueur finale à maturité (cm) valeur basée sur le calcul dans la colonne’ calc_lmat ’ arrondie au dixième le plus proche.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>calc_limit_min</td>
-<td>t1.175</td>
+<td>Calcul pour déterminer la limite de longueur minimale, calculé automatiquement dans Smartsheet à l’aide de la formule “=[final_lmat]<span class="citation" data-cites="row">@row</span> * 0.5”</td>
 <td>automatique</td>
 </tr>
 <tr class="even">
 <td>length_limit_max</td>
-<td>t1.176</td>
+<td>Limite de longueur maximale (cm) utilisée pour les avertissements de valeur basés sur la valeur ‘final_lmax’, calculée automatiquement dans Smartsheet à l’aide de la formule “=[final_lmax]<span class="citation" data-cites="row">@row</span>”</td>
 <td>automatique</td>
 </tr>
 <tr class="odd">
 <td>length_limit_min</td>
-<td>t1.177</td>
+<td>Limite de longueur minimale (cm) utilisée pour les avertissements de valeur basés sur la valeur ‘calc_limit_min’, calculée automatiquement dans Smartsheet à l’aide de la formule “=[calc_limit_min]<span class="citation" data-cites="row">@row</span>”</td>
 <td>automatique</td>
 </tr>
 <tr class="even">
 <td>weight_limit_max</td>
-<td>t1.178</td>
+<td>Limite de poids maximale (kg) utilisée pour les avertissements de valeur basés sur les valeurs’ length_limit_max’,’ a ‘et’ b’, calculées automatiquement dans Smartsheet à l’aide de la formule “=(([length_limit_max] @ row ^ b@row) * a@row) / 1000”</td>
 <td>automatique</td>
 </tr>
 <tr class="odd">
 <td>weight_limit_min</td>
-<td>t1.179</td>
+<td>Limite de poids minimale (kg) utilisée pour les avertissements de valeur basés sur les valeurs’ length_limit_min’,’ a ‘et’ b’, calculées automatiquement dans Smartsheet à l’aide de la formule “=(([length_limit_min] @ row ^ b@row) * a@row) / 1000”</td>
 <td>automatique</td>
 </tr>
 <tr class="even">
 <td>avg_weight</td>
-<td>t1.180</td>
+<td>Poids moyen (kg), calculé automatiquement dans Smartsheet à l’aide de la formule “=([weight_limit_max] @ ligne + [weight_limit_min]<span class="citation" data-cites="ligne">@ligne</span>) / 2”</td>
 <td>automatique</td>
 </tr>
 <tr class="odd">
 <td>avg_weight_refs</td>
-<td>t1.181</td>
+<td>Référence ou formule pour la valeur ‘avg_weight’</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>habitat_deepwater</td>
-<td>t1.182</td>
+<td>VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne “Océanique” de la base de poissons “écologie” tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>habitat_reef</td>
-<td>t1.183</td>
+<td>VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne “Récifs CoralLiens” de la base de données “écologie” tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>habitat_mangrove</td>
-<td>t1.184</td>
+<td>VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne “Mangroves” de la base de données “écologie” tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>habitat_seagrass</td>
-<td>t1.185</td>
+<td>VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne “Herbiers marins” de la base de poissons “écologie” tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>habitat_mud</td>
-<td>t1.186</td>
+<td>VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne “Boue” de la base de poissons “écologie” tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="odd">
 <td>habitat_sand</td>
-<td>t1.187</td>
+<td>VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne “Sable” de la base de poissons “écologie” tbl.</td>
 <td>BFO</td>
 </tr>
 <tr class="even">
 <td>habitat_estuary</td>
-<td>t1.188</td>
+<td>VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne “Estuaires” de la base de données “écologie” tbl.</td>
 <td>BFO</td>
 </tr>
 </tbody>

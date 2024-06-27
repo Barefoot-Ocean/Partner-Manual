@@ -584,7 +584,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="gabay-sa-pagpapatunay-ng-data-ng-fisheries">Gabay Sa Pagpapatunay Ng Data Ng Fisheries</h2>
 <p>Ang lahat ng data na dumadaloy sa sistema ng data ng pangisdaan ay napatunayan sa Smartsheet. Ang Data ay ipinadala para sa Pagpapatunay sa ilalim ng tatlong mga sitwasyon; 1) Ang mga bagong pangalan o ‘iba pang’ impormasyon ay manu-manong idinagdag sa Kobo Collect, 2) Ang isang numerong halaga ay nahuhulog na lampas sa itinatag na mga threshold o 3) Ang mga pangalan sa dataset ay walang kaukulang tugma sa isang sanggunian na file. Kapag napatunayan ang data, ang parehong mga dataset sa database at ang mga talahanayan ng sanggunian ay na-update. Ang mga talahanayan ng sanggunian ay nagsisilbing mga input para sa mga listahan ng dropdown sa mga form ng KoboToolbox at naglalaman ng data na idinagdag sa mga dataset sa pamamagitan ng mga pagsali. Tingnan ang puno ng desisyon sa ibaba (Larawan 1).</p>
 <p>Ang data na na-trigger para sa Pagpapatunay ay ipinadala sa isa sa apat na talahanayan: 1) Mga pangalan at Gears, 2) mga babala sa halaga, 3) Species o 4) iba pa. Ang mga tagubilin sa ibaba ay detalyado ang proseso ng Pagpapatunay ng data sa Smartsheet Dynamic View para sa apat na mga talahanayan ng pagpapatunay. Ang bawat talahanayan ng pagpapatunay ay mangangailangan ng alinman sa pagpili ng tamang halaga ng patlang mula sa isang listahan ng dropdown o manu-manong pagpasok ng mga tamang halaga. Ang proseso ay idadagdag para sa mga pangangailangan sa Pagpapatunay ng data sa hinaharap, kung kinakailangan.</p>
-<p>Ang talahanayan ng Pagpapatunay ng’ mga pangalan at Gears ’ ay naglalaman ng mga bagong data mula sa lahat ng mga survey ng Kobo kabilang ang mga bagong pangalan ng mga mangingisda, mamimili, kolektor ng data, Lugar ng pangingisda, mga landing site at gears. Ang ‘Value Warnings’ ay naglalaman ng numerikong impormasyon na nakolekta mula sa Landings Monitoring o Landings Profiling survey na nag-flag ng isang halaga ng data batay sa isang paunang itinatag na threshold. Ang talahanayan ng Pagpapatunay ng’ Species ’ ay naglalaman ng mga larawan at mga bagong lokal na pangalan mula sa lahat ng mga survey upang mapatunayan ang mga bagong species gamit ang isang dobleng proseso ng pag-verify. Sa wakas, ang talahanayan ng Pagpapatunay ng data na’ iba ‘ay naglalaman ng impormasyon na’ iba ’ na nakolekta mula sa pag-profile ng Landings, pag-profile ng komunidad o Survey ng sambahayan at higit sa lahat ay napatunayan para sa mga layunin ng pagsasalin.</p>
+<p>Ang talahanayan ng Pagpapatunay ng’ mga pangalan at Gears ’ ay naglalaman ng mga bagong data mula sa lahat ng mga survey ng Kobo kabilang ang mga bagong pangalan ng mga mangingisda, mamimili, kolektor ng data, Lugar ng pangingisda, mga landing site at gears. Ang ‘Value Warnings’ ay naglalaman ng numerikong impormasyon na nakolekta mula sa Landings Monitoring o Landings Profiling survey na nag-flag ng isang presyo, timbang o haba na halaga batay sa isang paunang itinatag na threshold. Ang paunang itinatag na mga threshold para sa mga babala sa timbang at haba ay nagmula sa lw_ref; at ang mga babala sa presyo ay nagmula sa min_max_ref. Ang talahanayan ng Pagpapatunay ng’ Species ’ ay naglalaman ng mga larawan at mga bagong lokal na pangalan mula sa lahat ng mga survey upang mapatunayan ang mga bagong species gamit ang isang dobleng proseso ng pag-verify. Sa wakas, ang talahanayan ng Pagpapatunay ng data na’ iba ‘ay naglalaman ng impormasyon na’ iba ’ na nakolekta mula sa pag-profile ng Landings, pag-profile ng komunidad o Survey ng sambahayan at higit sa lahat ay napatunayan para sa mga layunin ng pagsasalin.</p>
 <p>Ang pang-araw-araw na mga mensahe sa E-mail ay ipinadala kasama ang impormasyon at mga link sa kung paano makumpleto ang pagpapatunay ng data (tingnan ang detalyadong mga tagubilin sa ibaba). Ang mga karagdagang abiso mula sa Smartsheet o Barefoot Ocean ay maaaring maipadala sa pamamagitan ng email upang mag-follow-up na may hindi kumpletong mga pagpipilian sa Pagpapatunay ng data, kung kinakailangan.</p>
 <p>Hakbang 1: Magbigay ng Barefoot Ocean na may point of contact email address para sa mga responsable para sa Pagpapatunay ng data.</p>
 <ul>
@@ -817,7 +817,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>data_origin</td>
-<td>Dataset Ang data ay nagmula sa (Landings Monitoring ‘lm’, Landings Profiling ‘lp’, Community Profiling ’ cp ‘o household Survey ’hhs’)</td>
+<td>Pinagmulan o pinagmulan ng data: ‘landings’, ‘profiling’, ‘community_profiling’ o ‘hhs’</td>
 <td>konteksto</td>
 </tr>
 <tr class="even">
@@ -902,7 +902,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>kobo_field</td>
-<td>Ang patlang mula sa form ng KoboToolbox na kailangang mapatunayan. Ito ay maaaring mula sa isang katanungan (q) sa Landings Profiling (‘lp’), Community Profiling (‘cp’) o household Survey (‘HHS’).</td>
+<td>Ang patlang mula sa form ng KoboToolbox na kailangang mapatunayan. Ito ay maaaring mula sa isang katanungan sa Landings Profiling, Community Profiling o Household Survey.</td>
 <td>konteksto</td>
 </tr>
 <tr class="odd">
@@ -912,7 +912,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>data_origin</td>
-<td>Dataset Ang data ay nagmula sa (Landings profiling, community profiling, Household survey).</td>
+<td>Dataset Ang data ay nagmula sa (Landings profiling, community profiling o Household survey).</td>
 <td>konteksto</td>
 </tr>
 <tr class="odd">
