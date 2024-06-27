@@ -46,8 +46,8 @@ t1.11,"Nome do admin1, o nível administrativo mais alto depois do país (ou sej
 t1.12,"Nome de admin1, o nível administrativo mais alto depois do país (ou seja, província) com espaços e pontuação permitidos. Por favor, não altere o rótulo a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
 t1.13,"O sinalizador será vermelho se o valor"" partner "" não existir no org_ref"
 t1.14,"Nome do parceiro sem espaços e sem pontuação, apenas sublinhados. A lista suspensa está ligada à coluna"" Nome "" no org_ref."
-t1.15,
-t1.16,
+t1.15,"Selecione "" Sim "" se os dados estiverem a ser recolhidos a partir desta pessoa/área. Se os dados já não estiverem a ser recolhidos a partir deste indivíduo/área e pretender ocultá-los na lista pendente Kobo, seleccione ""Não.”"
+t1.16,"Escolha "" Sim "" se quiser remover o registo. Os registos só devem ser removidos se o nome estiver incorrecto ou se for uma duplicata de um registo existente."
 t1.18,"Nome do admin2, o nível administrativo mais alto após admin1 (ou seja, Distrito) sem espaços e sem pontuação, apenas sublinhados"
 t1.19,"Nome do admin2, o nível administrativo mais alto depois de admin1 (ou seja, distrito) com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
 t1.20,"O sinalizador ficará vermelho se o valor"" admin1_ref_name "" não existir no admin1_ref"
@@ -61,14 +61,14 @@ t1.30,"Nome Admin2 com espaços e pontuação permitidos. A lista suspensa é co
 t1.31,"Nome Admin2 sem espaços e sem pontuação, apenas sublinhados. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin2 escolhido."
 t1.34,Latitude do admin3
 t1.35,Longitude do admin3
-t1.38.1,
-t1.38.2,
-t1.38.3,
-t1.38.4,
+t1.38.1,"Seleccione "" Sim "" se pretender que o admin3 apareça no menu pendente do formulário de monitorização de aterragens Kobo."
+t1.38.2,"Seleccione "" Sim "" se pretender que o admin3 apareça no menu pendente do formulário de criação de perfil Kobo landings."
+t1.38.3,"Seleccione "" Sim "" se pretender que o admin3 apareça no menu pendente do formulário de criação de perfil da Comunidade Kobo."
+t1.38.4,"Seleccione "" Sim "" se pretender que o admin3 apareça no menu pendente do formulário de inquérito aos agregados familiares Kobo."
 t1.40,"Nome do comprador sem espaços e sem pontuação, apenas sublinhados"
 t1.41,"Nome do comprador com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
 t1.42,"Sexo do comprador; 'male' (masculino), 'female' (feminino), 'nonbinary' (não binário) ou 'business_nogender'"
-t1.43,
+t1.43,"A bandeira será vermelha se o valor buyer_gender for diferente para o mesmo comprador (ou seja, se Raymond Scott em admin3= Boston tem gender=male, mas Raymond Scott em admin3=Miami tem gender=female, a bandeira será vermelha porque os sexos não são os mesmos para o mesmo comprador)."
 t1.44,"Nome Admin1 onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.45,"Nome Admin2 de onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.46,"Nome Admin3 onde o comprador compra, com espaços e pontuação permitidos. Isso é extraído do admin3_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
@@ -77,7 +77,7 @@ t1.48,"O sinalizador ficará vermelho se o valor"" admin3_ref_name "" não exist
 t1.52,"Nome do pescador sem espaços e sem pontuação, apenas sublinhados"
 t1.53,"Nome do pescador com espaços e pontuação permitidos. Por favor, não altere o rótulo, a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
 t1.54,"Sexo do pescador; 'male' (masculino), 'female' (feminino), 'nonbinary' (não binário) ou 'business_nogender'"
-t1.55,
+t1.55,"A bandeira será vermelha se o valor fisher_gender for diferente para o mesmo pescador (ou seja, se Raymond Scott em admin3= Boston tem gender=male, mas Raymond Scott em admin3=Miami tem gender=female, a bandeira será vermelha porque os sexos não são os mesmos para o mesmo pescador)."
 t1.56,"Nome Admin1 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin1_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.57,"Nome Admin2 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin2_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
 t1.58,"Nome Admin3 onde o pescador pousa a sua captura, com espaços e pontuação permitidos. Isso é extraído do admin3_ref e preenchido automaticamente com base no admin3_ref_name escolhido."
@@ -101,19 +101,19 @@ t1.90,"O sinalizador será vermelho se o"" species_group "" escolhido não exist
 t1.95,"Nome do local de aterragem sem espaços e sem pontuação, apenas sublinhados"
 t1.96,Nome do local de aterragem com espaços e pontuação permitidos
 t1.103,"Nome único da área de gestão com espaços e pontuação permitidos. Por favor, não altere o nome a menos que seja absolutamente necessário, pois as junções são baseadas nisso."
-t1.104,
-t1.104.1,
-t1.104.2,
-t1.104.3,
-t1.104.4,
-t1.105,
-t1.105.5,
-t1.106,
-t1.106.1,
-t1.106.2,
-t1.107,
-t1.107.1,
-t1.108,
+t1.104,"Nome único da área de gestão e datas de entrada em vigor. Mais especificamente, contém as seguintes informações separadas por um sublinhado: management_id, management_method, close_date e open_date."
+t1.104.1,A lista dos admin3s que pescam na área de gestão.
+t1.104.2,"O sinalizador ficará vermelho se um dos admin3s listados na coluna"" admin3_fish "" não existir no admin3_ref."
+t1.104.3,A lista de admin3s que têm um papel na gestão do evento de gestão.
+t1.104.4,"O sinalizador ficará vermelho se um dos admin3s listados na coluna"" admin3_govern "" não existir no admin3_ref."
+t1.105,"A lista das zonas de pesca associadas ao evento de gestão. A lista suspensa está ligada à coluna"" Nome "" no fishing_ground_ref."
+t1.105.5,"A bandeira será vermelha se uma das zonas de pesca enumeradas em ""management_fishing_ground"" não existir no fishing_ground_ref."
+t1.106,"O tipo de método de gestão utilizado durante o evento. A lista predefinida inclui: encerramento temporário, sem zona de captura, restrição de Artes, acesso gerido, proibição de colheita ou proibição de desflorestação."
+t1.106.1,"O tipo de regulamentação legal. A lista predefinida inclui: regulamento do chefe da aldeia, decreto do chefe da aldeia, Regulamento conjunto do chefe da aldeia ou nenhum."
+t1.106.2,"Grupo de espécies-alvo para a zona gerida. Isso pode incluir 'todos', um ou vários grupos de espécies. A lista suspensa está ligada ao species_ref principal e inclui grupos de espécies de todos os parceiros."
+t1.107,"Espécies-alvo para a zona gerida. Isso pode incluir 'All_species', uma ou várias espécies científicas. A lista suspensa está ligada ao species_ref principal e inclui espécies de todos os parceiros."
+t1.107.1,"O sinalizador será vermelho se o"" target_species "" escolhido não for referenciado no species_ref do parceiro."
+t1.108,"Habitat-alvo para a zona gerida. A lista suspensa predefinida inclui as opções de habitat: 'Recife, ervas marinhas, manguezais, lamaçal, areia, águas profundas ou outras'."
 t1.109,Dimensão da superfície gerida medida em hectares (ha)
 t1.110,Data de encerramento da área gerida
 t1.111,Data de abertura da zona gerida
@@ -129,10 +129,15 @@ t1.125,Nome Local com o nome da espécie entre parênteses
 t1.126,"Espécies categorizadas em grupos com base em sua biologia, sem espaços ou pontuação, apenas sublinhados. Este campo é utilizado para ajudar a filtrar determinadas opções de resposta no Kobo."
 t1.127,"O sinalizador será vermelho se o"" species_group "" escolhido não for referenciado no gear_ref. Isto significa que todas as artes indicadas no gear_ref serão apresentadas para este grupo de espécies. Para mostrar apenas as engrenagens que visam este grupo de espécies, adicione o grupo de espécies ao gear_ref."
 t1.128,Nome da espécie Local com espaços e pontuação permitidos
-t1.129,
+t1.129,"Nome do admin1, 2 ou 3 sem espaços ou pontuação, apenas sublinhados. A lista suspensa está ligada à coluna"" Nome "" no admin_ref correspondente. *Este campo será exibido apenas para parceiros que desejam a lista suspensa de espécies filtrada por esse administrador.*"
 t1.130,Nome comum da espécie em inglês com espaços e pontuação permitidos
 t1.131,Nome de família de uma espécie com espaços e pontuação permitidos
 t1.132,"Nome científico da espécie com espaços e pontuação permitidos. Se a espécie for desconhecida, o género ou a família também podem ser introduzidos. Se apenas o género for conhecido, escreva o nome do género seguido de"" sp ""(em oposição a"" spp "" ou sp.”). Se apenas a família for conhecida, escreva o nome da família (ou seja, Lutjanidae)."
+t1.133.1,Limite máximo de comprimento (cm) utilizado para as advertências de valor. Consulte lw_ref para obter mais informações.
+t1.133.2,Limite mínimo de comprimento (cm) utilizado para as advertências de valor. Consulte lw_ref para obter mais informações.
+t1.133.3,"Limite máximo de peso (kg) utilizado para avisos de valor com base nos valores 'length_limit_max', 'a' e 'b', calculados automaticamente no Smartsheet utilizando a fórmula ""=(([length_limit_max]@row ^ B@row) * a@row) / 1000"". Consulte lw_ref para obter mais informações."
+t1.133.4,"Limite mínimo de peso (kg) utilizado para avisos de valor com base nos valores 'length_limit_min', 'a' e 'b', calculados automaticamente no Smartsheet utilizando a fórmula""=(([length_limit_min]@row ^ B@row) * a@row) / 1000"". Consulte lw_ref para obter mais informações."
+t1.133.5,"Peso médio (kg), calculado automaticamente no Smartsheet utilizando a fórmula ""=([weight_limit_max]@row + [weight_limit_min]@row) / 2"". Consulte lw_ref para obter mais informações."
 t1.134,"A tradução em Inglês para ""adicionar novo"", ""não sei"", ""não está à venda"", etc."
 t1.135,"A tradução da língua do país para ""adicionar novo"", ""não sei"", ""não está à venda"", etc."
 t1.136,A folha de referência com a qual a tradução será mesclada para aparecer na lista suspensa apropriada em Kobo
@@ -141,6 +146,51 @@ t1.139,O preço mínimo baseado em species_group
 t1.140,O preço máximo baseado em species_group
 t1.141,"O grupo de espécies ao qual se aplica o aviso min/max. Para adicionar um novo grupo, por favor, comente e informe o BFO."
 t1.143,Preço por kg ou preço por indivíduo (os avisos de peso e comprimento das espécies são aplicados no back-end através de dados da literatura)
+t1.144,"O campo de transformação define a forma como o peixe ou Invertebrado é vendido. As opções incluem 'whole, partially_processed, filet, tail ou fin'."
+t1.145,"Nome do género da espécie, proveniente da função rfishbase ' load_taxa ()'."
+t1.146,"Nome de família da espécie, proveniente da função rfishbase 'load_taxa()'."
+t1.147,"Nome comum da espécie em inglês com espaços e pontuação, proveniente da tbl fishbase 'comnames' utilizando a coluna rank para seleccionar o nome favorável por espécie entre os vários nomes comuns disponíveis."
+t1.148,"Espécies categorizadas em grupos com base em sua biologia, sem espaços ou pontuação, apenas sublinhados. Este campo é utilizado para ajudar a filtrar determinadas opções de resposta no Kobo. As opções incluem: 'finfish, ray, enguia, tubarão, caranguejo, camarão, lagosta, polvo, lula, Choco, bivalve, gastrópode, sea_urchin e sea_cucumber'."
+t1.149,"Valor médio de k das espécies, provenientes da base rfish 'popgrowth' tbl."
+t1.150,"Tipo de comprimento de medição para o valor 'avg_k'. As opções incluem: 'TL = comprimento total, SL = comprimento padrão, WD = largura, CL = comprimento da carapaça, CW = largura da carapaça, ML = comprimento do manto, ShL = comprimento da concha'."
+t1.151,"Valor médio ' a 'para as espécies, proveniente da rfishbase' poplw ' tbl."
+t1.152,"Valor médio ' b 'para as espécies, proveniente da rfishbase' poplw ' tbl."
+t1.153,"Referência dos valores' a 'e' b'. As opções incluem: 'Fishbase, SeaLifebase, artigo de jornal'."
+t1.154,"Tipo de comprimento de medição para o valor 'a_b_type'. As opções incluem: 'TL = comprimento total, SL = comprimento padrão, WD = largura, CL = comprimento da carapaça, CW = largura da carapaça, ML = comprimento do manto, ShL = comprimento da concha'."
+t1.155,"Comprimento máximo das espécies (cm), provenientes da rfishbase 'popchar' tbl."
+t1.156,"Tipo de comprimento de medição para o valor 'lmax'. As opções incluem: 'TL = comprimento total, SL = comprimento padrão, WD = largura, CL = comprimento da carapaça, CW = largura da carapaça, ML = comprimento do manto, ShL = comprimento da concha'."
+t1.157,"Referência do valor lmax. As opções incluem: 'Fishbase, SeaLifebase, artigo de jornal'."
+t1.158,"Conversão do valor ' a 'para espécies com 'max_length_type' = SL convertendo em TL, proveniente da rfishbase' popll ' tbl"
+t1.159,"Valor de conversão ' b 'para espécies com 'max_length_type' = SL conversão para TL, proveniente da rfishbase' popll ' tbl"
+t1.160,"O valor de comprimento máximo com tipo de comprimento = TL, após a conversão usando os valores de conversão."
+t1.161,"Nível trófico associado à espécie, proveniente da coluna FoodTroph da tbl fishbase' ecology'. De acordo com a tabela de ecologia, Troph = 1 + troph médio dos itens alimentares. Os valores variam de 2,0-5,0"
+t1.162,"Escore de vulnerabilidade, proveniente da rfishbase' species ' tbl. Os valores variam de 0 a 100."
+t1.163,"Grupo trófico proveniente de peixes-sereia e referência de atributos bentónicos. As opções incluem: onívoro, plânctivoro, herbívoro-detritívoro, herbívoro-macroalgas, piscívoro, invertívoro-móvel, invertívoro-séssil."
+t1.164,"Grupo funcional proveniente de peixes-sereia e referência de atributos bentónicos. As opções incluem: 'cropper / grazer, planktivore, detritivore, navegador, piscivore, pisci-invertivore, micro-invertivore, macro-invertivore, coralívoro, limpador, spongivore, Escavadeira, raspador'."
+t1.165,"Tamanho do grupo proveniente de peixes-sereia e referência de atributos bentónicos. As opções incluem: 'grupo grande, grupo médio, grupo pequeno, par, solitário'."
+t1.166,ACTUALMENTE EM ACTUALIZAÇÃO
+t1.167,"Comprimento na maturidade da espécie (cm), proveniente da base de maturidade da rfish tbl."
+t1.168,"Tipo de comprimento de medição para o valor 'lmat'. As opções incluem: 'TL = comprimento total, SL = comprimento padrão, WD = largura, CL = comprimento da carapaça, CW = largura da carapaça, ML = comprimento do manto, ShL = comprimento da concha'."
+t1.169,"Referência do valor lmat. As opções incluem: 'Fishbase, SeaLifebase, artigo de jornal'."
+t1.170,"Tipo de comprimento de medição para o valor' final_lmax'. As opções incluem: 'TL = comprimento total, SL = comprimento padrão, WD = largura, CL = comprimento da carapaça, CW = largura da carapaça, ML = comprimento do manto, ShL = comprimento da concha'."
+t1.171,"Comprimento máximo Final (cm) por espécie utilizada nos cálculos, quer a partir da coluna 'lmax' quer da coluna 'lmax_tl' com base no tipo de comprimento desejado."
+t1.172,"Valor calculado ' loo 'utilizando o valor' final_lmax 'na fórmula"" = ( 10^(0.044 + 0.9841 *LOG10 (final_lmax)))"""
+t1.173,"O comprimento no vencimento é estimado utilizando o valor calculado da coluna 'calc_loo', utilizando a fórmula"" = (10^(0,8979 * LOG10 (calc_loo) - 0,0782))"""
+t1.174,Valor do comprimento final no vencimento (cm) com base no cálculo na coluna 'calc_lmat' arredondada para o décimo mais próximo.
+t1.175,"Cálculo para determinar o limite mínimo de comprimento, calculado automaticamente no Smartsheet utilizando a fórmula ""= [final_lmat] @ row * 0.5"""
+t1.176,"Limite máximo de comprimento (cm) utilizado para avisos de valor com base no valor 'final_lmax', calculado automaticamente no Smartsheet utilizando a fórmula ""=[final_lmax] @ row"""
+t1.177,"Limite mínimo de comprimento (cm) usado para avisos de valor com base no valor 'calc_limit_min', calculado automaticamente no Smartsheet usando a fórmula ""= [calc_limit_min] @ row"""
+t1.178,"Limite máximo de peso (kg) utilizado para avisos de valor com base nos valores 'length_limit_max', 'a' e 'b', calculados automaticamente no Smartsheet utilizando a fórmula ""=(([length_limit_max]@row ^ B@row) * a@row) / 1000"""
+t1.179,"Limite mínimo de peso (kg) utilizado para avisos de valor com base nos valores 'length_limit_min', 'a' e 'b', calculados automaticamente no Smartsheet utilizando a fórmula""=(([length_limit_min]@row ^ B@row) * a@row) / 1000"""
+t1.180,"Peso médio (kg), calculado automaticamente no Smartsheet utilizando a fórmula ""=([weight_limit_max] @ row +[weight_limit_min]@row) / 2"""
+t1.181,Referência ou fórmula para o valor' avg_weight'
+t1.182,"Verdadeiro / presente (1) ou falso/ausente (0), proveniente da coluna Oceânica da tbl fishbase 'ecology'."
+t1.183,"Verdadeiro / presente (1) ou falso/ausente (0), proveniente da coluna 'CoralReefs' da tbl fishbase 'ecology'."
+t1.184,"Verdadeiro / presente (1) ou falso/ausente (0), proveniente da coluna 'manguezais' da FishBase 'ecology' tbl."
+t1.185,"Verdadeiro / presente (1) ou falso/ausente (0), proveniente da coluna 'SeaGrassBeds' da tbl fishbase 'ecology'."
+t1.186,"Verdadeiro / presente (1) ou falso/ausente (0), proveniente da coluna 'Mud' da tbl fishbase 'ecology'."
+t1.187,"Verdadeiro / presente (1) ou falso/ausente (0), proveniente da coluna 'areia' da tbl fishbase 'ecologia'."
+t1.188,"Verdadeiro / presente (1) ou falso/ausente (0), proveniente da coluna 'estuários' da tbl fishbase 'ecologia'."
 faq,Perguntas Frequentes:
 q1,"Depois de adicionar um novo admin1, quanto tempo leva para que ele apareça no menu suspenso para admin2?"
 a1,"Levará aproximadamente 15 minutos até que novas entradas estejam disponíveis nos menus suspensos dinâmicos. Isso se aplica ao menu suspenso admin2 em admin3_ref, ao menu suspenso species_group em gear_ref, ao menu suspenso admin3 em buyer_ref, fisher_ref, data_collector, etc. Veja a Figura 5 para a lista completa de menus suspensos dinâmicos e seu fluxo de trabalho através dos arquivos de referência."

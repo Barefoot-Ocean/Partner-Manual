@@ -46,8 +46,8 @@ t1.11,"Jina la admin1, ngazi ya juu ya utawala baada ya nchi (yaani mkoa) bila n
 t1.12,"Jina la admin1, ngazi ya juu ya utawala baada ya nchi (yaani mkoa) na nafasi na alama za alama kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.13,"Bendera itakuwa nyekundu kama ""mshirika"" thamani haipo katika org_ref"
 t1.14,"Jina la mshirika bila nafasi na hakuna uakifishaji, inasisitiza tu. Orodha ya kushuka imeunganishwa na safu ya ""jina"" kwenye org_ref."
-t1.15,
-t1.16,
+t1.15,"Chagua ""Ndiyo"" ikiwa data inakusanywa kwa sasa kutoka kwa mtu/eneo hili. Ikiwa data haikusanywa tena kutoka kwa mtu/eneo hili, na unataka kuificha kutoka Kwa Kushuka Kwa Kobo, chagua "" Hapana.”"
+t1.16,"Chagua ""Ndiyo"" ikiwa ungependa kuondoa rekodi. Rekodi zinapaswa kuondolewa tu ikiwa jina si sahihi au ni nakala ya rekodi iliyopo."
 t1.18,"Jina la admin2, ngazi ya juu ya utawala baada ya admin1 (yaani wilaya) bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.19,"Jina la admin2, ngazi ya juu ya utawala baada ya admin1 (yaani wilaya) na nafasi na alama za alama kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.20,"Bendera itakuwa nyekundu kama ""admin1_ref_name"" thamani haipo katika admin1_ref"
@@ -61,14 +61,14 @@ t1.30,"Admin2 jina na nafasi na punctuation kuruhusiwa. Orodha ya kushuka imeung
 t1.31,"Admin2 jina na hakuna nafasi na hakuna punctuation, tu inasisitiza. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin2 kuchaguliwa."
 t1.34,Latitudo ya admin3
 t1.35,Longitudo ya admin3
-t1.38.1,
-t1.38.2,
-t1.38.3,
-t1.38.4,
+t1.38.1,"Chagua ""Ndio"" ikiwa unataka admin3 ionekane kwenye kushuka kwa Fomu Ya Ufuatiliaji Wa Kutua Kwa Kobo."
+t1.38.2,"Kuchagua ""Ndiyo"" kama unataka admin3 kuonekana katika dropdown Kwa Kobo kutua profiling fomu."
+t1.38.3,"Chagua ""Ndio"" ikiwa unataka admin3 ionekane kwenye kushuka kwa Fomu Ya wasifu Wa Jamii Ya Kobo."
+t1.38.4,"Chagua ""Ndio"" ikiwa unataka admin3 ionekane kwenye kushuka kwa Fomu ya Uchunguzi Wa Kaya Ya Kobo."
 t1.40,"Jina la mnunuzi bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.41,"Jina la mnunuzi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.42,"Jinsia ya mnunuzi; 'male' (kiume), 'female' (kike), 'nonbinary' au 'business_nogender'"
-t1.43,
+t1.43,"Bendera itakuwa nyekundu kama thamani ya mnunuzi_gender ni tofauti kwa mnunuzi sawa (yaani kama raymond Scott katika admin3= Boston ina jinsia=kiume, lakini Raymond Scott katika admin3=Miami ina jinsia=kike, bendera itakuwa nyekundu kwa sababu jinsia si sawa kwa mnunuzi sawa)."
 t1.44,"Admin1 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin1_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.45,"Admin2 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.46,"Admin3 jina ambapo mnunuzi hununua kutoka, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin3_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
@@ -77,7 +77,7 @@ t1.48,"Bendera itakuwa nyekundu kama ""admin3_ref_name"" thamani haipo katika ad
 t1.52,"Jina la mvuvi bila nafasi na hakuna alama za alama, inasisitiza tu"
 t1.53,"Jina la mvuvi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe lebo isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.54,"Jinsia ya mvuvi; 'male' (kiume), 'female' (kike), 'nonbinary' au 'business_nogender'"
-t1.55,
+t1.55,"Bendera itakuwa nyekundu kama fisher_gender thamani ni tofauti kwa fisher sawa (yaani kama raymond Scott katika admin3= Boston ina jinsia=kiume, lakini Raymond Scott katika admin3=Miami ina jinsia=kike, bendera itakuwa nyekundu kwa sababu jinsia si sawa kwa fisher sawa)."
 t1.56,"Admin1 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin1_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.57,"Admin2 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin2_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
 t1.58,"Admin3 jina ambapo fisher ardhi catch yao, na nafasi na alama za alama kuruhusiwa. Hii ni vunjwa kutoka admin3_ref na auto wenyeji kulingana na admin3_ref_name kuchaguliwa."
@@ -101,19 +101,19 @@ t1.90,"Bendera itakuwa nyekundu kama ""species_group"" kuchaguliwa haipo katika 
 t1.95,"Jina la tovuti ya kutua bila nafasi na hakuna uakifishaji, inasisitiza tu"
 t1.96,Jina la tovuti ya kutua na nafasi na punctuation kuruhusiwa
 t1.103,"Jina la kipekee la eneo la usimamizi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe jina isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
-t1.104,
-t1.104.1,
-t1.104.2,
-t1.104.3,
-t1.104.4,
-t1.105,
-t1.105.5,
-t1.106,
-t1.106.1,
-t1.106.2,
-t1.107,
-t1.107.1,
-t1.108,
+t1.104,"Jina la kipekee la eneo la usimamizi na tarehe za ufanisi. Zaidi hasa, ina taarifa zifuatazo kutengwa na underscore: management_id, management_method, close_date na open_date."
+t1.104.1,Orodha ya admin3s kwamba samaki ndani ya eneo la usimamizi.
+t1.104.2,"Bendera itakuwa nyekundu kama moja ya admin3s waliotajwa katika ""admin3_fish"" safu haipo katika admin3_ref."
+t1.104.3,Orodha ya admin3s ambayo ina jukumu katika kusimamia tukio la usimamizi.
+t1.104.4,"Bendera itakuwa nyekundu kama moja ya admin3s waliotajwa katika ""admin3_govern"" safu haipo katika admin3_ref."
+t1.105,"Orodha ya maeneo ya uvuvi yanayohusiana na tukio la usimamizi. Orodha ya kushuka imeunganishwa na safu ya ""jina"" katika fishing_ground_ref."
+t1.105.5,"Bendera itakuwa nyekundu kama moja ya maeneo ya uvuvi waliotajwa katika ""management_fishing_ground"" haipo katika fishing_ground_ref."
+t1.106,"Aina ya mbinu ya usimamizi kutumika wakati wa tukio. Orodha iliyofafanuliwa ni pamoja na: Kufungwa Kwa Muda, Hakuna Eneo La Kuchukua, Kizuizi Cha Gia, Ufikiaji Unaosimamiwa, Marufuku Ya Kuvuna au Marufuku ya Ukataji miti."
+t1.106.1,"Aina ya kanuni za kisheria. Orodha predefined ni pamoja na: kijiji kichwa kanuni, kijiji kichwa amri, pamoja kijiji kichwa kanuni au hakuna."
+t1.106.2,"Lengo aina kundi kwa ajili ya eneo kusimamiwa. Hii inaweza kujumuisha 'wote', moja au makundi ya aina nyingi. Orodha ya kushuka imeunganishwa NA MASTER species_ref na inajumuisha vikundi vya spishi kutoka kwa washirika wote."
+t1.107,"Aina lengo kwa ajili ya eneo kusimamiwa. Hii inaweza kujumuisha 'All_species', moja au aina nyingi za kisayansi. Orodha ya kushuka imeunganishwa NA MASTER species_ref na inajumuisha spishi kutoka kwa washirika wote."
+t1.107.1,"Bendera itakuwa nyekundu kama ""target_species"" kuchaguliwa si kumbukumbu katika species_ref mpenzi."
+t1.108,"Lengo makazi kwa ajili ya eneo kusimamiwa. Orodha ya kushuka iliyofafanuliwa ni pamoja na uchaguzi wa makazi: 'reef, seagrass, mangrove, mud_flat, mchanga, deepwater au nyingine'."
 t1.109,Ukubwa wa eneo lililosimamiwa lililopimwa kwa hekta (ha)
 t1.110,Tarehe ya kufunga ya eneo lililosimamiwa
 t1.111,Tarehe ya ufunguzi wa eneo lililosimamiwa
@@ -129,10 +129,15 @@ t1.125,Jina la mahali hapo lenye jina la spishi katika mabano
 t1.126,"Aina zilizowekwa katika vikundi kulingana na biolojia yao bila nafasi au alama za alama, zinasisitiza tu. Sehemu hii hutumiwa kusaidia kuchuja chaguzi fulani za jibu Huko Kobo."
 t1.127,"Bendera itakuwa nyekundu kama ""species_group"" kuchaguliwa si kumbukumbu katika gear_ref. Hiyo ina maana gear zote waliotajwa katika gear_ref itaonekana kwa kundi hili aina. Ili kuonyesha tu gia zinazolenga kikundi hiki cha spishi, tafadhali ongeza kikundi cha spishi kwenye gear_ref."
 t1.128,Jina la aina ya ndani na nafasi na punctuation kuruhusiwa
-t1.129,
+t1.129,"Jina la admin1, 2 au 3 bila nafasi au alama za alama, inasisitiza tu. Orodha ya kushuka imeunganishwa na safu ya ""jina"" katika admin_ref inayolingana. * Shamba hili litaonyesha tu kwa washirika ambao wanataka kushuka kwa spishi kuchujwa na msimamizi huyo.*"
 t1.130,Jina la kawaida la aina ya kiingereza na nafasi na punctuation kuruhusiwa
 t1.131,Jina la familia la spishi iliyo na nafasi na uakifishaji inaruhusiwa
 t1.132,"Jina la kisayansi la aina na nafasi na punctuation kuruhusiwa. Ikiwa spishi haijulikani, jenasi au familia pia inaweza kuingizwa. Ikiwa tu jenasi inajulikana, type jina la jenasi ikifuatiwa na"" sp ""(tofauti na"" spp "" au sp.”). Ikiwa tu familia inajulikana, type jina la familia (yaani Lutjanidae)."
+t1.133.1,Upeo wa urefu wa urefu (cm) kutumika kwa maonyo ya thamani. Angalia lw_ref kwa habari zaidi.
+t1.133.2,Kiwango cha chini urefu kikomo (cm) kutumika kwa ajili ya onyo thamani. Angalia lw_ref kwa habari zaidi.
+t1.133.3,"Kiwango cha juu cha uzito (kg) kutumika kwa ajili ya onyo thamani kulingana na 'length_limit_max', 'a', na ' b ' maadili, auto-mahesabu katika Smartsheet kutumia formula ""=(([length_limit_max]@row ^ b@row) * a@row) / 1000"". Angalia lw_ref kwa habari zaidi."
+t1.133.4,"Kiwango cha chini cha uzito (kg) kutumika kwa ajili ya onyo thamani kulingana na 'length_limit_min', 'a', na 'b' maadili, auto-mahesabu katika Smartsheet kutumia formula""=(([length_limit_min]@row ^ b@row) * a@row) / 1000"". Angalia lw_ref kwa habari zaidi."
+t1.133.5,"Wastani wa uzito (kg), auto-mahesabu Katika Smartsheet kutumia formula ""=([weight_limit_max]@row + [weight_limit_min]@row) / 2"". Angalia lw_ref kwa habari zaidi."
 t1.134,"Tafsiri ya kiingereza ya ""ongeza mpya"", ""usijue"", ""sio kuuzwa"", nk."
 t1.135,"Tafsiri ya lugha ya nchi kwa ""ongeza mpya"", ""sijui"", ""si kwa ajili ya kuuza"", nk."
 t1.136,Karatasi ya kumbukumbu tafsiri itakuwa ilijiunga na kuonekana katika dropdown sahihi Katika Kobo
@@ -141,6 +146,51 @@ t1.139,Bei ya chini kulingana na species_group
 t1.140,Bei ya juu kulingana na species_group
 t1.141,"Kikundi cha spishi onyo la min/max linatumika kwa. Ili kuongeza kikundi kipya, tafadhali toa maoni na ujulishe BFO."
 t1.143,Bei kwa kilo au bei kwa kila mtu (aina uzito na urefu maonyo ni kutekelezwa juu ya mwisho nyuma kupitia data kutoka fasihi)
+t1.144,"Sehemu ya usindikaji inafafanua jinsi samaki au uti wa mgongo huuzwa. Chaguzi ni pamoja na 'nzima, sehemu_processed, filet, mkia, au fin'."
+t1.145,"Jina la jenasi ya aina, inayotokana na kazi rfishbase 'load_taxa()'."
+t1.146,"Jina la familia ya aina, sourced kutoka rfishbase kazi 'load_taxa()'."
+t1.147,"Jina la kawaida la spishi ya kiingereza na nafasi na alama za alama, inayotokana na fishbase 'comnames' tbl kwa kutumia safu ya safu kuchagua jina linalofaa kwa spishi kutoka kwa majina mengi ya kawaida yanayopatikana."
+t1.148,"Aina zilizowekwa katika vikundi kulingana na biolojia yao bila nafasi au alama za alama, zinasisitiza tu. Sehemu hii hutumiwa kusaidia kuchuja chaguzi fulani za jibu Huko Kobo. Chaguo ni pamoja na: 'finfish, ray, eel, shark, kaa, shrimp, kamba, octopus, squid, cuttlefish, bivalve, gastropod, sea_urchin, na sea_cucumber'."
+t1.149,"Wastani k thamani ya aina, sourced kutoka rfishbase 'popgrowth' tbl."
+t1.150,"Aina ya urefu wa kipimo kwa thamani ya 'avg_k'. Chaguzi ni pamoja na: 'tl = urefu wa jumla, sl = urefu wa kawaida, WD = upana, cl = urefu wa carapace, CW = upana wa carapace, ml = urefu wa vazi, ShL = urefu wa ganda'."
+t1.151,"Wastani' a ' thamani kwa ajili ya aina, sourced kutoka rfishbase 'poplw' tbl."
+t1.152,"Wastani ' b ' thamani kwa ajili ya aina, sourced kutoka rfishbase 'poplw' tbl."
+t1.153,"Marejeo ya 'a' na ' b ' maadili. Chaguzi ni pamoja na: 'Fishbase, SeaLifebase, Jarida makala'."
+t1.154,"Aina ya urefu wa kipimo kwa thamani ya 'a_b_type'. Chaguzi ni pamoja na: 'tl = urefu wa jumla, sl = urefu wa kawaida, WD = upana, cl = urefu wa carapace, CW = upana wa carapace, ml = urefu wa vazi, ShL = urefu wa ganda'."
+t1.155,"Urefu wa juu wa aina (cm), inayotokana na rfishbase 'popchar' tbl."
+t1.156,"Aina ya urefu wa kipimo kwa thamani ya 'lmax'. Chaguzi ni pamoja na: 'tl = urefu wa jumla, sl = urefu wa kawaida, WD = upana, cl = urefu wa carapace, CW = upana wa carapace, ml = urefu wa vazi, ShL = urefu wa ganda'."
+t1.157,"Rejea ya thamani ya 'lmax'. Chaguzi ni pamoja na: 'Fishbase, SeaLifebase, Jarida makala'."
+t1.158,"Kubadilika' a 'thamani kwa ajili ya aina na 'max_length_type' = sl kubadilisha KWA TL, sourced kutoka rfishbase 'popll' tbl"
+t1.159,"Ubadilishaji ' b 'thamani kwa ajili ya aina na 'max_length_type' = sl kubadilisha KWA TL, sourced kutoka rfishbase 'popll' tbl"
+t1.160,"Thamani ya urefu wa juu na aina ya urefu = tl, baada ya kubadilisha kwa kutumia maadili ya uongofu."
+t1.161,"Kiwango cha Trophic kuhusishwa na aina, sourced kutoka' FoodTroph 'safu katika fishbase 'ecology' tbl. Kulingana na Jedwali LA IKOLOJIA, Troph = 1 + mean troph ya vitu vya chakula. Thamani ni kati ya 2.0-5.0"
+t1.162,"Alama ya udhaifu, inayotokana na rfishbase 'species' tbl. Thamani ni kati ya 0-100."
+t1.163,"Trophic kundi sourced kutoka MERMAID samaki na benthic sifa rejea. Chaguzi ni pamoja na: 'omnivore, planktivore, herbivore-detritivore, herbivore-macroalgae, piscivore, invertivore-mobile, invertivore-sessile'."
+t1.164,"Kazi kundi sourced kutoka MERMAID samaki na sifa benthic rejea. Chaguzi ni pamoja na: 'cropper/grazer, planktivore, detritivore, browser, piscivore, pisci-invertivore, micro-invertivore, macro-invertivore, corallivore, cleaner, spongivore, excavator, scraper'."
+t1.165,"Ukubwa wa kikundi unaotokana na samaki WA MERMAID na kumbukumbu ya sifa za benthic. Chaguzi ni pamoja na: 'kikundi kikubwa, kikundi cha kati, kikundi kidogo, jozi, upweke'."
+t1.166,KWA SASA INASASISHWA
+t1.167,"Urefu katika ukomavu wa aina (cm), inayotokana na rfishbase 'ukomavu' tbl."
+t1.168,"Aina ya urefu wa kipimo kwa thamani ya 'lmat'. Chaguzi ni pamoja na: 'tl = urefu wa jumla, sl = urefu wa kawaida, WD = upana, cl = urefu wa carapace, CW = upana wa carapace, ml = urefu wa vazi, ShL = urefu wa ganda'."
+t1.169,"Rejea ya thamani ya 'lmat'. Chaguzi ni pamoja na: 'Fishbase, SeaLifebase, Jarida makala'."
+t1.170,"Aina ya urefu wa kipimo kwa thamani ya 'final_lmax'. Chaguzi ni pamoja na: 'tl = urefu wa jumla, sl = urefu wa kawaida, WD = upana, cl = urefu wa carapace, CW = upana wa carapace, ml = urefu wa vazi, ShL = urefu wa ganda'."
+t1.171,"Mwisho urefu wa juu (cm) kwa aina kutumika katika mahesabu, ama kutoka 'lmax' safu au 'lmax_tl' safu kulingana na aina ya urefu taka."
+t1.172,"Mahesabu ' loo 'thamani kwa kutumia 'final_lmax' thamani katika formula "" = ( 10^(0.044 + 0.9841 *LOG10 (final_lmax)))"""
+t1.173,"Urefu katika ukomavu inakadiriwa kutumia thamani mahesabu kutoka safu calc_loo, kwa kutumia formula""=(10^(0.8979 *LOG10(calc_loo) - 0.0782))"""
+t1.174,Urefu wa mwisho katika ukomavu (cm) thamani kulingana na hesabu katika 'calc_lmat' safu rounded kwa karibu kumi.
+t1.175,"Mahesabu ya kuamua kikomo cha urefu wa chini, auto-mahesabu Katika Smartsheet kutumia formula ""=[final_lmat]@row * 0.5"""
+t1.176,"Kikomo cha urefu wa juu (cm) kinachotumiwa kwa maonyo ya thamani kulingana na thamani ya 'final_lmax', iliyohesabiwa kiotomatiki Katika Smartsheet kwa kutumia fomula ""=[final_lmax]@row"""
+t1.177,"Kikomo cha urefu wa chini (cm) kinachotumiwa kwa maonyo ya thamani kulingana na thamani ya' calc_limit_min', iliyohesabiwa kiotomatiki Katika Smartsheet kwa kutumia fomula ""=[calc_limit_min]@row"""
+t1.178,"Kiwango cha juu cha uzito (kg) kutumika kwa ajili ya onyo thamani kulingana na 'length_limit_max', 'a', na ' b 'maadili, auto-mahesabu katika Smartsheet kutumia formula"" =(([length_limit_max]@row ^ b@row) * a@row) / 1000"""
+t1.179,"Kiwango cha chini cha uzito (kg) kutumika kwa ajili ya onyo thamani kulingana na 'length_limit_min', 'a', na ' b 'maadili, auto-mahesabu katika Smartsheet kutumia formula"" =(([length_limit_min]@row ^ b@row) * a@row) / 1000"""
+t1.180,"Wastani wa uzito (kg), auto-mahesabu Katika Smartsheet kutumia formula ""=([weight_limit_max]@row + [weight_limit_min]@row) / 2"""
+t1.181,Rejea au fomula ya thamani ya' avg_weight'
+t1.182,"KWELI / SASA (1) AU UONGO/HAIPO (0), inayotokana na safu ya 'Oceanic' katika fishbase 'ecology' tbl."
+t1.183,"KWELI / SASA (1) AU UONGO/HAIPO (0), inayotokana na safu Ya 'CoralReefs' katika fishbase 'ecology' tbl."
+t1.184,"KWELI / SASA (1) AU UONGO/HAIPO (0), inayotokana na safu ya 'Mangroves' katika fishbase 'ecology' tbl."
+t1.185,"KWELI / SASA (1) AU UONGO/HAIPO (0), inayotokana na safu ya 'SeaGrassBeds' katika fishbase 'ecology' tbl."
+t1.186,"KWELI / SASA (1) AU UONGO/HAIPO (0), inayotokana na safu ya 'Matope' katika fishbase 'ecology' tbl."
+t1.187,"KWELI / SASA (1) AU UONGO/HAIPO (0), inayotokana na safu ya 'Mchanga' katika fishbase 'ecology' tbl."
+t1.188,"KWELI/SASA (1) au UONGO / HAIPO (0), inayotokana na safu Ya 'Estuaries' katika fishbase 'ecology' tbl."
 faq,Maswali Yanayoulizwa Mara Kwa Mara:
 q1,"Mara tu ninapoongeza admin1 mpya, inachukua muda gani kabla ya kuonekana kwenye kushuka kwa admin2?"
 a1,"Itachukua takriban dakika 15 kabla ya maingizo mapya kupatikana katika kushuka kwa nguvu. Hii inatumika kwa admin2 dropdown katika admin3_ref, species_group dropdown katika gear_ref, admin3 dropdown katika buyer_ref, fisher_ref, data_collector, nk. Tazama Kielelezo 5 kwa orodha kamili ya kushuka kwa nguvu na mtiririko wao wa kazi kupitia faili za kumbukumbu."

@@ -133,6 +133,11 @@ t1.129,"Nom de admin1, 2 ou 3 sans espaces ni ponctuation, uniquement des traits
 t1.130,Nom anglais commun de l'espèce avec espaces et ponctuation autorisés
 t1.131,Nom de famille d'une espèce avec espaces et ponctuation autorisés
 t1.132,"Nom scientifique de l'espèce avec espaces et ponctuation autorisés. Si l'espèce est inconnue, le genre ou la famille peut également être entré. Si seul le genre est connu, tapez le nom du genre suivi de "" sp ""(par opposition à "" spp "" ou sp.”). Si seule la famille est connue, tapez le nom de la famille (c'est-à-dire Lutjanidae)."
+t1.133.1,Limite de longueur maximale (cm) utilisée pour les avertissements de valeur. Voir lw_ref pour plus d'informations.
+t1.133.2,Limite de longueur minimale (cm) utilisée pour les avertissements de valeur. Voir lw_ref pour plus d'informations.
+t1.133.3,"Limite de poids maximale (kg) utilisée pour les avertissements de valeur basés sur les valeurs' length_limit_max',' a 'et' b', calculées automatiquement dans Smartsheet à l'aide de la formule ""=(([length_limit_max]@row ^ b@row) * a@row) / 1000"". Voir lw_ref pour plus d'informations."
+t1.133.4,"Limite de poids minimale (kg) utilisée pour les avertissements de valeur basés sur les valeurs' length_limit_min',' a 'et' b', calculées automatiquement dans Smartsheet à l'aide de la formule""=(([length_limit_min]@row ^ b@row) * a@row) / 1000"". Voir lw_ref pour plus d'informations."
+t1.133.5,"Poids moyen (kg), calculé automatiquement dans Smartsheet à l'aide de la formule ""=([weight_limit_max]@ligne + [weight_limit_min]@ligne) / 2"". Voir lw_ref pour plus d'informations."
 t1.134,"La traduction anglaise pour ""ajouter un nouveau"", “ne sait pas"",” pas à vendre"", etc."
 t1.135,"La traduction de la langue du pays pour ""ajouter un nouveau"" “"" ne sait pas"",” pas à vendre"", etc."
 t1.136,La feuille de référence avec laquelle la traduction sera fusionnée apparaîtra dans le menu déroulant approprié dans Kobo
@@ -141,6 +146,51 @@ t1.139,Le prix minimum basé sur le groupe d'espèces
 t1.140,Le prix maximum basé sur le groupe d'espèces
 t1.141,"Le groupe d'espèces auquel s'applique l'avertissement min/max. Pour ajouter un nouveau groupe, veuillez commenter et informer BFO."
 t1.143,Prix au kg ou prix par individu (les avertissements de poids et de longueur des espèces sont mis en œuvre en arrière-plan via les données de la littérature)
+t1.144,"Le champ de transformation définit comment le poisson ou l'invertébré est vendu. Les options incluent 'entier, partiellement_traité, filet, queue ou nageoire'."
+t1.145,"Nom de genre de l'espèce, provenant de la fonction rfishbase ' load_taxa ()'."
+t1.146,"Nom de famille de l'espèce, provenant de la fonction rfishbase ' load_taxa ()'."
+t1.147,"Nom anglais commun de l'espèce avec espaces et ponctuation, provenant de fishbase' comnames ' tbl en utilisant la colonne de classement pour sélectionner le nom favorable par espèce parmi les multiples noms communs disponibles."
+t1.148,"Espèces classées en groupes en fonction de leur biologie sans espaces ni ponctuation, uniquement des traits de soulignement. Ce champ est utilisé pour filtrer certains choix de réponses dans Kobo. L'option comprend: ""poisson à nageoires, raie, anguille, requin, crabe, crevette, homard, poulpe, calmar, seiche, bivalve, gastéropode, sea_urchin et sea_cucumber""."
+t1.149,"Valeur k moyenne des espèces, provenant de rfishbase' popgrowth ' tbl."
+t1.150,"Type de longueur de mesure pour la valeur 'avg_k'. Les options incluent: 'TL = longueur totale, SL = longueur standard, WD = largeur, CL = longueur de la carapace, CW = largeur de la carapace, ML = longueur du manteau, ShL = longueur de la coquille'."
+t1.151,"Valeur moyenne ' a 'pour les espèces, provenant de rfishbase' poplw ' tbl."
+t1.152,"Valeur moyenne "" b ""pour les espèces, provenant de la base de pêche ""poplw"" tbl."
+t1.153,"Référence des valeurs ' a ' et 'b'. Les options incluent: ""Base de poisson, Base de vie marine, Article de journal""."
+t1.154,"Type de longueur de mesure pour la valeur' a_b_type'. Les options incluent: 'TL = longueur totale, SL = longueur standard, WD = largeur, CL = longueur de la carapace, CW = largeur de la carapace, ML = longueur du manteau, ShL = longueur de la coquille'."
+t1.155,"Longueur maximale des espèces (cm), provenant de rfishbase 'popchar' tbl."
+t1.156,"Type de longueur de mesure pour la valeur 'lmax'. Les options incluent: 'TL = longueur totale, SL = longueur standard, WD = largeur, CL = longueur de la carapace, CW = largeur de la carapace, ML = longueur du manteau, ShL = longueur de la coquille'."
+t1.157,"Référence de la valeur' lmax'. Les options incluent: ""Base de poisson, Base de vie marine, Article de journal""."
+t1.158,"Conversion de la valeur ' a 'pour les espèces avec' max_length_type '= SL conversion en TL, provenant de rfishbase 'popll' tbl"
+t1.159,"Conversion de la valeur ' b 'pour les espèces avec' max_length_type '= SL conversion en TL, provenant de rfishbase 'popll' tbl"
+t1.160,"La valeur de longueur maximale avec le type de longueur = TL, après conversion à l'aide des valeurs de conversion."
+t1.161,"Niveau trophique associé à l'espèce, provenant de la colonne ""FoodTroph"" de la base de poissons ""ecology"" tbl. Selon le tableau de l'ÉCOLOGIE, Troph = 1 + troph moyen des aliments. Les valeurs vont de 2,0 à 5,0"
+t1.162,"Score de vulnérabilité, provenant de rfishbase' species ' tbl. Les valeurs vont de 0 à 100."
+t1.163,"Groupe trophique provenant de la référence sur les poissons SIRÈNES et les attributs benthiques. Les options incluent: ""omnivore, planctonivore, herbivore-détritivore, herbivore-macroalgues, piscivore, invertivore-mobile, invertivore-sessile""."
+t1.164,"Groupe fonctionnel provenant de la référence sur les poissons SIRÈNES et les attributs benthiques. Les options incluent: ""cultivateur / brouteur, plancteur, détritivore, navigateur, piscivore, piscivore-invertivore, micro-invertivore, macro-invertivore, corallivore, nettoyeur, spongivore, excavateur, grattoir""."
+t1.165,"Taille du groupe provenant de la référence sur les poissons SIRÈNES et les attributs benthiques. Les options incluent: ""grand groupe, groupe moyen, petit groupe, couple, solitaire""."
+t1.166,EN COURS DE MISE À JOUR
+t1.167,"Longueur à maturité des espèces (cm), provenant de rfishbase 'maturity' tbl."
+t1.168,"Type de longueur de mesure pour la valeur 'lmat'. Les options incluent: 'TL = longueur totale, SL = longueur standard, WD = largeur, CL = longueur de la carapace, CW = largeur de la carapace, ML = longueur du manteau, ShL = longueur de la coquille'."
+t1.169,"Référence de la valeur' lmat'. Les options incluent: ""Base de poisson, Base de vie marine, Article de journal""."
+t1.170,"Type de longueur de mesure pour la valeur 'final_lmax'. Les options incluent: 'TL = longueur totale, SL = longueur standard, WD = largeur, CL = longueur de la carapace, CW = largeur de la carapace, ML = longueur du manteau, ShL = longueur de la coquille'."
+t1.171,"Longueur maximale finale (cm) par espèce utilisée dans les calculs, soit à partir de la colonne ""lmax"", soit de la colonne ""lmax_tl"" en fonction du type de longueur souhaité."
+t1.172,"Valeur 'loo' calculée à l'aide de la valeur 'final_lmax' dans la formule "" = ( 10^(0.044 + 0.9841 *JOURNAL 10 (final_lmax)))"""
+t1.173,"La longueur à maturité est estimée à l'aide de la valeur calculée à partir de la colonne 'calc_loo', en utilisant la formule "" =(10^(0,8979 * LOG10 (calc_loo) - 0,0782))"""
+t1.174,Longueur finale à maturité (cm) valeur basée sur le calcul dans la colonne' calc_lmat ' arrondie au dixième le plus proche.
+t1.175,"Calcul pour déterminer la limite de longueur minimale, calculé automatiquement dans Smartsheet à l'aide de la formule ""=[final_lmat]@row * 0.5"""
+t1.176,"Limite de longueur maximale (cm) utilisée pour les avertissements de valeur basés sur la valeur 'final_lmax', calculée automatiquement dans Smartsheet à l'aide de la formule ""=[final_lmax]@row"""
+t1.177,"Limite de longueur minimale (cm) utilisée pour les avertissements de valeur basés sur la valeur 'calc_limit_min', calculée automatiquement dans Smartsheet à l'aide de la formule ""=[calc_limit_min]@row"""
+t1.178,"Limite de poids maximale (kg) utilisée pour les avertissements de valeur basés sur les valeurs' length_limit_max',' a 'et' b', calculées automatiquement dans Smartsheet à l'aide de la formule ""=(([length_limit_max] @ row ^ b@row) * a@row) / 1000"""
+t1.179,"Limite de poids minimale (kg) utilisée pour les avertissements de valeur basés sur les valeurs' length_limit_min',' a 'et' b', calculées automatiquement dans Smartsheet à l'aide de la formule ""=(([length_limit_min] @ row ^ b@row) * a@row) / 1000"""
+t1.180,"Poids moyen (kg), calculé automatiquement dans Smartsheet à l'aide de la formule ""=([weight_limit_max] @ ligne + [weight_limit_min]@ligne) / 2"""
+t1.181,Référence ou formule pour la valeur 'avg_weight'
+t1.182,"VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne ""Océanique"" de la base de poissons ""écologie"" tbl."
+t1.183,"VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne ""Récifs CoralLiens"" de la base de données ""écologie"" tbl."
+t1.184,"VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne ""Mangroves"" de la base de données ""écologie"" tbl."
+t1.185,"VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne ""Herbiers marins"" de la base de poissons ""écologie"" tbl."
+t1.186,"VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne ""Boue"" de la base de poissons ""écologie"" tbl."
+t1.187,"VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne ""Sable"" de la base de poissons ""écologie"" tbl."
+t1.188,"VRAI / PRÉSENT (1) ou FAUX / ABSENT (0), provenant de la colonne ""Estuaires"" de la base de données ""écologie"" tbl."
 faq,Questions Fréquemment Posées:
 q1,"Une fois que j'ai ajouté un nouvel admin1, combien de temps faut-il avant qu'il n'apparaisse dans la liste déroulante pour admin2?"
 a1,"Il faudra environ 15 minutes avant que de nouvelles entrées soient disponibles dans les listes déroulantes dynamiques. Cela s'applique à la liste déroulante admin2 dans admin3_ref, à la liste déroulante species_group dans gear_ref, à la liste déroulante admin3 dans buyer_ref, fisher_ref, data_collector, etc. Voir la figure 5 pour la liste complète des listes déroulantes dynamiques et leur flux de travail dans les fichiers de référence."

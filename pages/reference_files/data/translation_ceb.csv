@@ -133,6 +133,11 @@ t1.129,"Ngalan sa administrasyon 1, 2 o 3 nga wala ' y wanang o punctuation, gih
 t1.130,Kasagaran nga mga espisye sa ingles nga ngalan nga adunay mga luna ug ang punctuation gitugotan
 t1.131,Ngalan sa pamilya sa usa ka espisye nga adunay mga luna ug punctuation nga gitugotan
 t1.132,"Ang siyentipikong ngalan sa mga espisye nga adunay mga luna ug gitugot nga punctuation. Kung ang mga espisye wala mahibal - an, ang genus o pamilya mahimo usab nga makasulod. Kung ang genus ra ang nahibal-an, i-type ang ngalan sa henero nga gisundan sa ""sp"" (sukwahi sa ""spp"" o spp.”). Kung ang pamilya ra ang nahibal-an, i-type ang ngalan sa pamilya (ie Lutjanidae)."
+t1.133.1,Maximum nga limitasyon sa gitas-on (cm) nga gigamit alang sa mga pasidaan sa bili. Tan-awa ang lw_ref alang sa dugang nga impormasyon.
+t1.133.2,Minimum nga gitas-on (cm) nga gigamit alang sa mga pasidaan sa bili. Tan-awa ang lw_ref alang sa dugang nga impormasyon.
+t1.133.3,"Maximum gibug-aton limit (kg) gigamit alang sa bili pasidaan base sa' length_limit_max',' a', ug' b ' mga prinsipyo, auto-kalkulado Sa Smartsheet sa paggamit Sa pormula ""=(([length_limit_max]@row ^ b@row) / 1000"". Tan-awa ang lw_ref alang sa dugang nga impormasyon."
+t1.133.4,"Minimum nga limitasyon sa timbang (kg) gigamit alang sa mga pasidaan sa kantidad base sa 'length_limit_min', 'a', ug 'b' nga mga kantidad, auto-kalkulado sa Smartsheet gamit ang pormula""=(([length_limit_min]@row ^ b@row) / 1000"". Tan-awa ang lw_ref alang sa dugang nga impormasyon."
+t1.133.5,"Average nga gibug-aton (kg), auto-kalkulado Sa Smartsheet sa paggamit sa pormula ""=([weight_limit_max]@row + [weight_limit_min]@row) / 2"". Tan-awa ang lw_ref alang sa dugang nga impormasyon."
 t1.134,"Ang paghubad sa ingles alang sa"" pagdugang bag-ong"","" wala mahibal-an"","" dili ibaligya"", ug uban pa."
 t1.135,"Paghubad sa pinulongan sa nasud alang sa ""pagdugang bag-ong"", ""wala mahibal-an"", ""dili ibaligya"", ug uban pa."
 t1.136,Ang pakisayran sheet ang paghubad nga gihiusa sa sa pagpakita sa mga angay nga dropdown sa Kobo
@@ -141,6 +146,51 @@ t1.139,Minimum nga presyo base sa specie_group
 t1.140,Maximum nga presyo base sa specie_group
 t1.141,"Mga espisye ang min / max nga pasidaan magamit. Aron makadugang usa ka bag-ong grupo, palihug komentaryo ug ipahibalo SA BFO."
 t1.143,Presyo kada kg o presyo kada indibidwal (species gibug-aton ug gitas-on sa mga pasidaan nga gipatuman sa likod katapusan pinaagi sa data gikan sa literatura)
+t1.144,"Gihubit sa natad sa pagproseso kung giunsa ang pagbaligya sa isda o invertebrate. Ang mga kapilian naglakip sa 'tibuok, partially_processed, filet, ikog, o fin'."
+t1.145,Henero sa mga tanom nga bulak ang rfishbase function 'load_taxa ().
+t1.146,"Ngalan sa pamilya sa mga espisye, nga gikuha gikan sa rfishbase function 'load_taxa ()'."
+t1.147,"Kasagaran nga ngalan sa species sa ingles nga adunay mga luna ug punctuation, nga gikuha gikan sa fishbase 'comnames' tbl gamit ang ranggo nga kolum aron mapili ang paborableng ngalan matag species gikan sa daghang mga kasagarang ngalan nga magamit."
+t1.148,"Ang mga espisye giklasipikar ngadto sa mga grupo base sa ilang biology nga walay luna o punctuation, nagpasiugda lamang. Kini nga natad gigamit aron makatabang sa pagsala sa pipila ka mga kapilian sa tubag sa Kobo. Opsyon naglakip sa: 'finfish, ray, eel, shark, crab, hipon, lobster, kugita, nukos, cuttlefish, bivalve, gastropod, sea_urchin, ug sea_cucumber'."
+t1.149,"Average k bili sa mga espisye, gikuha gikan sa rfishbase 'popgrowth' tbl."
+t1.150,"Pagsukod gitas-on type alang sa 'avg_k' bili. Mga kapilian naglakip sa: 'TL = total gitas-on, SL = standard gitas-on, WD = gilapdon, CL = carapace gitas-on, CW = carapace gilapdon, ML = mantle gitas-on, ShL = kabhang gitas-on'."
+t1.151,"Aberids nga 'usa ka' bili alang sa mga espisye, nga gikuha gikan sa rfishbase 'poplw' tbl."
+t1.152,"Aberids nga kantidad sa' b ' alang sa mga espisye, nga gikuha gikan sa rfishbase 'poplw' tbl."
+t1.153,"Ang paghingalan sa mga kantidad a ug b. Mga opsyon naglakip sa: 'Fishbase, SeaLifebase, Journal article'."
+t1.154,"Pagsukod gitas-on type alang sa 'a_b_type' bili. Mga kapilian naglakip sa: 'TL = total gitas-on, SL = standard gitas-on, WD = gilapdon, CL = carapace gitas-on, CW = carapace gilapdon, ML = mantle gitas-on, ShL = kabhang gitas-on'."
+t1.155,"Maximum nga gitas-on sa mga espisye (cm), gikan sa rfishbase 'popchar' tbl."
+t1.156,"Pagsukod gitas-on type alang sa 'lmax' bili. Mga kapilian naglakip sa: 'TL = total gitas-on, SL = standard gitas-on, WD = gilapdon, CL = carapace gitas-on, CW = carapace gilapdon, ML = mantle gitas-on, ShL = kabhang gitas-on'."
+t1.157,"Ang bili sa 'lmax'. Mga opsyon naglakip sa: 'Fishbase, SeaLifebase, Journal article'."
+t1.158,"Pagkakabig 'usa ka' bili alang sa mga sakop sa henero nga uban sa 'max_length_type' = SL kinabig ngadto SA TL, gikuha gikan sa rfishbase 'popl' tbl"
+t1.159,"Pagkakabig ' b ' bili alang sa mga sakop sa henero nga uban sa 'max_length_type' = SL kinabig ngadto SA TL, gikuha gikan sa rfishbase 'popl' tbl"
+t1.160,"Max gitas-on bili uban sa gitas-on type = TL, pagkahuman sa pagkabig gamit ang mga kantidad sa pagkakabig."
+t1.161,"Ang lebel sa Trophic nga nalangkit sa mga species, nga gikuha gikan sa kolum nga 'FoodTroph' sa ekolohiya sa fishbase 'tbl. Sumala sa Lamesa SA EKOLOHIYA, Troph = 1 + nagpasabut nga tropiko sa mga butang sa pagkaon. Ang mga bili naglakip sa 2.0-5.0"
+t1.162,Ang rfishbase 'species' tbl. Ang mga bili nag-agad gikan sa 0 ngadto sa 100.
+t1.163,"Ang trophic group nga nakuha gikan sa mermaid fish ug benthic attributes reference. Mga kapilian naglakip sa: 'omnivore, plankivore, herbivore-detritivore, herbivore-macroalgae, piscivore, invertivore-mobile, invertivore-sessile'."
+t1.164,"Functional nga grupo nga gikuha gikan sa mermaid isda ug benthic mga hiyas reference. Mga kapilian naglakip sa: 'cropper/grazer, plankivore, detritivore, browser, piscivore, pisci-invertivore, micro-invertivore, macro-invertivore, corallivore, cleaner, spongivore, excavator, scraper'."
+t1.165,"Ang gidak-on sa grupo nga nakuha gikan sa mermaid fish ug benthic attributes reference. Mga kapilian naglakip sa: 'dako nga grupo, medium nga grupo, gamay nga grupo, pares, nag-inusara'."
+t1.166,KINI DI UPDATE
+t1.167,"Gitas-on sa pagkahamtong sa mga espisye (cm), gikuha gikan sa rfishbase 'pagkahamtong' tbl."
+t1.168,"Pagsukod gitas-on type alang sa 'lmat' bili. Mga kapilian naglakip sa: 'TL = total gitas-on, SL = standard gitas-on, WD = gilapdon, CL = carapace gitas-on, CW = carapace gilapdon, ML = mantle gitas-on, ShL = kabhang gitas-on'."
+t1.169,"Reference sa' lmat ' bili. Mga opsyon naglakip sa: 'Fishbase, SeaLifebase, Journal article'."
+t1.170,"Pagsukod gitas-on type alang sa 'final_lmax' bili. Mga kapilian naglakip sa: 'TL = total gitas-on, SL = standard gitas-on, WD = gilapdon, CL = carapace gitas-on, CW = carapace gilapdon, ML = mantle gitas-on, ShL = kabhang gitas-on'."
+t1.171,"Katapusan nga maximum gitas-on (cm) matag matang nga gigamit sa kalkulasyon, bisan gikan sa 'lmax' kolum o sa 'lmax_tl' kolum base sa gitinguha nga gitas-on type."
+t1.172,"Kalkulado' loa 'bili sa paggamit sa' final_lmax 'bili sa pormula"" = ( 10^(0.044 + 0.9841 *LOG10(final_lmax)))"""
+t1.173,"Ang gitas-on sa pagkahamtong gibanabana sa paggamit sa kalkulado bili gikan sa' calc_looo 'kolum, sa paggamit sa pormula""=(10^(0.8979 * LOG10(calc_looo) - 0.0782))"""
+t1.174,Katapusan nga gitas-on sa pagkahamtong (cm) bili base sa kalkulasyon sa 'calc_lmat' kolum rounded ngadto sa labing duol nga ikapulo.
+t1.175,"Kalkulasyon alang sa pagtino sa minimum nga gitas-on utlanan, auto-kalkulado Sa Smartsheet sa paggamit sa pormula ""=[final_lmat]@row * 0.5"""
+t1.176,"Maximum nga limitasyon sa gitas-on (cm) gigamit alang sa mga pasidaan sa kantidad base sa' final_lmax ' nga kantidad, auto-kalkulado sa Smartsheet gamit ang pormula nga ""=[final_lmax]@row"""
+t1.177,"Minimum nga limitasyon sa gitas-on (cm) gigamit alang sa mga pasidaan sa kantidad base sa' calc_limit_min 'nga kantidad, auto-kalkulado sa Smartsheet gamit ang pormula nga""=[calc_limit_min]@row"""
+t1.178,"Maximum nga limitasyon sa timbang (kg) gigamit alang sa mga pasidaan sa kantidad base sa 'length_limit_max', 'a', ug 'b' nga mga kantidad, awtomatiko nga gikalkulo sa Smartsheet gamit ang pormula ""=([[length_limit_max]@row b@row) / 1000"""
+t1.179,"Minimum nga limitasyon sa timbang (kg) gigamit alang sa mga pasidaan sa kantidad base sa 'length_limit_min', 'a', ug 'b' nga mga kantidad, awtomatikong gikalkulo sa Smartsheet gamit ang pormula ""=([[length_limit_min]@row@row) / 1000"""
+t1.180,"Average nga gibug-aton (kg), auto-kalkulado Sa Smartsheet sa paggamit Sa pormula ""=([weight_limit_max]@row + [weight_limit_min]@row) / 2"""
+t1.181,Pakisayran o pormula alang sa' avg_weight ' bili
+t1.182,"TINUOD/KARON (1) o BAKAK/WALA (0), gikuha gikan sa kolum nga 'Oceanic' sa ekolohiya sa fishbase 'tbl."
+t1.183,"TINUOD/KARON (1) o BAKAK/WALA (0), gikuha gikan sa kolum nga 'CoralReefs' sa ekolohiya sa fishbase 'tbl."
+t1.184,"TINUOD/KARON (1) o BAKAK/WALA (0), gikuha gikan sa kolum sa 'Mangroves' sa ekolohiya sa fishbase 'tbl."
+t1.185,"TINUOD/KARON (1) o BAKAK/WALA (0), gikuha gikan sa kolum nga 'SeaGrassBeds' sa ekolohiya sa fishbase 'tbl."
+t1.186,"TINUOD/KARON (1) o BAKAK/WALA (0), gikuha gikan sa kolum nga 'Lapok' sa ekolohiya sa fishbase 'tbl."
+t1.187,"TINUOD/KARON (1) o BAKAK/WALA (0), gikuha gikan sa kolum nga 'Balas' sa ekolohiya sa fishbase 'tbl."
+t1.188,"TINUOD/KARON (1) o BAKAK/WALA (0), gikuha gikan sa kolum nga 'Estuaries' sa ekolohiya sa fishbase 'tbl."
 faq,Kanunay Nga Gipangutana Nga Mga Pangutana:
 q1,"Unsa ka dugay ang pag-download sa usa ka bag-ong admin 1, unsa ka dugay kini moabut sa wala pa kini makita sa dropdown alang sa admin 2?"
 a1,"Gikinahanglan ang 15 minuto sa wala pa magamit ang mga bag-ong entry sa mga dinamikong dropdown. Nalakip kini sa administr2 dropdown sa admin3_ref, ang species_group dropdown sa gear_ref, ang administr3 dropdown sa buyer_ref, fisher_ref, data_collector, ug uban pa. Tan-awa Ang Figure 5 alang sa bug-os nga lista sa mga dinamikong dropdown ug ang ilang agianan sa trabaho pinaagi sa mga file sa pakisayran."

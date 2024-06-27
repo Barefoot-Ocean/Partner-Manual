@@ -46,8 +46,8 @@ t1.11,"Nama admin1, tingkat administrasi tertinggi setelah negara (yaitu provins
 t1.12,"Nama admin1, tingkat administrasi tertinggi setelah negara (yaitu provinsi) dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
 t1.13,"Bendera akan berwarna merah jika nilai"" mitra "" tidak ada di org_ref"
 t1.14,"Nama mitra tanpa spasi dan tanpa tanda baca, hanya garis bawah. Daftar tarik-turun terhubung ke kolom ""nama"" di org_ref."
-t1.15,
-t1.16,
+t1.15,"Pilih ""Ya"" jika data saat ini sedang dikumpulkan dari individu / area ini. Jika data tidak lagi dikumpulkan dari individu/area ini, dan Anda ingin menyembunyikannya dari menu tarik-turun Kobo, pilih ""Tidak.”"
+t1.16,"Pilih "" Ya "" jika Anda ingin menghapus rekaman tersebut. Catatan hanya boleh dihapus jika namanya salah atau merupakan duplikat dari catatan yang ada."
 t1.18,"Nama admin2, tingkat administrasi tertinggi setelah admin1 (yaitu distrik) tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.19,"Nama admin2, tingkat administrasi tertinggi setelah admin1 (yaitu distrik) dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
 t1.20,"Bendera akan berwarna merah jika nilai"" admin1_ref_name "" tidak ada di admin1_ref"
@@ -61,14 +61,14 @@ t1.30,"Nama Admin2 dengan spasi dan tanda baca diperbolehkan. Daftar tarik-turun
 t1.31,"Nama Admin2 tanpa spasi dan tanpa tanda baca, hanya garis bawah. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin2 yang dipilih."
 t1.34,Lintang admin3
 t1.35,Bujur admin3
-t1.38.1,
-t1.38.2,
-t1.38.3,
-t1.38.4,
+t1.38.1,"Pilih ""Ya"" jika Anda ingin admin3 muncul di menu tarik-turun untuk formulir pemantauan pendaratan Kobo."
+t1.38.2,"Pilih ""Ya"" jika Anda ingin admin3 muncul di menu tarik-turun untuk formulir profil Kobo landings."
+t1.38.3,"Pilih ""Ya"" jika Anda ingin admin3 muncul di menu tarik-turun untuk formulir profil komunitas Kobo."
+t1.38.4,"Pilih ""Ya"" jika Anda ingin admin3 muncul di menu tarik-turun untuk formulir survei rumah tangga Kobo."
 t1.40,"Nama pembeli tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.41,"Nama pembeli dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
 t1.42,"Jenis kelamin pembeli; 'male' (pria), 'female' (wanita), 'nonbinary' (non biner) atau 'business_nogender' (bisnis_nogender)"
-t1.43,
+t1.43,"Bendera akan berwarna merah jika nilai buyer_gender berbeda untuk pembeli yang sama (yaitu jika Raymond Scott di admin3= Boston memiliki gender=laki-laki, tetapi Raymond Scott di admin3=Miami memiliki gender=perempuan, bendera akan berwarna merah karena jenis kelaminnya tidak sama untuk pembeli yang sama)."
 t1.44,"Admin1 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin1_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
 t1.45,"Admin2 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
 t1.46,"Admin3 nama tempat pembeli membeli, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin3_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
@@ -77,7 +77,7 @@ t1.48,"Bendera akan berwarna merah jika nilai"" admin3_ref_name "" tidak ada di 
 t1.52,"Nama nelayan tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.53,"Nama nelayan dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah label kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
 t1.54,"Jenis kelamin nelayan; 'male' (pria), 'female' (wanita), 'nonbinary' (non biner) atau 'business_nogender' (bisnis_nogender)"
-t1.55,
+t1.55,"Bendera akan berwarna merah jika nilai fisher_gender berbeda untuk nelayan yang sama (yaitu jika Raymond Scott di admin3= Boston memiliki gender=laki-laki, tetapi Raymond Scott di admin3=Miami memiliki gender=perempuan, bendera akan berwarna merah karena jenis kelaminnya tidak sama untuk nelayan yang sama)."
 t1.56,"Admin1 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin1_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
 t1.57,"Admin2 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin2_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
 t1.58,"Admin3 nama tempat nelayan mendaratkan tangkapannya, dengan spasi dan tanda baca diperbolehkan. Ini ditarik dari admin3_ref dan diisi secara otomatis berdasarkan admin3_ref_name yang dipilih."
@@ -101,19 +101,19 @@ t1.90,"Bendera akan berwarna merah jika ""species_group"" yang dipilih tidak ada
 t1.95,"Nama lokasi pendaratan tanpa spasi dan tanpa tanda baca, hanya garis bawah"
 t1.96,Nama lokasi pendaratan dengan spasi dan tanda baca diperbolehkan
 t1.103,"Nama unik area manajemen dengan spasi dan tanda baca diperbolehkan. Harap jangan mengubah nama kecuali benar-benar diperlukan, karena penggabungan didasarkan pada ini."
-t1.104,
-t1.104.1,
-t1.104.2,
-t1.104.3,
-t1.104.4,
-t1.105,
-t1.105.5,
-t1.106,
-t1.106.1,
-t1.106.2,
-t1.107,
-t1.107.1,
-t1.108,
+t1.104,"Nama unik dari area manajemen dan tanggal efektif. Lebih khusus lagi, ini berisi informasi berikut yang dipisahkan oleh garis bawah: management_id, management_method, close_date, dan open_date."
+t1.104.1,Daftar admin3 yang memancing di dalam area pengelolaan.
+t1.104.2,"Bendera akan berwarna merah jika salah satu admin3 yang tercantum di kolom"" admin3_fish "" tidak ada di admin3_ref."
+t1.104.3,Daftar admin3 yang memiliki peran dalam mengatur event manajemen.
+t1.104.4,"Bendera akan berwarna merah jika salah satu admin3 yang tercantum di kolom ""admin3_govern"" tidak ada di admin3_ref."
+t1.105,"Daftar tempat penangkapan ikan yang terkait dengan acara pengelolaan. Daftar tarik-turun terhubung ke kolom ""nama"" di fishing_ground_ref."
+t1.105.5,"Bendera akan berwarna merah jika salah satu tempat penangkapan ikan yang tercantum di ""management_fishing_ground"" tidak ada di fishing_ground_ref."
+t1.106,"Jenis metode manajemen yang digunakan selama acara berlangsung. Daftar yang telah ditentukan sebelumnya meliputi: Penutupan Sementara, Zona Larangan Pengambilan, Pembatasan Peralatan, Akses Terkelola, Larangan Pemanenan, atau Larangan Deforestasi."
+t1.106.1,"Jenis regulasi hukum. Daftar yang telah ditentukan antara lain: peraturan kepala desa, keputusan kepala desa, peraturan kepala desa gabungan atau tidak sama sekali."
+t1.106.2,"Kelompok spesies target untuk wilayah yang dikelola. Ini dapat mencakup 'Semua', satu atau beberapa kelompok spesies. Daftar tarik-turun terhubung ke MASTER species_ref dan menyertakan grup spesies dari semua mitra."
+t1.107,"Spesies target untuk wilayah yang dikelola. Ini dapat mencakup 'All_species', satu atau beberapa spesies ilmiah. Daftar tarik-turun terhubung ke MASTER species_ref dan menyertakan spesies dari semua mitra."
+t1.107.1,"Bendera akan berwarna merah jika ""target_species"" yang dipilih tidak direferensikan dalam species_ref mitra."
+t1.108,"Target habitat untuk wilayah yang dikelola. Daftar tarik-turun yang telah ditentukan sebelumnya mencakup pilihan habitat: 'terumbu karang, lamun, bakau, dataran lumpur, pasir, perairan dalam, atau lainnya'."
 t1.109,Luas areal yang dikelola diukur dalam hektare (ha)
 t1.110,Tanggal penutupan area yang dikelola
 t1.111,Tanggal pembukaan area yang dikelola
@@ -129,10 +129,15 @@ t1.125,Nama lokal dengan nama spesies dalam tanda kurung
 t1.126,"Spesies dikategorikan ke dalam kelompok berdasarkan biologinya tanpa spasi atau tanda baca, hanya garis bawah. Bidang ini digunakan untuk membantu memfilter pilihan jawaban tertentu di Kobo."
 t1.127,"Bendera akan berwarna merah jika ""species_group"" yang dipilih tidak direferensikan di gear_ref. Itu berarti semua roda gigi yang terdaftar di gear_ref akan muncul untuk grup spesies ini. Untuk hanya menampilkan roda gigi yang menargetkan grup spesies ini, harap tambahkan grup spesies ke gear_ref."
 t1.128,Nama spesies lokal dengan spasi dan tanda baca diperbolehkan
-t1.129,
+t1.129,"Nama admin1, 2 atau 3 tanpa spasi atau tanda baca, hanya garis bawah. Daftar tarik-turun terhubung ke kolom ""nama"" di admin_ref yang sesuai. * Bidang ini hanya akan ditampilkan untuk mitra yang ingin dropdown spesies difilter oleh admin tersebut.*"
 t1.130,Nama spesies bahasa Inggris umum dengan spasi dan tanda baca diperbolehkan
 t1.131,Nama keluarga suatu spesies dengan spasi dan tanda baca diperbolehkan
 t1.132,"Nama ilmiah spesies dengan spasi dan tanda baca diperbolehkan. Jika spesiesnya tidak diketahui, genus atau famili juga dapat dimasukkan. Jika hanya genus yang diketahui, ketikkan nama genus diikuti dengan ""sp"" (berlawanan dengan ""spp"" atau sp.”). Jika hanya famili yang diketahui, ketikkan nama famili tersebut (yaitu Lutjanidae)."
+t1.133.1,Batas panjang maksimum (cm) digunakan untuk peringatan nilai. Lihat lw_ref untuk informasi lebih lanjut.
+t1.133.2,Batas panjang minimum (cm) digunakan untuk peringatan nilai. Lihat lw_ref untuk informasi lebih lanjut.
+t1.133.3,"Batas berat maksimum (kg) yang digunakan untuk peringatan nilai berdasarkan nilai 'length_limit_max', 'a', dan 'b', dihitung secara otomatis di Smartsheet menggunakan rumus ""=(([length_limit_max]@row ^ b @ row) * a@row) / 1000"". Lihat lw_ref untuk informasi lebih lanjut."
+t1.133.4,"Batas berat minimum (kg) yang digunakan untuk peringatan nilai berdasarkan nilai' length_limit_min',' a', dan' b', dihitung secara otomatis di Smartsheet menggunakan rumus""=(([length_limit_min]@row ^ b@row) * a@row) / 1000"". Lihat lw_ref untuk informasi lebih lanjut."
+t1.133.5,"Berat rata-rata (kg), dihitung secara otomatis di Smartsheet menggunakan rumus ""=([weight_limit_max]@row + [weight_limit_min]@row) / 2"". Lihat lw_ref untuk informasi lebih lanjut."
 t1.134,"Terjemahan bahasa Inggris untuk ""tambah baru"", ""tidak tahu"", ""tidak dijual"", dll."
 t1.135,"Terjemahan bahasa negara untuk ""tambah baru"", ""tidak tahu"", ""tidak dijual"", dll."
 t1.136,Lembar referensi terjemahan akan digabungkan untuk muncul di dropdown yang sesuai di Kobo
@@ -141,6 +146,51 @@ t1.139,Harga minimum berdasarkan species_group
 t1.140,Harga maksimum berdasarkan species_group
 t1.141,"Kelompok spesies tempat peringatan min / maks berlaku. Untuk menambahkan grup baru, beri komentar dan beri tahu BFO."
 t1.143,Harga per kg atau harga per individu (peringatan berat dan panjang spesies diterapkan di bagian belakang melalui data dari literatur)
+t1.144,"Bidang pengolahan menentukan bagaimana ikan atau invertebrata dijual. Opsi termasuk 'whole, partially_processed, filet, tail, atau fin'."
+t1.145,"Nama genus spesies, bersumber dari fungsi rfishbase ' load_taxa ()'."
+t1.146,"Nama famili spesies, bersumber dari fungsi rfishbase ' load_taxa ()'."
+t1.147,"Nama spesies bahasa Inggris umum dengan spasi dan tanda baca, bersumber dari tbl 'comnames' fishbase menggunakan kolom peringkat untuk memilih nama yang disukai per spesies dari beberapa nama umum yang tersedia."
+t1.148,"Spesies dikategorikan ke dalam kelompok berdasarkan biologinya tanpa spasi atau tanda baca, hanya garis bawah. Bidang ini digunakan untuk membantu memfilter pilihan jawaban tertentu di Kobo. Opsi meliputi: 'finfish, ray, belut, hiu, kepiting, udang, lobster, gurita, cumi-cumi, sotong, bivalvia, gastropoda, sea_urchin, dan sea_cucumber'."
+t1.149,"Nilai k rata-rata spesies, bersumber dari tbl 'popgrowth' rfishbase."
+t1.150,"Jenis panjang pengukuran untuk nilai 'avg_k'. Pilihannya meliputi: 'TL = panjang total, SL = panjang standar, WD = lebar, CL = panjang karapas, CW = lebar karapas, ML = panjang mantel, ShL = panjang cangkang'."
+t1.151,"Nilai rata-rata 'a' untuk spesies, bersumber dari rfishbase' poplw ' tbl."
+t1.152,"Nilai 'b' rata-rata untuk spesies, bersumber dari rfishbase' poplw ' tbl."
+t1.153,"Referensi nilai 'a' dan 'b'. Pilihannya meliputi: 'Fishbase, SeaLifebase, Journal article'."
+t1.154,"Jenis panjang pengukuran untuk nilai 'a_b_type'. Pilihannya meliputi: 'TL = panjang total, SL = panjang standar, WD = lebar, CL = panjang karapas, CW = lebar karapas, ML = panjang mantel, ShL = panjang cangkang'."
+t1.155,"Panjang maksimum spesies (cm), bersumber dari rfishbase 'popchar' tbl."
+t1.156,"Jenis panjang pengukuran untuk nilai 'lmax'. Pilihannya meliputi: 'TL = panjang total, SL = panjang standar, WD = lebar, CL = panjang karapas, CW = lebar karapas, ML = panjang mantel, ShL = panjang cangkang'."
+t1.157,"Referensi nilai 'lmax'. Pilihannya meliputi: 'Fishbase, SeaLifebase, Journal article'."
+t1.158,"Konversi nilai' a 'untuk spesies dengan 'max_length_type' = SL mengonversi ke TL, bersumber dari rfishbase' popll ' tbl"
+t1.159,"Konversi nilai 'b' untuk spesies dengan 'max_length_type' = SL mengonversi ke TL, bersumber dari rfishbase' popll ' tbl"
+t1.160,"Nilai max length dengan length type = TL, setelah dikonversi menggunakan nilai konversi."
+t1.161,"Tingkat trofik yang terkait dengan spesies tersebut, bersumber dari kolom 'FoodTroph' di tbl 'ecology' basis ikan. Menurut Tabel EKOLOGI, Troph = 1 + rata-rata troph dari makanan. Nilai berkisar dari 2.0-5.0"
+t1.162,"Skor kerentanan, bersumber dari tbl 'spesies' rfishbase. Nilai berkisar antara 0-100."
+t1.163,"Kelompok trofik bersumber dari referensi atribut ikan duyung dan bentik. Pilihannya meliputi: 'omnivora, planktivor, herbivora-detritivora, herbivora-makroalga, piscivora, invertivora-seluler, invertivora-sesil'."
+t1.164,"Gugus fungsi bersumber dari referensi atribut ikan duyung dan bentik. Pilihannya meliputi: 'pemotong/penggembala, penanam, detritivora, browser, pembalik pisci, pembalik mikro, pembalik makro, corallivora, pembersih, spongivora, ekskavator, pengikis'."
+t1.165,"Ukuran kelompok bersumber dari referensi atribut MERMAID fish dan benthic. Pilihannya meliputi: 'grup besar, grup sedang, grup kecil, berpasangan, soliter'."
+t1.166,SAAT INI SEDANG DIPERBARUI
+t1.167,"Panjang pada saat jatuh tempo spesies (cm), bersumber dari rfishbase' maturity ' tbl."
+t1.168,"Jenis panjang pengukuran untuk nilai 'lmat'. Pilihannya meliputi: 'TL = panjang total, SL = panjang standar, WD = lebar, CL = panjang karapas, CW = lebar karapas, ML = panjang mantel, ShL = panjang cangkang'."
+t1.169,"Referensi nilai 'lmat'. Pilihannya meliputi: 'Fishbase, SeaLifebase, Journal article'."
+t1.170,"Jenis panjang pengukuran untuk nilai 'final_lmax'. Pilihannya meliputi: 'TL = panjang total, SL = panjang standar, WD = lebar, CL = panjang karapas, CW = lebar karapas, ML = panjang mantel, ShL = panjang cangkang'."
+t1.171,"Panjang maksimum akhir (cm) per spesies yang digunakan dalam perhitungan, baik dari kolom 'lmax' atau kolom' lmax_tl ' berdasarkan jenis panjang yang diinginkan."
+t1.172,"Nilai 'loo' yang dihitung menggunakan nilai 'final_lmax' dalam rumus "" = ( 10^(0.044 + 0.9841 *LOG10 (final_lmax)))"""
+t1.173,"Panjang pada saat jatuh tempo diperkirakan menggunakan nilai yang dihitung dari kolom 'calc_loo', menggunakan rumus "" =(10^(0,8979 *LOG10(calc_loo) - 0,0782))"""
+t1.174,Nilai panjang akhir pada saat jatuh tempo (cm) berdasarkan perhitungan pada kolom 'calc_lmat' dibulatkan ke sepersepuluh terdekat.
+t1.175,"Perhitungan untuk menentukan batas panjang minimum, dihitung otomatis di Smartsheet menggunakan rumus ""=[final_lmat]@row * 0.5"""
+t1.176,"Batas panjang maksimum (cm) yang digunakan untuk peringatan nilai berdasarkan nilai 'final_lmax', dihitung secara otomatis di Smartsheet menggunakan rumus ""=[final_lmax]@row"""
+t1.177,"Batas panjang minimum (cm) yang digunakan untuk peringatan nilai berdasarkan nilai 'calc_limit_min', dihitung secara otomatis di Smartsheet menggunakan rumus ""=[calc_limit_min]@row"""
+t1.178,"Batas berat maksimum (kg) yang digunakan untuk peringatan nilai berdasarkan nilai 'length_limit_max', 'a', dan 'b', dihitung secara otomatis di Smartsheet menggunakan rumus ""=(([length_limit_max]@row ^ b @ row) * a@row) / 1000"""
+t1.179,"Batas berat minimum (kg) yang digunakan untuk peringatan nilai berdasarkan nilai 'length_limit_min', 'a', dan 'b', dihitung secara otomatis di Smartsheet menggunakan rumus""=(([length_limit_min]@row ^ b@row) * a@row) / 1000"""
+t1.180,"Berat rata-rata (kg), dihitung secara otomatis di Smartsheet menggunakan rumus ""=([weight_limit_max]@row + [weight_limit_min]@row) / 2"""
+t1.181,Referensi atau rumus untuk nilai 'avg_weight'
+t1.182,"TRUE / PRESENT (1) atau FALSE / ABSENT (0), bersumber dari kolom 'Oceanic' di tbl 'ecology' fishbase."
+t1.183,"TRUE / PRESENT (1) atau FALSE / ABSENT (0), bersumber dari kolom 'CoralReefs' di tbl 'ecology' fishbase."
+t1.184,"TRUE / PRESENT (1) atau FALSE / ABSENT (0), bersumber dari kolom 'Mangrove' di tbl 'ecology' fishbase."
+t1.185,"TRUE / PRESENT (1) atau FALSE / ABSENT (0), bersumber dari kolom 'Lamun' di tbl 'ekologi' basis ikan."
+t1.186,"TRUE / PRESENT (1) atau FALSE / ABSENT (0), bersumber dari kolom 'Mud' di tbl 'ecology' fishbase."
+t1.187,"TRUE / PRESENT (1) atau FALSE / ABSENT (0), bersumber dari kolom 'Pasir' di tbl 'ekologi' fishbase."
+t1.188,"TRUE / PRESENT (1) atau FALSE / ABSENT (0), bersumber dari kolom 'Muara' di tbl 'ekologi' fishbase."
 faq,Pertanyaan yang Sering Diajukan:
 q1,"Setelah saya menambahkan admin1 baru, berapa lama waktu yang dibutuhkan sebelum muncul di dropdown untuk admin2?"
 a1,"Ini akan memakan waktu sekitar 15 menit sebelum entri baru tersedia di menu tarik-turun dinamis. Ini berlaku untuk dropdown admin2 di admin3_ref, dropdown species_group di gear_ref, dropdown admin3 di buyer_ref, fisher_ref, data_collector, dll. Lihat Gambar 5 untuk daftar lengkap dropdown dinamis dan alur kerjanya melalui file referensi."
