@@ -11,6 +11,8 @@ subtitle: "Guidance for data collection, management, validation and interpretati
 
 ### 🐠 Select your desired language to learn more about the data system
 
-::: {layout-ncol="2"}
+<div>
+
 ![](images/GWS-09888.jpg){width="621"}
-:::
+
+</div>
