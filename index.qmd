@@ -1,18 +1,16 @@
 ---
-title: "Barefoot Ocean Partner Manual"
+title: "Blue Ventures Data System Partner Manual"
 subtitle: "Guidance for data collection, management, validation and interpretation"
 ---
 
-### Questions? Feedback? Requests? Click here! -\> [Smartsheet Feedback Form](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3)
+### ✍️ Submit a question, request or feedback in the [Smartsheet Feedback Form](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3)
 
-### ⬅️ Quick links: visit another website by clicking the icons here
+### ⬅️ Quick links:  [Fisheries Data Dashboard](https://barefootocean.shinyapps.io/fisheries_dashboard/) and [Smartsheet Dynamic View](https://dynamicview.smartsheet.com/)
 
-## Welcome / Selamat datang / Maligayang pagdating / Tonga Soa / Accueillir / Bienvenido / Bem-vindo / Karibu
+### 📒See all feedback submissions in the [Partner Feedback Dashboard](https://app.smartsheet.com/b/publish?EQBCT=0fe9f8be74244891850592ecf79175af)
 
-### 🐠 Select your desired language to get started
+### 🐠 Select your desired language to learn more about the data system
 
 ::: {layout-ncol="2"}
-![](images/GWS-09888.jpg){width="520"}
-
-![](images/MOZ_GWS-25.jpg){width="520"}
+![](images/GWS-09888.jpg){width="621"}
 :::
