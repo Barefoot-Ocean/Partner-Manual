@@ -12,7 +12,7 @@ website:
     left: "&copy; CC-By Barefoot Ocean, 2024"
     
   sidebar:
-    logo: "images/bfo_logo.png"
+    logo: "images/bv_logo.png"
     pinned: true
     align: center
     tools: 

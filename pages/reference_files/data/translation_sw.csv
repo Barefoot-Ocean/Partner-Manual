@@ -92,6 +92,7 @@ t1.75,"Jina la eneo la uvuvi bila nafasi wala alama ya uakifishaji, badala yake 
 t1.76,"Jina la eneo la uvuvi ambalo linaruhusiwa kuwa na nafasi na alama za uakifishaji. Tafadhali usibadilishe lebo isipokuwa kama ni lazima kabisa, kwani uunganishaji unategemea hii."
 t1.81,Latitudo ya eneo la uvuvi
 t1.82,Longitudo ya eneo la uvuvi
+<<<<<<< HEAD
 t1.85,Jina_la_zana_bila_nafasia_alama_za_matamshi_tu_vielekezi.
 t1.86,"Jina la kifaa kwa lugha ya kawaida likiwa na nafasi na alama za uakifishaji zinaruhusiwa. Tafadhali usibadili lebo isipokuwa tu inapolazimu, kwani kuunganishwa kunategemea hii."
 t1.87,"Jina la kifaa kwa Kiingereza bila nafasi na bila alama za uakifishaji, isipokuwa mistari ya chini. Hii ni orodha iliyoamuliwa mapema. Tafadhali chagua ile inayofaa jina la zana ya eneo, au toa maoni ikiwa huna uhakika."
@@ -99,6 +100,15 @@ t1.88,Maelezo ya zana
 t1.89,"Kundi la spishi ambalo zana inalenga. Ikiwa kifaa kimoja kinawalenga spishi nyingi, tengeneza safu mpya ya takwimu kwa kila kundi la spishi. Orodha ya kushuka chini imeunganishwa na safu ya ""kundi_la_spishi"" katika marejeleo ya spishi"
 t1.90,"Bendera itakuwa nyekundu kama ""kundi la_spishi"" kuchaguliwa haipo katika species_ref."
 t1.95,"Jina la eneo la kutua bila nafasi na bila alama za uakifishaji, isipokuwa mistari ya chini"
+=======
+t1.85,"Jina la kawaida la zana ya kuvua bila nafasi wala alama ya uakifishaji, badala yake kutumia alama ya chini (underscore)."
+t1.86,"Jina la kawaida la zana ambalo linaruhusiwa kuwa na nafasi na alama za uakifishaji. Tafadhali usibadilishe lebo isipokuwa kama ni lazima kabisa, kwani uunganishaji unategemea hii."
+t1.87,"Jina la Kiingereza la zana bila nafasi wala alama ya uakifishaji, badala yake kutumia alama ya chini (underscore). Hii ni orodha iliyotangulia kuchaguliwa. Tafadhali chagua moja inayofaa zaidi kwa zana ya kawaida, au acha maoni ikiwa haujathibitisha."
+t1.88,Maelezo ya zana
+t1.89,"Kundi la spishi ambalo zana inalenga. Ikiwa zana moja inalenga spishi kadhaa, tambua safu mpya ya takwimu kwa kila kundi la spishi. Orodha ya kushuka inahusishwa na safu ya ""species_group"" katika species_ref."
+t1.90,"Bendera itakuwa nyekundu kama ""species_group"" kuchaguliwa haipo katika species_ref."
+t1.95,"Jina la sehumu ya kutua bila nafasi wala alama ya uakifishaji, badala yake kutumia alama ya chini (underscore)."
+>>>>>>> 8b65517105ab412ef7edf8875ad4f3cc15f96275
 t1.96,Jina la tovuti ya kutua na nafasi na punctuation kuruhusiwa
 t1.103,"Jina la kipekee la eneo la usimamizi na nafasi na punctuation kuruhusiwa. Tafadhali usibadilishe jina isipokuwa lazima kabisa, kwani kujiunga kunategemea hii."
 t1.104,"Jina la kipekee la eneo la usimamizi na tarehe za ufanisi. Zaidi hasa, ina taarifa zifuatazo kutengwa na underscore: management_id, management_method, close_date na open_date."
