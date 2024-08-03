@@ -9,10 +9,11 @@ website:
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By Barefoot Ocean, 2024"
+    left: "&copy; CC-By Blue Ventures, 2024"
     
   sidebar:
     logo: "images/bv_logo.png"
+    background: #2596be
     pinned: true
     align: center
     tools: 
