@@ -13,7 +13,6 @@ website:
     
   sidebar:
     logo: "images/bv_logo.png"
-    background: primary
     pinned: true
     align: center
     tools: 
