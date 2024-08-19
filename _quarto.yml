@@ -48,6 +48,8 @@ website:
           - pages/quick_guide/quick_guide_en.qmd
           - pages/full_guide/full_guide_en.qmd
           - pages/kobo_setup/kobo_setup_en.qmd
+          - pages/data_collection/data_collection_en.qmd
+          - pages/landings_monitoring/landings_monitoring_en.qmd
           - pages/reference_files/reference_files_en.qmd
           - pages/data_validation/data_validation_en.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_en.qmd
@@ -57,6 +59,8 @@ website:
           - pages/quick_guide/quick_guide_id.qmd
           - pages/full_guide/full_guide_id.qmd
           - pages/kobo_setup/kobo_setup_id.qmd
+          - pages/data_collection/data_collection_id.qmd
+          - pages/landings_monitoring/landings_monitoring_id.qmd
           - pages/reference_files/reference_files_id.qmd
           - pages/data_validation/data_validation_id.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_id.qmd
@@ -65,6 +69,7 @@ website:
           - pages/quick_guide/quick_guide_ceb.qmd
           - pages/full_guide/full_guide_ceb.qmd
           - pages/kobo_setup/kobo_setup_ceb.qmd
+          - pages/landings_monitoring/landings_monitoring_ceb.qmd
           - pages/reference_files/reference_files_ceb.qmd
           - pages/data_validation/data_validation_ceb.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_ceb.qmd
@@ -73,6 +78,7 @@ website:
           - pages/quick_guide/quick_guide_fil.qmd
           - pages/full_guide/full_guide_fil.qmd
           - pages/kobo_setup/kobo_setup_fil.qmd
+          - pages/landings_monitoring/landings_monitoring_fil.qmd
           - pages/reference_files/reference_files_fil.qmd
           - pages/data_validation/data_validation_fil.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_fil.qmd
@@ -81,6 +87,7 @@ website:
           - pages/quick_guide/quick_guide_mg.qmd
           - pages/full_guide/full_guide_mg.qmd
           - pages/kobo_setup/kobo_setup_mg.qmd
+          - pages/landings_monitoring/landings_monitoring_mg.qmd
           - pages/reference_files/reference_files_mg.qmd
           - pages/data_validation/data_validation_mg.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_mg.qmd
@@ -89,6 +96,7 @@ website:
           - pages/quick_guide/quick_guide_fr.qmd
           - pages/full_guide/full_guide_fr.qmd
           - pages/kobo_setup/kobo_setup_fr.qmd
+          - pages/landings_monitoring/landings_monitoring_fr.qmd
           - pages/reference_files/reference_files_fr.qmd
           - pages/data_validation/data_validation_fr.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_fr.qmd
@@ -97,6 +105,7 @@ website:
           - pages/quick_guide/quick_guide_es.qmd
           - pages/full_guide/full_guide_es.qmd
           - pages/kobo_setup/kobo_setup_es.qmd
+          - pages/landings_monitoring/landings_monitoring_es.qmd
           - pages/reference_files/reference_files_es.qmd
           - pages/data_validation/data_validation_es.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_es.qmd
@@ -105,6 +114,7 @@ website:
           - pages/quick_guide/quick_guide_pt.qmd
           - pages/full_guide/full_guide_pt.qmd
           - pages/kobo_setup/kobo_setup_pt.qmd
+          - pages/landings_monitoring/landings_monitoring_pt.qmd
           - pages/reference_files/reference_files_pt.qmd
           - pages/data_validation/data_validation_pt.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_pt.qmd
@@ -113,10 +123,12 @@ website:
           - pages/quick_guide/quick_guide_sw.qmd
           - pages/full_guide/full_guide_sw.qmd
           - pages/kobo_setup/kobo_setup_sw.qmd
+          - pages/landings_monitoring/landings_monitoring_sw.qmd
           - pages/reference_files/reference_files_sw.qmd
           - pages/data_validation/data_validation_sw.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_sw.qmd
       - section: pages/index/index_tet.qmd
+          - pages/landings_monitoring/landings_monitoring_tet.qmd
 
 
 
