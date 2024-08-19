@@ -128,6 +128,7 @@ website:
           - pages/data_validation/data_validation_sw.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_sw.qmd
       - section: pages/index/index_tet.qmd
+        contents:
           - pages/landings_monitoring/landings_monitoring_tet.qmd
 
 
