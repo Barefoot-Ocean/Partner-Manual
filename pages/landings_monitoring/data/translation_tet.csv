@@ -34,7 +34,7 @@ q25,Unidade todan ne'ebe kaer
 q26,Total todan ne'ebe hatun (${weight_unit}): ${local_name_label}
 q27,Total todan ne'ebe fa'an ona (estimasaun ou atual): ${local_name_label}
 q28,Total ikan ne'ebe hatun (ekor): ${local_name_label}
-q29,
+q29,Ita halo prosesu kaer ida-ne'e?
 q30,Total presu ikan ne'ebe fa'an ona (estimasaun ou atual): ${local_name_label}
 q31,Razaun totál ikan ne'ebe la sosa/la faan
 a27,Kualidade la di'ak
@@ -54,12 +54,12 @@ a7,Loos
 a8,La'e
 a10,Ikan ne'e hotu-hotu nian
 a11,Ikan ne'e fahe ona
-a23,
-a24,
-a25,
-a26,
-a18,
-a19,
-a20,
-a21,
-a22,
+a23,La'e
+a24,Maran
+a25,Masin
+a26,Fuma
+a18,Tomak
+a19,Merkadu ne'ebé moos/parsialmente prosesa
+a20,Filet
+a21,Tail
+a22,Fin

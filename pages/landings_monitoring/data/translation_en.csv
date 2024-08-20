@@ -23,6 +23,7 @@ a9,*New buyer name*
 q17,Buyer gender
 q18,Is the catch being recorded the entire catch from the boat or ${fisher_id_label} share of the catch?
 subtitle3,Species landed by ${fisher_id_label}
+q19,Type of catch
 q20,"Species Local Name (use species reference card, if needed)"
 a12,Please specify species in mixed bag (select multiple)
 a13,*New Species Local Name*
