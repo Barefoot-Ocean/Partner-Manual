@@ -114,7 +114,7 @@ Additional data selections include habitat and date range. Available habitat typ
 
 ### **Indicator 1: Catch per Unit Effort - CPUE**
 
-**Description:** Catch per Unit Effort (CPUE) is the total catch per fishing effort (days or hours). CPUE is calculated by dividing the catch from each fishing trip by the number of hours or days fished during the trip. CPUE is a useful indicator for long-term fishery monitoring by evaluating population trends of fished species and serving as an index of the abundance of a species. While an unchanging CPUE indicates sustainable harvesting, decreasing CPUE indicates fewer fish are caught per day (or hour) over time due to fewer fish in the water and potential overharvesting. 
+**Description:** CPUE is the
 
 **Unit:** kg/fisher-day 
 
