@@ -99,12 +99,3 @@ i18n
 
 `r { i18n$t("p8") }`
 
-Barefoot Ocean
-
-Courtney - courtney\@barefootocean.org
-
-Brittany - brittany\@barefootocean.org
-
-Katie- katie\@barefootocean.org
-
-Laura- laura\@barefootocean.org
