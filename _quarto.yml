@@ -18,23 +18,23 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://barefootocean.org/
-        text: "Barefoot Ocean Website"
+        href: https://blueventures.org/
+        text: "Blue Ventures Website"
       - icon: linkedin
-        href: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A89840617&keywords=barefoot%20ocean&origin=RICH_QUERY_SUGGESTION&position=0&searchId=eec6c7fe-7db0-4233-9c69-543232e40271&sid=DWx&spellCorrectionEnabled=false
-        text: "Barefoot Ocean LinkedIn"     
+        href: https://www.linkedin.com/company/blue-ventures
+        text: "Blue Ventures LinkedIn"     
       - icon: github
-        href: https://github.com/openscapes/quarto-website-tutorial
+        href: https://github.com/
         text: "Github"
       - icon: check-circle-fill
         href: https://dynamicview.smartsheet.com/
         text: "Smartsheet Dynamic View"  
       - icon: bar-chart-fill
         href: https://barefootocean.shinyapps.io/fisheries_dashboard/
-        text: "Community Fisheries Dashboard"
+        text: "Community Fisheries Data Dashboard"
       - icon: house-fill
         href: https://barefootocean.shinyapps.io/hhsdashboard-dev/
-        text: "Household Survey Dashboard"
+        text: "Social and Economic Dashboard"
         
 
     style: "docked"
