@@ -23,10 +23,11 @@ a9,*Nouveau nom de l'acheteur*
 q17,Sexe de l'acheteur
 q18,La capture enregistrée correspond-elle à la totalité des captures du bateau ou à la part ${fisher_id_label} des captures ?
 subtitle3,Espèces débarquées par ${fisher_id_label}
+q19,Type de capture
 q20,"Nom local de l'espèce (utiliser la carte de référence de l'espèce, si nécessaire)"
 a12,Veuillez préciser les espèces dans le sac mélangé (sélectionnez-en plusieurs)
 a13,*Nom local de la nouvelle espèce*
-q21,*Nom commun anglais de la nouvelle espèce (si connu)*
+q21,*Nom commun anglais ou français de la nouvelle espèce (si connu)*
 q22,*Nom de famille scientifique de la nouvelle espèce (si connu)*
 q23,*Nom scientifique de l'espèce nouvelle (si connu)*
 q24,*Ajouter une photo de nouvelles espèces.*
@@ -63,3 +64,4 @@ a19,Marché propre/Partiellement transformé
 a20,Filet
 a21,Queue
 a22,Nageoire
+star,S'applique uniquement aux partenaires ou pays désignés.

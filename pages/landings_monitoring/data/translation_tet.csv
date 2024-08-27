@@ -23,6 +23,7 @@ a9,*Naran foun sosa na'in*
 q17,Sosa na'in ne'e feto ka mane? (La presija husu hili deit)
 q18,Ikan ne'e imi hotu nian ka balu fahe ona no ida ne'e ${fisher_id_label} nian deit?
 subtitle3,Espésie ne'e hatun husi se ${fisher_id_label}
+q19,Tipu kapturasaun.
 q20,"Naran Lokál Ikan (uza kartaun referénsia espésie nian, karik presiza)"
 a12,Favor espesífika espésie sira iha saku ne'ebe kahur malu (hili barak)
 a13,*Naran lokál ikan foun*
@@ -63,3 +64,4 @@ a19,Merkadu ne'ebé moos/parsialmente prosesa
 a20,Filet
 a21,Tail
 a22,Fin
+star,Aplika de'it ba parseiru ka nasaun sira ne'ebé deside ona.

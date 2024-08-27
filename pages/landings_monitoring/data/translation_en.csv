@@ -27,7 +27,7 @@ q19,Type of catch
 q20,"Species Local Name (use species reference card, if needed)"
 a12,Please specify species in mixed bag (select multiple)
 a13,*New Species Local Name*
-q21,*New Species Common Name (If known)*
+q21,*New Species English Common Name (If known)*
 q22,*New Species Scientific Family Name (if known)*
 q23,*New Species Scientific Species Name (if known)*
 q24,*Add photo of new species.*
@@ -64,3 +64,4 @@ a19,Market clean/Partially processed
 a20,Filet
 a21,Tail
 a22,Fin
+star,Only applies to designated partners or countries.

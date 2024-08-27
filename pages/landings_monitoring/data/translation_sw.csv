@@ -23,6 +23,7 @@ a9,*Jina la mnunuzi mpya*
 q17,Jinsia ya mnunuzi
 q18,"Je, samaki wanaorekodiwa, ni samaki wote kutoka kwenye mashua au ${fisher_id_label} sehemu ya pato lililovuliwa?"
 subtitle3,Aina ya samaki zilizowasilishwa bandarini${fisher_id_label}
+q19,Aina ya mapato
 q20,"Jina la aina ya samaki kwa kiswahili (tumia kadi ya kumbukumbu ya aina ya samaki, ikiwa inahitajika)"
 a12,Tafadhali bainisha aina tofauti ya samaki kama ni mchanganyiko (chagua aina tofauti)
 a13,*Jina la Aina Mpya ya Samaki  (hayuko kwa orodha)*
@@ -63,3 +64,4 @@ a19,kuuzwa ikiwa safi/baadhi imechakatwa
 a20,Kutoa miba
 a21,Mkia
 a22,Pezi
+star,Inatumika kwa washirika walioteuliwa au nchi pekee.

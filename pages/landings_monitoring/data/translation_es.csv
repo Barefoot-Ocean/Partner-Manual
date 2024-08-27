@@ -23,6 +23,7 @@ a9,*Nombre del nuevo comprador*
 q17,Género del comprador
 q18,¿Se registra la captura total del barco o ${fisher_id_label} parte de la captura?
 subtitle3,Especies desembarcadas por ${fisher_id_label}
+q19,Tipo de captura
 q20,"Nombre local de la especie (use la tarjeta de referencia de especies, si es necesario)"
 a12,Por favor especifique las especies en bolsa mixta (seleccione varias)
 a13,*Nombre local de la nueva especie*
@@ -63,3 +64,4 @@ a19,Mercado limpio/Parcialmente procesado
 a20,Filete
 a21,Cola
 a22,Aleta
+star,Solo se aplica a socios o países designados.

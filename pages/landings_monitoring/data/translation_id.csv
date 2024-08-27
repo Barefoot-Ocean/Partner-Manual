@@ -23,6 +23,7 @@ a9,Nama pembeli baru
 q17,Jenis kelamin pembeli
 q18,Apakah hasil tangkapan yang dicatat adalah semua hasil tangkapan dari perahu atau hanya sebagian tangkapan dari ${fisher_id_label}?
 subtitle3,Spesies didaratkan oleh ${fisher_id_label}
+q19,Jenis tangkapan
 q20,"Nama lokal spesies (gunakan kartu referensi spesies, jika diperlukan)"
 a12,Harap tentukan spesies dalam wadah yang tercampur (pilih kelipatan)
 a13,*Nama lokal spesies baru*
@@ -63,3 +64,4 @@ a19,Pasar bersih/Diproses sebagian
 a20,Filet
 a21,Ekor
 a22,Sirip
+star,Hanya berlaku untuk mitra atau negara yang ditunjuk.

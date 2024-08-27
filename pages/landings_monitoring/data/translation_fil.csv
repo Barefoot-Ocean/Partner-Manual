@@ -23,6 +23,7 @@ a9,*Bago pangalan ng mamimili*
 q17,Kasarian ng mamimili
 q18,Ang huli ba ay naitala ang buong huli mula sa bangka o ${fisher_id_label} bahagi ng huli?
 subtitle3,Uri ng mga isda na dumarating ${fisher_id_label}
+q19,Uri ng huli
 q20,Lokal na pangalan ng Uri (Gamit ang sanggunian kard kung kailangan)
 a12,Mangyaring tukuyin ang mga espisye sa magkahalong bag (pumili ng maramihan)
 a13,*Bagong uri sa lokal na pangalan ( kung Alam)*
@@ -63,3 +64,4 @@ a19,Malinis na isda papuntang merkado/Bahagyang naproseso
 a20,Walang buto
 a21,Buntot
 a22,Palikpik
+star,Nalalapat lamang sa mga itinalagang kasosyo o bansa.

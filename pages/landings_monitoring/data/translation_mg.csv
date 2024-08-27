@@ -23,6 +23,7 @@ a9,*Mpividy vaovao*
 q17,Lahy sa vavy (mpividy)
 q18,Vokatra rehetra ve nolanjaina ${fisher_id_label} sa ny anjaranao ?
 subtitle3,Karazana vokatra azo ${fisher_id_label}
+q19,Karazana vokatra
 q20,Karazana vokatra (ampiasao ny sary)
 a12,Tanisao ny anaran'ireo karazana vokatra azo rehetra (afaka misafidy maro)
 a13,*Karazana vokatra azo vaovao*
@@ -44,11 +45,11 @@ a30,Najanona tsy namidy
 a31,Hafa
 a14,Kilo (kg)
 a15,Grama (g)
-a16,NA
-a17,NA
+a16,kilao (lbs)
+a17,ounces (oz)
 a3,Lahy
 a4,Vavy
-a5,NA
+a5,Tsy binary
 a6,Orinasa ka tafiditra ao ny olona maromaro
 a7,Eny
 a8,Tsia
@@ -63,3 +64,4 @@ a19,Tsena/ampahany namboarina
 a20,Nofony
 a21,Rambony
 a22,Ohiny
+star,Mihatra amin'ireo mpiara-miombon'antoka na firenena voatendry ihany.

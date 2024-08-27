@@ -31,7 +31,7 @@ i18n
 | `r { i18n$t("q6") }` | data_collector_ref / `r { i18n$t("a1") }` |
 | `r { i18n$t("q7") }` |                                           |
 
-: {tbl-colwidths="\[50,50\]"}
+: {tbl-colwidths="\[50,50\]" .table .table-striped .table-hover}
 
 ### `r { i18n$t("subtitle2") }`
 
@@ -75,3 +75,4 @@ i18n
 : {tbl-colwidths="\[50,50\]"}
 
 
+*`r { i18n$t("star") }`

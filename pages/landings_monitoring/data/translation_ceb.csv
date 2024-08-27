@@ -23,6 +23,7 @@ a9,*Bag-ong ngalan sa pumapalit*
 q17,Kinatawhan sa mamalitay
 q18,Ang nakuha ba girekord ang tibuok kuha gikan sa sakayan o ${fisher_id_label} nga bahin sa kuha?
 subtitle3,Klase sa mga isda nga ni abot ${fisher_id_label}
+q19,Klase sa kuha
 q20,Lokal nga ngalan sa mga matang sa isda
 a12,Palihug ipiho ang mga espisye nga sagol sa bag (pilia ang daghang)
 a13,*Bag-ong matang sa lokal nga ngalan (kung nahibaw-an)*
@@ -63,3 +64,4 @@ a19,Limpyo ang merkado/Partily nga giproseso
 a20,Fillet
 a21,Ikog
 a22,Kapay
+star,Magamit ra sa gitudlo nga mga kauban o mga nasud.
