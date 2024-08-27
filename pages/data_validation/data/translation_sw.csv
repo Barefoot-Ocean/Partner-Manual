@@ -3,8 +3,8 @@ title,Mwongozo Wa Uthibitishaji Wa Data Ya Uvuvi
 p1,"Takwimu zote zinazotiririka kupitia mfumo wa data ya uvuvi zinathibitishwa Katika Smartsheet. Data ni alimtuma kwa ajili ya uthibitisho chini ya matukio matatu; 1) majina mapya au 'nyingine' habari ni manually aliongeza Katika Kobo Kukusanya, 2) thamani ya tarakimu iko zaidi ya vizingiti imara au 3) majina katika seti ya data hawana mechi sambamba katika faili ya kumbukumbu. Mara data ni kuthibitishwa, wote seti data katika database na meza za kumbukumbu ni updated. Jedwali la kumbukumbu kutumika kama pembejeo kwa orodha dropdown katika fomu kobotoolbox na vyenye data ambayo ni aliongeza kwa seti data kupitia joins. Tazama mti wa uamuzi hapa chini (Kielelezo 1)."
 p2,"Takwimu zilizosababishwa kwa uthibitisho hutumwa kwa moja ya meza nne: 1) Majina na Gia, 2) Maonyo Ya Thamani, 3) Spishi Au 4) Nyingine. Maagizo hapa chini yanaelezea mchakato wa uthibitishaji wa data Katika Smartsheet Dynamic View kwa meza nne za uthibitishaji. Kila meza ya uthibitisho itahitaji ama kuchagua thamani sahihi uwanja kutoka orodha dropdown au kuingia maadili sahihi manually. Mchakato huo utaongezwa kwa mahitaji ya uthibitisho wa data ya baadaye, kama inavyotakiwa."
 p2.1,"Jedwali la uthibitishaji la 'Majina Na Gia' lina data mpya kutoka kwa tafiti zote Za Kobo ikiwa ni pamoja na majina mapya ya wavuvi, wanunuzi, watoza data, maeneo ya uvuvi, maeneo ya kutua na gia. 'Onyo thamani' ina taarifa za tarakimu zilizokusanywa kutoka Kutua Ufuatiliaji au kutua Profiling utafiti ambayo flagged bei, uzito au urefu thamani kulingana na kizingiti kabla ya kuanzishwa. Vizingiti vilivyowekwa tayari kwa maonyo ya uzito na urefu hutoka kwa lw_ref; na maonyo ya bei hutoka kwa min_max_ref. Jedwali la uthibitishaji wa 'Spishi' lina picha na majina mapya ya ndani kutoka kwa tafiti zote ili kuthibitisha spishi mpya kwa kutumia mchakato wa uthibitishaji mara mbili. Hatimaye,' Nyingine 'data uthibitisho meza ina 'nyingine' habari zilizokusanywa kutoka Kutua Profiling, Jamii Profiling au Kaya Utafiti na ni hasa kuthibitishwa kwa madhumuni ya tafsiri."
-p2.2,"Ujumbe wa barua pepe wa kila siku hutumwa na habari na viungo juu ya jinsi ya kukamilisha uthibitisho wa data (tazama maagizo ya kina hapa chini). Arifa za ziada kutoka Smartsheet Au Barefoot Ocean zinaweza kutumwa kupitia barua pepe kufuatilia na uteuzi wa uthibitisho wa data usio kamili, ikiwa inahitajika."
-step1,Hatua ya 1: Toa Bahari Isiyo Na Viatu na anwani za barua pepe za mawasiliano kwa wale wanaohusika na uthibitishaji wa data.
+p2.2,"Ujumbe wa barua pepe wa kila siku hutumwa na habari na viungo juu ya jinsi ya kukamilisha uthibitisho wa data (tazama maagizo ya kina hapa chini). Arifa za ziada kutoka Smartsheet zinaweza kutumwa kupitia barua pepe kufuatilia na uteuzi wa uthibitisho wa data usio kamili, ikiwa inahitajika."
+step1,"Hatua ya 1: Toa eneo la mawasiliano, majina na anwani za barua pepe kwa wale wanaohusika na uthibitishaji wa data."
 point1,Shirika kusimamia washirika mbalimbali inaweza kutoa pointi zote za mawasiliano ya habari.
 point2,Washirika binafsi wanaweza kutoa hatua ya mawasiliano ya habari.
 point3,Pointi za mawasiliano zitapokea arifa za uthibitishaji wa data kupitia barua pepe.
@@ -24,7 +24,7 @@ point12,"Dirisha jipya la kivinjari cha mtandao litafunguliwa na usanidi kama wa
 point13,Bonyeza mstari kuanza uthibitisho.
 point14,"Jopo la ""Maelezo"" litaonekana upande wa kulia."
 point15,Kagua sehemu za muktadha na ujaze sehemu za uthibitishaji. Mashamba ya uthibitisho yana data ambayo itahamishiwa kwenye seti ya mwisho ya data (Jedwali 1).
-point16,"Acha maoni, IKIWA tu kuna kitu kinachohitaji umakini wetu. Wafanyakazi Wa Bahari ya Barefoot watapitia maoni na kujibu ipasavyo."
+point16,"Acha maoni, IKIWA tu kuna kitu kinachohitaji umakini wetu. Wafanyakazi wa Blue Ventures watakagua maoni na kujibu ipasavyo."
 point17,"Bofya kitufe cha bluu ""Hifadhi"" ili kuhifadhi uteuzi wako."
 point18,"Mara baada ya kuthibitishwa, safu hiyo itatoweka kutoka kwa mtazamo wako wa nguvu."
 point19,Bofya kwenye safu mlalo inayofuata na urudie hatua ili kukamilisha uthibitishaji wa maingizo yote.
@@ -115,8 +115,8 @@ faq,Maswali Yanayoulizwa Mara Kwa Mara:
 q1,"Je, watu wengi wanaweza kufanya kazi kwenye uthibitishaji wa data kwa wakati mmoja?"
 a1,"Ndiyo, hata hivyo, mara moja kuingia (safu) imekuwa kuthibitishwa Katika Mtazamo Nguvu itakuwa tena kuonekana."
 q2,"Je, ninahitaji Akaunti Ya Smartsheet?"
-a2,"Tu kukamilisha data uthibitisho kupitia Mtazamo Nguvu (yaani meza mtazamo). Huna haja ya akaunti iliyolipwa, na jaribio la bure au toleo la bure (mara tu jaribio lako litakapokamilika), utaweza kutazama na kuingiliana na faili Zote Za Smartsheet zinazomilikiwa Na Bahari Ya Barefoot."
+a2,"Tu kukamilisha data uthibitisho kupitia Mtazamo Nguvu (yaani meza mtazamo). Huna haja ya akaunti iliyolipwa, na jaribio la bure au toleo la bure (mara tu jaribio lako litakapokamilika), utaweza kutazama na kuingiliana na faili Zote Za Smartsheet zinazomilikiwa Na Bahari."
 q3,Nini kinatokea baada ya data kuthibitishwa?
-a3,"Katika baadhi ya kesi, data itakuwa kupitia mapitio ya ziada na Barefoot Ocean data team. Takwimu zilizothibitishwa zitasasishwa kwenye hifadhidata, na inapofaa, menyu za kushuka zitasasishwa katika Faili Na fomu za kumbukumbu Za Kobo (Kielelezo 6). Data ambayo haijathibitishwa haitaonekana kwenye taswira za dashibodi au takwimu, lakini itapatikana katika upakuaji wa data mbichi."
-p3,"Ikiwa wakati wowote unakutana na makosa yoyote, una maswali, au unahitaji msaada wa kukamilisha uthibitisho wa data, tafadhali wasiliana nasi kwa barefootinfo@barefootocean.org."
+a3,"Katika baadhi ya kesi, data itakuwa kupitia mapitio ya ziada na Blue Ventures data team. Takwimu zilizothibitishwa zitasasishwa kwenye hifadhidata, na inapofaa, menyu za kushuka zitasasishwa katika Faili Na fomu za kumbukumbu Za Kobo (Kielelezo 6). Data ambayo haijathibitishwa haitaonekana kwenye taswira za dashibodi au takwimu, lakini itapatikana katika upakuaji wa data mbichi."
+p3,"Ikiwa wakati wowote unakutana na makosa yoyote, una maswali, au unahitaji msaada wa kukamilisha uthibitisho wa data, tafadhali wasiliana nasi kwa mary.mccabe@blueventures.org."
 caption6,Kielelezo 6: Data Uthibitisho Kwa Kumbukumbu Faili Workflow

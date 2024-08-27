@@ -3,8 +3,8 @@ title,Panduan Validasi Data Perikanan
 p1,"Semua data yang mengalir melalui sistem data perikanan divalidasi dalam Smartsheet. Data dikirim untuk validasi dalam tiga skenario; 1) nama baru atau informasi 'lainnya' ditambahkan secara manual di Kobo Collect, 2) nilai numerik melampaui ambang batas yang ditetapkan atau 3) nama dalam kumpulan data tidak memiliki kecocokan yang sesuai dalam file referensi. Setelah data divalidasi, kumpulan data dalam database dan tabel referensi diperbarui. Tabel referensi berfungsi sebagai input untuk daftar dropdown dalam formulir KoBoToolbox dan berisi data yang ditambahkan ke kumpulan data melalui gabungan. Lihat pohon keputusan di bawah ini (Gambar 1)."
 p2,"Data yang dipicu untuk validasi dikirim ke salah satu dari empat tabel: 1) Nama dan Roda Gigi, 2) Peringatan Nilai, 3) Spesies, atau 4) Lainnya. Petunjuk di bawah ini merinci proses validasi data dalam Tampilan Dinamis Smartsheet untuk empat tabel validasi. Setiap tabel validasi akan memerlukan pemilihan nilai bidang yang benar dari daftar tarik-turun atau memasukkan nilai yang benar secara manual. Proses akan ditambahkan untuk kebutuhan validasi data di masa mendatang, sesuai kebutuhan."
 p2.1,"Tabel validasi 'Nama dan Roda Gigi' berisi data baru dari semua survei Kobo termasuk nama baru nelayan, pembeli, pengumpul data, tempat penangkapan ikan, lokasi pendaratan, dan roda gigi. 'Peringatan Nilai' berisi informasi numerik yang dikumpulkan dari survei Pemantauan Pendaratan atau Profil Pendaratan yang menandai nilai harga, bobot, atau panjang berdasarkan ambang batas yang telah ditetapkan sebelumnya. Ambang batas yang telah ditetapkan sebelumnya untuk peringatan bobot dan panjang berasal dari lw_ref; dan peringatan harga berasal dari min_max_ref. Tabel validasi 'Spesies' berisi foto dan nama lokal baru dari semua survei untuk memvalidasi spesies baru menggunakan proses verifikasi ganda. Terakhir, tabel validasi data 'Lainnya' berisi informasi 'lainnya' yang dikumpulkan dari Profil Pendaratan, Profil Komunitas, atau Survei Rumah Tangga dan terutama divalidasi untuk tujuan translasi."
-p2.2,"Pesan email harian dikirim dengan informasi dan tautan tentang cara menyelesaikan validasi data (lihat petunjuk terperinci di bawah). Pemberitahuan tambahan dari Smartsheet atau Barefoot Ocean dapat dikirim melalui email untuk menindaklanjuti pilihan validasi data yang tidak lengkap, jika diperlukan."
-step1,Langkah 1: Berikan Barefoot Ocean alamat email titik kontak bagi mereka yang bertanggung jawab atas validasi data.
+p2.2,"Pesan email harian dikirim dengan informasi dan tautan tentang cara menyelesaikan validasi data (lihat petunjuk terperinci di bawah). Pemberitahuan tambahan dari Smartsheet dapat dikirim melalui email untuk menindaklanjuti pilihan validasi data yang tidak lengkap, jika diperlukan."
+step1,"Langkah 1: Berikan titik kontak, nama dan alamat email bagi mereka yang bertanggung jawab atas validasi data."
 point1,Organisasi yang mengelola banyak mitra dapat memberikan semua titik informasi kontak.
 point2,Mitra individu dapat memberikan informasi kontak.
 point3,Titik kontak akan menerima pemberitahuan validasi data melalui email.
@@ -24,7 +24,7 @@ point12,"Jendela browser internet baru akan terbuka dengan pengaturan seperti ta
 point13,Klik satu baris untuk memulai validasi.
 point14,"Panel ""Detail"" akan muncul di sebelah kanan."
 point15,Tinjau bidang konteks dan isi bidang validasi. Bidang validasi berisi data yang akan ditransfer ke kumpulan data akhir (Tabel 1).
-point16,"Tinggalkan komentar, HANYA JIKA ada sesuatu yang perlu kita perhatikan. Staf Barefoot Ocean akan meninjau komentar dan merespons dengan tepat."
+point16,"Tinggalkan komentar, HANYA JIKA ada sesuatu yang perlu kita perhatikan. Staf Blue Ventures (BV) akan meninjau komentar dan merespons dengan tepat."
 point17,"Klik tombol biru ""Simpan"" untuk menyimpan pilihan Anda."
 point18,"Setelah divalidasi, baris tersebut akan hilang dari tampilan dinamis Anda."
 point19,Klik pada baris berikutnya dan ulangi langkah-langkah untuk menyelesaikan validasi untuk semua entri.
@@ -115,8 +115,8 @@ faq,Pertanyaan yang Sering Diajukan:
 q1,Bisakah banyak orang mengerjakan validasi data secara bersamaan?
 a1,"Ya, bagaimanapun, setelah entri (baris) divalidasi dalam Tampilan Dinamis, entri tersebut tidak akan terlihat lagi."
 q2,Apakah saya memerlukan akun Smartsheet?
-a2,"Hanya untuk menyelesaikan validasi data melalui Tampilan Dinamis (yaitu tampilan tabel). Anda tidak memerlukan akun berbayar, dengan uji coba gratis atau versi gratis (setelah uji coba selesai), Anda akan dapat melihat dan berinteraksi dengan semua file Smartsheet milik Barefoot Ocean."
+a2,"Hanya untuk menyelesaikan validasi data melalui Tampilan Dinamis (yaitu tampilan tabel). Anda tidak memerlukan akun berbayar, dengan uji coba gratis atau versi gratis (setelah uji coba selesai), Anda akan dapat melihat dan berinteraksi dengan semua file Smartsheet."
 q3,Apa yang terjadi setelah data divalidasi?
-a3,"Dalam beberapa kasus, data akan menjalani tinjauan tambahan oleh tim Barefoot Ocean data. Data yang divalidasi akan diperbarui dalam database, dan jika sesuai, menu tarik-turun akan diperbarui dalam file dan formulir referensi Kobo (Gambar 6). Data yang belum divalidasi tidak akan muncul di visualisasi atau statistik dasbor, tetapi akan tersedia di unduhan data mentah."
-p3,"Jika sewaktu-waktu Anda menemukan kesalahan, memiliki pertanyaan, atau memerlukan dukungan untuk menyelesaikan validasi data, silakan hubungi kami di barefootinfo@barefootocean.org."
+a3,"Dalam beberapa kasus, data akan menjalani tinjauan tambahan oleh tim Blue Ventures data. Data yang divalidasi akan diperbarui dalam database, dan jika sesuai, menu tarik-turun akan diperbarui dalam file dan formulir referensi Kobo (Gambar 6). Data yang belum divalidasi tidak akan muncul di visualisasi atau statistik dasbor, tetapi akan tersedia di unduhan data mentah."
+p3,"Jika sewaktu-waktu Anda menemukan kesalahan, memiliki pertanyaan, atau memerlukan dukungan untuk menyelesaikan validasi data, silakan hubungi kami di mary.mccabe@blueventures.org."
 caption6,Gambar 6: Validasi Data ke Alur Kerja File Referensi
