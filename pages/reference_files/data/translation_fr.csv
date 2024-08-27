@@ -4,15 +4,15 @@ p1,"Tous les fichiers de référence sont mis à jour dans la vue dynamique Smar
 step1,Étape 1: Créez un compte smartsheet gratuit.
 point1,Un compte gratuit peut être créé à https://www.smartsheet.com/
 point2,"Sélectionnez "" Essayez smartsheet gratuitement”"
-step2,Étape 2: Fournissez à Barefoot Ocean l'adresse e-mail que vous avez utilisée pour créer votre compte Smartsheet.
-point3,Barefoot Ocean partagera ensuite les fichiers de référence associés à votre organisation.
+step2,Étape 2: Fournissez à Blue Ventures (BV) l'adresse e-mail que vous avez utilisée pour créer votre compte Smartsheet.
+point3,BV partagera ensuite les fichiers de référence associés à votre organisation.
 point4,"Pour afficher vos fichiers de référence, vous devez vous connecter à la vue dynamique Smartsheet à l'aide de vos informations d'identification Smartsheet: https://dynamicview.smartsheet.com/login"
 point5,"Une fois connecté à la vue dynamique (et non à l'application smartsheet), vous verrez une liste de fichiers de référence partagés avec votre compte (figure 1)."
 fig1,Figure 1: Liste des fichiers de référence en vue dynamique
 step3,Étape 3: Cliquez sur un fichier de référence pour effectuer des mises à jour
 point6,"Une fois ouvert, vous pouvez cliquer sur chaque ligne pour apporter des modifications aux données existantes, ou cliquer sur le bouton” Nouveau "" dans le coin supérieur droit pour ajouter de nouvelles données (Figure 2)."
-point7,"Un panneau de détails apparaîtra sur le côté droit où vous saisirez les informations nécessaires (Figure 3; Tableau 1). Sélectionnez "" enregistrer” en bas à droite du panneau de détails lorsque vous avez terminé la mise à jour. Vous n'avez pas besoin d'informer Barefoot Ocean lorsque vous apportez des modifications ou des ajouts aux feuilles de référence. Ils seront automatiquement fusionnés avec les fichiers de référence principaux et incorporés dans Kobo."
-point8,"Pour laisser un commentaire ou poser des questions à l'équipe de Barefoot, sélectionnez l'onglet ""Commentaires"" dans le panneau des détails. Toutes les personnes avec lesquelles le fichier de référence est partagé, y compris l'équipe Barefoot Ocean, recevront une notification lorsqu'un commentaire est fait, il n'est donc pas nécessaire de marquer une personne en particulier."
+point7,"Un panneau de détails apparaîtra sur le côté droit où vous saisirez les informations nécessaires (Figure 3; Tableau 1). Sélectionnez "" enregistrer” en bas à droite du panneau de détails lorsque vous avez terminé la mise à jour."
+point8,"Pour laisser un commentaire ou poser des questions à l'équipe de BV, sélectionnez l'onglet ""Commentaires"" dans le panneau des détails. Toutes les personnes avec lesquelles le fichier de référence est partagé, y compris l'équipe BV, recevront une notification lorsqu'un commentaire est fait, il n'est donc pas nécessaire de marquer une personne en particulier."
 fig2,Figure 2: Exemple de vue de l'admin2_ref en vue dynamique
 fig3,Figure 3: Exemple de vue du panneau de détails admin2_ref en vue dynamique
 step4,"Étape 4: Répondre aux demandes de mise à jour lorsque des données sont manquantes ou incorrectes, ou pour répondre à un commentaire."
@@ -21,7 +21,7 @@ point10,"Un aperçu des données qui doivent être mises à jour ou auxquelles i
 point10.1,"Au bas de l'e-mail, il y a un lien pour “Aller à la feuille”; cependant, la feuille sous-jacente a un accès restreint. Veuillez consulter vos données ou répondre au commentaire via une demande ouverte."
 point11,"Cliquez sur le bouton” Ouvrir la demande "" dans le message électronique."
 point12,Une nouvelle fenêtre de navigateur Internet s'ouvrira avec une configuration de type formulaire pour chaque entrée (Figure 5)
-point13,Passez en revue les champs BFO et remplissez les champs modifiables.
+point13,Révisez les colonnes BV et complétez les colonnes modifiables.
 point14,Cliquez sur Suivant en bas de l'écran pour parcourir chaque entrée qui doit être mise à jour.
 point15,"Pour ignorer une entrée (par exemple, si vous ne savez pas encore quelle réponse choisir), cliquez sur “Suivant” sans effectuer de sélection dans les colonnes modifiables. La prochaine entrée qui doit être mise à jour apparaîtra."
 point16,"Si vous devez quitter la page ou vous arrêter avant que toutes les entrées aient été mises à jour, vos choix doivent être enregistrés la prochaine fois que vous rouvrirez la demande. Lors de l'ouverture pour continuer, cliquez simplement sur “Suivant” jusqu'à ce que vous trouviez une entrée qui doit être mise à jour."
@@ -29,9 +29,8 @@ point17,"Lorsque vous arrivez à la dernière entrée, cliquez sur “Terminé�
 point17.1,"Cliquez sur” Revenir en arrière "" si vous avez besoin de revoir"
 point17.2,"Cliquez sur ""Soumettre la mise à jour"" pour soumettre vos mises à jour."
 point17.3,Vos mises à jour sont automatiquement ajoutées au fichier de référence et vous pouvez les afficher en mode dynamique
-p2,"Si à tout moment vous rencontrez des erreurs, avez des questions ou avez besoin d'aide pour mettre à jour les fichiers de référence, veuillez nous contacter à katie@barefootocean.org ou brittany@barefootocean.org."
 fig4,"Figure 4: Exemple d'e-mail de” Demande de mise à jour "" lorsque des informations doivent être corrigées ou qu'un commentaire doit recevoir une réponse."
-table1,"Tableau 1: Les champs primaires dans chacun des fichiers de référence. Le type de champ "" BFO "" est géré par Barefoot Ocean et n'est pas modifiable. Pour demander des modifications à l'un des champs “BFO”, veuillez laisser un commentaire. Seuls les champs avec le type de champ “modifiable” peuvent être modifiés. Le type de champ ""auto"" est rempli automatiquement."
+table1,"Tableau 1 : Les colonnes principales de chacun des fichiers de référence. Le type de colonne « BV » est géré par Blue Ventures et n’est pas modifiable. Pour demander des modifications à l’une des colonnes « BV », veuillez laisser un commentaire. Seules les colonnes de type « modifiable » peuvent être modifiées. Le type de colonne « auto » est renseigné automatiquement."
 t1.1,Nom du champ
 t1.2,Description du champ
 t1.3,Type de champ

@@ -4,15 +4,15 @@ p1,"All reference files are updated in Smartsheet Dynamic View. Reference files 
 step1,Step 1: Create a free smartsheet account.
 point1,A free account can be created at https://www.smartsheet.com/
 point2,Select “Try smartsheet for free”
-step2,Step 2: Provide Barefoot Ocean the email address you used to create your smartsheet account.
-point3,Barefoot Ocean will then share the reference files associated with your organization.
+step2,Step 2: Provide Blue Ventures (BV) the email address you used to create your smartsheet account.
+point3,BV will then share the reference files associated with your organization.
 point4,To view your reference files you will need to sign into smartsheet Dynamic View using your smartsheet credentials: https://dynamicview.smartsheet.com/login
 point5,"Once logged in to Dynamic View (not the smartsheet app), you will see a list of reference files shared with your account (Figure 1)."
 fig1,Figure 1: List of reference files in Dynamic View
 step3,Step 3: Click on a reference file to make updates
 point6,"Once open, you can click on each row to make edits to existing data, or click the “New” button in the top right corner to add new data (Figure 2)."
-point7,A details panel will appear on the right hand side where you’ll input the necessary information (Figure 3; Table 1). Select “save” on the bottom right of the details panel when you are finished updating. You do not need to notify Barefoot Ocean when you make changes or additions to ref sheets. The will be automatically merged with the master reference files and incorporated in Kobo.
-point8,"To leave a comment or to ask the Barefoot team any questions, select the “Comments” tab in the details panel. All individuals that the reference file is shared with, including the Barefoot Ocean team, will receive notification when a comment is made, so there is no need to tag any particular individual."
+point7,A details panel will appear on the right hand side where you’ll input the necessary information (Figure 3; Table 1). Select “save” on the bottom right of the details panel when you are finished updating.
+point8,"To leave a comment or to ask the team any questions, select the “Comments” tab in the details panel. All individuals that the reference file is shared with, including the BV team, will receive notification when a comment is made, so there is no need to tag any particular individual."
 fig2,Figure 2: Example view of the admin2_ref in Dynamic View
 fig3,Figure 3: Example view of the admin2_ref details panel in Dynamic View
 step4,"Step 4: Respond to update requests when data is missing or incorrect, or to respond to a comment."
@@ -21,7 +21,7 @@ point10,"A preview of the data that needs to be updated or responded to will app
 point10.1,"At the bottom of the email, there is a link for “Go to the sheet”; however, the underlying sheet has restricted access. Please review your data or respond to the comment via Open request."
 point11,Click on the “Open Request” button in the email message.
 point12,A new internet browser window will open with a form-like setup for each entry (Figure 5)
-point13,Review the BFO fields and populate the editable fields.
+point13,Review the BV fields and populate the editable fields.
 point14,Click next at the bottom of the screen to move through each entry that needs to be updated.
 point15,To skip an entry (e.g. if you are not sure yet which answer to pick) click “Next” without making a selection in the editable columns. The next entry that needs to be updated will appear.
 point16,"If you need to exit the page or stop before all entries have been updated, your choices should be saved the next time you reopen the request. Upon opening to continue, just click “Next” until you find an entry that needs to be updated."
@@ -29,9 +29,8 @@ point17,"When you get to the last entry, click “Done”. A pop-up message will
 point17.1,Click “Go Back” if you need to review
 point17.2,Click “Submit Update” to submit your updates.
 point17.3,Your updates are automatically appended to the reference file and you can view them in Dynamic View
-p2,"If at any time you encounter any errors, have questions, or need support for updating reference files, please contact us at katie@barefootocean.org or brittany@barefootocean.org."
 fig4,Figure 4: Example “Update Request” email when information needs to be corrected or comment needs to be responded to.
-table1,"Table 1: The primary fields in each of the reference files. Field type “BFO” is managed by Barefoot Ocean and is not editable. To request changes to any of the “BFO” fields, please leave a comment. Only fields with field type “editable” can be edited. Field type “auto” is populated automatically."
+table1,"Table 1: The primary fields in each of the reference files. Field type “BV” is managed by Blue Ventures and is not editable. To request changes to any of the “BV” fields, please leave a comment. Only fields with field type “editable” can be edited. Field type “auto” is populated automatically."
 t1.1,Field name
 t1.2,Field description
 t1.3,Field type

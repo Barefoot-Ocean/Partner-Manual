@@ -4,15 +4,15 @@ p1,"Faili zote za marejeleo zimesasishwa katika Dyanamic view kwenye Smartsheet.
 step1,Hatua ya 1: Unda akaunti ya bure ya smartsheet.
 point1,Akaunti ya bure inaweza kuundwa katika https://www.smartsheet.com/
 point2,"Chagua ""Jaribu smartsheet kwa bure"""
-step2,Hatua ya 2: Tafadhali mpe Barefoot Ocean anwani ya barua pepe uliyotumia kuunda akaunti yako ya Smartsheet.
-point3,BFO kisha itashiriki faili za kumbukumbu zinazohusiana na shirika lako.
+step2,Hatua ya 2: Tafadhali mpe Blue Ventures (BV) anwani ya barua pepe uliyotumia kuunda akaunti yako ya Smartsheet.
+point3,BV kisha itashiriki faili za kumbukumbu zinazohusiana na shirika lako.
 point4,Ili kuona faili zako za kumbukumbu utahitaji kuingia kwenye smartsheet Dynamic View ukitumia habari zako za  kujiunga za smartsheet: https://dynamicview.smartsheet.com/login
 point5,"Mara baada ya kuingia Kwenye Dynamic View (sio programu ya smartsheet), utaona orodha ya faili za kumbukumbu zilizoshirikishwa na akaunti yako (Kielelezo 1)."
 fig1,Kielelezo 1: Orodha ya faili za kumbukumbu Katika Dynamic View
 step3,Hatua ya 3: Bofya kwenye faili ya marejeleo ili kufanya masasisho
 point6,"Mara baada ya kufunguliwa, unaweza kubofya kila safu ili kufanya mabadiliko kwenye takwimu iliyopo, au bonyeza kitufe cha ""Mpya"" kwenye kona ya juu kulia ili kuongeza takwimu mpya (Kielelezo 2)."
-point7,"Jopo la maelezo litatokea upande wa kulia ambapo utaingiza taarifa zote muhimu (Kielelezo 3; Jedwali 1). Chagua ""hifadhi"" chini kulia ya jopo la maelezo ukisha maliza kusasisha. Huna haja ya kumjulisha Barefoot Ocean ukipotoa mabadiliko au kuongeza kwenye karatasi za kurejelea. Zitasasishwa kiotomatiki na kuunganishwa kwenye faili kuu za rkumbukumbu na kuingizwa kwenye Kobo."
-point8,"Ili kuandika maoni au kuuliza timu ya Barefoot maswali yoyote, chagua kitufe cha ""Maoni"" kwenye jopo la maelezo. Watu wote ambao faili ya kumbukumbu imeshirikishwa nao, ikiwemo timu ya Barefoot Ocean, watapokea arafa pindi maoni yanapotolewa, kwa hivyo hakuna haja ya kuweka alama kwa mtu yeyote"
+point7,"Jopo la maelezo litatokea upande wa kulia ambapo utaingiza taarifa zote muhimu (Kielelezo 3; Jedwali 1). Chagua ""hifadhi"" chini kulia ya jopo la maelezo ukisha maliza kusasisha."
+point8,"Ili kuandika maoni au kuuliza timu maswali yoyote, chagua kitufe cha ""Maoni"" kwenye jopo la maelezo. Watu wote ambao faili ya kumbukumbu imeshirikishwa nao, ikiwemo timu ya BV, watapokea arafa pindi maoni yanapotolewa, kwa hivyo hakuna haja ya kuweka alama kwa mtu yeyote"
 fig2,Kielelezo 2: Mfano mtazamo wa admin2_ref Katika Dyanamic view
 fig3,Kielelezo 3: Mfano wa jopo la maelezo la admin2_ref katika Maoni ya Dynamic view
 step4,"Hatua ya 4: Jibu maombi ya sasisho wakati takwimu haipo au sio sahihi, au kujibu maoni."
@@ -21,7 +21,7 @@ point10,"Utaona muhtasari wa data inayohitaji kusasishwa au kujibiwa chini ya uj
 point10.1,"Chini ya barua pepe, kuna kiungo cha ""Nenda kwenye karatasi""; hata hivyo, karatasi ya msingi ina upatikanaji mdogo. Tafadhali kagua takwimu yako au ujibu maoni kupitia ombi Wazi."
 point11,"Bonyeza kitufe cha ""Fungua Ombi"" katika ujumbe wa barua pepe."
 point12,Dirisha jipya la kivinjari litafunguka lenye muundo wa fomu kwa kila ingizo (Kielelezo 5)
-point13,Pitia sehemu za BFO na ujaze sehemu zinazoweza kuhaririwa.
+point13,Pitia sehemu za BV na ujaze sehemu zinazoweza kuhaririwa.
 point14,Bofya inayofuata chini ya skrini ili upitie kila ingizo linalohitaji kusasishwa.
 point15,"Ili kuruka ingizo (kwa mfano, ukiwa huna uhakika na jibu la kuchagua), bofya “Ijayo” bila kuchagua kitu kwenye safu zinazoweza kuhaririwa. Ingizo linalofuata litakalohitaji kurekebishwa litatokea."
 point16,"Ikiwa unahitaji kutoka kwenye ukurasa au kusitisha kabla ya kuhakikisha maingizo yote yamesasishwa, uchaguzi wako utalindwa wakati ujao utakapoanza tena ombi. Unapofungua kuendelea, bonyeza tu “Ijayo” mpaka upate ingizo linalohitaji kurekebishwa."
@@ -29,9 +29,8 @@ point17,"Unapofika kwenye ingizo mwisho, bonyeza ""Imekamilika"". Ujumbe ibukizi
 point17.1,"Bofya ""Rudi nyuma"" ikiwa unahitaji kukagua"
 point17.2,"Bofya ""Wasilisha Sasisho"" ili kuwasilisha masasisho yako."
 point17.3,Marekebisho yako yanaongezwa kiotomatiki kwenye faili lza kumbukumbu na unaweza kuyatazama kwenye Dynamic view.
-p2,"Kama wakati wowote utakutana na makosa yoyote, una maswali, au unahitaji msaada kwa ajili ya kusasisha faili za kumbukumbu, tafadhali wasiliana nasi kupitia katie@barefootocean.org au brittany@barefootocean.org."
 fig4,"Kielelezo 4: Mfano wa barua pepe ya ""Ombi la Usasishaji"" wakati taarifa zinahitaji kusahihishwa au maoni yanahitaji kujibiwa."
-table1,"Jedwali 1: Sehemu kuu katika kila moja ya faili za kumbukumbu. Aina ya sehemu “BFO” inasimamiwa na Barefoot Ocean na haiwezi kuhaririwa. Ili kuomba mabadiliko yoyote kwenye sehemu za “BFO,” tafadhali acha maoni. Ni sehemu zenye aina ya sehemu “kurekebishwa” pekee ndizo zinazoweza kuhaririwa. Aina ya sehemu “auto” inajazwa kiotomatiki."
+table1,Jedwali 1: Sehemu kuu katika kila moja ya faili za kumbukumbu. Aina ya sehemu “BV” inasimamiwa na Blue Ventures na haiwezi kuhaririwa. Ili kuomba mabadiliko yoyote kwenye sehemu za “BV” tafadhali acha maoni. Ni sehemu zenye aina ya sehemu “kurekebishwa” pekee ndizo zinazoweza kuhaririwa. Aina ya sehemu “auto” inajazwa kiotomatiki.
 t1.1,Jina la sehemu
 t1.2,Maelezo ya sehemu
 t1.3,Aina ya sehemu

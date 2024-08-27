@@ -4,15 +4,15 @@ p1,"Ny rakitra referansa rehetra dia havaozina ao Amin'ny Smartsheet Dynamic Vie
 step1,"Dingana 1: Mamorona kaonty ""smartsheet"" maimaim-poana."
 point1,Azo atao ny mamorona kaonty maimaimpoana ao amin'ny https://www.smartsheet.com/
 point2,"Safidio ny""Try smartsheet for free"""
-step2,Dingana 2: Omeo ny Barefoot Ocean ny adiresy mailaka nampiasanao hamoronana ny kaontinao smartsheet.
-point3,Barefoot Ocean dia hizara ireo rakitra fanondroana mifandraika amin'ny fikambananao.
+step2,Dingana 2: Omeo ny Blue Ventures (BV) ny adiresy mailaka nampiasanao hamoronana ny kaontinao smartsheet.
+point3,BV dia hizara ireo rakitra fanondroana mifandraika amin'ny fikambananao.
 point4,Raha te hijery ireo rakitra fanovozan-kevitra dia mila miditra amin'ny Smartsheet Dynamic View ianao amin'ny fampiasana ny mari-pahamantarana smartsheet anao: https://dynamicview.smartsheet.com/login
 point5,Raha vao tafiditra Ao Amin'ny Dynamic View (fa tsy ny fampiharana smartsheet) dia hahita lisitry ny rakitra referansa zaraina amin'ny kaontinao ianao (Sary 1).
 fig1,Sary 1: Lisitry ny rakitra referansa Ao Amin'ny Dynamic View
 step3,Dingana 3: Tsindrio ny rakitra referansa hanaovana fanavaozana
 point6,"Rehefa misokatra dia azonao atao ny manindry ny laharana tsirairay mba hanovana ny angon-drakitra efa misy, na tsindrio ny bokotra ""Vaovao"" eo amin'ny zoro ambony havanana raha hanampy angona vaovao (Sary 2)."
-point7,"Ny tontonana antsipiriany dia hiseho eo amin'ny ilany havanana izay hampidiranao ny fampahalalana ilaina (Sary 3; Tabilao 1). Safidio ny"" save "" eo amin'ny farany ambany ankavanan'ny tontonana details rehefa vita ny fanavaozana. Tsy mila mampandre Ny Barefoot Ocean ianao rehefa manao fanovana na fanampiny amin'ny takelaka ref. Izy ireo dia natambatra ho azy amin'ny ""master reference files"" ary tafiditra ao Amin'ny kobo."
-point8,"Raha hamela fanehoan-kevitra na hametraka fanontaniana amin'ny ekipan'ny Barefoot, safidio ny tabilao ""Comments"" ao amin'ny tontonana antsipirihany. Ireo olona rehetra izay zaraina amin'ny rakitra referansa, anisan'izany ny Ekipan'ny Barefoot Ocean, dia hahazo fampandrenesana rehefa misy fanehoan-kevitra, ka tsy ilaina ny manisy marika olona manokana."
+point7,"Ny tontonana antsipiriany dia hiseho eo amin'ny ilany havanana izay hampidiranao ny fampahalalana ilaina (Sary 3; Tabilao 1). Safidio ny"" save "" eo amin'ny farany ambany ankavanan'ny tontonana details rehefa vita ny fanavaozana."
+point8,"Raha hamela fanehoan-kevitra na hametraka fanontaniana amin'ny ekipan'ny BV, safidio ny tabilao ""Comments"" ao amin'ny tontonana antsipirihany. Ireo olona rehetra izay zaraina amin'ny rakitra referansa, anisan'izany ny Ekipan'ny BV, dia hahazo fampandrenesana rehefa misy fanehoan-kevitra, ka tsy ilaina ny manisy marika olona manokana."
 fig2,"Sary 2: Ohatra fijerena momba ny admin2_ref Amin'ny ""Dynamic View"""
 fig3,Sary 3: ohatra ny fijerena ny tontonana antsipirihany ny admin2_ref amin'ny Dynamic View
 step4,"Dingana 4: Famaliana ny fangatahana fanavaozana rehefa tsy hita na diso ny angona, na hamaly ny fanehoan-kevitra."
@@ -21,7 +21,7 @@ point10,"Ny fijerena mialoha ny antotan'isa mila havaozina na valiana dia hiseho
 point10.1,"Eo amin'ny farany ambany amin'ny mailaka, misy rohy mankany amin'ny ""Go to the sheet""; na izany aza, voafetra ny fidirana amin'ny takelaka fototra. Azafady mba avereno jerena ny angon-drakitrao na valio Ny fanehoan-kevitra Amin'ny Alàlan'ny ""Open request""."
 point11,"Tsindrio ny bokotra"" Open Request "" ao amin'ny hafatra mailaka."
 point12,"Hisokatra ny ""onglet"" vaovao miaraka amin'ny karazana endrika tsirairay (Sary 5)"
-point13,Avereno jerena ireo saha BFO ary fenoy ireo saha azo ovaina.
+point13,Avereno jerena ireo saha BV ary fenoy ireo saha azo ovaina.
 point14,"Tsindrio ""next"" eo amin'ny farany ambany amin'ny efijery mba hivezivezy amin'ny fidirana tsirairay izay mila havaozina."
 point15,"Mba hialana amin'ny fidirana (ohatra, raha mbola tsy azonao antoka izay valiny hofidiana) tsindrio ""Next"" ka tsy manao safidy ao amin'ny tsanganana azo ovaina. Hiseho ny fidirana manaraka izay mila havaozina."
 point16,"Raha mila mivoaka ny pejy ianao na mijanona alohan'ny hanavaozana ny fidirana rehetra dia tokony hotehirizina ny safidinao amin'ny fotoana hanokafanao indray ny fangatahana. Rehefa manokatra hanohy dia tsindrio fotsiny Ny ""Next"" mandra-pahitanao fidirana mila havaozina."
@@ -29,9 +29,8 @@ point17,"Rehefa tonga amin'ny fidirana farany ianao dia tsindrio ""Done"". Hisy 
 point17.1,"Tsindrio ""Go Back"" raha mila hanamarina ianao"
 point17.2,"Kitiho ny ""Submit Update"" mba handefasana ny fanavaozanao."
 point17.3,Ny fanavaozanao dia ampidirina ho azy amin'ny rakitra referansa ary azonao jerena ao amin'ny Dynamic View
-p2,"Raha sendra misy lesoka ianao amin'ny fotoana rehetra, manana fanontaniana, na mila fanohanana amin'ny fanavaozana ireo rakitra referansa, azafady mba mifandraisa aminay amin'ny katie@barefootocean.org na brittany@barefootocean.org."
 fig4,"Sary 4: Ohatra ""Update Request"" mailaka rehefa mila ahitsy ny fampahalalana na mila valiana ny fanehoan-kevitra."
-table1,"Tabilao 1: ny saha voalohany ao amin'ny rakitra referansa tsirairay. Ny karazana saha "" bfo "" dia tantanan'ny Barefoot Ocean ary tsy azo ovaina. Mba hangataka fanovana amin'ny iray amin'ireo saha"" BFO"", azafady avelao ny fanehoan-kevitra. Ny saha misy karazana saha ""azo ovaina"" ihany no azo ovaina. Ny karazana saha ""auto"" dia mipetraka ho azy."
+table1,"Tabilao 1: ny saha voalohany ao amin'ny rakitra referansa tsirairay. Ny karazana saha ""BV"" dia tantanan'ny Blue Ventures ary tsy azo ovaina. Mba hangataka fanovana amin'ny iray amin'ireo saha ""BV"", azafady avelao ny fanehoan-kevitra. Ny saha misy karazana saha ""azo ovaina"" ihany no azo ovaina. Ny karazana saha ""auto"" dia mipetraka ho azy."
 t1.1,Anaran'ny saha
 t1.2,Famaritana ny saha
 t1.3,Karazana saha

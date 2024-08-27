@@ -4,15 +4,15 @@ p1,"Semua file referensi diperbarui dalam Tampilan Dinamis Smartsheet. File refe
 step1,Langkah 1: Buat akun smartsheet gratis.
 point1,Akun gratis dapat dibuat di https://www.smartsheet.com/
 point2,"Pilih ""Coba smartsheet gratis"""
-step2,Langkah 2: Berikan Barefoot Ocean alamat email yang Anda gunakan untuk membuat akun smartsheet Anda.
-point3,Barefoot Ocean kemudian akan membagikan file referensi yang terkait dengan organisasi Anda.
+step2,Langkah 2: Berikan Blue Ventures (BV) alamat email yang Anda gunakan untuk membuat akun smartsheet Anda.
+point3,BV kemudian akan membagikan file referensi yang terkait dengan organisasi Anda.
 point4,"Untuk melihat file referensi Anda, Anda harus masuk ke Tampilan Dinamis smartsheet menggunakan kredensial smartsheet Anda: https://dynamicview.smartsheet.com/login"
 point5,"Setelah masuk ke Tampilan Dinamis (bukan aplikasi smartsheet), Anda akan melihat daftar file referensi yang dibagikan dengan akun Anda (Gambar 1)."
 fig1,Gambar 1: Daftar file referensi dalam Tampilan Dinamis
 step3,Langkah 3: Klik pada file referensi untuk membuat pembaruan
 point6,"Setelah terbuka, Anda dapat mengeklik setiap baris untuk mengedit data yang ada, atau mengeklik tombol ""Baru"" di sudut kanan atas untuk menambahkan data baru (Gambar 2)."
-point7,"Panel detail akan muncul di sisi kanan tempat Anda akan memasukkan informasi yang diperlukan (Gambar 3; Tabel 1). Pilih ""simpan"" di kanan bawah panel detail setelah Anda selesai memperbarui. Anda tidak perlu memberi tahu Barefoot Ocean saat Anda membuat perubahan atau penambahan pada lembar referensi. Ini akan secara otomatis digabungkan dengan file referensi master dan digabungkan dalam Kobo."
-point8,"Untuk memberikan komentar atau mengajukan pertanyaan apa pun kepada tim Barefoot, pilih tab ""Komentar"" di panel detail. Semua individu yang berbagi file referensi, termasuk tim Barefoot Ocean, akan menerima pemberitahuan saat komentar dibuat, jadi tidak perlu menandai individu tertentu."
+point7,"Panel detail akan muncul di sisi kanan tempat Anda akan memasukkan informasi yang diperlukan (Gambar 3; Tabel 1). Pilih ""simpan"" di kanan bawah panel detail setelah Anda selesai memperbarui."
+point8,"Untuk memberikan komentar atau mengajukan pertanyaan apa pun kepada tim, pilih tab ""Komentar"" di panel detail. Semua individu yang berbagi file referensi, termasuk tim BV, akan menerima pemberitahuan saat komentar dibuat, jadi tidak perlu menandai individu tertentu."
 fig2,Gambar 2: Contoh tampilan admin2_ref dalam Tampilan Dinamis
 fig3,Gambar 3: Contoh tampilan panel detail admin2_ref dalam Tampilan Dinamis
 step4,"Langkah 4: Menanggapi permintaan pembaruan saat data hilang atau salah, atau menanggapi komentar."
@@ -21,7 +21,7 @@ point10,"Pratinjau data yang perlu diperbarui atau ditanggapi akan muncul di baw
 point10.1,"Di bagian bawah email, ada tautan untuk ""Buka lembar""; namun, lembar yang mendasarinya memiliki akses terbatas. Harap tinjau data Anda atau tanggapi komentar tersebut melalui permintaan terbuka."
 point11,"Klik tombol ""Buka Permintaan"" di pesan email."
 point12,Jendela baru pada peramban internet akan terbuka dengan pengaturan seperti formulir untuk setiap entri (Gambar 5)
-point13,Tinjau bidang BFO dan isi bidang yang dapat diedit.
+point13,Tinjau bidang BV dan isi bidang yang dapat diedit.
 point14,Klik berikutnya di bagian bawah layar untuk menelusuri setiap entri yang perlu diperbarui.
 point15,"Untuk melewati entri (mis. jika Anda belum yakin jawaban mana yang harus dipilih) klik ""Berikutnya"" tanpa membuat pilihan di kolom yang dapat diedit. Entri berikutnya yang perlu diperbarui akan muncul."
 point16,"Jika Anda perlu keluar dari halaman atau berhenti sebelum semua entri diperbarui, pilihan Anda akan disimpan saat berikutnya Anda membuka kembali permintaan. Saat membuka untuk melanjutkan, cukup klik ""Next"" hingga Anda menemukan entri yang perlu diperbarui."
@@ -29,9 +29,8 @@ point17,"Saat Anda masuk ke entri terakhir, klik ""Selesai"". Pesan pop-up akan 
 point17.1,"Klik ""Kembali"" jika Anda perlu meninjau"
 point17.2,"Klik ""Kirim Pembaruan"" untuk mengirimkan pembaruan Anda."
 point17.3,Pembaruan Anda secara otomatis ditambahkan ke file referensi dan Anda dapat melihatnya dalam Tampilan Dinamis
-p2,"Jika sewaktu-waktu Anda menemukan kesalahan, memiliki pertanyaan, atau memerlukan dukungan untuk memperbarui file referensi, silakan hubungi kami di katie@barefootocean.org atau brittany@barefootocean.org."
 fig4,"Gambar 4: Contoh email ""Permintaan Pembaruan"" saat informasi perlu diperbaiki atau komentar perlu ditanggapi."
-table1,"Tabel 1: Bidang utama di setiap file referensi. Jenis bidang "" BFO "" dikelola oleh Barefoot Ocean dan tidak dapat diedit. Untuk meminta perubahan pada salah satu bidang ""BFO"", silakan tinggalkan komentar. Hanya bidang dengan tipe bidang ""dapat diedit"" yang dapat diedit. Jenis bidang ""otomatis"" diisi secara otomatis."
+table1,"Tabel 1: Bidang utama di setiap file referensi. Jenis bidang ""BV"" dikelola oleh Blue Ventures dan tidak dapat diedit. Untuk meminta perubahan pada salah satu bidang ""BV"", silakan tinggalkan komentar. Hanya bidang dengan tipe bidang ""dapat diedit"" yang dapat diedit. Jenis bidang ""otomatis"" diisi secara otomatis."
 t1.1,Nama bidang
 t1.2,Deskripsi bidang
 t1.3,Jenis bidang

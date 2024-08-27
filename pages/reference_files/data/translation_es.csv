@@ -4,15 +4,15 @@ p1,"Todos los archivos de referencia se actualizan en la vista dinámica de Smar
 step1,Paso 1: Cree una cuenta gratuita de smartsheet.
 point1,Se puede crear una cuenta gratuita en https://www.smartsheet.com/
 point2,"Seleccione ""Pruebe smartsheet de forma gratuita""."
-step2,Paso 2: Proporcione a Barefoot Ocean la dirección de correo electrónico que utilizó para crear su cuenta de smartsheet.
-point3,Barefoot Ocean luego compartirá los archivos de referencia asociados con su organización.
+step2,Paso 2: Proporcione a Blue Ventures (BV) la dirección de correo electrónico que utilizó para crear su cuenta de smartsheet.
+point3,BV luego compartirá los archivos de referencia asociados con su organización.
 point4,"Para ver sus archivos de referencia, deberá iniciar sesión en la vista dinámica de smartsheet con sus credenciales de smartsheet: https://dynamicview.smartsheet.com/login"
 point5,"Una vez que inicie sesión en la Vista dinámica (no en la aplicación de smartsheet), verá una lista de archivos de referencia compartidos con su cuenta (Figura 1)."
 fig1,Figura 1: Lista de archivos de referencia en la vista dinámica
 step3,Paso 3: Haga clic en un archivo de referencia para realizar actualizaciones
 point6,"Una vez abierto, puede hacer clic en cada fila para realizar ediciones en los datos existentes, o hacer clic en el botón ""Nuevo"" en la esquina superior derecha para agregar nuevos datos (Figura 2)."
-point7,"Aparecerá un panel de detalles en el lado derecho donde ingresará la información necesaria (Figura 3; Tabla 1). Seleccione ""guardar"" en la parte inferior derecha del panel de detalles cuando haya terminado de actualizar. No es necesario que notifique a Barefoot Ocean cuando realice cambios o adiciones a las hojas de referencia. Se fusionarán automáticamente con los archivos de referencia maestros y se incorporarán a Kobo."
-point8,"Para dejar un comentario o hacer cualquier pregunta al equipo de Barefoot, seleccione la pestaña ""Comentarios"" en el panel de detalles. Todas las personas con las que se comparte el archivo de referencia, incluido el equipo de Barefoot Ocean, recibirán una notificación cuando se haga un comentario, por lo que no es necesario etiquetar a ninguna persona en particular."
+point7,"Aparecerá un panel de detalles en el lado derecho donde ingresará la información necesaria (Figura 3; Tabla 1). Seleccione ""guardar"" en la parte inferior derecha del panel de detalles cuando haya terminado de actualizar."
+point8,"Para dejar un comentario o hacer cualquier pregunta al equipo de BV, seleccione la pestaña ""Comentarios"" en el panel de detalles. Todas las personas con las que se comparte el archivo de referencia, incluido el equipo de BV, recibirán una notificación cuando se haga un comentario, por lo que no es necesario etiquetar a ninguna persona en particular."
 fig2,Figura 2: Vista de ejemplo de admin2_ref en Vista dinámica
 fig3,Figura 3: Vista de ejemplo del panel de detalles admin2_ref en la Vista dinámica
 step4,"Paso 4: Responda a las solicitudes de actualización cuando falten datos o sean incorrectos, o para responder a un comentario."
@@ -21,7 +21,7 @@ point10,"Aparecerá una vista previa de los datos que deben actualizarse o respo
 point10.1,"En la parte inferior del correo electrónico, hay un enlace para ""Ir a la hoja""; sin embargo, la hoja subyacente tiene acceso restringido. Revise sus datos o responda al comentario a través de una solicitud abierta."
 point11,"Haga clic en el botón"" Abrir solicitud "" en el mensaje de correo electrónico."
 point12,Se abrirá una nueva ventana del navegador de Internet con una configuración similar a un formulario para cada entrada (Figura 5)
-point13,Revise los campos BFO y rellene los campos editables.
+point13,Revise las columnas de BV y rellene las columnas editables.
 point14,Haga clic en siguiente en la parte inferior de la pantalla para desplazarse por cada entrada que deba actualizarse.
 point15,"Para omitir una entrada (por ejemplo, si aún no está seguro de qué respuesta elegir), haga clic en ""Siguiente"" sin hacer una selección en las columnas editables. Aparecerá la siguiente entrada que necesita actualizarse."
 point16,"Si necesita salir de la página o detenerse antes de que se hayan actualizado todas las entradas, sus opciones deben guardarse la próxima vez que vuelva a abrir la solicitud. Al abrir para continuar, simplemente haga clic en ""Siguiente"" hasta que encuentre una entrada que deba actualizarse."
@@ -29,9 +29,8 @@ point17,"Cuando llegue a la última entrada, haga clic en ""Listo"". Aparecerá 
 point17.1,"Haga clic en ""Volver"" si necesita revisar"
 point17.2,"Haga clic en"" Enviar actualización "" para enviar sus actualizaciones."
 point17.3,Sus actualizaciones se agregan automáticamente al archivo de referencia y puede verlas en la Vista dinámica
-p2,"Si en algún momento encuentra algún error, tiene preguntas o necesita asistencia para actualizar los archivos de referencia, comuníquese con nosotros al katie@barefootocean.org o brittany@barefootocean.org."
 fig4,"Figura 4: Ejemplo de correo electrónico de ""Solicitud de actualización"" cuando es necesario corregir la información o responder a los comentarios."
-table1,"Tabla 1: Los campos primarios en cada uno de los archivos de referencia. El tipo de campo ""BFO"" es administrado por Barefoot Ocean y no es editable. Para solicitar cambios en cualquiera de los campos ""BFO"", deje un comentario. Solo se pueden editar los campos con el tipo de campo ""editable"". El tipo de campo ""auto"" se rellena automáticamente."
+table1,"Tabla 1: Las columnas principales de cada uno de los archivos de referencia. El tipo de columna “BV” lo administra Blue Ventures y no se puede editar. Para solicitar cambios en cualquiera de las columnas “BV”, deje un comentario. Solo se pueden editar las columnas con el tipo “editable”. El tipo de columna “auto” se completa automáticamente."
 t1.1,Nombre del campo
 t1.2,Descripción del campo
 t1.3,Tipo de campo

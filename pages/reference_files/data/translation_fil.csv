@@ -4,15 +4,15 @@ p1,"Ang lahat ng mga file ng sanggunian ay na-update sa Smartsheet Dynamic View.
 step1,Hakbang 1: Lumikha ng isang libreng smartsheet account.
 point1,Ang isang libreng account ay maaaring malikha sa https://www.smartsheet.com/
 point2,"Piliin ang ""Subukan ang smartsheet nang libre"""
-step2,Hakbang 2: Magbigay ng Barefoot Ocean ang email address na ginamit mo upang lumikha ng iyong smartsheet account.
-point3,Karagatan ng Barefoot pagkatapos ay ibahagi ang mga file ng sanggunian na nauugnay sa iyong samahan.
+step2,Hakbang 2: Magbigay ng Blue Ventures (BV) ang email address na ginamit mo upang lumikha ng iyong smartsheet account.
+point3,BV pagkatapos ay ibahagi ang mga file ng sanggunian na nauugnay sa iyong samahan.
 point4,Upang matingnan ang iyong mga sanggunian na file kakailanganin mong mag-sign in smartsheet Dynamic View gamit ang iyong mga kredensyal sa smartsheet: https://dynamicview.smartsheet.com/login
 point5,"Kapag naka-log in sa Dynamic View (hindi ang smartsheet app), makikita mo ang isang listahan ng mga sanggunian na file na ibinahagi sa iyong account (Larawan 1)."
 fig1,Larawan 1: Listahan ng mga file ng sanggunian sa Dynamic View
 step3,Hakbang 3: Mag-Click sa isang reference file upang gumawa ng mga update
 point6,"Kapag bukas, maaari kang mag-click sa bawat hilera upang gumawa ng mga pag-edit sa umiiral na data, o i-click ang pindutang ""Bago"" sa kanang sulok sa itaas upang magdagdag ng bagong data (Larawan 2)."
-point7,"Ang isang panel ng mga detalye ay lilitaw sa kanang bahagi kung saan ilalagay mo ang kinakailangang impormasyon (larawan 3; talahanayan 1). Piliin ang"" I-save "" sa kanang bahagi sa ibaba ng panel ng mga detalye kapag tapos ka nang mag-update. Hindi mo kailangang abisuhan ang Barefoot Ocean kapag gumawa ka ng mga pagbabago o pagdaragdag sa mga sheet ng ref. Ang ay awtomatikong pinagsama sa master reference file at inkorporada sa Kobo."
-point8,"Upang mag-iwan ng komento o magtanong sa koponan ng Barefoot ng anumang mga katanungan, piliin ang tab na ""mga komento"" sa panel ng mga detalye. Ang lahat ng mga indibidwal na ang reference file ay ibinahagi sa, kabilang ang Barefoot Ocean team, ay makakatanggap ng abiso kapag ang isang komento ay ginawa, kaya hindi na kailangang i-tag ang anumang partikular na indibidwal."
+point7,"Ang isang panel ng mga detalye ay lilitaw sa kanang bahagi kung saan ilalagay mo ang kinakailangang impormasyon (larawan 3; talahanayan 1). Piliin ang"" I-save "" sa kanang bahagi sa ibaba ng panel ng mga detalye kapag tapos ka nang mag-update."
+point8,"Upang mag-iwan ng komento o magtanong sa koponan ng anumang mga katanungan, piliin ang tab na ""mga komento"" sa panel ng mga detalye. Ang lahat ng mga indibidwal na ang reference file ay ibinahagi sa, kabilang ang BV team, ay makakatanggap ng abiso kapag ang isang komento ay ginawa, kaya hindi na kailangang i-tag ang anumang partikular na indibidwal."
 fig2,Larawan 2: halimbawa ng view ng admin2_ref sa Dynamic View
 fig3,Larawan 3: halimbawa ng view ng panel ng mga detalye ng admin2_ref sa Dynamic View
 step4,"Hakbang 4: tumugon sa mga kahilingan sa pag-update kapag nawawala o hindi tama ang data, o upang tumugon sa isang komento."
@@ -21,7 +21,7 @@ point10,"Ang isang preview ng data na kailangang ma-update o tumugon ay lilitaw 
 point10.1,"Sa ilalim ng email, mayroong isang link para sa ""pumunta sa sheet""; gayunpaman, ang pinagbabatayan na sheet ay pinigilan ang pag-access. Mangyaring suriin ang iyong data o tumugon sa komento sa pamamagitan ng bukas na kahilingan."
 point11,"Mag-Click sa pindutang ""Buksan ang kahilingan"" sa mensahe ng email."
 point12,Magbubukas ang isang bagong window ng browser ng internet na may isang form na tulad ng pag-setup para sa bawat entry (larawan 5)
-point13,Suriin ang mga patlang ng bfo at punan ang mga mai-edit na patlang.
+point13,Suriin ang mga patlang ng BV at punan ang mga mai-edit na patlang.
 point14,I-Click ang susunod sa ibaba ng screen upang ilipat sa bawat entry na kailangang ma-update.
 point15,"Kung hindi ka pa sigurado kung aling sagot ang pipiliin) I-click ang ""susunod"" nang hindi pumipili sa mga nae-edit na column. Ang susunod na entry na kailangang ma-update ay lilitaw."
 point16,"Kung kailangan mong lumabas sa pahina o huminto bago ma-update ang lahat ng mga entry, dapat na mai-save ang iyong mga pagpipilian sa susunod na buksan mo muli ang kahilingan. Sa pagbubukas upang magpatuloy, i-click lamang ang ""susunod"" hanggang sa makahanap ka ng isang entry na kailangang ma-update."
@@ -29,9 +29,8 @@ point17,"Kapag nakarating ka sa huling entry, i-click ang ""Tapos na"". Lilitaw 
 point17.1,"I-Click ang ""Bumalik"" Kung kailangan mong suriin"
 point17.2,"I-Click ang ""Isumite ang Update"" upang isumite ang iyong mga update."
 point17.3,Ang iyong mga update ay awtomatikong nakadugtong sa reference file at maaari mong tingnan ang mga ito sa Dynamic View
-p2,"Kung sa anumang oras nakatagpo ka ng anumang mga error, may mga katanungan, o kailangan ng suporta para sa pag-update ng mga file ng sanggunian, mangyaring makipag-ugnay sa amin sa katie@barefootocean.org o brittany@barefootocean.org."
 fig4,"Larawan 4: Halimbawa ng email na ""i-Update ang kahilingan"" kapag kailangang itama ang impormasyon o kailangang tumugon ang komento."
-table1,"Talahanayan 1: Ang pangunahing mga patlang sa bawat isa sa mga sanggunian na file. Ang uri ng patlang na ""bfo"" ay pinamamahalaan ng Barefoot Ocean at hindi mai-edit. Upang humiling ng mga pagbabago sa alinman sa mga patlang na"" BFO"", mangyaring mag-iwan ng komento. Ang mga patlang lamang na may uri ng patlang na ""mai-edit"" ang maaaring mai-edit. Ang uri ng patlang na ""auto"" ay awtomatikong populasyon."
+table1,"Talahanayan 1: Ang pangunahing mga patlang sa bawat isa sa mga sanggunian na file. Ang uri ng patlang na ""BV"" ay pinamamahalaan ng Blue Ventures at hindi mai-edit. Upang humiling ng mga pagbabago sa alinman sa mga patlang na ""BV"", mangyaring mag-iwan ng komento. Ang mga patlang lamang na may uri ng patlang na ""mai-edit"" ang maaaring mai-edit. Ang uri ng patlang na ""auto"" ay awtomatikong populasyon."
 t1.1,Pangalan ng patlang
 t1.2,Paglalarawan ng patlang
 t1.3,Uri ng patlang

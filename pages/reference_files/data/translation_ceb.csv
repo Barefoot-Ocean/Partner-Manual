@@ -4,15 +4,15 @@ p1,"Ang tanan nga mga reference file nga updated Sa Smartsheet Dinamikong Pangla
 step1,Lakang 1: paghimo usa ka libre nga account sa smartsheet.
 point1,Ang usa ka libre nga account mahimong ma-access https://www.smartsheet.com/
 point2,"Pagpili ""Sulayi smartsheet alang sa free"""
-step2,Lakang 2: Paghatag Og Walay Sapin Nga Dagat ang email address nga imong gigamit sa paghimo sa imong smartsheet account.
-point3,Ang Dagat nga nagtiniil dayon ipaambit ang mga pakisayran nga mga file nga may kalabutan sa imong organisasyon.
+step2,Lakang 2: Paghatag Og Blue Ventures (BV) ang email address nga imong gigamit sa paghimo sa imong smartsheet account.
+point3,BV nga nagtiniil dayon ipaambit ang mga pakisayran nga mga file nga may kalabutan sa imong organisasyon.
 point4,Aron sa pagtan aw sa imong pakisayran files kamo kinahanglan nga mopirma ngadto sa smartsheet Dinamikong Panglantaw sa paggamit sa imong smartsheet credentials: https://dynamicview.smartsheet.com/login
 point5,"Sa higayon nga logged sa Dinamikong Panglantaw (dili ang smartsheet app), imong makita ang usa ka listahan sa mga pakisayran files mipakigbahin uban sa imong account (Figure 1)."
 fig1,Figure 1: Listahan sa mga pakisayran nga mga file sa Dinamikong Panglantaw
 step3,Lakang 3: I-Klik ang usa ka reperensiya file sa paghimo sa updates
 point6,"Sa higayon nga maablihan, mahimo ka mag-klik sa matag laray aron mahimo ang pag-edit sa adunay na nga datos, o i-klik ang ""Bag-ong"" button sa taas nga tuo nga suok aron makadugang bag-ong datos (Figure 2)."
-point7,"Ang usa ka panel sa detalye makita sa tuo nga bahin diin imong i-input ang gikinahanglan nga kasayuran (Numero 3; Lamesa 1). Pilia ang"" save "" sa ubos nga tuo sa panel sa mga detalye kung nahuman na nimo ang pag-update. Dili nimo kinahanglan nga ipahibalo Nga Nagtiniil Sa Dagat kung maghimo ka mga pagbag-o o pagdugang sa mga ref sheets. Kini awtomatikong iupod sa mga file sa pakisayran sa master ug iupod sa Kobo."
-point8,"Sa pagbiya sa usa ka comment o sa pagpangutana Sa Nagtiniil team sa bisan unsa nga mga pangutana, pagpili sa ""Comments"" tab sa mga detalye panel. Ang tanan nga mga indibidwal nga ang pakisayran nga file gipaambit, lakip ang Nagtiniil Nga Ocean team, makadawat pahibalo kung gihimo ang usa ka komentaryo, busa dili kinahanglan nga tag bisan unsang partikular nga indibidwal."
+point7,"Ang usa ka panel sa detalye makita sa tuo nga bahin diin imong i-input ang gikinahanglan nga kasayuran (Numero 3; Lamesa 1). Pilia ang"" save "" sa ubos nga tuo sa panel sa mga detalye kung nahuman na nimo ang pag-update."
+point8,"Sa pagbiya sa usa ka comment o sa pagpangutana team sa bisan unsa nga mga pangutana, pagpili sa ""Comments"" tab sa mga detalye panel. Ang tanan nga mga indibidwal nga ang pakisayran nga file gipaambit, lakip ang BV team, makadawat pahibalo kung gihimo ang usa ka komentaryo, busa dili kinahanglan nga tag bisan unsang partikular nga indibidwal."
 fig2,Figure 2: Example view sa admin_ref sa Dinamikong Panglantaw
 fig3,Figure 3: Example view sa admin_ref detalye panel sa Dinamikong Panglantaw
 step4,"Lakang 4: Tubaga ang mga hangyo sa pag-update kung ang datos nawala o sayup, o aron pagtubag sa usa ka komento."
@@ -21,7 +21,7 @@ point10,"Ang usa ka preview sa datos nga kinahanglan nga ma-update o matubag mak
 point10.1,"Sa ilawom sa email, adunay usa ka link alang sa ""Pag-Adto sa sheet""; bisan pa, ang nagpahiping sheet nagpugong sa pag-access. Palihug ribyuha ang imong datos o tubaga ang komento pinaagi sa Bukas nga hangyo."
 point11,"I-klik ang ""Open Hangyo"" button sa email nga mensahe."
 point12,Ang usa ka bag-ong bintana sa browser sa internet magbukas sa usa ka porma nga sama sa pag-setup alang sa matag entry (Figure 5)
-point13,Ribyuha ANG BFO kaumahan ug pun-on ang mga editable kaumahan.
+point13,Ribyuha ANG BV kaumahan ug pun-on ang mga editable kaumahan.
 point14,I-klik sunod sa ubos sa screen sa paglihok pinaagi sa matag entry nga kinahanglan nga updated.
 point15,"Aron laktawan ang usa ka entry (pananglitan kung dili ka sigurado kung unsang tubag ang pilion) i-klik ang ""Next"" nga wala maghimo usa ka pagpili sa mga ma-edit nga kolum. Ang sunod nga entry nga kinahanglan ma-update magpakita."
 point16,"Kung kinahanglan nimo nga mogawas sa panid o mohunong sa wala pa ma-update ang tanan nga mga entry, ang imong mga kapilian kinahanglan maluwas sa sunod nga imong ablihan usab ang hangyo. Sa pag-abli sa pagpadayon sa, lang i-klik ""Next"" hangtud nga imong makita ang usa ka entry nga kinahanglan nga updated."
@@ -29,9 +29,8 @@ point17,"Sa diha nga ikaw sa pagkuha sa mga katapusan nga entry, i-klik ""Gibuha
 point17.1,"Pag-klik sa"" Balik "" kung kinahanglan nimo nga repasuhon"
 point17.2,"I-klik ang ""Submit Update"" sa pagsumiter sa inyong mga updates."
 point17.3,Ang imong mga pag update awtomatiko nga nadugang sa file sa pakisayran ug mahimo nimo kini makita sa Dinamikong Panan aw
-p2,"Kung sa bisan unsang oras nga makasugat ka bisan unsang mga sayup, adunay mga pangutana, o kinahanglan nga suporta alang sa pag-update sa mga pakisayran nga file, palihug kontaka kami sa katie@barefootocean.org o brittany@barefootocean.org."
 fig4,"Figure 4: Panig-Ingnan ""Update Hangyo"" email sa diha nga impormasyon kinahanglan nga matul-id o comment kinahanglan nga mitubag sa."
-table1,"Table 1: ang nag-unang mga natad sa matag usa sa mga pakisayran nga mga file. Ang tipo sa uma nga ""BFO"" gidumala sa Nagtiniil Nga Dagat ug dili ma-edit. Sa paghangyo sa mga kausaban sa bisan unsa sa mga"" BFO "" kaumahan, palihug mobiya sa usa ka comment. Ang mga uma nga adunay tipo sa uma nga ""editable"" mahimong ma-edit. Ang tipo sa uma nga ""awto"" awtomatiko nga gipuy-an."
+table1,"Table 1: ang nag-unang mga natad sa matag usa sa mga pakisayran nga mga file. Ang tipo sa uma nga ""BV"" gidumala sa Blue Ventures ug dili ma-edit. Sa paghangyo sa mga kausaban sa bisan unsa sa mga ""BV"" kaumahan, palihug mobiya sa usa ka comment. Ang mga uma nga adunay tipo sa uma nga ""editable"" mahimong ma-edit. Ang tipo sa uma nga ""awto"" awtomatiko nga gipuy-an."
 t1.1,Ngalan sa uma
 t1.2,Paghulagway sa uma
 t1.3,Matang sa uma
