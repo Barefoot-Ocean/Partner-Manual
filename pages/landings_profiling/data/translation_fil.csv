@@ -78,7 +78,7 @@ q65,*Indibidwal na timbang (${weight_unit_mixed_samples})*
 q66,**Halimabawa 2:**
 q67,**Halimabawa 10:**
 subtitle7,Mga sample (${calc_local_name})
-q67,"Bilang karagdagan sa haba ng data, ano pang data ang iyong kinokolekta?"
+q67.5,"Bilang karagdagan sa haba ng data, ano pang data ang iyong kinokolekta?"
 q68,Ilang sample ang nakolekta mo?
 q69,Unit ng timbang para sa mga indibidwal na halimbawa
 q70,**Halimabawa 1:**

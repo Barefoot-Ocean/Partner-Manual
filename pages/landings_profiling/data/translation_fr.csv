@@ -78,7 +78,7 @@ q65,*Poids individuel (${weight_unit_mixed_samples})*
 q66,**Echantillon 2 :**
 q67,**Echantillon 10 :**
 subtitle7,Échantillons (${calc_local_name})
-q67,"En plus des données de longueur, quelles autres données collectez-vous ?"
+q67.5,"En plus des données de longueur, quelles autres données collectez-vous ?"
 q68,Combien d’échantillons collectez-vous ?
 q69,Unité de poids pour les échantillons individuels
 q70,**Echantillon 1 :**

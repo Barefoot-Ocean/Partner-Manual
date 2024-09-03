@@ -78,7 +78,7 @@ q65,*Peso individual (${weight_unit_mixed_samples})*
 q66,**Amostra 2:**
 q67,**Amostra 10:**
 subtitle7,Amostras (${calc_local_name})
-q67,"Além dos dados de comprimento, que outros dados você está coletando?"
+q67.5,"Além dos dados de comprimento, que outros dados você está coletando?"
 q68,Quantas amostras você está coletando para esta espécie?
 q69,Unidade de peso para amostras individuais
 q70,**Amostra 1:**

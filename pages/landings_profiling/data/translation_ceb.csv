@@ -78,7 +78,7 @@ q65,*Bigat ng bawat isa (${weight_unit_mixed_samples})*
 q66,**Sampol 2:**
 q67,**Sampol 10:**
 subtitle7,Mga sampol (${calc_local_name})
-q67,"Dugang sa datos sa gitas-on, unsa pa nga datos ang imong gikolekta?"
+q67.5,"Dugang sa datos sa gitas-on, unsa pa nga datos ang imong gikolekta?"
 q68,Pila ka sample ang imong nakolekta?
 q69,Timbang nga yunit alang sa indibidwal nga mga sampol
 q70,**Sampol 1:**

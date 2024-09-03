@@ -78,7 +78,7 @@ q65,*Todan Individual (${weight_unit_mixed_samples})*
 q66,**Amostra/Sampel 2**
 q67,**Amostra/Sampel 10:**
 subtitle7,Amostra/Sampel (${calc_local_name})
-q67,"Aleinde dadus tempu naruk, dadus seluk saida mak ita koleta?"
+q67.5,"Aleinde dadus tempu naruk, dadus seluk saida mak ita koleta?"
 q68,Ita halibur amostra/sample hira?
 q69,Unidade todan ba sample individual
 q70,**Amostra/Sampel 1**

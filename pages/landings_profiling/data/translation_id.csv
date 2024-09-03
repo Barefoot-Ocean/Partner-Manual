@@ -78,7 +78,7 @@ q65,*Berat individu (${weight_unit_mixed_samples})*
 q66,**Sampel 2:**
 q67,**Sampel 10:**
 subtitle7,Sampel (${calc_local_name})
-q67,"Selain data panjang/berat, data apa lagi yang Anda kumpulkan?"
+q67.5,"Selain data panjang/berat, data apa lagi yang Anda kumpulkan?"
 q68,Berapa banyak sampel yang Anda dikumpulkan?
 q69,Satuan berat untuk sampel individu
 q70,**Sampel 1:**

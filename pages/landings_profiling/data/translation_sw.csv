@@ -78,7 +78,7 @@ q65,*Uzito binafsi (${weight_unit_mixed_samples})*
 q66,**Sampuli 2:**
 q67,**Sampuli 10:**
 subtitle7,Sampuli (${calc_local_name})
-q67,"Mbali na data/takwimu ya urefu, ni data gani nyingine unayokusanya?"
+q67.5,"Mbali na data/takwimu ya urefu, ni data gani nyingine unayokusanya?"
 q68,"Je, unakusanya sampuli ngapi?"
 q69,Kipimo cha Uzito kwa Sampuli Binafsi
 q70,**Sampuli 1:**

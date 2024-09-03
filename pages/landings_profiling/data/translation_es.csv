@@ -78,7 +78,7 @@ q65,*Peso individual (${weight_unit_mixed_samples})*
 q66,**Muestra 2:**
 q67,**Muestra 10:**
 subtitle7,Muestras (${calc_local_name})
-q67,"Además de los datos de longitud, ¿qué otros datos está recopilando?"
+q67.5,"Además de los datos de longitud, ¿qué otros datos está recopilando?"
 q68,¿Cuántas muestras estás recolectando de esta especie?
 q69,Unidad de peso para muestras individuales
 q70,**Muestra 1:**

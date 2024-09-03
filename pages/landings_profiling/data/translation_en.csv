@@ -78,7 +78,7 @@ q65,*Individual weight (${weight_unit_mixed_samples})*
 q66,**Sample 2:**
 q67,**Sample 10:**
 subtitle7,Samples (${calc_local_name})
-q67,"In addition to length/weight data, what other data are you collecting?"
+q67.5,"In addition to length/weight data, what other data are you collecting?"
 q68,How many samples are you collecting?
 q69,Weight unit for individual samples
 q70,**Sample 1:**
