@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Archivos de referencia – Barefoot Ocean Partner Manual</title>
+<title>Landings Profiling – Barefoot Ocean Partner Manual</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../pages/data_validation/data_validation_es.html" rel="next">
-<link href="../../pages/landings_profiling/landings_profiling_es.html" rel="prev">
+<link href="../../pages/reference_files/reference_files_fil.html" rel="next">
+<link href="../../pages/landings_monitoring/landings_monitoring_fil.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -80,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/index/index_es.html">Español</a></li><li class="breadcrumb-item"><a href="../../pages/reference_files/reference_files_es.html">Archivos de referencia</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/index/index_fil.html">Tagalog</a></li><li class="breadcrumb-item"><a href="../../pages/landings_profiling/landings_profiling_fil.html">Landings Profiling</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -318,11 +347,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../pages/index/index_fil.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tagalog</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../pages/quick_guide/quick_guide_fil.html" class="sidebar-item-text sidebar-link">
@@ -349,7 +378,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../pages/landings_profiling/landings_profiling_fil.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/landings_profiling/landings_profiling_fil.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Landings Profiling</span></a>
   </div>
 </li>
@@ -495,11 +524,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../pages/index/index_es.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Español</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../pages/quick_guide/quick_guide_es.html" class="sidebar-item-text sidebar-link">
@@ -532,7 +561,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../pages/reference_files/reference_files_es.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../pages/reference_files/reference_files_es.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Archivos de referencia</span></a>
   </div>
 </li>
@@ -700,9 +729,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/index/index_es.html">Español</a></li><li class="breadcrumb-item"><a href="../../pages/reference_files/reference_files_es.html">Archivos de referencia</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/index/index_fil.html">Tagalog</a></li><li class="breadcrumb-item"><a href="../../pages/landings_profiling/landings_profiling_fil.html">Landings Profiling</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Archivos de referencia</h1>
+<h1 class="title">Landings Profiling</h1>
 </div>
 
 
@@ -719,1075 +748,534 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="actualización-de-archivos-de-referencia" class="level2">
-<h2 class="anchored" data-anchor-id="actualización-de-archivos-de-referencia">Actualización de Archivos de Referencia</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/sk0GNm9D-p0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>Todos los archivos de referencia se actualizan en la vista dinámica de Smartsheet. Los archivos de referencia sirven como entradas para las listas desplegables en los formularios de KoBoToolbox y contienen datos que se agregan a los conjuntos de datos maestros a través de uniones. Contienen información completa sobre los niveles administrativos de las comunidades pesqueras (país, provincia, distrito, aldea), sitios de desembarque, caladeros, pescadores, compradores, recolectores de datos, especies, áreas de manejo, tipos de artes y organizaciones asociadas. Los pasos a continuación describen cómo actualizar los archivos de referencia con nueva información.</p>
-<p>Paso 1: Cree una cuenta gratuita de smartsheet.</p>
-<ul>
-<li><p>Se puede crear una cuenta gratuita en https://www.smartsheet.com/</p></li>
-<li><p>Seleccione “Pruebe smartsheet de forma gratuita”.</p></li>
-</ul>
-<p>Paso 2: Proporcione a Blue Ventures (BV) la dirección de correo electrónico que utilizó para crear su cuenta de smartsheet.</p>
-<ul>
-<li><p>BV luego compartirá los archivos de referencia asociados con su organización.</p></li>
-<li><p>Para ver sus archivos de referencia, deberá iniciar sesión en la vista dinámica de smartsheet con sus credenciales de smartsheet: https://dynamicview.smartsheet.com/login</p></li>
-<li><p>Una vez que inicie sesión en la Vista dinámica (no en la aplicación de smartsheet), verá una lista de archivos de referencia compartidos con su cuenta (Figura 1).</p></li>
-</ul>
-<p>Figura 1: Lista de archivos de referencia en la vista dinámica</p>
-<p><img src="images/fig1.jpg" class="img-fluid"></p>
-<p>Paso 3: Haga clic en un archivo de referencia para realizar actualizaciones</p>
-<ul>
-<li><p>Una vez abierto, puede hacer clic en cada fila para realizar ediciones en los datos existentes, o hacer clic en el botón “Nuevo” en la esquina superior derecha para agregar nuevos datos (Figura 2).</p></li>
-<li><p>Aparecerá un panel de detalles en el lado derecho donde ingresará la información necesaria (Figura 3; Tabla 1). Seleccione “guardar” en la parte inferior derecha del panel de detalles cuando haya terminado de actualizar.</p></li>
-<li><p>Para dejar un comentario o hacer cualquier pregunta al equipo de BV, seleccione la pestaña “Comentarios” en el panel de detalles. Todas las personas con las que se comparte el archivo de referencia, incluido el equipo de BV, recibirán una notificación cuando se haga un comentario, por lo que no es necesario etiquetar a ninguna persona en particular.</p></li>
-</ul>
-<p>Figura 2: Vista de ejemplo de admin2_ref en Vista dinámica</p>
-<p><img src="images/fig2.jpg" class="img-fluid" width="935"></p>
-<p>Figura 3: Vista de ejemplo del panel de detalles admin2_ref en la Vista dinámica</p>
-<p><img src="images/fig3.jpg" class="img-fluid" width="947"></p>
-<p>Paso 4: Responda a las solicitudes de actualización cuando falten datos o sean incorrectos, o para responder a un comentario.</p>
-<ul>
-<li><p>Si hay información incompleta o incorrecta que es esencial para completar los menús desplegables de Kobo o para unirse, o si se hace un comentario en la hoja, se enviará una solicitud de actualización a todos los usuarios apropiados, pidiéndoles que actualicen la información o respondan a un comentario (Figura 4). De forma predeterminada, todas las personas con acceso a sus archivos de referencia recibirán la solicitud de actualización.</p></li>
-<li><p>Aparecerá una vista previa de los datos que deben actualizarse o responderse debajo del mensaje de correo electrónico, pero no podrá actualizar ningún dato directamente en el correo electrónico</p>
-<ul>
-<li>En la parte inferior del correo electrónico, hay un enlace para “Ir a la hoja”; sin embargo, la hoja subyacente tiene acceso restringido. Revise sus datos o responda al comentario a través de una solicitud abierta.</li>
-</ul></li>
-<li><p>Haga clic en el botón” Abrir solicitud ” en el mensaje de correo electrónico.</p></li>
-<li><p>Se abrirá una nueva ventana del navegador de Internet con una configuración similar a un formulario para cada entrada (Figura 5)</p></li>
-<li><p>Revise las columnas de BV y rellene las columnas editables.</p></li>
-<li><p>Haga clic en siguiente en la parte inferior de la pantalla para desplazarse por cada entrada que deba actualizarse.</p></li>
-<li><p>Para omitir una entrada (por ejemplo, si aún no está seguro de qué respuesta elegir), haga clic en “Siguiente” sin hacer una selección en las columnas editables. Aparecerá la siguiente entrada que necesita actualizarse.</p></li>
-<li><p>Si necesita salir de la página o detenerse antes de que se hayan actualizado todas las entradas, sus opciones deben guardarse la próxima vez que vuelva a abrir la solicitud. Al abrir para continuar, simplemente haga clic en “Siguiente” hasta que encuentre una entrada que deba actualizarse.</p></li>
-<li><p>Cuando llegue a la última entrada, haga clic en “Listo”. Aparecerá un mensaje emergente que le preguntará si está listo para enviar su actualización.’:</p>
-<ul>
-<li><p>Haga clic en “Volver” si necesita revisar</p></li>
-<li><p>Haga clic en” Enviar actualización ” para enviar sus actualizaciones.</p></li>
-<li><p>Sus actualizaciones se agregan automáticamente al archivo de referencia y puede verlas en la Vista dinámica</p></li>
-</ul></li>
-</ul>
-<p>Figura 4: Ejemplo de correo electrónico de “Solicitud de actualización” cuando es necesario corregir la información o responder a los comentarios.</p>
-<p><img src="images/fig4.jpg" class="img-fluid" width="788"></p>
-<p>Tabla 1: Las columnas principales de cada uno de los archivos de referencia. El tipo de columna “BV” lo administra Blue Ventures y no se puede editar. Para solicitar cambios en cualquiera de las columnas “BV”, deje un comentario. Solo se pueden editar las columnas con el tipo “editable”. El tipo de columna “auto” se completa automáticamente.</p>
-<table class="caption-top table">
+<section id="kobocollect---landings-profiling" class="level2">
+<h2 class="anchored" data-anchor-id="kobocollect---landings-profiling">KoboCollect - Landings Profiling</h2>
+<section id="pangkalahatang-impormasyon" class="level3">
+<h3 class="anchored" data-anchor-id="pangkalahatang-impormasyon">Pangkalahatang Impormasyon</h3>
+<table class="table table-striped table-hover caption-top">
 <colgroup>
-<col style="width: 25%">
 <col style="width: 50%">
-<col style="width: 25%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del campo</th>
-<th>Descripción del campo</th>
-<th>Tipo de campo</th>
+<th>Tanong</th>
+<th>Mga Pagpipilian sa Sagot</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Todos los archivos de referencia</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>latest_comment</td>
-<td>Esta columna almacena el último comentario que se realizó para esa fila. Para ver la discusión completa de los comentarios de esa fila, simplemente haga clic en cualquier lugar de la fila. Aparecerá el panel de detalles, como en la Figura 3. Haga clic en la pestaña” Comentarios ” para ver todos los comentarios de esa fila.</td>
-<td>auto</td>
-</tr>
-<tr class="odd">
-<td>modified_date</td>
-<td>Fecha de la última edición</td>
-<td>auto</td>
-</tr>
-<tr class="even">
-<td>modified_by</td>
-<td>Usuario que realizó la última edición</td>
-<td>auto</td>
-</tr>
-<tr class="odd">
-<td>active</td>
-<td>Seleccione ” Sí ” si actualmente se están recopilando datos de esta persona / área. Si ya no se recopilan datos de esta persona / área y desea ocultarlos del menú desplegable de Kobo, seleccione ” No.”</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>remove</td>
-<td>Elija ” Sí ” si desea eliminar el registro. Los registros solo deben eliminarse si el nombre es incorrecto o si es un duplicado de un registro existente.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td><strong>admin1_ref</strong></td>
-<td></td>
+<td>Bansa</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
+<td>Asosasyon</td>
+<td>org_ref</td>
 </tr>
 <tr class="odd">
-<td>name</td>
-<td>El nombre del administrador1, el nivel administrativo más alto después del país (es decir, la provincia) sin espacios ni puntuación, solo subraya</td>
-<td>BV</td>
+<td>Probinsyang datingan</td>
+<td>admin1_ref</td>
 </tr>
 <tr class="even">
-<td>label</td>
-<td>Nombre de admin1, el nivel administrativo más alto después del país (es decir, provincia) con espacios y puntuación permitidos. No cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
-<td>editable</td>
+<td>Municipio datingan</td>
+<td>admin2_ref</td>
 </tr>
 <tr class="odd">
-<td>partner_flag</td>
-<td>La bandera será roja si el valor” socio ” no existe en org_ref</td>
-<td>BV</td>
+<td>Barangay na datingan</td>
+<td>admin3_ref</td>
 </tr>
 <tr class="even">
-<td>partner</td>
-<td>Nombre del socio sin espacios ni puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en org_ref.</td>
-<td>editable</td>
+<td>Pangalan ng data kolektor</td>
+<td>data_collector_ref / <em>Bagong pangalan ng data kolektor</em></td>
 </tr>
 <tr class="odd">
-<td><strong>admin2_ref</strong></td>
+<td>Pitsa kung kailan dadating</td>
 <td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>name</td>
-<td>Nombre de admin2, el nivel administrativo más alto después de admin1 (es decir, distrito) sin espacios y sin puntuación, solo guiones bajos</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>label</td>
-<td>Nombre de admin2, el nivel administrativo más alto después de admin1 (es decir, distrito) con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>admin1_flag</td>
-<td>La bandera será roja si el valor” admin1_ref_name ” no existe en admin1_ref</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin1_ref_name</td>
-<td>Admin1 nombre sin espacios ni signos de puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en admin1_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td><strong>admin3_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>name</td>
-<td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.El administrador 3 es el nivel administrativo más alto después del administrador 2 (es decir, la aldea).</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>label</td>
-<td>Nombre de admin3, el nivel administrativo más alto después de admin2 (es decir, aldea) con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>admin1</td>
-<td>Admin1 nombre con espacios y puntuación permitidos. Esto se extrae de admin1_ref y se rellena automáticamente en función del admin2 elegido.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin1_ref_name</td>
-<td>Admin1 nombre sin espacios ni signos de puntuación, solo guiones bajos. Esto se extrae de admin1_ref y se rellena automáticamente en función del admin2 elegido</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>admin2_flag</td>
-<td>La bandera será roja si el valor” admin2 ” no existe en admin2_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin2</td>
-<td>Nombre Admin2 con espacios y puntuación permitidos. La lista desplegable está conectada a la columna “etiqueta” en admin2_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>admin2_ref_name</td>
-<td>Nombre Admin2 sin espacios ni signos de puntuación, solo guiones bajos. Esto se extrae de admin2_ref y se rellena automáticamente en función del admin2 elegido.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin3_lat</td>
-<td>Latitud de administración3</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>admin3_long</td>
-<td>Longitud de admin3</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>landings_mon</td>
-<td>Seleccione ” Sí ” si desea que admin3 aparezca en el menú desplegable del formulario de monitoreo de Kobo landings.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>landings_prof</td>
-<td>Seleccione ” Sí ” si desea que admin3 aparezca en el menú desplegable del formulario de creación de perfiles de Kobo landings.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>comm_prof</td>
-<td>Selecciona ” Sí ” si quieres que admin3 aparezca en el menú desplegable del formulario de creación de perfiles de la comunidad de Kobo.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>hhs</td>
-<td>Selecciona ” Sí ” si quieres que el administrador3 aparezca en el menú desplegable del formulario de encuesta de hogares de Kobo.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td><strong>buyer_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>name</td>
-<td>Nombre del comprador sin espacios y sin puntuación, solo guiones bajos</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>label</td>
-<td>Nombre del comprador con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>buyer_gender</td>
-<td>Género del comprador; ‘male’ (masculino), ‘female’ (femenino), ‘nonbinary’ (no binario) o ‘business_nogender’</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>gender_flag</td>
-<td>La bandera será roja si el valor buyer_gender es diferente para el mismo comprador (es decir, si Raymond Scott en admin3 = Boston tiene género = masculino, pero Raymond Scott en admin3 = Miami tiene género = femenino, la bandera será roja porque los géneros no son los mismos para el mismo comprador).</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin1</td>
-<td>Administración1 nombre en el que compra el comprador, con espacios y puntuación permitidos. Esto se extrae de admin1_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>admin2</td>
-<td>Admin2 nombre donde compra el comprador, con espacios y puntuación permitidos. Esto se extrae de admin2_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin3</td>
-<td>Admin3 nombre donde compra el comprador, con espacios y puntuación permitidos. Esto se extrae de admin3_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>admin3_ref_name</td>
-<td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna “nombre” en admin3_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>admin3_flag</td>
-<td>La bandera será roja si el valor” admin3_ref_name ” no existe en admin3_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td><strong>fisher_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>name</td>
-<td>Nombre del pescador sin espacios y sin puntuación, solo guiones bajos</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>label</td>
-<td>Nombre del pescador con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>fisher_gender</td>
-<td>Género del pescador; ‘male’ (masculino), ‘female’ (femenino), ‘nonbinary’ (no binario) o ‘business_nogender’</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>gender_flag</td>
-<td>La bandera será roja si el valor fisher_gender es diferente para el mismo pescador (es decir, si Raymond Scott en admin3 = Boston tiene género = masculino, pero Raymond Scott en admin3 = Miami tiene género = femenino, la bandera será roja porque los géneros no son los mismos para el mismo pescador).</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>admin1</td>
-<td>Administración1 nombre donde el pescador desembarca su captura, con espacios y puntuación permitidos. Esto se extrae de admin1_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin2</td>
-<td>Admin2 nombre donde el pescador desembarca su captura, con espacios y puntuación permitidos. Esto se extrae de admin2_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>admin3</td>
-<td>Admin3 nombre donde el pescador desembarca su captura, con espacios y puntuación permitidos. Esto se extrae de admin3_ref y se rellena automáticamente en función del admin3_ref_name elegido.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin3_ref_name</td>
-<td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna “nombre” en admin3_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>admin3_flag</td>
-<td>La bandera será roja si el valor” admin3_ref_name ” no existe en admin3_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td><strong>data_collector_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>name</td>
-<td>Nombre del recopilador de datos sin espacios ni signos de puntuación, solo guiones bajos</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>label</td>
-<td>Nombre del recopilador de datos con espacios y puntuación permitidos.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>gender</td>
-<td>Género del recopilador de datos; ‘male’ (masculino), ‘female’ (femenino), ‘nonbinary’ (no binario) o ‘business_nogender’</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>admin3_flag</td>
-<td>La bandera será roja si el valor” admin3_ref_name ” no existe en admin3_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin3_ref_name</td>
-<td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna “nombre” en admin3_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>landings_mon</td>
-<td>Seleccione ” Sí ” si desea que el recopilador de datos aparezca en el menú desplegable del formulario de monitoreo de Kobo landings.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>landings_prof</td>
-<td>Selecciona ” Sí ” si quieres que el recopilador de datos aparezca en el menú desplegable del formulario de creación de perfiles de Kobo landings</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>hhs</td>
-<td>Selecciona ” Sí ” si quieres que el recopilador de datos aparezca en el menú desplegable del formulario de encuesta de hogares de Kobo</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>comm_prof</td>
-<td>Selecciona ” Sí ” si quieres que el recopilador de datos aparezca en el menú desplegable del formulario de creación de perfiles de la comunidad de Kobo</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td><strong>fishing_ground_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>name</td>
-<td>Nombre del caladero sin espacios y sin puntuación, solo subrayados</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>label</td>
-<td>Nombre del caladero con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>admin3_flag</td>
-<td>La bandera será roja si el valor” admin3_ref_name ” no existe en admin3_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin3_ref_name</td>
-<td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna “nombre” en admin3_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>partner_flag</td>
-<td>La bandera será roja si el valor” socio ” no existe en org_ref</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>partner</td>
-<td>Nombre del socio sin espacios ni puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en org_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>latitude</td>
-<td>Latitud del caladero</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>longitude</td>
-<td>Longitud del caladero</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td><strong>gear_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>name</td>
-<td>Nombre local del engranaje sin espacios y sin puntuación, solo guiones bajos</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>label</td>
-<td>Nombre local del engranaje con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>gear_global</td>
-<td>Nombre en inglés del engranaje sin espacios y sin puntuación, solo guiones bajos. Esta es una lista desplegable predefinida. Elija el que mejor se adapte al equipo local o comente si no está seguro.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>gear_detail</td>
-<td>Descripción del equipo</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>species_group</td>
-<td>Las especies agrupan los objetivos de los aparejos. Si un engranaje se dirige a varias especies, cree una nueva fila de datos para cada grupo de especies. La lista desplegable está conectada a la columna “species_group” en species_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>species_flag</td>
-<td>La bandera será roja si el” species_group ” elegido no existe en species_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>partner</td>
-<td>Nombre del socio sin espacios ni puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en org_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>partner_flag</td>
-<td>La bandera será roja si el valor” socio ” no existe en org_ref</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td><strong>landing_site_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>name</td>
-<td>Nombre del lugar de aterrizaje sin espacios ni signos de puntuación, solo guiones bajos</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>label</td>
-<td>Nombre del lugar de aterrizaje con espacios y puntuación permitidos</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>admin3_flag</td>
-<td>La bandera será roja si el valor” admin3_ref_name ” no existe en admin3_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>admin3_ref_name</td>
-<td>Nombres Admin2 y admin3 combinados sin espacios ni signos de puntuación, solo guiones bajos.La lista desplegable está conectada a la columna “nombre” en admin3_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td><strong>management_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>partner_ID</td>
-<td>Nombre del socio sin espacios ni puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en org_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>partner_flag</td>
-<td>La bandera será roja si el valor” socio ” no existe en org_ref</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>management_id_unique</td>
-<td>Nombre único del área de gestión y fechas de vigencia. Más específicamente, contiene la siguiente información separada por un guión bajo: management_id, management_method, close_date y open_date.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>management_id</td>
-<td>Nombre único del área de gestión con espacios y puntuación permitidos. Por favor, no cambie el nombre a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>admin3_fish</td>
-<td>La lista de administradores3 que pescan dentro del área de manejo.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>admin3_fish_flag</td>
-<td>La bandera será roja si uno de los admin3 enumerados en la columna” admin3_fish ” no existe en admin3_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>admin3_govern</td>
-<td>La lista de admin3 que tienen un papel en el gobierno del evento de gestión.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>admin3_govern_flag</td>
-<td>La bandera será roja si uno de los admin3 enumerados en la columna” admin3_govern ” no existe en admin3_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>management_fishing_ground</td>
-<td>La lista de caladeros asociados al evento de gestión. La lista desplegable está conectada a la columna “nombre” en fishing_ground_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>fishing_ground_flag</td>
-<td>La bandera será roja si uno de los caladeros enumerados en “management_fishing_ground” no existe en fishing_ground_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>management_method</td>
-<td>El tipo de método de gestión utilizado durante el evento. La lista predefinida incluye: Cierre Temporal, Zona de No Captura, Restricción de Artes, Acceso Administrado, Prohibición de Recolección o Prohibición de Deforestación.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>regulation_type</td>
-<td>El tipo de regulación legal. La lista predefinida incluye: regulación de jefes de aldea, decreto de jefes de aldea, regulación conjunta de jefes de aldea o ninguna.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>target_group</td>
-<td>Grupo de especies objetivo para el área administrada. Esto puede incluir ‘Todos’, uno o varios grupos de especies. La lista desplegable está conectada a MASTER species_ref e incluye grupos de especies de todos los socios.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>target_species</td>
-<td>Especies objetivo para el área manejada. Esto puede incluir ‘All_species’, una o varias especies científicas. La lista desplegable está conectada a MASTER species_ref e incluye especies de todos los socios.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>species_flag</td>
-<td>La bandera será roja si la “especie_objetivo” elegida no está referenciada en la referencia_especie del socio.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>target_habitat</td>
-<td>Hábitat objetivo para el área administrada. La lista desplegable predefinida incluye las opciones de hábitat: ‘arrecife, pastos marinos, manglar, fango, arena, aguas profundas u otros’.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>management_area_ha</td>
-<td>Tamaño del área administrada medido en hectáreas (ha)</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>close_date</td>
-<td>Fecha de cierre del área gestionada</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>open_date</td>
-<td>Fecha de apertura del área gestionada</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>management_lat</td>
-<td>Latitud del área de gestión</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>management_long</td>
-<td>Longitud del área de gestión</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td><strong>org_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>name</td>
-<td>Nombre del socio / organización sin espacios y sin puntuación, solo guiones bajos</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>label</td>
-<td>Nombre del socio / organización con espacios y puntuación permitidos. Por favor, no cambie la etiqueta a menos que sea absolutamente necesario, ya que las uniones se basan en esto.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>species_group</td>
-<td>Los grupos de especies sobre los que el socio recopila datos. La lista desplegable está conectada a la columna “species_group” en species_ref. Seleccione todos los grupos si desean que aparezcan todas las especies en species_ref.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td><strong>species_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>partner</td>
-<td>Nombre del socio sin espacios ni puntuación, solo guiones bajos. Los menús desplegables de especies son filtrados por el socio. Algunos países tienen múltiples socios que comparten una lista de especies. En ese caso, verá el código del país en lugar del socio, y se mostrará la lista completa de especies para cada socio en ese país, a menos que se especifiquen ciertos grupos de especies en la columna “species_group” en org_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>habitat</td>
-<td>Tipo de hábitat asociado a la especie</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>name</td>
-<td>Nombre local y nombre de la especie combinados con un guión bajo, sin otros signos de puntuación o espacios.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>label</td>
-<td>Nombre local con el nombre de la especie entre paréntesis</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>species_group</td>
-<td>Especies categorizadas en grupos según su biología sin espacios ni signos de puntuación, solo guiones bajos. Este campo se utiliza para ayudar a filtrar ciertas opciones de respuesta en Kobo.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>species_flag</td>
-<td>La bandera será roja si el” species_group ” elegido no está referenciado en gear_ref. Eso significa que todos los engranajes enumerados en gear_ref aparecerán para este grupo de especies. Para mostrar solo los engranajes que se dirigen a este grupo de especies, agregue el grupo de especies a gear_ref.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>local_name</td>
-<td>Nombre de la especie local con espacios y puntuación permitidos</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>admin1-3</td>
-<td>Nombre del administrador1, 2 o 3 sin espacios ni signos de puntuación, solo guiones bajos. La lista desplegable está conectada a la columna “nombre” en la referencia administrativa correspondiente. <em>Este campo solo se mostrará para los socios que deseen que ese administrador filtre el menú desplegable de especies.</em></td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>common_english</td>
-<td>Nombre común de la especie en inglés con espacios y puntuación permitidos</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>scientific_family</td>
-<td>Apellido de una especie con espacios y puntuación permitidos</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>scientific_species</td>
-<td>Nombre científico de la especie con espacios y puntuación permitidos. Si se desconoce la especie, también se puede ingresar el género o la familia. Si solo se conoce el género, escriba el nombre del género seguido de “sp” (en lugar de” spp ” o sp.”). Si solo se conoce la familia, escriba el nombre de la familia (es decir, Lutjanidae).</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>length_limit_max</td>
-<td>Límite máximo de longitud (cm) utilizado para las advertencias de valor. Consulte lw_ref para obtener más información.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>length_limit_min</td>
-<td>Límite mínimo de longitud (cm) utilizado para las advertencias de valor. Consulte lw_ref para obtener más información.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>weight_limit_max</td>
-<td>Límite de peso máximo (kg) utilizado para las advertencias de valor en función de los valores ‘length_limit_max’, ‘a’ y ‘b’, calculados automáticamente en Smartsheet utilizando la fórmula “=(([length_limit_max] @ row ^ b@row) * a@row) / 1000”. Consulte lw_ref para obtener más información.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>weight_limit_min</td>
-<td>Límite de peso mínimo (kg) utilizado para las advertencias de valor en función de los valores ‘length_limit_min’, ‘a’ y ‘b’, calculados automáticamente en Smartsheet utilizando la fórmula”=(([length_limit_min] @ row ^ b@row) * a@row) / 1000”. Consulte lw_ref para obtener más información.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>avg_weight</td>
-<td>Peso promedio (kg), calculado automáticamente en Smartsheet usando la fórmula “=([límite de peso_máx] @ fila + [límite de peso_min]<span class="citation" data-cites="fila">@fila</span>) / 2”. Consulte lw_ref para obtener más información.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td><strong>translations_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>english</td>
-<td>La traducción al inglés de “agregar nuevo”,” no sé”,” no está a la venta”, etc.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>country language</td>
-<td>La traducción del idioma del país para “agregar nuevo”,” no sé”,” no está a la venta”, etc.</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>ref_sheet</td>
-<td>La hoja de referencia con la que se fusionará la traducción aparecerá en el menú desplegable correspondiente en Kobo</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td><strong>min_max_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>country</td>
-<td>Código de país ISO, que es un código de combinación de letras reconocido internacionalmente</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>partner</td>
-<td>Nombre del socio sin espacios ni puntuación, solo guiones bajos.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>min</td>
-<td>El precio mínimo basado en species_group</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td>max</td>
-<td>El precio máximo basado en species_group</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>species_group</td>
-<td>El grupo de especies al que se aplica la advertencia mínima/máxima. Para agregar un nuevo grupo, comente y avise a BFO.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>category</td>
-<td>Precio por kg o precio por individuo (las advertencias de peso y longitud de las especies se implementan en el back-end a través de datos de la literatura)</td>
-<td>editable</td>
-</tr>
-<tr class="even">
-<td>processing</td>
-<td>El campo de procesamiento define cómo se vende el pescado o invertebrado. Las opciones incluyen ‘entero, parcialmente_procesado, filete, cola o aleta’.</td>
-<td>editable</td>
-</tr>
-<tr class="odd">
-<td><strong>lw_ref</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>species</td>
-<td>Nombre científico de la especie con espacios y puntuación permitidos. Si se desconoce la especie, también se puede ingresar el género o la familia. Si solo se conoce el género, escriba el nombre del género seguido de “sp” (en lugar de” spp ” o sp.”). Si solo se conoce la familia, escriba el nombre de la familia (es decir, Lutjanidae).</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>genus</td>
-<td>Nombre genérico de la especie, obtenido de la función rfishbase’load_taxa ()’.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>family</td>
-<td>Apellido de la especie, obtenido de la función rfishbase ’ load_taxa()’.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>common_name</td>
-<td>Nombre común de la especie en inglés con espacios y puntuación, obtenido de la base de datos fishbase ‘comnames’ tbl usando la columna de rango para seleccionar el nombre favorable por especie de los múltiples nombres comunes disponibles.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>species_group</td>
-<td>Especies categorizadas en grupos según su biología sin espacios ni signos de puntuación, solo guiones bajos. Este campo se utiliza para ayudar a filtrar ciertas opciones de respuesta en Kobo. La opción incluye: ‘pez aleta, raya, anguila, tiburón, cangrejo, camarón, langosta, pulpo, calamar, sepia, bivalvo, gasterópodo, erizo de mar y pepino de mar’.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>avg_k</td>
-<td>Valor promedio de k de las especies, obtenido de rfishbase ‘popgrowth’ tbl.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>avg_k_type</td>
-<td>Tipo de longitud de medición para el valor’ avg_k’. Las opciones incluyen: ‘TL = largo total, SL = largo estándar, WD = ancho, CL = largo del caparazón, CW = ancho del caparazón, ML = largo del manto, ShL = largo del caparazón’.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>a</td>
-<td>Valor promedio ’ a ‘para especies, obtenido de rfishbase ’poplw’ tbl.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>b</td>
-<td>Valor promedio ’ b ‘para especies, obtenido de rfishbase ’poplw’ tbl.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>a_b_ref</td>
-<td>Referencia de los valores’ a ‘y’ b’. Las opciones incluyen: ‘Base de peces, Base de vida marina, Artículo de revista’.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>a_b_type</td>
-<td>Tipo de longitud de medición para el valor’ a_b_type’. Las opciones incluyen: ‘TL = largo total, SL = largo estándar, WD = ancho, CL = largo del caparazón, CW = ancho del caparazón, ML = largo del manto, ShL = largo del caparazón’.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>lmax</td>
-<td>Longitud máxima de las especies (cm), procedente de rfishbase’ popchar ’ tbl.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>max_length_type</td>
-<td>Tipo de longitud de medición para el valor ‘lmax’. Las opciones incluyen: ‘TL = largo total, SL = largo estándar, WD = ancho, CL = largo del caparazón, CW = ancho del caparazón, ML = largo del manto, ShL = largo del caparazón’.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>lmax_ref</td>
-<td>Referencia del valor’ lmax’. Las opciones incluyen: ‘Base de peces, Base de vida marina, Artículo de revista’.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>length_conversion_a</td>
-<td>Conversión del valor ’ a ‘para especies con ’max_length_type’ = conversión de SL a TL, procedente de rfishbase’ popll ’ tbl</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>length_conversion_b</td>
-<td>Conversión del valor ’ b ‘para especies con ’max_length_type’ = SL convirtiendo a TL, obtenido de rfishbase’ popll ’ tbl</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>lmax_tl</td>
-<td>El valor de longitud máxima con tipo de longitud = TL, después de convertir usando los valores de conversión.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>trophic_level</td>
-<td>Nivel trófico asociado a la especie, obtenido de la columna ‘FoodTroph’ en el tbl ‘ecología’ de fishbase. Según la Tabla de ECOLOGÍA, Troph = 1 + troph medio de los alimentos. Los valores oscilan entre 2,0 y 5,0</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>vulnerability</td>
-<td>Puntuación de vulnerabilidad, obtenida de rfishbase’ species ’ tbl. Los valores oscilan entre 0 y 100.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>trophic_group</td>
-<td>Grupo trófico procedente de peces SIRENA y referencia de atributos bentónicos. Las opciones incluyen: ‘omnívoro, planctívoro, herbívoro-detritívoro, herbívoro-macroalgas, piscívoro, invertivoro-móvil, invertivoro-sésil’.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>functional_group</td>
-<td>Grupo funcional obtenido de peces SIRENA y referencia de atributos bentónicos. Las opciones incluyen: ‘cultivador / herbívoro, planctívoro, detritívoro, navegador, piscívoro, pisci-invertivoro, micro-invertivoro, macro-invertivoro, coralívoro, limpiador, esponjívoro, excavadora, raspador’.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>group_size</td>
-<td>Tamaño del grupo obtenido de peces SIRENA y referencia de atributos bentónicos. Las opciones incluyen: ‘grupo grande, grupo mediano, grupo pequeño, pareja, solitario’.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>loo</td>
-<td>ACTUALMENTE EN ACTUALIZACIÓN</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>lmat</td>
-<td>Longitud en la madurez de la especie (cm), obtenida de rfishbase’ madurez ’ tbl.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>lmat_type</td>
-<td>Tipo de longitud de medición para el valor ‘lmat’. Las opciones incluyen: ‘TL = largo total, SL = largo estándar, WD = ancho, CL = largo del caparazón, CW = ancho del caparazón, ML = largo del manto, ShL = largo del caparazón’.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>lmat_ref</td>
-<td>Referencia del valor ‘lmat’. Las opciones incluyen: ‘Base de peces, Base de vida marina, Artículo de revista’.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>final_type</td>
-<td>Tipo de longitud de medición para el valor’ final_lmax’. Las opciones incluyen: ‘TL = largo total, SL = largo estándar, WD = ancho, CL = largo del caparazón, CW = ancho del caparazón, ML = largo del manto, ShL = largo del caparazón’.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>final_lmax</td>
-<td>Longitud máxima final (cm) por especie utilizada en los cálculos, ya sea de la columna ‘lmax’ o de la columna’ lmax_tl ’ en función del tipo de longitud deseado.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>calc_loo</td>
-<td>Valor ‘loo’ calculado usando el valor ‘final_lmax’ en la fórmula ” = ( 10^(0.044 + 0.9841 *LOG10(final_lmax)))”</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>calc_lmat</td>
-<td>La longitud al vencimiento se estima utilizando el valor calculado de la columna’ calc_loo’, utilizando la fórmula”=(10^(0.8979 * LOG10 (calc_loo) - 0.0782))”</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>final_lmat</td>
-<td>Valor de longitud final al vencimiento (cm) basado en el cálculo en la columna ‘calc_lmat’ redondeado al décimo más cercano.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>calc_limit_min</td>
-<td>Cálculo para determinar el límite de longitud mínima, calculado automáticamente en Smartsheet usando la fórmula “= [lmat_final] @ row * 0.5”</td>
-<td>auto</td>
-</tr>
-<tr class="even">
-<td>length_limit_max</td>
-<td>Límite máximo de longitud (cm) utilizado para las advertencias de valor en función del valor ‘final_lmax’, calculado automáticamente en Smartsheet utilizando la fórmula “=[final_lmax]<span class="citation" data-cites="row">@row</span>”</td>
-<td>auto</td>
-</tr>
-<tr class="odd">
-<td>length_limit_min</td>
-<td>Límite de longitud mínima (cm) utilizado para las advertencias de valor en función del valor ‘calc_limit_min’, calculado automáticamente en Smartsheet utilizando la fórmula”=[calc_limit_min]<span class="citation" data-cites="row">@row</span>”</td>
-<td>auto</td>
-</tr>
-<tr class="even">
-<td>weight_limit_max</td>
-<td>Límite de peso máximo (kg) utilizado para las advertencias de valor en función de los valores ‘length_limit_max’, ‘a’ y ‘b’, calculados automáticamente en Smartsheet utilizando la fórmula “=(([length_limit_max] @ row ^ b@row) * a@row) / 1000”</td>
-<td>auto</td>
-</tr>
-<tr class="odd">
-<td>weight_limit_min</td>
-<td>Límite de peso mínimo (kg) utilizado para las advertencias de valor en función de los valores ‘length_limit_min’, ‘a’ y ‘b’, calculados automáticamente en Smartsheet utilizando la fórmula”=(([length_limit_min] @ row ^ b@row) * a@row) / 1000”</td>
-<td>auto</td>
-</tr>
-<tr class="even">
-<td>avg_weight</td>
-<td>Peso promedio (kg), calculado automáticamente en Smartsheet usando la fórmula “=([límite de peso máximo]<span class="citation" data-cites="fila">@fila</span> + [límite de peso mínimo]<span class="citation" data-cites="fila">@fila</span>) / 2”</td>
-<td>auto</td>
-</tr>
-<tr class="odd">
-<td>avg_weight_refs</td>
-<td>Referencia o fórmula para el valor ‘avg_weight’</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>habitat_deepwater</td>
-<td>VERDADERO / PRESENTE (1) o FALSO / AUSENTE( 0), obtenido de la columna ‘Oceánico’ en la tbl ‘ecología’ de fishbase.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>habitat_reef</td>
-<td>VERDADERO/PRESENTE (1) o FALSO / AUSENTE( 0), obtenido de la columna ‘Arrecifes de coral’ en la tbl ‘ecología’ de fishbase.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>habitat_mangrove</td>
-<td>VERDADERO / PRESENTE (1) o FALSO/AUSENTE (0), obtenido de la columna ‘Manglares’ en la tbl ‘ecología’ de fishbase.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>habitat_seagrass</td>
-<td>VERDADERO / PRESENTE (1) o FALSO/AUSENTE (0), obtenido de la columna ‘Lechos de pastos marinos’ en el tbl ‘ecología’ de fishbase.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>habitat_mud</td>
-<td>VERDADERO / PRESENTE (1) o FALSO/AUSENTE (0), obtenido de la columna ‘Lodo’ en la tbl ‘ecología’ de fishbase.</td>
-<td>BV</td>
-</tr>
-<tr class="odd">
-<td>habitat_sand</td>
-<td>VERDADERO / PRESENTE (1) o FALSO/AUSENTE (0), obtenido de la columna ‘Arena’ en la tbl ‘ecología’ de fishbase.</td>
-<td>BV</td>
-</tr>
-<tr class="even">
-<td>habitat_estuary</td>
-<td>VERDADERO / PRESENTE (1) o FALSO/AUSENTE (0), obtenido de la columna ‘Estuarios’ en la tbl ‘ecología’ de fishbase.</td>
-<td>BV</td>
 </tr>
 </tbody>
 </table>
-<p>Preguntas Frecuentes:</p>
-<ol type="1">
-<li>Una vez que agrego un nuevo administrador1, ¿cuánto tiempo tarda en aparecer en el menú desplegable de administrador2?</li>
-</ol>
-<ul>
-<li>Pasarán aproximadamente 15 minutos antes de que las nuevas entradas estén disponibles en los menús desplegables dinámicos. Esto se aplica al menú desplegable admin2 en admin3_ref, al menú desplegable species_group en gear_ref, al menú desplegable admin3 en buyer_ref, fisher_ref, data_collector, etc. Consulte la Figura 5 para ver la lista completa de menús desplegables dinámicos y su flujo de trabajo a través de los archivos de referencia.</li>
-</ul>
-<ol start="2" type="1">
-<li>Una vez que agrego o actualizo un archivo de referencia, ¿cuánto tiempo tarda en aparecer las actualizaciones en las encuestas de Kobo?</li>
-</ol>
-<ul>
-<li>Debería ver un formulario de Kobo actualizado en aproximadamente 12-24 horas.</li>
-</ul>
-<ol start="3" type="1">
-<li>¿Cómo se deben registrar los nombres de compradores, pescadores y recolectores de datos?</li>
-</ol>
-<ul>
-<li>Idealmente, los nombres deben ser lo más exclusivos posible para el individuo e incluir su nombre, apellido y apodo. Si una persona no desea compartir su apellido completo, también puede usar la primera inicial o la primera letra de su apellido.</li>
-</ul>
-<p>Conexión desplegable dinámica entre archivos de referencia.</p>
-<p><img src="images/fig5.jpg" class="img-fluid" width="844"></p>
+</section>
+<section id="impormasyong-huli-ng-mangingisda" class="level3">
+<h3 class="anchored" data-anchor-id="impormasyong-huli-ng-mangingisda">Impormasyong huli ng mangingisda</h3>
+<table class="table table-striped table-hover caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tanong</th>
+<th>Mga Pagpipilian sa Sagot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pangalan ng mangingisda</td>
+<td>fisher_ref / <em>Bagong Pangalan ng mangingisda</em></td>
+</tr>
+<tr class="even">
+<td><em>Kasarian ng mangingisda</em></td>
+<td>Lalaki / Babae / Hindi pagkasunod-sunod / Negosyong binubuo ng maraming tao (walang kasarian)</td>
+</tr>
+<tr class="odd">
+<td>Nagpuyo ba ang mananagat sa ${admin3_label}?</td>
+<td>Oo / Hindi</td>
+</tr>
+<tr class="even">
+<td>Lalawigan kung saan nagmula ang mangingisda:</td>
+<td>admin1_ref</td>
+</tr>
+<tr class="odd">
+<td>Distrito kung saan nagmula ang mangingisda:</td>
+<td>admin2_ref</td>
+</tr>
+<tr class="even">
+<td>Nayon kung saan nagmula ang mangingisda:</td>
+<td>admin3_ref</td>
+</tr>
+<tr class="odd">
+<td>Ilang oras sa isang araw kayong nangingisda o namumulot? (Hindi kasama sa oras ang byahe)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Ilang araw kayong aktibong mangisda (hindi kasama ang oras ng pag byahe)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Pangalan ng lugar kung saan darating</td>
+<td>landing_site_ref</td>
+</tr>
+<tr class="even">
+<td>Unang lugar na pangisdaan</td>
+<td>fishing_ground_ref / <em>Pangalan sa lugar na pangisdaan</em></td>
+</tr>
+<tr class="odd">
+<td>Pangalan ng mamimili (kilala)</td>
+<td>buyer_ref / <em>Bago pangalan ng mamimili</em></td>
+</tr>
+<tr class="even">
+<td><em>Kasarian ng mamimili</em></td>
+<td>Lalaki / Babae / Hindi pagkasunod-sunod / Negosyong binubuo ng maraming tao (walang kasarian)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="impormasyon-sa-sakayan" class="level3">
+<h3 class="anchored" data-anchor-id="impormasyon-sa-sakayan">Impormasyon sa sakayan</h3>
+<table class="table table-striped table-hover caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tanong</th>
+<th>Mga Pagpipilian sa Sagot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Klase ng barkong pangisdaan</td>
+<td>Malaking motor mahigit sa&gt; 15Hp / Maliit na motor mababa sa &lt; 15HP / bangka na walang makina na may sagwan / bangka na walang makina na may laya / Walang makapasok ng bangka mula sa dalampasigan o lupa</td>
+</tr>
+<tr class="even">
+<td>Rehistrong numero sa bangka (optional):</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Biang ng mga trepulante ng mangingisda sakay sa parehong bangka</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Si ${mangingisda_id_label} ${bagong_pangalan_ng mangisngisda} ang kapitan</td>
+<td>Oo / Hindi</td>
+</tr>
+<tr class="odd">
+<td>Mangyaring piliin ang iba pang mangingisda sa barko, HINDI kasama ang pangunahing mangingisda ${mangingisda_id_label}: ${bagong_pangalan_ng mangingisda}</td>
+<td>fisher_ref / <em>Bagong Pangalan ng mangingisda</em></td>
+</tr>
+<tr class="even">
+<td>Mangyaring tukuyin ang bagong pangalan ng mangingisda:</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Mangyaring piliin ang kapitan:</td>
+<td>fisher_ref</td>
+</tr>
+<tr class="even">
+<td>Ang huli ba ay naitala ang buong huli mula sa bangka o ${fisher_id_label} bahagi ng huli?</td>
+<td>Lahat ng Huli / Ang bahagi ng mangingisda</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="uri-ng-mga-isda-na-dumarating-fisher_id_label" class="level3">
+<h3 class="anchored" data-anchor-id="uri-ng-mga-isda-na-dumarating-fisher_id_label">Uri ng mga isda na dumarating ${fisher_id_label}</h3>
+<table class="table table-striped table-hover caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tanong</th>
+<th>Mga Pagpipilian sa Sagot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Klase sa kuha</td>
+<td>*species_group_ref</td>
+</tr>
+<tr class="even">
+<td>Lokal na pangalan ng Uri ( Gamit ang sanggunian kard kung kailangan)</td>
+<td>species_ref / <em>Bagong uri sa lokal na pangalan ( kung Alam)</em> / *Mangyaring tukuyin ang mga espisye sa magkahalong bag (pumili ng maramihan)</td>
+</tr>
+<tr class="odd">
+<td><em>Bagong uri sa lokal na pangalan ( kung Alam)</em></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Bagong Espisye: Grupo ng mga espisye</em></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Bagong uri sa karaniwang pangalan sa Ingles (kung alam)</em></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Bagong uri sa siyentipikong pangalan ng pamilya (kung alam)</em></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Bagong uri sa siyentipiko uring pangalan (kung alam)</em></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Magdagdag ng larawan kung merong bago</em></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Lokal na pangalan ng mga gamit</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Sa anong pamaraan ginagamit ang gear na ito (Pana)?</td>
+<td>Sisid na may dalang Kompresor hos/Sisid na may dalang tangke / Sisid / Maglalakad / Iba pa</td>
+</tr>
+<tr class="odd">
+<td>Ilang bitag ang iyong itinakda/na-install?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Uri ng tirahan ng pangisdaan</td>
+<td>Bahura / Damong-dagat / Bakawan / Patag na putik / Buhangin / Malalim na tubig / Iba pa</td>
+</tr>
+<tr class="odd">
+<td>Mangisda ka ba panahon sa dakong-dagat o panahon sa aya-ay?</td>
+<td>*Spring tide (taas ang tubig) / Spring tide (ubos ang tubig) / Neap tide (taas ang tubig) / Neap tide (ubos ang tubig)</td>
+</tr>
+<tr class="even">
+<td>Pakilarawan ang hindi na inaasahang mahuli, o iba pang espyises na nahuli.</td>
+<td>*</td>
+</tr>
+<tr class="odd">
+<td>Pagtatakda ng oras (Oras)</td>
+<td>*</td>
+</tr>
+<tr class="even">
+<td>Gumagamit ka ba ng pain?</td>
+<td>*</td>
+</tr>
+<tr class="odd">
+<td>Ginamit na pain (uri/espyises AT buhay o patay):</td>
+<td>*</td>
+</tr>
+<tr class="even">
+<td>Timbang ng pain/pagkain (kg)</td>
+<td>*</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="uri-ng-mga-impormasyon" class="level3">
+<h3 class="anchored" data-anchor-id="uri-ng-mga-impormasyon">Uri ng mga impormasyon</h3>
+<table class="table table-striped table-hover caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tanong</th>
+<th>Mga Pagpipilian sa Sagot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lahat na espisye</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Bigat ng bawat huli</td>
+<td>Kilo (kg) / Gramo (g) / Libra (lbs) / a38</td>
+</tr>
+<tr class="odd">
+<td>Kabuuang bigat ng huli (<span class="math inline">\({weight_unit}) |                                 |
+| Kabuuang bilang ng huli |                                 |
+| Kabuuang timbang na ibebenta (\)</span>{weight_unit})</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Giproseso ba nimo kini nga kuha?</td>
+<td>*Dili / Uga / Asin / Usok / Buo / Malinis na isda na dinadala sa merkado/Bahagyang naproseso / Walang buto na isda / Buntot / Palikpik</td>
+</tr>
+<tr class="odd">
+<td>Kabuuang presyo na naibinta, lokal na pera (tinatansya o aktuwal)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Dahilan kung bakit hindi naibinta ang mga huli</td>
+<td>Hindi magandang kalidad / Masyadong maliit / Masyadong malaki / Tinatago para sa sarili / Iba pa</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mga-sample-calc_local_name" class="level3">
+<h3 class="anchored" data-anchor-id="mga-sample-calc_local_name">Mga sample (${calc_local_name})</h3>
+<table class="table table-striped table-hover caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tanong</th>
+<th>Mga Pagpipilian sa Sagot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bigat ng bawat huli</td>
+<td>Kilo (kg) / Gramo (g) / Libra (lbs) / a38</td>
+</tr>
+<tr class="even">
+<td>Kabuuang bilang</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Kabuuang timbang ng mga uri (<span class="math inline">\({weight_unit_mixed}) |                                 |
+| Ilang sample ang kinokolekta mo para sa espisye na ito? |                                 |
+| Yunit ng timbang para sa mga indibidwal na halimbawa | Kilo (kg) / Gramo (g) / Libra (lbs) / a38                                 |
+| **Halimabawa 1:** |                                 |
+| *Kasarian* | Babae / Lalake       |
+| *Gilapdon (cm)* |                                 |
+| *Haba ng sapin (cm)* |                                 |
+| *Haba ng kabibi (cm)* |                                 |
+| *Lapad ng kabibi (cm)* |                                 |
+| *Sukat ng bawat isa/Kabuuang haba (cm)* |                                 |
+| *Indibidwal na timbang (\)</span>{weight_unit_mixed_samples})*</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Halimabawa 2:</strong> - <strong>Halimabawa 10:</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mga-sample-calc_local_name-1" class="level3">
+<h3 class="anchored" data-anchor-id="mga-sample-calc_local_name-1">*Mga sample (${calc_local_name})</h3>
+<table class="table table-striped table-hover caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tanong</th>
+<th>Mga Pagpipilian sa Sagot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>*Bilang karagdagan sa haba ng data, ano pang data ang iyong kinokolekta?</td>
+<td>*Ang haba / Kalidad / Itlog / Stylet / Yugto ng kapanahonan ng itlog</td>
+</tr>
+<tr class="even">
+<td>Ilang sample ang nakolekta mo?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Unit ng timbang para sa mga indibidwal na halimbawa</td>
+<td>Kilo (kg) / Gramo (g) / Libra (lbs) / a38</td>
+</tr>
+<tr class="even">
+<td><strong>Halimabawa 1:</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Kasarian</em></td>
+<td>Babae / Lalake</td>
+</tr>
+<tr class="even">
+<td><em>Gilapdon (cm)</em></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Haba ng sapin (cm)</em></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Haba ng kabibi (cm)</em></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Lapad ng kabibi (cm)</em></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Sukat ng bawat isa/Kabuuang haba (cm)</em></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Bigat ng bawat isa (${weight_unit_samples})</em></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>*<em>Yugto ng kapanahonan ng itlog:</em></td>
+<td>Puti / Kayumanggi / Kahil/dilaw / Madilim na dilaw</td>
+</tr>
+<tr class="odd">
+<td>—————-</td>
+<td>——————————————————–</td>
+</tr>
+<tr class="even">
+<td>*Kalidad ng mga huli - Pugita</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>*Yelo ang gamit para sa pag-iibak?</td>
+<td>Walang yelo / Ginagamitan ng yelo sa panahong ng pagkuha / Ginagamitan ng yelo sa panahong ng pagdating / Ginagamitang ng yelo sa parehong pagkuha at pagdating</td>
+</tr>
+<tr class="even">
+<td>*Gamitin ang kulay ng kard para matukoy ang dami at halaga ng pugita sa sukat na isa hanggang lima 1-5</td>
+<td>1 / 2 / 3 / 4 / 5</td>
+</tr>
+<tr class="odd">
+<td>*Bilang ng mga galamay</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>*Pisikal na gasgas</td>
+<td>Oo / Hindi</td>
+</tr>
+<tr class="odd">
+<td>*Porsyento sa ibabaw ng Pugita na may mga gasgas</td>
+<td>0-20% / 20-40% / 40-60% / 60-80% / 80-100%</td>
+</tr>
+<tr class="even">
+<td>*Tuka</td>
+<td>Buong tuka na walang putol / Buong tuka na may danyos</td>
+</tr>
+<tr class="odd">
+<td>*Balat</td>
+<td>Hindi matinik / Nakalantad ang punit na bituka</td>
+</tr>
+<tr class="even">
+<td>—————-</td>
+<td>——————————————————–</td>
+</tr>
+<tr class="odd">
+<td>*Kalidad ng mga huli - Alimango</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>*Buhay pa ba ang alimango?</td>
+<td>Oo / Hindi</td>
+</tr>
+<tr class="odd">
+<td>*Ang mga mata at katawan ba ay reaktibo sa paghawak?</td>
+<td>Oo / Hindi</td>
+</tr>
+<tr class="even">
+<td>*Buo ba ang mga mata?</td>
+<td>Oo / Hindi</td>
+</tr>
+<tr class="odd">
+<td>*Buo ba ang mga sipit?</td>
+<td>Oo / No, the claw is broken and does not reach the base / No, the claw is broken at the base</td>
+</tr>
+<tr class="even">
+<td>*Ilang paa ang nabali?</td>
+<td>None are broken / 1-3 broken / 4-6 broken</td>
+</tr>
+<tr class="odd">
+<td>*Bumubula ba ang bibig ng alimango?</td>
+<td>Oo / Hindi</td>
+</tr>
+<tr class="even">
+<td>—————-</td>
+<td>——————————————————–</td>
+</tr>
+<tr class="odd">
+<td>*Itlog - Pugita</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>*Timbang ng mga itlog (g)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>*Kulay ng itlog - Lalaki</td>
+<td>Malabo / Puti / Mamuti-muti</td>
+</tr>
+<tr class="even">
+<td>*Kulay ng itlog - Babae</td>
+<td>Puti / Kayumanggi / Kahil/dilaw / Madilim na dilaw</td>
+</tr>
+<tr class="odd">
+<td>*Yugto ng itlog - Lalaki</td>
+<td>I / II / III</td>
+</tr>
+<tr class="even">
+<td>*Yugto ng itlog - Babae</td>
+<td>I / II / III / IV</td>
+</tr>
+<tr class="odd">
+<td>*Taas ng itlog (cm)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>*Hitsura ng spermatophore - Lalaki</td>
+<td>Wala / Kakaunti / Madami</td>
+</tr>
+<tr class="odd">
+<td>*Hitsura ng mga linya sa obaryo ng glandula - Babae</td>
+<td>Wala / Mga hindi malinaw na linya / Malinaw na mga linya</td>
+</tr>
+<tr class="even">
+<td>—————-</td>
+<td>——————————————————–</td>
+</tr>
+<tr class="odd">
+<td>*q100 - Pugita</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>*Stylet ID sa halimbawa na ito ay:</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Halimabawa 2:</strong> - <strong>Halimabawa 10:</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>*Nalalapat lamang sa mga itinalagang kasosyo o bansa.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -2213,13 +1701,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../pages/landings_profiling/landings_profiling_es.html" class="pagination-link" aria-label="Landings Profiling">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Landings Profiling</span>
+      <a href="../../pages/landings_monitoring/landings_monitoring_fil.html" class="pagination-link" aria-label="Landings Monitoring">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Landings Monitoring</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../pages/data_validation/data_validation_es.html" class="pagination-link" aria-label="Validación de datos">
-        <span class="nav-page-text">Validación de datos</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../pages/reference_files/reference_files_fil.html" class="pagination-link" aria-label="Mga Reference File">
+        <span class="nav-page-text">Mga Reference File</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
