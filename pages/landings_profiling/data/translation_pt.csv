@@ -57,16 +57,13 @@ q44,Peso da isca/ração (kg)
 subtitle5,Informações sobre espécies
 q45,Todas as espécies
 q46,Unidade de peso da captura
-q47,Peso total da captura (${weight_unit})
 q48,Contagem total de capturas
-q49,Peso total a ser vendido (${weight_unit})
 q50,NA
 q51,"Preço total da captura vendida, moeda local (estimado ou real)"
 q52,Motivo da captura total não comprada/vendida
 subtitle6,Amostras (${calc_local_name})
 q53,Unidade de peso da captura
 q54,Número total
-q55,Peso total das espécies (${weight_unit_mixed})
 q56,Quantas amostras você está coletando para esta espécie?
 q57,Unidade de peso para amostras individuais
 q58,**Amostra 1:**
@@ -75,8 +72,6 @@ q61,*Comprimento do manto (cm)*
 q62,*Comprimento da carapaça (cm)*
 q63,*Largura da carapaça (cm)*
 q64,*Comprimento total individual (cm)*
-q65,*Peso individual (${weight_unit_mixed_samples})*
-q66,**Amostra 2:**
 q67,**Amostra 10:**
 subtitle7,Amostras (${calc_local_name})
 q67.5,"Além dos dados de comprimento, que outros dados você está coletando?"
@@ -206,3 +201,7 @@ sp1,Polvo
 star,Aplica-se apenas a parceiros ou países designados.
 question,Pergunta
 answer,Opções de resposta
+q47,Peso total da captura
+q49,Peso total a ser vendido
+q55,Peso total das espécies
+q65,*Peso individual*

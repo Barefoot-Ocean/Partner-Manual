@@ -57,16 +57,13 @@ q44,NA
 subtitle5,Informasaun Espésie
 q45,Ikan/espésie hotu-hotu
 q46,Unidade todan (GMP la presija husu peskador hili deit tetu uza kilograma ka grama?)
-q47,Total todan ikan ne'ebe sira kaer (${weight_unit})
 q48,Total ikan individu ne'ebe sira kaer (ekor)
-q49,Totál todan atu ba fa'an (${weight_unit})
 q50,NA
 q51,Total presu ikan ne'ebe fa'an ona (estimasaun ou atual)
 q52,Razaun tanbasa totál ikan labele sosa/la faan hotu
 subtitle6,Amostra/Sampel (${calc_local_name})
 q53,Unidade todan (GMP la presija husu peskador hili deit tetu uza kilograma ka grama?)
 q54,Numeru totál
-q55,Total espésie hotu nia todan (${weight_unit_mixed})
 q56,Ita halibur amostra/sample hira husi espésie/ikan ne'e?
 q57,Unidade todan ba sample individual.
 q58,**Amostra/Sampel 1**
@@ -75,8 +72,6 @@ q61,*Mantle naruk (cm)*
 q62,*Karapas naruk (cm)*
 q63,*Karapas luan (cm)*
 q64,*Total naruk individu (cm)*
-q65,*Todan Individual (${weight_unit_mixed_samples})*
-q66,**Amostra/Sampel 2**
 q67,**Amostra/Sampel 10:**
 subtitle7,Amostra/Sampel (${calc_local_name})
 q67.5,"Aleinde dadus tempu naruk, dadus seluk saida mak ita koleta?"
@@ -206,3 +201,7 @@ sp1,Gurita
 star,Aplika de'it ba parseiru ka nasaun sira ne'ebé deside ona.
 question,Pergunta
 answer,Resposta ba desizaun
+q47,Total todan ikan ne'ebe sira kaer
+q49,Totál todan atu ba fa'an
+q55,Total espésie hotu nia todan
+q65,*Todan Individual*

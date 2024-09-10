@@ -57,16 +57,13 @@ q44,Timbang ng pain/pagkain (kg)
 subtitle5,Uri ng mga impormasyon
 q45,Lahat na espisye
 q46,Bigat ng bawat huli
-q47,Kabuuang bigat ng huli (${weight_unit})
 q48,Kabuuang bilang ng huli
-q49,Kabuuang timbang na ibebenta (${weight_unit})
 q50,Giproseso ba nimo kini nga kuha?
 q51,"Kabuuang presyo na naibinta, lokal na pera (tinatansya o aktuwal)"
 q52,Dahilan kung bakit hindi naibinta ang mga huli
 subtitle6,Mga sample (${calc_local_name})
 q53,Bigat ng bawat huli
 q54,Kabuuang bilang
-q55,Kabuuang timbang ng mga uri (${weight_unit_mixed})
 q56,Ilang sample ang kinokolekta mo para sa espisye na ito?
 q57,Yunit ng timbang para sa mga indibidwal na halimbawa
 q58,**Halimabawa 1:**
@@ -75,8 +72,6 @@ q61,*Haba ng sapin (cm)*
 q62,*Haba ng kabibi (cm)*
 q63,*Lapad ng kabibi (cm)*
 q64,*Sukat ng bawat isa/Kabuuang haba (cm)*
-q65,*Indibidwal na timbang (${weight_unit_mixed_samples})*
-q66,**Halimabawa 2:**
 q67,**Halimabawa 10:**
 subtitle7,Mga sample (${calc_local_name})
 q67.5,"Bilang karagdagan sa haba ng data, ano pang data ang iyong kinokolekta?"
@@ -206,3 +201,7 @@ sp1,Pugita
 star,Nalalapat lamang sa mga itinalagang kasosyo o bansa.
 question,Tanong
 answer,Mga Pagpipilian sa Sagot
+q47,Kabuuang bigat ng huli
+q49,Kabuuang timbang na ibebenta
+q55,Kabuuang timbang ng mga uri
+q65,*Indibidwal na timbang*

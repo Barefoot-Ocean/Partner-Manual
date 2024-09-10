@@ -112,8 +112,6 @@ i18n
 | `r { i18n$t("q53") }` | `r { i18n$t("a35") }` / `r { i18n$t("a36") }` / `r { i18n$t("a37") }` / `r { i18n$t("a38") }`                                |
 | `r { i18n$t("q54") }` |                                 |
 | `r { i18n$t("q55") }` |                                 |
-: {tbl-colwidths="\[50,50\]" .table .table-striped .table-hover}
-
 | `r { i18n$t("q56") }` |                                 |
 | `r { i18n$t("q57") }` | `r { i18n$t("a35") }` / `r { i18n$t("a36") }` / `r { i18n$t("a37") }` / `r { i18n$t("a38") }`                  |
 | `r { i18n$t("q58") }` - `r { i18n$t("q67") }`|                                 |

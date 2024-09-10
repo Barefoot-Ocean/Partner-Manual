@@ -57,16 +57,13 @@ q44,Bait/feed weight (kg)
 subtitle5,Species Information
 q45,All species
 q46,Weight unit of catch
-q47,Total weight of catch (${weight_unit})
 q48,Total count of catch
-q49,Total weight to be sold (${weight_unit})
 q50,Do you process this catch?
 q51,"Total price of sold catch, local currency (estimated or actual)"
 q52,Reason total catch not purchased/sold
 subtitle6,Samples (${calc_local_name})
 q53,Weight unit of catch
 q54,Total number
-q55,Total weight of species (${weight_unit_mixed})
 q56,How many samples are you collecting for this species?
 q57,Weight unit for individual samples
 q58,**Sample 1:**
@@ -75,8 +72,6 @@ q61,*Mantle length (cm)*
 q62,*Carapace length (cm)*
 q63,*Carapace width (cm)*
 q64,*Individual total length (cm)*
-q65,*Individual weight (${weight_unit_mixed_samples})*
-q66,**Sample 2:**
 q67,**Sample 10:**
 subtitle7,Samples (${calc_local_name})
 q67.5,"In addition to length/weight data, what other data are you collecting?"
@@ -206,3 +201,7 @@ sp1,Octopus
 star,Only applies to designated partners or countries.
 question,Question
 answer,Answer Choices
+q47,Total weight of catch
+q49,Total weight to be sold
+q55,Total weight of species
+q65,*Individual weight*

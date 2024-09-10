@@ -57,16 +57,13 @@ q44,Timbang sa paon/pakaon (kg)
 subtitle5,Impormasyon sa mga matang sa isda
 q45,Tanang espisye
 q46,Timbang sa kuha
-q47,Kinatibuk-ang gibug-aton sa kuha (${weight_unit})
 q48,Kinatibuk-ang ihap sa kuha
-q49,Kinatibuk-ang gibug-aton nga ibaligya (${weight_unit})
 q50,NA
 q51,"Kinatibuk-ang presyo nga nabaligya nga kuha, lokal nga kwarta (gibanabana/aktuwal)"
 q52,Rason nga wala ma baligya o mapalit ang total nga kuha
 subtitle6,Mga sampol (${calc_local_name})
 q53,Timbang sa kuha
 q54,Kinatibuk-ang gidaghanon
-q55,Kinatubuk-ang kabug-aton sa mga matang sa isda (${weight_unit_mixed})
 q56,Pila kabuok sampol ang imong gikuha sa kini nga espisye?
 q57,Timbang nga yunit alang sa indibidwal nga mga sampol
 q58,**Sampol 1:**
@@ -75,8 +72,6 @@ q61,*Ang gitas-on sa hapin (cm)*
 q62,*Ang gitas-on sa kabhang/bagal (cm)*
 q63,*Kalapad sa kabhang/Bagal (cm)*
 q64,*Indibiduwal nga kinatibuk-ang gitas-on (cm)*
-q65,*Bigat ng bawat isa (${weight_unit_mixed_samples})*
-q66,**Sampol 2:**
 q67,**Sampol 10:**
 subtitle7,Mga sampol (${calc_local_name})
 q67.5,"Dugang sa datos sa gitas-on, unsa pa nga datos ang imong gikolekta?"
@@ -206,3 +201,7 @@ sp1,Kugita
 star,Magamit ra sa gitudlo nga mga kauban o mga nasud.
 question,Pangutana
 answer,Mga Pagpili sa Tubag
+q47,Kinatibuk-ang gibug-aton sa kuha
+q49,Kinatibuk-ang gibug-aton nga ibaligya
+q55,Kinatubuk-ang kabug-aton sa mga matang sa isda
+q65,*Bigat ng bawat isa*

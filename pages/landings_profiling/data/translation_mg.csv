@@ -57,16 +57,13 @@ q44,Lanjan'ny appât ampiasaina (kg)
 subtitle5,Mombamomba ny karazam-bokatra azo
 q45,Karazam-bokatra rehetra
 q46,Fandanjana (kilo sa grama)
-q47,Lanjany totaly
 q48,Isany totaly
-q49,Lanjany totaly lafo (${weight_unit})
 q50,Mbola hamboarina ve ity vokatra ity?
 q51,Totaly vidiny lafo (Ariary)
 q52,Antony tsy namarotana/nahalafo
 subtitle6,Santionany (${calc_local_name})
 q53,Lanja isaky ny vokatra
 q54,Isan'izy rehetra
-q55,Lanjany totaly isaky ny karazana (${weight_unit_mixed})
 q56,Firy ny santionany alaina?
 q57,Mari-pandanjana
 q58,**Santionany 1:**
@@ -75,8 +72,6 @@ q61,*Halavan'ny vatany na mantle (cm)*
 q62,*Halavan'ny harany (cm)*
 q63,*Sakan'ny harany (cm)*
 q64,*Halavany (cm)*
-q65,*Lanjany tsirairay (${weight_unit_mixed_samples})*
-q66,**Santionany 2:**
 q67,**Santionany 10:**
 subtitle7,Santionany (${calc_local_name})
 q67.5,"Ankoatra ireo antontan'isa, inona koa ireo antontan'isa hafa?"
@@ -206,3 +201,7 @@ sp1,Orita
 star,Mihatra amin'ireo mpiara-miombon'antoka na firenena voatendry ihany.
 question,Fanontaniana
 answer,Valiny Safidy
+q47,Lanjany totaly
+q49,Lanjany totaly lafo
+q55,Lanjany totaly isaky ny karazana
+q65,*Lanjany tsirairay*

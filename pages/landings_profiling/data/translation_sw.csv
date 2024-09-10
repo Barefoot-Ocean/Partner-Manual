@@ -57,16 +57,13 @@ q44,Chambo/uzito wa lishe (kg)
 subtitle5,Taarifa za Aina ya samaki
 q45,Aina zote
 q46,Kitengo cha uzito wa mapato
-q47,Jumla ya uzito wa mapato (${weight_unit})
 q48,Jumla ya idadi ya mapato/waliovuliwa
-q49,Jumla ya uzito wa kuuzwa (${weight_unit})
 q50,"Je, unachata mapato haya ya uvuvi?"
 q51,"Bei kwa jumla ya samaki waliouzwa, sarafu ya nchi  (iliyokadiriwa au halisi)"
 q52,Sababu ya jumla ya samaki kutonunuliwa/kuuzwa
 subtitle6,Sampuli (${calc_local_name})
 q53,Kitengo cha uzito wa mapato
 q54,Idadi ya jumla
-q55,Jumla ya uzito wa aina za samaki (${weight_unit_mixed})
 q56,"Je, unakusanya sampuli ngapi za aina hii?"
 q57,Kipimo cha Uzito kwa Sampuli Binafsi
 q58,**Sampuli 1:**
@@ -75,8 +72,6 @@ q61,*Urefu wa vazi (cm)*
 q62,*Urefu wa carapace (cm)*
 q63,*Upana wa carapace (cm)*
 q64,*Urefu jumla binafsi (cm)*
-q65,*Uzito binafsi (${weight_unit_mixed_samples})*
-q66,**Sampuli 2:**
 q67,**Sampuli 10:**
 subtitle7,Sampuli (${calc_local_name})
 q67.5,"Mbali na data/takwimu ya urefu, ni data gani nyingine unayokusanya?"
@@ -206,3 +201,7 @@ sp1,Pweza
 star,Inatumika kwa washirika walioteuliwa au nchi pekee.
 question,Swali
 answer,Jibu Chaguo
+q47,Jumla ya uzito wa mapato
+q49,Jumla ya uzito wa kuuzwa
+q55,Jumla ya uzito wa aina za samaki
+q65,*Uzito binafsi*

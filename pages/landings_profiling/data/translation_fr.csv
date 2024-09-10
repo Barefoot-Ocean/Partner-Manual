@@ -57,16 +57,13 @@ q44,Poids de l'appât/aliment (kg)
 subtitle5,Informations sur les espèces
 q45,Toutes les espèces
 q46,Unité de poids de capture
-q47,Poids total des captures (${weight_unit})
 q48,Nombre total de captures
-q49,Poids total à vendre (${weight_unit})
 q50,Traitez-vous cette prise ?
 q51,"Prix total des captures vendues, monnaie locale (estimée ou réelle) : ${local_name_label}"
 q52,Raison pour laquelle les captures totales n'ont pas été achetées/vendues
 subtitle6,Échantillons (${calc_local_name})
 q53,Unité de poids de capture
 q54,Nombre total
-q55,Poids total des espèces (${weight_unit_mixed})
 q56,Combien d’échantillons prélevez-vous pour cette espèce ?
 q57,Unité de poids pour les échantillons individuels
 q58,**Echantillon 1 :**
@@ -75,8 +72,6 @@ q61,*Longueur du manteau (cm)*
 q62,*Longueur de la carapace (cm)*
 q63,*Largeur de la carapace (cm)*
 q64,*Longueur totale individuelle (cm)*
-q65,*Poids individuel (${weight_unit_mixed_samples})*
-q66,**Echantillon 2 :**
 q67,**Echantillon 10 :**
 subtitle7,Échantillons (${calc_local_name})
 q67.5,"En plus des données de longueur, quelles autres données collectez-vous ?"
@@ -206,3 +201,7 @@ sp1,Pieuvre
 star,S'applique uniquement aux partenaires ou pays désignés.
 question,Question
 answer,Choix de réponses
+q47,Poids total des captures
+q49,Poids total à vendre
+q55,Poids total des espèces
+q65,*Poids individuel*

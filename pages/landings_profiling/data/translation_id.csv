@@ -57,16 +57,13 @@ q44,Berat umpan (kg)
 subtitle5,Informasi spesies
 q45,Semua spesies
 q46,Satuan (unit) berat hasil tangkapan
-q47,Total berat tangkapan (${weight_unit})
 q48,Total individu tangkapan
-q49,Berat total tangkapan yang akan dijual (${weight_unit})
 q50,Apakah Anda memproses/mengolah tangkapan ini?
 q51,Total harga tangkapan terjual (perkiraan atau sebenarnya)
 q52,Alasan jumlah tangkapan tidak dibeli/tidak terjual
 subtitle6,Sampel (${calc_local_name})
 q53,Satuan (unit) berat hasil tangkapan
 q54,Jumlah total
-q55,Berat total spesies (${weight_unit_mixed})
 q56,Berapa banyak jumlah sample yang dikumpalkan untuk spesies ini?
 q57,Satuan berat untuk sampel individu
 q58,**Sampel 1:**
@@ -75,8 +72,6 @@ q61,*Panjang mantel (cm)*
 q62,*Panjang karapas (cm)*
 q63,*Lebar karapas (cm)*
 q64,*Panjang total individu (cm)*
-q65,*Berat individu (${weight_unit_mixed_samples})*
-q66,**Sampel 2:**
 q67,**Sampel 10:**
 subtitle7,Sampel (${calc_local_name})
 q67.5,"Selain data panjang/berat, data apa lagi yang Anda kumpulkan?"
@@ -141,7 +136,7 @@ a11,Bermesin besar > 15 HP
 a12,Bermesin kecil < 15 HP
 a13,Perahu dayung
 a14,Perahu layar
-a14.5,
+a14.5,Perahu bermotor dengan layar
 a15,"Tidak ada perahu, langsung ke lokasi penangkapan melalui pantai"
 a53,Jantan
 a54,Betina
@@ -206,3 +201,7 @@ sp1,Gurita
 star,Hanya berlaku untuk mitra atau negara yang ditunjuk.
 question,Pertanyaan
 answer,Pilihan Jawaban
+q47,Total berat tangkapan
+q49,Berat total tangkapan yang akan dijual
+q55,Berat total spesies
+q65,*Berat individu*

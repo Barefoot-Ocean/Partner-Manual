@@ -57,16 +57,13 @@ q44,Peso del cebo/alimento (kg)
 subtitle5,Información de especies
 q45,Todas las especies
 q46,Unidad de peso de captura
-q47,Peso total de la captura (${weight_unit})
 q48,Recuento total de capturas
-q49,Peso total a vender (${weight_unit})
 q50,NA
 q51,"Precio total de la captura vendida, moneda local (estimada o real)"
 q52,Motivo de la captura total no comprada/vendida
 subtitle6,Muestras (${calc_local_name})
 q53,Unidad de peso de captura
 q54,Numero total
-q55,Peso total de especies (${weight_unit_mixed})
 q56,¿Cuántas muestras estás recolectando de esta especie?
 q57,Unidad de peso para muestras individuales
 q58,**Muestra 1:**
@@ -75,8 +72,6 @@ q61,*Longitud del manto (cm)*
 q62,*Longitud del caparazón (cm)*
 q63,*Ancho de caparazón (cm)*
 q64,*Longitud total individual (cm)*
-q65,*Peso individual (${weight_unit_mixed_samples})*
-q66,**Muestra 2:**
 q67,**Muestra 10:**
 subtitle7,Muestras (${calc_local_name})
 q67.5,"Además de los datos de longitud, ¿qué otros datos está recopilando?"
@@ -206,3 +201,7 @@ sp1,Pulpo
 star,Solo se aplica a socios o países designados.
 question,Pregunta
 answer,Opciones de respuesta
+q47,Peso total de la captura
+q49,Peso total a vender
+q55,Peso total de especies
+q65,*Peso individual*
