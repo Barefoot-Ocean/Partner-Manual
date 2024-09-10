@@ -68,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -876,7 +847,7 @@ window.Quarto = {
 <tbody>
 <tr class="odd">
 <td>Jenis kapal:</td>
-<td>Bermesin besar &gt; 15 HP / Bermesin kecil &lt; 15 HP / Perahu dayung / Perahu layar / /Tidak ada perahu, langsung ke lokasi penangkapan melalui pantai</td>
+<td>Bermesin besar &gt; 15 HP / Bermesin kecil &lt; 15 HP / Perahu dayung / Perahu layar / Perahu bermotor dengan layar /Tidak ada perahu, langsung ke lokasi penangkapan melalui pantai</td>
 </tr>
 <tr class="even">
 <td>Nomor registrasi perahu (opsional):</td>
@@ -1021,9 +992,15 @@ window.Quarto = {
 <td>kilogram (kg) / gram (g) / pound (lbs) / ons (oz)</td>
 </tr>
 <tr class="odd">
-<td>Total berat tangkapan (<span class="math inline">\({weight_unit}) |                                 |
-| Total individu tangkapan |                                 |
-| Berat total tangkapan yang akan dijual (\)</span>{weight_unit})</td>
+<td>Total berat tangkapan</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Total individu tangkapan</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Berat total tangkapan yang akan dijual</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -1064,21 +1041,47 @@ window.Quarto = {
 <td></td>
 </tr>
 <tr class="odd">
-<td>Berat total spesies (<span class="math inline">\({weight_unit_mixed}) |                                 |
-| Berapa banyak jumlah sample yang dikumpalkan untuk spesies ini? |                                 |
-| Satuan berat untuk sampel individu | kilogram (kg) / gram (g) / pound (lbs) / ons (oz)                  |
-| **Sampel 1:** |                                 |
-| *Jenis kelamin* | Jantan / Betina       |
-| *Lebar (cm)* |                                 |
-| *Panjang mantel (cm)* |                                 |
-| *Panjang karapas (cm)* |                                 |
-| *Lebar karapas (cm)* |                                 |
-| *Panjang total individu (cm)* |                                 |
-| *Berat individu (\)</span>{weight_unit_mixed_samples})*</td>
+<td>Berat total spesies</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><strong>Sampel 2:</strong> - <strong>Sampel 10:</strong></td>
+<td>Berapa banyak jumlah sample yang dikumpalkan untuk spesies ini?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Satuan berat untuk sampel individu</td>
+<td>kilogram (kg) / gram (g) / pound (lbs) / ons (oz)</td>
+</tr>
+<tr class="even">
+<td><strong>Sampel 1:</strong> - <strong>Sampel 10:</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Jenis kelamin</em></td>
+<td>Jantan / Betina</td>
+</tr>
+<tr class="even">
+<td><em>Lebar (cm)</em></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Panjang mantel (cm)</em></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Panjang karapas (cm)</em></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Lebar karapas (cm)</em></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Panjang total individu (cm)</em></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Berat individu</em></td>
 <td></td>
 </tr>
 </tbody>
@@ -1111,7 +1114,7 @@ window.Quarto = {
 <td>kilogram (kg) / gram (g) / pound (lbs) / ons (oz)</td>
 </tr>
 <tr class="even">
-<td><strong>Sampel 1:</strong></td>
+<td><strong>Sampel 1:</strong> - <strong>Sampel 10:</strong></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -1146,14 +1149,20 @@ window.Quarto = {
 <td>*<em>Tingkat kematangan gonad (TKG):</em></td>
 <td>Putih / Krem / Oranye/Kuning / Kuning gelap</td>
 </tr>
-<tr class="odd">
-<td>Kualitas tangkapan - Gurita</td>
-<td></td>
+</tbody>
+</table>
+<table class="table table-striped table-hover caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kualitas tangkapan - Gurita</th>
+<th></th>
 </tr>
-<tr class="even">
-<td>—————-</td>
-<td>——————————————————–</td>
-</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td>*Apakah menggunakan es untuk penyimpanan?</td>
 <td>Tanpa es / Es digunakan selama penangkapan / Es digunakan selama pendaratan / Es digunakan selama penangkapan dan pendaratan</td>
@@ -1186,14 +1195,20 @@ window.Quarto = {
 <td>*Kulit</td>
 <td>Tidak robek / Robek, isi perut terbuka</td>
 </tr>
-<tr class="odd">
-<td>Kualitas tangkapan - Kepiting</td>
-<td></td>
+</tbody>
+</table>
+<table class="table table-striped table-hover caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kualitas tangkapan - Kepiting</th>
+<th></th>
 </tr>
-<tr class="even">
-<td>—————-</td>
-<td>——————————————————–</td>
-</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td>*Apakah kepitingnya masih hidup?</td>
 <td>Ya / Tidak</td>
@@ -1218,61 +1233,56 @@ window.Quarto = {
 <td>*Apakah mulutnya berbusa?</td>
 <td>Ya / Tidak</td>
 </tr>
-<tr class="odd">
-<td>Gonads - Gurita</td>
-<td></td>
+</tbody>
+</table>
+<table class="table table-striped table-hover caption-top">
+<colgroup>
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Gonads - Gurita</th>
 </tr>
-<tr class="even">
-<td>————————————————————————</td>
-<td></td>
-</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td>*Berat gonad (g)</td>
-<td></td>
 </tr>
 <tr class="even">
 <td>*Warna gonad - Laki-laki</td>
-<td>Buram/agak bening / Putih / Putih pucat</td>
 </tr>
 <tr class="odd">
 <td>*Warna gonad - Perempuan</td>
-<td>Putih / Krem / Oranye/Kuning / Kuning gelap</td>
 </tr>
 <tr class="even">
 <td>*Tingkat Kematangan Gonad - Laki-laki</td>
-<td>I / II / III</td>
 </tr>
 <tr class="odd">
 <td>*Tingkat Kematangan Gonad - Perempuan</td>
-<td>I / II / III / IV</td>
 </tr>
 <tr class="even">
 <td>*Panjang gonad (cm)</td>
-<td></td>
 </tr>
 <tr class="odd">
 <td>*Penampilan spermatofor - Laki-laki</td>
-<td>Tidak ada / Sedikit / Banyak</td>
 </tr>
 <tr class="even">
 <td>*Munculnya garis-garis pada kelenjar ovarium - Perempuan</td>
-<td>Tidak ada / Garis tidak jelas / Garis jelas</td>
 </tr>
-<tr class="odd">
-<td>Stylet - Gurita</td>
-<td></td>
+</tbody>
+</table>
+<table class="table table-striped table-hover caption-top">
+<colgroup>
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Stylet - Gurita</th>
 </tr>
-<tr class="even">
-<td>————————————————————————</td>
-<td></td>
-</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td>*ID Stylet untuk sample ini:</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>Sampel 2:</strong> - <strong>Sampel 10:</strong></td>
-<td></td>
 </tr>
 </tbody>
 </table>
