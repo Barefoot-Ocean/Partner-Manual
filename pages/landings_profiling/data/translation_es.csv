@@ -19,6 +19,7 @@ q13,Administrador 3 de donde es Fisher:
 q14,¿Cuántas horas al día estuvo pescando o recogiendo activamente? (sin incluir el tiempo de viaje)
 q15,¿Cuántos días estuvo pescando o recogiendo activamente? (sin incluir el tiempo de viaje)
 q16,Nombre del sitio de aterrizaje
+a8.9,*Nuevo nombre del sitio de aterrizaje*
 q17,Zona de pesca primaria
 a9,*Nuevo nombre del caladero*
 q18,Nombre del comprador (si se conoce)
@@ -92,6 +93,7 @@ q76,*Peso individual (${weight_unit_samples})*
 q77,*Etapa de madurez de las gónadas*
 q78,Calidad de captura
 q79,¿Se utilizó hielo para el almacenamiento?
+q79.5,Temperatura del pulpo (Celsius)
 q80,Utilice la tarjeta de colores para determinar el valor cuantitativo del color del pulpo en una escala del 1 al 5.
 q81,Número de tentáculos
 q82,¿Abrasiones físicas?
@@ -139,6 +141,7 @@ a11,Motorizado Grande > 15 HP
 a12,Pequeño Motorizado < 15 HP
 a13,No motorizado con remo
 a14,No motorizado con vela
+a14.5,Motorizado con vela
 a15,"No embarcación, entra desde playa o tierra."
 a53,Masculino
 a54,Femenino

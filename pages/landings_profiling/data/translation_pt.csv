@@ -19,6 +19,7 @@ q13,Admin 3 de onde o pescador é:
 q14,Quantas horas por dia você pescava ou respigava ativamente? (não incluindo tempo de viagem)
 q15,Por quantos dias você esteve pescando ou respigando ativamente? (não incluindo tempo de viagem)
 q16,Nome do local de destino
+a8.9,*Novo nome do local de destino*
 q17,Zona de Pesca Primária
 a9,*Novo nome do local de pesca*
 q18,Nome do comprador (se conhecido)
@@ -92,6 +93,7 @@ q76,*Peso individual (${weight_unit_samples})*
 q77,*Estágio de maturidade das gônadas*
 q78,Qualidade de captura
 q79,O gelo foi usado para armazenamento?
+q79.5,Temperatura do polvo (Celsius)
 q80,Use o cartão de cores para determinar o valor quantitativo da cor do polvo em uma escala de 1 a 5.
 q81,Número de tentáculos
 q82,Abrasões físicas?
@@ -139,6 +141,7 @@ a11,Grande motorizado > 15 HP
 a12,Pequeno motorizado < 15 HP
 a13,Não motorizado com remo
 a14,Não motorizado com vela
+a14.5,Motorizado com vela
 a15,"Nenhum barco, entra pela praia ou terra"
 a53,Macho
 a54,Fêmea

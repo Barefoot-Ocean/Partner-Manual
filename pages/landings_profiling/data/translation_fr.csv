@@ -19,6 +19,7 @@ q13,Administrateur 3 d'où vient Fisher :
 q14,Combien d'heures par jour avez-vous passé à pêcher ? (sans compter le temps de déplacement)
 q15,Pendant combien de jours avez-vous pêché activement ? (hors temps de trajet)
 q16,Nom du site de débarquement
+a8.9,*Nouveau nom de débarquement*
 q17,Zone de pêche principal
 a9,*Nouveau nom du lieu de pêche*
 q18,Nom de l'acheteur (si connu)
@@ -92,6 +93,7 @@ q76,*Poids individuel (${weight_unit_samples})*
 q77,*Stade de maturité des gonades*
 q78,Qualité des captures
 q79,La glace a-t-elle été utilisée pour le stockage ?
+q79.5,Température du poulpe (Celsius)
 q80,Utilisez la carte de couleurs pour déterminer la valeur quantitative de la couleur du poulpe sur une échelle de 1 à 5.
 q81,Nombre de tentacules
 q82,Des écorchures physiques ?
@@ -139,6 +141,7 @@ a11,Grand Motorisé > 15 CV
 a12,Petit Motorisé < 15 CV
 a13,Non motorisé avec pagaie
 a14,Non motorisé avec voile
+a14.5,Motorisé avec voile
 a15,"Pas de bateau, entre par la plage ou par terre"
 a53,Mâle
 a54,Femelle

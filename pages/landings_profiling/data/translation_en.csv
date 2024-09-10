@@ -19,6 +19,7 @@ q13,Admin 3 where fisher is from:
 q14,How many hours a day were you actively fishing or gleaning? (not including travel time)
 q15,How many days were you actively fishing or gleaning? (not including travel time)
 q16,Landing Site Name
+a8.9,*New landing site name*
 q17,Primary Fishing Ground
 a9,*New fishing ground name*
 q18,Buyer name (if known)
@@ -92,6 +93,7 @@ q76,*Individual weight (${weight_unit_samples})*
 q77,*Gonad maturity stage*
 q78,Catch Quality
 q79,Was ice used for storage?
+q79.5,Octopus temperature (Celsius)
 q80,Use the color card to determine the quantitative value for the color of octopus on a scale of 1-5.
 q81,Number of tentacles
 q82,Physical abrasions?
@@ -139,6 +141,7 @@ a11,Large Motorized > 15 HP
 a12,Small Motorized < 15 HP
 a13,Non-motorized with paddle
 a14,Non-motorized with sail
+a14.5,Motorized with sail
 a15,"No boat, enters from the beach or land"
 a53,Male
 a54,Female

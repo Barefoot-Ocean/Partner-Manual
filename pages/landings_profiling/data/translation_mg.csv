@@ -19,6 +19,7 @@ q13,Avy aiza ny mpanjono: Tanàna
 q14,Ora niasana (tsy ampidirina ao ny fotoana lany teny an-dakana)
 q15,Andro niasana (tsy ampidirina ao ny fotoana lany teny an-dakana)
 q16,Toerana ahatongavan'ny vokatra
+a8.9,
 q17,Faritra fanjonoana
 a9,*Faritra fanjonoana vaovao*
 q18,Mpividy vokatra (raha fantatra)
@@ -92,6 +93,7 @@ q76,*Lanjany (${weight_unit_samples})*
 q77,*kilasy misy ny atodin'ilay biby*
 q78,Kalitaon'ny vokatra
 q79,Gilasy ve no nampiasaina nitehirizana ny vokatra?
+q79.5,
 q80,Ampiasao ny karatra mba hamaritana ny sandan'ny kalitao ho any orinta izay mirefy 1 ka hatramin'ny 5
 q81,Isan'ireo tanany
 q82,Misy maratra ve?
@@ -139,6 +141,7 @@ a11,Motera lehibe > 15HP
 a12,Motera kely < 15HP
 a13,Tsy misy motera fa misy five
 a14,Tsy misy motera fa misy lay
+a14.5,
 a15,Tsy misy lakana
 a53,Lahy
 a54,Vavy

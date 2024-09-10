@@ -19,6 +19,7 @@ q13,Msimamizi 3 ambapo mvuvi anatoka:
 q14,Ni saa ngapi kwa siku ulikuwa ukivua au kukusanya masalio? (bila kujumuisha wakati wa kusafiri)
 q15,Ulikuwa ukivua au kuvuna kwa siku ngapi? (bila kujumuisha wakati wa kusafiri)
 q16,Jina la bandari
+a8.9,
 q17,Eneo la msingi la uvuvi
 a9,*Jina la eneo la uvuvi jipya*
 q18,Jina la mnunuzi (ikiwa linajulikana)
@@ -92,6 +93,7 @@ q76,*Uzito binafsi (${weight_unit_samples})*
 q77,*Hatua ya ukomavu ya kiungo cha kizazi*
 q78,Ubora wa mapato
 q79,"Je, barafu ilitumika kuhifadhi?"
+q79.5,
 q80,Tumia kadi ya rangi ili kubainisha thamani ya kiasi cha rangi ya pweza kwenye mizani ya 1-5.
 q81,Idadi ya tentacles
 q82,Michubuko ya kimwili?
@@ -139,6 +141,7 @@ a11,Kubwa yenye mashine/injini> 15 HP
 a12,Ndogo yenye mashine <15 HP
 a13,Isiyo na mashine/injini
 a14,Isiyo na mashine/injini
+a14.5,
 a15,"Hakuna mashua, inaingia kutoka ufuoni au nchi kavu"
 a53,Mwanaume
 a54,Mwanamke

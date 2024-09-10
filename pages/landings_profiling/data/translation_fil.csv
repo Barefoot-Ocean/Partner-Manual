@@ -19,6 +19,7 @@ q13,Nayon kung saan nagmula ang mangingisda:
 q14,Ilang oras sa isang araw kayong nangingisda o namumulot? (Hindi kasama sa oras ang byahe)
 q15,Ilang araw kayong aktibong mangisda (hindi kasama ang oras ng pag byahe)
 q16,Pangalan ng lugar kung saan darating
+a8.9,
 q17,Unang lugar na pangisdaan
 a9,*Pangalan sa lugar na pangisdaan*
 q18,Pangalan ng mamimili (kilala)
@@ -92,6 +93,7 @@ q76,*Bigat ng bawat isa (${weight_unit_samples})*
 q77,*Yugto ng kapanahonan ng itlog:*
 q78,Kalidad ng mga huli
 q79,Yelo ang gamit para sa pag-iibak?
+q79.5,Temperatura ng Pugita (Celsius)
 q80,Gamitin ang kulay ng kard para matukoy ang dami at halaga ng pugita sa sukat na isa hanggang lima 1-5
 q81,Bilang ng mga galamay
 q82,Pisikal na gasgas
@@ -139,6 +141,7 @@ a11,Malaking motor mahigit sa> 15Hp
 a12,Maliit na motor mababa sa < 15HP
 a13,bangka na walang makina na may sagwan
 a14,bangka na walang makina na may laya
+a14.5,Bangka na may makina na may layag
 a15,Walang makapasok ng bangka mula sa dalampasigan o lupa
 a53,Babae
 a54,Lalake

@@ -19,6 +19,7 @@ q13,Desa asal nelayan:
 q14,Berapa jam per hari Anda aktif menangkap atau memungut ikan (tidak termasuk waktu perjalanan)
 q15,Berapa hari Anda aktif menangkap atau memungut ikan? (tidak termasuk waktu perjalanan)
 q16,Nama lokasi pendaratan
+a8.9,Nama lokasi pendaratan baru
 q17,Lokasi penangkapan utama
 a9,*Nama lokasi penangkapan*
 q18,Nama pembeli (jika diketahui)
@@ -92,6 +93,7 @@ q76,*Berat individu (${weight_unit_samples})*
 q77,*Tingkat kematangan gonad (TKG):*
 q78,Kualitas tangkapan
 q79,Apakah menggunakan es untuk penyimpanan?
+q79.5,Suhu gurita (Celsius)
 q80,Gunakan kartu warna untuk menentukan nilai kuantitatif untuk warna gurita dalam skala 1-5
 q81,Jumlah lengan
 q82,Lecet fisik
@@ -139,6 +141,7 @@ a11,Bermesin besar > 15 HP
 a12,Bermesin kecil < 15 HP
 a13,Perahu dayung
 a14,Perahu layar
+a14.5,
 a15,"Tidak ada perahu, langsung ke lokasi penangkapan melalui pantai"
 a53,Jantan
 a54,Betina

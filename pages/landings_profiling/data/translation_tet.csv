@@ -19,6 +19,7 @@ q13,Peskador hela Bairo ne'ebe:
 q14,Ita ba peska ka meti oras hira? (la inklui oras viajen)
 q15,Ita hahu ba peska ka meti tuku hira? (la inklui loron viajen)
 q16,Naran hosi fatin hatun ikan ba
+a8.9,
 q17,Ita kaer ikan iha bairo ka fatin ne'ebe?
 a9,*Naran foun fatin peskas*
 q18,Naran Sosa na'in (karik hatene)
@@ -92,6 +93,7 @@ q76,*Todan individual (${weight_unit_samples})*
 q77,*Gonad maturity stage*
 q78,Kualidade peska
 q79,Utiliza Es hodi armazenamentu?
+q79.5,
 q80,Uza kartaun kór hodi determina valór kuantitativu ba kór gutrita ho eskala 1-5.
 q81,Total liman
 q82,Kulit kanek?
@@ -139,6 +141,7 @@ a11,"Motorizadu boot, liu husi >15PK"
 a12,Motorizadu ki'ik < 15 PK (inklui Ketinting)
 a13,Sem motor uza kose
 a14,N/A
+a14.5,
 a15,"La iha ro, (Ba meti ho Luku de'it)"
 a53,Male
 a54,Female

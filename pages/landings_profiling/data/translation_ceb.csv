@@ -19,6 +19,7 @@ q13,Baryo diin gikan ang mangingisda:
 q14,Pila ka oras sa usa ka adlaw nga aktibo ka nanagat
 q15,Pila ka adlaw aktibo ka nga nanagat
 q16,Ngalan sa lugar kung asa ihatod
+a8.9,
 q17,Unang lugar nga panagatan
 a9,*Ngalan sa lugar nga panagatan*
 q18,Ngalan sa pumapalit (kung nahibaw-an)
@@ -92,6 +93,7 @@ q76,Indibiduwal nga gibug-aton (${weight_unit_samples})*
 q77,* Panahon sa pagkahamtong sa bihod*
 q78,Kalidad sa mga kuha
 q79,Gigamitan og yelo alang sa pagtipig?
+q79.5,Temperatura sa Kugita (Celsius)
 q80,Gamita ang kolor kard aron mahibal-an ang gidaghanon nga bili alang sa kolor sa kugita nga sukdanan sa isa ngadto sa lima (1-5)
 q81,Gidaghanon sa mga gaway
 q82,Pisikal nga gasgas
@@ -139,6 +141,7 @@ a11,Dako nga makina labaw sa >15HP
 a12,Gamay nga makina ubos sa < 15HP
 a13,Baroto nga walay makina nga may bugsay
 a14,Baroto nga walay makina nga may layag
+a14.5,Baroto nga may makina nga may layag
 a15,Walay pamboat nga makasulod gikan sa baybayon o yuta
 a53,Babaye
 a54,Lalaki
