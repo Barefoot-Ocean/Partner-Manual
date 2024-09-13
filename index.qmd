@@ -7,6 +7,6 @@ subtitle: "Guidance for data collection, management, validation and interpretati
 
 ### ⬅️ Quick links [Community Fisheries Dashboard](https://barefootocean.shinyapps.io/fisheries_dashboard/) and [Smartsheet Dynamic View](https://dynamicview.smartsheet.com/)
 
-### 📒 See all request submissions in the [Data System Feedback Dashboard](https://app.smartsheet.com/b/publish?EQBCT=0fe9f8be74244891850592ecf79175af)
+### 📒 See all feedback submissions in the [Data System Feedback Dashboard](https://app.smartsheet.com/b/publish?EQBCT=0fe9f8be74244891850592ecf79175af) and leave any additional comments in the [Feedback Report](https://app.smartsheet.com/dynamicview/views/c171d791-fdce-4176-b5d2-65074bc58933)
 
 ### 🐠 Select your desired language to learn more about the data system
