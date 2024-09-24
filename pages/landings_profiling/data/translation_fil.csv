@@ -19,7 +19,7 @@ q13,Nayon kung saan nagmula ang mangingisda:
 q14,Ilang oras sa isang araw kayong nangingisda o namumulot? (Hindi kasama sa oras ang byahe)
 q15,Ilang araw kayong aktibong mangisda (hindi kasama ang oras ng pag byahe)
 q16,Pangalan ng lugar kung saan darating
-a8.9,
+a8.9,*Bagong pangalan ng lugar kung saan darating*
 q17,Unang lugar na pangisdaan
 a9,*Pangalan sa lugar na pangisdaan*
 q18,Pangalan ng mamimili (kilala)
@@ -109,12 +109,12 @@ q96,Yugto ng itlog
 q97,Taas ng itlog (cm)
 q98,Hitsura ng spermatophore
 q99,Hitsura ng mga linya sa obaryo ng glandula
-q100,NA
+q100,Stylet
 q101,Stylet ID sa halimbawa na ito ay:
 a35,Kilo (kg)
 a36,Gramo (g)
 a37,Libra (lbs)
-a38,NA
+a38,
 a24,Bahura
 a25,Damong-dagat
 a26,Bakawan

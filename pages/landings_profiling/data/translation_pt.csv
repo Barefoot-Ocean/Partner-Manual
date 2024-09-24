@@ -35,7 +35,7 @@ q25,"Por favor, especifique o novo nome do pescador:"
 q26,"Por favor, seleccione o capitão:"
 q27,A captura está sendo registrada como toda a captura do barco ou ${fisher_id_label} parte da captura?
 subtitle4,Espécies desembarcadas por ${fisher_id_label}
-q28,NA
+q28,
 q29,"Nome local da espécie (use cartão de referência da espécie, se necessário)"
 a19,"Por favor, especifique as espécies no saco misto (selecione vários)"
 q30,Nova espécie: Grupo de espécies
@@ -48,7 +48,7 @@ q35,Nome local da engrenagem
 q36,Através de qual método você usa a lança?
 q37,Quantas armadilhas você configurou/instalou?
 q38,Tipo de habitat pescado
-q39,NA
+q39,
 q40,"Por favor, descreva a captura acidental ou outras espécies capturadas."
 q41,Definir tempo (horas)
 q42,Você usa isca?
@@ -58,7 +58,7 @@ subtitle5,Informações sobre espécies
 q45,Todas as espécies
 q46,Unidade de peso da captura
 q48,Contagem total de capturas
-q50,NA
+q50,
 q51,"Preço total da captura vendida, moeda local (estimado ou real)"
 q52,Motivo da captura total não comprada/vendida
 subtitle6,Amostras (${calc_local_name})
@@ -147,10 +147,10 @@ a77,Branco
 a78,Bege
 a79,Laranja amarelo
 a80,Amarelo escuro
-a81,EU
+a81,I
 a82,II
 a83,III
-a84,4
+a84,IV
 a85,Nenhum
 a86,Alguns
 a87,Muitos
@@ -183,10 +183,10 @@ a70,"Não, a garra está quebrada na base"
 a71,Nenhum está quebrado
 a72,1-3 quebrado
 a73,4-6 quebrado
-a31,NA
-a32,NA
-a33,NA
-a34,NA
+a31,
+a32,
+a33,
+a34,
 a39,Nao
 a40,Seco
 a41,Salgado

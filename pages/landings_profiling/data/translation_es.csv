@@ -35,7 +35,7 @@ q25,Por favor especifique el nuevo nombre del pescador:
 q26,Por favor seleccione el capitán:
 q27,¿Se registra la captura completa del barco o la parte ${fisher_id_label} de la captura?
 subtitle4,Especies desembarcadas por ${fisher_id_label}
-q28,NA
+q28,
 q29,"Nombre local de la especie (use la tarjeta de referencia de especies, si es necesario)"
 a19,Por favor especifique las especies en bolsa mixta (seleccione varias)
 q30,*Nueva especie: grupo de especies*
@@ -48,7 +48,7 @@ q35,Nombre local del equipo
 q36,¿A través de qué método usas la lanza?
 q37,¿Cuántas trampas pusiste/instalaste?
 q38,Tipo de hábitat pescado
-q39,NA
+q39,
 q40,Describa la captura incidental u otras especies capturadas.
 q41,Tiempo de fraguado (horas)
 q42,¿Usas cebo?
@@ -58,7 +58,7 @@ subtitle5,Información de especies
 q45,Todas las especies
 q46,Unidad de peso de captura
 q48,Recuento total de capturas
-q50,NA
+q50,
 q51,"Precio total de la captura vendida, moneda local (estimada o real)"
 q52,Motivo de la captura total no comprada/vendida
 subtitle6,Muestras (${calc_local_name})
@@ -183,14 +183,14 @@ a70,"No, la garra está rota en la base."
 a71,Ninguno esta roto
 a72,1-3 roto
 a73,4-6 rotos
-a31,NA
-a32,NA
-a33,NA
-a34,NA
-a39,NA
-a40,NA
-a41,NA
-a42,NA
+a31,
+a32,
+a33,
+a34,
+a39,
+a40,
+a41,
+a42,
 a43,Entero
 a44,Mercado limpio/Parcialmente procesado
 a45,Filete

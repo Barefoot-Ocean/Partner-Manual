@@ -19,7 +19,7 @@ q13,Avy aiza ny mpanjono: Tanàna
 q14,Ora niasana (tsy ampidirina ao ny fotoana lany teny an-dakana)
 q15,Andro niasana (tsy ampidirina ao ny fotoana lany teny an-dakana)
 q16,Toerana ahatongavan'ny vokatra
-a8.9,
+a8.9,*Toerana vaovao nahatongavan'ny vokatra*
 q17,Faritra fanjonoana
 a9,*Faritra fanjonoana vaovao*
 q18,Mpividy vokatra (raha fantatra)
@@ -50,7 +50,7 @@ q37,Firy ny isan'ny treko napetraka?
 q38,Karazana tranon'ny laoko na habitat nanjonoana
 q39,Miasa amin'ny tehaky sa lemirano?
 q40,"Lazao raha misy karazana vokatra azo amin'ny jono tsy nahy, na karazana vokatra voajono"
-q41,NA
+q41,
 q42,Mampiasa appât ve ianao?
 q43,"Appât ampiasaina (karazana, anarana):"
 q44,Lanjan'ny appât ampiasaina (kg)
@@ -88,7 +88,7 @@ q76,*Lanjany (${weight_unit_samples})*
 q77,*kilasy misy ny atodin'ilay biby*
 q78,Kalitaon'ny vokatra
 q79,Gilasy ve no nampiasaina nitehirizana ny vokatra?
-q79.5,
+q79.5,Maripànan'ny horita (Célsius)
 q80,Ampiasao ny karatra mba hamaritana ny sandan'ny kalitao ho any orinta izay mirefy 1 ka hatramin'ny 5
 q81,Isan'ireo tanany
 q82,Misy maratra ve?
@@ -109,12 +109,12 @@ q96,Kilasy misy ny tsirin'atody
 q97,Halavan'ny tsirin'atody (cm)
 q98,Fisian'ny tsirinaina
 q99,Fisian'ireo tsipika ao amin'ny tsirin'atodin'ny vavy
-q100,NA
-q101,NA
+q100,Stylet
+q101,
 a35,Kilo (kg)
 a36,Grama (g)
-a37,NA
-a38,NA
+a37,
+a38,
 a24,Vatohara
 a25,Ahi-dranomasina (Oriagna)
 a26,Honko
@@ -136,7 +136,7 @@ a11,Motera lehibe > 15HP
 a12,Motera kely < 15HP
 a13,Tsy misy motera fa misy five
 a14,Tsy misy motera fa misy lay
-a14.5,
+a14.5,Misy motera sy misy lay
 a15,Tsy misy lakana
 a53,Lahy
 a54,Vavy
@@ -165,7 +165,7 @@ a52,Hafa
 a63,Refiny
 a64,Kalitao
 a65,Tsirin'atody
-a66,NA
+a66,Stylet
 a67,Kilasy misy ny tsirin'atodin'ilay biby
 a20,Magniriky mampiasa bouteille
 a21,Magniriky tsy mampiasa bouteille

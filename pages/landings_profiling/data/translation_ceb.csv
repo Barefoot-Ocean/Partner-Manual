@@ -19,7 +19,7 @@ q13,Baryo diin gikan ang mangingisda:
 q14,Pila ka oras sa usa ka adlaw nga aktibo ka nanagat
 q15,Pila ka adlaw aktibo ka nga nanagat
 q16,Ngalan sa lugar kung asa ihatod
-a8.9,
+a8.9,*Bag-ong ngalan sa lugar kung asa ihatod*
 q17,Unang lugar nga panagatan
 a9,*Ngalan sa lugar nga panagatan*
 q18,Ngalan sa pumapalit (kung nahibaw-an)
@@ -35,7 +35,7 @@ q25,Palihug ipiho ang bag-ong ngalan sa mangingisda:
 q26,Palihug pilia ang kapitan:
 q27,Ang nakuha ba girekord ang tibuok kuha gikan sa sakayan o ${fisher_id_label} nga bahin sa kuha?
 subtitle4,Klase sa mga isda nga ni abot ${fisher_id_label}
-q28,NA
+q28,
 q29,Lokal nga ngalan sa mga matang sa isda
 a19,Palihug ipiho ang mga espisye nga sagol sa bag (pilia ang daghang)
 q30,*Bag-ong Espisye: Grupo sa Espisye*
@@ -48,7 +48,7 @@ q35,Lokal nga ngalan sa galamiton
 q36,Sa unsa nga pamaagi gigamit ng geara (Pana)?
 q37,Pila ka mga lit-ag ang imong gibutang/gi-install?
 q38,Matang sa puy-anan
-q39,NA
+q39,
 q40,"Palihog ihulagway ang dili gusto nga makuha, o ubang matang nga nadakpan."
 q41,Pagtakda sa oras (Oras)
 q42,Gigamitan ba nimo'g paon?
@@ -58,7 +58,7 @@ subtitle5,Impormasyon sa mga matang sa isda
 q45,Tanang espisye
 q46,Timbang sa kuha
 q48,Kinatibuk-ang ihap sa kuha
-q50,NA
+q50,
 q51,"Kinatibuk-ang presyo nga nabaligya nga kuha, lokal nga kwarta (gibanabana/aktuwal)"
 q52,Rason nga wala ma baligya o mapalit ang total nga kuha
 subtitle6,Mga sampol (${calc_local_name})
@@ -109,12 +109,12 @@ q96,Ang-ang sa itlog
 q97,Gitas-on sa bihod (cm)
 q98,Dagway sa spermatophore
 q99,Ang dagway sa mga linya sa obaryo glandula
-q100,NA
+q100,Stylet
 q101,Stylet ID sumbanan niini:
 a35,Mga kilo (kg)
 a36,Gramo (g)
-a37,NA
-a38,NA
+a37,
+a38,
 a24,Kagasangan
 a25,Kalusayan
 a26,Katunggan
@@ -183,10 +183,10 @@ a70,"No, the claw is broken at the base"
 a71,None are broken
 a72,1-3 broken
 a73,4-6 broken
-a31,NA
-a32,NA
-a33,NA
-a34,NA
+a31,
+a32,
+a33,
+a34,
 a39,Dili
 a40,Uga
 a41,Asin
