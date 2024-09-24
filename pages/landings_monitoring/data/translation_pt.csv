@@ -18,6 +18,7 @@ q12,Admin 2 de onde o pescador é:
 q13,Admin 3 de onde o pescador é:
 q14,Número de dias de pesca ativa (sem incluir o tempo de viagem)
 q15,Nome do local de destino
+a8.5,*Novo nome do local de destino*
 q16,Nome do comprador (se conhecido)
 a9,*Novo nome do comprador*
 q17,Gênero do comprador
@@ -65,3 +66,5 @@ a20,Filete
 a21,Rabo
 a22,Barbatana
 star,Aplica-se apenas a parceiros ou países designados.
+question,Pergunta
+answer,Opções de resposta

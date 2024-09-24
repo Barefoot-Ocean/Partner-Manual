@@ -18,6 +18,7 @@ q12,Distrito kung saan nagmula ang mangingisda:
 q13,Nayon kung saan nagmula ang mangingisda:
 q14,Bilang ng mga araw na aktibong nangingisda (hindi kasama ang orasa sa pag lalakbay)
 q15,Pangalan ng lugar kung saan darating
+a8.5,*Bagong pangalan ng lugar kung saan darating*
 q16,Pangalan ng mamimili (kilala)
 a9,*Bago pangalan ng mamimili*
 q17,Kasarian ng mamimili
@@ -65,3 +66,5 @@ a20,Walang buto
 a21,Buntot
 a22,Palikpik
 star,Nalalapat lamang sa mga itinalagang kasosyo o bansa.
+question,Tanong
+answer,Mga Pagpipilian sa Sagot

@@ -18,6 +18,7 @@ q12,Administrador 2 de donde es Fisher:
 q13,Administrador 3 de donde es Fisher:
 q14,Número de días de pesca activa (sin incluir el tiempo de viaje)
 q15,Nombre del sitio de aterrizaje
+a8.5,*Nuevo nombre del sitio de aterrizaje*
 q16,Nombre del comprador (si se conoce)
 a9,*Nombre del nuevo comprador*
 q17,Género del comprador
@@ -65,3 +66,5 @@ a20,Filete
 a21,Cola
 a22,Aleta
 star,Solo se aplica a socios o países designados.
+question,Pregunta
+answer,Opciones de respuesta

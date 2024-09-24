@@ -18,6 +18,7 @@ q12,Admin 2 where fisher is from:
 q13,Admin 3 where fisher is from:
 q14,Number of days actively fishing or gleaning (not including travel time)
 q15,Landing Site Name
+a8.5,*New landing site name*
 q16,Buyer name (if known)
 a9,*New buyer name*
 q17,Buyer gender
@@ -65,3 +66,5 @@ a20,Filet
 a21,Tail
 a22,Fin
 star,Only applies to designated partners or countries.
+question,Question
+answer,Answer Choices

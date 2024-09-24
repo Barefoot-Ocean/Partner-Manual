@@ -18,6 +18,7 @@ q12,Admin 2 ambapo mvuvi anatoka:
 q13,Admin 3 ambapo mvuvi anatoka:
 q14,Idadi ya siku za kuvua (bila kujumuisha wakati wa kusafiri)
 q15,Jina la bandari
+a8.5,
 q16,Jina la mnunuzi (ikiwa halijjulikana)
 a9,*Jina la mnunuzi mpya*
 q17,Jinsia ya mnunuzi
@@ -65,3 +66,5 @@ a20,Kutoa miba
 a21,Mkia
 a22,Pezi
 star,Inatumika kwa washirika walioteuliwa au nchi pekee.
+question,Swali
+answer,Jibu Chaguo

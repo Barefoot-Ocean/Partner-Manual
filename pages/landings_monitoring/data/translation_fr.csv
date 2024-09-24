@@ -18,6 +18,7 @@ q12,Département d'où vient Fisher :
 q13,Commune ou village d'où vient Fisher :
 q14,Nombre de jours de pêche active (hors temps de déplacement)
 q15,Nom du site de débarquement
+a8.5,*Nouveau nom de débarquement*
 q16,Nom de l'acheteur (si connu)
 a9,*Nouveau nom de l'acheteur*
 q17,Sexe de l'acheteur
@@ -65,3 +66,5 @@ a20,Filet
 a21,Queue
 a22,Nageoire
 star,S'applique uniquement aux partenaires ou pays désignés.
+question,Question
+answer,Choix de réponses

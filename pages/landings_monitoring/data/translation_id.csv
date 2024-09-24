@@ -18,6 +18,7 @@ q12,Kecamatan asal nelayan:
 q13,Desa asal nelayan:
 q14,Jumlah hari aktif melakukan penangkapan (tidak termasuk waktu perjalanan)
 q15,Nama lokasi pendaratan
+a8.5,Nama lokasi pendaratan baru
 q16,Nama pembeli (jika diketahui)
 a9,Nama pembeli baru
 q17,Jenis kelamin pembeli
@@ -65,3 +66,5 @@ a20,Filet
 a21,Ekor
 a22,Sirip
 star,Hanya berlaku untuk mitra atau negara yang ditunjuk.
+question,Pertanyaan
+answer,Pilihan Jawaban

@@ -18,6 +18,7 @@ q12,Peskador husi Suku ne'ebe:
 q13,Peskador husi Aldeia/Bairo ne'ebe:
 q14,Total loron ba peska ativu? (la inklui tempu viajen)
 q15,Naran hosi hatun ikan ba
+a8.5,
 q16,Naran Sosa na'in (karik hatene)
 a9,*Naran foun sosa na'in*
 q17,Sosa na'in ne'e feto ka mane? (La presija husu hili deit)
@@ -65,3 +66,5 @@ a20,Filet
 a21,Tail
 a22,Fin
 star,Aplika de'it ba parseiru ka nasaun sira ne'ebé deside ona.
+question,Pergunta
+answer,Resposta ba desizaun
