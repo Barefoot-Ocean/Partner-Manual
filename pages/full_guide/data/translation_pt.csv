@@ -27,7 +27,7 @@ p6,"Capturar os principais dados necessários para calcular indicadores simples 
 point8,Data de desembarque
 point9,Local de aterragem
 point10,Designação do comerciante de peixe
-point11,Nome Fisher
+point11,Nome do Pescador
 point12,Esforço de pesca (dias de pesca / recolha)
 point13,"Identidade das espécies (nomes locais, comuns, científicos)"
 point14,Contagem Total
@@ -44,7 +44,7 @@ point18,Data de desembarque
 point19,Local de aterragem
 point20,Campo de pesca primário
 point21,Designação do comerciante de peixe
-point22,Nome Fisher
+point22,Nome do Pescador
 point23,Esforço de pesca (horas e dias de pesca / recolha)
 point24,"Tipo de navio (número de matrícula do barco, número de tripulação)"
 point25,"Identidade das espécies (nomes locais, comuns, científicos)"
@@ -61,7 +61,7 @@ p13,"Este inquérito deve ser realizado inicialmente no início do envolvimento 
 p14,"Através do formulário Kobo, reunir-se com os pescadores nos locais de desembarque para amostrar as suas capturas e registar a sua actividade de pesca."
 ms,Normalização da medição: Tipo de comprimento a medir por grupo de espécies
 fig2,"Figura 2: o comprimento Total deve ser utilizado para medir peixes-barbatanas, tubarões e enguias (AFS)."
-fig3,Figura 3: a largura do disco deve ser utilizada para medir raios e patins.
+fig3,Figura 3: a largura do disco deve ser utilizada para medir arraias e raias.
 fig4,"Figura 4: a largura da carapaça deve ser utilizada na medição do Caranguejo (Suryandari et. al, 2018)."
 fig5,Figura 5: o comprimento do manto deve ser utilizado na medição de polvos e lulas (FAO).
 fig6,Figura 6: O comprimento da carapaça deve ser utilizado na medição do camarão e da lagosta (Hart et al. 2001).
