@@ -5,11 +5,11 @@ subtitle: "Guidance for data collection, management, validation and interpretati
 
 ### ✍️ Submit a question, request or feedback in the [Data System Feedback Form](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3)
 
-### ⬅️ Quick links [Community Fisheries Dashboard](https://barefootocean.shinyapps.io/fisheries_dashboard/), [Social and Economic Dashboard](https://barefootocean.shinyapps.io/hhsdashboard-dev/) and [Smartsheet Dynamic View](https://dynamicview.smartsheet.com/)
+### ⬅️ Quick links [Fisheries Dashboard](https://blueventures.shinyapps.io/fisheries-dashboard/), [Social and Economic Dashboard](https://blueventures.shinyapps.io/social-economic-dashboard/) and [Smartsheet Dynamic View](https://dynamicview.smartsheet.com/)
 
 ### 📒 See all feedback submissions in the [Data System Feedback Dashboard](https://app.smartsheet.com/b/publish?EQBCT=0fe9f8be74244891850592ecf79175af) and leave any additional comments in the [Feedback Report](https://app.smartsheet.com/dynamicview/views/c171d791-fdce-4176-b5d2-65074bc58933)
 
-### 🗺️ Use the [Community Feedback Dashboard](https://barefootocean.shinyapps.io/community-feedback/) for simple scientific communication and visualisations
+### 🗺️ Use the [Community Fisheries Feedback Dashboard](https://blueventures.shinyapps.io/community-feedback/) for simple scientific communication and visualisations
 
 ### 🐠 Select your desired language to learn more about the data system
 

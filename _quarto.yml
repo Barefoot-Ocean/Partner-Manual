@@ -30,10 +30,10 @@ website:
         href: https://dynamicview.smartsheet.com/
         text: "Smartsheet Dynamic View"  
       - icon: bar-chart-fill
-        href: https://barefootocean.shinyapps.io/fisheries_dashboard/
-        text: "Community Fisheries Data Dashboard"
+        href: https://blueventures.shinyapps.io/fisheries-dashboard/
+        text: "Fisheries Data Dashboard"
       - icon: house-fill
-        href: https://barefootocean.shinyapps.io/hhsdashboard-dev/
+        href: https://blueventures.shinyapps.io/social-economic-dashboard/
         text: "Social and Economic Dashboard"
         
 
@@ -54,7 +54,6 @@ website:
           - pages/reference_files/reference_files_en.qmd
           - pages/data_validation/data_validation_en.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_en.qmd
-          - pages/household_survey/household_survey_en.qmd
       - section: pages/index/index_id.qmd
         contents: 
           - pages/quick_guide/quick_guide_id.qmd
