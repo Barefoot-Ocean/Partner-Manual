@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-1bb321f265fe64f1392243efba4d3a6d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -102,8 +102,8 @@ ul.task-list li input[type="checkbox"] {
     <a href="https://www.linkedin.com/company/blue-ventures" title="Blue Ventures LinkedIn" class="quarto-navigation-tool px-1" aria-label="Blue Ventures LinkedIn"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/" title="Github" class="quarto-navigation-tool px-1" aria-label="Github"><i class="bi bi-github"></i></a>
     <a href="https://dynamicview.smartsheet.com/" title="Smartsheet Dynamic View" class="quarto-navigation-tool px-1" aria-label="Smartsheet Dynamic View"><i class="bi bi-check-circle-fill"></i></a>
-    <a href="https://barefootocean.shinyapps.io/fisheries_dashboard/" title="Community Fisheries Data Dashboard" class="quarto-navigation-tool px-1" aria-label="Community Fisheries Data Dashboard"><i class="bi bi-bar-chart-fill"></i></a>
-    <a href="https://barefootocean.shinyapps.io/hhsdashboard-dev/" title="Social and Economic Dashboard" class="quarto-navigation-tool px-1" aria-label="Social and Economic Dashboard"><i class="bi bi-house-fill"></i></a>
+    <a href="https://blueventures.shinyapps.io/fisheries-dashboard/" title="Fisheries Data Dashboard" class="quarto-navigation-tool px-1" aria-label="Fisheries Data Dashboard"><i class="bi bi-bar-chart-fill"></i></a>
+    <a href="https://blueventures.shinyapps.io/social-economic-dashboard/" title="Social and Economic Dashboard" class="quarto-navigation-tool px-1" aria-label="Social and Economic Dashboard"><i class="bi bi-house-fill"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -180,12 +180,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../pages/fisheries_dashboard/fisheries_dashboard_en.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fisheries Dashboard</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../pages/household_survey/household_survey_en.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Household Survey</span></a>
   </div>
 </li>
       </ul>
@@ -926,8 +920,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -1038,7 +1030,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
