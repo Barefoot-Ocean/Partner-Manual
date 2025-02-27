@@ -798,13 +798,13 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>Example: Within a marine protected area or community-managed area, one zone may allow traditional fishing while another prohibits all extractive activities to protect coral reefs.</p></li>
 </ul>
-<p>It is important to mention that some areas may not yet be part of a larger management unit and may exist as stand-alone zones, such as no-take zones. In many cases, this serves as a first step toward establishing a broader community-managed area. However, our larger goal at Blue Ventures should be to develop comprehensive community-managed areas that encompass these zones. For data entry purposes, if a formal management unit does not yet exist, you can assign a temporary name until one is officially established. The management zone name should reflect the specific zone's name.</p>
+<p>It is important to mention that some areas may not yet be part of a larger management unit and may exist as stand-alone zones, such as no-take zones. In many cases, this serves as a first step toward establishing a broader community-managed area. However, our larger goal at Blue Ventures should be to develop comprehensive community-managed areas that encompass these zones. For data entry purposes, if a formal management unit does not yet exist, you can assign a temporary name until one is officially established. The management zone name should reflect the specific zone’s name.</p>
 <p><strong>Data Entry:</strong></p>
 <ol type="1">
 <li><p>For visual examples for entering data, please refer to these <a href="https://docs.google.com/presentation/d/1jU1bcFzrCW9TCy--VOhAzBM-3aj_-aLD75j_jGT4EYY/edit#slide=id.g311cb2099ef_0_0">slides</a>.</p></li>
-<li><p>The <strong>unit_name</strong> is the name of the management unit. If unit_name is left blank, this row will not be counted towards the total area under management during "reach" reporting. Please remember to always assign a management unit name to the zone, and remember:&nbsp;</p>
+<li><p>The <strong>unit_name</strong> is the name of the management unit. If unit_name is left blank, this row will not be counted towards the total area under management during “reach” reporting. Please remember to always assign a management unit name to the zone, and remember:&nbsp;</p>
 <ol type="1">
-<li>If a formal management unit does not yet exist, you can assign a temporary name until one is officially established. The management zone name should reflect the specific zone's name.</li>
+<li>If a formal management unit does not yet exist, you can assign a temporary name until one is officially established. The management zone name should reflect the specific zone’s name.</li>
 </ol></li>
 <li><p>The <strong>management_name</strong> represents the name of the zone within the management unit. See <strong>Figure 2</strong> for a full description of column names.&nbsp;</p></li>
 <li><p>The <strong>management_method</strong> selected should apply to the spatial area of the management zone (management_name). If a management method applies to the entire management unit, the unit_name and management_name should be the same. For example, if a management unit has a deforestation ban across the entire area, including within the small no take zone in the management unit, then the data should look like this:</p>
@@ -812,7 +812,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>unit_name= Ambalahonko, management_name=Ambalahonko, management_method= Deforestation ban</p></li>
 <li><p>unit_name= Ambalahonko, management_name=Ambalahonko No Take, management_method= No Take Zone</p></li>
 </ol></li>
-<li><p>The <strong>management_area_ha</strong> should be the area associated with the zone (management_name). If the unit_name and management_name are the same, as in the above example where the management methods apply to the entire management unit, then the area reported should be the entire area of the management unit, seeing as it's also the name of the zone where the management methods apply. This is important as the way the area is entered impacts how we calculate total area associated with each management unit.&nbsp;</p>
+<li><p>The <strong>management_area_ha</strong> should be the area associated with the zone (management_name). If the unit_name and management_name are the same, as in the above example where the management methods apply to the entire management unit, then the area reported should be the entire area of the management unit, seeing as it’s also the name of the zone where the management methods apply. This is important as the way the area is entered impacts how we calculate total area associated with each management unit.&nbsp;</p>
 <ol type="1">
 <li><p>There are two ways in which the total area of each management unit is calculated:</p>
 <ol type="1">
@@ -825,7 +825,7 @@ ul.task-list li input[type="checkbox"] {
 </ol></li>
 <li><p>There are several scenarios in which there should be multiple rows associated with a single zone or management_name (see <strong>Figure 1</strong> for specific examples).&nbsp;</p>
 <ol type="1">
-<li><p>When there are multiple management methods in place within the zone, as we want to track the date each method was implemented (est_date), so each method needs to have it's own row;&nbsp;</p></li>
+<li><p>When there are multiple management methods in place within the zone, as we want to track the date each method was implemented (est_date), so each method needs to have it’s own row;&nbsp;</p></li>
 <li><p>When a management method covers a new species or habitat;</p></li>
 <li><p>When a temporary closure has new open/close dates.</p></li>
 </ol></li>
@@ -844,7 +844,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>The management_name will be used to link the management_ref to the spatial boundaries associated with that zone.</p></li>
 <li><p>Spatial boundaries are used to validate the area that is reported for each zone in the management_ref.</p></li>
 <li><p>Spatial boundaries will be displayed in an interactive dashboard (coming soon), with the management_ref data joined to it so that all data documented in the management_ref can be visually displayed and explored in a map. Users will be able to see which management methods apply to each zone in the map, as well as dates they were established, and total area.</p></li>
-<li><p>To share spatial boundaries with the Spatial and Ecological Team so that they can be displayed in the dashboard and used to validate area numbers, please <a href="https://docs.google.com/forms/d/1xAnj9xlVl8DOTEmE4El3RhE7BTwM9xkWXgHdYEUGCGI/edit">upload to this google form</a>. Data uploaded via this form is sent to our central landing area (shared google drive called "<a href="https://drive.google.com/drive/folders/0AGA054tamw4fUk9PVA">Spatial Data</a>") and saved in a standardized naming convention. The data is validated/checked here for naming and geometry issues before being sent to the central database (postgresql/postgis) and subsequently uploaded to the dashboard. Uploading boundaries to this google form allows our team to process data in a standardized way.&nbsp;</p>
+<li><p>To share spatial boundaries with the Spatial and Ecological Team so that they can be displayed in the dashboard and used to validate area numbers, please <a href="https://docs.google.com/forms/d/1xAnj9xlVl8DOTEmE4El3RhE7BTwM9xkWXgHdYEUGCGI/edit">upload to this google form</a>. Data uploaded via this form is sent to our central landing area (shared google drive called “<a href="https://drive.google.com/drive/folders/0AGA054tamw4fUk9PVA">Spatial Data</a>”) and saved in a standardized naming convention. The data is validated/checked here for naming and geometry issues before being sent to the central database (postgresql/postgis) and subsequently uploaded to the dashboard. Uploading boundaries to this google form allows our team to process data in a standardized way.&nbsp;</p>
 <ol type="1">
 <li><p>We want to avoid uploading directly to the Spatial Data shared drive, as we want to ensure consistent naming conventions, which our google form generates, and we do not receive email notifications when uploaded directly to the drive (only when uploaded to google form).&nbsp;</p></li>
 <li><p>If you decide to upload directly to the shared drive/if someone on your team is GIS-savvy, please upload to the appropriate nested folder. The file structure is Management Units/Country/archive or final. 1) Data that has not been processed to fit our shapefile naming convention (raw data) should be shared to the Management Units/Country/archive folder. Once uploaded, let our team know the data has been uploaded and is ready for processing. 2) If your team is GIS-savvy and would prefer to process the shapefile on their own, please first upload raw data to the archive folder, and then ensure the processed shapefile follows these specifications:</p>
@@ -994,7 +994,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p><strong>Figure 2</strong></p>
+<p><strong>Figure 2: Management_ref column descriptions.</strong></p>
 <table class="caption-top table">
 <tbody>
 <tr class="odd">
@@ -1067,7 +1067,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>admin3_fish_flag</td>
-<td>The flag will be red if one of the admin3s listed in the "admin3_fish" column does not exist in the admin3_ref.</td>
+<td>The flag will be red if one of the admin3s listed in the “admin3_fish” column does not exist in the admin3_ref.</td>
 <td>BV</td>
 </tr>
 <tr class="odd">
@@ -1077,32 +1077,32 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>admin3_govern_flag</td>
-<td>The flag will be red if one of the admin3s listed in the "admin3_govern" column does not exist in the admin3_ref.</td>
+<td>The flag will be red if one of the admin3s listed in the “admin3_govern” column does not exist in the admin3_ref.</td>
 <td>BV</td>
 </tr>
 <tr class="odd">
 <td>management_fishing_ground</td>
-<td>The list of fishing grounds associated with the management_name. The dropdown list is connected to the "name" column in the fishing_ground_ref.</td>
+<td>The list of fishing grounds associated with the management_name. The dropdown list is connected to the “name” column in the fishing_ground_ref.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>fishing_ground_flag</td>
-<td>The flag will be red if one of the fishing grounds listed in "management_fishing_ground" does not exist in the fishing_ground_ref.</td>
+<td>The flag will be red if one of the fishing grounds listed in “management_fishing_ground” does not exist in the fishing_ground_ref.</td>
 <td>BV</td>
 </tr>
 <tr class="odd">
 <td>target_group</td>
-<td>Target species group for the management_method. This can include 'All', one or multiple species groups. The dropdown list is connected to the MASTER species_ref and includes species groups from all partners.</td>
+<td>Target species group for the management_method. This can include ‘All’, one or multiple species groups. The dropdown list is connected to the MASTER species_ref and includes species groups from all partners.</td>
 <td>editable</td>
 </tr>
 <tr class="even">
 <td>target_species</td>
-<td>Target species for the management_method. This can include 'All_species', one or multiple scientific species. The dropdown list is connected to the MASTER species_ref and includes species from all partners.</td>
+<td>Target species for the management_method. This can include ‘All_species’, one or multiple scientific species. The dropdown list is connected to the MASTER species_ref and includes species from all partners.</td>
 <td>editable</td>
 </tr>
 <tr class="odd">
 <td>species_flag</td>
-<td>The flag will be red if the "target_species" chosen is not referenced in the partner's species_ref.</td>
+<td>The flag will be red if the “target_species” chosen is not referenced in the partner’s species_ref.</td>
 <td>BV</td>
 </tr>
 <tr class="even">
@@ -1132,12 +1132,12 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>partner_flag</td>
-<td>The flag will be red if the "partner" value does not exist in the org_ref</td>
+<td>The flag will be red if the “partner” value does not exist in the org_ref</td>
 <td>BV</td>
 </tr>
 <tr class="even">
 <td>spatial_data</td>
-<td>Indicates if the management_name has a match in the shapefile attribute table. If you'd like to submit any new spatial boundaries (management areas, habitat, communities, etc), upload the spatial files to this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfa8WmHEK_lzmLNVekCky7uKiB3oi2y09lVnXDUwAoFBnyQ4A/viewform?usp=sf_link">form</a>. The management_name will be used to link spatial data to the management_ref, so any spatial boundaries that are sent should include the management_name in the attribute table of the shapefile.</td>
+<td>Indicates if the management_name has a match in the shapefile attribute table. If you’d like to submit any new spatial boundaries (management areas, habitat, communities, etc), upload the spatial files to this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfa8WmHEK_lzmLNVekCky7uKiB3oi2y09lVnXDUwAoFBnyQ4A/viewform?usp=sf_link">form</a>. The management_name will be used to link spatial data to the management_ref, so any spatial boundaries that are sent should include the management_name in the attribute table of the shapefile.</td>
 <td>BV</td>
 </tr>
 <tr class="odd">
