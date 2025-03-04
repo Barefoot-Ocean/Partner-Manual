@@ -18,6 +18,10 @@ i18n
 ## `r i18n$t("title")`
 
 
+{{< video https://youtu.be/yyvP5visAPI >}}
+
+
+
 `r { i18n$t("p1") }`
 
 
