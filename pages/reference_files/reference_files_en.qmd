@@ -17,7 +17,7 @@ i18n
 
 ## `r i18n$t("title")`
 
-{{< video https://youtu.be/sk0GNm9D-p0 >}}
+{{< video https://youtu.be/tSYQwASmOUU >}}
 
 `r { i18n$t("p1") }`
 
