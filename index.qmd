@@ -11,6 +11,4 @@ subtitle: "Guidance for data collection, management, validation and interpretati
 
 ### 🗺️ Use the [Community Fisheries Feedback Dashboard](https://blueventures.shinyapps.io/community-feedback/) for simple scientific communication and visualisations
 
-### 🐠 Select your desired language to learn more about the data system
-
 ![](images/BV_wide_photo.jpg)
