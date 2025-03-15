@@ -150,6 +150,7 @@ website:
           - pages/fisheries_dashboard/fisheries_dashboard_tet.qmd
 
 
+brand: brand/_brand.yml
 
 
 format:
