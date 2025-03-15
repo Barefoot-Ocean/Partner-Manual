@@ -3,13 +3,13 @@ project:
   
 website: 
   page-navigation: true
-  title: "Barefoot Ocean Partner Manual" 
+  title: "Community Fisheries Data System Manual" 
   site-url: "https://barefoot-ocean.github.io/Partner-Manual/" 
   repo-url: https://github.com/Barefoot-Ocean/Partner-Manual
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By Blue Ventures, 2024"
+    left: "&copy; CC-By Blue Ventures, 2025"
     
   sidebar:
     logo: "images/bv_logo.png"
