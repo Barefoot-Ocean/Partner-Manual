@@ -6,7 +6,7 @@ color:
     white: "#FFFFFF"
     light-grey: "#E2E7EE"
     orange: "#F39D22"
-  background: second-blue
+  background: white
   foreground: grey-black
   primary: main-blue
 
