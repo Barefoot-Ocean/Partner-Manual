@@ -155,8 +155,6 @@ brand: brand/_brand.yml
 
 format:
   html:
-    theme:
-      light: [cosmo, theme.scss] 
     code-copy: true
     code-overflow: wrap
     toc: false

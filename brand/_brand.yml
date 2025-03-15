@@ -1,7 +1,7 @@
 color:
   palette:
     grey-black: "#313B4C"
-    main-blue: "##25AADD"
+    main-blue: "#25AADD"
     second-blue: "#9ED5E5"
     white: "#FFFFFF"
     light-grey: "#E2E7EE"
