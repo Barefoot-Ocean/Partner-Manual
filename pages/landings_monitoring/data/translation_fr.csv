@@ -16,9 +16,13 @@ q10,Le pêcheur vit-il dans le village ?
 q11,Région d'où vient Fisher :
 q12,Département d'où vient Fisher :
 q13,Commune ou village d'où vient Fisher :
+q13.5,Le pêcheur est-il considéré comme local ou migrant ?
+a8.1,Local
+a8.2,Migrant
 q14,Nombre de jours de pêche active (hors temps de déplacement)
 q15,Nom du site de débarquement
 a8.5,*Nouveau nom de débarquement*
+q15.5,La prise a-t-elle été vendue et si oui à qui ?
 q16,Nom de l'acheteur (si connu)
 a9,*Nouveau nom de l'acheteur*
 q17,Sexe de l'acheteur
@@ -35,6 +39,7 @@ q24,*Ajouter une photo de nouvelles espèces.*
 q25,Unité de poids de capture
 q26,Poids total (${weight_unit}) ${local_name_label} : ${local_name_new}
 q27,Poids total vendu (estimé ou réel) ${local_name_label} : ${local_name_new}
+q27.1,Sélectionnez le ou les acheteurs auxquels vous avez vendu:
 q28,Nombre total : ${local_name_label}
 q29,Traitez-vous cette prise ?
 q30,"Prix total des captures vendues, monnaie locale (estimée ou réelle) : ${local_name_label}"
@@ -65,6 +70,14 @@ a19,Marché propre/Partiellement transformé
 a20,Filet
 a21,Queue
 a22,Nageoire
+a32,Autoconsommation
+a33,Marché local
+a34,"Commerçant (négociant, intermédiaire)"
+a35,Transformateur
+a36,Exportateur
+a37,"Détaillant (supermarché, restaurant)"
+a38,"Consommateur (ami, voisin)"
+a39,"Acheteur institutionnel (gouvernement, ONG)"
 star,S'applique uniquement aux partenaires ou pays désignés.
 question,Question
 answer,Choix de réponses

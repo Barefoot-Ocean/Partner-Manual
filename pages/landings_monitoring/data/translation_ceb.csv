@@ -16,9 +16,13 @@ q10,Nagpuyo ba ang mananagat ${admin3_label}?
 q11,Probinsya diin gikan ang mangingisda:
 q12,Distrito diin gikan ang mangingisda:
 q13,Baryo diin gikan ang mangingisda:
+q13.5,Ang mangingisda ba giisip nga lokal o migrante?
+a8.1,Lokal
+a8.2,Migrante
 q14,Gidaghanon sa mga adlaw nga aktibo pagpangisda walay labot sa oras sa pagbyahi.
 q15,Ngalan sa lugar kung asa ihatod
 a8.5,*Bag-ong ngalan sa lugar kung asa ihatod*
+q15.5,"Gibaligya ba ang kuha, ug kung oo, kinsa man ang nakapalit?"
 q16,Ngalan sa pumapalit (kung nahibaw-an)
 a9,*Bag-ong ngalan sa pumapalit*
 q17,Kinatawhan sa mamalitay
@@ -35,6 +39,7 @@ q24,*Pagdugang og litrato sa bag-ong mga matang sa isda*
 q25,Timbang sa kuha
 q26,Kinatibuk-ang gibug-aton sa mo abot (${weight_unit}): ${local_name_label}
 q27,Kinatibuk-ang gibug-aton nga gibaligya (gibanabana/aktuwal): ${local_name_label}
+q27.1,Pilia ang mamalitay kung kinsa ang gibaligyaan:
 q28,Kinatibuk-ang gidaghanon sa mo abot: ${local_name_label}
 q29,Giproseso ba nimo kini nga kuha?
 q30,"Kinatibuk-ang presyo nga nabaligya nga kuha, lokal nga kwarta (gibanabana/aktuwal): ${local_name_label}"
@@ -65,6 +70,14 @@ a19,Limpyo ang merkado/Partily nga giproseso
 a20,Fillet
 a21,Ikog
 a22,Kapay
+a32,Paggamit sa kaugalingong panginahanglan
+a33,Lokal nga Mercado
+a34,Tigsal-ut o Negosyante
+a35,Prosesador
+a36,Taga-export
+a37,"Mangabaligya (Tindahan, Restawran)"
+a38,"Konsyumer (Higala, Silingan)"
+a39,"Mamumuhunan nga organisasyon (Goberno, NGO)"
 star,Magamit ra sa gitudlo nga mga kauban o mga nasud.
 question,Pangutana
 answer,Mga Pagpili sa Tubag

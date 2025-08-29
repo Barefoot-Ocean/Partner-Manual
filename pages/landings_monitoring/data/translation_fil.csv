@@ -16,9 +16,13 @@ q10,Nakatira ba ang mangingisda sa ${admin3_label}?
 q11,Lalawigan kung saan nagmula ang mangingisda:
 q12,Distrito kung saan nagmula ang mangingisda:
 q13,Nayon kung saan nagmula ang mangingisda:
+q13.5,Ang mangingisda ba ay itinuturing na lokal o migranteng mangingisda?
+a8.1,Lokal
+a8.2,Migrante
 q14,Bilang ng mga araw na aktibong nangingisda (hindi kasama ang orasa sa pag lalakbay)
 q15,Pangalan ng lugar kung saan darating
 a8.5,*Bagong pangalan ng lugar kung saan darating*
+q15.5,"Ibinenta ba ang nahuling isda, at kung oo, kanino?"
 q16,Pangalan ng mamimili (kilala)
 a9,*Bago pangalan ng mamimili*
 q17,Kasarian ng mamimili
@@ -35,6 +39,7 @@ q24,*Magdagdag ng larawan kung merong bago*
 q25,Bigat ng bawat huli
 q26,Kabuuang timbang na nakarating (${weight_unit}): ${local_name_label}
 q27,Kabuuang timbang na naibinta (tinatansya o aktuwal): ${local_name_label}
+q27.1,Piliin ang mamimili kung kanino ibinenta ang huli:
 q28,Kabuuang bilang na nakarating: ${local_name_label}
 q29,Pinoproseso mo ba itong huli?
 q30,"Kabuuang presyo na naibinta, lokal na pera (tinatansya o aktuwal): ${local_name_label}"
@@ -65,6 +70,14 @@ a19,Malinis na isda papuntang merkado/Bahagyang naproseso
 a20,Walang buto
 a21,Buntot
 a22,Palikpik
+a32,Pangkonsumo para sa sarili
+a33,Lokal na Pamilihan
+a34,"Ahente (Tagapamagitan sa Kalakalan, Negosyante)"
+a35,Tagaproseso
+a36,Eksportador
+a37,Tindahan o Pamilihan sa tingian
+a38,"Konsyumer (Kaibigan, Kapitbahay)"
+a39,"Institusyonal na Mamimili (Pamahalaan, NGO)"
 star,Nalalapat lamang sa mga itinalagang kasosyo o bansa.
 question,Tanong
 answer,Mga Pagpipilian sa Sagot

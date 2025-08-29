@@ -16,9 +16,13 @@ q10,Apakah fisher tinggal di ${admin3_label}?
 q11,Provinsi asal nelayan:
 q12,Kecamatan asal nelayan:
 q13,Desa asal nelayan:
+q13.5,Apakah nelayan tersebut dianggap sebagai nelayan lokal atau migran?
+a8.1,Lokal
+a8.2,Migran
 q14,Jumlah hari aktif melakukan penangkapan (tidak termasuk waktu perjalanan)
 q15,Nama lokasi pendaratan
 a8.5,Nama lokasi pendaratan baru
+q15.5,"Apakah hasil tangkapan dijual dan jika iya, kepada siapa?"
 q16,Nama pembeli (jika diketahui)
 a9,Nama pembeli baru
 q17,Jenis kelamin pembeli
@@ -35,6 +39,7 @@ q24,*Ambil foto spesies baru*
 q25,Satuan (unit) berat hasil tangkapan
 q26,Berat total yang didaratkan (${weight_unit}): ${local_name_label}
 q27,Berat total terjual (perkiraan atau sebenarnya): ${local_name_label}
+q27.1,Pilih pembeli yang menjadi tujuan penjualan:
 q28,Jumlah total yang didaratkan (ekor): ${local_name_label}
 q29,Apakah Anda mengolah tangkapan ini?
 q30,Total harga tangkapan terjual (perkiraan atau sebenarnya): ${local_name_label}
@@ -65,6 +70,14 @@ a19,Pasar bersih/Diproses sebagian
 a20,Filet
 a21,Ekor
 a22,Sirip
+a32,Konsumsi Pribadi
+a33,Pasar Lokal
+a34,"Dealer (Pedagang, Perantara)"
+a35,Pengolahan (produk olahan)
+a36,Eksportir
+a37,"Pengecer (Supermarket, Restoran)"
+a38,"Konsumen (Teman, Tetangga)"
+a39,"Pembeli Institusional (Pemerintah, LSM)"
 star,Hanya berlaku untuk mitra atau negara yang ditunjuk.
 question,Pertanyaan
 answer,Pilihan Jawaban

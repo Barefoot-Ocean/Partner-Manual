@@ -16,9 +16,13 @@ q10,Mipetraka eto ${admin3_label}?
 q11,Avy aiza ny mpanjono: Faritany
 q12,Avy avy aiza ny mpanjono: Kaominina
 q13,Avy aiza ny mpanjono: Tanàna
+q13.5,Mpiavy ve sa tompontany ilay mpanjono?
+a8.1,Tompontany
+a8.2,Mpiavy
 q14,Andro niasana (tsy ampidirina ao ny isan'ny andro teny an-dakana)
 q15,Toerana ahatongavan'ny vokatra
 a8.5,*Toerana vaovao nahatongavan'ny vokatra*
+q15.5,Navidy ve ilay vokatra? Raha eny dia navidy amin'iza?
 q16,Mpividy (raha fantatra)
 a9,*Mpividy vaovao*
 q17,Lahy sa vavy (mpividy)
@@ -35,6 +39,7 @@ q24,*Ampidiro ny sarin'ny karazana vokatra vaovao azo*
 q25,Fandanjana (Kilo sa grama)
 q26,Lanjany totaly (${weight_unit}) ${local_name_label}: ${local_name_new}
 q27,Lanjany totaly lafo ${local_name_label}: ${local_name_new}
+q27.1,Safidio ny mpividy navidy tamin'i:
 q28,Isany totaly ${local_name_label}
 q29,Mbola hamboarina ve inty vokatra inty?
 q30,Totaly vidiny lafo (Ariary): ${local_name_label}
@@ -65,6 +70,14 @@ a19,Tsena/ampahany namboarina
 a20,Nofony
 a21,Rambony
 a22,Ohiny
+a32,Nohanina
+a33,Tsena eny amin'ny tanàna
+a34,Mpanangombokatra madinika
+a35,Mpanodina vokatra
+a36,Mpanondrana vokatra
+a37,Mpividy vokatra antsinjarany (toerana fisakafoanana)
+a38,"Mpihinana (namana, olona akaiky)"
+a39,"Mpividy iraisam-pirenena (Governemanta, Fikambanana)"
 star,Mihatra amin'ireo mpiara-miombon'antoka na firenena voatendry ihany.
 question,Fanontaniana
 answer,Valiny Safidy

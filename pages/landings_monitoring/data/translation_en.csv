@@ -16,9 +16,13 @@ q10,Does the fisher live in ${admin3_label}?
 q11,Admin1 where fisher is from:
 q12,Admin 2 where fisher is from:
 q13,Admin 3 where fisher is from:
+q13.5,Is the fisher considered local or migrant?
+a8.1,Local
+a8.2,Migrant
 q14,Number of days actively fishing or gleaning (not including travel time)
 q15,Landing Site Name
 a8.5,*New landing site name*
+q15.5,Was the catch sold and if so to whom?
 q16,Buyer name (if known)
 a9,*New buyer name*
 q17,Buyer gender
@@ -33,8 +37,9 @@ q22,*New Species Scientific Family Name (if known)*
 q23,*New Species Scientific Species Name (if known)*
 q24,*Add photo of new species.*
 q25,Weight unit of catch
-q26,Total weight (${weight_unit}) ${local_name_label}: ${local_name_new}
-q27,Total weight sold (estimated or actual) ${local_name_label}: ${local_name_new}
+q26,Total weight (${weight_unit}): ${local_name_label}
+q27,Total weight sold (estimated or actual): ${local_name_label}
+q27.1,Select buyers sold to:
 q28,Total number: ${local_name_label}
 q29,Do you process this catch?
 q30,"Total price of sold catch, local currency (estimated or actual): ${local_name_label}"
@@ -65,6 +70,14 @@ a19,Market clean/Partially processed
 a20,Filet
 a21,Tail
 a22,Fin
+a32,Self-consumption
+a33,Local Market
+a34,"Dealer (Trader, Middleman)"
+a35,Processor
+a36,Exporter
+a37,"Retailer (Supermarket, Restaurant)"
+a38,"Consumer (Friend, Neighbor)"
+a39,"Institutional Buyer (Government, NGO)"
 star,Only applies to designated partners or countries.
 question,Question
 answer,Answer Choices

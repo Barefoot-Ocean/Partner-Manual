@@ -16,9 +16,13 @@ q10,O pescador mora em ${admin3_label}?
 q11,Admin1 de onde o pescador é:
 q12,Admin 2 de onde o pescador é:
 q13,Admin 3 de onde o pescador é:
+q13.5,O pescador é considerado local ou migrante?
+a8.1,Local
+a8.2,Emigrante
 q14,Número de dias de pesca ativa (sem incluir o tempo de viagem)
 q15,Nome do local de destino
 a8.5,*Novo nome do local de destino*
+q15.5,"A captura foi vendida e, em caso afirmativo, para quem?"
 q16,Nome do comprador (se conhecido)
 a9,*Novo nome do comprador*
 q17,Gênero do comprador
@@ -35,6 +39,7 @@ q24,*Adicionar foto de novas espécies.*
 q25,Unidade de peso da captura
 q26,Peso total (${weight_unit}) ${local_name_label}: ${local_name_new}
 q27,Peso total vendido (estimado ou real) ${local_name_label}: ${local_name_new}
+q27.1,Selecione compradores vendidos para:
 q28,Número total: ${local_name_label}
 q29,Voce processou esta captura?
 q30,"Preço total da captura vendida, moeda local (estimado ou real): ${local_name_label}"
@@ -48,8 +53,8 @@ a14,quilogramas (kg)
 a15,gramas (g)
 a16,libras (lbs)
 a17,onças (oz)
-a3,Macho
-a4,Fêmea
+a3,Homem
+a4,Mulher
 a5,Não binário
 a6,Empresa que inclui várias pessoas (sem género)
 a7,Sim
@@ -65,6 +70,14 @@ a19,Limpo de mercado/Parcialmente processado
 a20,Filete
 a21,Rabo
 a22,Barbatana
+a32,Autoconsumo
+a33,Mercado local
+a34,"Negociante (comerciante, intermediário)"
+a35,Processador
+a36,Exportador
+a37,"Varejista (supermercado, restaurante)"
+a38,"Consumidor (amigo, vizinho)"
+a39,"Comprador institucional (governo, ONG)"
 star,Aplica-se apenas a parceiros ou países designados.
 question,Pergunta
 answer,Opções de resposta

@@ -16,9 +16,13 @@ q10,"Je, Mvuvi ni mkazi wa hapa/BMU hii?"
 q11,Admin1 ambapo mvuvi anatoka:
 q12,Admin 2 ambapo mvuvi anatoka:
 q13,Admin 3 ambapo mvuvi anatoka:
+q13.5,Je mvuvi anatambulika kuwa mwenyeji au mhamiaji?
+a8.1,Mwenyeji
+a8.2,Mhamiaji
 q14,Idadi ya siku za kuvua (bila kujumuisha wakati wa kusafiri)
 q15,Jina la bandari
-a8.5,
+a8.5,Jina la bandari mpya
+q15.5,"Je samaki iliuzwa, na ikiwa iliuzwa ni kwa nani?"
 q16,Jina la mnunuzi (ikiwa halijjulikana)
 a9,*Jina la mnunuzi mpya*
 q17,Jinsia ya mnunuzi
@@ -35,6 +39,7 @@ q24,*Ongeza picha ya aina mpya.*
 q25,Uzito wa mapato ya samaki (catch)
 q26,Jumla ya uzito wa mapato ya samaki (${weight_unit}) ${local_name_label}: ${local_name_new}
 q27,Jumla ya uzito wa samaki walouzwa (inakadiriwa au halisi) ${local_name_label}: ${local_name_new}
+q27.1,Chagua mnunuzi/wanunuzi iliyouza kwake/kwao:
 q28,Jumla ya idadi: ${local_name_label}
 q29,Je unachakata pato lako?
 q30,"Bei kwa jumla ya samaki waliouzwa, sarafu ya nchi  (iliyokadiriwa au halisi): ${local_name_label}"
@@ -65,6 +70,14 @@ a19,kuuzwa ikiwa safi/baadhi imechakatwa
 a20,Kutoa miba
 a21,Mkia
 a22,Pezi
+a32,Matumizi ya binafsi
+a33,Soko la nyumbani
+a34,"Muuzaji (Mfanyabiashara, Middleman)"
+a35,Kichakataji
+a36,Soko la nje
+a37,"Muuzaji wa reja reja (Duka kuu, Mkahawa)"
+a38,"Mtumiaji (Rafiki, Jirani)"
+a39,"Mnunuzi wa Taasisi (Serikali, NGO)"
 star,Inatumika kwa washirika walioteuliwa au nchi pekee.
 question,Swali
 answer,Jibu Chaguo

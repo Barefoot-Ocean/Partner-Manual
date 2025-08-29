@@ -16,9 +16,13 @@ q10,¿Vive el pescador en ${admin3_label}?
 q11,Admin1 de donde es Fisher:
 q12,Administrador 2 de donde es Fisher:
 q13,Administrador 3 de donde es Fisher:
+q13.5,¿Se considera al pescador local o migrante?
+a8.1,Local
+a8.2,Inmigrante
 q14,Número de días de pesca activa (sin incluir el tiempo de viaje)
 q15,Nombre del sitio de aterrizaje
 a8.5,*Nuevo nombre del sitio de aterrizaje*
+q15.5,"¿Se vendió la captura y, en caso afirmativo, a quién?"
 q16,Nombre del comprador (si se conoce)
 a9,*Nombre del nuevo comprador*
 q17,Género del comprador
@@ -35,6 +39,7 @@ q24,*Agregar foto de nuevas especies.*
 q25,Unidad de peso de captura
 q26,Peso total (${weight_unit}) ${local_name_label}: ${local_name_new}
 q27,Peso total vendido (estimado o real) ${local_name_label}: ${local_name_new}
+q27.1,Compradores seleccionados vendieron a:
 q28,Número total: ${local_name_label}
 q29,¿Procesáis esta captura?
 q30,"Precio total de la captura vendida, moneda local (estimada o real): ${local_name_label}"
@@ -65,6 +70,14 @@ a19,Mercado limpio/Parcialmente procesado
 a20,Filete
 a21,Cola
 a22,Aleta
+a32,Autoconsumo
+a33,Mercado Local
+a34,"Distribuidor (comerciante, intermediario)"
+a35,Procesador
+a36,Exportador
+a37,"Minorista (Supermercado, Restaurante)"
+a38,"Consumidor (amigo, vecino)"
+a39,"Comprador Institucional (Gobierno, ONG)"
 star,Solo se aplica a socios o países designados.
 question,Pregunta
 answer,Opciones de respuesta
