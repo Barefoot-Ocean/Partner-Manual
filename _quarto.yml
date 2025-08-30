@@ -148,6 +148,9 @@ website:
           - pages/reference_files/reference_files_tet.qmd
           - pages/data_validation/data_validation_tet.qmd
           - pages/fisheries_dashboard/fisheries_dashboard_tet.qmd
+      - section: pages/index/index_guide.qmd
+        contents:
+          - pages/species_guides/guide_BLZ.qmd
 
 
 brand: brand/_brand.yml
