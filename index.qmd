@@ -3,9 +3,13 @@ title: "Community Fisheries Data System Manual"
 subtitle: "Guidance for data collection, management, validation and interpretation"
 ---
 
+## Text here.
+
 [![✍️ Feedback Form](images/feedbackform.png)](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3){width=3in}
 
-### ⬅️ Quick links [Fisheries Dashboard](https://blueventures.shinyapps.io/fisheries-dashboard/), [Social and Economic Dashboard](https://blueventures.shinyapps.io/social-economic-dashboard/) and [Smartsheet Dynamic View](https://dynamicview.smartsheet.com/)
+[![Smartsheet Dynamic View](images/ssdv.jpg)](https://dynamicview.smartsheet.com/){width=3in}
+
+### ⬅️ Quick links [Fisheries Dashboard](https://blueventures.shinyapps.io/fisheries-dashboard/), [Social and Economic Dashboard](https://blueventures.shinyapps.io/social-economic-dashboard/)
 
 ### 📒 See all feedback submissions in the [Data System Feedback Dashboard](https://app.smartsheet.com/b/publish?EQBCT=0fe9f8be74244891850592ecf79175af) and leave any additional comments in the [Feedback Report](https://app.smartsheet.com/dynamicview/views/c171d791-fdce-4176-b5d2-65074bc58933)
 
