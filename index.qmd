@@ -5,19 +5,18 @@ subtitle: "Guidance for data collection, management, validation and interpretati
 
 ### Text here.
 
-::: {layout-ncol=2}
+::: {layout-nrow="2"}
 [![✍️ Feedback Form](images/feedbackform.png)](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3)
 
 [![Smartsheet Dynamic View](images/ssdv.jpg)](https://dynamicview.smartsheet.com/)
+
+[![🐠 Fisheries Dashboard](images/fishdashboard.png)](https://blueventures.shinyapps.io/fisheries-dashboard/)
+
+[![Social and Economic Dashboard](images/socialdashboard.png)](https://blueventures.shinyapps.io/social-economic-dashboard/)
 :::
-
-
-### ⬅️ Quick links [Fisheries Dashboard](https://blueventures.shinyapps.io/fisheries-dashboard/), [Social and Economic Dashboard](https://blueventures.shinyapps.io/social-economic-dashboard/)
-
-### 📒 See all feedback submissions in the [Data System Feedback Dashboard](https://app.smartsheet.com/b/publish?EQBCT=0fe9f8be74244891850592ecf79175af) and leave any additional comments in the [Feedback Report](https://app.smartsheet.com/dynamicview/views/c171d791-fdce-4176-b5d2-65074bc58933)
 
 ### 🗺️ Use the [Community Fisheries Feedback Dashboard](https://blueventures.shinyapps.io/community-feedback/) for simple scientific communication and visualisations
 
-### **🐠 Select your desired language to learn more about the data system**
+### \*\* Select your desired language to learn more about the data system\*\*
 
 ![](images/BV_wide_photo.jpg)
