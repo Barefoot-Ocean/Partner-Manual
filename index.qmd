@@ -6,15 +6,15 @@ subtitle: "Guidance for data collection, management, validation and interpretati
 ![](images/BV_wide_photo.jpg)
 
 ::: {layout-nrow="2"}
-[![📱✏️🧮 Kobo Toolbox](images/kobo.png)](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3)
+[![📱✏️🧮 Kobo Toolbox](images/kobo.png)](https://kf.kobotoolbox.org/#/projects/home)
 
 [![💻✔️📚 Smartsheet Dynamic View](images/ssdv.jpg)](https://dynamicview.smartsheet.com/)
 
 [![❔💭✍️ Feedback Form](images/feedbackform.png)](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3)
 
-[![💵🌏💹 Social and Economic Dashboard](images/socialdashboard.png)](https://blueventures.shinyapps.io/social-economic-dashboard/)
+[![🏠💲🌏💹 Social and Economic Dashboard](images/socialdashboard.png)](https://blueventures.shinyapps.io/social-economic-dashboard/)
 
-[![🐠🔢📊📈 Fisheries Dashboard](images/fishdashboard.png)](https://blueventures.shinyapps.io/fisheries-dashboard/)
+[![🔢🐠📊📈 Fisheries Dashboard](images/fishdashboard.png)](https://blueventures.shinyapps.io/fisheries-dashboard/)
 
-[![🗺📆🎏Community Feedback Dashboard](images/communityfeedback.png)](https://blueventures.shinyapps.io/community-feedback/)
+[![📆📓🎏Community Feedback Dashboard](images/communityfeedback.png)](https://blueventures.shinyapps.io/community-feedback/)
 :::
