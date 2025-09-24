@@ -1,3 +1,34 @@
 ---
-title: Tetun
+title: "Community Fisheries Data System Manual"
+subtitle: "Guidance for data collection, management, validation and interpretation"
+echo: false
+output: false
 ---
+
+```{r}
+library(shiny.i18n)
+library(rmarkdown)
+library(knitr)
+i18n <- Translator$new(translation_csvs_path = "data")
+i18n$set_translation_language("tet")
+i18n
+
+
+```
+
+![](images/BV_wide_photo.jpg)
+
+::: {layout-nrow="2"}
+[![📱✏️🧮 Kobo Toolbox](images/kobo.png)](https://kf.kobotoolbox.org/#/projects/home)
+
+[![💻✔️📚 Smartsheet Dynamic View](images/ssdv.jpg)](https://dynamicview.smartsheet.com/)
+
+[![❔💭✍️ `r { i18n$t("p3") }`](images/feedbackform.png)](https://app.smartsheet.com/b/form/3464c4c77c1547a49fda7e9062f363f3)
+
+[![🏠🌏💹 `r { i18n$t("p4") }`](images/socialdashboard.png)](https://blueventures.shinyapps.io/social-economic-dashboard/)
+
+[![🔢🐠📊 `r { i18n$t("p5") }`](images/fishdashboard.png)](https://blueventures.shinyapps.io/fisheries-dashboard/)
+
+[![📆📓🎏 `r { i18n$t("p6") }`](images/communityfeedback.png)](https://blueventures.shinyapps.io/community-feedback/)
+:::
+
