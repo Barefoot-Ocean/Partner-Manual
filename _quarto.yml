@@ -27,8 +27,8 @@ website:
         href: https://github.com/
         text: "Github"
       - icon: check-circle-fill
-        href: https://dynamicview.smartsheet.com/
-        text: "Smartsheet Dynamic View"  
+        href: https://app.smartsheet.com/
+        text: "Smartsheet"  
       - icon: bar-chart-fill
         href: https://blueventures.shinyapps.io/fisheries-dashboard/
         text: "Fisheries Data Dashboard"
