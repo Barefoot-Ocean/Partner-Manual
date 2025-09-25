@@ -22,10 +22,7 @@ website:
         text: "Blue Ventures Website"
       - icon: youtube
         href: https://youtube.com/playlist?list=PLwUVTxKktakVz45STRgXwoNwiUFIOQOaZ&feature=shared
-        text: "Youtube Training Videos"     
-      - icon: github
-        href: https://github.com/
-        text: "Github"
+        text: "Youtube Training Videos"   
       - icon: check-circle-fill
         href: https://app.smartsheet.com/
         text: "Smartsheet"  
