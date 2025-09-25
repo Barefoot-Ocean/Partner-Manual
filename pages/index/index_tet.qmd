@@ -14,8 +14,8 @@ i18n
 
 
 ```
-# `r { i18n$t("title") }`
-## `r { i18n$t("subtitle") }`
+## `r { i18n$t("title") }`
+### `r { i18n$t("subtitle") }`
 
 ![](images/BV_wide_photo.jpg)
 

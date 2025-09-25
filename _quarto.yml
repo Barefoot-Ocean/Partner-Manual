@@ -20,9 +20,9 @@ website:
       - icon: globe
         href: https://blueventures.org/
         text: "Blue Ventures Website"
-      - icon: linkedin
-        href: https://www.linkedin.com/company/blue-ventures
-        text: "Blue Ventures LinkedIn"     
+      - icon: youtube
+        href: https://youtube.com/playlist?list=PLwUVTxKktakVz45STRgXwoNwiUFIOQOaZ&feature=shared
+        text: "Youtube Training Videos"     
       - icon: github
         href: https://github.com/
         text: "Github"
