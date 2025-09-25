@@ -1,6 +1,5 @@
 ---
-title: "Manuel du système communautaire de données sur les pêches"
-subtitle: "Guide pour la collecte, la gestion, la validation et l'interprétation des données"
+title: "Français"
 echo: false
 output: false
 ---
@@ -15,6 +14,8 @@ i18n
 
 
 ```
+# { i18n$t("title") }`
+##  { i18n$t("subtitle") }`
 
 ![](images/BV_wide_photo.jpg)
 

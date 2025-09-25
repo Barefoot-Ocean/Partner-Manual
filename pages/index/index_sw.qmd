@@ -1,6 +1,5 @@
 ---
-title: "Mwongozo wa Mfumo wa Takwimu za Uvuvi wa Jumuiya"
-subtitle: "Mwongozo wa ukusanyaji, usimamizi, uthibitishaji na tafsiri ya data"
+title: "Kiswahili"
 echo: false
 output: false
 ---
@@ -15,6 +14,8 @@ i18n
 
 
 ```
+# { i18n$t("title") }`
+##  { i18n$t("subtitle") }`
 
 ![](images/BV_wide_photo.jpg)
 

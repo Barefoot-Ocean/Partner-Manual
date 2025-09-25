@@ -1,6 +1,5 @@
 ---
-title: "Manual do Sistema de Dados de Pesca Comunitária"
-subtitle: "Guia para coleta, gestão, validação e interpretação de dados"
+title: "Português"
 echo: false
 output: false
 ---
@@ -15,6 +14,8 @@ i18n
 
 
 ```
+# { i18n$t("title") }`
+##  { i18n$t("subtitle") }`
 
 ![](images/BV_wide_photo.jpg)
 

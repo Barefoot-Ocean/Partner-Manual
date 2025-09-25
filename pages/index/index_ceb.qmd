@@ -1,6 +1,5 @@
 ---
-title: "Community Fisheries Data System Manual"
-subtitle: "Guidance for data collection, management, validation and interpretation"
+title: "Cebuano"
 echo: false
 output: false
 ---
@@ -15,6 +14,8 @@ i18n
 
 
 ```
+# { i18n$t("title") }`
+##  { i18n$t("subtitle") }`
 
 ![](images/BV_wide_photo.jpg)
 

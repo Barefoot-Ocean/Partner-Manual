@@ -1,6 +1,5 @@
 ---
-title: "Panduan Sistem Data Perikanan Masyarakat"
-subtitle: "Panduan pengumpulan, pengelolaan, validasi, dan interpretasi data"
+title: "Bahasa Indonesia"
 echo: false
 output: false
 ---
@@ -15,6 +14,8 @@ i18n
 
 
 ```
+# { i18n$t("title") }`
+##  { i18n$t("subtitle") }`
 
 ![](images/BV_wide_photo.jpg)
 
