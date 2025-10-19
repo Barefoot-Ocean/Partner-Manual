@@ -1,6 +1,8 @@
 ---
 title: Belize Species Guide
 echo: false
+format: html
+warning: false # Suppresses warnings for the entire document
 ---
 
 ```{r}
