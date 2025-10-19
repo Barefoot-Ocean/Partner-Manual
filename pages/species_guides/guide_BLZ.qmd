@@ -1,14 +1,7 @@
 ---
 title: Belize Species Guide
-echo: false
-output: false
+
 ---
 
-```{r}
-library(rmarkdown)
-library(knitr)
 
-
-```
-
-![](pages/species_guides/html_guides/Belize_species_guide_2025-08-29.html){width="100%" height="600px"}
+![](pages/species_guides/html_guides/Belize_species_guide_2025-10-18.html){width="100%" height="600px"}
