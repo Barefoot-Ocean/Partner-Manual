@@ -4,4 +4,6 @@ echo: false
 format: html
 warning: false # Suppresses warnings for the entire document
 ---
-{{< include /pages/species_guides/Belize_species_guide_2025-10-19.html >}}
+    ```{r, results='asis', echo=FALSE}
+    {{< include /pages/species_guides/Belize_species_guide_2025-10-19.html >}}
+    cat("<!DOCTYPE html><html><body><h1>Hello</h1></body></html>")
