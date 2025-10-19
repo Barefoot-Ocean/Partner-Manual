@@ -1,9 +1,13 @@
 ---
 title: Belize Species Guide
-
+echo: false
+output: false
 ---
 
+```{r}
+library(rmarkdown)
+library(knitr)
 
+```
 
-    ```{=html}
-    <iframe width="780" height="500" src="./pages/species_guides/html_guides/Belize_species_guide_2025-10-18.html" title="Embedded Webpage"></iframe>
+{{< include Belize_species_guide_2025-10-18.html >}}
