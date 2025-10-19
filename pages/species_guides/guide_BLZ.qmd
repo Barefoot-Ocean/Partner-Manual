@@ -3,5 +3,5 @@ title: Belize Species Guide
 
 ---
 
+<iframe src="./pages/species_guides/html_guides/Belize_species_guide_2025-10-18.html"></iframe>
 
-![](pages/species_guides/html_guides/Belize_species_guide_2025-10-18.html){width="100%" height="600px"}
