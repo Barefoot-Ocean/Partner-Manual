@@ -147,7 +147,7 @@ website:
           - pages/fisheries_dashboard/fisheries_dashboard_tet.qmd
       - section: pages/index/index_guide.qmd
         contents:
-          - pages/species_guides/guide_BLZ.qmd
+          - pages/species_guides/Belize_species_guide_2025-10-18.html
 
 
 brand: brand/_brand.yml
