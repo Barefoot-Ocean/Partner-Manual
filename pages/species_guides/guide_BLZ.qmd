@@ -6,6 +6,6 @@ warning: false # Suppresses warnings for the entire document
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
 ```
-<!DOCTYPE html>
+
 {{< include /pages/species_guides/Belize_species_guide_2025-10-19.html >}}
 
