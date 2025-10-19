@@ -4,6 +4,8 @@ echo: false
 format: html
 warning: false # Suppresses warnings for the entire document
 ---
-    ```{r, results='asis', echo=FALSE}
-    {{< include /pages/species_guides/Belize_species_guide_2025-10-19.html >}}
-    cat("<!DOCTYPE html><html><body><h1>Hello</h1></body></html>")
+```{r setup, include=FALSE} 
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+{{< include /pages/species_guides/Belize_species_guide_2025-10-19.html >}}
+
