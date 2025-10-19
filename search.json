@@ -275,6 +275,17 @@
     ]
   },
   {
+    "objectID": "pages/species_guides/guide_BLZ.html",
+    "href": "pages/species_guides/guide_BLZ.html",
+    "title": "Belize Species Guide",
+    "section": "",
+    "text": "&lt;iframe width=\"780\" height=\"500\" src=\"./pages/species_guides/html_guides/Belize_species_guide_2025-10-18.html\" title=\"Embedded Webpage\"&gt;&lt;/iframe&gt;",
+    "crumbs": [
+      "Species Guides",
+      "Belize Species Guide"
+    ]
+  },
+  {
     "objectID": "pages/landings_monitoring/landings_monitoring_en.html",
     "href": "pages/landings_monitoring/landings_monitoring_en.html",
     "title": "Landings Monitoring",
