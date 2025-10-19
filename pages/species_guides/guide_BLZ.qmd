@@ -10,4 +10,4 @@ library(knitr)
 
 ```
 
-{{< include Belize_species_guide_2025-10-18.html >}}
+{{< include /pages/species_guides/Belize_species_guide_2025-10-18.html >}}
