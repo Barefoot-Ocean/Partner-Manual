@@ -150,6 +150,7 @@ website:
           - pages/species_guides/guide_BLZ.qmd
 
 
+css: styles.css
 brand: brand/_brand.yml
 
 

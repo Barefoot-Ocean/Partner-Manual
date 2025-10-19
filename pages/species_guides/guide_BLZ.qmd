@@ -1,7 +1,6 @@
 ---
 title: Belize Species Guide
 echo: false
-output: false
 ---
 
 ```{r}
