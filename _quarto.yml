@@ -161,6 +161,7 @@ brand: brand/_brand.yml
 
 format:
   html:
+    page-layout: full
     code-copy: true
     code-overflow: wrap
     toc: false
