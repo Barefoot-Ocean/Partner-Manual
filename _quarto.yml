@@ -1,5 +1,7 @@
 project: 
   type: website
+  resources:
+    - pages/species_guides/*.html
   
 website: 
   page-navigation: true
