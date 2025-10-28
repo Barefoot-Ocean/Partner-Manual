@@ -9,13 +9,6 @@ website:
   site-url: "https://barefoot-ocean.github.io/Partner-Manual/" 
   repo-url: https://github.com/Barefoot-Ocean/Partner-Manual
   
-format:
-    html:
-      page-layout: full
-      code-copy: true
-      code-overflow: wrap
-      toc: false
-    
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
     left: "&copy; CC-By Blue Ventures, 2025"
@@ -166,6 +159,14 @@ format:
 
 css: styles.css
 brand: brand/_brand.yml
+
+
+format:
+  html:
+    page-layout: full
+    code-copy: true
+    code-overflow: wrap
+    toc: false
 
 
 filters:
